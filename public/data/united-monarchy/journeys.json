@@ -52,7 +52,6 @@
     "id": "journey-ark-philistia",
     "name": "The Ark: Shiloh, Philistia, and Kiriath-jearim",
     "person": "Ark narrative",
-    "personId": null,
     "character": "generic",
     "summary": "Visualizes the city sequence in 1 Samuel 4–7 while keeping Ebenezer unlocated.",
     "segments": [
@@ -1025,7 +1024,6 @@
     "id": "journey-phoenician-supply",
     "name": "Tyre to Jerusalem — Phoenician Supply Corridor",
     "person": "Hiram’s timber and craftsmen",
-    "personId": null,
     "character": "generic",
     "summary": "A conceptual overland/coastal supply visualization between Tyre and Jerusalem. It represents trade connection, not a known single road followed by every shipment.",
     "segments": [

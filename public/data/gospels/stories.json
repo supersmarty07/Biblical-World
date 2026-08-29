@@ -166,7 +166,8 @@
           ],
           "zoom": 7,
           "pitch": 25
-        }
+        },
+        "immersiveSceneId": "judean-wilderness-eastern-approach"
       },
       {
         "id": "jb-baptism",
@@ -197,7 +198,8 @@
           ],
           "zoom": 8,
           "pitch": 30
-        }
+        },
+        "immersiveSceneId": "judean-wilderness-eastern-approach"
       },
       {
         "id": "jb-machaerus",
@@ -263,7 +265,8 @@
           ],
           "zoom": 9,
           "pitch": 30
-        }
+        },
+        "immersiveSceneId": "galilee-ministry-landscape"
       },
       {
         "id": "gal-cana",
@@ -288,7 +291,8 @@
           ],
           "zoom": 8,
           "pitch": 20
-        }
+        },
+        "immersiveSceneId": "galilee-ministry-landscape"
       },
       {
         "id": "gal-cap",
@@ -314,7 +318,8 @@
           ],
           "zoom": 10,
           "pitch": 35
-        }
+        },
+        "immersiveSceneId": "galilee-ministry-landscape"
       }
     ]
   },
@@ -353,7 +358,8 @@
           ],
           "zoom": 9,
           "pitch": 35
-        }
+        },
+        "immersiveSceneId": "galilee-ministry-landscape"
       },
       {
         "id": "sea-bethsaida",
@@ -377,7 +383,8 @@
           ],
           "zoom": 9,
           "pitch": 20
-        }
+        },
+        "immersiveSceneId": "galilee-ministry-landscape"
       },
       {
         "id": "sea-east",
@@ -403,7 +410,8 @@
           ],
           "zoom": 8,
           "pitch": 20
-        }
+        },
+        "immersiveSceneId": "galilee-ministry-landscape"
       },
       {
         "id": "sea-magdala",
@@ -420,7 +428,8 @@
           ],
           "zoom": 9,
           "pitch": 25
-        }
+        },
+        "immersiveSceneId": "galilee-ministry-landscape"
       }
     ]
   },
@@ -564,7 +573,8 @@
           ],
           "zoom": 9,
           "pitch": 35
-        }
+        },
+        "immersiveSceneId": "northern-ministry-transfiguration"
       },
       {
         "id": "north-mountain",
@@ -589,7 +599,8 @@
           ],
           "zoom": 7,
           "pitch": 30
-        }
+        },
+        "immersiveSceneId": "northern-ministry-transfiguration"
       }
     ]
   },
@@ -629,7 +640,8 @@
           ],
           "zoom": 8,
           "pitch": 20
-        }
+        },
+        "immersiveSceneId": "judean-wilderness-eastern-approach"
       },
       {
         "id": "fj-bethany",
@@ -659,7 +671,8 @@
           ],
           "zoom": 10,
           "pitch": 35
-        }
+        },
+        "immersiveSceneId": "judean-wilderness-eastern-approach"
       },
       {
         "id": "fj-olives",
@@ -684,7 +697,8 @@
           ],
           "zoom": 9,
           "pitch": 35
-        }
+        },
+        "immersiveSceneId": "judean-wilderness-eastern-approach"
       }
     ]
   },
@@ -849,7 +863,10 @@
           ],
           "zoom": 11,
           "pitch": 45
-        }
+        },
+        "immersiveSceneId": "jerusalem-historical-terrain",
+        "immersivePeriodId": "circa-30-ce",
+        "immersiveHotspotId": "temple-mount-precinct"
       },
       {
         "id": "fw-supper",
@@ -874,7 +891,9 @@
           ],
           "zoom": 10,
           "pitch": 25
-        }
+        },
+        "immersiveSceneId": "passion-night-jerusalem",
+        "immersiveHotspotId": "upper-room-unlocated"
       },
       {
         "id": "fw-geth",
@@ -905,7 +924,9 @@
           ],
           "zoom": 11,
           "pitch": 40
-        }
+        },
+        "immersiveSceneId": "passion-night-jerusalem",
+        "immersiveHotspotId": "gethsemane-tradition"
       }
     ]
   },
@@ -981,7 +1002,10 @@
           ],
           "zoom": 10,
           "pitch": 35
-        }
+        },
+        "immersiveSceneId": "pilate-trial-geography",
+        "immersiveVariantId": "textual-praetorium",
+        "immersiveHotspotId": "praetorium-unlocated"
       },
       {
         "id": "pt-gabbatha",
@@ -1005,7 +1029,10 @@
           ],
           "zoom": 10,
           "pitch": 35
-        }
+        },
+        "immersiveSceneId": "pilate-trial-geography",
+        "immersiveVariantId": "textual-praetorium",
+        "immersiveHotspotId": "gabbatha-unlocated"
       }
     ]
   },
@@ -1038,7 +1065,10 @@
           ],
           "zoom": 11,
           "pitch": 35
-        }
+        },
+        "immersiveSceneId": "golgotha-burial-explorer",
+        "immersiveVariantId": "textual-golgotha-tomb",
+        "immersiveHotspotId": "textual-golgotha"
       },
       {
         "id": "cb-holy",
@@ -1063,7 +1093,10 @@
           ],
           "zoom": 13,
           "pitch": 45
-        }
+        },
+        "immersiveSceneId": "golgotha-burial-explorer",
+        "immersiveVariantId": "holy-sepulchre-tradition",
+        "immersiveHotspotId": "holy-sepulchre-site"
       },
       {
         "id": "cb-garden",
@@ -1087,7 +1120,10 @@
           ],
           "zoom": 13,
           "pitch": 35
-        }
+        },
+        "immersiveSceneId": "golgotha-burial-explorer",
+        "immersiveVariantId": "garden-tomb-alternative",
+        "immersiveHotspotId": "garden-tomb-site"
       },
       {
         "id": "cb-tomb",
@@ -1112,7 +1148,10 @@
           ],
           "zoom": 11,
           "pitch": 30
-        }
+        },
+        "immersiveSceneId": "golgotha-burial-explorer",
+        "immersiveVariantId": "textual-golgotha-tomb",
+        "immersiveHotspotId": "textual-tomb"
       }
     ]
   },
@@ -1146,7 +1185,10 @@
           ],
           "zoom": 10,
           "pitch": 30
-        }
+        },
+        "immersiveSceneId": "resurrection-geography-context",
+        "immersiveVariantId": "jerusalem-tomb-narratives",
+        "immersiveHotspotId": "resurrection-textual-tomb"
       },
       {
         "id": "rg-emmaus",
@@ -1171,7 +1213,10 @@
           ],
           "zoom": 8,
           "pitch": 20
-        }
+        },
+        "immersiveSceneId": "resurrection-geography-context",
+        "immersiveVariantId": "emmaus-textual",
+        "immersiveHotspotId": "emmaus-unlocated"
       },
       {
         "id": "rg-galilee",
@@ -1203,7 +1248,10 @@
           ],
           "zoom": 7,
           "pitch": 25
-        }
+        },
+        "immersiveSceneId": "resurrection-geography-context",
+        "immersiveVariantId": "sea-galilee-context",
+        "immersiveHotspotId": "sea-galilee-geography"
       }
     ]
   }

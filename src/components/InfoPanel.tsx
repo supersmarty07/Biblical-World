@@ -2,6 +2,7 @@ import { useAtlasStore } from '../state/useAtlasStore';
 import { ConfidenceBadge } from './ConfidenceBadge';
 import { CloseIcon, InfoIcon, MapPinIcon } from './Icons';
 import { StoryPlayer } from './StoryPlayer';
+import { JourneyPlayer } from './JourneyPlayer';
 import { CharacterPortrait } from './CharacterPortrait';
 import type { BiblicalCharacter } from '../types/domain';
 
@@ -11,24 +12,32 @@ export function InfoPanel() {
   const selectedPersonId = useAtlasStore((s) => s.selectedPersonId);
   const selectedEventId = useAtlasStore((s) => s.selectedEventId);
   const activeStoryId = useAtlasStore((s) => s.activeStoryId);
+  const activeJourneyId = useAtlasStore((s) => s.activeJourneyId);
+  const infoMode = useAtlasStore((s) => s.infoMode);
   const infoOpen = useAtlasStore((s) => s.infoOpen);
   const setInfoOpen = useAtlasStore((s) => s.setInfoOpen);
   const selectPlace = useAtlasStore((s) => s.selectPlace);
   const selectPerson = useAtlasStore((s) => s.selectPerson);
   const selectEvent = useAtlasStore((s) => s.selectEvent);
   const openStory = useAtlasStore((s) => s.openStory);
+  const openJourney = useAtlasStore((s) => s.openJourney);
+  const setInfoMode = useAtlasStore((s) => s.setInfoMode);
+  const sceneCatalog = useAtlasStore((s) => s.sceneCatalog);
+  const openScene = useAtlasStore((s) => s.openScene);
 
   const place = data?.places.find((item) => item.id === selectedPlaceId);
   const person = data?.people.find((item) => item.id === selectedPersonId);
   const event = data?.events.find((item) => item.id === selectedEventId);
   const sourceMap = new Map(data?.sources.map((source) => [source.id, source]));
+  const placeScenes = place ? sceneCatalog.filter((scene) => scene.placeIds.includes(place.id)) : [];
 
   const close = () => {
-    setInfoOpen(false);
     if (place) selectPlace(undefined);
     else if (person) selectPerson(undefined);
     else if (event) selectEvent(undefined);
     else if (activeStoryId) openStory(undefined);
+    else if (activeJourneyId) openJourney(undefined);
+    setInfoOpen(false);
   };
 
   const Sources = ({ ids }: { ids: string[] }) => (
@@ -40,6 +49,7 @@ export function InfoPanel() {
           <div className="source-row" key={source.id}>
             <strong>{source.title}</strong>
             <small>{source.kind ? `${source.kind.replaceAll('-', ' ')} · ` : ''}{source.author || source.organization || 'Project source'}{source.dateLabel ? ` · ${source.dateLabel}` : source.year ? ` · ${source.year}` : ''}</small>
+            <span className={`source-status source-status--${source.kind === 'project-methodology' ? 'project' : source.verificationStatus === 'primary-verified' ? 'verified' : source.verificationStatus === 'research-supplied' ? 'research' : 'pending'}`}>{source.kind === 'project-methodology' ? 'Project-authored methodology' : source.verificationStatus === 'primary-verified' ? 'Primary source verified' : source.verificationStatus === 'research-supplied' ? 'Research packet supplied' : 'External source · verification pending'}</span>
             {source.notes && <p>{source.notes}</p>}
             {source.url && <a href={source.url} target="_blank" rel="noreferrer">Source record ↗</a>}
           </div>
@@ -49,10 +59,18 @@ export function InfoPanel() {
   );
 
   return (
-    <aside className={`info-panel ${infoOpen ? 'info-panel--open' : ''}`} aria-label="Atlas information">
+    <aside className={`info-panel ${infoOpen ? 'info-panel--open' : ''}`} aria-label="Atlas information" aria-hidden={!infoOpen} inert={!infoOpen ? true : undefined}>
       <button className="info-panel__close icon-button" onClick={close} aria-label="Close information panel"><CloseIcon /></button>
 
-      {!place && !person && !event && <StoryPlayer />}
+      {!place && !person && !event && (
+        <>
+          <div className="explore-mode-tabs" role="tablist" aria-label="Explore guided content">
+            <button role="tab" aria-selected={infoMode === 'stories'} onClick={() => { setInfoMode('stories'); if (activeJourneyId) openStory(undefined); setInfoOpen(true); }}>Stories</button>
+            <button role="tab" aria-selected={infoMode === 'journeys'} onClick={() => { setInfoMode('journeys'); if (activeStoryId) openJourney(undefined); }}>Journeys</button>
+          </div>
+          {infoMode === 'journeys' ? <JourneyPlayer /> : <StoryPlayer />}
+        </>
+      )}
 
       {place && (
         <article className="place-detail">
@@ -97,12 +115,36 @@ export function InfoPanel() {
             <div className="scripture-list">{place.scripture.map((ref) => <span key={ref.label}>{ref.label}</span>)}</div>
           </section>
           {place.textualReferences && place.textualReferences.length > 0 && <section className="detail-section"><h3>Ancient textual references</h3><div className="scripture-list">{place.textualReferences.map((r) => <span key={`${r.sourceId}:${r.label}`}>{r.label} · {r.kind.replaceAll('-', ' ')}</span>)}</div></section>}
+          {place.externalIds && Object.keys(place.externalIds).length > 0 && (
+            <section className="detail-section">
+              <h3>External identifiers</h3>
+              <div className="external-id-list">
+                {place.externalIds.pleiades && <a href={`https://pleiades.stoa.org/places/${place.externalIds.pleiades}`} target="_blank" rel="noreferrer">Pleiades {place.externalIds.pleiades} ↗</a>}
+                {place.externalIds.wikidata && <a href={`https://www.wikidata.org/wiki/${place.externalIds.wikidata}`} target="_blank" rel="noreferrer">Wikidata {place.externalIds.wikidata} ↗</a>}
+              </div>
+              <p className="identifier-note">Identifiers are cross-reference keys. They do not override this atlas's geographic-confidence or coordinate-role classifications.</p>
+            </section>
+          )}
 
           {data && data.events.some((item) => item.placeIds.includes(place.id)) && (
             <section className="detail-section">
               <h3>Related events</h3>
               <div className="entity-links">
                 {data.events.filter((item) => item.placeIds.includes(place.id)).map((item) => <button key={item.id} onClick={() => selectEvent(item.id)}>{item.title}</button>)}
+              </div>
+            </section>
+          )}
+          {placeScenes.length > 0 && (
+            <section className="detail-section immersive-entry-section">
+              <h3>Immersive experiences</h3>
+              <div className="immersive-entry-list">
+                {placeScenes.map((scene) => (
+                  <button className="immersive-entry-card" key={scene.id} onClick={() => openScene(scene.id)}>
+                    <span>{scene.renderer.replaceAll('-', ' ')} · {scene.availability}</span>
+                    <strong>{scene.title}</strong>
+                    <small>{scene.summary}</small>
+                  </button>
+                ))}
               </div>
             </section>
           )}

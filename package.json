@@ -1,14 +1,14 @@
 {
   "name": "the-biblical-world",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0-alpha.11",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "validate:data": "node scripts/validate-data.mjs",
     "validate:repo": "node scripts/check-static.mjs",
     "build:search": "node scripts/build-search-index.mjs",
-    "prebuild": "npm run validate:data && npm run audit:batch4 && npm run audit:batch5 && npm run audit:batch6 && npm run audit:batch7 && npm run audit:batch8 && npm run audit:batch9 && npm run audit:batch10 && npm run validate:repo && npm run build:search",
+    "prebuild": "npm run check && npm run build:catalog && npm run build:search",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
@@ -18,11 +18,28 @@
     "audit:batch7": "node scripts/audit-batch7.mjs",
     "audit:batch8": "node scripts/audit-batch8.mjs",
     "audit:batch9": "node scripts/audit-batch9.mjs",
-    "audit:batch10": "node scripts/audit-batch10.mjs"
+    "audit:batch10": "node scripts/audit-batch10.mjs",
+    "build:catalog": "node scripts/build-content-manifest.mjs",
+    "audit:provenance": "node scripts/audit-provenance.mjs",
+    "audit:history": "npm run audit:batch4 && npm run audit:batch5 && npm run audit:batch6 && npm run audit:batch7 && npm run audit:batch8 && npm run audit:batch9 && npm run audit:batch10",
+    "check": "npm run validate:data && npm run validate:immersive && npm run validate:verification && npm run validate:assets && npm run audit:v2-batch4 && npm run audit:v2-batch5 && npm run audit:v2-batch6 && npm run audit:v2-batch7 && npm run audit:v2-batch8 && npm run audit:v2-alpha10 && npm run audit:v2-alpha11 && npm run audit:history && npm run audit:provenance && npm run audit:batch11 && npm run validate:repo",
+    "audit:batch11": "node scripts/audit-batch11.mjs",
+    "validate:immersive": "node scripts/validate-immersive.mjs",
+    "audit:v2-batch4": "node scripts/audit-v2-batch4.mjs",
+    "audit:v2-batch5": "node scripts/audit-v2-batch5.mjs",
+    "audit:v2-batch6": "node scripts/audit-v2-batch6.mjs",
+    "audit:v2-batch7": "node scripts/audit-v2-batch7.mjs",
+    "audit:v2-batch8": "node scripts/audit-v2-batch8.mjs",
+    "validate:verification": "node scripts/validate-verification.mjs",
+    "validate:assets": "node scripts/validate-v2-assets.mjs",
+    "audit:v2-alpha10": "node scripts/audit-v2-alpha10.mjs",
+    "audit:v2-alpha11": "node scripts/audit-v2-alpha11.mjs",
+    "assets:roads": "node scripts/ingest-roman-roads.mjs",
+    "assets:terrain": "node scripts/register-external-terrain.mjs",
+    "assets:derived": "node scripts/install-derived-geojson.mjs"
   },
   "dependencies": {
     "maplibre-gl": "^5.0.0",
-    "minisearch": "^7.0.0",
     "pmtiles": "^4.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -38,5 +55,8 @@
     "typescript": "^5.8.0",
     "vite": "^7.0.0",
     "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=22 <23"
   }
 }

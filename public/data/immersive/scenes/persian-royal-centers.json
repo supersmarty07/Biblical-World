@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "persian-royal-centers",
+  "title": "Persian Royal Centers: Susa + Persepolis",
+  "subtitle": "Biblical narrative setting and imperial context compared",
+  "summary": "Compare Susa, a securely identified Achaemenid center named in Esther, Daniel, and Nehemiah, with Persepolis, a securely identified royal center included as wider Persian-imperial context rather than a biblical event location.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "susa",
+    "persepolis"
+  ],
+  "disclaimer": "Both Susa and Persepolis are securely identified archaeological sites. This scene does not identify an excavated room as Esther’s banquet hall, Daniel’s vision location, or Nehemiah’s audience chamber, and it does not imply that the Hebrew Bible names Persepolis.",
+  "evidenceLegend": [
+    {
+      "class": "real-terrain",
+      "label": "Physical terrain",
+      "description": "Measured terrain only when a verified DEM is configured; otherwise the map remains a geographic reference surface."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Known archaeology",
+      "description": "Excavated or independently established places/features represented only at the precision supported by existing atlas records."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Historical interpretation",
+      "description": "Textual or scholarly historical context that does not by itself identify a specific excavated structure or event point."
+    },
+    {
+      "class": "tradition",
+      "label": "Later tradition",
+      "description": "A later commemorative or reception-history identification kept distinct from first-century or ancient evidence."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "A building, route, event point, or interpretive identification that cannot responsibly be fixed to an exact coordinate."
+    }
+  ],
+  "periods": [
+    {
+      "id": "achaemenid-context",
+      "label": "Achaemenid context",
+      "from": -550,
+      "to": -330,
+      "note": "Shows the two royal centers within the broad Achaemenid period; it does not draw a reconstructed imperial road network.",
+      "camera": {
+        "center": [
+          50.4,
+          31.2
+        ],
+        "zoom": 4.7,
+        "pitch": 25,
+        "bearing": 0,
+        "coordinateRole": "display-anchor",
+        "note": "Regional teaching camera between Susa and Persepolis, not an ancient viewpoint."
+      }
+    }
+  ],
+  "defaultPeriodId": "achaemenid-context",
+  "entryCamera": {
+    "center": [
+      50.4,
+      31.2
+    ],
+    "zoom": 4.7,
+    "pitch": 25,
+    "bearing": 0,
+    "coordinateRole": "display-anchor",
+    "note": "Regional frame chosen to compare two established royal centers."
+  },
+  "comparison": {
+    "presentation": "regions",
+    "label": "Royal center",
+    "intro": "Switch between Susa and Persepolis. Their archaeological security is comparable, but their role in the biblical corpus is not.",
+    "defaultOptionId": "susa-biblical-setting",
+    "options": [
+      {
+        "id": "susa-biblical-setting",
+        "label": "Susa / Shushan",
+        "status": "established",
+        "summary": "A securely identified Achaemenid royal center named in Esther, Daniel 8, and Nehemiah 1.",
+        "rationale": "Susa can be mapped confidently at city/site level while individual biblical court rooms remain unidentified.",
+        "objections": "No excavated palace room can be labeled as Esther’s banquet hall or Nehemiah’s exact audience chamber.",
+        "sourceIds": [
+          "source-susa-archaeology",
+          "source-briant-persia",
+          "source-exile-restoration-text"
+        ],
+        "placeIds": [
+          "susa"
+        ],
+        "camera": {
+          "center": [
+            48.25,
+            32.19
+          ],
+          "zoom": 11.1,
+          "pitch": 52,
+          "bearing": -8,
+          "coordinateRole": "identified-site",
+          "note": "Centers the securely identified archaeological site of Susa; not a specific biblical room."
+        }
+      },
+      {
+        "id": "persepolis-imperial-context",
+        "label": "Persepolis / Parsa",
+        "status": "established",
+        "summary": "A monumental Achaemenid royal center not named in the Hebrew Bible but valuable for understanding the empire’s material and administrative world.",
+        "rationale": "Persepolis provides independent imperial context through palaces, reliefs, inscriptions, and administrative tablets.",
+        "objections": "The Hebrew Bible does not name Persepolis; its inclusion must not imply that Esther, Daniel, Ezra, or Nehemiah narrate events there.",
+        "sourceIds": [
+          "source-behistun",
+          "source-briant-persia",
+          "source-kuhrt-persia"
+        ],
+        "placeIds": [
+          "persepolis"
+        ],
+        "camera": {
+          "center": [
+            52.891,
+            29.935
+          ],
+          "zoom": 11.5,
+          "pitch": 55,
+          "bearing": 15,
+          "coordinateRole": "identified-site",
+          "note": "Centers the securely identified Persepolis archaeological site as imperial context."
+        }
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "susa-city",
+      "label": "Susa / Shushan",
+      "summary": "Securely identified royal center and biblical narrative setting.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          48.25,
+          32.19
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Esther",
+          "chapter": 1,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "label": "Esther 1:2"
+        },
+        {
+          "book": "Daniel",
+          "chapter": 8,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "label": "Daniel 8:2"
+        },
+        {
+          "book": "Nehemiah",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "label": "Nehemiah 1:1"
+        }
+      ],
+      "sourceIds": [
+        "source-susa-archaeology",
+        "source-briant-persia",
+        "source-exile-restoration-text"
+      ],
+      "placeId": "susa",
+      "variantIds": [
+        "susa-biblical-setting"
+      ],
+      "whyShown": {
+        "evidence": "Ancient Susa and its Achaemenid palace complex are securely known.",
+        "inference": "The city is therefore an appropriate geographic setting for the texts that explicitly name Shushan/Susa.",
+        "alternatives": "Specific biblical rooms and exact event positions within the palace remain unidentified."
+      }
+    },
+    {
+      "id": "persepolis-site",
+      "label": "Persepolis / Parsa",
+      "summary": "Securely identified monumental royal center used here as comparative imperial context.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          52.891,
+          29.935
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [],
+      "sourceIds": [
+        "source-behistun",
+        "source-briant-persia",
+        "source-kuhrt-persia"
+      ],
+      "placeId": "persepolis",
+      "variantIds": [
+        "persepolis-imperial-context"
+      ],
+      "whyShown": {
+        "evidence": "The site preserves extensive Achaemenid architecture, inscriptions, reliefs, and administrative evidence.",
+        "inference": "It helps explain the imperial world behind Persian-period biblical books.",
+        "alternatives": "The Hebrew Bible does not name Persepolis, so no biblical event is assigned there."
+      }
+    }
+  ]
+}

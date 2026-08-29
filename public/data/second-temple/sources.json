@@ -5,7 +5,9 @@
     "organization": "The Biblical World project",
     "license": "Original project metadata",
     "notes": "Separates ancient literary testimony, canonical Scripture references, securely dated geopolitical events, archaeological site identification, inscriptions/papyri, and modern scholarly reconstruction. Hellenistic and Hasmonean political polygons are broad orientation only, not surveyed borders.",
-    "kind": "project-methodology"
+    "kind": "project-methodology",
+    "verificationStatus": "project-authored",
+    "verificationNote": "Project-authored curation methodology; no external source verification claim is implied."
   },
   {
     "id": "source-grabbe-hellenistic",

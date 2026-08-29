@@ -4,7 +4,9 @@
     "title": "Batch 10 Revelation geographic and visionary methodology",
     "organization": "The Biblical World project",
     "kind": "project-methodology",
-    "notes": "Project-authored method: historical places may be mapped with confidence labels; visionary geography is never assigned ordinary terrestrial coordinates. Literary sequence is not equated with physical travel."
+    "notes": "Project-authored method: historical places may be mapped with confidence labels; visionary geography is never assigned ordinary terrestrial coordinates. Literary sequence is not equated with physical travel.",
+    "verificationStatus": "project-authored",
+    "verificationNote": "Project-authored curation methodology; no external source verification claim is implied."
   },
   {
     "id": "source-revelation-canonical",
@@ -96,6 +98,8 @@
     "title": "Genesis–Revelation canonical motif integration",
     "organization": "The Biblical World project",
     "kind": "project-methodology",
-    "notes": "Project-authored thematic navigation connecting repeated biblical images without asserting direct historical geography between visionary scenes."
+    "notes": "Project-authored thematic navigation connecting repeated biblical images without asserting direct historical geography between visionary scenes.",
+    "verificationStatus": "project-authored",
+    "verificationNote": "Project-authored canonical-integration methodology."
   }
 ]

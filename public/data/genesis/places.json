@@ -140,7 +140,11 @@
       44.42,
       32.5364
     ],
-    "coordinateRole": "identified-site"
+    "coordinateRole": "identified-site",
+    "externalIds": {
+      "pleiades": "912810",
+      "wikidata": "Q5684"
+    }
   },
   {
     "id": "ur",
@@ -387,7 +391,10 @@
       32.2135
     ],
     "coordinateRole": "identified-site",
-    "archaeology": "Tell Balata preserves substantial Bronze and Iron Age urban remains. Archaeology identifies the city; it does not independently verify specific patriarchal episodes."
+    "archaeology": "Tell Balata preserves substantial Bronze and Iron Age urban remains. Archaeology identifies the city; it does not independently verify specific patriarchal episodes.",
+    "externalIds": {
+      "pleiades": "687989"
+    }
   },
   {
     "id": "bethel",
@@ -601,7 +608,7 @@
       "source-batch2-methodology"
     ],
     "coordinates": [
-      31.0,
+      31,
       29.6
     ],
     "coordinateRole": "approximate-area",
@@ -659,7 +666,10 @@
       31.5326
     ],
     "coordinateRole": "identified-site",
-    "archaeology": "Hebron has a long settlement history. The Cave of Machpelah/Ibrahimi Mosque complex preserves a powerful later monumental tradition over the burial place identified by Jewish, Christian, and Islamic tradition."
+    "archaeology": "Hebron has a long settlement history. The Cave of Machpelah/Ibrahimi Mosque complex preserves a powerful later monumental tradition over the burial place identified by Jewish, Christian, and Islamic tradition.",
+    "externalIds": {
+      "pleiades": "687913"
+    }
   },
   {
     "id": "mamre",

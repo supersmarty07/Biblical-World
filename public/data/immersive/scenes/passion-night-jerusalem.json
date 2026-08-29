@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "passion-night-jerusalem",
+  "title": "Passion Night: Upper Room, Gethsemane & Hearings",
+  "subtitle": "Jerusalem, Kidron, Mount of Olives, and unresolved hearing locations",
+  "summary": "Explore the physical setting of the Last Supper and Gethsemane narratives, then the unresolved Annas/Caiaphas hearing geography, without inventing an upper-room building, arrest route, garden boundary, or priestly residence.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "jerusalem",
+    "upper-room-jerusalem",
+    "kidron-valley",
+    "mount-olives",
+    "gethsemane"
+  ],
+  "disclaimer": "The Gospels place the Last Supper in Jerusalem, Gethsemane across the Kidron toward the Mount of Olives, and subsequent hearings in Jerusalem, but they do not provide a recoverable street-by-street route, the original upper-room building, the exact garden boundary/arrest point, or a securely identified Annas/Caiaphas hearing building. Display anchors used here are navigation aids, not recovered event locations.",
+  "evidenceLegend": [
+    {
+      "class": "real-terrain",
+      "label": "Physical geography",
+      "description": "Established topography or measured terrain when a verified DEM is configured."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Known archaeology",
+      "description": "Archaeological context represented only at the level supported by existing atlas records."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Historical inference",
+      "description": "A historically reasoned reconstruction or orientation that is not an observed event location."
+    },
+    {
+      "class": "tradition",
+      "label": "Tradition",
+      "description": "A later Christian or local identification kept distinct from textual and archaeological certainty."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "An event point, route, building, or identification that cannot responsibly be fixed to one coordinate."
+    }
+  ],
+  "periods": [],
+  "entryCamera": {
+    "center": [
+      35.2375,
+      31.778
+    ],
+    "zoom": 12,
+    "pitch": 48,
+    "bearing": 88,
+    "coordinateRole": "display-anchor",
+    "note": "This camera frames central Jerusalem, the Kidron depression, and the Mount of Olives as a geographic relationship; it is not an event coordinate."
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "upper-room-unlocated",
+      "label": "Upper room — exact building unknown",
+      "summary": "The Synoptic accounts place the meal in a prepared upper room in Jerusalem without identifying a recoverable building.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.2298,
+          31.7762
+        ]
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "unknown",
+      "scripture": [
+        {
+          "book": "Luke",
+          "chapter": 22,
+          "verseStart": 7,
+          "verseEnd": 20,
+          "label": "Luke 22:7–20"
+        }
+      ],
+      "sourceIds": [
+        "source-batch8-methodology",
+        "source-gospels-canonical",
+        "source-jerusalem-nt-archaeology"
+      ],
+      "placeId": "upper-room-jerusalem",
+      "whyShown": {
+        "evidence": "The Gospel text locates the meal within Jerusalem, but not in a uniquely identifiable structure.",
+        "inference": "The marker is a display anchor within the city used to orient the user before the eastward movement.",
+        "alternatives": "Later Cenacle tradition is historically important but is not treated as proof of the original room."
+      }
+    },
+    {
+      "id": "kidron-crossing-context",
+      "label": "Kidron Valley",
+      "summary": "The Kidron is an established physical valley between Jerusalem and the Mount of Olives; John explicitly places movement across the Kidron before the garden episode.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.241,
+          31.776
+        ]
+      },
+      "evidenceClass": "real-terrain",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 18,
+          "verseStart": 1,
+          "label": "John 18:1"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-jerusalem-nt-archaeology",
+        "source-second-temple-atlas"
+      ],
+      "placeId": "kidron-valley",
+      "whyShown": {
+        "evidence": "The valley is a durable geographic feature and the text names the Kidron crossing.",
+        "inference": "No exact first-century path across the valley is reconstructed."
+      }
+    },
+    {
+      "id": "mount-olives-ridge",
+      "label": "Mount of Olives ridge",
+      "summary": "The Mount of Olives is established physical geography east of Jerusalem and provides the broad setting for Gethsemane.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.243,
+          31.778
+        ]
+      },
+      "evidenceClass": "real-terrain",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Mark",
+          "chapter": 14,
+          "verseStart": 26,
+          "verseEnd": 32,
+          "label": "Mark 14:26–32"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-jerusalem-nt-archaeology"
+      ],
+      "placeId": "mount-olives",
+      "whyShown": {
+        "evidence": "The ridge is securely identified geographic terrain named in the Passion sequence.",
+        "inference": "The scene does not infer an exact path, property line, or tree location from the modern landscape."
+      }
+    },
+    {
+      "id": "gethsemane-tradition",
+      "label": "Gethsemane — traditional area",
+      "summary": "The Gospel setting at the Mount of Olives is strong, while the modern garden enclosure is a later traditional localization.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.24,
+          31.779
+        ]
+      },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "scripture": [
+        {
+          "book": "Mark",
+          "chapter": 14,
+          "verseStart": 32,
+          "verseEnd": 52,
+          "label": "Mark 14:32–52"
+        },
+        {
+          "book": "John",
+          "chapter": 18,
+          "verseStart": 1,
+          "verseEnd": 12,
+          "label": "John 18:1–12"
+        }
+      ],
+      "sourceIds": [
+        "source-batch8-methodology",
+        "source-gospels-canonical",
+        "source-jerusalem-nt-archaeology"
+      ],
+      "placeId": "gethsemane",
+      "whyShown": {
+        "evidence": "The Synoptic Gospels name Gethsemane and John describes a garden across the Kidron.",
+        "inference": "The atlas record uses the traditional area as an orientation point, not as proof of the exact first-century boundary.",
+        "alternatives": "The exact garden extent and arrest point remain unrecoverable."
+      }
+    },
+    {
+      "id": "arrest-point-unknown",
+      "label": "Exact arrest point — not recoverable",
+      "summary": "The narratives describe an arrest in the Gethsemane/garden setting, but no archaeological method can identify the exact spot.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.2407,
+          31.7791
+        ]
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "unknown",
+      "scripture": [
+        {
+          "book": "Mark",
+          "chapter": 14,
+          "verseStart": 43,
+          "verseEnd": 52,
+          "label": "Mark 14:43–52"
+        }
+      ],
+      "sourceIds": [
+        "source-batch8-methodology",
+        "source-gospels-canonical"
+      ],
+      "whyShown": {
+        "evidence": "The event belongs to the narrative sequence, not to an independently recoverable point.",
+        "inference": "This is a display anchor beside the traditional Gethsemane orientation so the interface can explain what remains unknown."
+      }
+    },
+    {
+      "id": "annas-caiaphas-hearing-unlocated",
+      "label": "Annas / Caiaphas hearings — building unlocated",
+      "summary": "The Passion narratives place hearings involving Annas and/or Caiaphas in Jerusalem, but the atlas does not identify a modern pilgrimage house as the proven hearing location.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.229,
+          31.7745
+        ]
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "unknown",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 18,
+          "verseStart": 13,
+          "verseEnd": 24,
+          "label": "John 18:13–24"
+        },
+        {
+          "book": "Mark",
+          "chapter": 14,
+          "verseStart": 53,
+          "verseEnd": 65,
+          "label": "Mark 14:53–65"
+        }
+      ],
+      "sourceIds": [
+        "source-batch8-methodology",
+        "source-gospels-canonical",
+        "source-jerusalem-nt-archaeology"
+      ],
+      "whyShown": {
+        "evidence": "The hearings are part of the textual Jerusalem sequence, but the texts do not provide a recoverable modern building coordinate.",
+        "inference": "This southern/western Jerusalem point is a display anchor only so the unresolved hearing geography can be discussed after the arrest.",
+        "alternatives": "Later House of Caiaphas pilgrimage traditions are not promoted to established event geography."
+      }
+    }
+  ]
+}

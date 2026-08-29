@@ -174,7 +174,7 @@
     ],
     "coordinates": [
       43.15,
-      36.0
+      36
     ],
     "coordinateRole": "display-anchor",
     "validFrom": -911,
@@ -225,7 +225,10 @@
     "validFrom": -880,
     "validTo": 40,
     "historicalContext": "Omri’s foundation shifted the northern capital from Tirzah to a defensible hill with strong regional connections. “Samaria” later becomes both a city name and a wider territorial designation.",
-    "archaeology": "Excavations revealed major Iron Age architecture, administrative material, and ivories. Correlating particular buildings with Omri or Ahab depends on archaeological chronology rather than inscriptions naming rooms."
+    "archaeology": "Excavations revealed major Iron Age architecture, administrative material, and ivories. Correlating particular buildings with Omri or Ahab depends on archaeological chronology rather than inscriptions naming rooms.",
+    "externalIds": {
+      "pleiades": "687987"
+    }
   },
   {
     "id": "tirzah",
@@ -854,8 +857,8 @@
       "source-sacred-bridge"
     ],
     "coordinates": [
-      33.0,
-      34.0
+      33,
+      34
     ],
     "coordinateRole": "display-anchor"
   },
@@ -899,7 +902,10 @@
       36.359
     ],
     "coordinateRole": "identified-site",
-    "archaeology": "Extensive Assyrian palaces, walls, inscriptions, and relief programs are known. These establish the imperial city, not the specific events narrated in Jonah."
+    "archaeology": "Extensive Assyrian palaces, walls, inscriptions, and relief programs are known. These establish the imperial city, not the specific events narrated in Jonah.",
+    "externalIds": {
+      "pleiades": "892226"
+    }
   },
   {
     "id": "calah-nimrud",
@@ -1163,7 +1169,10 @@
       31.565
     ],
     "coordinateRole": "identified-site",
-    "archaeology": "Excavations exposed the Assyrian siege ramp, defenses, destruction deposits, and mass evidence of the 701 BCE assault. Sennacherib’s Lachish reliefs independently depict the siege."
+    "archaeology": "Excavations exposed the Assyrian siege ramp, defenses, destruction deposits, and mass evidence of the 701 BCE assault. Sennacherib’s Lachish reliefs independently depict the siege.",
+    "externalIds": {
+      "pleiades": "687940"
+    }
   },
   {
     "id": "libnah",

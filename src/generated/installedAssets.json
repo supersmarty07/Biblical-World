@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "version": "2.0.0-alpha.11",
+  "runtime": {
+    "terrainPmtiles": null,
+    "basemapPmtiles": null,
+    "romanRoadsGeojson": null
+  },
+  "installed": [
+    {
+      "assetId": "natural-earth-land-fallback",
+      "path": "data/basemap/land.geojson",
+      "sha256": "49ebdbad674417dcad81e262f2982b173bd203d9545cb9e9e4900353424d6810",
+      "sizeBytes": 23330,
+      "sourceResourceId": "natural-earth"
+    }
+  ]
+}

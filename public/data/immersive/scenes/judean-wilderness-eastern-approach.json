@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "id": "judean-wilderness-eastern-approach",
+  "title": "Judean Wilderness + Eastern Approach",
+  "subtitle": "John’s wilderness, the Jordan corridor, Jericho, Bethany, and the Mount of Olives",
+  "summary": "Explore the broad arid landscape east of Jerusalem and the final approach corridor without turning John’s preaching, Jesus’ temptation, the baptism site, or the road into exact GPS reconstructions.",
+  "renderer": "panorama",
+  "availability": "prototype",
+  "placeIds": [
+    "judean-wilderness-gospels",
+    "bethany-beyond-jordan",
+    "al-maghtas",
+    "jericho",
+    "bethany-judea",
+    "bethphage",
+    "mount-olives",
+    "jerusalem"
+  ],
+  "disclaimer": "This is a schematic regional landscape. The Judean Wilderness is identifiable as a broad environment, while John’s preaching camps, Jesus’ temptation location, the Johannine “Bethany beyond the Jordan,” and precise final-approach road tracks remain uncertain. Traditional and approximate markers stay labeled as such.",
+  "evidenceLegend": [
+    {
+      "class": "artistic-reconstruction",
+      "label": "Schematic environment",
+      "description": "Generic arid terrain used to teach scale and topographic contrast; not a period-specific vegetation or route reconstruction."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Established settlement / terrain",
+      "description": "An identified city, village, or physical ridge represented by existing atlas data."
+    },
+    {
+      "class": "tradition",
+      "label": "Traditional orientation",
+      "description": "A later commemorative or approximate point that does not prove the biblical event coordinate."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unresolved location",
+      "description": "A textual place or event whose exact geographic identification remains uncertain."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Travel interpretation",
+      "description": "A broad corridor or topographic relationship used to explain movement without asserting an exact road trace."
+    }
+  ],
+  "periods": [],
+  "panorama": {
+    "alt": "A schematic Judean wilderness and eastern-approach landscape showing broad environmental and travel relationships, not exact Gospel event locations.",
+    "worldWidthPercent": 230,
+    "initialPan": 0.44
+  },
+  "comparison": {
+    "presentation": "regions",
+    "label": "Eastern Judea settings",
+    "intro": "Switch among broad environments and approach stages. These are contextual geographic views, not a reconstructed itinerary with exact waypoints.",
+    "defaultOptionId": "judean-wilderness",
+    "options": [
+      {
+        "id": "judean-wilderness",
+        "label": "Judean Wilderness",
+        "status": "probable",
+        "summary": "The broad arid region east of Jerusalem is identifiable, but the specific places of John’s preaching or Jesus’ temptation are not.",
+        "rationale": "The environmental region gives responsible context for Matthew 3–4, Mark 1, and Luke 4 without inventing a cave or campsite.",
+        "objections": "Exact vegetation, water availability, camp locations, and temptation setting require evidence not supplied by the Gospel texts.",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "placeIds": [
+          "judean-wilderness-gospels"
+        ],
+        "fallbackEnvironment": "judean-wilderness"
+      },
+      {
+        "id": "jordan-baptism-context",
+        "label": "Jordan baptism context",
+        "status": "disputed",
+        "summary": "The Jordan setting is clear, but “Bethany beyond the Jordan” remains disputed; al-Maghtas is historically significant rather than proof of one exact baptism coordinate.",
+        "rationale": "The explorer can show river-landscape context while keeping textual location and commemorative archaeology separate.",
+        "objections": "Ancient river channels and the precise place of Jesus’ baptism are not established here.",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-baptism-site-research"
+        ],
+        "placeIds": [
+          "bethany-beyond-jordan",
+          "al-maghtas"
+        ],
+        "fallbackEnvironment": "jordan-valley"
+      },
+      {
+        "id": "jericho-ascent",
+        "label": "Jericho → highlands",
+        "status": "probable",
+        "summary": "Jericho is an established geographic anchor for the final approach; the ascent toward Jerusalem crosses a dramatic elevation transition.",
+        "rationale": "The broad topographic relationship explains travel difficulty and narrative movement better than a straight map line.",
+        "objections": "The application does not claim the exact track or every stopping point of Jesus’ journey.",
+        "sourceIds": [
+          "source-gospels-canonical",
+          "source-second-temple-atlas",
+          "source-batch8-methodology"
+        ],
+        "placeIds": [
+          "jericho",
+          "jerusalem"
+        ],
+        "fallbackEnvironment": "judean-wilderness"
+      },
+      {
+        "id": "bethany-olives",
+        "label": "Bethany + Mount of Olives",
+        "status": "probable",
+        "summary": "Bethany and the Mount of Olives are strong geographic anchors for the final approach and Jerusalem visits, while Bethphage is less precisely located.",
+        "rationale": "This setting connects the eastern village landscape and ridge to the entry narratives without reconstructing specific houses or road bends.",
+        "objections": "Bethphage’s exact ancient footprint and particular Gospel stopping points remain uncertain; the current visual has no measured first-century road.",
+        "sourceIds": [
+          "source-gospels-canonical",
+          "source-jerusalem-nt-archaeology",
+          "source-second-temple-atlas"
+        ],
+        "placeIds": [
+          "bethany-judea",
+          "bethphage",
+          "mount-olives"
+        ],
+        "fallbackEnvironment": "central-highlands"
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "wilderness-region",
+      "label": "Judean Wilderness",
+      "summary": "Broad identifiable arid region; specific temptation and preaching locations remain unknown.",
+      "position": {
+        "kind": "image",
+        "x": 0.49,
+        "y": 0.54
+      },
+      "evidenceClass": "artistic-reconstruction",
+      "confidence": "probable",
+      "scripture": [
+        {
+          "book": "Matthew",
+          "chapter": 4,
+          "verseStart": 1,
+          "label": "Matthew 4:1"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-second-temple-atlas"
+      ],
+      "placeId": "judean-wilderness-gospels",
+      "variantIds": [
+        "judean-wilderness"
+      ],
+      "whyShown": {
+        "evidence": "The Gospel traditions place John and Jesus in wilderness geography that fits the broad Judean region.",
+        "inference": "The drawn slopes are generic and do not identify the temptation site.",
+        "alternatives": "No specific cave, summit, monastery, or viewpoint is presented as the Gospel location."
+      }
+    },
+    {
+      "id": "bethany-beyond-jordan-unknown",
+      "label": "“Bethany beyond the Jordan” — disputed",
+      "summary": "The Johannine place remains geographically unresolved.",
+      "position": {
+        "kind": "image",
+        "x": 0.54,
+        "y": 0.6
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "disputed",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 1,
+          "verseStart": 28,
+          "label": "John 1:28"
+        }
+      ],
+      "sourceIds": [
+        "source-baptism-site-research",
+        "source-gospels-canonical"
+      ],
+      "placeId": "bethany-beyond-jordan",
+      "variantIds": [
+        "jordan-baptism-context"
+      ],
+      "whyShown": {
+        "evidence": "John names Bethany beyond the Jordan, but competing textual and archaeological arguments do not yield one secure modern coordinate.",
+        "inference": "The hotspot is explanatory within a schematic Jordan environment.",
+        "alternatives": "al-Maghtas/Wadi al-Kharrar remains an important commemorative/archaeological landscape rather than conclusive identification."
+      }
+    },
+    {
+      "id": "al-maghtas-tradition",
+      "label": "al-Maghtas / Wadi al-Kharrar context",
+      "summary": "Important baptismal archaeological and pilgrimage landscape displayed with its traditional status.",
+      "position": {
+        "kind": "image",
+        "x": 0.68,
+        "y": 0.63
+      },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "scripture": [
+        {
+          "book": "Matthew",
+          "chapter": 3,
+          "verseStart": 13,
+          "verseEnd": 17,
+          "label": "Matthew 3:13–17"
+        }
+      ],
+      "sourceIds": [
+        "source-baptism-site-research",
+        "source-gospels-canonical"
+      ],
+      "placeId": "al-maghtas",
+      "variantIds": [
+        "jordan-baptism-context"
+      ],
+      "whyShown": {
+        "evidence": "The area has ancient Christian baptismal commemoration and archaeology.",
+        "inference": "That evidence does not prove the precise coordinate of Jesus’ baptism.",
+        "alternatives": "The atlas keeps the Johannine location question separate from later commemoration."
+      }
+    },
+    {
+      "id": "jericho-anchor",
+      "label": "Jericho",
+      "summary": "Established oasis-city anchor before the ascent toward Jerusalem.",
+      "position": {
+        "kind": "image",
+        "x": 0.37,
+        "y": 0.63
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Luke",
+          "chapter": 19,
+          "verseStart": 1,
+          "label": "Luke 19:1"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-second-temple-atlas"
+      ],
+      "placeId": "jericho",
+      "variantIds": [
+        "jericho-ascent"
+      ],
+      "whyShown": {
+        "evidence": "Jericho is securely identified and the Synoptics place Jesus in the Jericho region on the final approach.",
+        "inference": "The drawn ascent is topographic explanation, not an exact traced road.",
+        "alternatives": "Future verified road data may distinguish Roman/ancient corridors from narrative route reconstruction."
+      }
+    },
+    {
+      "id": "bethany-anchor",
+      "label": "Bethany",
+      "summary": "Strong village identification east of Jerusalem, while individual Gospel houses and tombs remain later/traditional claims.",
+      "position": {
+        "kind": "image",
+        "x": 0.51,
+        "y": 0.55
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "probable",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 44,
+          "label": "John 11:1–44"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-jerusalem-nt-archaeology"
+      ],
+      "placeId": "bethany-judea",
+      "variantIds": [
+        "bethany-olives"
+      ],
+      "whyShown": {
+        "evidence": "The ancient village is convincingly identified with al-Eizariya.",
+        "inference": "The schematic houses are not identified with Martha, Mary, or Lazarus.",
+        "alternatives": "Specific tomb/house traditions remain separate from the village identification."
+      }
+    },
+    {
+      "id": "olives-ridge",
+      "label": "Mount of Olives",
+      "summary": "Securely identified ridge east of Jerusalem and major Gospel topographic anchor.",
+      "position": {
+        "kind": "image",
+        "x": 0.69,
+        "y": 0.44
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Luke",
+          "chapter": 19,
+          "verseStart": 29,
+          "verseEnd": 44,
+          "label": "Luke 19:29–44"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-jerusalem-nt-archaeology"
+      ],
+      "placeId": "mount-olives",
+      "variantIds": [
+        "bethany-olives"
+      ],
+      "whyShown": {
+        "evidence": "The Mount of Olives ridge is securely identified and repeatedly named in Gospel Jerusalem narratives.",
+        "inference": "The current silhouette is schematic and does not identify a specific first-century viewpoint.",
+        "alternatives": "Gethsemane and Passion-week site traditions are handled more fully in Batch 6."
+      }
+    },
+    {
+      "id": "bethphage-orientation",
+      "label": "Bethphage — approximate/traditional orientation",
+      "summary": "Named in the entry narratives, but its exact ancient village footprint is not securely fixed.",
+      "position": {
+        "kind": "image",
+        "x": 0.6,
+        "y": 0.52
+      },
+      "evidenceClass": "tradition",
+      "confidence": "possible",
+      "scripture": [
+        {
+          "book": "Mark",
+          "chapter": 11,
+          "verseStart": 1,
+          "label": "Mark 11:1"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-second-temple-atlas"
+      ],
+      "placeId": "bethphage",
+      "variantIds": [
+        "bethany-olives"
+      ],
+      "whyShown": {
+        "evidence": "The Gospels name Bethphage near the Mount of Olives.",
+        "inference": "The atlas record is an orientation point, not a proven village center.",
+        "alternatives": "The exact footprint remains unresolved."
+      }
+    }
+  ]
+}

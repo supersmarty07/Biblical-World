@@ -175,3 +175,35 @@ For `public/data/revelation/`:
 - the Seven Churches connector is literary order, not a recovered courier itinerary;
 - never animate an invented John journey to or from Patmos;
 - all explicitly visionary story chapters should use `visionarySceneId` when visualization is useful instead of fake map coordinates.
+
+## Batch 11 contribution gates
+
+Use the consolidated checks before opening a pull request:
+
+```bash
+npm test
+npm run check
+npm run build
+```
+
+Do not reintroduce a third-party browser search dependency for the current corpus without documenting why the dependency-free engine is inadequate.
+
+### Source verification
+
+When you verify an external source, update the source record rather than only editing prose. Prefer stable official URLs, DOI/ISBN/edition/page locators, a checked date, and a short note explaining what the source actually supports.
+
+Never set `verificationStatus: "primary-verified"` merely because a citation appears plausible or because another AI/tool supplied the citation. Live inspection of the primary/official source or a citable edition is required.
+
+Regenerate the review queue with:
+
+```bash
+npm run audit:provenance
+```
+
+### Accessibility / offline rules
+
+- Keep all important content reachable without clicking the map.
+- Respect `prefers-reduced-motion` for new animations.
+- Preserve keyboard-visible focus.
+- Do not remove the search dialog focus trap/restore behavior.
+- Service-worker changes must continue to bypass HTTP Range requests so PMTiles remains viable.

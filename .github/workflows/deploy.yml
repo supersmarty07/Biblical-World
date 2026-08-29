@@ -27,11 +27,19 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --no-audit --no-fund
+
+      - name: Unit tests
+        run: npm test
 
       - name: Validate and build
         env:
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_TERRAIN_PMTILES_URL: ${{ vars.VITE_TERRAIN_PMTILES_URL }}
+          VITE_BASEMAP_PMTILES_URL: ${{ vars.VITE_BASEMAP_PMTILES_URL }}
+          VITE_BASEMAP_ATTRIBUTION: ${{ vars.VITE_BASEMAP_ATTRIBUTION }}
+          VITE_ROMAN_ROADS_GEOJSON_URL: ${{ vars.VITE_ROMAN_ROADS_GEOJSON_URL }}
+          VITE_ROMAN_ROADS_SOURCE_ID: ${{ vars.VITE_ROMAN_ROADS_SOURCE_ID }}
         run: npm run build
 
       - name: Configure Pages

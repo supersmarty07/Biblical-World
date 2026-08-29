@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "id": "golgotha-burial-explorer",
+  "title": "Golgotha + Burial: Text and Candidate Traditions",
+  "subtitle": "Textual constraints, Holy Sepulchre, and Garden Tomb kept separate",
+  "summary": "Compare the unlocated Gospel Golgotha/tomb descriptions with the Holy Sepulchre tradition and the Garden Tomb alternative without assigning the textual locations their own coordinates.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "jerusalem",
+    "golgotha",
+    "tomb-jesus",
+    "holy-sepulchre",
+    "garden-tomb"
+  ],
+  "disclaimer": "The Gospels place crucifixion at Golgotha outside Jerusalem and burial in a nearby rock-cut tomb/garden context, but neither textual location receives a coordinate in the atlas. The Holy Sepulchre and Garden Tomb are displayed as separate traditions with different historical/archaeological considerations. No scene element proves a specific cross or tomb belonged to Jesus.",
+  "evidenceLegend": [
+    {
+      "class": "real-terrain",
+      "label": "Physical geography",
+      "description": "Established topography or measured terrain when a verified DEM is configured."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Known archaeology",
+      "description": "Archaeological context represented only at the level supported by existing atlas records."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Historical inference",
+      "description": "A historically reasoned reconstruction or orientation that is not an observed event location."
+    },
+    {
+      "class": "tradition",
+      "label": "Tradition",
+      "description": "A later Christian or local identification kept distinct from textual and archaeological certainty."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "An event point, route, building, or identification that cannot responsibly be fixed to one coordinate."
+    }
+  ],
+  "periods": [],
+  "entryCamera": {
+    "center": [
+      35.23,
+      31.78
+    ],
+    "zoom": 12,
+    "pitch": 44,
+    "bearing": 0,
+    "coordinateRole": "display-anchor",
+    "note": "Frames the northwestern side of the Old City for comparison; it is not a Golgotha or tomb coordinate."
+  },
+  "comparison": {
+    "presentation": "alternatives",
+    "label": "How should Golgotha and the burial place be mapped?",
+    "intro": "Begin with the textual locations as unpinned, then inspect the two principal modern traditions as traditions rather than replacements for the textual records.",
+    "defaultOptionId": "textual-golgotha-tomb",
+    "options": [
+      {
+        "id": "textual-golgotha-tomb",
+        "label": "Textual Golgotha + tomb",
+        "status": "disputed",
+        "summary": "The Gospel execution and burial locations are geographically related in the narratives but not independently recoverable as exact modern points.",
+        "rationale": "Keeping both records unpinned prevents a later tradition from becoming the hidden default.",
+        "objections": "The map still needs a city-level display frame; that camera must not be treated as a candidate site.",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "placeIds": [
+          "golgotha",
+          "tomb-jesus"
+        ],
+        "camera": {
+          "center": [
+            35.23,
+            31.78
+          ],
+          "zoom": 12,
+          "pitch": 38,
+          "bearing": 0,
+          "coordinateRole": "display-anchor",
+          "note": "City-level orientation only; neither textual Golgotha nor the textual tomb is pinned here."
+        }
+      },
+      {
+        "id": "holy-sepulchre-tradition",
+        "label": "Holy Sepulchre tradition",
+        "status": "traditional",
+        "summary": "The Church of the Holy Sepulchre preserves the principal ancient Christian identification of both Golgotha and Jesus’ tomb.",
+        "rationale": "Its long-standing tradition and quarry/tomb archaeological context make it historically serious and compatible with aspects of first-century topography.",
+        "objections": "Compatibility and tradition do not prove that the exact venerated locations are the places of Jesus’ crucifixion and burial.",
+        "sourceIds": [
+          "source-holy-sepulchre-research",
+          "source-jerusalem-nt-archaeology",
+          "source-gospels-canonical"
+        ],
+        "placeIds": [
+          "holy-sepulchre"
+        ],
+        "camera": {
+          "center": [
+            35.2297,
+            31.7785
+          ],
+          "zoom": 14,
+          "pitch": 50,
+          "bearing": 20,
+          "coordinateRole": "traditional-site",
+          "note": "Coordinates locate the modern/traditional Holy Sepulchre complex, not a proven crucifixion or tomb point."
+        }
+      },
+      {
+        "id": "garden-tomb-alternative",
+        "label": "Garden Tomb alternative",
+        "status": "traditional",
+        "summary": "The Garden Tomb is a modern Protestant alternative identification north of the Old City.",
+        "rationale": "It is culturally and devotionally important and visually evokes a garden/tomb setting for many visitors.",
+        "objections": "The tomb is commonly dated earlier than the first century CE, which weighs substantially against identifying it as the Gospel’s newly cut tomb.",
+        "sourceIds": [
+          "source-garden-tomb-research",
+          "source-jerusalem-nt-archaeology"
+        ],
+        "placeIds": [
+          "garden-tomb"
+        ],
+        "camera": {
+          "center": [
+            35.229,
+            31.783
+          ],
+          "zoom": 14,
+          "pitch": 45,
+          "bearing": 0,
+          "coordinateRole": "traditional-site",
+          "note": "Coordinates locate the Garden Tomb tradition itself, not the textual tomb of Jesus."
+        }
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "textual-golgotha",
+      "label": "Golgotha — textual location, no pin",
+      "summary": "The crucifixion place is described in the Gospels but is not assigned a modern coordinate by the atlas.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.2297,
+          31.7794
+        ]
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "disputed",
+      "scripture": [
+        {
+          "book": "Mark",
+          "chapter": 15,
+          "verseStart": 22,
+          "label": "Mark 15:22"
+        },
+        {
+          "book": "John",
+          "chapter": 19,
+          "verseStart": 17,
+          "label": "John 19:17"
+        }
+      ],
+      "sourceIds": [
+        "source-batch8-methodology",
+        "source-gospels-canonical"
+      ],
+      "placeId": "golgotha",
+      "variantIds": [
+        "textual-golgotha-tomb"
+      ],
+      "whyShown": {
+        "evidence": "The execution place is textually named and associated with Jerusalem.",
+        "inference": "This is a display anchor inside the comparison frame, not a coordinate assigned to the Golgotha record.",
+        "alternatives": "Candidate/traditional sites are evaluated in separate comparison views."
+      }
+    },
+    {
+      "id": "textual-tomb",
+      "label": "Tomb of Jesus — textual location, no pin",
+      "summary": "The burial narratives describe a rock-cut tomb near the crucifixion setting, but the atlas leaves the textual tomb unlocated.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.2301,
+          31.7791
+        ]
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "disputed",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 19,
+          "verseStart": 38,
+          "verseEnd": 42,
+          "label": "John 19:38–42"
+        }
+      ],
+      "sourceIds": [
+        "source-batch8-methodology",
+        "source-gospels-canonical"
+      ],
+      "placeId": "tomb-jesus",
+      "variantIds": [
+        "textual-golgotha-tomb"
+      ],
+      "whyShown": {
+        "evidence": "The Gospels place burial near the crucifixion setting and John mentions a garden.",
+        "inference": "The display anchor explains relational geography only; it is not stored as the tomb’s coordinate."
+      }
+    },
+    {
+      "id": "holy-sepulchre-site",
+      "label": "Holy Sepulchre tradition",
+      "summary": "An ancient Christian site tradition whose physical context includes quarrying and rock-cut tombs predating the Constantinian complex.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.2297,
+          31.7785
+        ]
+      },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 19,
+          "verseStart": 41,
+          "verseEnd": 42,
+          "label": "John 19:41–42"
+        }
+      ],
+      "sourceIds": [
+        "source-holy-sepulchre-research",
+        "source-jerusalem-nt-archaeology"
+      ],
+      "placeId": "holy-sepulchre",
+      "variantIds": [
+        "holy-sepulchre-tradition"
+      ],
+      "whyShown": {
+        "evidence": "The site has a longstanding Christian identification and archaeologically relevant quarry/tomb context.",
+        "inference": "Those facts make the tradition historically serious but do not identify an individual tomb occupant or execution point."
+      }
+    },
+    {
+      "id": "holy-sepulchre-archaeology",
+      "label": "Quarry / tomb context",
+      "summary": "The area’s pre-Constantinian quarry and tomb context matters because it is compatible with a burial area outside the city in the relevant broad period reconstruction.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.2295,
+          31.7786
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "probable",
+      "scripture": [],
+      "sourceIds": [
+        "source-holy-sepulchre-research",
+        "source-jerusalem-nt-archaeology"
+      ],
+      "variantIds": [
+        "holy-sepulchre-tradition"
+      ],
+      "whyShown": {
+        "evidence": "Existing project research records quarry/tomb archaeology at the site.",
+        "inference": "Archaeological compatibility is not converted into proof of the Gospel identification."
+      }
+    },
+    {
+      "id": "garden-tomb-site",
+      "label": "Garden Tomb alternative",
+      "summary": "A nineteenth-century alternative tradition displayed as its own site rather than as the textual tomb.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.229,
+          31.783
+        ]
+      },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 19,
+          "verseStart": 41,
+          "label": "John 19:41"
+        }
+      ],
+      "sourceIds": [
+        "source-garden-tomb-research",
+        "source-jerusalem-nt-archaeology"
+      ],
+      "placeId": "garden-tomb",
+      "variantIds": [
+        "garden-tomb-alternative"
+      ],
+      "whyShown": {
+        "evidence": "The site is historically important as a modern devotional identification.",
+        "inference": "Its evocative landscape is not evidence that it is the Gospel tomb.",
+        "alternatives": "The commonly accepted earlier archaeological dating is a major objection."
+      }
+    }
+  ]
+}

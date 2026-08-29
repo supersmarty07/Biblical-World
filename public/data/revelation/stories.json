@@ -29,7 +29,11 @@
           ],
           "zoom": 8,
           "pitch": 25
-        }
+        },
+        "immersiveSceneId": "patmos-historical-island",
+        "immersiveVariantId": "patmos-island",
+        "immersivePeriodId": "first-century-island",
+        "immersiveHotspotId": "patmos-island"
       },
       {
         "id": "p2",
@@ -53,7 +57,11 @@
           ],
           "zoom": 11,
           "pitch": 35
-        }
+        },
+        "immersiveSceneId": "patmos-historical-island",
+        "immersiveVariantId": "cave-tradition",
+        "immersivePeriodId": "first-century-island",
+        "immersiveHotspotId": "cave-tradition-site"
       },
       {
         "id": "p3",

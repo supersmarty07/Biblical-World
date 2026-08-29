@@ -997,7 +997,11 @@
     ],
     "coordinateRole": "identified-site",
     "historicalContext": "The biblical narratives portray Jerusalem as Davidic capital and Solomonic temple city. Archaeology confirms continuous ancient settlement but debates the scale, fortifications, and state capacity of the 10th-century city.",
-    "archaeology": "Excavations on the southeastern ridge and around the Old City illuminate Iron Age Jerusalem, but interpretations of specific monumental structures and their dating vary among scholars."
+    "archaeology": "Excavations on the southeastern ridge and around the Old City illuminate Iron Age Jerusalem, but interpretations of specific monumental structures and their dating vary among scholars.",
+    "externalIds": {
+      "pleiades": "687928",
+      "wikidata": "Q1218"
+    }
   },
   {
     "id": "city-of-david-ridge",
@@ -1181,7 +1185,10 @@
       35.243,
       31.778
     ],
-    "coordinateRole": "identified-site"
+    "coordinateRole": "identified-site",
+    "externalIds": {
+      "pleiades": "687981"
+    }
   },
   {
     "id": "valley-rephaim",

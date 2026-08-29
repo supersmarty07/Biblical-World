@@ -569,3 +569,47 @@ Rules:
 - do not create Earth coordinates merely to make a vision visually convenient;
 - historical referents (for example Rome as an interpretive referent for Babylon the Great) remain interpretations rather than coordinate substitutions;
 - quantitative visionary descriptions may be visualized, but conversions must disclose uncertainty.
+
+## Batch 11 — generated catalog and provenance hardening
+
+The runtime now prefers `public/data/generated/content-manifest.json` to discover content packs. If the generated manifest is unavailable during development/recovery, the loader falls back to the known nine-pack list.
+
+The build also emits `public/data/generated/search-documents.json`. This is a static QA/export corpus; the browser search engine normally builds its small in-memory structure from atlas data already loaded by the app to avoid a duplicate network transfer.
+
+### Extended source metadata
+
+`SourceRef` can now carry optional release-verification fields:
+
+```ts
+verificationStatus?:
+  | 'project-authored'
+  | 'primary-verified'
+  | 'research-supplied'
+  | 'needs-verification';
+verificationNote?: string;
+accessedAt?: string;
+doi?: string;
+isbn?: string;
+edition?: string;
+pages?: string;
+```
+
+These fields are intentionally optional because Batch 11 did not have live web access. `scripts/audit-provenance.mjs` produces the source-verification queue rather than inventing locators or check dates.
+
+### Search documents
+
+Search documents are derived objects, never an independent historical source:
+
+```ts
+interface SearchDocument {
+  id: string;
+  kind: 'place' | 'person' | 'event' | 'story';
+  name: string;
+  summary: string;
+  aliases: string;
+  scripture: string;
+  date: string;
+}
+```
+
+Search ranking cannot alter confidence, coordinates, provenance, or historical dating.

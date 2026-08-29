@@ -5,7 +5,9 @@
     "organization": "The Biblical World project",
     "kind": "project-methodology",
     "license": "Original project metadata",
-    "notes": "Separates canonical narrative geography, Pauline self-reference, independent ancient testimony, inscriptions, archaeology, later tradition, and route reconstruction. Exact roads, houses, prisons, wreck sites, and martyrdom locations remain unpinned unless evidence supports a location."
+    "notes": "Separates canonical narrative geography, Pauline self-reference, independent ancient testimony, inscriptions, archaeology, later tradition, and route reconstruction. Exact roads, houses, prisons, wreck sites, and martyrdom locations remain unpinned unless evidence supports a location.",
+    "verificationStatus": "project-authored",
+    "verificationNote": "Project-authored curation methodology; no external source verification claim is implied."
   },
   {
     "id": "source-acts-canonical",

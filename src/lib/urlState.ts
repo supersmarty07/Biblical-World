@@ -5,12 +5,18 @@ export interface UrlState {
   event?: string;
   story?: string;
   chapter?: number;
+  journey?: string;
+  segment?: number;
+  scene?: string;
+  variant?: string;
+  period?: string;
 }
 
 export function readUrlState(): UrlState {
   const params = new URLSearchParams(window.location.search);
   const year = Number(params.get('year'));
   const chapter = Number(params.get('chapter'));
+  const segment = Number(params.get('segment'));
 
   return {
     year: Number.isFinite(year) && params.has('year') ? year : undefined,
@@ -18,7 +24,12 @@ export function readUrlState(): UrlState {
     person: params.get('person') || undefined,
     event: params.get('event') || undefined,
     story: params.get('story') || undefined,
-    chapter: Number.isFinite(chapter) && params.has('chapter') ? chapter : undefined
+    chapter: Number.isFinite(chapter) && params.has('chapter') ? chapter : undefined,
+    journey: params.get('journey') || undefined,
+    segment: Number.isFinite(segment) && params.has('segment') ? segment : undefined,
+    scene: params.get('scene') || undefined,
+    variant: params.get('variant') || undefined,
+    period: params.get('period') || undefined
   };
 }
 
@@ -35,5 +46,10 @@ export function writeUrlState(state: UrlState): void {
   write('event', state.event);
   write('story', state.story);
   write('chapter', state.chapter);
+  write('journey', state.journey);
+  write('segment', state.segment);
+  write('scene', state.scene);
+  write('variant', state.variant);
+  write('period', state.period);
   window.history.replaceState({}, '', url);
 }

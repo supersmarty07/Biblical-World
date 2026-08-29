@@ -915,7 +915,10 @@
       "source-exile-restoration-text",
       "source-susa-archaeology",
       "source-briant-persia"
-    ]
+    ],
+    "externalIds": {
+      "pleiades": "903112"
+    }
   },
   {
     "id": "ulai-canal",
@@ -1011,7 +1014,10 @@
       "source-behistun",
       "source-briant-persia",
       "source-kuhrt-persia"
-    ]
+    ],
+    "externalIds": {
+      "pleiades": "922698"
+    }
   },
   {
     "id": "pasargadae",

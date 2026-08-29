@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "id": "galilee-ministry-landscape",
+  "title": "Galilee Ministry Landscapes",
+  "subtitle": "Nazareth, Capernaum, the lake, and disputed shoreline geography",
+  "summary": "Move among Lower Galilee, the northwestern lakeshore, Sea of Galilee crossings, and the northeastern shore while keeping established places, candidate sites, and unknown event locations distinct.",
+  "renderer": "panorama",
+  "availability": "prototype",
+  "placeIds": [
+    "nazareth",
+    "cana-galilee",
+    "capernaum",
+    "sea-galilee",
+    "magdala",
+    "bethsaida-gospels",
+    "el-araj-bethsaida",
+    "et-tell-bethsaida",
+    "mount-beatitudes-traditional",
+    "gerasenes-gadarenes-region"
+  ],
+  "disclaimer": "The current panorama is a project-authored schematic landscape, not a photograph of first-century Galilee. Established sites such as Nazareth, Capernaum, Magdala, and the Sea of Galilee are distinguished from disputed Cana/Bethsaida identifications, traditional sermon locations, and unknown boat-event positions.",
+  "evidenceLegend": [
+    {
+      "class": "artistic-reconstruction",
+      "label": "Schematic landscape",
+      "description": "The visible hills, shoreline, water, and vegetation are generic teaching geometry until verified period-appropriate visual assets are supplied."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Archaeological anchor",
+      "description": "An established excavated settlement or securely identified place represented by an existing atlas record."
+    },
+    {
+      "class": "tradition",
+      "label": "Traditional location",
+      "description": "A later commemorative location that is historically meaningful but not established by the Gospel text."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed geography",
+      "description": "A Gospel place or event whose exact modern coordinate is unresolved and must not be forced into one pin."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Travel / regional interpretation",
+      "description": "A broad geographic relationship or reconstructed movement corridor rather than an exact witnessed route."
+    }
+  ],
+  "periods": [],
+  "panorama": {
+    "alt": "A schematic interactive Galilee landscape used to compare Lower Galilee, lakeshore settlements, lake crossings, and disputed shoreline geography; not a photographic reconstruction.",
+    "worldWidthPercent": 235,
+    "initialPan": 0.46
+  },
+  "comparison": {
+    "presentation": "regions",
+    "label": "Galilee ministry settings",
+    "intro": "Switch among broad ministry settings. The views teach geographic relationships; they do not assert a continuous day-by-day route for Jesus.",
+    "defaultOptionId": "northwestern-shore",
+    "options": [
+      {
+        "id": "lower-galilee",
+        "label": "Lower Galilee",
+        "status": "established",
+        "summary": "Nazareth is securely identified within Lower Galilee, while Cana remains disputed and intentionally unpinned.",
+        "rationale": "The Gospel narratives locate important early ministry traditions in this broader Lower Galilee setting.",
+        "objections": "The exact route between Nazareth, Cana, and other villages is not preserved, and Cana cannot responsibly be reduced to one candidate.",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-nazareth-archaeology",
+          "source-cana-research"
+        ],
+        "placeIds": [
+          "nazareth",
+          "cana-galilee"
+        ],
+        "fallbackEnvironment": "galilean-hills"
+      },
+      {
+        "id": "northwestern-shore",
+        "label": "NW lakeshore",
+        "status": "established",
+        "summary": "Capernaum and Magdala provide strong archaeological anchors for the inhabited western and northwestern lakeshore.",
+        "rationale": "Both settlements help users understand first-century village life and the lake economy without identifying individual Gospel houses.",
+        "objections": "The schematic shoreline and settlement silhouettes are not archaeological plans and do not reproduce first-century building footprints.",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-capernaum-archaeology",
+          "source-magdala-archaeology",
+          "source-galilee-archaeology"
+        ],
+        "placeIds": [
+          "capernaum",
+          "magdala",
+          "sea-galilee"
+        ],
+        "fallbackEnvironment": "galilee-lakeshore"
+      },
+      {
+        "id": "lake-crossings",
+        "label": "Lake crossings",
+        "status": "probable",
+        "summary": "The Sea of Galilee is certain geography; the exact tracks of individual Gospel boat crossings are not recoverable.",
+        "rationale": "The existing journey system can show narrative sequences while preserving route certainty separately from the physical lake.",
+        "objections": "Wind, landing point, boat track, and event position on the water are not known precisely enough for a historical GPS route.",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-gospel-geography"
+        ],
+        "placeIds": [
+          "sea-galilee",
+          "gerasenes-gadarenes-region"
+        ],
+        "fallbackEnvironment": "galilee-lakeshore"
+      },
+      {
+        "id": "northeastern-shore",
+        "label": "Bethsaida question",
+        "status": "disputed",
+        "summary": "Bethsaida is textually important but archaeologically debated; el-Araj and et-Tell remain separate candidates.",
+        "rationale": "Showing the candidates side by side communicates the live geographic debate better than assigning the Gospel place one normal pin.",
+        "objections": "Ancient shoreline reconstruction is part of the debate and requires verified geomorphological evidence before a period shoreline is drawn.",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-bethsaida-debate",
+          "source-gospels-canonical"
+        ],
+        "placeIds": [
+          "bethsaida-gospels",
+          "el-araj-bethsaida",
+          "et-tell-bethsaida"
+        ],
+        "fallbackEnvironment": "galilee-lakeshore"
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "nazareth-anchor",
+      "label": "Nazareth",
+      "summary": "Established early Roman settlement and Gospel hometown setting.",
+      "position": {
+        "kind": "image",
+        "x": 0.44,
+        "y": 0.56
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Luke",
+          "chapter": 4,
+          "verseStart": 16,
+          "verseEnd": 30,
+          "label": "Luke 4:16–30"
+        }
+      ],
+      "sourceIds": [
+        "source-nazareth-archaeology",
+        "source-gospels-canonical"
+      ],
+      "placeId": "nazareth",
+      "variantIds": [
+        "lower-galilee"
+      ],
+      "whyShown": {
+        "evidence": "Ancient Nazareth is securely identified and archaeology supports early Roman settlement.",
+        "inference": "The drawn village is not a reconstruction of a specific excavated quarter.",
+        "alternatives": "Individual Gospel houses or the exact synagogue episode location are not recoverable."
+      }
+    },
+    {
+      "id": "cana-unpinned",
+      "label": "Cana remains unresolved",
+      "summary": "The Gospel village is represented conceptually rather than as a single modern coordinate.",
+      "position": {
+        "kind": "image",
+        "x": 0.6,
+        "y": 0.49
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "disputed",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 2,
+          "verseStart": 1,
+          "verseEnd": 11,
+          "label": "John 2:1–11"
+        }
+      ],
+      "sourceIds": [
+        "source-cana-research",
+        "source-gospels-canonical"
+      ],
+      "placeId": "cana-galilee",
+      "variantIds": [
+        "lower-galilee"
+      ],
+      "whyShown": {
+        "evidence": "John names Cana of Galilee, but the existing atlas record intentionally has no normal pin.",
+        "inference": "This hotspot is an explanatory position within a schematic landscape, not a geographic coordinate for Cana.",
+        "alternatives": "Khirbet Qana and Kafr Kanna remain distinct candidate/traditional identifications."
+      }
+    },
+    {
+      "id": "capernaum-anchor",
+      "label": "Capernaum",
+      "summary": "Securely identified village central to many Gospel ministry narratives.",
+      "position": {
+        "kind": "image",
+        "x": 0.53,
+        "y": 0.59
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Mark",
+          "chapter": 1,
+          "verseStart": 21,
+          "verseEnd": 34,
+          "label": "Mark 1:21–34"
+        }
+      ],
+      "sourceIds": [
+        "source-capernaum-archaeology",
+        "source-gospels-canonical"
+      ],
+      "placeId": "capernaum",
+      "variantIds": [
+        "northwestern-shore"
+      ],
+      "whyShown": {
+        "evidence": "Kfar Nahum securely identifies ancient Capernaum and preserves Roman-period settlement remains.",
+        "inference": "The foreground structures are schematic and not a plan of excavated Capernaum.",
+        "alternatives": "Specific houses associated with named Gospel figures remain interpretive."
+      }
+    },
+    {
+      "id": "magdala-anchor",
+      "label": "Magdala",
+      "summary": "Excavated early Roman lakeside settlement with first-century synagogue context.",
+      "position": {
+        "kind": "image",
+        "x": 0.73,
+        "y": 0.62
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [],
+      "sourceIds": [
+        "source-magdala-archaeology",
+        "source-galilee-archaeology"
+      ],
+      "placeId": "magdala",
+      "variantIds": [
+        "northwestern-shore"
+      ],
+      "whyShown": {
+        "evidence": "The ancient settlement is securely located and excavated.",
+        "inference": "No particular Gospel visit by Jesus is invented here.",
+        "alternatives": "The relationship among the ancient names Magdala, Migdal, and Tarichaeae requires nuance."
+      }
+    },
+    {
+      "id": "beatitudes-tradition",
+      "label": "Sermon mountain — traditional area",
+      "summary": "The modern Mount of Beatitudes is a later commemorative location, not a proven sermon coordinate.",
+      "position": {
+        "kind": "image",
+        "x": 0.37,
+        "y": 0.43
+      },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "scripture": [
+        {
+          "book": "Matthew",
+          "chapter": 5,
+          "verseStart": 1,
+          "label": "Matthew 5:1"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-second-temple-atlas"
+      ],
+      "placeId": "mount-beatitudes-traditional",
+      "variantIds": [
+        "northwestern-shore"
+      ],
+      "whyShown": {
+        "evidence": "Matthew refers to a mountain but does not identify it by name.",
+        "inference": "The traditional area is useful for orientation only.",
+        "alternatives": "The actual sermon location remains unknown."
+      }
+    },
+    {
+      "id": "lake-water",
+      "label": "Sea of Galilee",
+      "summary": "Certain physical lake; individual Gospel crossing tracks are generally unrecoverable.",
+      "position": {
+        "kind": "image",
+        "x": 0.56,
+        "y": 0.67
+      },
+      "evidenceClass": "artistic-reconstruction",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Mark",
+          "chapter": 4,
+          "verseStart": 35,
+          "verseEnd": 41,
+          "label": "Mark 4:35–41"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-gospel-geography"
+      ],
+      "placeId": "sea-galilee",
+      "variantIds": [
+        "lake-crossings"
+      ],
+      "whyShown": {
+        "evidence": "The lake itself is geographically certain and central to Gospel narratives.",
+        "inference": "The displayed water surface is a schematic visual, and no route line on it is historical measurement.",
+        "alternatives": "Journey animation should continue to label generalized or reconstructed crossings as such."
+      }
+    },
+    {
+      "id": "east-shore-uncertainty",
+      "label": "The “other side”",
+      "summary": "Gerasenes, Gadarenes, and Gergesenes textual/geographic forms should not collapse into one landing point.",
+      "position": {
+        "kind": "image",
+        "x": 0.78,
+        "y": 0.53
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "disputed",
+      "scripture": [
+        {
+          "book": "Mark",
+          "chapter": 5,
+          "verseStart": 1,
+          "verseEnd": 20,
+          "label": "Mark 5:1–20"
+        }
+      ],
+      "sourceIds": [
+        "source-gospel-geography",
+        "source-gospels-canonical"
+      ],
+      "placeId": "gerasenes-gadarenes-region",
+      "variantIds": [
+        "lake-crossings"
+      ],
+      "whyShown": {
+        "evidence": "The textual tradition preserves multiple place-name forms east of the lake.",
+        "inference": "This explanatory hotspot does not identify the landing site.",
+        "alternatives": "Gadara/Kursi and other discussions should remain contextual or candidate-level."
+      }
+    },
+    {
+      "id": "bethsaida-debate",
+      "label": "Bethsaida — competing candidates",
+      "summary": "The Gospel place remains unpinned while el-Araj and et-Tell are maintained as separate candidates.",
+      "position": {
+        "kind": "image",
+        "x": 0.56,
+        "y": 0.48
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "disputed",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 1,
+          "verseStart": 44,
+          "label": "John 1:44"
+        }
+      ],
+      "sourceIds": [
+        "source-bethsaida-debate",
+        "source-gospels-canonical"
+      ],
+      "placeId": "bethsaida-gospels",
+      "variantIds": [
+        "northeastern-shore"
+      ],
+      "whyShown": {
+        "evidence": "The Gospel place is clear textually but its archaeological identification remains debated.",
+        "inference": "The hotspot is conceptual and does not replace either candidate record.",
+        "alternatives": "el-Araj and et-Tell remain independently selectable archaeological candidates."
+      }
+    }
+  ]
+}

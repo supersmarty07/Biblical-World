@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "id": "jerusalem-historical-terrain",
+  "title": "Jerusalem Through Time",
+  "subtitle": "Topography, archaeology, and period-aware interpretation",
+  "summary": "Explore Jerusalem's southeastern ridge, Temple Mount precinct, water systems, valleys, and eastern ridge across major biblical and Second Temple periods without turning reconstructed walls or temple footprints into measured facts.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "jerusalem",
+    "city-of-david-ridge",
+    "zion-biblical",
+    "temple-mount",
+    "gihon-spring",
+    "kidron-valley",
+    "mount-olives",
+    "siloam-tunnel",
+    "pool-siloam-second-temple",
+    "moriah"
+  ],
+  "disclaimer": "This is a period-aware geographic teaching scene. Existing atlas coordinates locate established terrain, archaeological zones, approximate areas, or explicitly traditional associations; they do not supply an exact First Temple footprint, a single permanent coordinate for Zion, or reconstructed ancient walls. A configured DEM shows modern measured elevation, not an ancient architectural surface.",
+  "evidenceLegend": [
+    { "class": "real-terrain", "label": "Physical terrain", "description": "Established geographic features or measured terrain when a verified DEM is configured." },
+    { "class": "known-archaeology", "label": "Known archaeology", "description": "Archaeological features or zones represented at the level supported by existing project records." },
+    { "class": "historical-inference", "label": "Historical inference", "description": "Period interpretation derived from texts and archaeology but not a directly observed feature at this exact point." },
+    { "class": "tradition", "label": "Tradition", "description": "A later or canonical association kept distinct from archaeological certainty." },
+    { "class": "unknown-disputed", "label": "Unknown / disputed", "description": "A location, footprint, boundary, or reconstruction that cannot responsibly be fixed to an exact coordinate." }
+  ],
+  "periods": [
+    {
+      "id": "physical-topography",
+      "label": "Physical setting",
+      "note": "Shows the enduring terrain relationships: southeastern ridge, eastern ridge, Kidron Valley, Gihon Spring, and Temple Mount precinct. No ancient city boundary is reconstructed.",
+      "camera": { "center": [35.238, 31.775], "zoom": 13.7, "pitch": 64, "bearing": -24, "coordinateRole": "display-anchor", "note": "A teaching camera chosen to show the ridge-and-valley relationship; it is not a historical viewpoint." }
+    },
+    {
+      "id": "pre-monarchic-context",
+      "label": "Pre-monarchic",
+      "from": -1200,
+      "to": -1000,
+      "note": "Keeps the focus on the southeastern ridge and water source while avoiding a detailed city reconstruction unsupported by this prototype.",
+      "camera": { "center": [35.2365, 31.7735], "zoom": 14.25, "pitch": 62, "bearing": -18, "coordinateRole": "identified-site", "note": "Camera centers on the established southeastern-ridge archaeological zone; no pre-monarchic wall line is asserted." }
+    },
+    {
+      "id": "davidic-context",
+      "label": "Davidic",
+      "from": -1000,
+      "to": -960,
+      "note": "Highlights the captured stronghold/City of David textual association, Gihon, Kidron, and Mount of Olives while leaving disputed structures and precise urban extent unresolved.",
+      "camera": { "center": [35.237, 31.7738], "zoom": 14.0, "pitch": 65, "bearing": -8, "coordinateRole": "identified-site", "note": "Centers the established southeastern ridge, not a claimed footprint of David's palace or the Jebusite stronghold." }
+    },
+    {
+      "id": "first-temple-context",
+      "label": "First Temple",
+      "from": -960,
+      "to": -750,
+      "note": "Shows the Temple Mount precinct as the traditional/historical temple location while explicitly withholding an exact First Temple footprint or reconstructed building plan.",
+      "camera": { "center": [35.236, 31.777], "zoom": 13.85, "pitch": 64, "bearing": -26, "coordinateRole": "display-anchor", "note": "Frames the southeastern ridge and Temple Mount precinct together; it does not locate Solomon's temple within the platform." }
+    },
+    {
+      "id": "late-iron-age",
+      "label": "Late Iron Age",
+      "from": -750,
+      "to": -586,
+      "note": "Adds the securely located Gihon-to-Siloam water system context while keeping wall lines, population extent, and individual royal building attributions interpretive.",
+      "camera": { "center": [35.2362, 31.7725], "zoom": 14.2, "pitch": 62, "bearing": 9, "coordinateRole": "identified-site", "note": "Camera emphasizes the established water-system zone; it does not turn every nearby rock-cut feature into a biblical attribution." }
+    },
+    {
+      "id": "persian-period",
+      "label": "Persian",
+      "from": -539,
+      "to": -332,
+      "note": "Provides post-exilic Jerusalem context without drawing an exact restored wall circuit or temple plan in advance of verified period-specific spatial datasets.",
+      "camera": { "center": [35.236, 31.775], "zoom": 13.8, "pitch": 60, "bearing": -15, "coordinateRole": "display-anchor", "note": "Regional Jerusalem framing only; no exact Persian-period boundary is asserted." }
+    },
+    {
+      "id": "hasmonean-period",
+      "label": "Hasmonean",
+      "from": -142,
+      "to": -63,
+      "note": "Places later Second Temple Jerusalem in its topographic setting while leaving specific fortification and precinct reconstructions for a verified archaeological layer.",
+      "camera": { "center": [35.2348, 31.776], "zoom": 13.65, "pitch": 61, "bearing": -29, "coordinateRole": "display-anchor", "note": "Broad city teaching camera; it is not a Hasmonean wall reconstruction." }
+    },
+    {
+      "id": "herodian-period",
+      "label": "Herodian",
+      "from": -37,
+      "to": 70,
+      "note": "Highlights the Herodian-period Jerusalem setting and Second Temple precinct without displaying an unverified building mesh or pretending the present platform is an untouched first-century surface.",
+      "camera": { "center": [35.2355, 31.7774], "zoom": 13.65, "pitch": 65, "bearing": -30, "coordinateRole": "identified-site", "note": "Centers the established Temple Mount/Haram al-Sharif precinct as geographic context, not an exact reconstruction of the Herodian sanctuary." }
+    },
+    {
+      "id": "circa-30-ce",
+      "label": "c. 30 CE",
+      "from": 25,
+      "to": 35,
+      "note": "A Gospel-period geography view linking the Temple precinct, Kidron Valley, Mount of Olives, and Siloam without fixing debated trial, crucifixion, or burial sites in this batch.",
+      "camera": { "center": [35.238, 31.777], "zoom": 13.35, "pitch": 62, "bearing": -33, "coordinateRole": "display-anchor", "note": "Teaching view across first-century Jerusalem geography; Passion candidate locations are reserved for Batch 6." }
+    },
+    {
+      "id": "seventy-ce",
+      "label": "70 CE",
+      "from": 66,
+      "to": 70,
+      "note": "Frames Jerusalem and the Temple precinct at the end of the revolt without animating destruction or claiming a building-by-building siege reconstruction.",
+      "camera": { "center": [35.2355, 31.7765], "zoom": 13.5, "pitch": 60, "bearing": -18, "coordinateRole": "display-anchor", "note": "Geographic context only; no siege line, legion position, or destruction footprint is asserted." }
+    }
+  ],
+  "defaultPeriodId": "physical-topography",
+  "entryCamera": {
+    "center": [35.238, 31.775],
+    "zoom": 13.7,
+    "pitch": 64,
+    "bearing": -24,
+    "coordinateRole": "display-anchor",
+    "note": "Regional Jerusalem teaching camera chosen from existing atlas geography; no historical viewpoint is implied."
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "southeastern-ridge",
+      "label": "Southeastern Ridge / City of David archaeological zone",
+      "summary": "The narrow ridge south of the Temple Mount preserves Jerusalem's earliest urban core; the modern archaeological label should not be confused with every biblical use of 'City of David' or 'Zion'.",
+      "position": { "kind": "geographic", "coordinates": [35.236, 31.773] },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [{ "book": "2 Samuel", "chapter": 5, "verseStart": 6, "verseEnd": 10, "label": "2 Samuel 5:6–10" }],
+      "sourceIds": ["source-united-monarchy-text", "source-jerusalem-bible-archaeology", "source-reich-city-david", "source-batch4-methodology"],
+      "placeId": "city-of-david-ridge",
+      "periodIds": ["physical-topography", "pre-monarchic-context", "davidic-context", "first-temple-context", "late-iron-age", "persian-period"],
+      "whyShown": {
+        "evidence": "The existing atlas identifies the southeastern ridge as the archaeological zone containing Jerusalem's earliest urban core.",
+        "inference": "The scene can use the ridge to explain topography and settlement development without assigning disputed structures to named kings.",
+        "alternatives": "Biblical terms such as Zion and City of David have textual histories that are not reducible to one permanent polygon."
+      }
+    },
+    {
+      "id": "gihon-spring",
+      "label": "Gihon Spring",
+      "summary": "Jerusalem's principal ancient spring and a fixed topographic anchor for understanding the southeastern ridge and water systems.",
+      "position": { "kind": "geographic", "coordinates": [35.237, 31.773] },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [{ "book": "1 Kings", "chapter": 1, "verseStart": 32, "verseEnd": 40, "label": "1 Kings 1:32–40" }],
+      "sourceIds": ["source-united-monarchy-text", "source-jerusalem-bible-archaeology", "source-reich-city-david"],
+      "placeId": "gihon-spring",
+      "periodIds": ["physical-topography", "pre-monarchic-context", "davidic-context", "first-temple-context", "late-iron-age"],
+      "whyShown": {
+        "evidence": "Gihon is an established physical and archaeological feature in the existing atlas.",
+        "inference": "Its relationship to the ridge helps explain why water access mattered to Jerusalem's development; this does not identify every biblical water-system episode with a particular excavated feature."
+      }
+    },
+    {
+      "id": "kidron-valley",
+      "label": "Kidron Valley",
+      "summary": "The valley immediately east of ancient Jerusalem, providing a major topographic separation between the city ridge and Mount of Olives.",
+      "position": { "kind": "geographic", "coordinates": [35.241, 31.776] },
+      "evidenceClass": "real-terrain",
+      "confidence": "established",
+      "scripture": [{ "book": "2 Samuel", "chapter": 15, "verseStart": 23, "verseEnd": 30, "label": "2 Samuel 15:23–30" }, { "book": "John", "chapter": 18, "verseStart": 1, "verseEnd": 1, "label": "John 18:1" }],
+      "sourceIds": ["source-united-monarchy-text", "source-gospels-canonical", "source-jerusalem-bible-archaeology", "source-jerusalem-nt-archaeology"],
+      "placeId": "kidron-valley",
+      "whyShown": {
+        "evidence": "The Kidron Valley is a secure geographic feature east of Jerusalem.",
+        "inference": "A single atlas point represents a valley area for interaction; it is not a claim that biblical crossings occurred at that exact pixel."
+      }
+    },
+    {
+      "id": "mount-of-olives-ridge",
+      "label": "Mount of Olives ridge",
+      "summary": "The established ridge east of Jerusalem, important in David's flight and later Gospel geography.",
+      "position": { "kind": "geographic", "coordinates": [35.243, 31.778] },
+      "evidenceClass": "real-terrain",
+      "confidence": "established",
+      "scripture": [{ "book": "2 Samuel", "chapter": 15, "verseStart": 30, "verseEnd": 30, "label": "2 Samuel 15:30" }, { "book": "Mark", "chapter": 13, "verseStart": 3, "verseEnd": 3, "label": "Mark 13:3" }],
+      "sourceIds": ["source-united-monarchy-text", "source-gospels-canonical", "source-jerusalem-bible-archaeology", "source-jerusalem-nt-archaeology"],
+      "placeId": "mount-olives",
+      "periodIds": ["physical-topography", "davidic-context", "herodian-period", "circa-30-ce", "seventy-ce"],
+      "whyShown": {
+        "evidence": "The Mount of Olives ridge is a securely identified geographic landmark.",
+        "inference": "The ridge coordinate does not identify an exact tree, teaching spot, route, or later shrine as the location of a biblical episode."
+      }
+    },
+    {
+      "id": "temple-mount-precinct",
+      "label": "Temple Mount / Haram al-Sharif precinct",
+      "summary": "The physical sacred precinct north of the southeastern ridge, historically associated with the First and Second Temples while the exact First Temple footprint remains archaeologically inaccessible and uncertain.",
+      "position": { "kind": "geographic", "coordinates": [35.2354, 31.7781] },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [{ "book": "2 Chronicles", "chapter": 3, "verseStart": 1, "verseEnd": 1, "label": "2 Chronicles 3:1" }, { "book": "Mark", "chapter": 13, "verseStart": 1, "verseEnd": 2, "label": "Mark 13:1–2" }],
+      "sourceIds": ["source-united-monarchy-text", "source-jerusalem-bible-archaeology", "source-batch4-methodology", "source-gospels-canonical", "source-jerusalem-nt-archaeology"],
+      "placeId": "temple-mount",
+      "periodIds": ["physical-topography", "first-temple-context", "late-iron-age", "persian-period", "hasmonean-period", "herodian-period", "circa-30-ce", "seventy-ce"],
+      "whyShown": {
+        "evidence": "The precinct itself is an established physical location with strong historical association to the Jerusalem temples.",
+        "inference": "Using the precinct as a scene anchor does not identify the exact First Temple footprint or reproduce a verified Herodian sanctuary plan.",
+        "alternatives": "Future reconstructions must distinguish the physical platform, period-specific expansions, textual temple references, and the uncertainty of inaccessible subsurface remains."
+      }
+    },
+    {
+      "id": "first-temple-footprint-unknown",
+      "label": "Exact First Temple footprint: not mapped",
+      "summary": "The atlas intentionally refuses to draw an exact First Temple building footprint from the available project evidence.",
+      "position": { "kind": "geographic", "coordinates": [35.2354, 31.7781] },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "unknown",
+      "scripture": [{ "book": "1 Kings", "chapter": 6, "label": "1 Kings 6" }],
+      "sourceIds": ["source-united-monarchy-text", "source-jerusalem-bible-archaeology", "source-batch4-methodology"],
+      "placeId": "temple-mount",
+      "periodIds": ["first-temple-context", "late-iron-age"],
+      "whyShown": {
+        "evidence": "Biblical texts describe the temple, and the Temple Mount precinct is historically associated with it, but the existing project does not possess direct excavation of an exact First Temple footprint.",
+        "inference": "The hotspot is a warning attached to the precinct, not a building coordinate.",
+        "alternatives": "Any future footprint visualization must be labeled interpretive and cite the reconstruction model used."
+      }
+    },
+    {
+      "id": "siloam-tunnel",
+      "label": "Siloam / Hezekiah's Tunnel",
+      "summary": "The established rock-cut tunnel carrying Gihon water toward the southern part of ancient Jerusalem, commonly associated with Hezekiah's preparations.",
+      "position": { "kind": "geographic", "coordinates": [35.236, 31.773] },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [{ "book": "2 Kings", "chapter": 20, "verseStart": 20, "verseEnd": 20, "label": "2 Kings 20:20" }],
+      "sourceIds": ["source-divided-kingdom-text", "source-siloam-inscription", "source-mazar-land-bible", "source-jerusalem-bible-archaeology"],
+      "placeId": "siloam-tunnel",
+      "periodIds": ["late-iron-age"],
+      "whyShown": {
+        "evidence": "The tunnel and inscription are archaeological realities in Jerusalem's water system.",
+        "inference": "The inscription itself does not name Hezekiah; the common association depends on archaeological and biblical context."
+      }
+    },
+    {
+      "id": "second-temple-siloam",
+      "label": "Pool of Siloam — Second Temple period",
+      "summary": "The excavated Second Temple-period pool at the southern end of the City of David area, associated in John 9 with the healing of the man born blind.",
+      "position": { "kind": "geographic", "coordinates": [35.235, 31.77] },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [{ "book": "John", "chapter": 9, "verseStart": 1, "verseEnd": 7, "label": "John 9:1–7" }],
+      "sourceIds": ["source-gospels-canonical", "source-bethesda-siloam", "source-jerusalem-nt-archaeology"],
+      "placeId": "pool-siloam-second-temple",
+      "periodIds": ["hasmonean-period", "herodian-period", "circa-30-ce", "seventy-ce"],
+      "whyShown": {
+        "evidence": "The existing Gospel-period atlas record identifies the excavated pool complex at this location.",
+        "inference": "The archaeology establishes the pool setting; it does not independently adjudicate the theological meaning of John 9."
+      }
+    },
+    {
+      "id": "moriah-traditional-association",
+      "label": "Moriah — canonical/traditional Jerusalem association",
+      "summary": "Genesis 22 names the land of Moriah; 2 Chronicles 3:1 later names Mount Moriah for Solomon's temple, creating the canonical basis for the Jerusalem association without turning Genesis 22 into a modern surveyed coordinate.",
+      "position": { "kind": "geographic", "coordinates": [35.2354, 31.778] },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "scripture": [{ "book": "Genesis", "chapter": 22, "verseStart": 2, "verseEnd": 2, "label": "Genesis 22:2" }, { "book": "2 Chronicles", "chapter": 3, "verseStart": 1, "verseEnd": 1, "label": "2 Chronicles 3:1" }],
+      "sourceIds": ["source-genesis-text", "source-sacred-bridge", "source-batch2-methodology", "source-united-monarchy-text", "source-batch4-methodology"],
+      "placeId": "moriah",
+      "periodIds": ["first-temple-context", "late-iron-age", "persian-period"],
+      "whyShown": {
+        "evidence": "The canonical link comes from reading Genesis 22 alongside 2 Chronicles 3:1.",
+        "inference": "The atlas places the Moriah association at the Temple Mount tradition while retaining its traditional coordinate role.",
+        "alternatives": "Genesis 22 itself does not provide a modern coordinate, and this scene does not claim archaeological proof of Abraham's precise location."
+      }
+    },
+    {
+      "id": "zion-has-no-single-pin",
+      "label": "Zion changes meaning — no single permanent pin",
+      "summary": "In 2 Samuel 5 Zion names the captured stronghold/City of David context; later biblical usage broadens toward Jerusalem and the temple. The underlying atlas record therefore intentionally has no coordinates.",
+      "position": { "kind": "geographic", "coordinates": [35.236, 31.7735] },
+      "evidenceClass": "historical-inference",
+      "confidence": "established",
+      "scripture": [{ "book": "2 Samuel", "chapter": 5, "verseStart": 7, "verseEnd": 9, "label": "2 Samuel 5:7–9" }],
+      "sourceIds": ["source-united-monarchy-text", "source-anchor-yale", "source-jerusalem-bible-archaeology", "source-batch4-methodology"],
+      "placeId": "zion-biblical",
+      "periodIds": ["davidic-context", "first-temple-context", "late-iron-age", "persian-period"],
+      "whyShown": {
+        "evidence": "The existing atlas explicitly models Zion as a changing biblical toponym and stores no coordinate for the Zion record itself.",
+        "inference": "This hotspot is placed on the southeastern ridge only to explain the early 2 Samuel association in the active period view; it is not a coordinate assigned to Zion.",
+        "alternatives": "Later biblical and traditional uses broaden or shift the term, so the scene changes explanation rather than moving a supposed eternal Zion pin."
+      }
+    }
+  ]
+}

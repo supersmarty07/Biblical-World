@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "nineveh-assyrian-city",
+  "title": "Nineveh: Assyrian Capital & Biblical Horizon",
+  "subtitle": "Imperial archaeology, Jonah’s setting, and the 612 BCE fall",
+  "summary": "Explore securely identified Nineveh as an Assyrian imperial city while separating its archaeology from the historicity/dating of Jonah and from any invented point for the city’s 612 BCE capture.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "nineveh"
+  ],
+  "disclaimer": "Nineveh is securely identified archaeologically. This scene does not claim that excavated palaces verify Jonah’s narrated events, nor does it place the 612 BCE battle at a precise point within the city.",
+  "evidenceLegend": [
+    {
+      "class": "real-terrain",
+      "label": "Physical terrain",
+      "description": "Measured terrain only when a verified DEM is configured; otherwise the map remains a geographic reference surface."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Known archaeology",
+      "description": "Excavated or independently established places/features represented only at the precision supported by existing atlas records."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Historical interpretation",
+      "description": "Textual or scholarly historical context that does not by itself identify a specific excavated structure or event point."
+    },
+    {
+      "class": "tradition",
+      "label": "Later tradition",
+      "description": "A later commemorative or reception-history identification kept distinct from first-century or ancient evidence."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "A building, route, event point, or interpretive identification that cannot responsibly be fixed to an exact coordinate."
+    }
+  ],
+  "periods": [
+    {
+      "id": "archaeological-city",
+      "label": "Archaeological city",
+      "note": "Shows Nineveh as a known archaeological city on the Tigris opposite modern Mosul.",
+      "camera": {
+        "center": [
+          43.152,
+          36.359
+        ],
+        "zoom": 12.1,
+        "pitch": 54,
+        "bearing": 12,
+        "coordinateRole": "identified-site",
+        "note": "Centers the securely identified ancient city; no palace room or biblical event point is implied."
+      }
+    },
+    {
+      "id": "assyrian-imperial",
+      "label": "Assyrian imperial context",
+      "from": -705,
+      "to": -612,
+      "note": "Frames the late Neo-Assyrian capital known from palaces, walls, reliefs, and inscriptions.",
+      "camera": {
+        "center": [
+          43.152,
+          36.359
+        ],
+        "zoom": 11.6,
+        "pitch": 58,
+        "bearing": 8,
+        "coordinateRole": "identified-site",
+        "note": "City-scale archaeological context only."
+      }
+    },
+    {
+      "id": "jonah-literary",
+      "label": "Jonah’s Nineveh",
+      "note": "Uses the established city as the text’s named destination while keeping the narrative’s historicity and composition questions separate.",
+      "camera": {
+        "center": [
+          43.152,
+          36.359
+        ],
+        "zoom": 10.8,
+        "pitch": 40,
+        "bearing": 0,
+        "coordinateRole": "identified-site",
+        "note": "The camera locates Nineveh, not Jonah within Nineveh."
+      }
+    },
+    {
+      "id": "fall-612-bce",
+      "label": "Fall of Nineveh · 612 BCE",
+      "from": -612,
+      "to": -612,
+      "note": "The city’s capture is historically documented; this prototype does not reconstruct assault lines or destruction by quarter.",
+      "camera": {
+        "center": [
+          43.152,
+          36.359
+        ],
+        "zoom": 10.9,
+        "pitch": 45,
+        "bearing": -8,
+        "coordinateRole": "identified-site",
+        "note": "City-level event context; no exact battle point is asserted."
+      }
+    }
+  ],
+  "defaultPeriodId": "archaeological-city",
+  "entryCamera": {
+    "center": [
+      43.152,
+      36.359
+    ],
+    "zoom": 12.1,
+    "pitch": 54,
+    "bearing": 12,
+    "coordinateRole": "identified-site",
+    "note": "Centers the securely identified archaeological city of Nineveh."
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "nineveh-city",
+      "label": "Nineveh",
+      "summary": "Archaeologically established Assyrian city whose urban reality is independent evidence from the literary questions surrounding Jonah.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          43.152,
+          36.359
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Jonah",
+          "chapter": 1,
+          "verseStart": 2,
+          "verseEnd": 2,
+          "label": "Jonah 1:2"
+        },
+        {
+          "book": "Jonah",
+          "chapter": 3,
+          "label": "Jonah 3"
+        }
+      ],
+      "sourceIds": [
+        "source-divided-kingdom-text",
+        "source-assyrian-royal-inscriptions",
+        "source-anchor-yale"
+      ],
+      "placeId": "nineveh",
+      "whyShown": {
+        "evidence": "Nineveh is securely identified and preserves extensive Neo-Assyrian remains.",
+        "inference": "The city can be mapped as Jonah’s named destination without converting archaeology into proof of Jonah’s narrative.",
+        "alternatives": "Questions of Jonah’s genre, date, and historical reconstruction remain separate."
+      }
+    },
+    {
+      "id": "nineveh-fall",
+      "label": "612 BCE city fall",
+      "summary": "Babylonian chronicle evidence anchors the capture of Nineveh historically while the detailed battlefield geometry remains unreconstructed.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          43.152,
+          36.359
+        ]
+      },
+      "evidenceClass": "historical-inference",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Nahum",
+          "chapter": 1,
+          "label": "Nahum 1"
+        }
+      ],
+      "sourceIds": [
+        "source-fall-nineveh-chronicle",
+        "source-lipschits-fall-rise"
+      ],
+      "placeId": "nineveh",
+      "periodIds": [
+        "fall-612-bce"
+      ],
+      "whyShown": {
+        "evidence": "The fall of Nineveh in 612 BCE is independently attested in Babylonian chronicle evidence.",
+        "inference": "The city is the secure geographic anchor for the event.",
+        "alternatives": "The scene does not derive a street-by-street destruction sequence from Nahum or the chronicle."
+      }
+    }
+  ]
+}

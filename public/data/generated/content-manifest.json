@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "atlasVersion": "2.0.0-alpha.11",
+  "packs": [
+    {
+      "id": "genesis",
+      "label": "Genesis",
+      "counts": {
+        "places": 34,
+        "people": 15,
+        "events": 12,
+        "journeys": 6,
+        "stories": 5,
+        "sources": 7,
+        "regions": 4,
+        "visionaryScenes": 0
+      }
+    },
+    {
+      "id": "exodus-judges",
+      "label": "Exodus → Judges",
+      "counts": {
+        "places": 75,
+        "people": 23,
+        "events": 27,
+        "journeys": 11,
+        "stories": 12,
+        "sources": 10,
+        "regions": 10,
+        "visionaryScenes": 0
+      }
+    },
+    {
+      "id": "united-monarchy",
+      "label": "Ruth → United Monarchy",
+      "counts": {
+        "places": 47,
+        "people": 20,
+        "events": 26,
+        "journeys": 10,
+        "stories": 10,
+        "sources": 6,
+        "regions": 7,
+        "visionaryScenes": 0
+      }
+    },
+    {
+      "id": "divided-kingdom",
+      "label": "Divided Kingdom + Prophets",
+      "counts": {
+        "places": 33,
+        "people": 30,
+        "events": 28,
+        "journeys": 9,
+        "stories": 10,
+        "sources": 17,
+        "regions": 10,
+        "visionaryScenes": 0
+      }
+    },
+    {
+      "id": "exile-restoration",
+      "label": "Exile → Restoration",
+      "counts": {
+        "places": 40,
+        "people": 43,
+        "events": 39,
+        "journeys": 9,
+        "stories": 11,
+        "sources": 27,
+        "regions": 11,
+        "visionaryScenes": 0
+      }
+    },
+    {
+      "id": "second-temple",
+      "label": "Second Temple / Intertestamental",
+      "counts": {
+        "places": 36,
+        "people": 31,
+        "events": 33,
+        "journeys": 7,
+        "stories": 10,
+        "sources": 27,
+        "regions": 10,
+        "visionaryScenes": 0
+      }
+    },
+    {
+      "id": "gospels",
+      "label": "Gospels",
+      "counts": {
+        "places": 50,
+        "people": 34,
+        "events": 40,
+        "journeys": 8,
+        "stories": 12,
+        "sources": 28,
+        "regions": 10,
+        "visionaryScenes": 0
+      }
+    },
+    {
+      "id": "acts-paul",
+      "label": "Acts + Paul",
+      "counts": {
+        "places": 73,
+        "people": 45,
+        "events": 40,
+        "journeys": 8,
+        "stories": 13,
+        "sources": 30,
+        "regions": 12,
+        "visionaryScenes": 0
+      }
+    },
+    {
+      "id": "revelation",
+      "label": "Revelation",
+      "counts": {
+        "places": 17,
+        "people": 5,
+        "events": 20,
+        "journeys": 1,
+        "stories": 7,
+        "sources": 14,
+        "regions": 3,
+        "visionaryScenes": 10
+      }
+    }
+  ],
+  "totals": {
+    "places": 405,
+    "people": 246,
+    "events": 265,
+    "journeys": 69,
+    "stories": 90,
+    "sources": 166,
+    "regions": 77,
+    "visionaryScenes": 10
+  }
+}

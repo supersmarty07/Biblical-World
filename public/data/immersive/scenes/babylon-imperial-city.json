@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "id": "babylon-imperial-city",
+  "title": "Babylon: City, Exile & Empire",
+  "subtitle": "Archaeological Babylon separated from biblical literary settings",
+  "summary": "Explore the securely located city of Babylon, its Neo-Babylonian palace context, Judean exile setting, and the 539 BCE Persian transition without assigning biblical court scenes or Babel’s tower to excavated rooms.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "babylon",
+    "babylon-southern-palace",
+    "babylonia-exile-zone"
+  ],
+  "disclaimer": "Babylon is an archaeologically identified city. This scene does not identify a Tower of Babel structure, Daniel 5 banquet hall, exact deportee residence, or battle point. A configured DEM would show modern measured elevation only; no unverified ancient city mesh is bundled.",
+  "evidenceLegend": [
+    {
+      "class": "real-terrain",
+      "label": "Physical terrain",
+      "description": "Measured terrain only when a verified DEM is configured; otherwise the map remains a geographic reference surface."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Known archaeology",
+      "description": "Excavated or independently established places/features represented only at the precision supported by existing atlas records."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Historical interpretation",
+      "description": "Textual or scholarly historical context that does not by itself identify a specific excavated structure or event point."
+    },
+    {
+      "class": "tradition",
+      "label": "Later tradition",
+      "description": "A later commemorative or reception-history identification kept distinct from first-century or ancient evidence."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "A building, route, event point, or interpretive identification that cannot responsibly be fixed to an exact coordinate."
+    }
+  ],
+  "periods": [
+    {
+      "id": "archaeological-city",
+      "label": "Archaeological city",
+      "note": "Orients the user to the securely identified city and palace zone without reconstructing a complete ancient skyline.",
+      "camera": {
+        "center": [
+          44.42,
+          32.5364
+        ],
+        "zoom": 12.5,
+        "pitch": 55,
+        "bearing": -15,
+        "coordinateRole": "identified-site",
+        "note": "Centers the established archaeological city of Babylon; the camera is not an ancient viewpoint."
+      }
+    },
+    {
+      "id": "neo-babylonian",
+      "label": "Neo-Babylonian",
+      "from": -626,
+      "to": -539,
+      "note": "Frames Babylon as an imperial capital under the Neo-Babylonian dynasty. Named biblical court episodes are not assigned to excavated rooms.",
+      "camera": {
+        "center": [
+          44.4207,
+          32.5364
+        ],
+        "zoom": 13.2,
+        "pitch": 58,
+        "bearing": -10,
+        "coordinateRole": "identified-site",
+        "note": "Centers the excavated Southern Palace complex as imperial context, not as a proven Daniel scene."
+      }
+    },
+    {
+      "id": "judean-exile",
+      "label": "Judean exile",
+      "from": -597,
+      "to": -539,
+      "note": "Adds the documented Babylonian-exile world while keeping individual deportee residences and Al-Yahudu itself separate from the city center.",
+      "camera": {
+        "center": [
+          44.55,
+          32.5
+        ],
+        "zoom": 8.7,
+        "pitch": 35,
+        "bearing": 0,
+        "coordinateRole": "display-anchor",
+        "note": "Regional teaching camera between Babylon and the broader exile zone; it does not locate a specific Judean settlement."
+      }
+    },
+    {
+      "id": "persian-transition",
+      "label": "539 BCE transition",
+      "from": -539,
+      "to": -538,
+      "note": "Places the historically documented Persian conquest and Cyrus’s Babylonian policy context at city scale without drawing an exact conquest route.",
+      "camera": {
+        "center": [
+          44.42,
+          32.5364
+        ],
+        "zoom": 11.5,
+        "pitch": 45,
+        "bearing": 15,
+        "coordinateRole": "identified-site",
+        "note": "City-level Babylon orientation only; no troop route or gate event is asserted."
+      }
+    }
+  ],
+  "defaultPeriodId": "archaeological-city",
+  "entryCamera": {
+    "center": [
+      44.42,
+      32.5364
+    ],
+    "zoom": 12.5,
+    "pitch": 55,
+    "bearing": -15,
+    "coordinateRole": "identified-site",
+    "note": "Centers the established archaeological city of Babylon."
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "babylon-city",
+      "label": "Babylon",
+      "summary": "Securely located Mesopotamian city whose archaeological reality must be distinguished from the interpretation of individual biblical narratives.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          44.42,
+          32.5364
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "2 Kings",
+          "chapter": 24,
+          "verseStart": 10,
+          "verseEnd": 16,
+          "label": "2 Kings 24:10–16"
+        },
+        {
+          "book": "Daniel",
+          "chapter": 1,
+          "label": "Daniel 1"
+        }
+      ],
+      "sourceIds": [
+        "source-exile-restoration-text",
+        "source-babylonian-chronicle-5",
+        "source-batch6-methodology"
+      ],
+      "placeId": "babylon",
+      "whyShown": {
+        "evidence": "The archaeological city of Babylon is securely identified and independently documented.",
+        "inference": "Biblical narratives can therefore be placed in a real Babylonian geographic setting without treating each narrated episode as archaeologically demonstrated.",
+        "alternatives": "Genesis 11’s Babel narrative and later symbolic uses of Babylon require separate literary interpretation."
+      }
+    },
+    {
+      "id": "southern-palace",
+      "label": "Nebuchadnezzar II’s Southern Palace",
+      "summary": "Excavated Neo-Babylonian palace complex useful for court-world context, not a proven room for Daniel 1 or Daniel 5.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          44.4207,
+          32.5364
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Daniel",
+          "chapter": 5,
+          "label": "Daniel 5"
+        }
+      ],
+      "sourceIds": [
+        "source-collins-daniel",
+        "source-batch6-methodology"
+      ],
+      "placeId": "babylon-southern-palace",
+      "periodIds": [
+        "neo-babylonian"
+      ],
+      "whyShown": {
+        "evidence": "The palace complex is archaeological reality.",
+        "inference": "It demonstrates the kind of royal built environment that existed at Babylon.",
+        "alternatives": "No excavated hall is identified here as Belshazzar’s banquet room."
+      }
+    },
+    {
+      "id": "judean-exile-zone",
+      "label": "Judean exile settlement world",
+      "summary": "A broad display zone for Judean life in Babylonia, supported by cuneiform archives but not reduced to a single city neighborhood.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          44.9,
+          32.4
+        ]
+      },
+      "evidenceClass": "historical-inference",
+      "confidence": "probable",
+      "scripture": [
+        {
+          "book": "Ezekiel",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 3,
+          "label": "Ezekiel 1:1–3"
+        }
+      ],
+      "sourceIds": [
+        "source-al-yahudu",
+        "source-exile-restoration-text"
+      ],
+      "placeId": "babylonia-exile-zone",
+      "periodIds": [
+        "judean-exile"
+      ],
+      "whyShown": {
+        "evidence": "Documents attest Judean families living within Babylonian society.",
+        "inference": "The atlas uses a broad zone to communicate regional exile geography.",
+        "alternatives": "Specific homes and the exact location of every biblical exile community remain unknown."
+      }
+    },
+    {
+      "id": "babel-literary-association",
+      "label": "Babel / Babylon literary association",
+      "summary": "Genesis 11’s Babel is associated with Babylon/Shinar, but the story is not converted into an excavated tower coordinate.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          44.42,
+          32.5364
+        ]
+      },
+      "evidenceClass": "historical-inference",
+      "confidence": "probable",
+      "scripture": [
+        {
+          "book": "Genesis",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 9,
+          "label": "Genesis 11:1–9"
+        }
+      ],
+      "sourceIds": [
+        "source-genesis-text",
+        "source-batch2-methodology",
+        "source-anchor-yale"
+      ],
+      "placeId": "babylon",
+      "whyShown": {
+        "evidence": "The Hebrew Babel corresponds to Babylon and the city is geographically known.",
+        "inference": "The city-level association does not demonstrate a recoverable historical episode or identify a particular ziggurat as the biblical tower.",
+        "alternatives": "Literary, theological, and historical readings of Genesis 11 remain distinct from the city’s archaeological identification."
+      }
+    }
+  ]
+}

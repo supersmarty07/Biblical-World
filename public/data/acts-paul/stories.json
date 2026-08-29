@@ -299,8 +299,8 @@
         "contextYear": 35,
         "camera": {
           "center": [
-            35.0,
-            31.0
+            35,
+            31
           ],
           "zoom": 4.5,
           "pitch": 10
@@ -938,7 +938,11 @@
           ],
           "zoom": 7,
           "pitch": 25
-        }
+        },
+        "immersiveSceneId": "ephesus-roman-city",
+        "immersiveVariantId": "city-archaeology",
+        "immersivePeriodId": "roman-city",
+        "immersiveHotspotId": "ephesus-city"
       },
       {
         "id": "e2",
@@ -963,7 +967,10 @@
           ],
           "zoom": 8,
           "pitch": 20
-        }
+        },
+        "immersiveSceneId": "ephesus-roman-city",
+        "immersiveVariantId": "paul-ministry",
+        "immersivePeriodId": "pauline-ministry"
       },
       {
         "id": "e3",
@@ -988,7 +995,11 @@
           ],
           "zoom": 9,
           "pitch": 30
-        }
+        },
+        "immersiveSceneId": "ephesus-roman-city",
+        "immersiveVariantId": "artemis-theater",
+        "immersivePeriodId": "pauline-ministry",
+        "immersiveHotspotId": "ephesus-theater"
       },
       {
         "id": "e4",
@@ -1377,7 +1388,11 @@
           ],
           "zoom": 5,
           "pitch": 15
-        }
+        },
+        "immersiveSceneId": "rome-paul-imperial-city",
+        "immersiveVariantId": "paul-arrival",
+        "immersivePeriodId": "acts-28",
+        "immersiveHotspotId": "appii-forum-approx"
       },
       {
         "id": "vr6",
@@ -1403,7 +1418,11 @@
           ],
           "zoom": 7,
           "pitch": 20
-        }
+        },
+        "immersiveSceneId": "rome-paul-imperial-city",
+        "immersiveVariantId": "paul-arrival",
+        "immersivePeriodId": "acts-28",
+        "immersiveHotspotId": "rome-city"
       }
     ]
   },
@@ -1486,7 +1505,7 @@
         "camera": {
           "center": [
             32.3,
-            39.0
+            39
           ],
           "zoom": 5,
           "pitch": 10

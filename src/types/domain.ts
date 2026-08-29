@@ -31,6 +31,13 @@ export interface SourceRef {
   licenseUrl?: string;
   attribution?: string;
   verifiedAt?: string;
+  verificationStatus?: 'project-authored' | 'primary-verified' | 'research-supplied' | 'needs-verification';
+  verificationNote?: string;
+  accessedAt?: string;
+  doi?: string;
+  isbn?: string;
+  edition?: string;
+  pages?: string;
   notes?: string;
   kind?: SourceKind;
 }
@@ -109,6 +116,10 @@ export interface StoryChapter {
   textualReferences?: TextualReference[];
   contextYear?: number;
   visionarySceneId?: string;
+  immersiveSceneId?: string;
+  immersiveVariantId?: string;
+  immersivePeriodId?: string;
+  immersiveHotspotId?: string;
   camera?: {
     center: [number, number];
     zoom: number;

@@ -1,17 +1,21 @@
 import { atlasConfig } from '../config';
 import { useAtlasStore } from '../state/useAtlasStore';
 import { LayersIcon } from './Icons';
+import { DeploymentDiagnostics } from './DeploymentDiagnostics';
 
 export function LayerControls() {
   const layers = useAtlasStore((s) => s.layers);
   const toggleLayer = useAtlasStore((s) => s.toggleLayer);
   const terrainReady = Boolean(atlasConfig.terrainPmtilesUrl);
+  const roadsReady = Boolean(atlasConfig.romanRoadsGeojsonUrl);
+  const runtimeAssets = useAtlasStore((s) => s.runtimeAssets);
 
   const rows = [
     { key: 'places' as const, label: 'Biblical places', detail: 'Established, probable, candidate, and traditional points' },
     { key: 'journeys' as const, label: 'Biblical journeys', detail: 'Textual sequence with reconstructed and unknown corridors' },
     { key: 'regions' as const, label: 'Historical context', detail: 'Time-aware cultural-geographic context, never modern-style hard borders' },
-    { key: 'terrain' as const, label: '3D terrain', detail: terrainReady ? 'External PMTiles terrain' : 'Optional: set VITE_TERRAIN_PMTILES_URL', disabled: !terrainReady }
+    { key: 'roads' as const, label: 'Roman roads', detail: roadsReady ? `Verified/licensed road network · ${runtimeAssets['roman-roads'].state}` : 'Optional: set VITE_ROMAN_ROADS_GEOJSON_URL', disabled: !roadsReady },
+    { key: 'terrain' as const, label: '3D terrain', detail: terrainReady ? `External PMTiles terrain · ${runtimeAssets.terrain.state}` : 'Optional: set VITE_TERRAIN_PMTILES_URL', disabled: !terrainReady }
   ];
 
   return (
@@ -24,6 +28,7 @@ export function LayerControls() {
         </label>
       ))}
       <p className="panel-disclaimer">Unlocated places remain searchable but are intentionally not forced onto the map. Dashed routes are reconstructions.</p>
+      <DeploymentDiagnostics />
     </section>
   );
 }

@@ -168,7 +168,10 @@
           "zoom": 7,
           "pitch": 25
         },
-        "contextYear": -612
+        "contextYear": -612,
+        "immersiveSceneId": "nineveh-assyrian-city",
+        "immersivePeriodId": "fall-612-bce",
+        "immersiveHotspotId": "nineveh-fall"
       },
       {
         "id": "late-habakkuk",
@@ -455,7 +458,10 @@
           "zoom": 8,
           "pitch": 30
         },
-        "contextYear": -597
+        "contextYear": -597,
+        "immersiveSceneId": "babylon-imperial-city",
+        "immersivePeriodId": "judean-exile",
+        "immersiveHotspotId": "babylon-city"
       },
       {
         "id": "exile-yaukin",
@@ -472,7 +478,10 @@
           "zoom": 11,
           "pitch": 40
         },
-        "contextYear": -580
+        "contextYear": -580,
+        "immersiveSceneId": "babylon-imperial-city",
+        "immersivePeriodId": "neo-babylonian",
+        "immersiveHotspotId": "southern-palace"
       },
       {
         "id": "exile-communities",
@@ -489,7 +498,10 @@
           "zoom": 6.5,
           "pitch": 20
         },
-        "contextYear": -550
+        "contextYear": -550,
+        "immersiveSceneId": "babylon-imperial-city",
+        "immersivePeriodId": "judean-exile",
+        "immersiveHotspotId": "judean-exile-zone"
       }
     ]
   },
@@ -626,7 +638,10 @@
           "zoom": 10,
           "pitch": 35
         },
-        "contextYear": -590
+        "contextYear": -590,
+        "immersiveSceneId": "babylon-imperial-city",
+        "immersivePeriodId": "neo-babylonian",
+        "immersiveHotspotId": "southern-palace"
       },
       {
         "id": "dan-dura",
@@ -674,7 +689,10 @@
           "zoom": 7.5,
           "pitch": 30
         },
-        "contextYear": -539
+        "contextYear": -539,
+        "immersiveSceneId": "babylon-imperial-city",
+        "immersivePeriodId": "persian-transition",
+        "immersiveHotspotId": "babylon-city"
       },
       {
         "id": "dan-susa",
@@ -699,7 +717,11 @@
           "zoom": 8,
           "pitch": 25
         },
-        "contextYear": -540
+        "contextYear": -540,
+        "immersiveSceneId": "persian-royal-centers",
+        "immersiveVariantId": "susa-biblical-setting",
+        "immersivePeriodId": "achaemenid-context",
+        "immersiveHotspotId": "susa-city"
       },
       {
         "id": "dan-tigris",
@@ -767,7 +789,10 @@
           "zoom": 7,
           "pitch": 25
         },
-        "contextYear": -539
+        "contextYear": -539,
+        "immersiveSceneId": "babylon-imperial-city",
+        "immersivePeriodId": "persian-transition",
+        "immersiveHotspotId": "babylon-city"
       },
       {
         "id": "cyrus-cylinder",
@@ -784,7 +809,10 @@
           "zoom": 8,
           "pitch": 25
         },
-        "contextYear": -539
+        "contextYear": -539,
+        "immersiveSceneId": "babylon-imperial-city",
+        "immersivePeriodId": "persian-transition",
+        "immersiveHotspotId": "babylon-city"
       },
       {
         "id": "cyrus-ezra",
@@ -948,7 +976,11 @@
           "zoom": 9,
           "pitch": 35
         },
-        "contextYear": -480
+        "contextYear": -480,
+        "immersiveSceneId": "persian-royal-centers",
+        "immersiveVariantId": "susa-biblical-setting",
+        "immersivePeriodId": "achaemenid-context",
+        "immersiveHotspotId": "susa-city"
       },
       {
         "id": "esther-empire",
@@ -995,7 +1027,11 @@
           "zoom": 8,
           "pitch": 25
         },
-        "contextYear": -475
+        "contextYear": -475,
+        "immersiveSceneId": "persian-royal-centers",
+        "immersiveVariantId": "susa-biblical-setting",
+        "immersivePeriodId": "achaemenid-context",
+        "immersiveHotspotId": "susa-city"
       },
       {
         "id": "esther-purim",
@@ -1184,7 +1220,11 @@
           "zoom": 4.2,
           "pitch": 15
         },
-        "contextYear": -445
+        "contextYear": -445,
+        "immersiveSceneId": "persian-royal-centers",
+        "immersiveVariantId": "susa-biblical-setting",
+        "immersivePeriodId": "achaemenid-context",
+        "immersiveHotspotId": "susa-city"
       },
       {
         "id": "neh-beyond",

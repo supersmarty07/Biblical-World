@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "id": "northern-ministry-transfiguration",
+  "title": "Caesarea Philippi + the Unnamed Mountain",
+  "subtitle": "Northern ministry geography and the Transfiguration problem",
+  "summary": "Explore the securely identified Paneas/Caesarea Philippi district alongside the Gospel’s unnamed Transfiguration mountain, preserving Tabor tradition and Hermon proposals without choosing a winner.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "panium",
+    "mount-transfiguration",
+    "mount-tabor",
+    "mount-hermon"
+  ],
+  "disclaimer": "Paneas/Caesarea Philippi is securely located. The Transfiguration mountain is not named in the Gospels. Cameras for Tabor and Hermon show the physical mountains only in relation to their traditional/proposed identifications; they do not establish the Gospel mountain.",
+  "evidenceLegend": [
+    {
+      "class": "known-archaeology",
+      "label": "Established site",
+      "description": "A securely identified ancient site or physical mountain represented by an existing atlas record."
+    },
+    {
+      "class": "tradition",
+      "label": "Historical tradition",
+      "description": "A long-lived commemorative identification that is not established by the Gospel text."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Modern proposal",
+      "description": "A geographic proposal based on narrative sequence or physical geography rather than direct identification."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unnamed / unresolved",
+      "description": "The biblical text does not provide enough information for a secure coordinate."
+    }
+  ],
+  "periods": [],
+  "entryCamera": {
+    "center": [
+      35.694,
+      33.249
+    ],
+    "zoom": 8.9,
+    "pitch": 58,
+    "bearing": -20,
+    "coordinateRole": "identified-site",
+    "note": "Centers on the securely identified Paneas/Banias site; it does not imply that the Transfiguration occurred here."
+  },
+  "comparison": {
+    "presentation": "concepts",
+    "label": "Northern ministry geography",
+    "intro": "Separate what the Gospels actually name from later tradition and modern geographic proposals.",
+    "defaultOptionId": "caesarea-philippi-district",
+    "options": [
+      {
+        "id": "caesarea-philippi-district",
+        "label": "Caesarea Philippi district",
+        "status": "established",
+        "summary": "The Paneas/Banias sanctuary and settlement area is securely identified; Matthew and Mark place Peter’s confession in the Caesarea Philippi district.",
+        "rationale": "This is a firm geographic anchor for the northern sequence, though the exact conversational spot is not recoverable.",
+        "objections": "A securely located district does not identify the later Transfiguration mountain.",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "placeIds": [
+          "panium"
+        ],
+        "camera": {
+          "center": [
+            35.694,
+            33.249
+          ],
+          "zoom": 10.0,
+          "pitch": 60,
+          "bearing": -15,
+          "coordinateRole": "identified-site",
+          "note": "Camera centers on established Paneas/Banias as a regional anchor."
+        }
+      },
+      {
+        "id": "unnamed-mountain",
+        "label": "Unnamed high mountain",
+        "status": "unknown",
+        "summary": "The Synoptic Gospels describe a high mountain but do not name it.",
+        "rationale": "The most evidence-aware visualization is to preserve the mountain as unlocated while comparing later identifications separately.",
+        "objections": "Narrative proximity to Caesarea Philippi does not itself prove a particular summit.",
+        "sourceIds": [
+          "source-gospels-canonical",
+          "source-transfiguration-geography"
+        ],
+        "placeIds": [
+          "mount-transfiguration"
+        ],
+        "camera": {
+          "center": [
+            35.63,
+            33.05
+          ],
+          "zoom": 7.2,
+          "pitch": 48,
+          "bearing": 0,
+          "coordinateRole": "display-anchor",
+          "note": "Broad northern-region framing only; this camera is explicitly not the location of the Transfiguration mountain."
+        }
+      },
+      {
+        "id": "tabor-tradition",
+        "label": "Mount Tabor tradition",
+        "status": "traditional",
+        "summary": "Mount Tabor has a very old Christian Transfiguration tradition.",
+        "rationale": "The tradition is historically important and should be visible as tradition rather than silently promoted to established geography.",
+        "objections": "The Gospels do not name Tabor, and the narrative sequence does not establish this identification.",
+        "sourceIds": [
+          "source-transfiguration-geography",
+          "source-second-temple-atlas"
+        ],
+        "placeIds": [
+          "mount-tabor"
+        ],
+        "camera": {
+          "center": [
+            35.39,
+            32.687
+          ],
+          "zoom": 10.1,
+          "pitch": 62,
+          "bearing": -10,
+          "coordinateRole": "traditional-site",
+          "note": "Centers on physical Mount Tabor in its role as the traditional Transfiguration identification."
+        }
+      },
+      {
+        "id": "hermon-proposal",
+        "label": "Mount Hermon proposal",
+        "status": "possible",
+        "summary": "The Hermon massif is a common modern proposal because of elevation and proximity to the Caesarea Philippi episode.",
+        "rationale": "It is a plausible geographic proposal worth comparing, not a secure identification.",
+        "objections": "The Gospels do not name Hermon or provide enough information to establish the proposal.",
+        "sourceIds": [
+          "source-transfiguration-geography",
+          "source-second-temple-atlas"
+        ],
+        "placeIds": [
+          "mount-hermon"
+        ],
+        "camera": {
+          "center": [
+            35.86,
+            33.416
+          ],
+          "zoom": 9.0,
+          "pitch": 64,
+          "bearing": 18,
+          "coordinateRole": "candidate-site",
+          "note": "Centers on the physical Hermon massif only as a proposed Transfiguration region."
+        }
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "paneas-site",
+      "label": "Paneas / Caesarea Philippi",
+      "summary": "Securely identified sanctuary and settlement area anchoring the northern Gospel sequence.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.694,
+          33.249
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Matthew",
+          "chapter": 16,
+          "verseStart": 13,
+          "verseEnd": 20,
+          "label": "Matthew 16:13–20"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-second-temple-atlas"
+      ],
+      "placeId": "panium",
+      "variantIds": [
+        "caesarea-philippi-district"
+      ],
+      "whyShown": {
+        "evidence": "Paneas/Banias is securely identified and the Gospel text names the Caesarea Philippi district.",
+        "inference": "The conversation is not pinned to a particular shrine, cave, or building.",
+        "alternatives": "The district is an anchor for sequence, not proof of the next mountain location."
+      }
+    },
+    {
+      "id": "tabor-marker",
+      "label": "Mount Tabor — traditional identification",
+      "summary": "Physical Mount Tabor shown in its later traditional role.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.39,
+          32.687
+        ]
+      },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "scripture": [
+        {
+          "book": "Matthew",
+          "chapter": 17,
+          "verseStart": 1,
+          "verseEnd": 8,
+          "label": "Matthew 17:1–8"
+        }
+      ],
+      "sourceIds": [
+        "source-transfiguration-geography",
+        "source-second-temple-atlas"
+      ],
+      "placeId": "mount-tabor",
+      "variantIds": [
+        "tabor-tradition"
+      ],
+      "whyShown": {
+        "evidence": "Mount Tabor is a real, securely located mountain with a longstanding Christian tradition.",
+        "inference": "Its identification with the Gospel mountain is traditional, not established.",
+        "alternatives": "Hermon and other proposals remain possible; the Gospel mountain itself stays unpinned."
+      }
+    },
+    {
+      "id": "hermon-marker",
+      "label": "Mount Hermon — modern proposal",
+      "summary": "Physical Hermon massif displayed as a possible geographic proposal, not as the Gospel mountain.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.86,
+          33.416
+        ]
+      },
+      "evidenceClass": "historical-inference",
+      "confidence": "possible",
+      "scripture": [
+        {
+          "book": "Mark",
+          "chapter": 9,
+          "verseStart": 2,
+          "verseEnd": 8,
+          "label": "Mark 9:2–8"
+        }
+      ],
+      "sourceIds": [
+        "source-transfiguration-geography",
+        "source-second-temple-atlas"
+      ],
+      "placeId": "mount-hermon",
+      "variantIds": [
+        "hermon-proposal"
+      ],
+      "whyShown": {
+        "evidence": "Hermon is a real high massif near the northern ministry region.",
+        "inference": "Its Transfiguration identification is a modern geographic proposal.",
+        "alternatives": "Tabor tradition and an unresolved unnamed mountain remain distinct possibilities."
+      }
+    }
+  ]
+}

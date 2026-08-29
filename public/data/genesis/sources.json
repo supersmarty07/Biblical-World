@@ -1,16 +1,16 @@
 [
   {
     "id": "source-genesis-text",
-    "title": "Genesis — biblical text and canonical place/event sequence",
+    "title": "Genesis \u2014 biblical text and canonical place/event sequence",
     "organization": "Berean Standard Bible / canonical references",
     "url": "https://berean.bible/",
     "license": "CC0 / public domain according to project research supplied 2026-08-29",
-    "verifiedAt": "2026-08-29 — licensing status supplied by user research; official-source release check still recommended",
+    "verifiedAt": "2026-08-29 \u2014 licensing status supplied by user research; official-source release check still recommended",
     "notes": "This batch stores references and summaries, not a bundled full-text Bible. Scripture references are the primary source for narrative sequence; they do not by themselves establish modern geographic identification."
   },
   {
     "id": "source-sacred-bridge",
-    "title": "The Sacred Bridge: Carta’s Atlas of the Biblical World",
+    "title": "The Sacred Bridge: Carta\u2019s Atlas of the Biblical World",
     "author": "Anson F. Rainey and R. Steven Notley",
     "organization": "Carta",
     "notes": "Major scholarly historical-geography reference used as a secondary orientation source. Page-level pinpoint citations should be added during later editorial verification."
@@ -33,10 +33,13 @@
     "title": "Pleiades: A Gazetteer of Past Places",
     "organization": "Institute for the Study of the Ancient World / NYU",
     "url": "https://pleiades.stoa.org/",
-    "license": "CC BY (per 2026 research supplied by the user)",
-    "attribution": "Ancient-place data may be cross-checked against Pleiades; exact record IDs are intentionally not invented in this batch.",
-    "verifiedAt": "2026-08-29 — high-level licensing and suitability supplied by user research",
-    "notes": "Pleiades is strongest for classical antiquity and is not treated here as decisive for all Bronze Age identifications."
+    "license": "CC BY 4.0",
+    "attribution": "Pleiades: A Gazetteer of Past Places (https://pleiades.stoa.org), used under CC BY 4.0.",
+    "notes": "Pleiades is strongest for classical antiquity and is not treated here as decisive for all Bronze Age identifications.",
+    "licenseUrl": "https://pleiades.stoa.org/help/citing-pleiades",
+    "verificationStatus": "research-supplied",
+    "verificationNote": "License and selected place IDs supplied in the 2026-08-30 V2 verification packet. This build environment could not independently live-check the source.",
+    "accessedAt": "2026-08-30"
   },
   {
     "id": "source-natural-earth",
@@ -51,6 +54,9 @@
     "title": "Batch 2 Genesis Curation Methodology",
     "organization": "The Biblical World project",
     "license": "Original project metadata",
-    "notes": "Coordinates are intentionally classified by role. Established/probable sites use modern archaeological or city anchors; disputed or unlocated places are omitted from point rendering or shown only as explicitly labeled candidates/approximate anchors. Reconstructed route polylines are never presented as exact ancient footsteps."
+    "notes": "Coordinates are intentionally classified by role. Established/probable sites use modern archaeological or city anchors; disputed or unlocated places are omitted from point rendering or shown only as explicitly labeled candidates/approximate anchors. Reconstructed route polylines are never presented as exact ancient footsteps.",
+    "kind": "project-methodology",
+    "verificationStatus": "project-authored",
+    "verificationNote": "Project-authored curation methodology; no external source verification claim is implied."
   }
 ]

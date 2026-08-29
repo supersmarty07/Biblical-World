@@ -46,7 +46,10 @@
     ],
     "coordinateRole": "identified-site",
     "archaeology": "Early Roman-period domestic, agricultural, and funerary remains support a small Jewish settlement. Modern devotional sites are not treated as proof of specific household locations.",
-    "historicalContext": "Nazareth lay in Lower Galilee near, but distinct from, the larger urban center of Sepphoris."
+    "historicalContext": "Nazareth lay in Lower Galilee near, but distinct from, the larger urban center of Sepphoris.",
+    "externalIds": {
+      "pleiades": "668318"
+    }
   },
   {
     "id": "sepphoris",
@@ -261,7 +264,10 @@
     ],
     "coordinateRole": "identified-site",
     "archaeology": "Excavation reveals a Roman-period village, basalt domestic structures, and synagogue remains. The prominent limestone synagogue is later than Jesus, though earlier remains beneath it have been discussed.",
-    "historicalContext": "Capernaum sat near routes linking Galilee, the Golan, and territories east of the lake."
+    "historicalContext": "Capernaum sat near routes linking Galilee, the Golan, and territories east of the lake.",
+    "externalIds": {
+      "pleiades": "668270"
+    }
   },
   {
     "id": "sea-galilee",
@@ -536,7 +542,10 @@
       32.83
     ],
     "coordinateRole": "identified-site",
-    "archaeology": "Excavations have revealed an early Roman settlement, ritual baths, harbor-related features, and a first-century synagogue with the decorated Magdala Stone."
+    "archaeology": "Excavations have revealed an early Roman settlement, ritual baths, harbor-related features, and a first-century synagogue with the decorated Magdala Stone.",
+    "externalIds": {
+      "pleiades": "668289"
+    }
   },
   {
     "id": "tiberias",
@@ -1270,7 +1279,10 @@
       35.261,
       31.771
     ],
-    "coordinateRole": "identified-site"
+    "coordinateRole": "identified-site",
+    "externalIds": {
+      "pleiades": "687853"
+    }
   },
   {
     "id": "bethphage",

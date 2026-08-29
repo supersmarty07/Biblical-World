@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "sinai-wilderness-prototype",
+  "title": "Sinai Wilderness",
+  "subtitle": "Wilderness travel explorer - schematic environment, not a route reconstruction",
+  "summary": "An evidence-aware wilderness experience for topography, water stress, travel scale, and the limits of route reconstruction. It does not identify Mount Sinai or any Exodus station.",
+  "renderer": "panorama",
+  "availability": "prototype",
+  "placeIds": [
+    "mount-sinai",
+    "marah",
+    "elim",
+    "wilderness-sin",
+    "rephidim"
+  ],
+  "disclaimer": "Schematic environmental reconstruction based on broad arid-landscape characteristics and the textual wilderness setting. No depicted ridge, wadi, campsite, water source, route, or mountain is presented as the biblical location; site-specific terrain and paleoenvironment data remain pending primary-source verification.",
+  "evidenceLegend": [
+    {
+      "class": "artistic-reconstruction",
+      "label": "Schematic reconstruction",
+      "description": "Project-authored visual scaffolding used to test the scene engine; not a claim about a specific historical view."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Regional travel context",
+      "description": "Broad discussion of arid travel geography may be historically useful while remaining non-site-specific."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "Mount Sinai's modern location is not securely identified and competing proposal families remain separate."
+    }
+  ],
+  "periods": [
+    {
+      "id": "narrative-context",
+      "label": "Exodus narrative context",
+      "note": "Narrative-context mode only; this prototype does not assign a precise archaeological date to the Exodus."
+    }
+  ],
+  "defaultPeriodId": "narrative-context",
+  "panorama": {
+    "alt": "Schematic mountainous wilderness panorama illustrating travel constraints without identifying an Exodus route or Mount Sinai",
+    "worldWidthPercent": 185,
+    "initialPan": 0.5
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "sinai-location-unknown",
+      "label": "Mount Sinai remains unlocated",
+      "summary": "The biblical mountain is central to Exodus, but the atlas does not assign the biblical Mount Sinai a normal map coordinate.",
+      "position": {
+        "kind": "image",
+        "x": 0.5,
+        "y": 0.38
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "unknown",
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 19,
+          "label": "Exodus 19"
+        },
+        {
+          "book": "Exodus",
+          "chapter": 24,
+          "label": "Exodus 24"
+        }
+      ],
+      "sourceIds": [
+        "source-exodus-judges-text",
+        "source-batch3-methodology"
+      ],
+      "placeId": "mount-sinai",
+      "whyShown": {
+        "evidence": "The biblical text identifies a covenant mountain but does not provide a modern coordinate.",
+        "inference": "This schematic ridge communicates mountainous wilderness only; it is not an identification.",
+        "alternatives": "Southern Sinai tradition, northern/central Sinai or Negev proposals, and northwestern Arabia proposals remain distinct candidate families."
+      }
+    },
+    {
+      "id": "sinai-travel-scale",
+      "label": "Travel through arid terrain",
+      "summary": "V2 scenes can explain slope, exposure, route difficulty, and water constraints without drawing a falsely exact itinerary.",
+      "position": {
+        "kind": "image",
+        "x": 0.29,
+        "y": 0.66
+      },
+      "evidenceClass": "historical-inference",
+      "confidence": "possible",
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 15,
+          "label": "Exodus 15"
+        },
+        {
+          "book": "Exodus",
+          "chapter": 17,
+          "label": "Exodus 17"
+        }
+      ],
+      "sourceIds": [
+        "source-exodus-judges-text",
+        "source-hoffmeier-sinai",
+        "source-batch3-methodology"
+      ],
+      "whyShown": {
+        "evidence": "The narrative repeatedly describes wilderness travel and water stress.",
+        "inference": "Regional terrain and hydrology can illuminate travel constraints without proving a route.",
+        "alternatives": "Future scene packs should compare route families and hydrological reconstructions rather than merge them into one path."
+      }
+    },
+    {
+      "id": "sinai-reconstruction-boundary",
+      "label": "Reconstruction boundary",
+      "summary": "The rendered foreground is intentionally generic and is tagged as artistic reconstruction rather than archaeological evidence.",
+      "position": {
+        "kind": "image",
+        "x": 0.73,
+        "y": 0.72
+      },
+      "evidenceClass": "artistic-reconstruction",
+      "confidence": "possible",
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 19,
+          "label": "Exodus 19"
+        }
+      ],
+      "sourceIds": [
+        "source-batch3-methodology"
+      ],
+      "whyShown": {
+        "evidence": "No site-specific archaeological dataset is bundled with this engine prototype.",
+        "inference": "The visual layers exist to validate panorama movement, hotspot anchoring, and evidence labeling.",
+        "alternatives": "A release-quality Sinai scene should substitute verified DEM, imagery, geology, and paleoenvironment sources with explicit licenses and uncertainty notes."
+      }
+    },
+    {
+      "id": "sinai-water-stations",
+      "label": "Water stations: text known, sites unknown",
+      "summary": "Marah, Elim, and Rephidim structure the biblical itinerary, but their modern locations are not securely identified.",
+      "position": {
+        "kind": "image",
+        "x": 0.18,
+        "y": 0.73
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "unknown",
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 15,
+          "verseStart": 22,
+          "verseEnd": 27,
+          "label": "Exodus 15:22-27"
+        },
+        {
+          "book": "Exodus",
+          "chapter": 17,
+          "verseStart": 1,
+          "verseEnd": 7,
+          "label": "Exodus 17:1-7"
+        }
+      ],
+      "sourceIds": [
+        "source-exodus-judges-text",
+        "source-hoffmeier-sinai",
+        "source-batch3-methodology"
+      ],
+      "whyShown": {
+        "evidence": "The itinerary explicitly names water-related wilderness stations and episodes.",
+        "inference": "Water availability is a legitimate travel-geography question, but a generic oasis or wadi image cannot identify Marah, Elim, or Rephidim.",
+        "alternatives": "Candidate oases and route models should be introduced only as separately sourced proposals rather than silently embedded in the landscape."
+      }
+    }
+  ]
+}

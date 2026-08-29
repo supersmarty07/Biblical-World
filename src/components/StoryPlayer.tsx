@@ -17,6 +17,11 @@ export function StoryPlayer() {
   const openStory = useAtlasStore((s) => s.openStory);
   const setChapter = useAtlasStore((s) => s.setChapter);
   const setYear = useAtlasStore((s) => s.setYear);
+  const sceneCatalog = useAtlasStore((s) => s.sceneCatalog);
+  const openScene = useAtlasStore((s) => s.openScene);
+  const setActiveSceneVariant = useAtlasStore((s) => s.setActiveSceneVariant);
+  const setActiveScenePeriod = useAtlasStore((s) => s.setActiveScenePeriod);
+  const setActiveHotspot = useAtlasStore((s) => s.setActiveHotspot);
   const story = data?.stories.find((item) => item.id === activeStoryId);
 
   useEffect(() => {
@@ -48,6 +53,14 @@ export function StoryPlayer() {
   const chapter = story.chapters[Math.min(activeChapter, story.chapters.length - 1)];
   const person = story.personId ? data.people.find((item) => item.id === story.personId) : undefined;
   const character = characterForStory(story.personId);
+  const chapterScene = chapter.immersiveSceneId ? sceneCatalog.find((item) => item.id === chapter.immersiveSceneId) : undefined;
+  const openChapterScene = () => {
+    if (!chapter.immersiveSceneId) return;
+    openScene(chapter.immersiveSceneId);
+    if (chapter.immersiveVariantId) setActiveSceneVariant(chapter.immersiveVariantId);
+    if (chapter.immersivePeriodId) setActiveScenePeriod(chapter.immersivePeriodId);
+    if (chapter.immersiveHotspotId) setActiveHotspot(chapter.immersiveHotspotId);
+  };
 
   return (
     <section className="story-card story-card--active">
@@ -65,6 +78,7 @@ export function StoryPlayer() {
         </div>
       )}
       {chapter.visionarySceneId && <div className="evidence-banner">Visionary mode active: this chapter is rendered outside ordinary terrestrial map geography.</div>}
+      {chapter.immersiveSceneId && <button className="primary-button story-immersive-button" onClick={openChapterScene}><PlayIcon /> Explore {chapterScene?.title || 'immersive landscape'}</button>}
       {chapter.textualReferences && chapter.textualReferences.length > 0 && (
         <div className="scripture-chips scripture-chips--ancient" aria-label="Ancient textual references">
           {chapter.textualReferences.map((ref) => <span key={`${ref.sourceId}:${ref.label}`}>{ref.label} · {ref.kind.replaceAll('-', ' ')}</span>)}

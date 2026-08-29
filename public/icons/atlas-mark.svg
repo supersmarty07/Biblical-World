@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="The Biblical World atlas mark">
+  <rect width="128" height="128" rx="28" fill="#0b1113"/>
+  <circle cx="64" cy="64" r="42" fill="none" stroke="#dfbb75" stroke-width="3" opacity=".9"/>
+  <path d="M64 24v80M24 64h80" stroke="#dfbb75" stroke-width="2" opacity=".3"/>
+  <path d="M43 39h18c12 0 19 6 19 15 0 6-3 10-8 12 7 2 11 7 11 15 0 11-8 18-22 18H43V39Zm14 12v11h5c4 0 6-2 6-6s-2-5-6-5h-5Zm0 23v13h6c5 0 7-2 7-7 0-4-2-6-7-6h-6Z" fill="#f1cf86"/>
+</svg>

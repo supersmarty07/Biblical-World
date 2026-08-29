@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "pilate-trial-geography",
+  "title": "Pilate’s Praetorium: Trial Geography",
+  "subtitle": "Textual headquarters, western-palace model, and Antonia-area tradition",
+  "summary": "Compare the unlocated Gospel praetorium with the western Herodian palace model and the Antonia-area trial tradition without converting the modern Via Dolorosa into a recovered first-century route.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "jerusalem",
+    "praetorium-pilate",
+    "gabbatha",
+    "herods-palace-jerusalem",
+    "antonia-fortress"
+  ],
+  "disclaimer": "The Gospels place Jesus before Pilate at a praetorium in Jerusalem but do not supply a modern coordinate. The western Herodian palace is a major historical proposal; the Antonia-area location remains influential in later tradition. Neither model licenses an exact trial room, Gabbatha pavement, or recovered trial-to-Golgotha street route.",
+  "evidenceLegend": [
+    {
+      "class": "real-terrain",
+      "label": "Physical geography",
+      "description": "Established topography or measured terrain when a verified DEM is configured."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Known archaeology",
+      "description": "Archaeological context represented only at the level supported by existing atlas records."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Historical inference",
+      "description": "A historically reasoned reconstruction or orientation that is not an observed event location."
+    },
+    {
+      "class": "tradition",
+      "label": "Tradition",
+      "description": "A later Christian or local identification kept distinct from textual and archaeological certainty."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "An event point, route, building, or identification that cannot responsibly be fixed to one coordinate."
+    }
+  ],
+  "periods": [],
+  "entryCamera": {
+    "center": [
+      35.23,
+      31.778
+    ],
+    "zoom": 11,
+    "pitch": 43,
+    "bearing": 0,
+    "coordinateRole": "display-anchor",
+    "note": "The initial camera frames western and eastern Jerusalem together so competing praetorium models can be compared; it is not the praetorium coordinate."
+  },
+  "comparison": {
+    "presentation": "alternatives",
+    "label": "Where was Pilate’s Jerusalem praetorium?",
+    "intro": "The textual location is real but unpinned. Compare the principal geographic models while keeping physical structures separate from the claim that the trial occurred there.",
+    "defaultOptionId": "textual-praetorium",
+    "options": [
+      {
+        "id": "textual-praetorium",
+        "label": "Textual praetorium",
+        "status": "disputed",
+        "summary": "The Gospels identify the governor’s headquarters by function/name but do not give a recoverable modern coordinate.",
+        "rationale": "Starting from the text prevents either later model from being silently promoted to fact.",
+        "objections": "A display camera is necessary for orientation, but it must not be read as the building’s location.",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-pilate-jerusalem-debate"
+        ],
+        "placeIds": [
+          "praetorium-pilate",
+          "gabbatha"
+        ],
+        "camera": {
+          "center": [
+            35.23,
+            31.778
+          ],
+          "zoom": 11,
+          "pitch": 38,
+          "bearing": 0,
+          "coordinateRole": "display-anchor",
+          "note": "Frames central Jerusalem only; neither praetorium nor Gabbatha is pinned by this camera."
+        }
+      },
+      {
+        "id": "western-palace-model",
+        "label": "Western palace model",
+        "status": "possible",
+        "summary": "Herod’s palace complex on Jerusalem’s western hill is a major proposal for the governor’s temporary Jerusalem headquarters.",
+        "rationale": "Roman governors could use royal/palatial accommodation, and the palace location is historically/topographically significant in the debate.",
+        "objections": "The physical palace location does not prove that Jesus’ trial occurred at a specific room or pavement there.",
+        "sourceIds": [
+          "source-pilate-jerusalem-debate",
+          "source-jerusalem-nt-archaeology",
+          "source-second-temple-atlas"
+        ],
+        "placeIds": [
+          "herods-palace-jerusalem"
+        ],
+        "camera": {
+          "center": [
+            35.225,
+            31.776
+          ],
+          "zoom": 13,
+          "pitch": 48,
+          "bearing": 25,
+          "coordinateRole": "approximate-area",
+          "note": "This camera locates the approximate western palace complex, not a recovered trial chamber."
+        }
+      },
+      {
+        "id": "antonia-tradition",
+        "label": "Antonia-area tradition",
+        "status": "traditional",
+        "summary": "The Antonia fortress area is a real first-century topographic feature but its use as the site of Pilate’s trial is a separate traditional/historical claim.",
+        "rationale": "The area became central to later Passion topography and the Via Dolorosa tradition.",
+        "objections": "Knowing approximately where Antonia stood does not establish that it was the praetorium used by Pilate for this trial.",
+        "sourceIds": [
+          "source-pilate-jerusalem-debate",
+          "source-jerusalem-nt-archaeology",
+          "source-gospels-canonical"
+        ],
+        "placeIds": [
+          "antonia-fortress"
+        ],
+        "camera": {
+          "center": [
+            35.236,
+            31.781
+          ],
+          "zoom": 13,
+          "pitch": 48,
+          "bearing": -20,
+          "coordinateRole": "approximate-area",
+          "note": "This camera locates the approximate Antonia area; the trial identification remains traditional/disputed."
+        }
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "praetorium-unlocated",
+      "label": "Praetorium — textual, unlocated",
+      "summary": "The Gospel term names the governor’s headquarters but does not identify one recoverable modern building.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.23,
+          31.778
+        ]
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "disputed",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 18,
+          "verseStart": 28,
+          "label": "John 18:28"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-pilate-jerusalem-debate"
+      ],
+      "placeId": "praetorium-pilate",
+      "variantIds": [
+        "textual-praetorium"
+      ],
+      "whyShown": {
+        "evidence": "The praetorium is textually named.",
+        "inference": "The point is a display anchor for the unresolved city-level question, not a site identification."
+      }
+    },
+    {
+      "id": "gabbatha-unlocated",
+      "label": "Gabbatha / Lithostrotos — unlocated",
+      "summary": "John names Gabbatha but its modern position depends on the unresolved praetorium question.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.2307,
+          31.7784
+        ]
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "unknown",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 19,
+          "verseStart": 13,
+          "label": "John 19:13"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-pilate-jerusalem-debate"
+      ],
+      "placeId": "gabbatha",
+      "variantIds": [
+        "textual-praetorium"
+      ],
+      "whyShown": {
+        "evidence": "The place-name occurs in John.",
+        "inference": "This nearby display anchor exists solely to explain that no defensible coordinate is known."
+      }
+    },
+    {
+      "id": "western-palace-area",
+      "label": "Herod’s western palace complex",
+      "summary": "A historically probable palace area and a major praetorium proposal, represented only as an approximate zone.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.225,
+          31.776
+        ]
+      },
+      "evidenceClass": "historical-inference",
+      "confidence": "probable",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 18,
+          "verseStart": 28,
+          "verseEnd": 38,
+          "label": "John 18:28–38"
+        }
+      ],
+      "sourceIds": [
+        "source-pilate-jerusalem-debate",
+        "source-jerusalem-nt-archaeology"
+      ],
+      "placeId": "herods-palace-jerusalem",
+      "variantIds": [
+        "western-palace-model"
+      ],
+      "whyShown": {
+        "evidence": "The palace complex is historically/topographically well grounded as a broad area.",
+        "inference": "Its use as the specific Gospel praetorium is a historical proposal, not an excavated event association."
+      }
+    },
+    {
+      "id": "antonia-area",
+      "label": "Antonia fortress area",
+      "summary": "The fortress’s approximate physical location is historically significant; identifying it as Pilate’s trial site remains separate.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.236,
+          31.781
+        ]
+      },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 19,
+          "verseStart": 13,
+          "label": "John 19:13"
+        }
+      ],
+      "sourceIds": [
+        "source-pilate-jerusalem-debate",
+        "source-jerusalem-nt-archaeology"
+      ],
+      "placeId": "antonia-fortress",
+      "variantIds": [
+        "antonia-tradition"
+      ],
+      "whyShown": {
+        "evidence": "The Antonia area is part of first-century Jerusalem topography.",
+        "inference": "The hotspot’s evidence class refers to its use in trial tradition, not to the existence of the fortress itself.",
+        "alternatives": "The western-palace model remains a major alternative."
+      }
+    },
+    {
+      "id": "via-dolorosa-not-recovered",
+      "label": "Modern Via Dolorosa ≠ recovered route",
+      "summary": "The devotional route is historically important but is not presented as a street-by-street recovery of Jesus’ movement from trial to crucifixion.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.2338,
+          31.78
+        ]
+      },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 19,
+          "verseStart": 16,
+          "verseEnd": 17,
+          "label": "John 19:16–17"
+        }
+      ],
+      "sourceIds": [
+        "source-batch8-methodology",
+        "source-pilate-jerusalem-debate",
+        "source-holy-sepulchre-research"
+      ],
+      "whyShown": {
+        "evidence": "Later Christian tradition developed a devotional Passion route through the city.",
+        "inference": "The marker is explanatory only; no exact first-century route polyline is drawn."
+      }
+    }
+  ]
+}

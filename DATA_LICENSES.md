@@ -122,3 +122,19 @@ public/data/revelation/licenses.json
 ```
 
 The symbolic visualizations are original project artwork/code. Any future third-party iconography, museum object image, manuscript image, or archaeological photograph must receive object-level rights metadata before bundling.
+
+## Batch 11 note
+
+Batch 11 adds no new third-party historical dataset or image bundle. The new app mark, search implementation, PWA files, accessibility changes, source-audit tooling, and generated manifests are project-authored. External bibliographic records in the source registry remain citations/provenance pointers and do not imply redistribution rights to the cited works.
+
+## V2 verification packet register
+
+`public/data/verification/registry.json` records the licensing conclusions supplied in the 2026-08-30 research packet and separates them from the application's existing source records. The packet itself is research provenance; it is not a substitute for the legal terms embedded in an upstream dataset.
+
+Current integration policy:
+
+- resources marked `production-ready` or `ready-with-attribution` may be prepared for ingestion once actual source bytes and per-asset metadata are available;
+- resources marked `dataset-specific` require the exact dataset record/license before ingestion;
+- resources marked `non-commercial-only` must never become mandatory production dependencies;
+- historical coastline, paleoenvironment, and ancient-terrain layers derived from literature must be labeled as reconstructions and must not reproduce copyrighted figures or publication artwork;
+- research-packet readiness percentages are planning indicators, not proof that source assets are present in this repository.

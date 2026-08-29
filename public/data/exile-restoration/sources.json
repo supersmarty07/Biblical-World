@@ -13,7 +13,10 @@
     "title": "Batch 6 Exile, Babylon, Persia & Restoration Curation Methodology",
     "organization": "The Biblical World project",
     "license": "Original project metadata",
-    "notes": "Separates biblical narrative, securely dated imperial history, archaeological site identification, ancient inscriptions/tablets, literary setting, and reconstructed routes. Deportation and return lines visualize named endpoints and plausible corridors rather than recovered itineraries."
+    "notes": "Separates biblical narrative, securely dated imperial history, archaeological site identification, ancient inscriptions/tablets, literary setting, and reconstructed routes. Deportation and return lines visualize named endpoints and plausible corridors rather than recovered itineraries.",
+    "kind": "project-methodology",
+    "verificationStatus": "project-authored",
+    "verificationNote": "Project-authored curation methodology; no external source verification claim is implied."
   },
   {
     "id": "source-lipschits-fall-rise",

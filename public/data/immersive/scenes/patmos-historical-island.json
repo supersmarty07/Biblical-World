@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "patmos-historical-island",
+  "title": "Patmos: Historical Island & Visionary Threshold",
+  "subtitle": "The certain island, unknown first-century spot, and later cave tradition",
+  "summary": "Explore the securely identified island of Patmos while keeping John’s exact location unknown, the Cave of the Apocalypse traditional, and Revelation’s visionary worlds outside terrestrial mapping.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "patmos",
+    "cave-apocalypse-patmos"
+  ],
+  "disclaimer": "Patmos is securely identified as the island named in Revelation 1:9. Revelation does not specify a cave or exact point on the island. The traditional Cave of the Apocalypse is shown only as later reception history, and visionary entities continue to use the separate non-terrestrial Revelation system.",
+  "evidenceLegend": [
+    {
+      "class": "real-terrain",
+      "label": "Physical terrain",
+      "description": "Measured terrain only when a verified DEM is configured; otherwise the map remains a geographic reference surface."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Known archaeology",
+      "description": "Excavated or independently established places/features represented only at the precision supported by existing atlas records."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Historical interpretation",
+      "description": "Textual or scholarly historical context that does not by itself identify a specific excavated structure or event point."
+    },
+    {
+      "class": "tradition",
+      "label": "Later tradition",
+      "description": "A later commemorative or reception-history identification kept distinct from first-century or ancient evidence."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "A building, route, event point, or interpretive identification that cannot responsibly be fixed to an exact coordinate."
+    }
+  ],
+  "periods": [
+    {
+      "id": "first-century-island",
+      "label": "First-century island context",
+      "from": 1,
+      "to": 100,
+      "note": "Shows the real island geography without claiming an exact place where John received the visions.",
+      "camera": {
+        "center": [
+          26.55,
+          37.31
+        ],
+        "zoom": 10.8,
+        "pitch": 50,
+        "bearing": 10,
+        "coordinateRole": "approximate-area",
+        "note": "Broad Patmos island orientation based on the existing approximate-area atlas record."
+      }
+    }
+  ],
+  "defaultPeriodId": "first-century-island",
+  "entryCamera": {
+    "center": [
+      26.55,
+      37.31
+    ],
+    "zoom": 10.8,
+    "pitch": 50,
+    "bearing": 10,
+    "coordinateRole": "approximate-area",
+    "note": "Broad island orientation only; not John’s exact location."
+  },
+  "comparison": {
+    "presentation": "concepts",
+    "label": "Patmos lens",
+    "intro": "The text securely names the island but not John’s exact location. Later tradition must remain visually separate.",
+    "defaultOptionId": "patmos-island",
+    "options": [
+      {
+        "id": "patmos-island",
+        "label": "Island named in Revelation",
+        "status": "established",
+        "summary": "Modern Patmos securely identifies the island named in Revelation 1:9.",
+        "rationale": "The island can be mapped confidently at broad geographic scale.",
+        "objections": "The text does not give John’s exact point on the island.",
+        "sourceIds": [
+          "source-revelation-canonical",
+          "source-barrington-revelation",
+          "source-pleiades"
+        ],
+        "placeIds": [
+          "patmos"
+        ],
+        "camera": {
+          "center": [
+            26.55,
+            37.31
+          ],
+          "zoom": 10.8,
+          "pitch": 50,
+          "bearing": 10,
+          "coordinateRole": "approximate-area",
+          "note": "Broad island orientation; no event point is asserted."
+        }
+      },
+      {
+        "id": "john-location-unknown",
+        "label": "John’s exact location",
+        "status": "unknown",
+        "summary": "Revelation says John was on Patmos but does not identify a cave, settlement, shore, or mountain.",
+        "rationale": "The correct map treatment is to retain island-level geography and withhold an event pin.",
+        "objections": "Any exact first-century location would exceed the textual and archaeological evidence.",
+        "sourceIds": [
+          "source-revelation-canonical",
+          "source-b10-methodology"
+        ],
+        "placeIds": [
+          "patmos"
+        ],
+        "camera": {
+          "center": [
+            26.55,
+            37.31
+          ],
+          "zoom": 9.8,
+          "pitch": 35,
+          "bearing": 0,
+          "coordinateRole": "approximate-area",
+          "note": "Island-level orientation used precisely because John’s location within Patmos is unknown."
+        }
+      },
+      {
+        "id": "cave-tradition",
+        "label": "Cave of the Apocalypse tradition",
+        "status": "traditional",
+        "summary": "Later Christian tradition identifies a specific cave with John’s visionary experience.",
+        "rationale": "The site is important reception history and can be shown as a traditional place.",
+        "objections": "Revelation itself does not mention a cave, and archaeology cannot verify it as John’s visionary location.",
+        "sourceIds": [
+          "source-patmos-tradition-b10",
+          "source-b10-methodology",
+          "source-revelation-canonical"
+        ],
+        "placeIds": [
+          "cave-apocalypse-patmos"
+        ],
+        "camera": {
+          "center": [
+            26.5398,
+            37.3087
+          ],
+          "zoom": 14.2,
+          "pitch": 45,
+          "bearing": -15,
+          "coordinateRole": "traditional-site",
+          "note": "Centers the later traditional cave and labels it explicitly as tradition."
+        }
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "patmos-island",
+      "label": "Patmos",
+      "summary": "The island itself is the secure historical geography of Revelation 1:9.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          26.55,
+          37.31
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Revelation",
+          "chapter": 1,
+          "verseStart": 9,
+          "verseEnd": 11,
+          "label": "Revelation 1:9–11"
+        }
+      ],
+      "sourceIds": [
+        "source-revelation-canonical",
+        "source-barrington-revelation",
+        "source-pleiades"
+      ],
+      "placeId": "patmos",
+      "variantIds": [
+        "patmos-island",
+        "john-location-unknown"
+      ],
+      "whyShown": {
+        "evidence": "The island named in Revelation is securely identified with modern Patmos.",
+        "inference": "Only island-level geography is warranted for John’s presence.",
+        "alternatives": "No exact first-century visionary location is known."
+      }
+    },
+    {
+      "id": "cave-tradition-site",
+      "label": "Cave of the Apocalypse — traditional site",
+      "summary": "Important later Christian traditional site, not first-century proof of John’s location.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          26.5398,
+          37.3087
+        ]
+      },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "scripture": [
+        {
+          "book": "Revelation",
+          "chapter": 1,
+          "verseStart": 9,
+          "verseEnd": 11,
+          "label": "Revelation 1:9–11"
+        }
+      ],
+      "sourceIds": [
+        "source-patmos-tradition-b10",
+        "source-b10-methodology"
+      ],
+      "placeId": "cave-apocalypse-patmos",
+      "variantIds": [
+        "cave-tradition"
+      ],
+      "whyShown": {
+        "evidence": "The cave has major later Christian reception-history importance.",
+        "inference": "It is displayed because the tradition is historically significant.",
+        "alternatives": "The biblical text does not name a cave, so the site cannot be promoted to an established first-century location."
+      }
+    }
+  ]
+}

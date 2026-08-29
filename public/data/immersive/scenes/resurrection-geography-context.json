@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "id": "resurrection-geography-context",
+  "title": "Resurrection Geography: What Can the Atlas Map?",
+  "subtitle": "Jerusalem, Emmaus, and Galilee with geography separated from theological claims",
+  "summary": "Explore the geographic claims made by the resurrection narratives while keeping the supernatural claim outside archaeological adjudication and disputed destinations unpinned.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "jerusalem",
+    "tomb-jesus",
+    "emmaus-luke",
+    "qubeibeh-emmaus-traditional",
+    "sea-galilee",
+    "galilee-resurrection-mountain"
+  ],
+  "disclaimer": "This scene maps textual geography and independently assessable site traditions. It does not assign an archaeological confidence score to the resurrection itself, nor does it claim that archaeology can prove or disprove a supernatural event. The textual tomb, Luke’s Emmaus, and Matthew’s Galilee mountain remain unpinned.",
+  "evidenceLegend": [
+    {
+      "class": "real-terrain",
+      "label": "Physical geography",
+      "description": "Established topography or measured terrain when a verified DEM is configured."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Known archaeology",
+      "description": "Archaeological context represented only at the level supported by existing atlas records."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Historical inference",
+      "description": "A historically reasoned reconstruction or orientation that is not an observed event location."
+    },
+    {
+      "class": "tradition",
+      "label": "Tradition",
+      "description": "A later Christian or local identification kept distinct from textual and archaeological certainty."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "An event point, route, building, or identification that cannot responsibly be fixed to one coordinate."
+    }
+  ],
+  "periods": [],
+  "entryCamera": {
+    "center": [
+      35.235,
+      31.778
+    ],
+    "zoom": 9,
+    "pitch": 30,
+    "bearing": 0,
+    "coordinateRole": "identified-site",
+    "note": "The default camera locates Jerusalem as a securely identified city; it does not locate the textual tomb."
+  },
+  "comparison": {
+    "presentation": "concepts",
+    "label": "Geographic claims in the resurrection narratives",
+    "intro": "Switch among geographic contexts. Status labels apply to the mapped geography or identification problem, not to the theological truth of resurrection.",
+    "defaultOptionId": "jerusalem-tomb-narratives",
+    "options": [
+      {
+        "id": "jerusalem-tomb-narratives",
+        "label": "Jerusalem + textual tomb",
+        "status": "disputed",
+        "summary": "Jerusalem is secure geography; the specific tomb described by the Gospels remains disputed/unlocated.",
+        "rationale": "This lens separates a firmly identified city from an unresolved burial location within its wider historical landscape.",
+        "objections": "Theological resurrection claims are not archaeological location claims and receive no archaeological confidence score.",
+        "sourceIds": [
+          "source-gospels-canonical",
+          "source-holy-sepulchre-research",
+          "source-batch8-methodology"
+        ],
+        "placeIds": [
+          "jerusalem",
+          "tomb-jesus"
+        ],
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 10,
+          "pitch": 35,
+          "bearing": 0,
+          "coordinateRole": "identified-site",
+          "note": "Camera locates Jerusalem; the textual tomb itself remains unpinned."
+        }
+      },
+      {
+        "id": "emmaus-textual",
+        "label": "Emmaus — textual destination",
+        "status": "disputed",
+        "summary": "Luke describes a journey from Jerusalem to Emmaus, but the village’s modern identification is disputed.",
+        "rationale": "The narrative’s movement can be discussed without choosing one modern village or drawing a recovered road.",
+        "objections": "Distance/textual variants and multiple historical candidates prevent a single secure modern pin.",
+        "sourceIds": [
+          "source-gospels-canonical",
+          "source-emmaus-research",
+          "source-batch8-methodology"
+        ],
+        "placeIds": [
+          "emmaus-luke"
+        ],
+        "camera": {
+          "center": [
+            35.16,
+            31.82
+          ],
+          "zoom": 8,
+          "pitch": 24,
+          "bearing": -35,
+          "coordinateRole": "display-anchor",
+          "note": "This broad northwest-of-Jerusalem view is a narrative orientation only and is not an Emmaus candidate coordinate."
+        }
+      },
+      {
+        "id": "qubeibeh-tradition",
+        "label": "el-Qubeibeh tradition",
+        "status": "traditional",
+        "summary": "el-Qubeibeh is one later Christian Emmaus tradition and is kept separate from Luke’s unlocated textual destination.",
+        "rationale": "Showing a named tradition helps users understand why modern maps differ without promoting it to certainty.",
+        "objections": "It is one among multiple proposed identifications and its tradition is later than the Gospel period.",
+        "sourceIds": [
+          "source-emmaus-research",
+          "source-gospels-canonical"
+        ],
+        "placeIds": [
+          "qubeibeh-emmaus-traditional"
+        ],
+        "camera": {
+          "center": [
+            35.119,
+            31.84
+          ],
+          "zoom": 12,
+          "pitch": 32,
+          "bearing": 0,
+          "coordinateRole": "traditional-site",
+          "note": "Coordinates locate the el-Qubeibeh tradition, not Luke’s Emmaus as an established identification."
+        }
+      },
+      {
+        "id": "sea-galilee-context",
+        "label": "Sea of Galilee context",
+        "status": "established",
+        "summary": "The Sea of Galilee is securely identified physical geography; John 21 places an appearance narrative at the Sea of Tiberias.",
+        "rationale": "The established status applies to the lake’s geography, not to archaeological verification of the appearance narrative.",
+        "objections": "A narrative event at the lake does not yield an exact shoreline coordinate.",
+        "sourceIds": [
+          "source-gospels-canonical",
+          "source-gospel-geography"
+        ],
+        "placeIds": [
+          "sea-galilee"
+        ],
+        "camera": {
+          "center": [
+            35.58,
+            32.8
+          ],
+          "zoom": 8,
+          "pitch": 35,
+          "bearing": 0,
+          "coordinateRole": "identified-site",
+          "note": "Camera locates the Sea of Galilee region; it is not an appearance-event pin."
+        }
+      },
+      {
+        "id": "galilee-mountain-unlocated",
+        "label": "Matthew’s Galilee mountain",
+        "status": "unknown",
+        "summary": "Matthew places the commission on a mountain in Galilee but does not name the mountain.",
+        "rationale": "The scene can orient the user to Galilee while preserving the unnamed mountain as intentionally unlocated.",
+        "objections": "Equating it with another named/traditional mountain would add information the text does not supply.",
+        "sourceIds": [
+          "source-gospels-canonical",
+          "source-batch8-methodology"
+        ],
+        "placeIds": [
+          "galilee-resurrection-mountain"
+        ],
+        "camera": {
+          "center": [
+            35.5,
+            32.75
+          ],
+          "zoom": 7,
+          "pitch": 28,
+          "bearing": 0,
+          "coordinateRole": "display-anchor",
+          "note": "Broad Galilee orientation only; this camera is not a candidate for Matthew’s unnamed mountain."
+        }
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "resurrection-textual-tomb",
+      "label": "Textual tomb — still unpinned",
+      "summary": "The empty-tomb narratives refer to the burial location without making its modern identification archaeologically certain.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.2301,
+          31.7791
+        ]
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "disputed",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 20,
+          "verseStart": 1,
+          "verseEnd": 18,
+          "label": "John 20:1–18"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-batch8-methodology"
+      ],
+      "placeId": "tomb-jesus",
+      "variantIds": [
+        "jerusalem-tomb-narratives"
+      ],
+      "whyShown": {
+        "evidence": "The narratives refer back to the burial place.",
+        "inference": "This is a display anchor in Jerusalem, not a coordinate assigned to the textual tomb.",
+        "alternatives": "Holy Sepulchre and Garden Tomb traditions are assessed in the separate Golgotha/burial explorer."
+      }
+    },
+    {
+      "id": "emmaus-unlocated",
+      "label": "Emmaus — destination disputed",
+      "summary": "Luke’s journey has a named destination but no securely agreed modern identification.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.16,
+          31.82
+        ]
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "disputed",
+      "scripture": [
+        {
+          "book": "Luke",
+          "chapter": 24,
+          "verseStart": 13,
+          "verseEnd": 35,
+          "label": "Luke 24:13–35"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-emmaus-research"
+      ],
+      "placeId": "emmaus-luke",
+      "variantIds": [
+        "emmaus-textual"
+      ],
+      "whyShown": {
+        "evidence": "Luke names Emmaus and describes a journey from Jerusalem.",
+        "inference": "The point is a broad display anchor only; no candidate or road is selected."
+      }
+    },
+    {
+      "id": "qubeibeh-traditional-site",
+      "label": "el-Qubeibeh — later tradition",
+      "summary": "A medieval Christian Emmaus identification represented as a traditional site, not as Luke’s recovered village.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.119,
+          31.84
+        ]
+      },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "scripture": [
+        {
+          "book": "Luke",
+          "chapter": 24,
+          "verseStart": 13,
+          "verseEnd": 35,
+          "label": "Luke 24:13–35"
+        }
+      ],
+      "sourceIds": [
+        "source-emmaus-research"
+      ],
+      "placeId": "qubeibeh-emmaus-traditional",
+      "variantIds": [
+        "qubeibeh-tradition"
+      ],
+      "whyShown": {
+        "evidence": "The location has a later Christian Emmaus tradition.",
+        "inference": "Tradition is displayed as tradition and does not replace the unlocated Emmaus textual record."
+      }
+    },
+    {
+      "id": "sea-galilee-geography",
+      "label": "Sea of Galilee / Tiberias",
+      "summary": "The lake itself is established geography; the precise shoreline location of John 21 is not supplied by the text.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.58,
+          32.8
+        ]
+      },
+      "evidenceClass": "real-terrain",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "John",
+          "chapter": 21,
+          "verseStart": 1,
+          "verseEnd": 14,
+          "label": "John 21:1–14"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-gospel-geography"
+      ],
+      "placeId": "sea-galilee",
+      "variantIds": [
+        "sea-galilee-context"
+      ],
+      "whyShown": {
+        "evidence": "The Sea of Tiberias is a securely identified lake and is named in the narrative.",
+        "inference": "Established confidence refers to geographic identification only, not to proving the narrated appearance."
+      }
+    },
+    {
+      "id": "galilee-mountain-display",
+      "label": "Unnamed Galilee mountain",
+      "summary": "Matthew’s mountain remains intentionally unlocated within the broader Galilee context.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.5,
+          32.75
+        ]
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "unknown",
+      "scripture": [
+        {
+          "book": "Matthew",
+          "chapter": 28,
+          "verseStart": 16,
+          "verseEnd": 20,
+          "label": "Matthew 28:16–20"
+        }
+      ],
+      "sourceIds": [
+        "source-gospels-canonical",
+        "source-batch8-methodology"
+      ],
+      "placeId": "galilee-resurrection-mountain",
+      "variantIds": [
+        "galilee-mountain-unlocated"
+      ],
+      "whyShown": {
+        "evidence": "Matthew states that the disciples went to a mountain in Galilee.",
+        "inference": "The marker is a broad Galilee display anchor, explicitly not a proposed mountain identification."
+      }
+    }
+  ]
+}

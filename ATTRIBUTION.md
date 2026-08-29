@@ -1,6 +1,6 @@
 # Attribution
 
-## Current status — Batch 8
+## Current status — V2 alpha.9 verification integration
 
 The repository currently contains project-authored JSON summaries, confidence classifications, structured event-dating metadata, broad time-aware context polygons, schematic journey reconstructions, and inline SVG/CSS artwork covering **Genesis through the Gospels**, including the Second Temple / Hellenistic / Hasmonean / Herodian bridge and first-century Galilee/Judea context.
 
@@ -196,3 +196,24 @@ The pack intentionally distinguishes:
 - visionary New Jerusalem and related scenes from ordinary map geography.
 
 The `VisionaryOverlay` SVG/CSS artwork is project-authored and does not reproduce manuscript illuminations, museum objects, proprietary maps, or copyrighted publication artwork.
+
+## Batch 11 project-authored interface assets
+
+The v1.1 app icon (`public/icons/atlas-mark.svg`), service-worker logic, accessibility styles, dependency-free search implementation, provenance tooling, and generated catalog/report structures are project-authored code/interface assets. They do not add any new third-party historical imagery or datasets.
+
+## V2 verification packet integration — alpha.9
+
+The user-supplied 2026-08-30 verification packet has been imported as machine-readable metadata at `public/data/verification/registry.json`. Because this build environment has no live web access, packet conclusions are represented as **research-packet supplied**, not silently promoted to independently live-verified facts.
+
+Packet-backed open-data attribution records now include:
+
+- **Copernicus DEM GLO-30** — mandatory notice: “Produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved.” No DEM bytes are bundled yet.
+- **Pleiades: A Gazetteer of Past Places** — CC BY 4.0; selected identifiers are now stored in `PlaceRecord.externalIds.pleiades`.
+- **DARE / Digital Atlas of the Roman Empire** — CC BY 4.0 according to the packet. No road bytes are bundled; an optional road URL can be configured with `VITE_ROMAN_ROADS_GEOJSON_URL`.
+- **AWMC Antiquity À-la-carte** — CC BY 4.0 according to the packet.
+- **Natural Earth** — public domain; the existing small land silhouette remains the only bundled third-party geospatial derivative in this repository.
+- **Wikidata structured data** — packet classifies structured data as CC0. Only selected QIDs are stored; Wikidata coordinates do not override atlas confidence classifications.
+
+**ORBIS** and **Digital Augustan Rome** remain optional non-commercial research resources and are not production dependencies. **Open Context** is treated as dataset-specific: repository policy is not sufficient to ingest a particular excavation dataset without checking that dataset's own DOI/license record.
+
+No Matson, Met, Wikimedia, excavation-plan, DEM, or road-network image/data bytes were automatically imported from the research packet.

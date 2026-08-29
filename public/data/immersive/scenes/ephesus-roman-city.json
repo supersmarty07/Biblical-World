@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "id": "ephesus-roman-city",
+  "title": "Ephesus: Paul, Artemis & Roman Asia",
+  "subtitle": "Urban archaeology and ministry geography without invented addresses",
+  "summary": "Explore established Ephesus, its Great Theater and Artemision, Paul’s city-level ministry setting, and Revelation’s Ephesian context while keeping the Hall of Tyrannus and individual meeting houses unlocated.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "ephesus",
+    "ephesus-theater",
+    "artemision-ephesus",
+    "hall-tyrannus"
+  ],
+  "disclaimer": "Ephesus, the Great Theater, and Artemision are securely located. The Hall of Tyrannus remains unpinned. This prototype uses the modern map/coastline as reference and does not draw an unverified first-century harbor shoreline or reconstruct individual buildings beyond established archaeological locations.",
+  "evidenceLegend": [
+    {
+      "class": "real-terrain",
+      "label": "Physical terrain",
+      "description": "Measured terrain only when a verified DEM is configured; otherwise the map remains a geographic reference surface."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Known archaeology",
+      "description": "Excavated or independently established places/features represented only at the precision supported by existing atlas records."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Historical interpretation",
+      "description": "Textual or scholarly historical context that does not by itself identify a specific excavated structure or event point."
+    },
+    {
+      "class": "tradition",
+      "label": "Later tradition",
+      "description": "A later commemorative or reception-history identification kept distinct from first-century or ancient evidence."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "A building, route, event point, or interpretive identification that cannot responsibly be fixed to an exact coordinate."
+    }
+  ],
+  "periods": [
+    {
+      "id": "roman-city",
+      "label": "Roman city",
+      "from": -129,
+      "to": 100,
+      "note": "Orients the established city, theater, and Artemision in the Roman-period landscape without a full architectural reconstruction.",
+      "camera": {
+        "center": [
+          27.348,
+          37.943
+        ],
+        "zoom": 12.4,
+        "pitch": 57,
+        "bearing": -25,
+        "coordinateRole": "identified-site",
+        "note": "City-scale view anchored on established Ephesus archaeology; not a first-century eye-level viewpoint."
+      }
+    },
+    {
+      "id": "pauline-ministry",
+      "label": "Pauline ministry",
+      "from": 50,
+      "to": 60,
+      "note": "Frames Acts 18–20 at city level; Paul’s lecture hall, residence, and exact movement through streets remain unknown.",
+      "camera": {
+        "center": [
+          27.341,
+          37.94
+        ],
+        "zoom": 13,
+        "pitch": 56,
+        "bearing": -20,
+        "coordinateRole": "identified-site",
+        "note": "Centers Ephesus as the secure ministry setting, not the Hall of Tyrannus."
+      }
+    },
+    {
+      "id": "revelation-context",
+      "label": "Revelation context",
+      "note": "Shows Ephesus as one of the historical Seven Churches while leaving Revelation’s visionary entities in the separate visionary system.",
+      "camera": {
+        "center": [
+          27.341,
+          37.94
+        ],
+        "zoom": 12.5,
+        "pitch": 48,
+        "bearing": -10,
+        "coordinateRole": "identified-site",
+        "note": "Historical city context only; no visionary geography is projected onto the city."
+      }
+    }
+  ],
+  "defaultPeriodId": "roman-city",
+  "entryCamera": {
+    "center": [
+      27.348,
+      37.943
+    ],
+    "zoom": 12.4,
+    "pitch": 57,
+    "bearing": -25,
+    "coordinateRole": "identified-site",
+    "note": "Centers the established archaeological city and its nearby major sanctuary landscape."
+  },
+  "comparison": {
+    "presentation": "concepts",
+    "label": "Ephesus lens",
+    "intro": "The city is secure; individual ministry addresses are not. Use these lenses to separate archaeological anchors from textual urban activity.",
+    "defaultOptionId": "city-archaeology",
+    "options": [
+      {
+        "id": "city-archaeology",
+        "label": "Urban archaeology",
+        "status": "established",
+        "summary": "Ephesus, the theater, and Artemision are established archaeological anchors.",
+        "rationale": "These places can be mapped at site level without reconstructing every first-century street or building.",
+        "objections": "A verified period coastline/harbor reconstruction is still pending.",
+        "sourceIds": [
+          "source-ephesus-b9",
+          "source-barrington-acts",
+          "source-pleiades"
+        ],
+        "placeIds": [
+          "ephesus",
+          "ephesus-theater",
+          "artemision-ephesus"
+        ],
+        "camera": {
+          "center": [
+            27.348,
+            37.943
+          ],
+          "zoom": 12.4,
+          "pitch": 57,
+          "bearing": -25,
+          "coordinateRole": "identified-site",
+          "note": "Frames established urban archaeology."
+        }
+      },
+      {
+        "id": "paul-ministry",
+        "label": "Paul’s ministry",
+        "status": "established",
+        "summary": "Acts securely names Ephesus as Paul’s extended ministry setting; the Hall of Tyrannus is not archaeologically located.",
+        "rationale": "City-level geography can be shown without inventing the lecture hall or house-church addresses.",
+        "objections": "No current excavated building is promoted here as the Hall of Tyrannus.",
+        "sourceIds": [
+          "source-acts-canonical",
+          "source-batch9-methodology",
+          "source-ephesus-b9"
+        ],
+        "placeIds": [
+          "ephesus",
+          "hall-tyrannus"
+        ],
+        "camera": {
+          "center": [
+            27.341,
+            37.94
+          ],
+          "zoom": 12.8,
+          "pitch": 52,
+          "bearing": -12,
+          "coordinateRole": "identified-site",
+          "note": "Centers Ephesus as the secure city setting; it does not locate the Hall of Tyrannus."
+        }
+      },
+      {
+        "id": "artemis-theater",
+        "label": "Artemis + theater",
+        "status": "established",
+        "summary": "The Artemision and Great Theater provide independently known civic/religious context for Acts 19.",
+        "rationale": "Acts names the theater assembly and Artemis cult context, both of which can be connected to securely identified sites.",
+        "objections": "Acts does not say Paul entered the Artemision or identify his position inside the theater.",
+        "sourceIds": [
+          "source-acts-canonical",
+          "source-ephesus-b9"
+        ],
+        "placeIds": [
+          "ephesus-theater",
+          "artemision-ephesus"
+        ],
+        "camera": {
+          "center": [
+            27.351,
+            37.945
+          ],
+          "zoom": 12.2,
+          "pitch": 50,
+          "bearing": -18,
+          "coordinateRole": "display-anchor",
+          "note": "Frames both established sites together; no route between them is asserted."
+        }
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "ephesus-city",
+      "label": "Ephesus",
+      "summary": "Securely identified Roman Asian city central to Acts 18–20 and one of Revelation’s Seven Churches.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          27.341,
+          37.94
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Acts",
+          "chapter": 19,
+          "verseStart": 1,
+          "verseEnd": 41,
+          "label": "Acts 19:1–41"
+        },
+        {
+          "book": "Revelation",
+          "chapter": 2,
+          "verseStart": 1,
+          "verseEnd": 7,
+          "label": "Revelation 2:1–7"
+        }
+      ],
+      "sourceIds": [
+        "source-ephesus-b9",
+        "source-barrington-acts",
+        "source-pleiades"
+      ],
+      "placeId": "ephesus",
+      "variantIds": [
+        "city-archaeology",
+        "paul-ministry"
+      ],
+      "whyShown": {
+        "evidence": "Ancient Ephesus is securely identified and extensively excavated.",
+        "inference": "The city-level setting can anchor Acts and Revelation without assigning every narrative moment to a building.",
+        "alternatives": "Ancient shoreline and harbor configuration require verified geomorphological/archaeological data before being drawn."
+      }
+    },
+    {
+      "id": "ephesus-theater",
+      "label": "Great Theater of Ephesus",
+      "summary": "Established theater associated with the civic assembly in Acts 19.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          27.3417,
+          37.9411
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Acts",
+          "chapter": 19,
+          "verseStart": 29,
+          "verseEnd": 41,
+          "label": "Acts 19:29–41"
+        }
+      ],
+      "sourceIds": [
+        "source-acts-canonical",
+        "source-ephesus-b9"
+      ],
+      "placeId": "ephesus-theater",
+      "variantIds": [
+        "city-archaeology",
+        "artemis-theater"
+      ],
+      "whyShown": {
+        "evidence": "The Great Theater is securely located and fits the civic venue named in Acts 19.",
+        "inference": "The connection is at venue level, not seat or participant position.",
+        "alternatives": "No seat-by-seat reconstruction of the disturbance is claimed."
+      }
+    },
+    {
+      "id": "artemision",
+      "label": "Temple of Artemis / Artemision",
+      "summary": "Established major sanctuary central to Ephesian identity and Acts 19’s religious/economic context.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          27.3639,
+          37.9496
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Acts",
+          "chapter": 19,
+          "verseStart": 23,
+          "verseEnd": 35,
+          "label": "Acts 19:23–35"
+        }
+      ],
+      "sourceIds": [
+        "source-acts-canonical",
+        "source-ephesus-b9"
+      ],
+      "placeId": "artemision-ephesus",
+      "variantIds": [
+        "city-archaeology",
+        "artemis-theater"
+      ],
+      "whyShown": {
+        "evidence": "The Artemision site is securely identified archaeologically.",
+        "inference": "Its presence explains the wider civic/religious setting of Acts 19.",
+        "alternatives": "Acts does not place Paul inside the sanctuary."
+      }
+    }
+  ]
+}

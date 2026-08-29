@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "id": "rome-paul-imperial-city",
+  "title": "Rome: Paul’s Arrival & Imperial Context",
+  "subtitle": "Via Appia approach, city-level ministry, and Revelation interpretation kept distinct",
+  "summary": "Follow the secure broad approach from Puteoli toward Rome, orient to the imperial city, and keep Paul’s rented lodging and Revelation’s symbolic Babylon separate from any invented terrestrial point.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "rome",
+    "puteoli",
+    "appii-forum",
+    "three-taverns",
+    "paul-lodging-rome",
+    "babylon-great-revelation"
+  ],
+  "disclaimer": "Rome is securely located, while Paul’s rented lodging and Three Taverns remain unpinned. The Appii Forum coordinate is approximate. Revelation’s “Babylon the Great” remains a coordinate-free visionary entity even where Rome is judged a strong first-century interpretive referent.",
+  "evidenceLegend": [
+    {
+      "class": "real-terrain",
+      "label": "Physical terrain",
+      "description": "Measured terrain only when a verified DEM is configured; otherwise the map remains a geographic reference surface."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Known archaeology",
+      "description": "Excavated or independently established places/features represented only at the precision supported by existing atlas records."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Historical interpretation",
+      "description": "Textual or scholarly historical context that does not by itself identify a specific excavated structure or event point."
+    },
+    {
+      "class": "tradition",
+      "label": "Later tradition",
+      "description": "A later commemorative or reception-history identification kept distinct from first-century or ancient evidence."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "A building, route, event point, or interpretive identification that cannot responsibly be fixed to an exact coordinate."
+    }
+  ],
+  "periods": [
+    {
+      "id": "imperial-city",
+      "label": "Imperial city",
+      "from": -27,
+      "to": 100,
+      "note": "Orients the historical city of Rome without a complete first-century architectural reconstruction.",
+      "camera": {
+        "center": [
+          12.486,
+          41.893
+        ],
+        "zoom": 11.4,
+        "pitch": 55,
+        "bearing": -18,
+        "coordinateRole": "identified-site",
+        "note": "Centers Rome at city scale; no individual residence or senate venue is implied."
+      }
+    },
+    {
+      "id": "acts-28",
+      "label": "Acts 28 arrival",
+      "from": 55,
+      "to": 65,
+      "note": "Frames Paul’s arrival and city-level residence under guard while preserving the unknown address of his rented lodging.",
+      "camera": {
+        "center": [
+          12.486,
+          41.893
+        ],
+        "zoom": 10.8,
+        "pitch": 45,
+        "bearing": -10,
+        "coordinateRole": "identified-site",
+        "note": "Rome is secure; Paul’s lodging remains unlocated within it."
+      }
+    }
+  ],
+  "defaultPeriodId": "imperial-city",
+  "entryCamera": {
+    "center": [
+      12.486,
+      41.893
+    ],
+    "zoom": 11.4,
+    "pitch": 55,
+    "bearing": -18,
+    "coordinateRole": "identified-site",
+    "note": "Centers the securely identified city of Rome."
+  },
+  "comparison": {
+    "presentation": "concepts",
+    "label": "Rome lens",
+    "intro": "Separate the city’s physical archaeology, Paul’s broad arrival geography, and Revelation interpretation.",
+    "defaultOptionId": "imperial-rome",
+    "options": [
+      {
+        "id": "imperial-rome",
+        "label": "Imperial Rome",
+        "status": "established",
+        "summary": "Rome is a securely identified historical city and imperial capital.",
+        "rationale": "The city can be mapped confidently even when individual biblical addresses cannot.",
+        "objections": "No complete first-century city model or specific Pauline residence is claimed.",
+        "sourceIds": [
+          "source-second-temple-atlas",
+          "source-rome-b9",
+          "source-batch9-methodology"
+        ],
+        "placeIds": [
+          "rome"
+        ],
+        "camera": {
+          "center": [
+            12.486,
+            41.893
+          ],
+          "zoom": 11.4,
+          "pitch": 55,
+          "bearing": -18,
+          "coordinateRole": "identified-site",
+          "note": "City-scale Rome orientation."
+        }
+      },
+      {
+        "id": "paul-arrival",
+        "label": "Paul’s arrival",
+        "status": "probable",
+        "summary": "Acts gives a secure sequence through Puteoli and toward Rome; the exact overland track and Three Taverns coordinate are not fully recoverable.",
+        "rationale": "Puteoli and the approximate Appii Forum can illustrate the approach without drawing an exact road trace.",
+        "objections": "Three Taverns and Paul’s rented lodging remain unpinned, and no street-by-street itinerary is asserted.",
+        "sourceIds": [
+          "source-acts-canonical",
+          "source-rome-b9",
+          "source-barrington-acts"
+        ],
+        "placeIds": [
+          "puteoli",
+          "appii-forum",
+          "three-taverns",
+          "paul-lodging-rome",
+          "rome"
+        ],
+        "camera": {
+          "center": [
+            13.2,
+            41.45
+          ],
+          "zoom": 7.2,
+          "pitch": 28,
+          "bearing": -20,
+          "coordinateRole": "display-anchor",
+          "note": "Regional teaching camera for the Bay of Naples-to-Rome approach; not an exact route reconstruction."
+        }
+      },
+      {
+        "id": "revelation-rome-referent",
+        "label": "Revelation & Rome",
+        "status": "probable",
+        "summary": "Many interpreters regard Rome as the primary first-century referent for Revelation’s Babylon imagery, without reducing the symbol to one mapped city.",
+        "rationale": "Imperial power, commerce, and seven-hill imagery make Rome a strong interpretive context.",
+        "objections": "“Babylon the Great” remains a visionary/symbolic entity with no terrestrial coordinates and may deliberately exceed any single historical referent.",
+        "sourceIds": [
+          "source-koester-revelation",
+          "source-aune-revelation",
+          "source-b10-methodology"
+        ],
+        "placeIds": [
+          "rome",
+          "babylon-great-revelation"
+        ],
+        "camera": {
+          "center": [
+            12.486,
+            41.893
+          ],
+          "zoom": 10.7,
+          "pitch": 40,
+          "bearing": 0,
+          "coordinateRole": "identified-site",
+          "note": "Shows historical Rome only; it does not assign coordinates to Babylon the Great."
+        }
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "rome-city",
+      "label": "Rome",
+      "summary": "Secure imperial city and the city-level destination of Acts 28.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          12.486,
+          41.893
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Acts",
+          "chapter": 28,
+          "verseStart": 14,
+          "verseEnd": 31,
+          "label": "Acts 28:14–31"
+        },
+        {
+          "book": "Romans",
+          "chapter": 1,
+          "verseStart": 7,
+          "label": "Romans 1:7"
+        }
+      ],
+      "sourceIds": [
+        "source-second-temple-atlas",
+        "source-rome-b9",
+        "source-acts-canonical"
+      ],
+      "placeId": "rome",
+      "variantIds": [
+        "imperial-rome",
+        "paul-arrival",
+        "revelation-rome-referent"
+      ],
+      "whyShown": {
+        "evidence": "Rome is an established historical and archaeological city.",
+        "inference": "It securely anchors Paul’s final Acts destination and wider imperial context.",
+        "alternatives": "Paul’s rented lodging is not assigned to any excavated building."
+      }
+    },
+    {
+      "id": "puteoli-port",
+      "label": "Puteoli",
+      "summary": "Securely identified Bay of Naples port where Acts says Paul stayed seven days before continuing toward Rome.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          14.12,
+          40.823
+        ]
+      },
+      "evidenceClass": "known-archaeology",
+      "confidence": "established",
+      "scripture": [
+        {
+          "book": "Acts",
+          "chapter": 28,
+          "verseStart": 13,
+          "verseEnd": 14,
+          "label": "Acts 28:13–14"
+        }
+      ],
+      "sourceIds": [
+        "source-acts-canonical",
+        "source-rome-b9",
+        "source-pleiades"
+      ],
+      "placeId": "puteoli",
+      "variantIds": [
+        "paul-arrival"
+      ],
+      "whyShown": {
+        "evidence": "Ancient Puteoli is securely identified with Pozzuoli.",
+        "inference": "It provides a reliable anchor for the final Italian phase of Acts 28.",
+        "alternatives": "The onward overland route is represented only broadly until a verified road dataset is integrated."
+      }
+    },
+    {
+      "id": "appii-forum-approx",
+      "label": "Forum of Appius / Appii Forum",
+      "summary": "Approximate atlas location on the Appian corridor where believers met Paul according to Acts 28.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          12.94,
+          41.47
+        ]
+      },
+      "evidenceClass": "historical-inference",
+      "confidence": "probable",
+      "scripture": [
+        {
+          "book": "Acts",
+          "chapter": 28,
+          "verseStart": 15,
+          "label": "Acts 28:15"
+        }
+      ],
+      "sourceIds": [
+        "source-acts-canonical",
+        "source-barrington-acts",
+        "source-rome-b9"
+      ],
+      "placeId": "appii-forum",
+      "variantIds": [
+        "paul-arrival"
+      ],
+      "whyShown": {
+        "evidence": "Acts names the Forum of Appius and the broader Appian approach is historically real.",
+        "inference": "The atlas coordinate is approximate and suitable for regional orientation.",
+        "alternatives": "Three Taverns remains unpinned and no exact Paul-on-the-road coordinate is supplied."
+      }
+    }
+  ]
+}

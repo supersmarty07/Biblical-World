@@ -4,12 +4,82 @@ import { Protocol } from 'pmtiles';
 import type { Feature, FeatureCollection, LineString, Point } from 'geojson';
 import { atlasConfig } from '../config';
 import { interpolateLine } from '../lib/geometry';
+import { runtimeAssetRetryEvent } from '../lib/assetDiagnostics';
 import { isActiveAtYear } from '../lib/time';
 import { useAtlasStore } from '../state/useAtlasStore';
 import type { JourneyRecord, PlaceRecord } from '../types/domain';
+import type { ImmersiveScene } from '../types/immersive';
+
+function asAbsoluteAssetUrl(value: string): string {
+  return new URL(value, window.location.href).toString();
+}
+
+function ensureRomanRoadLayer(map: MapLibreMap, visible: boolean): void {
+  if (!atlasConfig.romanRoadsGeojsonUrl) return;
+  if (!visible) {
+    if (map.getLayer('roman-roads-line')) map.setLayoutProperty('roman-roads-line', 'visibility', 'none');
+    return;
+  }
+  const roadHealth = useAtlasStore.getState().runtimeAssets['roman-roads'];
+  if (roadHealth.state === 'error' && map.getSource('roman-roads')) {
+    if (map.getLayer('roman-roads-line')) map.removeLayer('roman-roads-line');
+    map.removeSource('roman-roads');
+  }
+  if (!map.getSource('roman-roads')) {
+    useAtlasStore.getState().setRuntimeAssetHealth('roman-roads', { state: 'checking', message: 'Loading Roman-road context…', url: atlasConfig.romanRoadsGeojsonUrl });
+    map.addSource('roman-roads', { type: 'geojson', data: asAbsoluteAssetUrl(atlasConfig.romanRoadsGeojsonUrl) });
+    map.addLayer({
+      id: 'roman-roads-line',
+      type: 'line',
+      source: 'roman-roads',
+      minzoom: 4,
+      paint: {
+        'line-color': '#9f8f70',
+        'line-width': ['interpolate', ['linear'], ['zoom'], 4, 0.7, 8, 1.5, 11, 2.2],
+        'line-opacity': 0.48,
+        'line-dasharray': [4, 2]
+      },
+      layout: { visibility: 'visible' }
+    });
+  } else if (map.getLayer('roman-roads-line')) {
+    map.setLayoutProperty('roman-roads-line', 'visibility', 'visible');
+  }
+}
+
+function ensureTerrainSource(map: MapLibreMap, visible: boolean): void {
+  if (!atlasConfig.terrainPmtilesUrl) return;
+  const terrainHealth = useAtlasStore.getState().runtimeAssets.terrain;
+  if (terrainHealth.state === 'error' && map.getSource('terrain-dem')) {
+    map.setTerrain(null);
+    map.removeSource('terrain-dem');
+  }
+  if (!map.getSource('terrain-dem')) {
+    useAtlasStore.getState().setRuntimeAssetHealth('terrain', { state: 'checking', message: 'Loading external terrain…', url: atlasConfig.terrainPmtilesUrl });
+    map.addSource('terrain-dem', { type: 'raster-dem', url: `pmtiles://${asAbsoluteAssetUrl(atlasConfig.terrainPmtilesUrl)}`, tileSize: 256, encoding: 'mapbox' });
+  }
+  map.setTerrain(visible ? { source: 'terrain-dem', exaggeration: 1.08 } : null);
+}
+
+function ensureExternalBasemap(map: MapLibreMap): void {
+  if (!atlasConfig.basemapPmtilesUrl) return;
+  const health = useAtlasStore.getState().runtimeAssets.basemap;
+  if (health.state === 'error' && map.getSource('external-basemap')) {
+    if (map.getLayer('external-basemap-raster')) map.removeLayer('external-basemap-raster');
+    map.removeSource('external-basemap');
+  }
+  if (!map.getSource('external-basemap')) {
+    useAtlasStore.getState().setRuntimeAssetHealth('basemap', { state: 'checking', message: 'Loading external basemap…', url: atlasConfig.basemapPmtilesUrl });
+    map.addSource('external-basemap', { type: 'raster', url: `pmtiles://${asAbsoluteAssetUrl(atlasConfig.basemapPmtilesUrl)}`, tileSize: 256 });
+    map.addLayer({ id: 'external-basemap-raster', type: 'raster', source: 'external-basemap', paint: { 'raster-opacity': 0.86, 'raster-saturation': -0.55, 'raster-brightness-max': 0.62 } }, 'graticule-line');
+  }
+}
 
 const protocol = new Protocol();
 let protocolRegistered = false;
+
+function prefersReducedMotion(): boolean {
+  return typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+}
 
 function makePlaces(places: PlaceRecord[], year: number): FeatureCollection<Point> {
   return {
@@ -45,6 +115,23 @@ function makeGraticule(): FeatureCollection<LineString> {
   for (let lon = 5; lon <= 60; lon += 5) features.push({ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: [[lon, 10], [lon, 47]] } });
   for (let lat = 10; lat <= 45; lat += 5) features.push({ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: [[5, lat], [60, lat]] } });
   return { type: 'FeatureCollection', features };
+}
+
+function makeSceneHotspots(scene?: ImmersiveScene, variantId?: string, periodId?: string): FeatureCollection<Point> {
+  if (!scene || scene.renderer !== 'map-terrain') return { type: 'FeatureCollection', features: [] };
+  return {
+    type: 'FeatureCollection',
+    features: scene.hotspots.filter((hotspot) => {
+      const variantVisible = !hotspot.variantIds?.length || Boolean(variantId && hotspot.variantIds.includes(variantId));
+      const periodVisible = !hotspot.periodIds?.length || Boolean(periodId && hotspot.periodIds.includes(periodId));
+      return variantVisible && periodVisible;
+    }).flatMap((hotspot) => hotspot.position.kind === 'geographic' ? [{
+      type: 'Feature' as const,
+      id: hotspot.id,
+      properties: { id: hotspot.id, label: hotspot.label, evidenceClass: hotspot.evidenceClass },
+      geometry: { type: 'Point' as const, coordinates: hotspot.position.coordinates }
+    }] : [])
+  };
 }
 
 function makeJourneys(journeys: JourneyRecord[]): FeatureCollection<LineString> {
@@ -91,14 +178,25 @@ export function MapView() {
   const selectedPlaceId = useAtlasStore((s) => s.selectedPlaceId);
   const activeStoryId = useAtlasStore((s) => s.activeStoryId);
   const activeChapter = useAtlasStore((s) => s.activeChapter);
+  const activeJourneyId = useAtlasStore((s) => s.activeJourneyId);
+  const activeJourneySegment = useAtlasStore((s) => s.activeJourneySegment);
   const layers = useAtlasStore((s) => s.layers);
+  const activeScene = useAtlasStore((s) => s.activeScene);
+  const activeSceneVariantId = useAtlasStore((s) => s.activeSceneVariantId);
+  const activeScenePeriodId = useAtlasStore((s) => s.activeScenePeriodId);
   const selectPlace = useAtlasStore((s) => s.selectPlace);
+  const setActiveHotspot = useAtlasStore((s) => s.setActiveHotspot);
+  const setRuntimeAssetHealth = useAtlasStore((s) => s.setRuntimeAssetHealth);
 
   const placesGeoJson = useMemo(() => data ? makePlaces(data.places, year) : undefined, [data, year]);
   const regionsGeoJson = useMemo(() => data ? makeRegions(data.regions, year) : undefined, [data, year]);
 
   useEffect(() => {
     if (!containerRef.current || !data || mapRef.current) return;
+
+    setRuntimeAssetHealth('terrain', atlasConfig.terrainPmtilesUrl ? { state: 'idle', message: 'Terrain is configured and will load only when requested.', url: atlasConfig.terrainPmtilesUrl } : { state: 'not-configured', message: 'No terrain PMTiles URL configured.' });
+    setRuntimeAssetHealth('basemap', atlasConfig.basemapPmtilesUrl ? { state: 'idle', message: 'External basemap is configured.', url: atlasConfig.basemapPmtilesUrl } : { state: 'not-configured', message: 'Using bundled Natural Earth fallback.' });
+    setRuntimeAssetHealth('roman-roads', atlasConfig.romanRoadsGeojsonUrl ? { state: 'idle', message: 'Roman roads are configured and will load only when enabled.', url: atlasConfig.romanRoadsGeojsonUrl } : { state: 'not-configured', message: 'No Roman-road GeoJSON URL configured.' });
 
     if (!protocolRegistered) {
       maplibregl.addProtocol('pmtiles', protocol.tile);
@@ -114,14 +212,14 @@ export function MapView() {
       attributionControl: false,
       style: {
         version: 8,
-        name: 'The Biblical World — Genesis to Acts & Paul',
+        name: 'The Biblical World — Genesis to Revelation V2',
         sources: {},
         layers: [{ id: 'background', type: 'background', paint: { 'background-color': '#0b1417' } }]
       }
     });
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: true }), 'bottom-right');
-    map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Genesis → Acts & Paul · Batch 9 · Natural Earth physical land · evidence-aware reconstruction; see Sources & Provenance' }), 'bottom-right');
+    map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Genesis → Revelation · V2 · Natural Earth physical land · evidence-aware reconstruction; see Sources & Provenance' }), 'bottom-right');
 
     map.on('load', () => {
       const currentState = useAtlasStore.getState();
@@ -132,13 +230,9 @@ export function MapView() {
       map.addLayer({ id: 'physical-land-line', type: 'line', source: 'physical-land', paint: { 'line-color': '#40504b', 'line-opacity': 0.62, 'line-width': 0.8 } });
 
       // Optional user-supplied raster PMTiles basemap. The bundled Natural Earth land silhouette remains underneath as a fallback.
-      if (atlasConfig.basemapPmtilesUrl) {
-        map.addSource('external-basemap', { type: 'raster', url: `pmtiles://${atlasConfig.basemapPmtilesUrl}`, tileSize: 256 });
-        map.addLayer({ id: 'external-basemap-raster', type: 'raster', source: 'external-basemap', paint: { 'raster-opacity': 0.86, 'raster-saturation': -0.55, 'raster-brightness-max': 0.62 } });
-      }
-
       map.addSource('graticule', { type: 'geojson', data: makeGraticule() });
       map.addLayer({ id: 'graticule-line', type: 'line', source: 'graticule', paint: { 'line-color': '#8e9a92', 'line-opacity': 0.075, 'line-width': 0.7 } });
+      ensureExternalBasemap(map);
 
       map.addSource('context-regions', { type: 'geojson', data: makeRegions(data.regions, currentState.year) });
       map.addLayer({
@@ -192,9 +286,25 @@ export function MapView() {
         paint: { 'text-color': '#e8e2d4', 'text-halo-color': '#0c1417', 'text-halo-width': 1.4 }
       });
 
-      if (atlasConfig.terrainPmtilesUrl) {
-        map.addSource('terrain-dem', { type: 'raster-dem', url: `pmtiles://${atlasConfig.terrainPmtilesUrl}`, tileSize: 256, encoding: 'mapbox' });
-      }
+      map.addSource('scene-hotspots', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+      map.addLayer({
+        id: 'scene-hotspots-points', type: 'circle', source: 'scene-hotspots',
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 6, 6, 11, 10],
+          'circle-color': ['match', ['get', 'evidenceClass'], 'known-archaeology', '#e6c77f', 'real-terrain', '#9eb6a3', 'historical-inference', '#c5a875', '#bfa276'],
+          'circle-stroke-color': '#0a0f12',
+          'circle-stroke-width': 2,
+          'circle-opacity': 0.94
+        }
+      });
+      map.addLayer({
+        id: 'scene-hotspots-labels', type: 'symbol', source: 'scene-hotspots', minzoom: 7,
+        layout: { 'text-field': ['get', 'label'], 'text-size': 11, 'text-offset': [0, 1.25], 'text-anchor': 'top' },
+        paint: { 'text-color': '#f2eadb', 'text-halo-color': '#0a0f12', 'text-halo-width': 1.6 }
+      });
+
+      if (currentLayers.terrain) ensureTerrainSource(map, true);
+      ensureRomanRoadLayer(map, currentLayers.roads);
 
       map.on('mouseenter', 'places-points', () => { map.getCanvas().style.cursor = 'pointer'; });
       map.on('mouseleave', 'places-points', () => { map.getCanvas().style.cursor = ''; });
@@ -202,16 +312,66 @@ export function MapView() {
         const id = event.features?.[0]?.properties?.id as string | undefined;
         if (id) selectPlace(id);
       });
+      map.on('mouseenter', 'scene-hotspots-points', () => { map.getCanvas().style.cursor = 'pointer'; });
+      map.on('mouseleave', 'scene-hotspots-points', () => { map.getCanvas().style.cursor = ''; });
+      map.on('click', 'scene-hotspots-points', (event) => {
+        const id = event.features?.[0]?.properties?.id as string | undefined;
+        if (id) setActiveHotspot(id);
+      });
+
+      map.on('sourcedata', (event) => {
+        if (!event.isSourceLoaded) return;
+        if (event.sourceId === 'terrain-dem') currentState.setRuntimeAssetHealth('terrain', { state: 'ready', message: 'Terrain source loaded successfully.', url: atlasConfig.terrainPmtilesUrl });
+        if (event.sourceId === 'external-basemap') currentState.setRuntimeAssetHealth('basemap', { state: 'ready', message: 'External basemap loaded successfully.', url: atlasConfig.basemapPmtilesUrl });
+        if (event.sourceId === 'roman-roads') currentState.setRuntimeAssetHealth('roman-roads', { state: 'ready', message: 'Roman-road source loaded successfully.', url: atlasConfig.romanRoadsGeojsonUrl });
+      });
     });
+
+    map.on('error', (event) => {
+      const sourceId = (event as unknown as { sourceId?: string }).sourceId;
+      const message = event.error?.message || 'Map source failed to load.';
+      const state = useAtlasStore.getState();
+      if (sourceId === 'terrain-dem') {
+        state.setRuntimeAssetHealth('terrain', { state: 'error', message: `${message} Falling back to the flat atlas map.`, url: atlasConfig.terrainPmtilesUrl });
+        try { map.setTerrain(null); } catch { /* fallback is already the flat map */ }
+      }
+      if (sourceId === 'external-basemap') state.setRuntimeAssetHealth('basemap', { state: 'error', message: `${message} Bundled Natural Earth remains available.`, url: atlasConfig.basemapPmtilesUrl });
+      if (sourceId === 'roman-roads') {
+        state.setRuntimeAssetHealth('roman-roads', { state: 'error', message: `${message} Biblical places and journeys remain available.`, url: atlasConfig.romanRoadsGeojsonUrl });
+        if (map.getLayer('roman-roads-line')) map.setLayoutProperty('roman-roads-line', 'visibility', 'none');
+      }
+    });
+
+    const retryMapAsset = (event: Event) => {
+      if (!map.isStyleLoaded()) return;
+      const key = (event as CustomEvent<{ key?: string }>).detail?.key;
+      if (key === 'terrain') {
+        if (map.getSource('terrain-dem')) { map.setTerrain(null); map.removeSource('terrain-dem'); }
+        const state = useAtlasStore.getState();
+        ensureTerrainSource(map, state.layers.terrain || state.activeScene?.renderer === 'map-terrain');
+      }
+      if (key === 'roman-roads') {
+        if (map.getLayer('roman-roads-line')) map.removeLayer('roman-roads-line');
+        if (map.getSource('roman-roads')) map.removeSource('roman-roads');
+        ensureRomanRoadLayer(map, useAtlasStore.getState().layers.roads);
+      }
+      if (key === 'basemap') {
+        if (map.getLayer('external-basemap-raster')) map.removeLayer('external-basemap-raster');
+        if (map.getSource('external-basemap')) map.removeSource('external-basemap');
+        ensureExternalBasemap(map);
+      }
+    };
+    window.addEventListener(runtimeAssetRetryEvent, retryMapAsset);
 
     mapRef.current = map;
     return () => {
       if (animationRef.current) cancelAnimationFrame(animationRef.current);
       travelerRef.current?.remove();
+      window.removeEventListener(runtimeAssetRetryEvent, retryMapAsset);
       map.remove();
       mapRef.current = null;
     };
-  }, [data, selectPlace]);
+  }, [data, selectPlace, setActiveHotspot, setRuntimeAssetHealth]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -223,19 +383,48 @@ export function MapView() {
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !map.isStyleLoaded()) return;
+    ensureRomanRoadLayer(map, layers.roads);
+  }, [layers.roads]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !map.isStyleLoaded()) return;
     const visibility = (on: boolean) => on ? 'visible' : 'none';
     for (const id of ['places-glow', 'places-points', 'places-labels']) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', visibility(layers.places));
     if (map.getLayer('journeys-line')) map.setLayoutProperty('journeys-line', 'visibility', visibility(layers.journeys));
     for (const id of ['context-regions-fill', 'context-regions-line']) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', visibility(layers.regions));
-    if (atlasConfig.terrainPmtilesUrl && map.getSource('terrain-dem')) map.setTerrain(layers.terrain ? { source: 'terrain-dem', exaggeration: 1.15 } : null);
-  }, [layers]);
+    if (map.getLayer('roman-roads-line')) map.setLayoutProperty('roman-roads-line', 'visibility', visibility(layers.roads));
+    const terrainRequested = layers.terrain || activeScene?.renderer === 'map-terrain';
+    if (atlasConfig.terrainPmtilesUrl) ensureTerrainSource(map, terrainRequested);
+  }, [layers, activeScene]);
 
   useEffect(() => {
     const map = mapRef.current;
     const place = data?.places.find((item) => item.id === selectedPlaceId);
     if (!map || !place?.coordinates) return;
-    map.flyTo({ center: place.coordinates, zoom: Math.max(map.getZoom(), 7), duration: 1200, essential: true });
+    const camera = { center: place.coordinates, zoom: Math.max(map.getZoom(), 7) };
+    if (prefersReducedMotion()) map.jumpTo(camera);
+    else map.flyTo({ ...camera, duration: 1200, essential: false });
   }, [data, selectedPlaceId]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !map.isStyleLoaded()) return;
+    const source = map.getSource('scene-hotspots') as GeoJSONSource | undefined;
+    source?.setData(makeSceneHotspots(activeScene, activeSceneVariantId, activeScenePeriodId));
+    if (activeScene?.renderer !== 'map-terrain' || !activeScene.entryCamera) return;
+    const variantCamera = activeScene.comparison?.options.find((option) => option.id === activeSceneVariantId)?.camera;
+    const periodCamera = activeScene.periods.find((period) => period.id === activeScenePeriodId)?.camera;
+    const selectedCamera = variantCamera || periodCamera || activeScene.entryCamera;
+    const camera = {
+      center: selectedCamera.center,
+      zoom: selectedCamera.zoom,
+      pitch: selectedCamera.pitch ?? 0,
+      bearing: selectedCamera.bearing ?? 0
+    };
+    if (prefersReducedMotion()) map.jumpTo(camera);
+    else map.flyTo({ ...camera, duration: 1400, essential: false });
+  }, [activeScene, activeSceneVariantId, activeScenePeriodId]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -248,11 +437,52 @@ export function MapView() {
     const activeSource = map.getSource('active-journey') as GeoJSONSource | undefined;
     activeSource?.setData({ type: 'FeatureCollection', features: [] });
 
-    const story = data?.stories.find((item) => item.id === activeStoryId);
-    const chapter = story?.chapters[activeChapter];
-    if (!chapter || !data) return;
+    if (!data) return;
 
-    if (chapter.camera) map.flyTo({ center: chapter.camera.center, zoom: chapter.camera.zoom, pitch: chapter.camera.pitch ?? 0, bearing: chapter.camera.bearing ?? 0, duration: 1500, essential: true });
+    const directJourney = activeJourneyId ? data.journeys.find((item) => item.id === activeJourneyId) : undefined;
+    if (directJourney) {
+      const segmentIndex = Math.min(Math.max(0, activeJourneySegment), Math.max(0, directJourney.segments.length - 1));
+      const segment = directJourney.segments[segmentIndex];
+      const coords = segment?.coordinates || [];
+      const source = map.getSource('active-journey') as GeoJSONSource | undefined;
+      if (!source || coords.length < 2) return;
+
+      const bounds = coords.reduce((acc, coordinate) => acc.extend(coordinate), new maplibregl.LngLatBounds(coords[0], coords[0]));
+      map.fitBounds(bounds, { padding: { top: 100, right: 70, bottom: 120, left: 70 }, maxZoom: 8.5, duration: prefersReducedMotion() ? 0 : 1100 });
+
+      if (prefersReducedMotion()) {
+        source.setData({ type: 'Feature', properties: { journeyId: directJourney.id, segmentId: segment.id }, geometry: { type: 'LineString', coordinates: coords } });
+        travelerRef.current = new maplibregl.Marker({ element: travelerElement(directJourney.character, directJourney.person), anchor: 'center' }).setLngLat(coords[coords.length - 1]).addTo(map);
+        return;
+      }
+
+      travelerRef.current = new maplibregl.Marker({ element: travelerElement(directJourney.character, directJourney.person), anchor: 'center' }).setLngLat(coords[0]).addTo(map);
+      const started = performance.now();
+      const duration = Math.min(9000, Math.max(3600, coords.length * 720));
+      const frame = (now: number) => {
+        const progress = Math.min(1, (now - started) / duration);
+        const eased = 0.5 - Math.cos(progress * Math.PI) / 2;
+        const point = interpolateLine(coords, eased);
+        const pointCount = Math.max(2, Math.floor(eased * (coords.length - 1)) + 1);
+        const partial = coords.slice(0, pointCount);
+        partial[partial.length - 1] = point;
+        source.setData({ type: 'Feature', properties: { journeyId: directJourney.id, segmentId: segment.id }, geometry: { type: 'LineString', coordinates: partial } });
+        travelerRef.current?.setLngLat(point);
+        if (progress < 1) animationRef.current = requestAnimationFrame(frame);
+      };
+      animationRef.current = requestAnimationFrame(frame);
+      return;
+    }
+
+    const story = data.stories.find((item) => item.id === activeStoryId);
+    const chapter = story?.chapters[activeChapter];
+    if (!chapter) return;
+
+    if (chapter.camera) {
+      const camera = { center: chapter.camera.center, zoom: chapter.camera.zoom, pitch: chapter.camera.pitch ?? 0, bearing: chapter.camera.bearing ?? 0 };
+      if (prefersReducedMotion()) map.jumpTo(camera);
+      else map.flyTo({ ...camera, duration: 1500, essential: false });
+    }
     if (!chapter.journeyId) return;
 
     const journey = data.journeys.find((item) => item.id === chapter.journeyId);
@@ -261,6 +491,12 @@ export function MapView() {
     if (coords.length < 2) return;
     const source = map.getSource('active-journey') as GeoJSONSource | undefined;
     if (!source) return;
+
+    if (prefersReducedMotion()) {
+      source.setData({ type: 'Feature', properties: { journeyId: journey.id }, geometry: { type: 'LineString', coordinates: coords } });
+      travelerRef.current = new maplibregl.Marker({ element: travelerElement(journey.character, journey.person), anchor: 'center' }).setLngLat(coords[coords.length - 1]).addTo(map);
+      return;
+    }
 
     travelerRef.current = new maplibregl.Marker({ element: travelerElement(journey.character, journey.person), anchor: 'center' }).setLngLat(coords[0]).addTo(map);
     const started = performance.now();
@@ -278,13 +514,14 @@ export function MapView() {
       if (progress < 1) animationRef.current = requestAnimationFrame(frame);
     };
     animationRef.current = requestAnimationFrame(frame);
-  }, [activeChapter, activeStoryId, data]);
+  }, [activeChapter, activeJourneyId, activeJourneySegment, activeStoryId, data]);
 
   return (
     <div className="map-wrap">
-      <div ref={containerRef} className="map" aria-label="Interactive Genesis through Revelation historical-geography map" />
+      <p id="map-accessibility-note" className="visually-hidden">The map is a supplementary visual interface. All mapped and intentionally unlocated records can also be reached through search, stories, and information panels.</p>
+      <div ref={containerRef} className="map" role="region" aria-label="Interactive Genesis through Revelation historical-geography map" aria-describedby="map-accessibility-note" />
       <div className="map-vignette" aria-hidden="true" />
-      <div className="map-period-badge"><span>Batch 10 · complete arc</span><strong>Genesis → Revelation</strong><small>Historical map + separate visionary mode</small></div>
+      <div className="map-period-badge"><span>V2 · immersive foundation</span><strong>Genesis → Revelation</strong><small>Hardened atlas + evidence-aware scenes</small></div>
       <div className="map-legend" aria-label="Map confidence legend">
         <span><i className="legend-dot legend-dot--established" /> Established</span>
         <span><i className="legend-dot legend-dot--probable" /> Probable</span>

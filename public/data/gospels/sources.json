@@ -5,7 +5,9 @@
     "organization": "The Biblical World project",
     "license": "Original project metadata",
     "kind": "project-methodology",
-    "notes": "Separates Gospel textual geography, independently attested first-century history, archaeological sites, later pilgrimage traditions, and competing identifications. Uncertain Passion and ministry locations are left unpinned rather than forced onto a modern coordinate."
+    "notes": "Separates Gospel textual geography, independently attested first-century history, archaeological sites, later pilgrimage traditions, and competing identifications. Uncertain Passion and ministry locations are left unpinned rather than forced onto a modern coordinate.",
+    "verificationStatus": "project-authored",
+    "verificationNote": "Project-authored curation methodology; no external source verification claim is implied."
   },
   {
     "id": "source-gospels-canonical",

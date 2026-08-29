@@ -33,7 +33,10 @@
       "source-revelation-canonical",
       "source-pleiades",
       "source-barrington-revelation"
-    ]
+    ],
+    "externalIds": {
+      "pleiades": "599878"
+    }
   },
   {
     "id": "cave-apocalypse-patmos",

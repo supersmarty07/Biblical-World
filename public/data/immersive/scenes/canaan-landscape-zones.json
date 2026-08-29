@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "canaan-landscape-zones",
+  "title": "Canaan Landscape Zones",
+  "subtitle": "Regional geography without false environmental precision",
+  "summary": "Explore broad landscape zones that shape movement and settlement across the southern Levant. The current visuals are project-authored schematics, not reconstructed ancient vegetation maps.",
+  "renderer": "panorama",
+  "availability": "prototype",
+  "placeIds": ["canaan", "jezreel-valley", "negev", "mount-carmel", "mount-tabor"],
+  "disclaimer": "These are schematic regional environments based on broad geographic distinctions already used by the atlas. They do not claim exact ancient coastlines, field boundaries, vegetation cover, settlement density, or tree-by-tree reconstruction. Scientific paleoenvironment layers require separate source and license verification.",
+  "evidenceLegend": [
+    { "class": "artistic-reconstruction", "label": "Schematic landscape", "description": "Project-authored visual shorthand for a broad landscape form; it is not a photograph or measured terrain model." },
+    { "class": "historical-inference", "label": "Regional interpretation", "description": "A broad historical-geographic interpretation used to explain travel, settlement, and environmental contrast without drawing exact ancient boundaries." },
+    { "class": "unknown-disputed", "label": "Environmental uncertainty", "description": "Ancient vegetation, hydrology, shorelines, and land use changed through time and require period-specific scientific evidence." }
+  ],
+  "periods": [],
+  "panorama": {
+    "alt": "A schematic interactive landscape used to compare broad Canaan regional zones; not a photographic or archaeological reconstruction.",
+    "worldWidthPercent": 215,
+    "initialPan": 0.45
+  },
+  "comparison": {
+    "presentation": "regions",
+    "label": "Canaan regional landscapes",
+    "intro": "Switch among broad landscape zones. The zone names are geographic teaching categories, not a claim that ancient political or ecological boundaries were fixed.",
+    "defaultOptionId": "central-highlands",
+    "options": [
+      {
+        "id": "central-highlands",
+        "label": "Central highlands",
+        "status": "established",
+        "summary": "A north-south highland spine forms a major inland setting for many biblical narratives and settlements.",
+        "rationale": "The contrast between uplands and surrounding lowlands is a durable geographic feature useful for explaining travel, visibility, agriculture, and settlement patterns.",
+        "objections": "The schematic does not specify ancient forest cover, terrace extent, rainfall, or settlement density for any particular century.",
+        "sourceIds": ["source-sacred-bridge", "source-batch2-methodology"],
+        "placeIds": ["canaan"],
+        "fallbackEnvironment": "central-highlands"
+      },
+      {
+        "id": "coastal-plain",
+        "label": "Coastal plain",
+        "status": "established",
+        "summary": "The Mediterranean coastal lowlands provide a different travel and settlement environment from the inland highlands.",
+        "rationale": "Broad coastal-lowland geography is secure, while local shorelines, dunes, marshes, and harbors changed through time.",
+        "objections": "No ancient shoreline or harbor position is reconstructed here; modern coastline geometry must not automatically be treated as ancient.",
+        "sourceIds": ["source-sacred-bridge", "source-ben-tor-israel", "source-batch2-methodology"],
+        "placeIds": [],
+        "fallbackEnvironment": "coastal-plain"
+      },
+      {
+        "id": "jezreel-lowlands",
+        "label": "Jezreel lowlands",
+        "status": "established",
+        "summary": "The Jezreel Valley is a major lowland corridor framed by prominent uplands and repeated biblical conflict settings.",
+        "rationale": "The valley itself is an established physical region. Exact battle deployments and historical route lines remain separate interpretive questions.",
+        "objections": "This schematic does not reproduce measured relief or claim an exact ancient road alignment.",
+        "sourceIds": ["source-exodus-judges-text", "source-sacred-bridge", "source-batch2-methodology"],
+        "placeIds": ["jezreel-valley"],
+        "fallbackEnvironment": "jezreel-lowlands"
+      },
+      {
+        "id": "jordan-valley",
+        "label": "Jordan Valley",
+        "status": "established",
+        "summary": "The Jordan Rift forms a pronounced north-south depression with distinctive heat, water, and travel conditions.",
+        "rationale": "The valley is a major physical-geographic system that helps explain east-west crossings and north-south movement.",
+        "objections": "River channels, floodplains, wetlands, Dead Sea levels, and agricultural zones changed through time and are not reconstructed here.",
+        "sourceIds": ["source-sacred-bridge", "source-batch2-methodology"],
+        "placeIds": [],
+        "fallbackEnvironment": "jordan-valley"
+      },
+      {
+        "id": "shephelah",
+        "label": "Shephelah",
+        "status": "established",
+        "summary": "Rolling foothills between the coastal plain and Judean highlands create a transition zone repeatedly important in biblical conflict and movement.",
+        "rationale": "The low-hill transition is geographically meaningful even when exact political frontiers changed from period to period.",
+        "objections": "The visual does not assert fixed territorial borders or reconstruct specific valleys, towns, vegetation, or fortification systems.",
+        "sourceIds": ["source-sacred-bridge", "source-batch2-methodology"],
+        "placeIds": [],
+        "fallbackEnvironment": "shephelah"
+      },
+      {
+        "id": "galilean-hills",
+        "label": "Galilean hills",
+        "status": "established",
+        "summary": "Northern hill country and basin systems create a more broken landscape than the major lowland corridors.",
+        "rationale": "Broad upland-lowland relationships are useful for understanding later Galilee as well as earlier northern geography.",
+        "objections": "This is not yet the first-century Galilee reconstruction planned for Batch 5 and does not claim period-specific settlement or vegetation.",
+        "sourceIds": ["source-sacred-bridge", "source-batch2-methodology"],
+        "placeIds": [],
+        "fallbackEnvironment": "galilean-hills"
+      },
+      {
+        "id": "negev",
+        "label": "Negev",
+        "status": "established",
+        "summary": "The southern arid and semi-arid zone contrasts strongly with the Mediterranean hill country and lowlands farther north.",
+        "rationale": "The Negev is an established broad region; its aridity and travel constraints are important to biblical geography.",
+        "objections": "Rainfall, grazing capacity, runoff, settlement, and vegetation varied through time. This schematic must not be read as a precise paleoclimate reconstruction.",
+        "sourceIds": ["source-genesis-text", "source-sacred-bridge", "source-batch2-methodology"],
+        "placeIds": ["negev"],
+        "fallbackEnvironment": "negev"
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "highland-spine",
+      "label": "Highland spine",
+      "summary": "A schematic reminder that inland uplands form a major north-south landscape axis.",
+      "position": { "kind": "image", "x": 0.48, "y": 0.48 },
+      "evidenceClass": "artistic-reconstruction",
+      "confidence": "established",
+      "scripture": [{ "book": "Genesis", "chapter": 12, "label": "Genesis 12:5–9" }],
+      "sourceIds": ["source-sacred-bridge", "source-batch2-methodology"],
+      "placeId": "canaan",
+      "variantIds": ["central-highlands"],
+      "whyShown": {
+        "evidence": "The atlas already treats Canaan as a broad region and repeatedly maps highland locations within it.",
+        "inference": "The drawn ridges are generic teaching geometry rather than measured elevations or an ancient landscape photograph.",
+        "alternatives": "Future verified DEM and paleoenvironment layers should replace the schematic where appropriate."
+      }
+    },
+    {
+      "id": "coastal-lowland",
+      "label": "Coastal lowland",
+      "summary": "A schematic flat coastal zone used to contrast Mediterranean lowlands with the inland highlands.",
+      "position": { "kind": "image", "x": 0.58, "y": 0.63 },
+      "evidenceClass": "artistic-reconstruction",
+      "confidence": "established",
+      "scripture": [],
+      "sourceIds": ["source-sacred-bridge", "source-batch2-methodology"],
+      "variantIds": ["coastal-plain"],
+      "whyShown": {
+        "evidence": "The coastal plain is a major physical region in southern Levantine geography.",
+        "inference": "Water and low relief are drawn schematically; no historical shoreline date is implied.",
+        "alternatives": "Period-specific coastal and harbor studies are required before ancient shoreline overlays are added."
+      }
+    },
+    {
+      "id": "jezreel-corridor",
+      "label": "Jezreel corridor",
+      "summary": "A broad lowland passage framed by uplands, represented here without an exact ancient road line.",
+      "position": { "kind": "image", "x": 0.52, "y": 0.66 },
+      "evidenceClass": "historical-inference",
+      "confidence": "established",
+      "scripture": [{ "book": "Judges", "chapter": 5, "label": "Judges 5" }],
+      "sourceIds": ["source-exodus-judges-text", "source-sacred-bridge"],
+      "placeId": "jezreel-valley",
+      "variantIds": ["jezreel-lowlands"],
+      "whyShown": {
+        "evidence": "The Jezreel Valley is an established geographic region and repeated narrative setting.",
+        "inference": "Calling it a corridor summarizes topographic connectivity; this hotspot is not an excavated roadway.",
+        "alternatives": "Future route overlays must distinguish known road segments from reconstructed movement corridors."
+      }
+    },
+    {
+      "id": "jordan-rift",
+      "label": "Jordan Rift",
+      "summary": "A schematic valley trough emphasizing the strong elevation contrast of the Jordan system.",
+      "position": { "kind": "image", "x": 0.52, "y": 0.64 },
+      "evidenceClass": "artistic-reconstruction",
+      "confidence": "established",
+      "scripture": [{ "book": "Genesis", "chapter": 13, "label": "Genesis 13:10–12" }],
+      "sourceIds": ["source-sacred-bridge", "source-batch2-methodology"],
+      "variantIds": ["jordan-valley"],
+      "whyShown": {
+        "evidence": "The Jordan basin is a major physical-geographic system central to many biblical journeys.",
+        "inference": "The trough and water line are generic visual teaching devices rather than a period-specific river reconstruction.",
+        "alternatives": "Dead Sea level, river-course, wetland, and floodplain reconstructions require scientific period-specific evidence."
+      }
+    },
+    {
+      "id": "foothill-transition",
+      "label": "Foothill transition",
+      "summary": "Rolling hills represent the broad transition between lowlands and the Judean highlands.",
+      "position": { "kind": "image", "x": 0.48, "y": 0.56 },
+      "evidenceClass": "artistic-reconstruction",
+      "confidence": "established",
+      "scripture": [{ "book": "1 Samuel", "chapter": 17, "label": "1 Samuel 17" }],
+      "sourceIds": ["source-sacred-bridge", "source-batch2-methodology"],
+      "variantIds": ["shephelah"],
+      "whyShown": {
+        "evidence": "The Shephelah is a recognizable foothill zone repeatedly relevant to Judah-Philistia geography.",
+        "inference": "The hills are not a reconstruction of a specific valley or battlefield.",
+        "alternatives": "Site-specific scenes should use measured terrain and explicit site evidence."
+      }
+    },
+    {
+      "id": "galilee-relief",
+      "label": "Broken hill country",
+      "summary": "Generic hill layers represent the more varied relief of northern Galilee.",
+      "position": { "kind": "image", "x": 0.51, "y": 0.5 },
+      "evidenceClass": "artistic-reconstruction",
+      "confidence": "established",
+      "scripture": [],
+      "sourceIds": ["source-sacred-bridge", "source-batch2-methodology"],
+      "variantIds": ["galilean-hills"],
+      "whyShown": {
+        "evidence": "Galilee contains uplands, basins, and strong local relief contrasts.",
+        "inference": "This panorama is only a generalized visual vocabulary for that terrain class.",
+        "alternatives": "Batch 5 should replace this with verified terrain around specific Galilee locations."
+      }
+    },
+    {
+      "id": "negev-aridity",
+      "label": "Arid southern zone",
+      "summary": "A schematic dry landscape used to communicate broad environmental contrast and travel difficulty.",
+      "position": { "kind": "image", "x": 0.56, "y": 0.58 },
+      "evidenceClass": "historical-inference",
+      "confidence": "established",
+      "scripture": [{ "book": "Genesis", "chapter": 12, "label": "Genesis 12:9" }],
+      "sourceIds": ["source-genesis-text", "source-sacred-bridge", "source-batch2-methodology"],
+      "placeId": "negev",
+      "variantIds": ["negev"],
+      "whyShown": {
+        "evidence": "The Negev is an established arid/semi-arid geographic region and a recurring biblical travel setting.",
+        "inference": "The displayed dryness is generalized; no exact Holocene precipitation or vegetation state is asserted.",
+        "alternatives": "Paleoclimate, runoff, vegetation, and settlement evidence should be added only after source verification."
+      }
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "id": "mount-sinai-candidates-explorer",
+  "title": "Mount Sinai Candidates Explorer",
+  "subtitle": "Compare traditions and proposals while the biblical mountain remains unlocated",
+  "summary": "A MapLibre comparison scene separates the unlocated biblical Sinai/Horeb from mapped traditional, candidate, and broad regional proposal records.",
+  "renderer": "map-terrain",
+  "availability": "prototype",
+  "placeIds": [
+    "mount-sinai",
+    "jebel-musa",
+    "har-karkom",
+    "midian"
+  ],
+  "disclaimer": "Mount Sinai/Horeb is not assigned a definitive modern coordinate. Selecting an option moves the camera to an existing traditional site, candidate site, or broad regional orientation record; it does not raise that option to established status. Real relief appears only when a separately verified DEM is configured.",
+  "evidenceLegend": [
+    {
+      "class": "real-terrain",
+      "label": "Real terrain if DEM configured",
+      "description": "Physical elevation can be real while the biblical identification remains uncertain."
+    },
+    {
+      "class": "tradition",
+      "label": "Traditional identification",
+      "description": "A later historical identification is shown as tradition, not archaeological proof of the Exodus mountain."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Proposal geography",
+      "description": "A candidate or regional orientation used to examine travel geography and scholarly proposals."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "The biblical mountain itself remains without a definitive modern coordinate."
+    }
+  ],
+  "periods": [
+    {
+      "id": "comparison-context",
+      "label": "Candidate comparison",
+      "note": "This mode compares geographic proposals; it does not assign a precise date to the Exodus or Sinai covenant narrative."
+    }
+  ],
+  "defaultPeriodId": "comparison-context",
+  "entryCamera": {
+    "center": [
+      34.9,
+      29.1
+    ],
+    "zoom": 5.4,
+    "pitch": 25,
+    "bearing": 0,
+    "coordinateRole": "display-anchor",
+    "note": "Broad overview camera only, centered between existing candidate/orientation records; it is not a biblical-place coordinate."
+  },
+  "comparison": {
+    "label": "Sinai / Horeb alternatives",
+    "intro": "The biblical place remains unlocated. Camera movement is a comparison tool, not a confidence upgrade.",
+    "defaultOptionId": "jebel-musa-tradition",
+    "options": [
+      {
+        "id": "jebel-musa-tradition",
+        "label": "Jebel Musa tradition",
+        "status": "traditional",
+        "summary": "Jebel Musa in southern Sinai is mapped because of its long Christian traditional identification with Mount Sinai.",
+        "rationale": "The v1 record treats Jebel Musa as a significant traditional identification, especially from late antiquity onward.",
+        "objections": "Tradition is not equivalent to archaeological proof that this is the mountain of Exodus, and the biblical Mount Sinai record remains unlocated.",
+        "sourceIds": [
+          "source-hoffmeier-sinai",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ],
+        "placeIds": [
+          "jebel-musa"
+        ],
+        "camera": {
+          "center": [
+            33.975,
+            28.54
+          ],
+          "zoom": 10.0,
+          "pitch": 58,
+          "bearing": 12,
+          "coordinateRole": "traditional-site",
+          "note": "Camera uses the existing Jebel Musa traditional-site coordinate from the atlas."
+        }
+      },
+      {
+        "id": "har-karkom-proposal",
+        "label": "Har Karkom proposal",
+        "status": "possible",
+        "summary": "Har Karkom is included as a specific southern-Negev proposal for Sinai/Horeb rather than as an established identification.",
+        "rationale": "The v1 record preserves the proposal so users can inspect a concrete alternative and its geography.",
+        "objections": "The proposal is controversial, including chronology and interpretation questions, and is not treated as a consensus identification.",
+        "sourceIds": [
+          "source-hoffmeier-sinai",
+          "source-batch3-methodology"
+        ],
+        "placeIds": [
+          "har-karkom"
+        ],
+        "camera": {
+          "center": [
+            34.75,
+            30.2
+          ],
+          "zoom": 9.8,
+          "pitch": 55,
+          "bearing": -8,
+          "coordinateRole": "candidate-site",
+          "note": "Camera uses the existing Har Karkom candidate-site coordinate from the atlas."
+        }
+      },
+      {
+        "id": "northwestern-arabia-family",
+        "label": "Northwestern Arabia family",
+        "status": "possible",
+        "summary": "Some proposals place Sinai east of the Gulf of Aqaba in northwestern Arabia; this option intentionally uses only the atlas broad Midian orientation rather than inventing a candidate mountain pin.",
+        "rationale": "The v1 Sinai interpretation record preserves northwestern-Arabia proposals as disputed alternatives, and the Midian record supplies a broad approximate-area orientation.",
+        "objections": "This option does not identify a specific mountain. The extent of Midian varied, and a broad regional anchor cannot establish the location of biblical Sinai.",
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-hoffmeier-sinai",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ],
+        "placeIds": [
+          "midian"
+        ],
+        "camera": {
+          "center": [
+            36.0,
+            28.5
+          ],
+          "zoom": 6.8,
+          "pitch": 35,
+          "bearing": 0,
+          "coordinateRole": "approximate-area",
+          "note": "Camera reuses the existing Midian approximate-area orientation; it is deliberately not a candidate-site coordinate."
+        }
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "jebel-musa-site",
+      "label": "Jebel Musa",
+      "summary": "Traditional Mount Sinai identification in southern Sinai, shown as tradition only.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          33.975,
+          28.54
+        ]
+      },
+      "evidenceClass": "tradition",
+      "confidence": "traditional",
+      "variantIds": [
+        "jebel-musa-tradition"
+      ],
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 19,
+          "label": "Exodus 19"
+        }
+      ],
+      "sourceIds": [
+        "source-hoffmeier-sinai",
+        "source-sacred-bridge",
+        "source-batch3-methodology"
+      ],
+      "placeId": "jebel-musa",
+      "whyShown": {
+        "evidence": "The existing place record maps Jebel Musa as a traditional-site coordinate.",
+        "inference": "Its surrounding terrain can be explored as the landscape of a tradition, not as recovered Exodus geography.",
+        "alternatives": "Har Karkom and northwestern-Arabia proposal families remain separate; biblical Mount Sinai itself stays unlocated."
+      }
+    },
+    {
+      "id": "har-karkom-site",
+      "label": "Har Karkom",
+      "summary": "A mapped candidate proposal in the southern Negev whose identification with Sinai/Horeb is disputed.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          34.75,
+          30.2
+        ]
+      },
+      "evidenceClass": "historical-inference",
+      "confidence": "possible",
+      "variantIds": [
+        "har-karkom-proposal"
+      ],
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 19,
+          "label": "Exodus 19"
+        }
+      ],
+      "sourceIds": [
+        "source-hoffmeier-sinai",
+        "source-batch3-methodology"
+      ],
+      "placeId": "har-karkom",
+      "whyShown": {
+        "evidence": "The v1 atlas includes Har Karkom as a candidate-site record.",
+        "inference": "The map lets users examine its geography without adopting the proposal.",
+        "alternatives": "Other northern/central, southern-Sinai, and east-of-Aqaba proposals exist; no consensus identification is asserted."
+      }
+    },
+    {
+      "id": "midian-regional-anchor",
+      "label": "Midian: broad orientation only",
+      "summary": "This broad regional anchor is used to discuss northwestern-Arabia proposal families without inventing a mountain coordinate.",
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          36.0,
+          28.5
+        ]
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "possible",
+      "variantIds": [
+        "northwestern-arabia-family"
+      ],
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 2,
+          "verseStart": 15,
+          "verseEnd": 22,
+          "label": "Exodus 2:15-22"
+        },
+        {
+          "book": "Exodus",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 1,
+          "label": "Exodus 3:1"
+        }
+      ],
+      "sourceIds": [
+        "source-exodus-judges-text",
+        "source-sacred-bridge",
+        "source-batch3-methodology"
+      ],
+      "placeId": "midian",
+      "whyShown": {
+        "evidence": "The atlas associates Midian broadly with northwestern Arabia and adjacent areas, with an approximate-area coordinate.",
+        "inference": "That broad geography is relevant to some Sinai arguments but does not identify Horeb/Sinai.",
+        "alternatives": "The proposal family must not be reduced to one modern mountain unless a specific candidate is separately sourced and labeled."
+      }
+    }
+  ]
+}

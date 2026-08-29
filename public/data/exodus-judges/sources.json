@@ -13,7 +13,10 @@
     "title": "Batch 3 Exodus–Judges Curation Methodology",
     "organization": "The Biblical World project",
     "license": "Original project metadata",
-    "notes": "Batch 3 separates textual sequence, site identification, archaeological chronology, later tradition, and route reconstruction. Unknown stations are not given synthetic coordinates; candidate sites are visibly labeled."
+    "notes": "Batch 3 separates textual sequence, site identification, archaeological chronology, later tradition, and route reconstruction. Unknown stations are not given synthetic coordinates; candidate sites are visibly labeled.",
+    "kind": "project-methodology",
+    "verificationStatus": "project-authored",
+    "verificationNote": "Project-authored curation methodology; no external source verification claim is implied."
   },
   {
     "id": "source-oxford-history",

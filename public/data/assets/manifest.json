@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "version": "2.0.0-alpha.11",
+  "policy": {
+    "largeAssetHost": "external-static-object-storage",
+    "githubPagesRole": "application-shell-small-json-small-geojson-ui-assets",
+    "rangeRequestsMustBypassServiceWorker": true,
+    "historicalReconstructionRequiresExplicitUncertainty": true
+  },
+  "assets": [
+    {
+      "id": "natural-earth-land-fallback",
+      "label": "Natural Earth land fallback",
+      "kind": "vector-geojson",
+      "runtimeKey": "basemap-fallback",
+      "status": "installed",
+      "delivery": "bundled",
+      "sourceResourceIds": [
+        "natural-earth"
+      ],
+      "sceneIds": [],
+      "publicPath": "data/basemap/land.geojson",
+      "sha256": "49ebdbad674417dcad81e262f2982b173bd203d9545cb9e9e4900353424d6810",
+      "sizeBytes": 23330,
+      "evidenceClass": "real-terrain",
+      "notes": "Modern macro-geography fallback only. It is not an ancient coastline reconstruction."
+    },
+    {
+      "id": "copernicus-glo30-terrain",
+      "label": "Copernicus GLO-30 terrain PMTiles",
+      "kind": "terrain-pmtiles",
+      "runtimeKey": "terrain",
+      "status": "awaiting-source-bytes",
+      "delivery": "external",
+      "sourceResourceIds": [
+        "copernicus-glo30"
+      ],
+      "sceneIds": [
+        "sinai-wilderness-prototype",
+        "mount-sinai-candidates-explorer",
+        "canaan-landscape-zones",
+        "megiddo-terrain-prototype",
+        "jerusalem-historical-terrain",
+        "moriah-zion-meaning-explorer",
+        "galilee-ministry-landscape",
+        "northern-ministry-transfiguration",
+        "judean-wilderness-eastern-approach",
+        "passion-night-jerusalem",
+        "pilate-trial-geography",
+        "golgotha-burial-explorer",
+        "resurrection-geography-context",
+        "babylon-imperial-city",
+        "nineveh-assyrian-city",
+        "persian-royal-centers",
+        "ephesus-roman-city",
+        "rome-paul-imperial-city",
+        "patmos-historical-island"
+      ],
+      "envVar": "VITE_TERRAIN_PMTILES_URL",
+      "evidenceClass": "real-terrain",
+      "notes": "Modern DSM relief only. Ancient terrain changes and archaeological reconstruction remain separate overlays. Prefer R2/S3/CDN hosting; do not commit a large regional PMTiles archive to GitHub Pages."
+    },
+    {
+      "id": "dare-roman-roads",
+      "label": "DARE Roman roads",
+      "kind": "vector-geojson",
+      "runtimeKey": "roman-roads",
+      "status": "awaiting-source-bytes",
+      "delivery": "external-or-bundled",
+      "sourceResourceIds": [
+        "dare-roman-roads"
+      ],
+      "sceneIds": [
+        "galilee-ministry-landscape",
+        "judean-wilderness-eastern-approach",
+        "ephesus-roman-city",
+        "rome-paul-imperial-city"
+      ],
+      "envVar": "VITE_ROMAN_ROADS_GEOJSON_URL",
+      "evidenceClass": "historical-inference",
+      "notes": "Contextual Roman road network. Individual line geometry must not be presented as a recovered roadbed unless the underlying record supports that precision."
+    },
+    {
+      "id": "yam-suph-paleolakes",
+      "label": "Eastern Delta paleolake reconstruction",
+      "kind": "derived-geojson",
+      "runtimeKey": "yam-suph-paleogeography",
+      "status": "awaiting-derived-geometry",
+      "delivery": "derived",
+      "sourceResourceIds": [],
+      "sceneIds": [
+        "yam-suph-environment-explorer"
+      ],
+      "evidenceClass": "historical-inference",
+      "citations": [
+        "Drews, C. & Han, W. (2010), PLOS ONE 5(8): e12481, DOI 10.1371/journal.pone.0012481"
+      ],
+      "notes": "Must be independently authored from cited paleogeographic evidence and labeled approximate/reconstructed. Never encode an Exodus crossing point."
+    },
+    {
+      "id": "galilee-first-century-shoreline",
+      "label": "Sea of Galilee first-century shoreline reconstruction",
+      "kind": "derived-geojson",
+      "runtimeKey": "galilee-shoreline",
+      "status": "awaiting-derived-geometry",
+      "delivery": "derived",
+      "sourceResourceIds": [],
+      "sceneIds": [
+        "galilee-ministry-landscape"
+      ],
+      "evidenceClass": "historical-inference",
+      "citations": [
+        "User-supplied verification packet, Galilee Evidence Register"
+      ],
+      "notes": "The packet supplies the -209 m research claim, but no production shoreline geometry. Do not generate a precise contour until the source bathymetry/elevation basis is available."
+    },
+    {
+      "id": "ephesus-roman-paleocoastline",
+      "label": "Roman-period Ephesus paleocoastline",
+      "kind": "derived-geojson",
+      "runtimeKey": "ephesus-paleocoastline",
+      "status": "awaiting-derived-geometry",
+      "delivery": "derived",
+      "sourceResourceIds": [],
+      "sceneIds": [
+        "ephesus-roman-city"
+      ],
+      "evidenceClass": "historical-inference",
+      "citations": [
+        "Kraft, J. C., Brückner, H., Kayan, I. & Engelmann, H. (2007). Geoarchaeology 22(1), 121-149"
+      ],
+      "notes": "Exact decade-specific shoreline geometry is interpolated; any future polygon must carry period and uncertainty metadata."
+    },
+    {
+      "id": "jerusalem-ancient-surface",
+      "label": "Reconstructed ancient Jerusalem terrain surface",
+      "kind": "derived-terrain",
+      "runtimeKey": "jerusalem-reconstructed-terrain",
+      "status": "awaiting-derived-terrain",
+      "delivery": "derived",
+      "sourceResourceIds": [
+        "copernicus-glo30"
+      ],
+      "sceneIds": [
+        "jerusalem-historical-terrain",
+        "moriah-zion-meaning-explorer",
+        "passion-night-jerusalem",
+        "pilate-trial-geography",
+        "golgotha-burial-explorer"
+      ],
+      "evidenceClass": "historical-inference",
+      "notes": "Must remain visibly distinct from modern DEM. Temple Mount subsurface and exact period-specific valley profiles remain unresolved."
+    },
+    {
+      "id": "megiddo-open-context-spatial",
+      "label": "Megiddo archaeological spatial dataset",
+      "kind": "archaeology-dataset",
+      "runtimeKey": "megiddo-archaeology",
+      "status": "awaiting-dataset-selection",
+      "delivery": "external-or-bundled",
+      "sourceResourceIds": [
+        "open-context"
+      ],
+      "sceneIds": [
+        "megiddo-terrain-prototype"
+      ],
+      "evidenceClass": "known-archaeology",
+      "notes": "A specific Open Context dataset DOI and license must be selected before ingestion. Repository-level policy is not sufficient."
+    },
+    {
+      "id": "babylon-spatial-layout",
+      "label": "Neo-Babylonian Babylon spatial layout",
+      "kind": "archaeology-dataset",
+      "runtimeKey": "babylon-archaeology",
+      "status": "blocked-verification",
+      "delivery": "derived-or-external",
+      "sourceResourceIds": [],
+      "sceneIds": [
+        "babylon-imperial-city"
+      ],
+      "evidenceClass": "known-archaeology",
+      "notes": "The packet describes Pedersen/Uppsala GIS, but alpha.9 does not contain a separately verified resource/license record for the specific downloadable files. Do not ingest until that is resolved."
+    },
+    {
+      "id": "historic-landscape-image-pack",
+      "label": "Historic landscape image pack",
+      "kind": "image-set",
+      "runtimeKey": "historic-images",
+      "status": "awaiting-item-selection",
+      "delivery": "bundled-or-external",
+      "sourceResourceIds": [
+        "loc-matson",
+        "met-open-access"
+      ],
+      "sceneIds": [
+        "sinai-wilderness-prototype",
+        "megiddo-terrain-prototype",
+        "jerusalem-historical-terrain",
+        "galilee-ministry-landscape",
+        "babylon-imperial-city",
+        "nineveh-assyrian-city",
+        "persian-royal-centers"
+      ],
+      "evidenceClass": "known-archaeology",
+      "notes": "Every image must have an individual item URL and license record. Do not reuse the packet's mixed Trumpeting Stone image entry without re-verification."
+    }
+  ]
+}

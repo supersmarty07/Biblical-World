@@ -160,7 +160,10 @@
     ],
     "coordinateRole": "identified-site",
     "validFrom": -300,
-    "validTo": 300
+    "validTo": 300,
+    "externalIds": {
+      "pleiades": "658418"
+    }
   },
   {
     "id": "seleucia-pieria",
@@ -267,7 +270,10 @@
     ],
     "coordinateRole": "identified-site",
     "validFrom": -300,
-    "validTo": 40
+    "validTo": 40,
+    "externalIds": {
+      "pleiades": "678328"
+    }
   },
   {
     "id": "modein",
@@ -701,7 +707,10 @@
     "coordinateRole": "identified-site",
     "archaeology": "Harbor engineering, theater, palace remains, streets and later inscriptions make Caesarea one of the best-preserved anchors for Herodian-Roman Judea.",
     "validFrom": -22,
-    "validTo": 300
+    "validTo": 300,
+    "externalIds": {
+      "pleiades": "678070"
+    }
   },
   {
     "id": "herodium",
@@ -965,7 +974,11 @@
     ],
     "coordinateRole": "identified-site",
     "validFrom": -500,
-    "validTo": 300
+    "validTo": 300,
+    "externalIds": {
+      "pleiades": "423025",
+      "wikidata": "Q220"
+    }
   },
   {
     "id": "actium",
@@ -1060,7 +1073,10 @@
     "coordinateRole": "identified-site",
     "archaeology": "Herodian/Roman monumental remains overlay the Iron Age capital.",
     "validFrom": -27,
-    "validTo": 300
+    "validTo": 300,
+    "externalIds": {
+      "pleiades": "687987"
+    }
   },
   {
     "id": "hasmonean-palace-jerusalem",

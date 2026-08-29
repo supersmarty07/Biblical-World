@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "scenes": [
+    {
+      "id": "sinai-wilderness-prototype",
+      "title": "Sinai Wilderness",
+      "subtitle": "Wilderness travel explorer",
+      "summary": "Explore topography, water stress, travel scale, and the limits of route reconstruction in a schematic Sinai wilderness environment.",
+      "renderer": "panorama",
+      "availability": "prototype",
+      "placeIds": [
+        "mount-sinai",
+        "marah",
+        "elim",
+        "wilderness-sin",
+        "rephidim"
+      ],
+      "tags": [
+        "Sinai",
+        "Exodus",
+        "wilderness",
+        "travel",
+        "water",
+        "panorama"
+      ],
+      "scenePath": "data/immersive/scenes/sinai-wilderness-prototype.json"
+    },
+    {
+      "id": "yam-suph-environment-explorer",
+      "title": "Yam Suph / Sea Crossing Environments",
+      "subtitle": "Environmental proposal-family explorer",
+      "summary": "Compare eastern-Delta lake/marsh, Gulf of Suez, and farther-east proposal families without selecting an exact Exodus crossing point.",
+      "renderer": "panorama",
+      "availability": "prototype",
+      "placeIds": [
+        "yam-suph"
+      ],
+      "tags": [
+        "Yam Suph",
+        "Red Sea",
+        "Sea of Reeds",
+        "Exodus",
+        "paleohydrology",
+        "comparison"
+      ],
+      "scenePath": "data/immersive/scenes/yam-suph-environment-explorer.json"
+    },
+    {
+      "id": "mount-sinai-candidates-explorer",
+      "title": "Mount Sinai Candidates Explorer",
+      "subtitle": "Traditions and proposals compared",
+      "summary": "Compare Jebel Musa, Har Karkom, and a broad northwestern-Arabia proposal family while biblical Sinai/Horeb remains unlocated.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "mount-sinai",
+        "jebel-musa",
+        "har-karkom",
+        "midian"
+      ],
+      "tags": [
+        "Mount Sinai",
+        "Horeb",
+        "Jebel Musa",
+        "Har Karkom",
+        "Midian",
+        "comparison",
+        "terrain"
+      ],
+      "scenePath": "data/immersive/scenes/mount-sinai-candidates-explorer.json"
+    },
+    {
+      "id": "canaan-landscape-zones",
+      "title": "Canaan Landscape Zones",
+      "subtitle": "Regional geography explorer",
+      "summary": "Compare broad coastal, highland, valley, foothill, Galilean, and Negev landscape zones through explicitly schematic environments.",
+      "renderer": "panorama",
+      "availability": "prototype",
+      "placeIds": [
+        "canaan",
+        "jezreel-valley",
+        "negev",
+        "mount-carmel",
+        "mount-tabor"
+      ],
+      "tags": [
+        "Canaan",
+        "environment",
+        "regional geography",
+        "landscape",
+        "panorama"
+      ],
+      "scenePath": "data/immersive/scenes/canaan-landscape-zones.json"
+    },
+    {
+      "id": "megiddo-terrain-prototype",
+      "title": "Megiddo + Jezreel Valley",
+      "subtitle": "Strategic landscape and period-context explorer",
+      "summary": "Explore Tel Megiddo and the Jezreel Valley through physical, Judges, united-monarchy, northern-kingdom, and late-monarchy context views without inventing ancient architecture.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "megiddo",
+        "jezreel-valley",
+        "mount-carmel",
+        "mount-tabor",
+        "mount-gilboa",
+        "jezreel-city"
+      ],
+      "tags": [
+        "Megiddo",
+        "Jezreel",
+        "terrain",
+        "Judges",
+        "Iron Age",
+        "periods"
+      ],
+      "scenePath": "data/immersive/scenes/megiddo-terrain-prototype.json"
+    },
+    {
+      "id": "jerusalem-historical-terrain",
+      "title": "Jerusalem Through Time",
+      "subtitle": "Topography, archaeology, and period-aware interpretation",
+      "summary": "Explore Jerusalem from its southeastern ridge and water system through First Temple, Second Temple, Gospel-period, and 70 CE contexts while keeping reconstructed footprints explicitly uncertain.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "jerusalem",
+        "city-of-david-ridge",
+        "zion-biblical",
+        "temple-mount",
+        "gihon-spring",
+        "kidron-valley",
+        "mount-olives",
+        "siloam-tunnel",
+        "pool-siloam-second-temple",
+        "moriah"
+      ],
+      "tags": [
+        "Jerusalem",
+        "Moriah",
+        "Zion",
+        "City of David",
+        "Temple Mount",
+        "Gihon",
+        "Siloam",
+        "Kidron",
+        "Mount of Olives",
+        "periods",
+        "terrain"
+      ],
+      "scenePath": "data/immersive/scenes/jerusalem-historical-terrain.json"
+    },
+    {
+      "id": "moriah-zion-meaning-explorer",
+      "title": "Moriah + Zion: What Do the Names Mean?",
+      "subtitle": "A textual-topographic concept explorer",
+      "summary": "Compare early and later Zion usage, Genesis Moriah, the 2 Chronicles temple association, and the physical Temple Mount precinct without collapsing them into one timeless coordinate.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "moriah",
+        "zion-biblical",
+        "city-of-david-ridge",
+        "temple-mount",
+        "jerusalem"
+      ],
+      "tags": [
+        "Moriah",
+        "Zion",
+        "Jerusalem",
+        "toponym",
+        "Temple Mount",
+        "concepts",
+        "uncertainty"
+      ],
+      "scenePath": "data/immersive/scenes/moriah-zion-meaning-explorer.json"
+    },
+    {
+      "id": "galilee-ministry-landscape",
+      "title": "Galilee Ministry Landscapes",
+      "subtitle": "Nazareth, Capernaum, the lake, and disputed shoreline geography",
+      "summary": "Move among Lower Galilee, the northwestern lakeshore, Sea of Galilee crossings, and the northeastern shore while keeping established places, candidate sites, and unknown event locations distinct.",
+      "renderer": "panorama",
+      "availability": "prototype",
+      "placeIds": [
+        "nazareth",
+        "cana-galilee",
+        "capernaum",
+        "sea-galilee",
+        "magdala",
+        "bethsaida-gospels",
+        "el-araj-bethsaida",
+        "et-tell-bethsaida",
+        "mount-beatitudes-traditional",
+        "gerasenes-gadarenes-region"
+      ],
+      "tags": [
+        "Jesus",
+        "Galilee",
+        "Capernaum",
+        "Nazareth",
+        "Sea of Galilee",
+        "Bethsaida",
+        "ministry",
+        "panorama"
+      ],
+      "scenePath": "data/immersive/scenes/galilee-ministry-landscape.json"
+    },
+    {
+      "id": "northern-ministry-transfiguration",
+      "title": "Caesarea Philippi + the Unnamed Mountain",
+      "subtitle": "Northern ministry geography and the Transfiguration problem",
+      "summary": "Explore the securely identified Paneas/Caesarea Philippi district alongside the Gospel’s unnamed Transfiguration mountain, preserving Tabor tradition and Hermon proposals without choosing a winner.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "panium",
+        "mount-transfiguration",
+        "mount-tabor",
+        "mount-hermon"
+      ],
+      "tags": [
+        "Jesus",
+        "Caesarea Philippi",
+        "Paneas",
+        "Transfiguration",
+        "Tabor",
+        "Hermon",
+        "terrain",
+        "uncertainty"
+      ],
+      "scenePath": "data/immersive/scenes/northern-ministry-transfiguration.json"
+    },
+    {
+      "id": "judean-wilderness-eastern-approach",
+      "title": "Judean Wilderness + Eastern Approach",
+      "subtitle": "John’s wilderness, the Jordan corridor, Jericho, Bethany, and the Mount of Olives",
+      "summary": "Explore the broad arid landscape east of Jerusalem and the final approach corridor without turning John’s preaching, Jesus’ temptation, the baptism site, or the road into exact GPS reconstructions.",
+      "renderer": "panorama",
+      "availability": "prototype",
+      "placeIds": [
+        "judean-wilderness-gospels",
+        "bethany-beyond-jordan",
+        "al-maghtas",
+        "jericho",
+        "bethany-judea",
+        "bethphage",
+        "mount-olives",
+        "jerusalem"
+      ],
+      "tags": [
+        "Jesus",
+        "John the Baptist",
+        "Judean Wilderness",
+        "Jordan",
+        "Jericho",
+        "Bethany",
+        "Mount of Olives",
+        "panorama"
+      ],
+      "scenePath": "data/immersive/scenes/judean-wilderness-eastern-approach.json"
+    },
+    {
+      "id": "passion-night-jerusalem",
+      "title": "Passion Night: Upper Room, Gethsemane & Hearings",
+      "subtitle": "Jerusalem, Kidron, Mount of Olives, and unresolved hearing locations",
+      "summary": "Explore the Last Supper, Kidron/Gethsemane setting, and unresolved Annas/Caiaphas hearing geography without reconstructing a precise Passion-night route.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "jerusalem",
+        "upper-room-jerusalem",
+        "kidron-valley",
+        "mount-olives",
+        "gethsemane"
+      ],
+      "tags": [
+        "Jesus",
+        "Passion",
+        "Jerusalem",
+        "Gethsemane",
+        "Kidron",
+        "Mount of Olives",
+        "Last Supper",
+        "terrain"
+      ],
+      "scenePath": "data/immersive/scenes/passion-night-jerusalem.json"
+    },
+    {
+      "id": "pilate-trial-geography",
+      "title": "Pilate’s Praetorium: Trial Geography",
+      "subtitle": "Textual headquarters, western-palace model, and Antonia-area tradition",
+      "summary": "Compare the unlocated Gospel praetorium with the western Herodian palace model and Antonia-area trial tradition without turning the Via Dolorosa into a recovered first-century route.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "jerusalem",
+        "praetorium-pilate",
+        "gabbatha",
+        "herods-palace-jerusalem",
+        "antonia-fortress"
+      ],
+      "tags": [
+        "Jesus",
+        "Pilate",
+        "Praetorium",
+        "Gabbatha",
+        "Antonia",
+        "Herod palace",
+        "trial",
+        "Jerusalem",
+        "comparison"
+      ],
+      "scenePath": "data/immersive/scenes/pilate-trial-geography.json"
+    },
+    {
+      "id": "golgotha-burial-explorer",
+      "title": "Golgotha + Burial: Text and Candidate Traditions",
+      "subtitle": "Textual constraints, Holy Sepulchre, and Garden Tomb kept separate",
+      "summary": "Compare unlocated Gospel Golgotha/tomb descriptions with the Holy Sepulchre tradition and Garden Tomb alternative without assigning the textual locations their own coordinates.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "jerusalem",
+        "golgotha",
+        "tomb-jesus",
+        "holy-sepulchre",
+        "garden-tomb"
+      ],
+      "tags": [
+        "Jesus",
+        "Golgotha",
+        "crucifixion",
+        "burial",
+        "Holy Sepulchre",
+        "Garden Tomb",
+        "Jerusalem",
+        "comparison"
+      ],
+      "scenePath": "data/immersive/scenes/golgotha-burial-explorer.json"
+    },
+    {
+      "id": "resurrection-geography-context",
+      "title": "Resurrection Geography: What Can the Atlas Map?",
+      "subtitle": "Jerusalem, Emmaus, and Galilee with geography separated from theological claims",
+      "summary": "Explore geographic claims in the resurrection narratives while leaving the supernatural claim outside archaeological adjudication and disputed destinations unpinned.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "jerusalem",
+        "tomb-jesus",
+        "emmaus-luke",
+        "qubeibeh-emmaus-traditional",
+        "sea-galilee",
+        "galilee-resurrection-mountain"
+      ],
+      "tags": [
+        "Jesus",
+        "resurrection",
+        "Jerusalem",
+        "Emmaus",
+        "Galilee",
+        "geography",
+        "uncertainty",
+        "concepts"
+      ],
+      "scenePath": "data/immersive/scenes/resurrection-geography-context.json"
+    },
+    {
+      "id": "babylon-imperial-city",
+      "title": "Babylon: City, Exile & Empire",
+      "subtitle": "Archaeological Babylon separated from biblical literary settings",
+      "summary": "Explore Babylon’s archaeological city, palace context, exile world, and Persian transition without inventing biblical event coordinates.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "babylon",
+        "babylon-southern-palace",
+        "babylonia-exile-zone"
+      ],
+      "tags": [
+        "Babylon",
+        "exile",
+        "Daniel",
+        "Cyrus",
+        "Mesopotamia",
+        "terrain"
+      ],
+      "scenePath": "data/immersive/scenes/babylon-imperial-city.json"
+    },
+    {
+      "id": "nineveh-assyrian-city",
+      "title": "Nineveh: Assyrian Capital & Biblical Horizon",
+      "subtitle": "Imperial archaeology, Jonah’s setting, and the 612 BCE fall",
+      "summary": "Explore Nineveh as a securely identified Assyrian capital while keeping Jonah’s literary/historical questions and battle geometry separate.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "nineveh"
+      ],
+      "tags": [
+        "Nineveh",
+        "Assyria",
+        "Jonah",
+        "Nahum",
+        "612 BCE",
+        "terrain"
+      ],
+      "scenePath": "data/immersive/scenes/nineveh-assyrian-city.json"
+    },
+    {
+      "id": "persian-royal-centers",
+      "title": "Persian Royal Centers: Susa + Persepolis",
+      "subtitle": "Biblical narrative setting and imperial context compared",
+      "summary": "Compare Susa as a named biblical setting with Persepolis as securely established Achaemenid context.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "susa",
+        "persepolis"
+      ],
+      "tags": [
+        "Susa",
+        "Persepolis",
+        "Persia",
+        "Esther",
+        "Daniel",
+        "Nehemiah",
+        "comparison"
+      ],
+      "scenePath": "data/immersive/scenes/persian-royal-centers.json"
+    },
+    {
+      "id": "ephesus-roman-city",
+      "title": "Ephesus: Paul, Artemis & Roman Asia",
+      "subtitle": "Urban archaeology and ministry geography without invented addresses",
+      "summary": "Explore Ephesus, its theater and Artemision, Paul’s ministry setting, and Revelation context while leaving Tyrannus and ancient shoreline details unresolved.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "ephesus",
+        "ephesus-theater",
+        "artemision-ephesus",
+        "hall-tyrannus"
+      ],
+      "tags": [
+        "Paul",
+        "Ephesus",
+        "Acts",
+        "Artemis",
+        "Revelation",
+        "Roman Asia",
+        "terrain"
+      ],
+      "scenePath": "data/immersive/scenes/ephesus-roman-city.json"
+    },
+    {
+      "id": "rome-paul-imperial-city",
+      "title": "Rome: Paul’s Arrival & Imperial Context",
+      "subtitle": "Via Appia approach, city-level ministry, and Revelation interpretation kept distinct",
+      "summary": "Explore Rome and Paul’s broad approach while keeping his lodging, Three Taverns, and visionary Babylon unpinned.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "rome",
+        "puteoli",
+        "appii-forum",
+        "three-taverns",
+        "paul-lodging-rome",
+        "babylon-great-revelation"
+      ],
+      "tags": [
+        "Paul",
+        "Rome",
+        "Acts 28",
+        "Via Appia",
+        "Revelation",
+        "imperial city",
+        "terrain"
+      ],
+      "scenePath": "data/immersive/scenes/rome-paul-imperial-city.json"
+    },
+    {
+      "id": "patmos-historical-island",
+      "title": "Patmos: Historical Island & Visionary Threshold",
+      "subtitle": "The certain island, unknown first-century spot, and later cave tradition",
+      "summary": "Explore real Patmos while keeping John’s exact location unknown, the cave traditional, and visionary geography non-terrestrial.",
+      "renderer": "map-terrain",
+      "availability": "prototype",
+      "placeIds": [
+        "patmos",
+        "cave-apocalypse-patmos"
+      ],
+      "tags": [
+        "Patmos",
+        "Revelation",
+        "John",
+        "Cave of the Apocalypse",
+        "tradition",
+        "terrain"
+      ],
+      "scenePath": "data/immersive/scenes/patmos-historical-island.json"
+    }
+  ]
+}

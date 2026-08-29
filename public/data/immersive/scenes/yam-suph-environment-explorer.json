@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "id": "yam-suph-environment-explorer",
+  "title": "Yam Suph / Sea Crossing Environments",
+  "subtitle": "Compare environmental proposal families without choosing an exact crossing point",
+  "summary": "Three schematic environmental families make the geographic debate explorable while keeping the specific water body and crossing location unresolved.",
+  "renderer": "panorama",
+  "availability": "prototype",
+  "placeIds": [
+    "yam-suph"
+  ],
+  "disclaimer": "Environmental/candidate reconstruction only. These views do not depict a proven Exodus crossing site, ancient shoreline, route, wind event, or recovered paleohydrology. The visual states are project-authored schematics; site-specific hydrology and coastline data require primary-source verification before release-quality reconstruction.",
+  "evidenceLegend": [
+    {
+      "class": "historical-inference",
+      "label": "Environmental proposal",
+      "description": "A broad geographic/environmental family discussed in historical reconstruction, not a discovered crossing location."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Unknown / disputed",
+      "description": "The specific body of water, route, and crossing location remain unresolved in the atlas."
+    },
+    {
+      "class": "artistic-reconstruction",
+      "label": "Schematic reconstruction",
+      "description": "The visible marsh, shore, water, and terrain forms are interface schematics rather than site-specific scientific reconstructions."
+    }
+  ],
+  "periods": [
+    {
+      "id": "narrative-context",
+      "label": "Exodus narrative context",
+      "note": "No precise archaeological date or crossing year is assigned by this scene."
+    }
+  ],
+  "defaultPeriodId": "narrative-context",
+  "panorama": {
+    "alt": "Schematic environmental comparison for Yam Suph proposal families",
+    "worldWidthPercent": 190,
+    "initialPan": 0.48
+  },
+  "comparison": {
+    "label": "Yam Suph proposal families",
+    "intro": "Switching views changes the environmental hypothesis being illustrated, not the atlas confidence. Each remains a proposal family rather than a crossing pin.",
+    "defaultOptionId": "eastern-delta-lake-marsh",
+    "options": [
+      {
+        "id": "eastern-delta-lake-marsh",
+        "label": "Eastern Delta / lake-marsh",
+        "status": "possible",
+        "summary": "A family of reconstructions places the crossing among ancient lakes, lagoons, marshes, or channels east of the Nile Delta and toward the Suez approaches.",
+        "rationale": "The existing Yam Suph record already preserves this as one historically discussed family and emphasizes that exact paleohydrology and route remain debated.",
+        "objections": "The schematic water network shown here is not a mapped ancient shoreline. Exact channels, lake extents, chronology, and the narrative route are not established by this scene.",
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-hoffmeier-egypt",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ],
+        "placeIds": [
+          "yam-suph"
+        ],
+        "fallbackEnvironment": "delta-marsh"
+      },
+      {
+        "id": "gulf-of-suez",
+        "label": "Gulf of Suez",
+        "status": "possible",
+        "summary": "Some reconstructions relate Yam Suph to the northern Gulf of Suez or its approaches rather than a Delta lake-marsh system.",
+        "rationale": "This is a distinct proposal family already retained in the v1 interpretation record; the biblical text alone does not resolve it.",
+        "objections": "A gulf setting does not establish a precise shore, crossing line, camp, or date. Ancient coastal and hydrological conditions would need separately verified reconstruction data.",
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-hoffmeier-egypt",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ],
+        "placeIds": [
+          "yam-suph"
+        ],
+        "fallbackEnvironment": "gulf-coast"
+      },
+      {
+        "id": "farther-east",
+        "label": "Farther east / Aqaba family",
+        "status": "possible",
+        "summary": "Farther-east proposals move the crossing and subsequent itinerary substantially eastward, including models associated with the Gulf of Aqaba region.",
+        "rationale": "The v1 atlas records farther-east proposals because they exist in the interpretive landscape, while explicitly refusing to treat them as established.",
+        "objections": "These proposals require a substantially different route reconstruction. The schematic mountains and gulf are not evidence for a crossing and do not identify a particular shore.",
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-hoffmeier-sinai",
+          "source-batch3-methodology"
+        ],
+        "placeIds": [
+          "yam-suph"
+        ],
+        "fallbackEnvironment": "arid-gulf"
+      }
+    ]
+  },
+  "assets": [],
+  "hotspots": [
+    {
+      "id": "delta-paleowater-question",
+      "label": "Ancient water landscape",
+      "summary": "Eastern-Delta proposals depend on reconstructing water bodies whose ancient extent and connections changed through time.",
+      "position": {
+        "kind": "image",
+        "x": 0.49,
+        "y": 0.62
+      },
+      "evidenceClass": "historical-inference",
+      "confidence": "possible",
+      "variantIds": [
+        "eastern-delta-lake-marsh"
+      ],
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 14,
+          "label": "Exodus 14"
+        }
+      ],
+      "sourceIds": [
+        "source-exodus-judges-text",
+        "source-hoffmeier-egypt",
+        "source-batch3-methodology"
+      ],
+      "placeId": "yam-suph",
+      "whyShown": {
+        "evidence": "The atlas preserves eastern-Delta lake and marsh proposals as one interpretive family.",
+        "inference": "Paleohydrology may help test route models, but this schematic marsh is not a scientific reconstruction.",
+        "alternatives": "Gulf of Suez and farther-east families remain visible in the same explorer."
+      }
+    },
+    {
+      "id": "delta-route-uncertainty",
+      "label": "No exact route through the wetlands",
+      "summary": "Even within an eastern-Delta model, the narrative stations and crossing line cannot be converted into a recovered GPS path.",
+      "position": {
+        "kind": "image",
+        "x": 0.76,
+        "y": 0.73
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "unknown",
+      "variantIds": [
+        "eastern-delta-lake-marsh"
+      ],
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 13,
+          "verseStart": 20,
+          "verseEnd": 22,
+          "label": "Exodus 13:20-22"
+        },
+        {
+          "book": "Exodus",
+          "chapter": 14,
+          "verseStart": 1,
+          "verseEnd": 2,
+          "label": "Exodus 14:1-2"
+        }
+      ],
+      "sourceIds": [
+        "source-exodus-judges-text",
+        "source-hoffmeier-egypt",
+        "source-batch3-methodology"
+      ],
+      "whyShown": {
+        "evidence": "Succoth, Etham, Pi-hahiroth, Baal-zephon, and the crossing water are not all securely identified.",
+        "inference": "A corridor can illustrate a model, but an exact line would overstate the evidence.",
+        "alternatives": "Different reconstructions place the sequence in different parts of the eastern frontier."
+      }
+    },
+    {
+      "id": "suez-shore-reference",
+      "label": "Gulf setting is not a crossing pin",
+      "summary": "The Gulf of Suez view illustrates a proposal family, not an exact ancient shoreline or event location.",
+      "position": {
+        "kind": "image",
+        "x": 0.63,
+        "y": 0.62
+      },
+      "evidenceClass": "historical-inference",
+      "confidence": "possible",
+      "variantIds": [
+        "gulf-of-suez"
+      ],
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 14,
+          "label": "Exodus 14"
+        }
+      ],
+      "sourceIds": [
+        "source-exodus-judges-text",
+        "source-hoffmeier-egypt",
+        "source-sacred-bridge",
+        "source-batch3-methodology"
+      ],
+      "placeId": "yam-suph",
+      "whyShown": {
+        "evidence": "A Gulf of Suez family is preserved in the v1 interpretation record.",
+        "inference": "A coastal/gulf environment can explain the geographic character of the proposal without selecting a crossing beach.",
+        "alternatives": "Eastern-Delta and farther-east proposal families remain separate."
+      }
+    },
+    {
+      "id": "farther-east-route-cost",
+      "label": "A substantially different itinerary",
+      "summary": "Moving the crossing farther east changes the distances and route assumptions that must be explained.",
+      "position": {
+        "kind": "image",
+        "x": 0.54,
+        "y": 0.54
+      },
+      "evidenceClass": "unknown-disputed",
+      "confidence": "possible",
+      "variantIds": [
+        "farther-east"
+      ],
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 13,
+          "label": "Exodus 13"
+        },
+        {
+          "book": "Exodus",
+          "chapter": 15,
+          "label": "Exodus 15"
+        }
+      ],
+      "sourceIds": [
+        "source-exodus-judges-text",
+        "source-hoffmeier-sinai",
+        "source-batch3-methodology"
+      ],
+      "placeId": "yam-suph",
+      "whyShown": {
+        "evidence": "The existing atlas notes that farther-east proposals require a substantially different route reconstruction.",
+        "inference": "Terrain and distance can be compared, but the scene cannot resolve the textual-geographic debate by itself.",
+        "alternatives": "The explorer intentionally keeps the other proposal families one tap away."
+      }
+    },
+    {
+      "id": "yam-suph-schematic-boundary",
+      "label": "What you see is schematic",
+      "summary": "Water, reeds, shoreline, mountains, and foreground forms are project-authored visual categories, not recovered ancient scenery.",
+      "position": {
+        "kind": "image",
+        "x": 0.2,
+        "y": 0.74
+      },
+      "evidenceClass": "artistic-reconstruction",
+      "confidence": "unknown",
+      "scripture": [
+        {
+          "book": "Exodus",
+          "chapter": 14,
+          "label": "Exodus 14"
+        }
+      ],
+      "sourceIds": [
+        "source-batch3-methodology"
+      ],
+      "whyShown": {
+        "evidence": "No verified paleohydrology, ancient shoreline, or site-specific visual dataset is bundled in Batch 2.",
+        "inference": "Schematic environments make proposal families understandable while preserving the boundary between visualization and evidence.",
+        "alternatives": "A later release can replace these layers only after scientific datasets and licenses are verified from primary sources."
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import type { AtlasData, EventRecord, JourneyRecord, PersonRecord, PlaceRecord, 
 import { eventRecordSchema, journeyRecordSchema, personRecordSchema, placeRecordSchema, regionsSchema, sourceRefSchema, storyRecordSchema, visionarySceneSchema } from './schema';
 
 const base = import.meta.env.BASE_URL;
-const contentPacks = ['data/genesis', 'data/exodus-judges', 'data/united-monarchy', 'data/divided-kingdom', 'data/exile-restoration', 'data/second-temple', 'data/gospels', 'data/acts-paul', 'data/revelation'] as const;
+const fallbackContentPacks = ['genesis', 'exodus-judges', 'united-monarchy', 'divided-kingdom', 'exile-restoration', 'second-temple', 'gospels', 'acts-paul', 'revelation'] as const;
 
 async function getJson(path: string): Promise<unknown> {
   const response = await fetch(`${base}${path}`);
@@ -10,8 +10,20 @@ async function getJson(path: string): Promise<unknown> {
   return response.json() as Promise<unknown>;
 }
 
-async function loadPack(packPath: string): Promise<AtlasData> {
-  const visionaryPromise = packPath.endsWith('/revelation') ? getJson(`${packPath}/visionary-scenes.json`) : Promise.resolve([]);
+async function loadPackIds(): Promise<string[]> {
+  try {
+    const raw = await getJson('data/generated/content-manifest.json') as { packs?: Array<{ id?: unknown }> };
+    const ids = raw.packs?.map((pack) => pack.id).filter((id): id is string => typeof id === 'string' && /^[a-z0-9-]+$/.test(id));
+    if (!ids?.length) throw new Error('Manifest has no valid pack ids');
+    return ids;
+  } catch {
+    return [...fallbackContentPacks];
+  }
+}
+
+async function loadPack(packId: string): Promise<AtlasData> {
+  const packPath = `data/${packId}`;
+  const visionaryPromise = packId === 'revelation' ? getJson(`${packPath}/visionary-scenes.json`) : Promise.resolve([]);
   const [placesRaw, journeysRaw, storiesRaw, peopleRaw, eventsRaw, sourcesRaw, regionsRaw, visionaryRaw] = await Promise.all([
     getJson(`${packPath}/places.json`),
     getJson(`${packPath}/journeys.json`),
@@ -44,7 +56,8 @@ function assertUnique<T extends { id: string }>(items: T[], label: string): void
 }
 
 export async function loadAtlasData(): Promise<AtlasData> {
-  const packs = await Promise.all(contentPacks.map(loadPack));
+  const packIds = await loadPackIds();
+  const packs = await Promise.all(packIds.map(loadPack));
   const merged: AtlasData = {
     places: packs.flatMap((pack) => pack.places),
     journeys: packs.flatMap((pack) => pack.journeys),
@@ -52,10 +65,7 @@ export async function loadAtlasData(): Promise<AtlasData> {
     people: packs.flatMap((pack) => pack.people),
     events: packs.flatMap((pack) => pack.events),
     sources: packs.flatMap((pack) => pack.sources),
-    regions: {
-      type: 'FeatureCollection',
-      features: packs.flatMap((pack) => pack.regions.features)
-    },
+    regions: { type: 'FeatureCollection', features: packs.flatMap((pack) => pack.regions.features) },
     visionaryScenes: packs.flatMap((pack) => pack.visionaryScenes)
   };
 

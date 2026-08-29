@@ -1023,7 +1023,7 @@
       "source-batch3-methodology"
     ],
     "coordinates": [
-      36.0,
+      36,
       28.5
     ],
     "coordinateRole": "approximate-area",
@@ -1392,7 +1392,10 @@
           "source-ben-tor-israel"
         ]
       }
-    ]
+    ],
+    "externalIds": {
+      "pleiades": "687920"
+    }
   },
   {
     "id": "gilgal-joshua",
@@ -1820,7 +1823,10 @@
       35.184,
       32.585
     ],
-    "coordinateRole": "identified-site"
+    "coordinateRole": "identified-site",
+    "externalIds": {
+      "pleiades": "678266"
+    }
   },
   {
     "id": "taanach",
@@ -2245,7 +2251,7 @@
       "source-batch3-methodology"
     ],
     "coordinates": [
-      35.0,
+      35,
       31.78
     ],
     "coordinateRole": "candidate-site"
@@ -2838,7 +2844,10 @@
       "source-exodus-judges-text",
       "source-sacred-bridge",
       "source-anchor-yale"
-    ]
+    ],
+    "externalIds": {
+      "pleiades": "687862"
+    }
   },
   {
     "id": "gibeah-benjamin",

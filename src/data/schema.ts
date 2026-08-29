@@ -98,6 +98,10 @@ export const storyRecordSchema = z.object({
     textualReferences: z.array(textualReferenceSchema).optional(),
     contextYear: z.number().optional(),
     visionarySceneId: z.string().min(1).optional(),
+    immersiveSceneId: z.string().min(1).optional(),
+    immersiveVariantId: z.string().min(1).optional(),
+    immersivePeriodId: z.string().min(1).optional(),
+    immersiveHotspotId: z.string().min(1).optional(),
     camera: z.object({
       center: z.tuple([z.number(), z.number()]),
       zoom: z.number(),
@@ -153,6 +157,13 @@ export const sourceRefSchema = z.object({
   licenseUrl: z.string().url().optional(),
   attribution: z.string().optional(),
   verifiedAt: z.string().optional(),
+  verificationStatus: z.enum(['project-authored', 'primary-verified', 'research-supplied', 'needs-verification']).optional(),
+  verificationNote: z.string().optional(),
+  accessedAt: z.string().optional(),
+  doi: z.string().optional(),
+  isbn: z.string().optional(),
+  edition: z.string().optional(),
+  pages: z.string().optional(),
   notes: z.string().optional(),
   kind: z.enum(['canonical-text', 'deuterocanonical-text', 'ancient-literary', 'inscription', 'documentary', 'archaeology', 'modern-scholarship', 'project-methodology']).optional()
 });

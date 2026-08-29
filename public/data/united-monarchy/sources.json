@@ -13,7 +13,10 @@
     "title": "Batch 4 Ruth–United Monarchy Curation Methodology",
     "organization": "The Biblical World project",
     "license": "Original project metadata",
-    "notes": "Separates textual claims, place identification, archaeology, chronology, political reconstruction, later tradition, and animated route inference. Jerusalem/Zion/Temple records use distinct confidence layers."
+    "notes": "Separates textual claims, place identification, archaeology, chronology, political reconstruction, later tradition, and animated route inference. Jerusalem/Zion/Temple records use distinct confidence layers.",
+    "kind": "project-methodology",
+    "verificationStatus": "project-authored",
+    "verificationNote": "Project-authored curation methodology; no external source verification claim is implied."
   },
   {
     "id": "source-mazar-land-bible",

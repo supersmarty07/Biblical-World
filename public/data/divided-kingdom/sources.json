@@ -13,7 +13,10 @@
     "title": "Batch 5 Divided Kingdom + Prophets Curation Methodology",
     "organization": "The Biblical World project",
     "license": "Original project metadata",
-    "notes": "Separates canonical narrative, archaeological site identification, historical chronology, extra-biblical inscriptions, political reconstruction, and route inference. Exact Assyrian campaign dates are distinguished from approximate prophetic settings."
+    "notes": "Separates canonical narrative, archaeological site identification, historical chronology, extra-biblical inscriptions, political reconstruction, and route inference. Exact Assyrian campaign dates are distinguished from approximate prophetic settings.",
+    "kind": "project-methodology",
+    "verificationStatus": "project-authored",
+    "verificationNote": "Project-authored curation methodology; no external source verification claim is implied."
   },
   {
     "id": "source-miller-hayes",

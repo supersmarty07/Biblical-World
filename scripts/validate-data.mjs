@@ -142,7 +142,8 @@ for (const event of events) {
 }
 
 for (const journey of journeys) {
-  if (journey.personId && !personIds.has(journey.personId)) fail(`journey ${journey.id}: unknown personId ${journey.personId}`);
+  if (journey.personId !== undefined && typeof journey.personId !== 'string') fail(`journey ${journey.id}: personId must be a string when present`);
+  if (typeof journey.personId === 'string' && !personIds.has(journey.personId)) fail(`journey ${journey.id}: unknown personId ${journey.personId}`);
   if (journey.character && !characters.has(journey.character)) fail(`journey ${journey.id}: unsupported character ${journey.character}`);
   if (!Array.isArray(journey.segments) || journey.segments.length === 0) fail(`journey ${journey.id}: no segments`);
   for (const segment of journey.segments || []) {
@@ -163,7 +164,8 @@ for (const journey of journeys) {
 }
 
 for (const story of stories) {
-  if (story.personId && !personIds.has(story.personId)) fail(`story ${story.id}: unknown personId ${story.personId}`);
+  if (story.personId !== undefined && typeof story.personId !== 'string') fail(`story ${story.id}: personId must be a string when present`);
+  if (typeof story.personId === 'string' && !personIds.has(story.personId)) fail(`story ${story.id}: unknown personId ${story.personId}`);
   if (!Array.isArray(story.chapters) || story.chapters.length === 0) fail(`story ${story.id}: no chapters`);
   const chapterIds = new Set();
   for (const chapter of story.chapters || []) {

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "natural-earth-land-silhouette",
+      "appliesTo": "public/data/basemap/land.geojson",
+      "source": "Natural Earth low-resolution land/country geometry, locally available fixture",
+      "license": "Public Domain",
+      "attributionRequired": false,
+      "attributionRecommended": "Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.",
+      "transform": "Country features dissolved to physical land only; clipped to 10W\u201365E / 5N\u201352N and simplified. No country names or borders retained.",
+      "versionNote": "Local fixture DBF metadata reports last update 2018-09-01; exact upstream Natural Earth release should be reverified before an academic-critical release."
+    }
+  ]
+}

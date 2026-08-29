@@ -1,0 +1,1284 @@
+[
+  {
+    "id": "israel-northern-kingdom",
+    "name": "Kingdom of Israel (Northern Kingdom)",
+    "aliases": [
+      "Israel",
+      "Northern Kingdom",
+      "Samaria"
+    ],
+    "summary": "The northern polity that emerges after the division of the monarchy. Samaria becomes its capital under Omri; biblical and extra-biblical sources also use “Israel,” “Samaria,” and Assyrian dynastic labels in different contexts.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The historical polity is well attested, but its borders changed repeatedly. The plotted point is only a display anchor; territorial reconstructions are broad time-aware polygons."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 12,
+        "label": "1 Kings 12"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 17,
+        "label": "2 Kings 17"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings",
+      "source-assyrian-royal-inscriptions"
+    ],
+    "coordinates": [
+      35.24,
+      32.28
+    ],
+    "coordinateRole": "display-anchor",
+    "validFrom": -930,
+    "validTo": -722,
+    "locationNote": "Display anchor near the central hill-country capital zone; not a capital coordinate or border claim."
+  },
+  {
+    "id": "judah-kingdom",
+    "name": "Kingdom of Judah",
+    "aliases": [
+      "Judah",
+      "Southern Kingdom"
+    ],
+    "summary": "The southern kingdom centered on Jerusalem after the division of the monarchy. Its territorial reach varied significantly through the Iron Age.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Judah is historically well attested, but year-specific boundaries remain reconstructed. The point is a display anchor only."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 12,
+        "label": "1 Kings 12:17–24",
+        "verseStart": 17,
+        "verseEnd": 24
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-mazar-land-bible",
+      "source-assyrian-royal-inscriptions"
+    ],
+    "coordinates": [
+      35.21,
+      31.78
+    ],
+    "coordinateRole": "display-anchor",
+    "validFrom": -930,
+    "validTo": -586,
+    "locationNote": "Display anchor at Jerusalem; use context polygons for generalized territorial orientation."
+  },
+  {
+    "id": "aram-damascus",
+    "name": "Aram-Damascus",
+    "aliases": [
+      "Damascus kingdom",
+      "Aram"
+    ],
+    "summary": "The Aramean kingdom centered on Damascus, a major rival and occasional ally of Israel before Assyrian annexation in the eighth century BCE.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The kingdom and its capital are historically secure; its changing frontiers are represented only as generalized context."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 20,
+        "label": "1 Kings 20"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 8,
+        "label": "2 Kings 8:7–15",
+        "verseStart": 7,
+        "verseEnd": 15
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 16,
+        "label": "2 Kings 16:5–9",
+        "verseStart": 5,
+        "verseEnd": 9
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings",
+      "source-tel-dan-stele",
+      "source-assyrian-royal-inscriptions"
+    ],
+    "coordinates": [
+      36.29,
+      33.51
+    ],
+    "coordinateRole": "display-anchor",
+    "validFrom": -900,
+    "validTo": -732
+  },
+  {
+    "id": "neo-assyrian-empire",
+    "name": "Neo-Assyrian Empire",
+    "aliases": [
+      "Assyria",
+      "Neo-Assyria"
+    ],
+    "summary": "The imperial power that progressively intervened in Syria-Palestine, annexed Damascus and northern Israelite territories, ended the Northern Kingdom, and campaigned against Judah.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Assyria is abundantly attested; the point is a display anchor in its core, while imperial reach is visualized as broad context rather than a surveyed polygon."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 15,
+        "label": "2 Kings 15:29",
+        "verseStart": 29,
+        "verseEnd": 29
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 17,
+        "label": "2 Kings 17"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-assyrian-royal-inscriptions",
+      "source-context-scripture"
+    ],
+    "coordinates": [
+      43.15,
+      36.0
+    ],
+    "coordinateRole": "display-anchor",
+    "validFrom": -911,
+    "validTo": -609
+  },
+  {
+    "id": "samaria",
+    "name": "Samaria / Sebaste",
+    "aliases": [
+      "Shomron",
+      "Sebastia",
+      "Samaria city"
+    ],
+    "summary": "Capital founded by Omri on a purchased hill and the political center of the Northern Kingdom until its Assyrian capture.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Samaria is securely identified at Sebastia. Archaeology illuminates royal/administrative occupation without labeling individual rooms as belonging to named kings."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 16,
+        "label": "1 Kings 16:23–24",
+        "verseStart": 23,
+        "verseEnd": 24
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 17,
+        "label": "2 Kings 17:5–6",
+        "verseStart": 5,
+        "verseEnd": 6
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-samaria-archaeology",
+      "source-mazar-land-bible",
+      "source-miller-hayes"
+    ],
+    "coordinates": [
+      35.189,
+      32.276
+    ],
+    "coordinateRole": "identified-site",
+    "validFrom": -880,
+    "validTo": 40,
+    "historicalContext": "Omri’s foundation shifted the northern capital from Tirzah to a defensible hill with strong regional connections. “Samaria” later becomes both a city name and a wider territorial designation.",
+    "archaeology": "Excavations revealed major Iron Age architecture, administrative material, and ivories. Correlating particular buildings with Omri or Ahab depends on archaeological chronology rather than inscriptions naming rooms."
+  },
+  {
+    "id": "tirzah",
+    "name": "Tirzah / Tell el-Far‘ah (North)",
+    "aliases": [
+      "Tirzah",
+      "Tell el-Farah North"
+    ],
+    "summary": "Early capital of the Northern Kingdom before Omri founded Samaria. Tell el-Far‘ah (North) is the leading identification.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The identification of Tirzah with Tell el-Far‘ah (North) is widely accepted but is best presented as probable rather than a label physically excavated from the site."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 14,
+        "label": "1 Kings 14:17",
+        "verseStart": 17,
+        "verseEnd": 17
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 15,
+        "label": "1 Kings 15:33",
+        "verseStart": 33,
+        "verseEnd": 33
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 16,
+        "label": "1 Kings 16:23–24",
+        "verseStart": 23,
+        "verseEnd": 24
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-mazar-land-bible",
+      "source-northern-kingdom-archaeology"
+    ],
+    "coordinates": [
+      35.337,
+      32.286
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "jezreel-city",
+    "name": "Jezreel / Tel Jezreel",
+    "aliases": [
+      "Jezreel city",
+      "Tel Jezreel",
+      "Zer‘in"
+    ],
+    "summary": "Royal center in the Jezreel Valley associated with Ahab, Jezebel, Naboth, and Jehu’s coup.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tel Jezreel is securely identified with ancient Jezreel. The exact location of Naboth’s vineyard and individual palace spaces cannot be identified from the text."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 21,
+        "label": "1 Kings 21"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 9,
+        "label": "2 Kings 9"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-mazar-land-bible",
+      "source-northern-kingdom-archaeology"
+    ],
+    "coordinates": [
+      35.323,
+      32.558
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Excavated Iron Age fortifications and occupation provide royal-center context. They do not identify Naboth’s vineyard or the precise spot of Jehu’s encounter."
+  },
+  {
+    "id": "mount-carmel",
+    "name": "Mount Carmel",
+    "aliases": [
+      "Carmel range",
+      "Har HaKarmel"
+    ],
+    "summary": "The coastal mountain ridge that provides the setting for Elijah’s confrontation with the prophets of Baal in 1 Kings 18.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The Carmel range is geographically secure, but 1 Kings does not provide an archaeological coordinate for Elijah’s altar. The map uses a ridge-area anchor, not a claimed altar site."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 18,
+        "label": "1 Kings 18:19–46",
+        "verseStart": 19,
+        "verseEnd": 46
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "coordinates": [
+      35.09,
+      32.7
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "General Carmel ridge anchor. The later Muhraka tradition is not used as proof of the event site."
+  },
+  {
+    "id": "kerith-brook",
+    "name": "Brook Kerith / Cherith",
+    "aliases": [
+      "Wadi Cherith",
+      "Kerith ravine"
+    ],
+    "summary": "The brook or wadi east of the Jordan where Elijah is told to hide during the drought narrative.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The text gives a relative description east of the Jordan, but modern identifications are uncertain. No map pin is shown."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 17,
+        "label": "1 Kings 17:2–7",
+        "verseStart": 2,
+        "verseEnd": 7
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch5-methodology"
+    ]
+  },
+  {
+    "id": "zarephath",
+    "name": "Zarephath / Sarepta",
+    "aliases": [
+      "Sarepta",
+      "Sarafand"
+    ],
+    "summary": "Phoenician coastal town between Tyre and Sidon where Elijah stays with a widow during the drought.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Sarepta is securely localized near modern Sarafand on the Lebanese coast; the biblical household cannot be archaeologically singled out."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 17,
+        "label": "1 Kings 17:8–24",
+        "verseStart": 8,
+        "verseEnd": 24
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      35.295,
+      33.458
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Sarepta is an excavated Phoenician settlement with substantial Bronze/Iron Age remains, useful for cultural context rather than identification of the widow’s house."
+  },
+  {
+    "id": "tishbe-gilead",
+    "name": "Tishbe in Gilead",
+    "aliases": [
+      "Tishbe",
+      "Tishbite country"
+    ],
+    "summary": "Elijah is introduced as a Tishbite from Gilead. The exact settlement is not securely identified.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Several Transjordanian proposals exist, but no identification is sufficiently secure for a normal point."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 17,
+        "label": "1 Kings 17:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch5-methodology"
+    ]
+  },
+  {
+    "id": "abel-meholah",
+    "name": "Abel-meholah",
+    "aliases": [
+      "Abel Meholah"
+    ],
+    "summary": "Home region of Elisha when Elijah calls him. Its exact location in the Jordan Valley is debated.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The biblical regional context is useful, but competing site proposals do not justify a precise coordinate."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 19,
+        "label": "1 Kings 19:16–21",
+        "verseStart": 16,
+        "verseEnd": 21
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch5-methodology"
+    ]
+  },
+  {
+    "id": "ramoth-gilead",
+    "name": "Ramoth-gilead",
+    "aliases": [
+      "Ramoth Gilead",
+      "Ramoth in Gilead"
+    ],
+    "summary": "Strategic Transjordanian city repeatedly contested by Israel and Aram and the starting setting for Jehu’s coup.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The city’s regional setting in Gilead is clear, but proposed archaeological sites are disputed. It remains unpinned."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 22,
+        "label": "1 Kings 22:1–40",
+        "verseStart": 1,
+        "verseEnd": 40
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 9,
+        "label": "2 Kings 9:1–16",
+        "verseStart": 1,
+        "verseEnd": 16
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-miller-hayes",
+      "source-batch5-methodology"
+    ]
+  },
+  {
+    "id": "aphek-aram",
+    "name": "Aphek of the Aramean wars",
+    "aliases": [
+      "Aphek (Aram conflict)"
+    ],
+    "summary": "Aphek named in Ahab’s conflict with Ben-hadad. This is not automatically the same Aphek as the Philistine-camp site near the Yarkon.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Multiple places called Aphek existed. The 1 Kings 20 location is not securely identified, so the atlas creates a distinct unpinned record."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 20,
+        "label": "1 Kings 20:26–30",
+        "verseStart": 26,
+        "verseEnd": 30
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch5-methodology"
+    ]
+  },
+  {
+    "id": "jordan-river",
+    "name": "Jordan River",
+    "aliases": [
+      "Jordan"
+    ],
+    "summary": "The major river running from the Hula/Sea of Galilee system to the Dead Sea, repeatedly central to Elisha’s narratives.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The physical river is secure; individual miracle locations along it are not assigned exact coordinates."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 2,
+        "label": "2 Kings 2:6–14",
+        "verseStart": 6,
+        "verseEnd": 14
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 5,
+        "label": "2 Kings 5:10–14",
+        "verseStart": 10,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge"
+    ],
+    "coordinates": [
+      35.56,
+      32.1
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Display anchor on the river system; not the exact site of any individual event."
+  },
+  {
+    "id": "kir-hareseth",
+    "name": "Kir-hareseth / Kir of Moab",
+    "aliases": [
+      "Kir-hareseth",
+      "Kir Hareseth",
+      "Kir Moab"
+    ],
+    "summary": "Moabite stronghold attacked in the coalition campaign of 2 Kings 3, commonly associated with the Kerak area.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The association with Kerak is longstanding and geographically plausible, but the precise equivalence is not epigraphically certain."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 3,
+        "label": "2 Kings 3:25–27",
+        "verseStart": 25,
+        "verseEnd": 27
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mesha-stele"
+    ],
+    "coordinates": [
+      35.704,
+      31.185
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "qarqar",
+    "name": "Qarqar / Tell Qarqur",
+    "aliases": [
+      "Qarqar",
+      "Karkar",
+      "Tell Qarqur"
+    ],
+    "summary": "North Syrian battle location where Shalmaneser III fought a western coalition in 853 BCE. Tell Qarqur is the leading identification.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "The battle is securely attested in Assyrian sources; identification of ancient Qarqar with Tell Qarqur is strong but presented as probable."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-kurkh-monolith",
+      "source-context-scripture",
+      "source-assyrian-royal-inscriptions",
+      "source-batch5-methodology"
+    ],
+    "coordinates": [
+      36.39,
+      35.74
+    ],
+    "coordinateRole": "candidate-site",
+    "historicalContext": "The Kurkh Monolith names Ahab of Israel among coalition participants. The battle is not narrated in Kings, so it is shown as extra-biblical historical context."
+  },
+  {
+    "id": "tekoa",
+    "name": "Tekoa / Khirbet Tuqu‘",
+    "aliases": [
+      "Tekoa",
+      "Tuqu"
+    ],
+    "summary": "Judean hill-country town associated with the prophet Amos.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "The ancient town is commonly identified with the ruins near modern Tuquʿ. The atlas uses the site as a probable anchor, not an exact residence of Amos."
+    },
+    "scripture": [
+      {
+        "book": "Amos",
+        "chapter": 1,
+        "label": "Amos 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Amos",
+        "chapter": 7,
+        "label": "Amos 7:10–17",
+        "verseStart": 10,
+        "verseEnd": 17
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      35.215,
+      31.636
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "moresheth-gath",
+    "name": "Moresheth-gath",
+    "aliases": [
+      "Moresheth",
+      "Moresheth Gath"
+    ],
+    "summary": "Shephelah town associated with the prophet Micah. Proposed identifications exist, but the exact site remains uncertain.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Moresheth belongs in the Judah/Philistia borderland setting, but a precise modern identification is not secure enough for a pin."
+    },
+    "scripture": [
+      {
+        "book": "Micah",
+        "chapter": 1,
+        "label": "Micah 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Micah",
+        "chapter": 1,
+        "label": "Micah 1:14",
+        "verseStart": 14,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch5-methodology"
+    ]
+  },
+  {
+    "id": "joppa",
+    "name": "Joppa / Jaffa",
+    "aliases": [
+      "Jaffa",
+      "Yafo",
+      "Joppa"
+    ],
+    "summary": "Ancient Mediterranean port from which Jonah boards a ship bound for Tarshish in the narrative.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Joppa is securely located at modern Jaffa/Tel Yafo. The route to Tarshish remains unknown because Tarshish itself is disputed."
+    },
+    "scripture": [
+      {
+        "book": "Jonah",
+        "chapter": 1,
+        "label": "Jonah 1:3",
+        "verseStart": 3,
+        "verseEnd": 3
+      },
+      {
+        "book": "Acts",
+        "chapter": 9,
+        "label": "Acts 9:36–43",
+        "verseStart": 36,
+        "verseEnd": 43
+      },
+      {
+        "book": "Acts",
+        "chapter": 10,
+        "label": "Acts 10:5–23",
+        "verseStart": 5,
+        "verseEnd": 23
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "coordinates": [
+      34.752,
+      32.052
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "tarshish",
+    "name": "Tarshish",
+    "aliases": [
+      "Tarsis"
+    ],
+    "summary": "Distant maritime destination named in Jonah 1. Its identification is disputed and should not be reduced to a single point such as Tartessos without qualification.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "Several locations have been proposed across the Mediterranean and beyond. The atlas leaves Tarshish unpinned."
+    },
+    "scripture": [
+      {
+        "book": "Jonah",
+        "chapter": 1,
+        "label": "Jonah 1:3",
+        "verseStart": 3,
+        "verseEnd": 3
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-batch5-methodology"
+    ],
+    "interpretations": [
+      {
+        "title": "Western Mediterranean / Tartessos family of proposals",
+        "status": "possible",
+        "summary": "A long-standing proposal associates Tarshish with the far western Mediterranean, sometimes Tartessos in Iberia; the identification is not certain.",
+        "sourceIds": [
+          "source-anchor-yale",
+          "source-batch5-methodology"
+        ]
+      },
+      {
+        "title": "Tarshish as a broader maritime/distant-land term in some contexts",
+        "status": "possible",
+        "summary": "Biblical uses of Tarshish and “ships of Tarshish” complicate a single-location model; not every occurrence necessarily functions identically.",
+        "sourceIds": [
+          "source-anchor-yale",
+          "source-batch5-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mediterranean-sea",
+    "name": "Mediterranean Sea",
+    "aliases": [
+      "Great Sea",
+      "Western Sea"
+    ],
+    "summary": "The Mediterranean maritime world connecting Phoenicia, Philistia, Joppa, Egypt, Anatolia, Cyprus, and the wider ancient world.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The sea is physically established; the coordinate is only a display anchor for broad maritime context."
+    },
+    "scripture": [
+      {
+        "book": "Jonah",
+        "chapter": 1,
+        "label": "Jonah 1:3–16",
+        "verseStart": 3,
+        "verseEnd": 16
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge"
+    ],
+    "coordinates": [
+      33.0,
+      34.0
+    ],
+    "coordinateRole": "display-anchor"
+  },
+  {
+    "id": "nineveh",
+    "name": "Nineveh",
+    "aliases": [
+      "Ninua",
+      "Kuyunjik",
+      "Nebī Yūnus"
+    ],
+    "summary": "Major Assyrian city on the Tigris opposite modern Mosul; later imperial capital and the destination of Jonah’s commission.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Nineveh is securely identified archaeologically. The historicity and literary dating of the Jonah narrative are separate interpretive questions."
+    },
+    "scripture": [
+      {
+        "book": "Jonah",
+        "chapter": 1,
+        "label": "Jonah 1:2",
+        "verseStart": 2,
+        "verseEnd": 2
+      },
+      {
+        "book": "Jonah",
+        "chapter": 3,
+        "label": "Jonah 3"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-context-scripture",
+      "source-assyrian-royal-inscriptions"
+    ],
+    "coordinates": [
+      43.152,
+      36.359
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Extensive Assyrian palaces, walls, inscriptions, and relief programs are known. These establish the imperial city, not the specific events narrated in Jonah."
+  },
+  {
+    "id": "calah-nimrud",
+    "name": "Kalhu / Calah / Nimrud",
+    "aliases": [
+      "Calah",
+      "Kalhu",
+      "Nimrud"
+    ],
+    "summary": "Major Neo-Assyrian royal city south of Nineveh, associated with imperial administration and monuments such as the Black Obelisk.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The Assyrian city Kalhu is securely identified with Nimrud."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-assyrian-royal-inscriptions",
+      "source-context-scripture",
+      "source-black-obelisk"
+    ],
+    "coordinates": [
+      43.326,
+      36.098
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "dur-sharrukin",
+    "name": "Dur-Sharrukin / Khorsabad",
+    "aliases": [
+      "Khorsabad",
+      "Fort Sargon"
+    ],
+    "summary": "Royal city founded by Sargon II near Nineveh, relevant to the imperial context following the fall of Samaria.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Dur-Sharrukin is securely identified with Khorsabad."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-assyrian-royal-inscriptions",
+      "source-context-scripture",
+      "source-sargon-samaria"
+    ],
+    "coordinates": [
+      43.229,
+      36.509
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "gozan",
+    "name": "Gozan / Guzana / Tell Halaf",
+    "aliases": [
+      "Guzana",
+      "Tell Halaf",
+      "Gozan"
+    ],
+    "summary": "Upper Mesopotamian city and region named among destinations of deported Israelites after the fall of Samaria.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Biblical Gozan is securely associated with Guzana/Tell Halaf in the Khabur region."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 17,
+        "label": "2 Kings 17:6",
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:11",
+        "verseStart": 11,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-cogan-kings",
+      "source-assyrian-royal-inscriptions"
+    ],
+    "coordinates": [
+      40.119,
+      36.827
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "habur-river",
+    "name": "Habor / Khabur River",
+    "aliases": [
+      "Habor",
+      "Khabur"
+    ],
+    "summary": "Euphrates tributary region named in the Assyrian deportation notices.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The Khabur river system is securely identified. The biblical phrase “Habor, the river of Gozan” does not specify an individual deportee settlement."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 17,
+        "label": "2 Kings 17:6",
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:11",
+        "verseStart": 11,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-cogan-kings"
+    ],
+    "coordinates": [
+      40.75,
+      36.6
+    ],
+    "coordinateRole": "display-anchor"
+  },
+  {
+    "id": "halah",
+    "name": "Halah",
+    "aliases": [
+      "Hala"
+    ],
+    "summary": "One of the locations named in the Assyrian deportation formula for the Northern Kingdom. Its precise identification remains uncertain.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Scholarly proposals exist, but the atlas does not assign Halah a synthetic coordinate."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 17,
+        "label": "2 Kings 17:6",
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:11",
+        "verseStart": 11,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-cogan-kings",
+      "source-batch5-methodology"
+    ]
+  },
+  {
+    "id": "media-region",
+    "name": "Media",
+    "aliases": [
+      "land of the Medes",
+      "cities of the Medes"
+    ],
+    "summary": "Broad Iranian highland region whose cities are named among Assyrian deportation destinations in Kings.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Media is a known historical region, but Kings does not name the specific Median cities. The point is only a broad display anchor."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 17,
+        "label": "2 Kings 17:6",
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:11",
+        "verseStart": 11,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-cogan-kings"
+    ],
+    "coordinates": [
+      47.5,
+      34.5
+    ],
+    "coordinateRole": "display-anchor"
+  },
+  {
+    "id": "lachish",
+    "name": "Lachish / Tel Lachish",
+    "aliases": [
+      "Tell ed-Duweir",
+      "Tel Lachish"
+    ],
+    "summary": "Major fortified city of Judah captured by Sennacherib in 701 BCE and vividly represented in Assyrian palace reliefs.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Tel Lachish is securely identified; the Assyrian destruction horizon and siege works provide unusually strong archaeological-historical correlation for 701 BCE."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:13–17",
+        "verseStart": 13,
+        "verseEnd": 17
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 36,
+        "label": "Isaiah 36:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 32,
+        "label": "2 Chronicles 32:9",
+        "verseStart": 9,
+        "verseEnd": 9
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-ussishkin-lachish",
+      "source-sennacherib-701",
+      "source-assyrian-royal-inscriptions"
+    ],
+    "coordinates": [
+      34.848,
+      31.565
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Excavations exposed the Assyrian siege ramp, defenses, destruction deposits, and mass evidence of the 701 BCE assault. Sennacherib’s Lachish reliefs independently depict the siege."
+  },
+  {
+    "id": "libnah",
+    "name": "Libnah (Judah)",
+    "aliases": [
+      "Libnah"
+    ],
+    "summary": "Judean town mentioned when the Assyrian field commander leaves Lachish in the 701 BCE campaign narrative. Its precise archaeological identification remains debated.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Several Shephelah sites have been proposed. The atlas leaves Libnah unpinned rather than choosing one candidate."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 19,
+        "label": "2 Kings 19:8",
+        "verseStart": 8,
+        "verseEnd": 8
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 37,
+        "label": "Isaiah 37:8",
+        "verseStart": 8,
+        "verseEnd": 8
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch5-methodology"
+    ]
+  },
+  {
+    "id": "siloam-tunnel",
+    "name": "Siloam Tunnel / Hezekiah’s Tunnel",
+    "aliases": [
+      "Hezekiah’s Tunnel",
+      "Siloam tunnel"
+    ],
+    "summary": "Rock-cut water tunnel carrying Gihon Spring water toward the southern part of ancient Jerusalem, commonly associated with Hezekiah’s preparations.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The tunnel itself is an established archaeological feature. Its connection with Hezekiah is widely accepted from combined archaeological and textual context, but the tunnel inscription does not name a king."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 20,
+        "label": "2 Kings 20:20",
+        "verseStart": 20,
+        "verseEnd": 20
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 32,
+        "label": "2 Chronicles 32:30",
+        "verseStart": 30,
+        "verseEnd": 30
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-siloam-inscription",
+      "source-mazar-land-bible",
+      "source-jerusalem-bible-archaeology"
+    ],
+    "coordinates": [
+      35.236,
+      31.773
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "The Siloam Inscription records the meeting of two tunneling crews. Dating and the exact sequence of Jerusalem’s Iron Age water systems require archaeological analysis beyond the biblical attribution."
+  },
+  {
+    "id": "upper-pool-conduit",
+    "name": "Conduit of the Upper Pool / Fuller’s Field road",
+    "aliases": [
+      "Upper Pool conduit",
+      "Fuller’s Field"
+    ],
+    "summary": "Jerusalem topographic reference in Isaiah’s encounter with Ahaz and later in the Assyrian envoy narrative.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The biblical relative topography is important, but the exact Iron Age “Upper Pool” and Fuller’s Field road are not securely identified enough for a point."
+    },
+    "scripture": [
+      {
+        "book": "Isaiah",
+        "chapter": 7,
+        "label": "Isaiah 7:3",
+        "verseStart": 3,
+        "verseEnd": 3
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 36,
+        "label": "Isaiah 36:2",
+        "verseStart": 2,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-jerusalem-bible-archaeology",
+      "source-anchor-yale",
+      "source-batch5-methodology"
+    ]
+  }
+]

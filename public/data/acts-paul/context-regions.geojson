@@ -1,0 +1,525 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "agrippa-i-kingdom-b9",
+        "name": "Agrippa I kingdom — broad orientation",
+        "validFrom": 41,
+        "validTo": 44,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-josephus-ant19-b9"
+        ],
+        "note": "Broad orientation only; Agrippa I’s territories changed over time and the polygon is not a surveyed frontier.",
+        "family": "herodian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.6,
+              30.8
+            ],
+            [
+              35.9,
+              30.8
+            ],
+            [
+              36.2,
+              33.3
+            ],
+            [
+              35.0,
+              33.5
+            ],
+            [
+              34.6,
+              30.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "roman-judaea-post44-b9",
+        "name": "Roman Judea after Agrippa I — broad orientation",
+        "validFrom": 44,
+        "validTo": 66,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-josephus-ant20-b9",
+          "source-josephus-war2-b9"
+        ],
+        "note": "Generalized provincial orientation; local jurisdictions and Herodian domains complicate any single border line.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.7,
+              30.8
+            ],
+            [
+              35.75,
+              30.8
+            ],
+            [
+              35.8,
+              32.7
+            ],
+            [
+              34.75,
+              32.7
+            ],
+            [
+              34.7,
+              30.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "roman-syria-b9",
+        "name": "Roman Syria — broad orientation",
+        "validFrom": 30,
+        "validTo": 70,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-barrington-acts"
+        ],
+        "note": "Very broad orientation only; the polygon is not a year-specific surveyed provincial frontier.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.3,
+              32.8
+            ],
+            [
+              38.5,
+              32.8
+            ],
+            [
+              38.5,
+              37.5
+            ],
+            [
+              35.3,
+              37.5
+            ],
+            [
+              35.3,
+              32.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cilicia-b9",
+        "name": "Cilicia — broad Roman-period orientation",
+        "validFrom": 30,
+        "validTo": 70,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-barrington-acts"
+        ],
+        "note": "Generalized regional orientation; administrative status changed and mountainous boundaries are simplified.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.3,
+              36.0
+            ],
+            [
+              36.2,
+              36.0
+            ],
+            [
+              36.2,
+              37.3
+            ],
+            [
+              32.3,
+              37.3
+            ],
+            [
+              32.3,
+              36.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cyprus-province-b9",
+        "name": "Roman Cyprus — island/provincial orientation",
+        "validFrom": 30,
+        "validTo": 70,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-cyprus-archaeology-b9"
+        ],
+        "note": "Island-level orientation; not a coastal survey polygon.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.2,
+              34.5
+            ],
+            [
+              34.8,
+              34.5
+            ],
+            [
+              34.8,
+              35.8
+            ],
+            [
+              32.2,
+              35.8
+            ],
+            [
+              32.2,
+              34.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "galatia-province-b9",
+        "name": "Roman Galatia — generalized provincial orientation",
+        "validFrom": 30,
+        "validTo": 70,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-mitchell-anatolia"
+        ],
+        "note": "Highly generalized provincial orientation. Galatian administrative boundaries changed, and the Galatians letter-audience question is not solved by this polygon.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.5,
+              36.5
+            ],
+            [
+              34.7,
+              36.5
+            ],
+            [
+              34.7,
+              40.5
+            ],
+            [
+              29.5,
+              40.5
+            ],
+            [
+              29.5,
+              36.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "asia-province-b9",
+        "name": "Roman Asia — generalized provincial orientation",
+        "validFrom": 30,
+        "validTo": 70,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-barrington-acts",
+          "source-ephesus-b9"
+        ],
+        "note": "Broad orientation only; islands, conventus boundaries, and inland frontiers are simplified.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.0,
+              36.5
+            ],
+            [
+              30.5,
+              36.5
+            ],
+            [
+              30.5,
+              40.5
+            ],
+            [
+              26.0,
+              40.5
+            ],
+            [
+              26.0,
+              36.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "macedonia-province-b9",
+        "name": "Roman Macedonia — generalized provincial orientation",
+        "validFrom": 30,
+        "validTo": 70,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-via-egnatia-b9"
+        ],
+        "note": "Broad orientation only; ancient provincial boundaries were more complex than this rectangle-like visualization.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.0,
+              39.5
+            ],
+            [
+              25.5,
+              39.5
+            ],
+            [
+              25.5,
+              42.5
+            ],
+            [
+              20.0,
+              42.5
+            ],
+            [
+              20.0,
+              39.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "achaia-province-b9",
+        "name": "Roman Achaia — generalized provincial orientation",
+        "validFrom": 30,
+        "validTo": 70,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-gallio-inscription",
+          "source-barrington-acts"
+        ],
+        "note": "Broad orientation only; the polygon is not a surveyed first-century administrative border.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.5,
+              36.0
+            ],
+            [
+              24.8,
+              36.0
+            ],
+            [
+              24.8,
+              39.5
+            ],
+            [
+              20.5,
+              39.5
+            ],
+            [
+              20.5,
+              36.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "italy-b9",
+        "name": "Roman Italy — broad orientation",
+        "validFrom": 30,
+        "validTo": 70,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-barrington-acts"
+        ],
+        "note": "Broad geographic orientation rather than an administrative-boundary reconstruction.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0,
+              37.0
+            ],
+            [
+              18.5,
+              37.0
+            ],
+            [
+              18.5,
+              46.8
+            ],
+            [
+              7.0,
+              46.8
+            ],
+            [
+              7.0,
+              37.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "crete-b9",
+        "name": "Crete — Roman provincial island context",
+        "validFrom": 30,
+        "validTo": 70,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-barrington-acts"
+        ],
+        "note": "Island-level orientation; the Roman province included Cyrenaica administratively, which is not represented by this local polygon.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.2,
+              34.7
+            ],
+            [
+              26.4,
+              34.7
+            ],
+            [
+              26.4,
+              35.8
+            ],
+            [
+              23.2,
+              35.8
+            ],
+            [
+              23.2,
+              34.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nabataea-b9",
+        "name": "Nabataean kingdom — broad first-century context",
+        "validFrom": 30,
+        "validTo": 70,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-pauline-canonical",
+          "source-barrington-acts"
+        ],
+        "note": "Very broad orientation only; Nabataean control and influence were not a modern surveyed border, and Paul’s “Arabia” is not reduced to this polygon.",
+        "family": "nabataean"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.5,
+              27.5
+            ],
+            [
+              38.5,
+              27.5
+            ],
+            [
+              38.5,
+              33.5
+            ],
+            [
+              35.5,
+              33.5
+            ],
+            [
+              34.5,
+              27.5
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

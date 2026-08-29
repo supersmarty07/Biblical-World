@@ -1,0 +1,2483 @@
+[
+  {
+    "id": "beautiful-gate-temple",
+    "name": "“Beautiful Gate” of the Jerusalem Temple",
+    "aliases": [],
+    "summary": "Gate named in Acts 3 at which a man is healed. Which physical Temple gate the term designates is debated.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Acts names the gate, but no surviving inscription or uncontested archaeological identification fixes it to a specific gate of the Herodian complex."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 3,
+        "label": "Acts 3:2–10",
+        "verseStart": 2,
+        "verseEnd": 10
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "locationNote": "No normal pin. Candidate identifications such as the Nicanor/Corinthian gate traditions are not treated as established."
+  },
+  {
+    "id": "solomons-portico-acts",
+    "name": "Solomon’s Portico / Colonnade",
+    "aliases": [],
+    "summary": "Temple-complex portico named in Acts as a gathering location.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The eastern colonnade of the Herodian Temple complex provides the broad setting, but the precise built footprint is not independently recoverable today."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 3,
+        "label": "Acts 3:11",
+        "verseStart": 11
+      },
+      {
+        "book": "Acts",
+        "chapter": 5,
+        "label": "Acts 5:12",
+        "verseStart": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "locationNote": "Broad Temple Mount context only; no exact surviving point is claimed."
+  },
+  {
+    "id": "akeldama-acts",
+    "name": "Akeldama / Field of Blood",
+    "aliases": [],
+    "summary": "Jerusalem-area place associated in Acts 1 with the field connected to Judas.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "low",
+      "explanation": "Later tradition places Akeldama in the Hinnom Valley south of Jerusalem, but the precise first-century parcel is not recoverable."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 1,
+        "label": "Acts 1:18–20",
+        "verseStart": 18,
+        "verseEnd": 20
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "locationNote": "Unpinned textual/traditional location in the southern Jerusalem landscape."
+  },
+  {
+    "id": "stephen-stoning-site",
+    "name": "Location of Stephen’s stoning",
+    "aliases": [],
+    "summary": "Acts places Stephen’s execution outside the city but does not identify a recoverable gate or exact spot.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Later “St Stephen’s Gate” traditions are not sufficient to establish the first-century execution location."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 7,
+        "label": "Acts 7:54–60",
+        "verseStart": 54,
+        "verseEnd": 60
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "locationNote": "No normal pin; outside-Jerusalem narrative geography only."
+  },
+  {
+    "id": "lydda",
+    "name": "Lydda / Lod",
+    "aliases": [
+      "Lod",
+      "Diospolis"
+    ],
+    "summary": "Judean plain city where Acts narrates Peter’s healing of Aeneas.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Lydda is securely identified with Lod; the house or precise location of the Acts episode is unknown."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 9,
+        "label": "Acts 9:32–35",
+        "verseStart": 32,
+        "verseEnd": 35
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-acts-canonical"
+    ],
+    "coordinates": [
+      34.895,
+      31.951
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "azotus",
+    "name": "Azotus / Ashdod",
+    "aliases": [
+      "Ashdod"
+    ],
+    "summary": "Coastal city named as Philip’s location after the encounter on the Gaza road.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Ashdod/Azotus is securely located in the Ashdod area; Acts does not identify a building or route through the city."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 8,
+        "label": "Acts 8:40",
+        "verseStart": 40
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-acts-canonical"
+    ],
+    "coordinates": [
+      34.655,
+      31.754
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "sharon-plain-acts",
+    "name": "Sharon Plain",
+    "aliases": [],
+    "summary": "Coastal plain named in Acts 9 in connection with Lydda and the spread of the movement.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The physical coastal plain is established; the point is a display anchor for a broad landscape, not a center."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 9,
+        "label": "Acts 9:35",
+        "verseStart": 35
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-barrington-acts"
+    ],
+    "coordinates": [
+      34.93,
+      32.2
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Display anchor only for the broad Sharon coastal plain."
+  },
+  {
+    "id": "antipatris",
+    "name": "Antipatris",
+    "aliases": [
+      "Aphek/Antipatris"
+    ],
+    "summary": "Herodian/Roman city on the Jerusalem–Caesarea corridor where Paul’s military escort stops according to Acts 23.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "Antipatris is widely identified with the Tell Aphek/Ras al-‘Ayn area; the city’s general location is strong though the exact overnight stopping point is unknown."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 23,
+        "label": "Acts 23:31",
+        "verseStart": 31
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-caesarea-b9"
+    ],
+    "coordinates": [
+      34.933,
+      32.105
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "straight-street-damascus",
+    "name": "Straight Street — Damascus",
+    "aliases": [],
+    "summary": "Acts names the “street called Straight” in Damascus. A long east–west Roman street axis underlies the traditional identification.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Roman decumanus alignment is archaeologically/topographically plausible, but Acts’ exact house on the street is not known."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 9,
+        "label": "Acts 9:11",
+        "verseStart": 11
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-damascus-b9"
+    ],
+    "coordinates": [
+      36.309,
+      33.51
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Approximate Roman street-axis anchor, not an identified first-century doorway."
+  },
+  {
+    "id": "house-judas-damascus",
+    "name": "House of Judas in Damascus",
+    "aliases": [],
+    "summary": "House on Straight Street where Acts places Saul after the Damascus encounter.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Acts names the householder Judas, but the specific building is not recoverable archaeologically."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 9,
+        "label": "Acts 9:11–19",
+        "verseStart": 11,
+        "verseEnd": 19
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-damascus-b9"
+    ],
+    "locationNote": "No normal pin. Later devotional identifications are not treated as established."
+  },
+  {
+    "id": "tarsus",
+    "name": "Tarsus",
+    "aliases": [
+      "Tarsos"
+    ],
+    "summary": "Major Cilician city identified by Acts as Paul’s birthplace and later location.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Tarsus is securely identified with modern Tarsus; much of the Roman city lies beneath later occupation."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 9,
+        "label": "Acts 9:30",
+        "verseStart": 30
+      },
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:39",
+        "verseStart": 39
+      },
+      {
+        "book": "Acts",
+        "chapter": 22,
+        "label": "Acts 22:3",
+        "verseStart": 3
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-hemer-acts"
+    ],
+    "coordinates": [
+      34.895,
+      36.918
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "syria-cilicia-acts",
+    "name": "Syria and Cilicia corridor",
+    "aliases": [],
+    "summary": "Broad regional corridor named in Acts 15 as Paul and Silas strengthen communities.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Syria and Cilicia are historical regions/provinces; the point is only a broad display anchor and does not imply a single road."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 15,
+        "label": "Acts 15:41",
+        "verseStart": 41
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-barrington-acts",
+      "source-hemer-acts"
+    ],
+    "coordinates": [
+      35.6,
+      36.6
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Display anchor for a broad regional corridor."
+  },
+  {
+    "id": "arabia-galatians",
+    "name": "“Arabia” in Galatians 1",
+    "aliases": [],
+    "summary": "Region Paul says he went to after his calling, before returning to Damascus. The territorial meaning is broad and the route is not described.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "In Paul’s first-century context “Arabia” may relate to Nabataean territory, but Galatians does not identify a city or itinerary."
+    },
+    "scripture": [
+      {
+        "book": "Galatians",
+        "chapter": 1,
+        "label": "Galatians 1:17",
+        "verseStart": 17
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-pauline-canonical",
+      "source-paul-chronology-b9"
+    ],
+    "locationNote": "No exact pin; a broad Nabataean/Arabian context is shown only as interpretation.",
+    "interpretations": [
+      {
+        "title": "Nabataean Arabia",
+        "status": "possible",
+        "summary": "A common historical interpretation places Paul somewhere within the Nabataean sphere south/east of Damascus; the specific destination is unknown.",
+        "sourceIds": [
+          "source-pauline-canonical",
+          "source-paul-chronology-b9"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cyprus-acts",
+    "name": "Cyprus",
+    "aliases": [],
+    "summary": "Island crossed by Barnabas and Paul on the first missionary journey.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Cyprus is certain; the display point represents the island rather than a precise center of activity."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:4–12",
+        "verseStart": 4,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-cyprus-archaeology-b9"
+    ],
+    "coordinates": [
+      33.43,
+      35.12
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Island-level display anchor."
+  },
+  {
+    "id": "salamis-cyprus",
+    "name": "Salamis, Cyprus",
+    "aliases": [],
+    "summary": "Major eastern Cypriot city where Acts says Barnabas and Paul proclaimed in Jewish synagogues.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The archaeological city of Salamis is securely located north of modern Famagusta."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:5",
+        "verseStart": 5
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-cyprus-archaeology-b9"
+    ],
+    "coordinates": [
+      33.9,
+      35.185
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "paphos",
+    "name": "Paphos",
+    "aliases": [
+      "Nea Paphos"
+    ],
+    "summary": "Western Cypriot administrative center where Acts places the encounter with Sergius Paulus and Bar-Jesus/Elymas.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Roman Nea Paphos is securely located; the precise praetorium or meeting place of Acts 13 is not identified."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:6–12",
+        "verseStart": 6,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-cyprus-archaeology-b9"
+    ],
+    "coordinates": [
+      32.42,
+      34.758
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "perga",
+    "name": "Perga",
+    "aliases": [],
+    "summary": "Pamphylian city visited on the first missionary journey and again on the return.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The extensive ruins of Perga securely identify the Roman city."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:13",
+        "verseStart": 13
+      },
+      {
+        "book": "Acts",
+        "chapter": 14,
+        "label": "Acts 14:25",
+        "verseStart": 25
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-hemer-acts"
+    ],
+    "coordinates": [
+      30.852,
+      36.959
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "attalia",
+    "name": "Attalia",
+    "aliases": [
+      "Antalya"
+    ],
+    "summary": "Pamphylian port from which Paul and Barnabas sail back to Antioch according to Acts 14.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Attalia is securely identified with Antalya’s old-city/harbor area."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 14,
+        "label": "Acts 14:25–26",
+        "verseStart": 25,
+        "verseEnd": 26
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-hemer-acts"
+    ],
+    "coordinates": [
+      30.704,
+      36.885
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "pisidian-antioch",
+    "name": "Antioch near Pisidia",
+    "aliases": [
+      "Antioch of Pisidia"
+    ],
+    "summary": "Roman-colony city in southern Galatia/Pisidia where Acts 13–14 narrates an extended synagogue and civic episode.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The site at Yalvaç is securely identified as Antioch; the exact synagogue of Acts is not identified."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:14–52",
+        "verseStart": 14,
+        "verseEnd": 52
+      },
+      {
+        "book": "Acts",
+        "chapter": 14,
+        "label": "Acts 14:21",
+        "verseStart": 21
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-pisidian-antioch-b9"
+    ],
+    "coordinates": [
+      31.184,
+      38.305
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "iconium",
+    "name": "Iconium",
+    "aliases": [
+      "Konya"
+    ],
+    "summary": "Central Anatolian city visited by Paul and Barnabas in Acts 14 and again in later journeys.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Iconium is securely identified with Konya, though much of the ancient city lies under the modern settlement."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 14,
+        "label": "Acts 14:1–7",
+        "verseStart": 1,
+        "verseEnd": 7
+      },
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:2",
+        "verseStart": 2
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-mitchell-anatolia"
+    ],
+    "coordinates": [
+      32.493,
+      37.872
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "lystra",
+    "name": "Lystra",
+    "aliases": [
+      "Hatunsaray/Zoldera area"
+    ],
+    "summary": "Lycaonian city associated with Paul’s first journey, the stoning episode, and Timothy’s home region.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Lystra is widely located at/near the Zoldera mound by Hatunsaray, but the archaeological identification is less monumental than cities such as Ephesus or Corinth."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 14,
+        "label": "Acts 14:8–20",
+        "verseStart": 8,
+        "verseEnd": 20
+      },
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-lystra-derbe-b9"
+    ],
+    "coordinates": [
+      32.48,
+      37.58
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Strong scholarly location tradition; shown as a candidate-site rather than an absolute survey certainty."
+  },
+  {
+    "id": "derbe-acts",
+    "name": "Derbe",
+    "aliases": [],
+    "summary": "Lycaonian city reached on the first missionary journey and revisited in Acts 16. The exact archaeological identification remains debated.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "Ancient sources establish Derbe in Lycaonia, but modern site identification has shifted among proposals; the textual place therefore remains unpinned."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 14,
+        "label": "Acts 14:20–21",
+        "verseStart": 20,
+        "verseEnd": 21
+      },
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-lystra-derbe-b9"
+    ],
+    "locationNote": "No normal pin. Kerti Höyük is shown separately as a major modern candidate."
+  },
+  {
+    "id": "kerti-hoyuk-derbe",
+    "name": "Kerti Höyük — Derbe candidate",
+    "aliases": [],
+    "summary": "Major modern candidate for ancient Derbe.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "Kerti Höyük is often favored in modern discussion, but the project does not equate the candidate with the textual city as an established fact."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 14,
+        "label": "Acts 14:20–21",
+        "verseStart": 20,
+        "verseEnd": 21
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-lystra-derbe-b9"
+    ],
+    "coordinates": [
+      33.36,
+      37.35
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Candidate used for route visualization only."
+  },
+  {
+    "id": "galatia-region-paul",
+    "name": "Galatia — Pauline / Acts regional context",
+    "aliases": [],
+    "summary": "Broad central-Anatolian context relevant to Acts and the addressees of Galatians. The identity of Paul’s “Galatians” in relation to provincial versus ethnic geography is debated.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "Roman Galatia had changing administrative extent, and the North/South Galatia question affects reconstruction of the letter’s audience."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:6",
+        "verseStart": 6
+      },
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:23",
+        "verseStart": 23
+      },
+      {
+        "book": "Galatians",
+        "chapter": 1,
+        "label": "Galatians 1:2",
+        "verseStart": 2
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-pauline-canonical",
+      "source-mitchell-anatolia"
+    ],
+    "coordinates": [
+      32.3,
+      39.0
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Broad display anchor only; not a border claim."
+  },
+  {
+    "id": "alexandria-troas",
+    "name": "Alexandria Troas",
+    "aliases": [
+      "Troas"
+    ],
+    "summary": "Major Troad port city where Acts places Paul before crossing to Macedonia and again on the return journey.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The substantial archaeological city is securely identified on the Aegean coast."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:8–11",
+        "verseStart": 8,
+        "verseEnd": 11
+      },
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:5–12",
+        "verseStart": 5,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-troas-b9"
+    ],
+    "coordinates": [
+      26.238,
+      39.753
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "samothrace",
+    "name": "Samothrace",
+    "aliases": [],
+    "summary": "Aegean island named as an overnight point on the voyage from Troas to Neapolis.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The island is certain; Acts does not specify an anchorage."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:11",
+        "verseStart": 11
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-barrington-acts"
+    ],
+    "coordinates": [
+      25.53,
+      40.47
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Island-level anchor; exact anchorage unknown."
+  },
+  {
+    "id": "neapolis-macedonia",
+    "name": "Neapolis (Macedonia)",
+    "aliases": [
+      "Kavala"
+    ],
+    "summary": "Macedonian port of Philippi, generally identified with modern Kavala.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The ancient port is securely associated with Kavala’s location, though shoreline and harbor details changed over time."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:11",
+        "verseStart": 11
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-via-egnatia-b9"
+    ],
+    "coordinates": [
+      24.412,
+      40.938
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "philippi",
+    "name": "Philippi",
+    "aliases": [],
+    "summary": "Roman colony in Macedonia where Acts narrates Lydia, imprisonment, and a new community.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The archaeological site of Philippi is securely identified and extensively excavated."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:12–40",
+        "verseStart": 12,
+        "verseEnd": 40
+      },
+      {
+        "book": "Philippians",
+        "chapter": 1,
+        "label": "Philippians 1:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-philippi-b9"
+    ],
+    "coordinates": [
+      24.286,
+      41.013
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "gangites-prayer-place",
+    "name": "Riverside prayer-place near Philippi",
+    "aliases": [],
+    "summary": "Acts places the encounter with Lydia outside the city gate by a river or watercourse where prayer was customary.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Gangites/Angites river landscape is plausible, but no archaeological marker identifies the exact prayer place."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:13–15",
+        "verseStart": 13,
+        "verseEnd": 15
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-philippi-b9"
+    ],
+    "locationNote": "No exact pin. Modern commemorative sites are not treated as archaeological proof."
+  },
+  {
+    "id": "philippi-prison",
+    "name": "Prison in Philippi — Acts narrative",
+    "aliases": [],
+    "summary": "Acts narrates Paul and Silas imprisoned in Philippi, but no excavated building can be securely identified as that prison.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Later local identifications are devotional traditions, not conclusive archaeology."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:23–40",
+        "verseStart": 23,
+        "verseEnd": 40
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-philippi-b9"
+    ],
+    "locationNote": "Unpinned within the established city of Philippi."
+  },
+  {
+    "id": "amphipolis",
+    "name": "Amphipolis",
+    "aliases": [],
+    "summary": "Macedonian city passed through on the route from Philippi toward Thessalonica.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Amphipolis is securely located on the Strymon River."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-via-egnatia-b9"
+    ],
+    "coordinates": [
+      23.84,
+      40.823
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "apollonia-macedonia",
+    "name": "Apollonia in Macedonia",
+    "aliases": [],
+    "summary": "City on the Via Egnatia named between Amphipolis and Thessalonica in Acts 17.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The general Lake Volvi / modern Apollonia area is accepted, but the exact ancient urban footprint is less securely defined than Amphipolis or Thessalonica."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-via-egnatia-b9",
+      "source-barrington-acts"
+    ],
+    "coordinates": [
+      23.49,
+      40.64
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Approximate city-area anchor."
+  },
+  {
+    "id": "thessalonica",
+    "name": "Thessalonica",
+    "aliases": [
+      "Thessaloniki"
+    ],
+    "summary": "Major Macedonian port and provincial center where Acts narrates synagogue preaching and opposition; recipient city of 1–2 Thessalonians.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Thessalonica lies beneath modern Thessaloniki and is securely identified."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17:1–9",
+        "verseStart": 1,
+        "verseEnd": 9
+      },
+      {
+        "book": "1 Thessalonians",
+        "chapter": 1,
+        "label": "1 Thessalonians 1:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-via-egnatia-b9"
+    ],
+    "coordinates": [
+      22.944,
+      40.64
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "berea-macedonia",
+    "name": "Berea / Beroea",
+    "aliases": [
+      "Beroea",
+      "Veria"
+    ],
+    "summary": "Macedonian city where Acts praises receptive synagogue hearers before Paul travels toward Athens.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Beroea is securely identified with modern Veria."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17:10–15",
+        "verseStart": 10,
+        "verseEnd": 15
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-via-egnatia-b9"
+    ],
+    "coordinates": [
+      22.203,
+      40.524
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "athens",
+    "name": "Athens",
+    "aliases": [],
+    "summary": "Major Greek city where Acts narrates Paul engaging synagogue, marketplace, philosophers, and the Areopagus.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Athens is secure; individual meeting spots in Acts are not all archaeologically identifiable."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17:15–34",
+        "verseStart": 15,
+        "verseEnd": 34
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-athens-b9"
+    ],
+    "coordinates": [
+      23.7275,
+      37.9838
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "areopagus-athens",
+    "name": "Areopagus — hill/council context",
+    "aliases": [],
+    "summary": "Acts 17 says Paul was brought “to the Areopagus.” The term can refer to the council/body and, by extension, its setting; the exact speech spot is not certain.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Hill of Ares is a securely located topographic feature, but the narrative wording does not compel the conclusion that Paul stood at one exact point on the hill."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17:19–34",
+        "verseStart": 19,
+        "verseEnd": 34
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-athens-b9"
+    ],
+    "coordinates": [
+      23.723,
+      37.972
+    ],
+    "coordinateRole": "identified-site",
+    "locationNote": "Physical Areopagus hill shown; event location within/with the Areopagus council remains interpretive."
+  },
+  {
+    "id": "corinth",
+    "name": "Corinth",
+    "aliases": [],
+    "summary": "Roman colony and Achaian center where Paul spends an extended period according to Acts and which receives major Pauline correspondence.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Roman Corinth is securely identified at the excavated city below Acrocorinth."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:1–18",
+        "verseStart": 1,
+        "verseEnd": 18
+      },
+      {
+        "book": "1 Corinthians",
+        "chapter": 1,
+        "label": "1 Corinthians 1:2",
+        "verseStart": 2
+      },
+      {
+        "book": "2 Corinthians",
+        "chapter": 1,
+        "label": "2 Corinthians 1:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-corinth-b9"
+    ],
+    "coordinates": [
+      22.879,
+      37.906
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "corinth-bema",
+    "name": "Bema in the Roman forum at Corinth",
+    "aliases": [],
+    "summary": "Monumental speaking/judgment platform in Corinth’s forum, often discussed in relation to Gallio’s hearing of Paul.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The bema structure is archaeologically established, but Acts does not identify a specific surviving platform; using it as Paul’s exact hearing location remains interpretive."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:12–17",
+        "verseStart": 12,
+        "verseEnd": 17
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-corinth-b9",
+      "source-gallio-inscription"
+    ],
+    "coordinates": [
+      22.8793,
+      37.9057
+    ],
+    "coordinateRole": "identified-site",
+    "locationNote": "Established forum monument; event correlation is possible, not proven."
+  },
+  {
+    "id": "cenchreae",
+    "name": "Cenchreae",
+    "aliases": [
+      "Kenchreai"
+    ],
+    "summary": "Eastern port of Corinth named in Acts and Romans.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The port site at modern Kechries is securely identified, with submerged and excavated remains."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:18",
+        "verseStart": 18
+      },
+      {
+        "book": "Romans",
+        "chapter": 16,
+        "label": "Romans 16:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-corinth-b9"
+    ],
+    "coordinates": [
+      22.994,
+      37.884
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "achaia-region-acts",
+    "name": "Achaia — Roman provincial context",
+    "aliases": [],
+    "summary": "Roman province including Corinth and Athens in the first century CE.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The province is historical, but the display point/polygon is generalized and not a surveyed border for every year."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:12",
+        "verseStart": 12
+      },
+      {
+        "book": "2 Corinthians",
+        "chapter": 1,
+        "label": "2 Corinthians 1:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-gallio-inscription"
+    ],
+    "coordinates": [
+      22.8,
+      38.2
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Broad provincial orientation only."
+  },
+  {
+    "id": "ephesus",
+    "name": "Ephesus",
+    "aliases": [],
+    "summary": "Major city of Roman Asia where Acts places Paul for an extended ministry and a major civic disturbance.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ephesus is one of the best-preserved Greco-Roman cities in the region; the theater and Artemision are independently established."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:19–21",
+        "verseStart": 19,
+        "verseEnd": 21
+      },
+      {
+        "book": "Acts",
+        "chapter": 19,
+        "label": "Acts 19:1–41",
+        "verseStart": 1,
+        "verseEnd": 41
+      },
+      {
+        "book": "Ephesians",
+        "chapter": 1,
+        "label": "Ephesians 1:1",
+        "verseStart": 1
+      },
+      {
+        "book": "Revelation",
+        "chapter": 1,
+        "label": "Revelation 1:11",
+        "verseStart": 11
+      },
+      {
+        "book": "Revelation",
+        "chapter": 2,
+        "label": "Revelation 2:1–7",
+        "verseStart": 1,
+        "verseEnd": 7
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-ephesus-b9"
+    ],
+    "coordinates": [
+      27.341,
+      37.94
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "ephesus-theater",
+    "name": "Great Theater of Ephesus",
+    "aliases": [],
+    "summary": "Large theater associated with the civic assembly scene in Acts 19.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The theater is archaeologically established and fits the type of civic venue described; Acts does not preserve a seat-by-seat location."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 19,
+        "label": "Acts 19:29–41",
+        "verseStart": 29,
+        "verseEnd": 41
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-ephesus-b9"
+    ],
+    "coordinates": [
+      27.3417,
+      37.9411
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "hall-tyrannus",
+    "name": "Hall of Tyrannus",
+    "aliases": [],
+    "summary": "Lecture hall named in Acts 19 as a place where Paul reasoned daily in Ephesus.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "No excavated building can be securely identified as the hall of Tyrannus."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 19,
+        "label": "Acts 19:9–10",
+        "verseStart": 9,
+        "verseEnd": 10
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-ephesus-b9"
+    ],
+    "locationNote": "Unpinned within Ephesus."
+  },
+  {
+    "id": "artemision-ephesus",
+    "name": "Temple of Artemis at Ephesus",
+    "aliases": [],
+    "summary": "Major sanctuary central to Ephesus’s identity and to the economic/religious context of Acts 19.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The Artemision site is securely located and archaeologically investigated; Acts does not say Paul entered the sanctuary."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 19,
+        "label": "Acts 19:23–35",
+        "verseStart": 23,
+        "verseEnd": 35
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-ephesus-b9"
+    ],
+    "coordinates": [
+      27.3639,
+      37.9496
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "asia-province-acts",
+    "name": "Asia — Roman provincial context",
+    "aliases": [],
+    "summary": "Roman province of Asia, repeatedly named in Acts and Pauline correspondence.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The province is historical; the point is a display anchor and context polygons are generalized across a changing administrative landscape."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 19,
+        "label": "Acts 19:10",
+        "verseStart": 10
+      },
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:18",
+        "verseStart": 18
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-ephesus-b9"
+    ],
+    "coordinates": [
+      28.0,
+      38.2
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Broad provincial orientation only."
+  },
+  {
+    "id": "miletus",
+    "name": "Miletus",
+    "aliases": [],
+    "summary": "Ionian port city where Acts 20 places Paul’s meeting with elders from Ephesus.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Miletus is securely identified and extensively excavated; coastline has shifted significantly through silting."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:15–38",
+        "verseStart": 15,
+        "verseEnd": 38
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-hemer-acts"
+    ],
+    "coordinates": [
+      27.278,
+      37.53
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "assos",
+    "name": "Assos",
+    "aliases": [],
+    "summary": "Troad city where Acts says Paul joined his companions by ship after traveling overland.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Assos is securely located at Behramkale."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:13–14",
+        "verseStart": 13,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-hemer-acts"
+    ],
+    "coordinates": [
+      26.337,
+      39.49
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "mitylene",
+    "name": "Mitylene",
+    "aliases": [],
+    "summary": "City on Lesbos named in Acts 20 as an overnight maritime stop.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Mitylene is securely identified with modern Mytilene."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:14",
+        "verseStart": 14
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-hemer-acts"
+    ],
+    "coordinates": [
+      26.555,
+      39.11
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "chios",
+    "name": "Chios",
+    "aliases": [],
+    "summary": "Aegean island named in Acts 20 as a sailing waypoint.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The island is certain; Acts does not state an exact harbor landing."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:15",
+        "verseStart": 15
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-barrington-acts"
+    ],
+    "coordinates": [
+      26.13,
+      38.37
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Island-level route anchor only."
+  },
+  {
+    "id": "samos",
+    "name": "Samos",
+    "aliases": [],
+    "summary": "Aegean island named in Acts 20 as a sailing waypoint.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The island is certain; exact anchorage is not specified."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:15",
+        "verseStart": 15
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-barrington-acts"
+    ],
+    "coordinates": [
+      26.94,
+      37.75
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Island-level route anchor only."
+  },
+  {
+    "id": "cos",
+    "name": "Cos",
+    "aliases": [],
+    "summary": "Island stop named in Acts 21 during Paul’s voyage toward Jerusalem.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The island and ancient city are securely located; the route line is schematic."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-barrington-acts"
+    ],
+    "coordinates": [
+      27.29,
+      36.89
+    ],
+    "coordinateRole": "display-anchor"
+  },
+  {
+    "id": "patara",
+    "name": "Patara",
+    "aliases": [],
+    "summary": "Lycian port where Paul’s party changes ships for the voyage toward Phoenicia.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Patara is securely identified and archaeologically well documented as a major Lycian port."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-hemer-acts"
+    ],
+    "coordinates": [
+      29.316,
+      36.263
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "myra",
+    "name": "Myra",
+    "aliases": [],
+    "summary": "Lycian city/port region where the centurion transfers Paul to an Alexandrian grain ship bound west.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Myra and its harbor at Andriake are securely identified; Acts names Myra but not the precise berth."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:5–6",
+        "verseStart": 5,
+        "verseEnd": 6
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-malta-navigation-b9"
+    ],
+    "coordinates": [
+      29.985,
+      36.259
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "cnidus",
+    "name": "Cnidus",
+    "aliases": [],
+    "summary": "Promontory/city region named in Acts 27 as the ship struggles westward before turning toward Crete.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Cnidus is securely located on the Datça peninsula; the ship’s exact offshore track cannot be recovered."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:7",
+        "verseStart": 7
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-malta-navigation-b9"
+    ],
+    "coordinates": [
+      27.374,
+      36.685
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "crete-acts",
+    "name": "Crete",
+    "aliases": [],
+    "summary": "Large island along whose southern coast the Alexandrian ship sails in Acts 27.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The island is certain; route geometry is illustrative."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:7–13",
+        "verseStart": 7,
+        "verseEnd": 13
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-malta-navigation-b9"
+    ],
+    "coordinates": [
+      24.9,
+      35.2
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Island-level display anchor."
+  },
+  {
+    "id": "fair-havens",
+    "name": "Fair Havens, Crete",
+    "aliases": [
+      "Kaloi Limenes"
+    ],
+    "summary": "Harbor named in Acts 27 near Lasea, generally identified with modern Kaloi Limenes.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "The traditional/topographic identification with Kaloi Limenes is strong, but harbor morphology and exact ancient facilities require caution."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:8–12",
+        "verseStart": 8,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-malta-navigation-b9",
+      "source-barrington-acts"
+    ],
+    "coordinates": [
+      24.735,
+      34.93
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "lasea",
+    "name": "Lasea",
+    "aliases": [],
+    "summary": "Cretan city said to be near Fair Havens in Acts 27.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Ruins near Fair Havens are commonly associated with Lasea, but the urban identification is less secure than major excavated cities."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:8",
+        "verseStart": 8
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-malta-navigation-b9"
+    ],
+    "coordinates": [
+      24.74,
+      34.95
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "phoenix-crete",
+    "name": "Phoenix / Phoenice, Crete",
+    "aliases": [],
+    "summary": "Harbor the crew hoped to reach for winter in Acts 27. The exact harbor identification is debated.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The text gives directional harbor characteristics, but modern proposals differ; no single point is treated as established."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:12",
+        "verseStart": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-malta-navigation-b9"
+    ],
+    "locationNote": "Unpinned textual harbor; Loutro and other south-Cretan proposals remain interpretive."
+  },
+  {
+    "id": "cauda-gavdos",
+    "name": "Cauda / Clauda — Gavdos",
+    "aliases": [
+      "Clauda",
+      "Gavdos"
+    ],
+    "summary": "Island passed under for shelter during the storm in Acts 27, commonly identified with Gavdos.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "Gavdos is the standard historical-geographic identification of Cauda/Clauda; the ship’s exact lee-side track is unknown."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:16",
+        "verseStart": 16
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-malta-navigation-b9"
+    ],
+    "coordinates": [
+      24.08,
+      34.84
+    ],
+    "coordinateRole": "display-anchor"
+  },
+  {
+    "id": "malta-acts",
+    "name": "Malta / Melite",
+    "aliases": [
+      "Melite"
+    ],
+    "summary": "Island identified in Acts 28 after the shipwreck. Malta is the mainstream identification of Melite.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "Linguistic, geographic, and navigational considerations strongly support Malta, while the exact landfall within the island remains disputed."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:1–10",
+        "verseStart": 1,
+        "verseEnd": 10
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-malta-navigation-b9"
+    ],
+    "coordinates": [
+      14.43,
+      35.9
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Island-level anchor; not an exact wreck site."
+  },
+  {
+    "id": "paul-shipwreck-site",
+    "name": "Exact shipwreck site on Malta",
+    "aliases": [],
+    "summary": "Acts describes a bay with a beach but does not name a bay. Later traditions identify locations such as St Paul’s Bay.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "No archaeological evidence securely identifies the precise Acts 27 wreck site; traditional bays remain hypotheses."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:39–44",
+        "verseStart": 39,
+        "verseEnd": 44
+      },
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-malta-navigation-b9"
+    ],
+    "locationNote": "No normal pin. The atlas deliberately does not equate St Paul’s Bay with a proven wreck site.",
+    "interpretations": [
+      {
+        "title": "St Paul’s Bay tradition",
+        "status": "traditional",
+        "summary": "Longstanding Maltese tradition; navigational reconstructions can make the area plausible, but the biblical text and archaeology do not prove the exact bay.",
+        "sourceIds": [
+          "source-malta-navigation-b9"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syracuse",
+    "name": "Syracuse",
+    "aliases": [],
+    "summary": "Sicilian city where Acts 28 says the voyage stopped for three days.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Syracuse is securely identified; the exact harbor berth is not known."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:12",
+        "verseStart": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-malta-navigation-b9"
+    ],
+    "coordinates": [
+      15.293,
+      37.075
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "rhegium",
+    "name": "Rhegium",
+    "aliases": [
+      "Reggio Calabria"
+    ],
+    "summary": "Italian city at the Strait of Messina, a one-day stop on the voyage to Rome.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Rhegium is securely identified with Reggio Calabria."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:13",
+        "verseStart": 13
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-malta-navigation-b9"
+    ],
+    "coordinates": [
+      15.65,
+      38.111
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "puteoli",
+    "name": "Puteoli",
+    "aliases": [
+      "Pozzuoli"
+    ],
+    "summary": "Major Bay of Naples port where Acts says Paul stayed seven days with believers before continuing overland to Rome.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Puteoli is securely identified with Pozzuoli and preserves substantial Roman remains."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:13–14",
+        "verseStart": 13,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-rome-b9"
+    ],
+    "coordinates": [
+      14.12,
+      40.823
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "appii-forum",
+    "name": "Forum of Appius / Appii Forum",
+    "aliases": [
+      "Forum Appii"
+    ],
+    "summary": "Station on the Via Appia where Roman believers meet Paul according to Acts 28.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "The ancient station is generally located in the Pontine plain along the Via Appia; the precise meeting point is not recoverable."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:15",
+        "verseStart": 15
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-rome-b9",
+      "source-barrington-acts"
+    ],
+    "coordinates": [
+      12.94,
+      41.47
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "three-taverns",
+    "name": "Three Taverns",
+    "aliases": [],
+    "summary": "Via Appia station where Acts says another group of believers met Paul.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "Ancient itineraries support a station south of Rome, but modern exact localization is debated."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:15",
+        "verseStart": 15
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-rome-b9"
+    ],
+    "locationNote": "Unpinned road-station location; no exact modern marker is treated as certain."
+  },
+  {
+    "id": "paul-lodging-rome",
+    "name": "Paul’s rented lodging in Rome",
+    "aliases": [],
+    "summary": "Acts ends with Paul living under guard in rented quarters in Rome for two years.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Acts gives no address, and later church traditions do not securely identify the rented lodging."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:16–31",
+        "verseStart": 16,
+        "verseEnd": 31
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-rome-b9"
+    ],
+    "locationNote": "No normal pin; Rome is the secure city-level setting."
+  },
+  {
+    "id": "colossae",
+    "name": "Colossae",
+    "aliases": [],
+    "summary": "Lycus Valley city addressed by Colossians and associated with Philemon’s network; Acts does not narrate a visit by Paul.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The mound of ancient Colossae near Honaz is securely identified, though it has been less extensively excavated than Laodicea or Ephesus."
+    },
+    "scripture": [
+      {
+        "book": "Colossians",
+        "chapter": 1,
+        "label": "Colossians 1:2",
+        "verseStart": 2
+      },
+      {
+        "book": "Philemon",
+        "chapter": 1,
+        "label": "Philemon 1:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-colossae-lycus-b9",
+      "source-pauline-canonical"
+    ],
+    "coordinates": [
+      29.26,
+      37.79
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "laodicea-lycus",
+    "name": "Laodicea on the Lycus",
+    "aliases": [
+      "Laodicea"
+    ],
+    "summary": "Lycus Valley city mentioned in Colossians and later Revelation.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Laodicea is securely identified near modern Denizli and extensively excavated."
+    },
+    "scripture": [
+      {
+        "book": "Colossians",
+        "chapter": 4,
+        "label": "Colossians 4:13–16",
+        "verseStart": 13,
+        "verseEnd": 16
+      },
+      {
+        "book": "Revelation",
+        "chapter": 3,
+        "label": "Revelation 3:14",
+        "verseStart": 14
+      },
+      {
+        "book": "Revelation",
+        "chapter": 1,
+        "label": "Revelation 1:11",
+        "verseStart": 11
+      },
+      {
+        "book": "Revelation",
+        "chapter": 3,
+        "label": "Revelation 3:14–22",
+        "verseStart": 14,
+        "verseEnd": 22
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-colossae-lycus-b9"
+    ],
+    "coordinates": [
+      29.107,
+      37.835
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "hierapolis",
+    "name": "Hierapolis",
+    "aliases": [],
+    "summary": "Lycus Valley city named in Colossians 4 alongside Laodicea and Colossae.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Hierapolis is securely identified at Pamukkale."
+    },
+    "scripture": [
+      {
+        "book": "Colossians",
+        "chapter": 4,
+        "label": "Colossians 4:13",
+        "verseStart": 13
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-pleiades",
+      "source-colossae-lycus-b9"
+    ],
+    "coordinates": [
+      29.13,
+      37.925
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "illyricum-paul",
+    "name": "Illyricum in Romans 15",
+    "aliases": [],
+    "summary": "Western Balkan region Paul names as the limit of his preaching “as far as Illyricum.” The phrase does not establish a specific city visit.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Illyricum is a historical regional/provincial term with changing borders; the atlas uses a broad anchor only."
+    },
+    "scripture": [
+      {
+        "book": "Romans",
+        "chapter": 15,
+        "label": "Romans 15:19",
+        "verseStart": 19
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-pauline-canonical",
+      "source-barrington-acts"
+    ],
+    "coordinates": [
+      19.5,
+      42.5
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Broad display anchor; no exact Pauline itinerary is inferred."
+  },
+  {
+    "id": "phrygia-region-acts",
+    "name": "Phrygia — Acts regional context",
+    "aliases": [],
+    "summary": "Broad inland Anatolian region named in Acts as part of Paul’s travel context. Its administrative/geographic extent varied across periods.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Phrygia is a historical region, but this point is only a display anchor and does not define a surveyed first-century border."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:6",
+        "verseStart": 6
+      },
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:23",
+        "verseStart": 23
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-hemer-acts"
+    ],
+    "coordinates": [
+      30.8,
+      39.0
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Broad regional anchor only; not a city or exact route point."
+  },
+  {
+    "id": "macedonia-region-acts",
+    "name": "Macedonia — Acts regional context",
+    "aliases": [
+      "Roman Macedonia"
+    ],
+    "summary": "Roman provincial/regional context for repeated Pauline travel. Acts sometimes names Macedonia without listing every city visited.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Macedonia is historically secure; the point is a display anchor and the associated polygon is a generalized orientation layer."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:9–12",
+        "verseStart": 9,
+        "verseEnd": 12
+      },
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-barrington-acts",
+      "source-hemer-acts"
+    ],
+    "coordinates": [
+      22.5,
+      40.7
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Broad regional anchor only; not an assertion that Paul stopped at this coordinate."
+  }
+]

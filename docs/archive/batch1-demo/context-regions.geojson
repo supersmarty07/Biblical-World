@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-corridor",
+        "name": "Demo contextual region — not a historical boundary",
+        "confidence": "unknown",
+        "demo": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[34.2,30.5],[47.2,30.5],[47.2,37.6],[34.2,37.6],[34.2,30.5]]]
+      }
+    }
+  ]
+}

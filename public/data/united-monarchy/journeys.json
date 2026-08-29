@@ -1,0 +1,1081 @@
+[
+  {
+    "id": "journey-ruth-moab-bethlehem",
+    "name": "Ruth and Naomi: Moab to Bethlehem",
+    "person": "Ruth",
+    "personId": "ruth",
+    "character": "ruth",
+    "summary": "A schematic westward crossing from the Moabite plateau to Bethlehem. Ruth 1 does not preserve the exact road or Jordan crossing.",
+    "segments": [
+      {
+        "id": "ruth-moab-bethlehem",
+        "fromPlaceId": "moab",
+        "toPlaceId": "bethlehem-judah",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.73,
+            31.55
+          ],
+          [
+            35.58,
+            31.65
+          ],
+          [
+            35.45,
+            31.75
+          ],
+          [
+            35.2,
+            31.705
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Ruth",
+            "chapter": 1,
+            "verseStart": 6,
+            "verseEnd": 22,
+            "label": "Ruth 1:6–22"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Broad reconstructed corridor only; no claim about the exact ford or ascent route."
+      }
+    ]
+  },
+  {
+    "id": "journey-ark-philistia",
+    "name": "The Ark: Shiloh, Philistia, and Kiriath-jearim",
+    "person": "Ark narrative",
+    "personId": null,
+    "character": "generic",
+    "summary": "Visualizes the city sequence in 1 Samuel 4–7 while keeping Ebenezer unlocated.",
+    "segments": [
+      {
+        "id": "ark-shiloh-aphek",
+        "fromPlaceId": "shiloh",
+        "toPlaceId": "aphek-samuel",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.29,
+            32.055
+          ],
+          [
+            35.2,
+            32.05
+          ],
+          [
+            35.05,
+            32.08
+          ],
+          [
+            34.931,
+            32.105
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 4,
+            "verseStart": 1,
+            "verseEnd": 11,
+            "label": "1 Samuel 4:1–11"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Aphek is used as the secure Philistine-camp anchor; the Israelite camp at Ebenezer is unlocated."
+      },
+      {
+        "id": "ark-aphek-ashdod",
+        "fromPlaceId": "aphek-samuel",
+        "toPlaceId": "ashdod",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.931,
+            32.105
+          ],
+          [
+            34.78,
+            31.95
+          ],
+          [
+            34.655,
+            31.754
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 5,
+            "verseStart": 1,
+            "verseEnd": 1,
+            "label": "1 Samuel 5:1"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Schematic movement after capture; not an ancient road trace."
+      },
+      {
+        "id": "ark-ashdod-gath",
+        "fromPlaceId": "ashdod",
+        "toPlaceId": "gath",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.655,
+            31.754
+          ],
+          [
+            34.75,
+            31.72
+          ],
+          [
+            34.847,
+            31.7
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 5,
+            "verseStart": 8,
+            "verseEnd": 8,
+            "label": "1 Samuel 5:8"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Textual city sequence; route reconstructed."
+      },
+      {
+        "id": "ark-gath-ekron",
+        "fromPlaceId": "gath",
+        "toPlaceId": "ekron",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.847,
+            31.7
+          ],
+          [
+            34.84,
+            31.74
+          ],
+          [
+            34.85,
+            31.78
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 5,
+            "verseStart": 10,
+            "verseEnd": 10,
+            "label": "1 Samuel 5:10"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Textual city sequence; route reconstructed."
+      },
+      {
+        "id": "ark-ekron-bethshemesh",
+        "fromPlaceId": "ekron",
+        "toPlaceId": "beth-shemesh-monarchy",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.85,
+            31.78
+          ],
+          [
+            34.91,
+            31.77
+          ],
+          [
+            34.995,
+            31.752
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 6,
+            "verseStart": 10,
+            "verseEnd": 14,
+            "label": "1 Samuel 6:10–14"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Cart route generalized between securely identified cities."
+      },
+      {
+        "id": "ark-bethshemesh-kj",
+        "fromPlaceId": "beth-shemesh-monarchy",
+        "toPlaceId": "kiriath-jearim",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.995,
+            31.752
+          ],
+          [
+            35.04,
+            31.77
+          ],
+          [
+            35.101,
+            31.805
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 6,
+            "verseStart": 20,
+            "verseEnd": 21,
+            "label": "1 Samuel 6:20–21"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 7,
+            "verseStart": 1,
+            "verseEnd": 2,
+            "label": "1 Samuel 7:1–2"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Generalized ascent into the hill country."
+      }
+    ]
+  },
+  {
+    "id": "journey-david-elah",
+    "name": "David: Bethlehem to the Elah Valley",
+    "person": "David",
+    "personId": "david",
+    "character": "david",
+    "summary": "A short story-route from Bethlehem toward the Elah Valley. The exact path taken in 1 Samuel 17 is not described.",
+    "segments": [
+      {
+        "id": "david-bethlehem-elah",
+        "fromPlaceId": "bethlehem-judah",
+        "toPlaceId": "valley-elah",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.202,
+            31.705
+          ],
+          [
+            35.1,
+            31.69
+          ],
+          [
+            35.02,
+            31.69
+          ],
+          [
+            34.956,
+            31.688
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 17,
+            "verseStart": 17,
+            "verseEnd": 23,
+            "label": "1 Samuel 17:17–23"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Reconstructed topographic corridor between known endpoints."
+      }
+    ]
+  },
+  {
+    "id": "journey-david-fugitive",
+    "name": "David’s Fugitive Landscape",
+    "person": "David",
+    "personId": "david",
+    "character": "david",
+    "summary": "A deliberately schematic sequence through major named refuges. It omits unlocated Nob and does not pretend to trace David’s footsteps.",
+    "segments": [
+      {
+        "id": "df-gibeah-gath",
+        "fromPlaceId": "gibeah-benjamin",
+        "toPlaceId": "gath",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.23,
+            31.82
+          ],
+          [
+            35.12,
+            31.79
+          ],
+          [
+            34.98,
+            31.75
+          ],
+          [
+            34.847,
+            31.7
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 21,
+            "verseStart": 10,
+            "verseEnd": 15,
+            "label": "1 Samuel 21:10–15"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "The narrative includes Nob before Gath; Nob is unlocated, so this map line only connects mappable anchors."
+      },
+      {
+        "id": "df-gath-adullam",
+        "fromPlaceId": "gath",
+        "toPlaceId": "adullam",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.847,
+            31.7
+          ],
+          [
+            34.9,
+            31.68
+          ],
+          [
+            34.975,
+            31.649
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 22,
+            "verseStart": 1,
+            "verseEnd": 2,
+            "label": "1 Samuel 22:1–2"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Reconstructed local corridor."
+      },
+      {
+        "id": "df-adullam-keilah",
+        "fromPlaceId": "adullam",
+        "toPlaceId": "keilah",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.975,
+            31.649
+          ],
+          [
+            35.0,
+            31.63
+          ],
+          [
+            35.013,
+            31.613
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 23,
+            "verseStart": 1,
+            "verseEnd": 13,
+            "label": "1 Samuel 23:1–13"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Narrative sequence; exact route unknown."
+      },
+      {
+        "id": "df-keilah-ziph",
+        "fromPlaceId": "keilah",
+        "toPlaceId": "ziph-judah",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.013,
+            31.613
+          ],
+          [
+            35.07,
+            31.55
+          ],
+          [
+            35.12,
+            31.481
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 23,
+            "verseStart": 13,
+            "verseEnd": 15,
+            "label": "1 Samuel 23:13–15"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Reconstructed hill-country connection."
+      },
+      {
+        "id": "df-ziph-maon",
+        "fromPlaceId": "ziph-judah",
+        "toPlaceId": "maon-judah",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.12,
+            31.481
+          ],
+          [
+            35.145,
+            31.45
+          ],
+          [
+            35.161,
+            31.414
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 23,
+            "verseStart": 24,
+            "verseEnd": 25,
+            "label": "1 Samuel 23:24–25"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Short regional reconstruction."
+      },
+      {
+        "id": "df-maon-engedi",
+        "fromPlaceId": "maon-judah",
+        "toPlaceId": "en-gedi",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.161,
+            31.414
+          ],
+          [
+            35.23,
+            31.4
+          ],
+          [
+            35.3,
+            31.42
+          ],
+          [
+            35.389,
+            31.45
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 23,
+            "verseStart": 29,
+            "verseEnd": 29,
+            "label": "1 Samuel 23:29"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 24,
+            "verseStart": 1,
+            "verseEnd": 1,
+            "label": "1 Samuel 24:1"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Generalized movement toward the Dead Sea oasis."
+      }
+    ]
+  },
+  {
+    "id": "journey-saul-final",
+    "name": "Saul’s Final Campaign",
+    "person": "Saul",
+    "personId": "saul",
+    "character": "saul",
+    "summary": "A schematic movement from the Benjaminite highlands into the Jezreel/Gilboa theater, followed by the body display at Beth-shean.",
+    "segments": [
+      {
+        "id": "saul-gibeah-shunem",
+        "fromPlaceId": "gibeah-benjamin",
+        "toPlaceId": "shunem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.23,
+            31.82
+          ],
+          [
+            35.3,
+            32.05
+          ],
+          [
+            35.31,
+            32.3
+          ],
+          [
+            35.335,
+            32.607
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 28,
+            "verseStart": 4,
+            "verseEnd": 7,
+            "label": "1 Samuel 28:4–7"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Reconstructed northward corridor; the military route is not specified."
+      },
+      {
+        "id": "saul-shunem-endor",
+        "fromPlaceId": "shunem",
+        "toPlaceId": "endor",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.335,
+            32.607
+          ],
+          [
+            35.38,
+            32.62
+          ],
+          [
+            35.421,
+            32.625
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 28,
+            "verseStart": 7,
+            "verseEnd": 25,
+            "label": "1 Samuel 28:7–25"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Approximate local movement to the Endor region."
+      },
+      {
+        "id": "saul-endor-gilboa",
+        "fromPlaceId": "endor",
+        "toPlaceId": "mount-gilboa",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.421,
+            32.625
+          ],
+          [
+            35.42,
+            32.56
+          ],
+          [
+            35.416,
+            32.5
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 31,
+            "verseStart": 1,
+            "verseEnd": 6,
+            "label": "1 Samuel 31:1–6"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Story visualization; exact return and battle route unknown."
+      },
+      {
+        "id": "saul-gilboa-bethshean",
+        "fromPlaceId": "mount-gilboa",
+        "toPlaceId": "beth-shean",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.416,
+            32.5
+          ],
+          [
+            35.48,
+            32.5
+          ],
+          [
+            35.5,
+            32.497
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 31,
+            "verseStart": 8,
+            "verseEnd": 12,
+            "label": "1 Samuel 31:8–12"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Represents the Philistine removal of the bodies to Beth-shean, not a known road."
+      }
+    ]
+  },
+  {
+    "id": "journey-david-hebron-jerusalem",
+    "name": "David: Hebron to Jerusalem",
+    "person": "David",
+    "personId": "david",
+    "character": "david",
+    "summary": "Visualizes the political shift from David’s Hebron reign to Jerusalem after the city’s capture.",
+    "segments": [
+      {
+        "id": "david-hebron-jerusalem",
+        "fromPlaceId": "hebron",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.0957,
+            31.5326
+          ],
+          [
+            35.15,
+            31.62
+          ],
+          [
+            35.2,
+            31.7
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 5,
+            "verseStart": 1,
+            "verseEnd": 10,
+            "label": "2 Samuel 5:1–10"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Narrative transition between known cities; exact military approach unknown."
+      }
+    ]
+  },
+  {
+    "id": "journey-ark-jerusalem",
+    "name": "Ark to Jerusalem",
+    "person": "David",
+    "personId": "david",
+    "character": "david",
+    "summary": "A schematic hill-country journey from Kiriath-jearim toward Jerusalem. Intermediate stopping points are not pinned.",
+    "segments": [
+      {
+        "id": "ark-kj-jerusalem",
+        "fromPlaceId": "kiriath-jearim",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.101,
+            31.805
+          ],
+          [
+            35.15,
+            31.8
+          ],
+          [
+            35.2,
+            31.79
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 6,
+            "verseStart": 1,
+            "verseEnd": 19,
+            "label": "2 Samuel 6:1–19"
+          },
+          {
+            "book": "1 Chronicles",
+            "chapter": 13,
+            "label": "1 Chronicles 13"
+          },
+          {
+            "book": "1 Chronicles",
+            "chapter": 15,
+            "label": "1 Chronicles 15"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Textual destination sequence; intermediate Perez-uzzah and Obed-edom locations are unresolved."
+      }
+    ]
+  },
+  {
+    "id": "journey-absalom-flight",
+    "name": "David’s Flight during Absalom’s Revolt",
+    "person": "David",
+    "personId": "david",
+    "character": "david",
+    "summary": "The first segments follow secure Jerusalem topography; the long Transjordan movement is reconstructed because Bahurim and the Forest of Ephraim are unlocated.",
+    "segments": [
+      {
+        "id": "abs-jerusalem-kidron",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "kidron-valley",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            35.241,
+            31.776
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 15,
+            "verseStart": 23,
+            "verseEnd": 23,
+            "label": "2 Samuel 15:23"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Secure topographic relationship; exact crossing point unknown."
+      },
+      {
+        "id": "abs-kidron-olives",
+        "fromPlaceId": "kidron-valley",
+        "toPlaceId": "mount-olives",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.241,
+            31.776
+          ],
+          [
+            35.243,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 15,
+            "verseStart": 30,
+            "verseEnd": 32,
+            "label": "2 Samuel 15:30–32"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Short topographic visualization of the ascent."
+      },
+      {
+        "id": "abs-olives-mahanaim",
+        "fromPlaceId": "mount-olives",
+        "toPlaceId": "mahanaim",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            35.243,
+            31.778
+          ],
+          [
+            35.4,
+            31.9
+          ],
+          [
+            35.55,
+            32.1
+          ],
+          [
+            35.67,
+            32.33
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 16,
+            "label": "2 Samuel 16"
+          },
+          {
+            "book": "2 Samuel",
+            "chapter": 17,
+            "verseStart": 24,
+            "verseEnd": 29,
+            "label": "2 Samuel 17:24–29"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Highly generalized corridor; Bahurim is unlocated and Mahanaim is only a candidate area."
+      }
+    ]
+  },
+  {
+    "id": "journey-solomon-gibeon",
+    "name": "Solomon: Jerusalem and Gibeon",
+    "person": "Solomon",
+    "personId": "solomon",
+    "character": "solomon",
+    "summary": "A short schematic journey from Jerusalem to Gibeon and back, associated with the dream narrative.",
+    "segments": [
+      {
+        "id": "solomon-jerusalem-gibeon",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "gibeon",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            35.21,
+            31.81
+          ],
+          [
+            35.185,
+            31.85
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 3,
+            "verseStart": 4,
+            "verseEnd": 5,
+            "label": "1 Kings 3:4–5"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Reconstructed local corridor."
+      },
+      {
+        "id": "solomon-gibeon-jerusalem",
+        "fromPlaceId": "gibeon",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.185,
+            31.85
+          ],
+          [
+            35.21,
+            31.81
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 3,
+            "verseStart": 15,
+            "verseEnd": 15,
+            "label": "1 Kings 3:15"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Narrative return; exact road unspecified."
+      }
+    ]
+  },
+  {
+    "id": "journey-phoenician-supply",
+    "name": "Tyre to Jerusalem — Phoenician Supply Corridor",
+    "person": "Hiram’s timber and craftsmen",
+    "personId": null,
+    "character": "generic",
+    "summary": "A conceptual overland/coastal supply visualization between Tyre and Jerusalem. It represents trade connection, not a known single road followed by every shipment.",
+    "segments": [
+      {
+        "id": "tyre-jerusalem-supply",
+        "fromPlaceId": "tyre",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            35.196,
+            33.271
+          ],
+          [
+            35.1,
+            33.0
+          ],
+          [
+            35.1,
+            32.6
+          ],
+          [
+            35.12,
+            32.2
+          ],
+          [
+            35.18,
+            31.95
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 5,
+            "verseStart": 6,
+            "verseEnd": 18,
+            "label": "1 Kings 5:6–18"
+          }
+        ],
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "Conceptual corridor only; 1 Kings describes logs sent by sea to an unspecified place before overland delivery."
+      }
+    ]
+  }
+]

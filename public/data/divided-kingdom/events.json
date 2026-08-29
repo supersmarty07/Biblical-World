@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "event-kingdom-division",
+    "title": "The monarchy divides at Shechem",
+    "summary": "Rehoboam’s assembly at Shechem ends with the northern tribes rejecting Davidic rule; Jeroboam becomes king over Israel while Judah remains under Rehoboam.",
+    "confidence": "moderate",
+    "placeIds": [
+      "shechem",
+      "jerusalem",
+      "israel-northern-kingdom",
+      "judah-kingdom"
+    ],
+    "personIds": [
+      "rehoboam",
+      "jeroboam-i"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 12,
+        "label": "1 Kings 12:1–24",
+        "verseStart": 1,
+        "verseEnd": 24
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 10,
+        "label": "2 Chronicles 10"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings"
+    ],
+    "historicalNote": "The political division is foundational to the biblical narrative. The conventional date around 930 BCE is a historical reconstruction rather than a date printed in the text.",
+    "dating": {
+      "from": -930,
+      "to": -920,
+      "label": "c. 930 BCE (conventional early divided-monarchy chronology)",
+      "basis": "approximate",
+      "note": "Absolute chronology varies by reconstruction."
+    }
+  },
+  {
+    "id": "event-jeroboam-sanctuaries",
+    "title": "Jeroboam’s Bethel and Dan sanctuaries",
+    "summary": "Kings associates Jeroboam I with royal cult centers at Bethel and Dan. Both places are mappable; specific ritual installations require site-by-site archaeological interpretation.",
+    "confidence": "moderate",
+    "placeIds": [
+      "bethel",
+      "dan-laish",
+      "israel-northern-kingdom"
+    ],
+    "personIds": [
+      "jeroboam-i"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 12,
+        "label": "1 Kings 12:25–33",
+        "verseStart": 25,
+        "verseEnd": 33
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-cogan-kings",
+      "source-mazar-land-bible",
+      "source-northern-kingdom-archaeology"
+    ],
+    "historicalNote": "Tel Dan preserves major cultic architecture, but assigning every phase or feature directly to Jeroboam I is a chronological interpretation, not an inscribed label."
+  },
+  {
+    "id": "event-shoshenq-campaign",
+    "title": "Shoshenq I / biblical Shishak campaigns in the Levant",
+    "summary": "Kings and Chronicles describe Shishak’s attack during Rehoboam’s reign; Shoshenq I’s Karnak relief independently attests an Egyptian Levantine campaign.",
+    "confidence": "high",
+    "placeIds": [
+      "egypt",
+      "jerusalem",
+      "judah-kingdom"
+    ],
+    "personIds": [
+      "shoshenq-i",
+      "rehoboam"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 14,
+        "label": "1 Kings 14:25–28",
+        "verseStart": 25,
+        "verseEnd": 28
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 12,
+        "label": "2 Chronicles 12:2–12",
+        "verseStart": 2,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-context-scripture",
+      "source-shoshenq-karnak"
+    ],
+    "historicalNote": "The Shishak–Shoshenq I identification is widely accepted. The Karnak place list is not a transcript of the biblical account and does not simply prove every detail of the Jerusalem narrative.",
+    "dating": {
+      "from": -930,
+      "to": -915,
+      "label": "late 10th century BCE; commonly placed around 925 BCE",
+      "basis": "conventional"
+    }
+  },
+  {
+    "id": "event-omri-founds-samaria",
+    "title": "Omri founds Samaria",
+    "summary": "Omri purchases the hill of Samaria and establishes a new northern capital.",
+    "confidence": "high",
+    "placeIds": [
+      "tirzah",
+      "samaria",
+      "israel-northern-kingdom"
+    ],
+    "personIds": [
+      "omri"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 16,
+        "label": "1 Kings 16:23–24",
+        "verseStart": 23,
+        "verseEnd": 24
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-samaria-archaeology",
+      "source-miller-hayes",
+      "source-cogan-kings"
+    ],
+    "historicalNote": "The capital site is secure. Exact regnal-year conversion into BCE depends on chronological system.",
+    "dating": {
+      "from": -885,
+      "to": -875,
+      "label": "early 9th century BCE",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-qarqar-853",
+    "title": "Battle of Qarqar",
+    "summary": "Shalmaneser III’s Kurkh Monolith records a major coalition battle at Qarqar and names Ahab of Israel among the coalition. Kings does not narrate this battle.",
+    "confidence": "high",
+    "placeIds": [
+      "qarqar",
+      "israel-northern-kingdom",
+      "neo-assyrian-empire"
+    ],
+    "personIds": [
+      "ahab",
+      "shalmaneser-iii"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-kurkh-monolith",
+      "source-assyrian-royal-inscriptions",
+      "source-context-scripture",
+      "source-miller-hayes"
+    ],
+    "historicalNote": "This is extra-biblical historical context. The Assyrian inscription is a royal victory text; its troop numbers and rhetoric are not treated as neutral statistics.",
+    "dating": {
+      "from": -853,
+      "to": -853,
+      "label": "853 BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-mesha-revolt",
+    "title": "Mesha and Moab rebel against Israel",
+    "summary": "2 Kings 3 narrates a coalition campaign against Moab after Mesha rebels. The Mesha Stele independently presents Moabite liberation from Omride domination from a Moabite royal perspective.",
+    "confidence": "moderate",
+    "placeIds": [
+      "moab",
+      "dibon",
+      "kir-hareseth",
+      "israel-northern-kingdom",
+      "judah-kingdom"
+    ],
+    "personIds": [
+      "mesha-king-moab",
+      "jehoshaphat"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 3,
+        "label": "2 Kings 3:4–27",
+        "verseStart": 4,
+        "verseEnd": 27
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-mesha-stele",
+      "source-miller-hayes",
+      "source-cogan-kings"
+    ],
+    "historicalNote": "The Mesha Stele and 2 Kings overlap in people/political setting but should not be forced into a one-to-one event harmonization."
+  },
+  {
+    "id": "event-naboth-vineyard",
+    "title": "Naboth’s vineyard at Jezreel",
+    "summary": "1 Kings 21 places Naboth’s vineyard beside Ahab’s Jezreel property and narrates its seizure through royal abuse.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jezreel-city"
+    ],
+    "personIds": [
+      "ahab",
+      "jezebel",
+      "elijah"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 21,
+        "label": "1 Kings 21"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-cogan-kings",
+      "source-northern-kingdom-archaeology"
+    ],
+    "historicalNote": "Jezreel is secure; the vineyard itself is not archaeologically identified."
+  },
+  {
+    "id": "event-elijah-drought",
+    "title": "Elijah, drought, Kerith, and Zarephath",
+    "summary": "The Elijah cycle opens with drought, an unlocated brook east of the Jordan, and a stay in Phoenician Zarephath.",
+    "confidence": "moderate",
+    "placeIds": [
+      "kerith-brook",
+      "zarephath",
+      "israel-northern-kingdom"
+    ],
+    "personIds": [
+      "elijah",
+      "jezebel",
+      "ahab"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 17,
+        "label": "1 Kings 17"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-cogan-kings"
+    ],
+    "historicalNote": "Zarephath is mappable; Kerith is not. The map therefore avoids drawing an exact first leg."
+  },
+  {
+    "id": "event-carmel-contest",
+    "title": "Elijah’s confrontation on Mount Carmel",
+    "summary": "1 Kings 18 places the contest involving Elijah and prophets of Baal on Mount Carmel, followed by rain and movement toward Jezreel.",
+    "confidence": "moderate",
+    "placeIds": [
+      "mount-carmel",
+      "jezreel-city"
+    ],
+    "personIds": [
+      "elijah",
+      "ahab",
+      "jezebel"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 18,
+        "label": "1 Kings 18:19–46",
+        "verseStart": 19,
+        "verseEnd": 46
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-cogan-kings"
+    ],
+    "historicalNote": "The Carmel ridge is secure, but the exact altar location and route to Jezreel are not archaeologically traceable."
+  },
+  {
+    "id": "event-elijah-horeb",
+    "title": "Elijah flees toward Horeb",
+    "summary": "After the Carmel narrative, Elijah travels via Beersheba into the wilderness and reaches Horeb, “the mountain of God.”",
+    "confidence": "moderate",
+    "placeIds": [
+      "jezreel-city",
+      "beersheba",
+      "mount-sinai"
+    ],
+    "personIds": [
+      "elijah"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 19,
+        "label": "1 Kings 19:1–18",
+        "verseStart": 1,
+        "verseEnd": 18
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-cogan-kings",
+      "source-batch5-methodology"
+    ],
+    "historicalNote": "Beersheba is secure; Horeb/Sinai remains unlocated in the atlas, so no exact final route is drawn."
+  },
+  {
+    "id": "event-elisha-succession",
+    "title": "Elijah’s departure and Elisha’s succession",
+    "summary": "2 Kings 2 moves through Bethel, Jericho, and the Jordan in the transition from Elijah to Elisha.",
+    "confidence": "moderate",
+    "placeIds": [
+      "bethel",
+      "jericho",
+      "jordan-river"
+    ],
+    "personIds": [
+      "elijah",
+      "elisha"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 2,
+        "label": "2 Kings 2"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-cogan-kings"
+    ],
+    "historicalNote": "The named Gilgal in this sequence is not forced onto the Joshua-era Gilgal pin; only better-established anchors are mapped."
+  },
+  {
+    "id": "event-naaman",
+    "title": "Naaman washes in the Jordan",
+    "summary": "2 Kings 5 places the Aramean commander Naaman in an Israel-Aram diplomatic/prophetic narrative culminating in washing in the Jordan.",
+    "confidence": "moderate",
+    "placeIds": [
+      "damascus",
+      "samaria",
+      "jordan-river"
+    ],
+    "personIds": [
+      "naaman",
+      "elisha"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 5,
+        "label": "2 Kings 5"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-cogan-kings",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "The Jordan is a secure physical anchor, but the text does not identify a precise bathing spot. Samaria is included as Northern Kingdom royal-capital context; 2 Kings 5 does not explicitly give a modern coordinate for Elisha’s house."
+  },
+  {
+    "id": "event-jehu-coup",
+    "title": "Jehu’s coup reaches Jezreel and Samaria",
+    "summary": "Jehu is anointed amid the Ramoth-gilead war and rapidly seizes the northern throne, killing Joram and Jezebel at Jezreel before consolidating power in Samaria.",
+    "confidence": "moderate",
+    "placeIds": [
+      "ramoth-gilead",
+      "jezreel-city",
+      "samaria"
+    ],
+    "personIds": [
+      "jehu",
+      "jezebel"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 9,
+        "label": "2 Kings 9"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 10,
+        "label": "2 Kings 10:1–17",
+        "verseStart": 1,
+        "verseEnd": 17
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-cogan-kings",
+      "source-miller-hayes"
+    ],
+    "historicalNote": "Ramoth-gilead is unlocated, while Jezreel and Samaria are secure. Animation begins from broad Gilead context rather than pretending a precise Ramoth coordinate.",
+    "dating": {
+      "from": -845,
+      "to": -838,
+      "label": "mid-9th century BCE; Jehu’s accession conventionally c. 841 BCE",
+      "basis": "conventional"
+    }
+  },
+  {
+    "id": "event-jehu-tribute",
+    "title": "Assyrian monument depicts tribute from Jehu",
+    "summary": "Shalmaneser III’s Black Obelisk includes a tribute scene captioned with Jehu under the Assyrian dynastic label of Omri.",
+    "confidence": "high",
+    "placeIds": [
+      "calah-nimrud",
+      "israel-northern-kingdom"
+    ],
+    "personIds": [
+      "jehu",
+      "shalmaneser-iii"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-black-obelisk",
+      "source-assyrian-royal-inscriptions",
+      "source-context-scripture"
+    ],
+    "historicalNote": "The obelisk was erected later than the tribute episode. “Son/house of Omri” is an Assyrian geopolitical/dynastic label, not a claim that Jehu was Omri’s biological son.",
+    "dating": {
+      "from": -841,
+      "to": -841,
+      "label": "c. 841 BCE tribute episode",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-hazael-pressure",
+    "title": "Hazael pressures Israel and Judah",
+    "summary": "Kings portrays Hazael of Damascus taking territory from Israel and later capturing Gath and threatening Jerusalem.",
+    "confidence": "moderate",
+    "placeIds": [
+      "aram-damascus",
+      "gath",
+      "jerusalem",
+      "israel-northern-kingdom",
+      "judah-kingdom"
+    ],
+    "personIds": [
+      "hazael",
+      "joash-judah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 10,
+        "label": "2 Kings 10:32–33",
+        "verseStart": 32,
+        "verseEnd": 33
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 12,
+        "label": "2 Kings 12:17–18",
+        "verseStart": 17,
+        "verseEnd": 18
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings",
+      "source-tel-dan-stele"
+    ],
+    "historicalNote": "The Tel Dan Stele supplies independent Aramaic royal-war context, but its author and exact event correlations remain debated."
+  },
+  {
+    "id": "event-athaliah-joash",
+    "title": "Athaliah’s rule and Joash’s accession",
+    "summary": "The Jerusalem court narrative moves through Athaliah’s seizure of power, Joash’s preservation, and his later public enthronement at the temple.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "temple-mount",
+      "judah-kingdom"
+    ],
+    "personIds": [
+      "athaliah",
+      "joash-judah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 11,
+        "label": "2 Kings 11"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 22,
+        "label": "2 Chronicles 22:10–12",
+        "verseStart": 10,
+        "verseEnd": 12
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 23,
+        "label": "2 Chronicles 23"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-cogan-kings",
+      "source-miller-hayes"
+    ],
+    "historicalNote": "The Temple Mount is a physical anchor; the exact First Temple spaces involved remain unexcavated/unpinned."
+  },
+  {
+    "id": "event-amos-bethel",
+    "title": "Amos confronts the priest of Bethel",
+    "summary": "Amos 7 places a confrontation between Amos and Amaziah at Bethel, linking a Judean prophet with a northern royal sanctuary.",
+    "confidence": "moderate",
+    "placeIds": [
+      "tekoa",
+      "bethel",
+      "israel-northern-kingdom"
+    ],
+    "personIds": [
+      "amos",
+      "jeroboam-ii"
+    ],
+    "scripture": [
+      {
+        "book": "Amos",
+        "chapter": 7,
+        "label": "Amos 7:10–17",
+        "verseStart": 10,
+        "verseEnd": 17
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-miller-hayes"
+    ],
+    "historicalNote": "No route from Tekoa to Bethel is claimed by the text; the map links the places conceptually rather than drawing a journey.",
+    "dating": {
+      "from": -770,
+      "to": -750,
+      "label": "mid-8th century BCE prophetic setting",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-hosea-north",
+    "title": "Hosea addresses the Northern Kingdom before its fall",
+    "summary": "Hosea’s oracles repeatedly invoke Ephraim, Israel, Samaria, and Bethel/Beth-aven in the decades of political instability before Assyrian conquest.",
+    "confidence": "moderate",
+    "placeIds": [
+      "samaria",
+      "bethel",
+      "israel-northern-kingdom"
+    ],
+    "personIds": [
+      "hosea-prophet"
+    ],
+    "scripture": [
+      {
+        "book": "Hosea",
+        "chapter": 1,
+        "label": "Hosea 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Hosea",
+        "chapter": 8,
+        "label": "Hosea 8:5–6",
+        "verseStart": 5,
+        "verseEnd": 6
+      },
+      {
+        "book": "Hosea",
+        "chapter": 10,
+        "label": "Hosea 10:5–8",
+        "verseStart": 5,
+        "verseEnd": 8
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-miller-hayes"
+    ],
+    "historicalNote": "The book spans and reflects a complex period; the atlas uses broad late-northern-kingdom context rather than assigning each oracle an exact year."
+  },
+  {
+    "id": "event-jonah-nineveh",
+    "title": "Jonah narrative: Joppa, the sea, and Nineveh",
+    "summary": "The book of Jonah contrasts an attempted voyage from Joppa toward disputed Tarshish with a divine commission to Nineveh.",
+    "confidence": "moderate",
+    "placeIds": [
+      "joppa",
+      "tarshish",
+      "mediterranean-sea",
+      "nineveh"
+    ],
+    "personIds": [
+      "jonah"
+    ],
+    "scripture": [
+      {
+        "book": "Jonah",
+        "chapter": 1,
+        "label": "Jonah 1"
+      },
+      {
+        "book": "Jonah",
+        "chapter": 3,
+        "label": "Jonah 3"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-batch5-methodology"
+    ],
+    "historicalNote": "Nineveh and Joppa are historical places; Tarshish is disputed. The map visualizes the narrative’s literary geography without using cartography to decide the book’s genre, date of composition, or historicity."
+  },
+  {
+    "id": "event-syro-ephraimite",
+    "title": "Syro-Ephraimite crisis",
+    "summary": "Rezin of Damascus and Pekah of Israel pressure Judah; Ahaz appeals to Tiglath-pileser III, while Isaiah 7 frames the crisis in Jerusalem.",
+    "confidence": "high",
+    "placeIds": [
+      "aram-damascus",
+      "samaria",
+      "jerusalem",
+      "upper-pool-conduit",
+      "neo-assyrian-empire"
+    ],
+    "personIds": [
+      "ahaz",
+      "pekah",
+      "tiglath-pileser-iii",
+      "isaiah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 16,
+        "label": "2 Kings 16:5–9",
+        "verseStart": 5,
+        "verseEnd": 9
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 7,
+        "label": "Isaiah 7:1–9",
+        "verseStart": 1,
+        "verseEnd": 9
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-assyrian-royal-inscriptions",
+      "source-cogan-kings",
+      "source-miller-hayes"
+    ],
+    "historicalNote": "The wider geopolitical crisis is strongly anchored in Assyrian chronology. The exact Upper Pool/Fuller’s Field meeting place remains unlocated.",
+    "dating": {
+      "from": -735,
+      "to": -732,
+      "label": "c. 735–732 BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-tiglath-annexation",
+    "title": "Tiglath-pileser III annexes northern territories",
+    "summary": "Assyrian expansion under Tiglath-pileser III captures Damascus and parts of northern Israel; Kings records deportations from Galilee and Transjordan.",
+    "confidence": "high",
+    "placeIds": [
+      "neo-assyrian-empire",
+      "aram-damascus",
+      "dan-laish",
+      "hazor",
+      "kedesh-naphtali",
+      "gilead",
+      "israel-northern-kingdom"
+    ],
+    "personIds": [
+      "tiglath-pileser-iii",
+      "pekah",
+      "ahaz"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 15,
+        "label": "2 Kings 15:29",
+        "verseStart": 29,
+        "verseEnd": 29
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 16,
+        "label": "2 Kings 16:9",
+        "verseStart": 9,
+        "verseEnd": 9
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-assyrian-royal-inscriptions",
+      "source-context-scripture",
+      "source-cogan-kings"
+    ],
+    "historicalNote": "Assyrian annals and biblical notices together provide strong chronological context, but exact deportee routes and provincial borders are not reconstructed as surveyed lines.",
+    "dating": {
+      "from": -734,
+      "to": -732,
+      "label": "734–732 BCE western campaigns",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-samaria-fall",
+    "title": "Siege and fall of Samaria",
+    "summary": "Kings attributes the siege’s beginning to Shalmaneser V and reports Samaria’s capture after three years; Sargon II later claims the conquest and deportation in his own inscriptions.",
+    "confidence": "high",
+    "placeIds": [
+      "samaria",
+      "israel-northern-kingdom",
+      "neo-assyrian-empire"
+    ],
+    "personIds": [
+      "hoshea-israel",
+      "shalmaneser-v",
+      "sargon-ii"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 17,
+        "label": "2 Kings 17:3–6",
+        "verseStart": 3,
+        "verseEnd": 6
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:9–11",
+        "verseStart": 9,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sargon-samaria",
+      "source-assyrian-royal-inscriptions",
+      "source-cogan-kings"
+    ],
+    "historicalNote": "The end of the Northern Kingdom is historically secure, but the division of credit between Shalmaneser V and Sargon II is debated. The atlas does not hide that historiographic problem.",
+    "dating": {
+      "from": -725,
+      "to": -720,
+      "label": "siege/fall around 724–722 BCE; Sargon’s claims continue after accession",
+      "basis": "historical",
+      "note": "Exact capture attribution between Shalmaneser V and Sargon II remains debated."
+    }
+  },
+  {
+    "id": "event-northern-deportations",
+    "title": "Assyrian deportations from the Northern Kingdom",
+    "summary": "Kings names Halah, the Habor/Khabur region of Gozan, and cities of the Medes as deportation destinations after Samaria’s fall.",
+    "confidence": "high",
+    "placeIds": [
+      "samaria",
+      "gozan",
+      "habur-river",
+      "halah",
+      "media-region"
+    ],
+    "personIds": [
+      "sargon-ii"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 17,
+        "label": "2 Kings 17:6",
+        "verseStart": 6,
+        "verseEnd": 6
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:11",
+        "verseStart": 11,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sargon-samaria",
+      "source-assyrian-royal-inscriptions",
+      "source-cogan-kings"
+    ],
+    "historicalNote": "The destination list is mappable only in part: Gozan and the Khabur region are secure, Halah is uncertain, and the Median cities are unnamed.",
+    "dating": {
+      "from": -722,
+      "to": -710,
+      "label": "late 8th century BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-hezekiah-reform",
+    "title": "Hezekiah’s reform program",
+    "summary": "Kings and Chronicles associate Hezekiah with centralizing/reforming worship in Judah and removing cultic objects and high places.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "temple-mount",
+      "beersheba",
+      "arad",
+      "judah-kingdom"
+    ],
+    "personIds": [
+      "hezekiah",
+      "isaiah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:1–8",
+        "verseStart": 1,
+        "verseEnd": 8
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 29,
+        "label": "2 Chronicles 29"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 31,
+        "label": "2 Chronicles 31"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-mazar-land-bible",
+      "source-cogan-kings"
+    ],
+    "historicalNote": "Archaeological changes at Judean cult sites are interpreted in multiple ways; they are not all automatically attributed to a single royal decree."
+  },
+  {
+    "id": "event-siloam-waterworks",
+    "title": "Jerusalem waterworks and the Siloam Tunnel",
+    "summary": "Biblical texts credit Hezekiah with major waterworks; the Siloam Tunnel and its inscription provide a dramatic archaeological context for Iron Age Jerusalem engineering.",
+    "confidence": "moderate",
+    "placeIds": [
+      "gihon-spring",
+      "siloam-tunnel",
+      "jerusalem"
+    ],
+    "personIds": [
+      "hezekiah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 20,
+        "label": "2 Kings 20:20",
+        "verseStart": 20,
+        "verseEnd": 20
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 32,
+        "label": "2 Chronicles 32:30",
+        "verseStart": 30,
+        "verseEnd": 30
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-siloam-inscription",
+      "source-jerusalem-bible-archaeology",
+      "source-mazar-land-bible"
+    ],
+    "historicalNote": "The physical tunnel is certain; the inscription does not name Hezekiah. The atlas therefore separates archaeological feature from royal attribution.",
+    "dating": {
+      "from": -720,
+      "to": -690,
+      "label": "late 8th century BCE context",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-sennacherib-lachish",
+    "title": "Sennacherib captures Lachish",
+    "summary": "In 701 BCE the Assyrian army captures Lachish. Archaeology, Assyrian reliefs, inscriptions, and biblical references converge unusually strongly on this event.",
+    "confidence": "high",
+    "placeIds": [
+      "lachish",
+      "neo-assyrian-empire",
+      "nineveh"
+    ],
+    "personIds": [
+      "sennacherib",
+      "hezekiah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:13–17",
+        "verseStart": 13,
+        "verseEnd": 17
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 36,
+        "label": "Isaiah 36:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 32,
+        "label": "2 Chronicles 32:9",
+        "verseStart": 9,
+        "verseEnd": 9
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sennacherib-701",
+      "source-ussishkin-lachish",
+      "source-assyrian-royal-inscriptions"
+    ],
+    "historicalNote": "The siege of Lachish is one of the strongest archaeological-textual correlations in the atlas. Assyrian palace reliefs depict the capture; excavation confirms a violent destruction horizon and siege works.",
+    "dating": {
+      "from": -701,
+      "to": -701,
+      "label": "701 BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-sennacherib-jerusalem",
+    "title": "Sennacherib’s 701 BCE pressure on Jerusalem",
+    "summary": "Biblical narratives describe Assyrian demands and Jerusalem’s deliverance. Sennacherib’s annals report devastating Judah and confining Hezekiah in Jerusalem while claiming tribute, but do not claim the city’s capture.",
+    "confidence": "high",
+    "placeIds": [
+      "lachish",
+      "jerusalem",
+      "upper-pool-conduit",
+      "neo-assyrian-empire"
+    ],
+    "personIds": [
+      "sennacherib",
+      "hezekiah",
+      "isaiah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:17–37",
+        "verseStart": 17,
+        "verseEnd": 37
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 19,
+        "label": "2 Kings 19"
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 36,
+        "label": "Isaiah 36"
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 37,
+        "label": "Isaiah 37"
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sennacherib-701",
+      "source-assyrian-royal-inscriptions",
+      "source-cogan-kings"
+    ],
+    "historicalNote": "The historical campaign and Jerusalem’s non-capture are strongly supported. The miraculous and theological dimensions of the biblical account are presented as Scripture, not as archaeologically testable claims.",
+    "dating": {
+      "from": -701,
+      "to": -701,
+      "label": "701 BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-micah-assyrian",
+    "title": "Micah’s Shephelah and Jerusalem horizon",
+    "summary": "Micah 1 names a chain of towns in Judah’s Shephelah and addresses both Samaria and Jerusalem in the shadow of imperial crisis.",
+    "confidence": "moderate",
+    "placeIds": [
+      "moresheth-gath",
+      "samaria",
+      "jerusalem",
+      "lachish"
+    ],
+    "personIds": [
+      "micah"
+    ],
+    "scripture": [
+      {
+        "book": "Micah",
+        "chapter": 1,
+        "label": "Micah 1:1–16",
+        "verseStart": 1,
+        "verseEnd": 16
+      },
+      {
+        "book": "Micah",
+        "chapter": 3,
+        "label": "Micah 3:9–12",
+        "verseStart": 9,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-miller-hayes"
+    ],
+    "historicalNote": "Several Micah 1 wordplays depend on place names whose exact modern identifications vary; the atlas does not manufacture points for uncertain towns."
+  }
+]

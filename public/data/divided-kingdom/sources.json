@@ -1,0 +1,123 @@
+[
+  {
+    "id": "source-divided-kingdom-text",
+    "title": "1 Kings 12 through 2 Kings 20 and the relevant prophetic books — biblical text and canonical geography",
+    "organization": "Berean Standard Bible / canonical references",
+    "url": "https://berean.bible/",
+    "license": "CC0 / public domain according to project research supplied 2026-08-29",
+    "verifiedAt": "2026-08-29 — licensing status supplied by user research; official-source release check still recommended",
+    "notes": "Primary source for biblical narrative sequence and place-names. The text does not by itself establish modern coordinates, archaeological correlations, or year-exact political borders."
+  },
+  {
+    "id": "source-batch5-methodology",
+    "title": "Batch 5 Divided Kingdom + Prophets Curation Methodology",
+    "organization": "The Biblical World project",
+    "license": "Original project metadata",
+    "notes": "Separates canonical narrative, archaeological site identification, historical chronology, extra-biblical inscriptions, political reconstruction, and route inference. Exact Assyrian campaign dates are distinguished from approximate prophetic settings."
+  },
+  {
+    "id": "source-miller-hayes",
+    "title": "A History of Ancient Israel and Judah",
+    "author": "J. Maxwell Miller and John H. Hayes",
+    "organization": "Westminster John Knox Press",
+    "year": 2006,
+    "notes": "Historical synthesis used for the divided-monarchy framework. Political reconstruction remains subject to debate and is not converted into surveyed borders."
+  },
+  {
+    "id": "source-cogan-kings",
+    "title": "Anchor Bible commentaries on 1–2 Kings",
+    "author": "Mordechai Cogan; Mordechai Cogan and Hayim Tadmor",
+    "organization": "Anchor Bible / Yale reference tradition",
+    "notes": "Used for royal chronology, Assyrian context, textual geography, and historical interpretation of Kings. Exact edition/page pinpointing remains a later editorial task."
+  },
+  {
+    "id": "source-context-scripture",
+    "title": "The Context of Scripture",
+    "author": "William W. Hallo and K. Lawson Younger Jr., eds.",
+    "organization": "Brill",
+    "year": 1997,
+    "notes": "Translation/reference corpus for ancient Near Eastern inscriptions. Used as a gateway to royal inscriptions rather than treating royal propaganda as neutral reportage."
+  },
+  {
+    "id": "source-assyrian-royal-inscriptions",
+    "title": "Neo-Assyrian royal inscriptions relevant to Israel and Judah",
+    "organization": "Primary inscriptions; cross-checked through standard scholarly translations",
+    "notes": "Includes Shalmaneser III (Qarqar/Kurkh and Black Obelisk), Tiglath-pileser III, Sargon II, and Sennacherib. Royal numbers, victory claims, and ideological rhetoric are interpreted critically."
+  },
+  {
+    "id": "source-mesha-stele",
+    "title": "Mesha Stele / Moabite Stone",
+    "organization": "Ninth-century BCE Moabite royal inscription",
+    "notes": "Dhiban inscription of King Mesha describing Moabite conflict with Israel/Omri. It overlaps the geopolitical world of 2 Kings 3 but does not simply duplicate the biblical campaign narrative.",
+    "dateLabel": "Ninth century BCE; commonly placed in the mid-ninth century"
+  },
+  {
+    "id": "source-tel-dan-stele",
+    "title": "Tel Dan Aramaic Stele",
+    "organization": "Ninth-century BCE Aramaic royal inscription",
+    "notes": "Fragmentary victory inscription from Tel Dan. The reading “House of David” is widely accepted; attribution of the stele to a specific Aramean ruler remains debated.",
+    "dateLabel": "Ninth century BCE"
+  },
+  {
+    "id": "source-kurkh-monolith",
+    "title": "Kurkh Monolith of Shalmaneser III — Qarqar campaign inscription",
+    "organization": "Neo-Assyrian royal inscription",
+    "notes": "Records the battle of Qarqar and names Ahab of Israel in the anti-Assyrian coalition. Troop totals are royal-inscription claims, not treated as independently verified census figures.",
+    "dateLabel": "Qarqar campaign: 853 BCE"
+  },
+  {
+    "id": "source-black-obelisk",
+    "title": "Black Obelisk of Shalmaneser III",
+    "organization": "Neo-Assyrian royal monument",
+    "notes": "Includes a scene and caption conventionally understood as tribute from Jehu of Israel, using the Assyrian dynastic label “house/son of Omri.” The monument postdates the depicted tribute event.",
+    "dateLabel": "Monument: ninth century BCE; Jehu tribute episode conventionally c. 841 BCE"
+  },
+  {
+    "id": "source-sargon-samaria",
+    "title": "Sargon II inscriptions concerning Samaria",
+    "organization": "Neo-Assyrian royal inscriptions",
+    "notes": "Sargon II claims conquest/deportation connected with Samaria. Their relationship to Shalmaneser V’s siege and the biblical chronology is treated as a historical problem rather than a single certain narrative.",
+    "dateLabel": "Late eighth century BCE"
+  },
+  {
+    "id": "source-sennacherib-701",
+    "title": "Sennacherib’s 701 BCE campaign inscriptions and Lachish reliefs",
+    "organization": "Neo-Assyrian royal inscriptions and palace reliefs",
+    "notes": "Assyrian sources describe the campaign against Judah, the capture of Lachish, and Hezekiah confined in Jerusalem “like a bird in a cage,” but do not claim the capture of Jerusalem.",
+    "dateLabel": "Campaign: 701 BCE"
+  },
+  {
+    "id": "source-siloam-inscription",
+    "title": "Siloam Tunnel Inscription",
+    "organization": "Iron Age Hebrew inscription from Jerusalem",
+    "notes": "Describes the meeting of two tunneling teams. The inscription itself does not name Hezekiah; its association with Hezekiah’s waterworks depends on archaeological and biblical context.",
+    "dateLabel": "Late Iron Age II; commonly late eighth to early seventh century BCE context"
+  },
+  {
+    "id": "source-ussishkin-lachish",
+    "title": "The Renewed Archaeological Excavations at Lachish (1973–1994)",
+    "author": "David Ussishkin",
+    "organization": "Institute of Archaeology, Tel Aviv University",
+    "year": 2004,
+    "notes": "Major excavation publication for Iron Age Lachish and the Assyrian destruction/siege context."
+  },
+  {
+    "id": "source-samaria-archaeology",
+    "title": "Samaria-Sebaste excavations and Iron Age capital studies",
+    "organization": "Scholarly excavation tradition",
+    "notes": "Used conservatively for the securely identified capital site, palace/administrative remains, ivories, and later phases. Individual finds are not assigned to named biblical persons unless warranted."
+  },
+  {
+    "id": "source-northern-kingdom-archaeology",
+    "title": "Archaeology and history of the Northern Kingdom of Israel",
+    "organization": "Multi-author archaeological scholarship",
+    "notes": "Used to balance textual geography with settlement, monumental architecture, and changing chronological models for Tirzah, Samaria, Jezreel, Hazor, Megiddo, and related sites."
+  },
+  {
+    "id": "source-shoshenq-karnak",
+    "title": "Shoshenq I Bubastite Portal / Karnak Levantine campaign list",
+    "organization": "Egyptian royal inscription at Karnak",
+    "dateLabel": "Shoshenq I; Levantine campaign commonly dated c. 925 BCE",
+    "notes": "Independent Egyptian evidence for a Levantine campaign. The surviving place list and relief program are not treated as a line-by-line parallel to 1 Kings 14 or 2 Chronicles 12."
+  }
+]

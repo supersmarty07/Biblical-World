@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "batch1-demo-data",
+      "scope": "public/data/demo/*",
+      "thirdParty": false,
+      "status": "original-structural-data",
+      "notes": "Not final scholarly content. Kept isolated so Batch 2 can replace it cleanly."
+    }
+  ]
+}

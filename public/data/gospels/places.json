@@ -1,0 +1,2099 @@
+[
+  {
+    "id": "nazareth",
+    "name": "Nazareth",
+    "aliases": [
+      "Nazara"
+    ],
+    "summary": "Galilean settlement identified with the hometown of Jesus in the Gospel traditions.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Nazareth is securely identified with the modern town; archaeology supports settlement in the early Roman period, while individual Gospel episode locations within the village are not recoverable."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 2,
+        "label": "Matthew 2:23",
+        "verseStart": 23
+      },
+      {
+        "book": "Luke",
+        "chapter": 1,
+        "label": "Luke 1:26–27",
+        "verseStart": 26,
+        "verseEnd": 27
+      },
+      {
+        "book": "Luke",
+        "chapter": 4,
+        "label": "Luke 4:16–30",
+        "verseStart": 16,
+        "verseEnd": 30
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-nazareth-archaeology",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.3035,
+      32.6996
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Early Roman-period domestic, agricultural, and funerary remains support a small Jewish settlement. Modern devotional sites are not treated as proof of specific household locations.",
+    "historicalContext": "Nazareth lay in Lower Galilee near, but distinct from, the larger urban center of Sepphoris."
+  },
+  {
+    "id": "sepphoris",
+    "name": "Sepphoris",
+    "aliases": [
+      "Zippori",
+      "Diocaesarea"
+    ],
+    "summary": "Major Galilean city near Nazareth, rebuilt under Herod Antipas and useful for regional historical context even though the Gospels do not name it.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The archaeological identification of Sepphoris is established. Its relevance to Jesus is contextual; the project does not claim a Gospel visit."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-sepphoris-archaeology",
+      "source-schurer-second-temple",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.279,
+      32.752
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Excavations document a substantial Hellenistic and Roman city with streets, houses, public buildings, and later mosaics.",
+    "historicalContext": "Sepphoris was an important political and cultural center in Lower Galilee during the early first century CE."
+  },
+  {
+    "id": "cana-galilee",
+    "name": "Cana of Galilee",
+    "aliases": [
+      "Cana"
+    ],
+    "summary": "The village named in John as the setting of the wedding sign and other episodes. Its modern identification is disputed.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Gospel location is textual, but no single archaeological site can be identified with certainty; the atlas therefore gives Cana no normal pin."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 2,
+        "label": "John 2:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "John",
+        "chapter": 4,
+        "label": "John 4:46–54",
+        "verseStart": 46,
+        "verseEnd": 54
+      },
+      {
+        "book": "John",
+        "chapter": 21,
+        "label": "John 21:2",
+        "verseStart": 2
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-cana-research",
+      "source-second-temple-atlas"
+    ],
+    "locationNote": "No normal pin. Candidate sites are displayed separately.",
+    "interpretations": [
+      {
+        "title": "Khirbet Qana",
+        "status": "possible",
+        "summary": "An archaeological site in Lower Galilee widely discussed as a strong candidate because of its name, location, and Roman-period occupation. Identification remains unproven.",
+        "sourceIds": [
+          "source-cana-research",
+          "source-second-temple-atlas"
+        ]
+      },
+      {
+        "title": "Kafr Kanna",
+        "status": "traditional",
+        "summary": "The principal later Christian pilgrimage identification east of Nazareth; the tradition is historically important but does not establish the Gospel village.",
+        "sourceIds": [
+          "source-cana-research",
+          "source-second-temple-atlas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "khirbet-qana",
+    "name": "Khirbet Qana",
+    "aliases": [
+      "Khirbet Cana"
+    ],
+    "summary": "Archaeological settlement in Lower Galilee proposed by many researchers as a candidate for Cana of Galilee.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The site is archaeologically real and fits several geographic/toponymic arguments, but identifying it with John’s Cana remains a hypothesis."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 2,
+        "label": "John 2:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-cana-research"
+    ],
+    "coordinates": [
+      35.314,
+      32.806
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Candidate for Cana; not labeled as established Gospel geography."
+  },
+  {
+    "id": "kafr-kanna",
+    "name": "Kafr Kanna",
+    "aliases": [
+      "Cana pilgrimage tradition"
+    ],
+    "summary": "Modern town associated in later Christian tradition with Cana of Galilee.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "traditional",
+      "explanation": "The town is real, but its identification with Gospel Cana is primarily traditional and later than the New Testament period."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 2,
+        "label": "John 2:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-cana-research"
+    ],
+    "coordinates": [
+      35.342,
+      32.746
+    ],
+    "coordinateRole": "traditional-site",
+    "locationNote": "Traditional Cana identification, shown separately from the textual place and other candidates."
+  },
+  {
+    "id": "capernaum",
+    "name": "Capernaum",
+    "aliases": [
+      "Kefar Nahum",
+      "Kfar Nahum"
+    ],
+    "summary": "Fishing and agricultural village on the northwestern shore of the Sea of Galilee, a central setting in the Gospel ministry narratives.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The identification of ancient Capernaum at Kfar Nahum is secure; precise identification of particular first-century houses with named individuals remains interpretive."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 4,
+        "label": "Matthew 4:13",
+        "verseStart": 13
+      },
+      {
+        "book": "Mark",
+        "chapter": 1,
+        "label": "Mark 1:21–34",
+        "verseStart": 21,
+        "verseEnd": 34
+      },
+      {
+        "book": "Luke",
+        "chapter": 4,
+        "label": "Luke 4:31–41",
+        "verseStart": 31,
+        "verseEnd": 41
+      },
+      {
+        "book": "John",
+        "chapter": 6,
+        "label": "John 6:17–59",
+        "verseStart": 17,
+        "verseEnd": 59
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-capernaum-archaeology",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.575,
+      32.881
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Excavation reveals a Roman-period village, basalt domestic structures, and synagogue remains. The prominent limestone synagogue is later than Jesus, though earlier remains beneath it have been discussed.",
+    "historicalContext": "Capernaum sat near routes linking Galilee, the Golan, and territories east of the lake."
+  },
+  {
+    "id": "sea-galilee",
+    "name": "Sea of Galilee",
+    "aliases": [
+      "Lake Gennesaret",
+      "Sea of Tiberias",
+      "Lake Kinneret"
+    ],
+    "summary": "Freshwater lake central to Jesus’ Galilean ministry and the fishing economy of the region.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The lake is geographically certain; individual boat routes and event locations on the water are generally not recoverable."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 4,
+        "label": "Matthew 4:18",
+        "verseStart": 18
+      },
+      {
+        "book": "Mark",
+        "chapter": 4,
+        "label": "Mark 4:35–41",
+        "verseStart": 35,
+        "verseEnd": 41
+      },
+      {
+        "book": "Luke",
+        "chapter": 5,
+        "label": "Luke 5:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "John",
+        "chapter": 6,
+        "label": "John 6:1–21",
+        "verseStart": 1,
+        "verseEnd": 21
+      },
+      {
+        "book": "John",
+        "chapter": 21,
+        "label": "John 21:1–14",
+        "verseStart": 1,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.58,
+      32.8
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "bethsaida-gospels",
+    "name": "Bethsaida",
+    "aliases": [
+      "Bethsaida Julias?"
+    ],
+    "summary": "Village or town associated with several disciples and Gospel events near the Sea of Galilee. Its archaeological identification remains debated.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The textual place is clear, but competing archaeological identifications remain under active debate, so the Gospel place itself is intentionally unpinned."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 11,
+        "label": "Matthew 11:21",
+        "verseStart": 21
+      },
+      {
+        "book": "Mark",
+        "chapter": 6,
+        "label": "Mark 6:45",
+        "verseStart": 45
+      },
+      {
+        "book": "Mark",
+        "chapter": 8,
+        "label": "Mark 8:22",
+        "verseStart": 22
+      },
+      {
+        "book": "Luke",
+        "chapter": 9,
+        "label": "Luke 9:10",
+        "verseStart": 10
+      },
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1:44",
+        "verseStart": 44
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-bethsaida-debate",
+      "source-second-temple-atlas"
+    ],
+    "locationNote": "No normal pin; el-Araj and et-Tell are shown as separate candidates.",
+    "interpretations": [
+      {
+        "title": "el-Araj",
+        "status": "possible",
+        "summary": "Early Roman remains and its lakeside setting have strengthened proposals that el-Araj is Bethsaida. Identification remains debated.",
+        "sourceIds": [
+          "source-bethsaida-debate"
+        ]
+      },
+      {
+        "title": "et-Tell",
+        "status": "possible",
+        "summary": "Long identified by excavators with Bethsaida/Julias, with substantial Iron Age and Hellenistic-Roman occupation; distance and shoreline questions remain part of the debate.",
+        "sourceIds": [
+          "source-bethsaida-debate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "el-araj-bethsaida",
+    "name": "el-Araj",
+    "aliases": [
+      "Beit Habek"
+    ],
+    "summary": "Archaeological site near the Jordan inflow proposed as a candidate for New Testament Bethsaida.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The site is archaeologically significant and early Roman occupation is documented, but the Bethsaida identification is not settled."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1:44",
+        "verseStart": 44
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-bethsaida-debate"
+    ],
+    "coordinates": [
+      35.618,
+      32.908
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "et-tell-bethsaida",
+    "name": "et-Tell",
+    "aliases": [
+      "Bethsaida Excavations site"
+    ],
+    "summary": "Large archaeological mound east of the Jordan inflow, long proposed as Bethsaida/Julias.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The site is established archaeologically, but its identification with Gospel Bethsaida is debated, especially in relation to ancient shoreline reconstruction."
+    },
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 9,
+        "label": "Luke 9:10",
+        "verseStart": 10
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-bethsaida-debate"
+    ],
+    "coordinates": [
+      35.625,
+      32.911
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "chorazin",
+    "name": "Chorazin",
+    "aliases": [
+      "Korazim"
+    ],
+    "summary": "Galilean settlement named with Bethsaida and Capernaum in the Gospel woes.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The archaeological site of Chorazin is securely identified, though most visible monumental remains postdate the Gospel period."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 11,
+        "label": "Matthew 11:21",
+        "verseStart": 21
+      },
+      {
+        "book": "Luke",
+        "chapter": 10,
+        "label": "Luke 10:13",
+        "verseStart": 13
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-galilee-archaeology",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.563,
+      32.911
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "magdala",
+    "name": "Magdala",
+    "aliases": [
+      "Magadan?",
+      "Tarichaeae"
+    ],
+    "summary": "Important lakeside settlement on the western shore of the Sea of Galilee, associated by name with Mary Magdalene.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The ancient settlement is securely located. The precise relationship among the names Magdala, Migdal, and Tarichaeae requires historical nuance."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 15,
+        "label": "Matthew 15:39",
+        "verseStart": 39
+      },
+      {
+        "book": "Mark",
+        "chapter": 8,
+        "label": "Mark 8:10",
+        "verseStart": 10
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-magdala-archaeology",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.51,
+      32.83
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Excavations have revealed an early Roman settlement, ritual baths, harbor-related features, and a first-century synagogue with the decorated Magdala Stone."
+  },
+  {
+    "id": "tiberias",
+    "name": "Tiberias",
+    "aliases": [
+      "Tiberias on the Sea of Galilee"
+    ],
+    "summary": "City founded by Herod Antipas on the western shore of the lake and named for Emperor Tiberius.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The city is securely identified; its role in the Gospel narratives is limited, but it is essential political context for Galilee."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 6,
+        "label": "John 6:1",
+        "verseStart": 1
+      },
+      {
+        "book": "John",
+        "chapter": 6,
+        "label": "John 6:23",
+        "verseStart": 23
+      },
+      {
+        "book": "John",
+        "chapter": 21,
+        "label": "John 21:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-schurer-second-temple",
+      "source-galilee-archaeology"
+    ],
+    "coordinates": [
+      35.54,
+      32.79
+    ],
+    "coordinateRole": "identified-site",
+    "historicalContext": "Tiberias became Antipas’s capital in Galilee during Jesus’ lifetime."
+  },
+  {
+    "id": "gennesaret",
+    "name": "Plain of Gennesaret",
+    "aliases": [
+      "Gennesar"
+    ],
+    "summary": "Fertile plain on the northwestern shore of the Sea of Galilee, named in Gospel landing traditions.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "The plain is geographically well defined and the ancient toponym is strongly associated with this lakeshore area."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 14,
+        "label": "Matthew 14:34",
+        "verseStart": 34
+      },
+      {
+        "book": "Mark",
+        "chapter": 6,
+        "label": "Mark 6:53",
+        "verseStart": 53
+      },
+      {
+        "book": "Luke",
+        "chapter": 5,
+        "label": "Luke 5:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.51,
+      32.86
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "mount-beatitudes-traditional",
+    "name": "Mount of Beatitudes — traditional area",
+    "aliases": [
+      "Mount Eremos"
+    ],
+    "summary": "Traditional hillside commemorating the Sermon on the Mount north of the Sea of Galilee.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "traditional",
+      "explanation": "Matthew does not identify the mountain by name. The modern pilgrimage location is a later tradition and is not presented as the proven sermon site."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 5,
+        "label": "Matthew 5:1",
+        "verseStart": 1
+      },
+      {
+        "book": "Matthew",
+        "chapter": 7,
+        "label": "Matthew 7:28–29",
+        "verseStart": 28,
+        "verseEnd": 29
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.556,
+      32.881
+    ],
+    "coordinateRole": "traditional-site",
+    "locationNote": "Traditional orientation point only; the actual sermon location is unknown."
+  },
+  {
+    "id": "tabgha-traditional",
+    "name": "Tabgha — multiplication tradition",
+    "aliases": [
+      "Heptapegon"
+    ],
+    "summary": "Traditional Christian commemoration area for multiplication and post-resurrection traditions near the Sea of Galilee.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "traditional",
+      "explanation": "The site preserves important late-antique Christian memory, not archaeological proof that the Gospel events occurred at this exact point."
+    },
+    "scripture": [
+      {
+        "book": "Mark",
+        "chapter": 6,
+        "label": "Mark 6:35–44",
+        "verseStart": 35,
+        "verseEnd": 44
+      },
+      {
+        "book": "John",
+        "chapter": 21,
+        "label": "John 21:1–14",
+        "verseStart": 1,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.549,
+      32.873
+    ],
+    "coordinateRole": "traditional-site"
+  },
+  {
+    "id": "gerasenes-gadarenes-region",
+    "name": "Country of the Gerasenes / Gadarenes",
+    "aliases": [
+      "Gergesenes textual variant"
+    ],
+    "summary": "Gospel region east of the Sea of Galilee associated with the healing of a possessed man; manuscript place-names and exact geography vary.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Gospel textual tradition preserves Gerasenes, Gadarenes, and Gergesenes forms. No single lakeside location can be established from the text alone."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 8,
+        "label": "Matthew 8:28–34",
+        "verseStart": 28,
+        "verseEnd": 34
+      },
+      {
+        "book": "Mark",
+        "chapter": 5,
+        "label": "Mark 5:1–20",
+        "verseStart": 1,
+        "verseEnd": 20
+      },
+      {
+        "book": "Luke",
+        "chapter": 8,
+        "label": "Luke 8:26–39",
+        "verseStart": 26,
+        "verseEnd": 39
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-gospel-geography",
+      "source-second-temple-atlas"
+    ],
+    "locationNote": "No normal pin; Gadara and Kursi are displayed separately as contextual/candidate locations."
+  },
+  {
+    "id": "gadara-umm-qais",
+    "name": "Gadara",
+    "aliases": [
+      "Umm Qais"
+    ],
+    "summary": "Major Decapolis city southeast of the Sea of Galilee, relevant to the “Gadarenes” textual tradition.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Ancient Gadara is securely identified at Umm Qais. The city itself is several kilometers from the lake, so its relationship to the Gospel episode is regional rather than an exact shoreline event coordinate."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 8,
+        "label": "Matthew 8:28",
+        "verseStart": 28
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospel-geography",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.684,
+      32.655
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "kursi-traditional",
+    "name": "Kursi / east-shore candidate",
+    "aliases": [
+      "Gergesa tradition"
+    ],
+    "summary": "East-shore archaeological and pilgrimage site sometimes associated with the Gerasene/Gadarene episode.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "traditional",
+      "explanation": "Kursi has a strong Byzantine Christian commemoration tradition, but it does not settle the Gospel textual-geography problem."
+    },
+    "scripture": [
+      {
+        "book": "Mark",
+        "chapter": 5,
+        "label": "Mark 5:1–20",
+        "verseStart": 1,
+        "verseEnd": 20
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospel-geography"
+    ],
+    "coordinates": [
+      35.65,
+      32.825
+    ],
+    "coordinateRole": "traditional-site"
+  },
+  {
+    "id": "decapolis-gospels",
+    "name": "Decapolis",
+    "aliases": [
+      "Ten Cities"
+    ],
+    "summary": "Loose regional grouping of Hellenistic-Roman cities east and southeast of Galilee, named in Gospel travel and crowd traditions.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Decapolis is historically real, but its membership and administrative meaning varied; the map uses a broad orientation anchor rather than a precise border."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 4,
+        "label": "Matthew 4:25",
+        "verseStart": 25
+      },
+      {
+        "book": "Mark",
+        "chapter": 5,
+        "label": "Mark 5:20",
+        "verseStart": 20
+      },
+      {
+        "book": "Mark",
+        "chapter": 7,
+        "label": "Mark 7:31",
+        "verseStart": 31
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-schurer-second-temple",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.75,
+      32.7
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Display anchor only; not a capital or exact polygon center."
+  },
+  {
+    "id": "nain",
+    "name": "Nain",
+    "aliases": [
+      "Nein"
+    ],
+    "summary": "Galilean village associated in Luke with the raising of a widow’s son.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The traditional identification with modern Nein/Nain is plausible and preserves the ancient name, but direct archaeological confirmation of the Gospel episode is impossible."
+    },
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 7,
+        "label": "Luke 7:11–17",
+        "verseStart": 11,
+        "verseEnd": 17
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.35,
+      32.63
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "sychar",
+    "name": "Sychar",
+    "aliases": [
+      "Sichar"
+    ],
+    "summary": "Samaritan place named in John 4 near Jacob’s well and Mount Gerizim. Its exact identification remains debated.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "Sychar is clearly placed in the Shechem/Gerizim landscape, but proposals include Askar and identification with Shechem itself. The textual place is unpinned."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 4,
+        "label": "John 4:5–42",
+        "verseStart": 5,
+        "verseEnd": 42
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-samaria-nt",
+      "source-second-temple-atlas"
+    ],
+    "locationNote": "No normal pin; Askar is shown as a candidate and Jacob’s Well as a traditional physical site.",
+    "interpretations": [
+      {
+        "title": "Askar",
+        "status": "possible",
+        "summary": "The village of Askar preserves a plausible topographic relationship to Jacob’s Well and Mount Gerizim and is a common candidate for Sychar.",
+        "sourceIds": [
+          "source-samaria-nt",
+          "source-second-temple-atlas"
+        ]
+      },
+      {
+        "title": "Shechem vicinity",
+        "status": "possible",
+        "summary": "Some interpretations connect Sychar more directly with ancient Shechem. The Gospel wording does not resolve the question.",
+        "sourceIds": [
+          "source-samaria-nt",
+          "source-second-temple-atlas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "askar-sychar-candidate",
+    "name": "Askar — Sychar candidate",
+    "aliases": [
+      "Askar"
+    ],
+    "summary": "Modern village northeast of Shechem proposed as the location of John’s Sychar.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "Toponymic and topographic arguments make Askar a reasonable candidate, but identification is not certain."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 4,
+        "label": "John 4:5",
+        "verseStart": 5
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-samaria-nt"
+    ],
+    "coordinates": [
+      35.296,
+      32.216
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "jacobs-well-traditional",
+    "name": "Jacob’s Well",
+    "aliases": [
+      "Bir Yaqub"
+    ],
+    "summary": "Ancient well near Mount Gerizim traditionally identified with the well in John 4.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "moderate",
+      "explanation": "The physical well is ancient and the tradition is longstanding, but archaeology cannot establish that it is Jacob’s well or the exact place of the Gospel conversation."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 4,
+        "label": "John 4:6–26",
+        "verseStart": 6,
+        "verseEnd": 26
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-samaria-nt",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.281,
+      32.212
+    ],
+    "coordinateRole": "traditional-site"
+  },
+  {
+    "id": "bethany-beyond-jordan",
+    "name": "Bethany beyond the Jordan",
+    "aliases": [
+      "Bethabara tradition"
+    ],
+    "summary": "Place named in John for John the Baptist’s activity east of the Jordan; its exact location is disputed.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "Ancient textual traditions and modern archaeological proposals do not permit a single securely established coordinate for the Johannine place."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1:28",
+        "verseStart": 28
+      },
+      {
+        "book": "John",
+        "chapter": 10,
+        "label": "John 10:40",
+        "verseStart": 40
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-baptism-site-research",
+      "source-second-temple-atlas"
+    ],
+    "locationNote": "No normal pin; al-Maghtas/Wadi al-Kharrar is shown as a traditional and archaeological baptism landscape."
+  },
+  {
+    "id": "al-maghtas",
+    "name": "Al-Maghtas / Wadi al-Kharrar baptism landscape",
+    "aliases": [
+      "Bethany beyond the Jordan tradition"
+    ],
+    "summary": "Archaeological and pilgrimage landscape on the east bank of the Jordan associated with the baptism of Jesus and Bethany beyond the Jordan.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "moderate",
+      "explanation": "The area preserves early Christian baptismal installations and pilgrimage tradition. These establish ancient commemoration, not the exact point where John baptized Jesus."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 3,
+        "label": "Matthew 3:13–17",
+        "verseStart": 13,
+        "verseEnd": 17
+      },
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1:28",
+        "verseStart": 28
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-baptism-site-research"
+    ],
+    "coordinates": [
+      35.55,
+      31.84
+    ],
+    "coordinateRole": "traditional-site",
+    "archaeology": "Late-antique churches, baptismal installations, and pilgrimage remains document an early Christian sacred landscape."
+  },
+  {
+    "id": "aenon-salim",
+    "name": "Aenon near Salim",
+    "aliases": [
+      "Ainon"
+    ],
+    "summary": "Place of baptismal activity named in John 3. Its precise location remains uncertain.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "Multiple identifications have been proposed in the Jordan/Samaria region; the atlas does not choose one without stronger evidence."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 3,
+        "label": "John 3:23",
+        "verseStart": 23
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-gospel-geography"
+    ],
+    "locationNote": "Intentionally unpinned."
+  },
+  {
+    "id": "judean-wilderness-gospels",
+    "name": "Judean Wilderness",
+    "aliases": [
+      "Wilderness of Judea"
+    ],
+    "summary": "Arid region east of Jerusalem and the Judean highlands associated with John the Baptist and Jesus’ temptation traditions.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The broad environmental region is identifiable, while the specific locations of John’s preaching camps or Jesus’ temptation are not."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 3,
+        "label": "Matthew 3:1",
+        "verseStart": 1
+      },
+      {
+        "book": "Matthew",
+        "chapter": 4,
+        "label": "Matthew 4:1",
+        "verseStart": 1
+      },
+      {
+        "book": "Mark",
+        "chapter": 1,
+        "label": "Mark 1:4",
+        "verseStart": 4
+      },
+      {
+        "book": "Luke",
+        "chapter": 4,
+        "label": "Luke 4:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.36,
+      31.7
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "machaerus",
+    "name": "Machaerus",
+    "aliases": [
+      "Mukawir"
+    ],
+    "summary": "Herodian fortress east of the Dead Sea, identified by Josephus as the place where John the Baptist was imprisoned and executed.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The fortress is securely identified at Mukawir. The Gospel accounts do not name the prison location; the Machaerus connection comes from Josephus."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 14,
+        "label": "Matthew 14:3–12",
+        "verseStart": 3,
+        "verseEnd": 12
+      },
+      {
+        "book": "Mark",
+        "chapter": 6,
+        "label": "Mark 6:17–29",
+        "verseStart": 17,
+        "verseEnd": 29
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant18-b8",
+      "source-machaerus-archaeology"
+    ],
+    "coordinates": [
+      35.62,
+      31.57
+    ],
+    "coordinateRole": "identified-site",
+    "textualReferences": [
+      {
+        "label": "Josephus, Antiquities 18.116–119",
+        "sourceId": "source-josephus-ant18-b8",
+        "kind": "ancient-literary"
+      }
+    ]
+  },
+  {
+    "id": "bethany-judea",
+    "name": "Bethany",
+    "aliases": [
+      "Bethany near Jerusalem",
+      "al-Eizariya"
+    ],
+    "summary": "Village on the eastern side of the Mount of Olives associated with Martha, Mary, Lazarus, and Jesus’ final visits to Jerusalem.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "The ancient village is convincingly identified with al-Eizariya. Particular tombs and houses attached to Gospel figures are later traditions."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 21,
+        "label": "Matthew 21:17",
+        "verseStart": 17
+      },
+      {
+        "book": "Mark",
+        "chapter": 11,
+        "label": "Mark 11:1–12",
+        "verseStart": 1,
+        "verseEnd": 12
+      },
+      {
+        "book": "Luke",
+        "chapter": 10,
+        "label": "Luke 10:38–42",
+        "verseStart": 38,
+        "verseEnd": 42
+      },
+      {
+        "book": "John",
+        "chapter": 11,
+        "label": "John 11:1–44",
+        "verseStart": 1,
+        "verseEnd": 44
+      },
+      {
+        "book": "John",
+        "chapter": 12,
+        "label": "John 12:1–8",
+        "verseStart": 1,
+        "verseEnd": 8
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "coordinates": [
+      35.261,
+      31.771
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "bethphage",
+    "name": "Bethphage",
+    "aliases": [
+      "Bethfage"
+    ],
+    "summary": "Village on or near the Mount of Olives named in the approach to Jerusalem.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The general Mount of Olives setting is clear, but the exact ancient village footprint is not securely established; the marker is a traditional/approximate orientation point."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 21,
+        "label": "Matthew 21:1",
+        "verseStart": 1
+      },
+      {
+        "book": "Mark",
+        "chapter": 11,
+        "label": "Mark 11:1",
+        "verseStart": 1
+      },
+      {
+        "book": "Luke",
+        "chapter": 19,
+        "label": "Luke 19:29",
+        "verseStart": 29
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.265,
+      31.778
+    ],
+    "coordinateRole": "traditional-site",
+    "locationNote": "Traditional orientation point; not a proven house or village center."
+  },
+  {
+    "id": "gethsemane",
+    "name": "Gethsemane",
+    "aliases": [
+      "Garden of Gethsemane"
+    ],
+    "summary": "Place across the Kidron at the Mount of Olives where the Synoptic Gospels locate Jesus’ prayer and arrest.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Gospels place Gethsemane at the Mount of Olives, but the boundaries of the modern garden and individual olive trees cannot be demonstrated as the exact first-century location."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 26,
+        "label": "Matthew 26:36–56",
+        "verseStart": 36,
+        "verseEnd": 56
+      },
+      {
+        "book": "Mark",
+        "chapter": 14,
+        "label": "Mark 14:32–52",
+        "verseStart": 32,
+        "verseEnd": 52
+      },
+      {
+        "book": "John",
+        "chapter": 18,
+        "label": "John 18:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-jerusalem-nt-archaeology",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.24,
+      31.779
+    ],
+    "coordinateRole": "traditional-site"
+  },
+  {
+    "id": "upper-room-jerusalem",
+    "name": "Upper room of the Last Supper",
+    "aliases": [
+      "Cenacle tradition"
+    ],
+    "summary": "Unspecified furnished upper room in Jerusalem used in the Last Supper narratives.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "traditional",
+      "explanation": "The Gospel narrative places the meal in Jerusalem but does not identify the building. The later Cenacle tradition is historically important but cannot establish the original room."
+    },
+    "scripture": [
+      {
+        "book": "Mark",
+        "chapter": 14,
+        "label": "Mark 14:12–17",
+        "verseStart": 12,
+        "verseEnd": 17
+      },
+      {
+        "book": "Luke",
+        "chapter": 22,
+        "label": "Luke 22:7–20",
+        "verseStart": 7,
+        "verseEnd": 20
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "locationNote": "Intentionally unpinned. The traditional Cenacle is not treated as the proven room."
+  },
+  {
+    "id": "herods-palace-jerusalem",
+    "name": "Herod’s palace complex in Jerusalem",
+    "aliases": [
+      "Western Palace"
+    ],
+    "summary": "Herodian royal complex on Jerusalem’s western hill, later relevant to debates over the Roman governor’s praetorium.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient literary descriptions and archaeological/topographic evidence strongly locate Herod’s palace near today’s Jaffa Gate/Armenian Quarter, though exact building limits remain reconstructed."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27:2",
+        "verseStart": 2
+      },
+      {
+        "book": "John",
+        "chapter": 18,
+        "label": "John 18:28",
+        "verseStart": 28
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-josephus-war2-b8",
+      "source-jerusalem-nt-archaeology",
+      "source-schurer-second-temple"
+    ],
+    "coordinates": [
+      35.225,
+      31.776
+    ],
+    "coordinateRole": "approximate-area",
+    "historicalContext": "Roman prefects visiting Jerusalem likely used Herodian royal facilities, which makes this complex a major candidate for Pilate’s praetorium."
+  },
+  {
+    "id": "antonia-fortress",
+    "name": "Antonia Fortress",
+    "aliases": [
+      "Baris / Antonia"
+    ],
+    "summary": "Fortified complex at the northwest corner of the Temple Mount, rebuilt and renamed by Herod the Great.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The fortress’s general location is secure from literary/topographic evidence, but its exact plan and surviving fabric are debated. Its identification as Pilate’s trial location is not established."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:31–40",
+        "verseStart": 31,
+        "verseEnd": 40
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-josephus-war1-b8",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "coordinates": [
+      35.236,
+      31.781
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "praetorium-pilate",
+    "name": "Pilate’s praetorium in Jerusalem",
+    "aliases": [
+      "Praetorium"
+    ],
+    "summary": "The Roman governor’s headquarters named in the Passion narratives. Its precise Jerusalem location is debated.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Gospels name the praetorium but not its modern coordinate. Herod’s western palace is often favored historically; the Antonia/Via Dolorosa tradition remains influential."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27:27",
+        "verseStart": 27
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15:16",
+        "verseStart": 16
+      },
+      {
+        "book": "John",
+        "chapter": 18,
+        "label": "John 18:28",
+        "verseStart": 28
+      },
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:9",
+        "verseStart": 9
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-pilate-jerusalem-debate",
+      "source-schurer-second-temple"
+    ],
+    "locationNote": "No normal pin. Candidate complexes are presented separately.",
+    "interpretations": [
+      {
+        "title": "Herod’s western palace",
+        "status": "probable",
+        "summary": "Roman governors commonly appropriated royal palaces; Josephus and Philo make the western Herodian palace a strong candidate for the governor’s Jerusalem residence.",
+        "sourceIds": [
+          "source-pilate-jerusalem-debate",
+          "source-josephus-war2-b8",
+          "source-philo-embassy"
+        ]
+      },
+      {
+        "title": "Antonia Fortress / traditional Via Dolorosa start",
+        "status": "traditional",
+        "summary": "Later Christian tradition associates the trial with the Antonia area. The identification remains influential devotionally but is historically debated.",
+        "sourceIds": [
+          "source-pilate-jerusalem-debate",
+          "source-jerusalem-nt-archaeology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gabbatha",
+    "name": "Gabbatha / Lithostrotos",
+    "aliases": [
+      "Stone Pavement"
+    ],
+    "summary": "Place-name associated in John with Pilate’s judgment seat.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "John supplies a name but no recoverable modern coordinate; proposals depend on which praetorium model is adopted."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:13",
+        "verseStart": 13
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-pilate-jerusalem-debate"
+    ],
+    "locationNote": "Intentionally unpinned."
+  },
+  {
+    "id": "pool-bethesda",
+    "name": "Pool of Bethesda",
+    "aliases": [
+      "Bethzatha",
+      "Bethesda"
+    ],
+    "summary": "Pool complex north of the Temple Mount associated in John with a healing narrative.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The archaeological pool complex is securely identified in the area of St Anne’s Church and matches key topographic features of John’s description, though the exact first-century architectural phases require reconstruction."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 5,
+        "label": "John 5:2–9",
+        "verseStart": 2,
+        "verseEnd": 9
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-bethesda-siloam",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.2366,
+      31.7814
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Large twin-pool complex with multiple construction phases; later Christian buildings reflect continued commemoration."
+  },
+  {
+    "id": "pool-siloam-second-temple",
+    "name": "Pool of Siloam — Second Temple period",
+    "aliases": [
+      "Siloam Pool"
+    ],
+    "summary": "Large pool at the southern end of the City of David area associated in John 9 with the healing of the man born blind.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "A substantial Second Temple-period stepped pool has been excavated and is strongly identified with the Siloam pool of the period."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 9,
+        "label": "John 9:7–11",
+        "verseStart": 7,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-bethesda-siloam",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "coordinates": [
+      35.235,
+      31.77
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Stepped stone pool discovered south of the earlier Siloam systems; construction and use belong to the Second Temple period."
+  },
+  {
+    "id": "golgotha",
+    "name": "Golgotha",
+    "aliases": [
+      "Calvary",
+      "Place of the Skull"
+    ],
+    "summary": "Execution place outside Jerusalem associated with Jesus’ crucifixion. The exact spot is not independently recoverable.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Gospels describe an execution place outside the city near a road and a tomb/garden context, but do not give coordinates. Candidate sites are displayed separately."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27:33",
+        "verseStart": 33
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15:22",
+        "verseStart": 22
+      },
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23:33",
+        "verseStart": 33
+      },
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:17",
+        "verseStart": 17
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-holy-sepulchre-research",
+      "source-garden-tomb-research",
+      "source-second-temple-atlas"
+    ],
+    "locationNote": "No normal pin; the Church of the Holy Sepulchre and Garden Tomb are presented as separate traditions/candidates."
+  },
+  {
+    "id": "holy-sepulchre",
+    "name": "Church of the Holy Sepulchre — Golgotha/Tomb tradition",
+    "aliases": [
+      "Holy Sepulchre",
+      "Anastasis"
+    ],
+    "summary": "Longstanding Jerusalem site preserving the principal historical Christian identification of both Golgotha and Jesus’ tomb.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "moderate",
+      "explanation": "The site has an ancient Christian identification and archaeology is compatible with a first-century quarry/tomb area outside the likely city wall. Archaeology cannot prove the specific crucifixion or burial occurred at the exact venerated points."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:41–42",
+        "verseStart": 41,
+        "verseEnd": 42
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-holy-sepulchre-research",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "coordinates": [
+      35.2297,
+      31.7785
+    ],
+    "coordinateRole": "traditional-site",
+    "archaeology": "The area was a quarry and included rock-cut tombs before later urban development. Constantine’s fourth-century complex formalized an earlier Christian sacred tradition."
+  },
+  {
+    "id": "garden-tomb",
+    "name": "Garden Tomb",
+    "aliases": [
+      "Gordon’s Calvary tradition"
+    ],
+    "summary": "Nineteenth-century Protestant alternative identification north of Jerusalem’s Old City.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "low",
+      "explanation": "The place is historically important as a modern devotional tradition, but archaeological dating of the tomb is generally considered earlier than the first century CE, weakening its case as Jesus’ newly cut tomb."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:41",
+        "verseStart": 41
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-garden-tomb-research",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "coordinates": [
+      35.229,
+      31.783
+    ],
+    "coordinateRole": "traditional-site",
+    "archaeology": "The rock-cut tomb is commonly dated to the Iron Age with later reuse; this is a significant challenge to identifying it with the first-century “new tomb” narrative."
+  },
+  {
+    "id": "tomb-jesus",
+    "name": "Tomb of Jesus — textual location",
+    "aliases": [
+      "New tomb of Joseph of Arimathea"
+    ],
+    "summary": "Burial place described in the Gospel narratives near the crucifixion location. Its exact modern identification remains a matter of historical argument and tradition.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The textual burial location is not assigned a coordinate because doing so would prejudge competing identifications."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27:57–61",
+        "verseStart": 57,
+        "verseEnd": 61
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15:42–47",
+        "verseStart": 42,
+        "verseEnd": 47
+      },
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23:50–56",
+        "verseStart": 50,
+        "verseEnd": 56
+      },
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:38–42",
+        "verseStart": 38,
+        "verseEnd": 42
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-holy-sepulchre-research",
+      "source-garden-tomb-research"
+    ],
+    "locationNote": "Intentionally unpinned."
+  },
+  {
+    "id": "emmaus-luke",
+    "name": "Emmaus of Luke 24",
+    "aliases": [
+      "Emmaus"
+    ],
+    "summary": "Village reached by two disciples from Jerusalem after the resurrection in Luke 24. Its identification is disputed.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "Manuscript distance variants and multiple ancient/medieval traditions produce several serious candidates. The textual Emmaus remains unpinned."
+    },
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 24,
+        "label": "Luke 24:13–35",
+        "verseStart": 13,
+        "verseEnd": 35
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-emmaus-research",
+      "source-second-temple-atlas"
+    ],
+    "locationNote": "No normal pin; candidate/traditional locations are displayed separately.",
+    "interpretations": [
+      {
+        "title": "Emmaus-Nicopolis",
+        "status": "possible",
+        "summary": "A major ancient Emmaus with strong early Christian tradition, but its distance from Jerusalem fits the 160-stadia textual variant better than the widespread 60-stadia reading.",
+        "sourceIds": [
+          "source-emmaus-research",
+          "source-second-temple-atlas"
+        ]
+      },
+      {
+        "title": "el-Qubeibeh",
+        "status": "traditional",
+        "summary": "A medieval Franciscan tradition at a distance broadly compatible with the shorter reading; evidence for identifying the village with Luke’s Emmaus is later.",
+        "sourceIds": [
+          "source-emmaus-research"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "qubeibeh-emmaus-traditional",
+    "name": "el-Qubeibeh — Emmaus tradition",
+    "aliases": [
+      "Qubeibeh"
+    ],
+    "summary": "Village northwest of Jerusalem identified in medieval Christian tradition with Luke’s Emmaus.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "traditional",
+      "explanation": "The identification is traditional and late; it is displayed as one candidate rather than as the Gospel village."
+    },
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 24,
+        "label": "Luke 24:13",
+        "verseStart": 13
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-emmaus-research"
+    ],
+    "coordinates": [
+      35.119,
+      31.84
+    ],
+    "coordinateRole": "traditional-site"
+  },
+  {
+    "id": "arimathea",
+    "name": "Arimathea",
+    "aliases": [
+      "Arimathaea"
+    ],
+    "summary": "Home town of Joseph of Arimathea. Its ancient location is not securely identified.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "Several identifications have been proposed, often involving Ramathaim/Ramla traditions, but the evidence does not support a single normal pin."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27:57",
+        "verseStart": 57
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15:43",
+        "verseStart": 43
+      },
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23:51",
+        "verseStart": 51
+      },
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:38",
+        "verseStart": 38
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "locationNote": "Intentionally unpinned."
+  },
+  {
+    "id": "mount-transfiguration",
+    "name": "Mountain of the Transfiguration",
+    "aliases": [
+      "High mountain"
+    ],
+    "summary": "Unnamed high mountain in the Synoptic Transfiguration narratives.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "The Gospels do not name the mountain. Mount Tabor and Mount Hermon are important proposals/traditions but neither can be established from the text."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 17,
+        "label": "Matthew 17:1–8",
+        "verseStart": 1,
+        "verseEnd": 8
+      },
+      {
+        "book": "Mark",
+        "chapter": 9,
+        "label": "Mark 9:2–8",
+        "verseStart": 2,
+        "verseEnd": 8
+      },
+      {
+        "book": "Luke",
+        "chapter": 9,
+        "label": "Luke 9:28–36",
+        "verseStart": 28,
+        "verseEnd": 36
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-transfiguration-geography",
+      "source-second-temple-atlas"
+    ],
+    "locationNote": "No normal pin.",
+    "interpretations": [
+      {
+        "title": "Mount Tabor",
+        "status": "traditional",
+        "summary": "A very old Christian tradition, prominent from late antiquity onward; the Gospel sequence and “high mountain” description do not prove the identification.",
+        "sourceIds": [
+          "source-transfiguration-geography",
+          "source-second-temple-atlas"
+        ]
+      },
+      {
+        "title": "Mount Hermon region",
+        "status": "possible",
+        "summary": "Its proximity to the Caesarea Philippi episode and great elevation make Hermon a common modern proposal. The Gospels do not supply enough information to establish it.",
+        "sourceIds": [
+          "source-transfiguration-geography",
+          "source-second-temple-atlas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mount-hermon",
+    "name": "Mount Hermon",
+    "aliases": [
+      "Jabal al-Shaykh"
+    ],
+    "summary": "High mountain massif north of Galilee, relevant as a geographic candidate in discussions of the Transfiguration.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The physical massif is established; its connection to the Transfiguration is a modern interpretive proposal, not an identified Gospel site."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 17,
+        "label": "Matthew 17:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-transfiguration-geography",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.86,
+      33.416
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "galilee-resurrection-mountain",
+    "name": "Unnamed mountain in Galilee (Matthew 28)",
+    "aliases": [],
+    "summary": "Unnamed mountain in Galilee where Matthew places a resurrection appearance and commission.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Matthew names Galilee but not the mountain. The atlas does not equate it with Mount Tabor, the Transfiguration mountain, or any modern summit."
+    },
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 28,
+        "verseStart": 16,
+        "verseEnd": 20,
+        "label": "Matthew 28:16–20"
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "locationNote": "Intentionally unpinned; no canonical text identifies the mountain by name."
+  },
+  {
+    "id": "samaria-region-gospels",
+    "name": "Samaria (region)",
+    "aliases": [
+      "Samaritan hill country"
+    ],
+    "summary": "Broad Gospel-period regional anchor for Samaria, intentionally distinct from the ancient city of Samaria/Sebaste.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Samaria is a well-established historical region, but this point is only a display anchor and not a surveyed provincial center or boundary."
+    },
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 4,
+        "label": "John 4:4–5",
+        "verseStart": 4,
+        "verseEnd": 5
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-samaria-nt",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.24,
+      32.2
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Broad regional display anchor; John 4's route through Samaria should not be confused with a visit to the city of Samaria/Sebaste.",
+    "validFrom": -20,
+    "validTo": 40
+  }
+]

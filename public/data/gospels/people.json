@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "jesus",
+    "name": "Jesus of Nazareth",
+    "aliases": [
+      "Jesus",
+      "Jesus the Nazarene"
+    ],
+    "era": "late first century BCE – early first century CE",
+    "summary": "Central figure of the four Gospels. The atlas maps textual movements and first-century settings while keeping theological claims, exact chronology, and disputed site identifications distinct from geographic evidence.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 1,
+        "label": "Matthew 1"
+      },
+      {
+        "book": "Mark",
+        "chapter": 1,
+        "label": "Mark 1"
+      },
+      {
+        "book": "Luke",
+        "chapter": 1,
+        "label": "Luke 1"
+      },
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1"
+      }
+    ],
+    "relatedPlaceIds": [
+      "nazareth",
+      "bethlehem-judah",
+      "capernaum",
+      "jerusalem",
+      "bethany-judea"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-tacitus-annals15",
+      "source-schurer-second-temple"
+    ],
+    "artisticNote": "Artistic silhouette only; not a portrait or reconstruction of Jesus’ appearance."
+  },
+  {
+    "id": "mary-mother-jesus",
+    "name": "Mary, mother of Jesus",
+    "aliases": [
+      "Mary"
+    ],
+    "era": "late first century BCE – early first century CE",
+    "summary": "Mother of Jesus in the Gospel infancy narratives and later scenes.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 1,
+        "label": "Matthew 1:18–25",
+        "verseStart": 18,
+        "verseEnd": 25
+      },
+      {
+        "book": "Luke",
+        "chapter": 1,
+        "label": "Luke 1:26–56",
+        "verseStart": 26,
+        "verseEnd": 56
+      },
+      {
+        "book": "John",
+        "chapter": 2,
+        "label": "John 2:1–12",
+        "verseStart": 1,
+        "verseEnd": 12
+      },
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:25–27",
+        "verseStart": 25,
+        "verseEnd": 27
+      }
+    ],
+    "relatedPlaceIds": [
+      "nazareth",
+      "bethlehem-judah",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ],
+    "artisticNote": "Artistic silhouette only; no historical portrait is implied."
+  },
+  {
+    "id": "joseph-husband-mary",
+    "name": "Joseph",
+    "aliases": [
+      "Joseph of Nazareth"
+    ],
+    "era": "late first century BCE – early first century CE",
+    "summary": "Joseph, husband of Mary, appears in Matthew and Luke’s infancy narratives and is associated with Bethlehem, Egypt, and Nazareth.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 1,
+        "label": "Matthew 1:18–25",
+        "verseStart": 18,
+        "verseEnd": 25
+      },
+      {
+        "book": "Matthew",
+        "chapter": 2,
+        "label": "Matthew 2:13–23",
+        "verseStart": 13,
+        "verseEnd": 23
+      },
+      {
+        "book": "Luke",
+        "chapter": 2,
+        "label": "Luke 2:1–52",
+        "verseStart": 1,
+        "verseEnd": 52
+      }
+    ],
+    "relatedPlaceIds": [
+      "bethlehem-judah",
+      "egypt",
+      "nazareth"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "john-baptist",
+    "name": "John the Baptist",
+    "aliases": [
+      "John the Baptizer"
+    ],
+    "era": "early first century CE",
+    "summary": "Jewish prophetic and baptismal figure active in the Jordan region; executed under Herod Antipas. Josephus independently discusses John and associates his imprisonment with Machaerus.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 3,
+        "label": "Matthew 3:1–17",
+        "verseStart": 1,
+        "verseEnd": 17
+      },
+      {
+        "book": "Mark",
+        "chapter": 1,
+        "label": "Mark 1:2–11",
+        "verseStart": 2,
+        "verseEnd": 11
+      },
+      {
+        "book": "Luke",
+        "chapter": 3,
+        "label": "Luke 3:1–22",
+        "verseStart": 1,
+        "verseEnd": 22
+      },
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1:19–34",
+        "verseStart": 19,
+        "verseEnd": 34
+      }
+    ],
+    "relatedPlaceIds": [
+      "jordan-river",
+      "judean-wilderness-gospels",
+      "machaerus"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant18-b8"
+    ],
+    "artisticNote": "Artistic silhouette only; not a historical portrait.",
+    "textualReferences": [
+      {
+        "label": "Josephus, Antiquities 18.116–119",
+        "sourceId": "source-josephus-ant18-b8",
+        "kind": "ancient-literary"
+      }
+    ]
+  },
+  {
+    "id": "zechariah-priest",
+    "name": "Zechariah",
+    "aliases": [
+      "Zacharias"
+    ],
+    "era": "late first century BCE",
+    "summary": "Priest in Luke’s infancy narrative and father of John the Baptist.",
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 1,
+        "label": "Luke 1:5–25",
+        "verseStart": 5,
+        "verseEnd": 25
+      },
+      {
+        "book": "Luke",
+        "chapter": 1,
+        "label": "Luke 1:57–80",
+        "verseStart": 57,
+        "verseEnd": 80
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "elizabeth",
+    "name": "Elizabeth",
+    "aliases": [],
+    "era": "late first century BCE",
+    "summary": "Relative of Mary and mother of John the Baptist in Luke’s infancy narrative.",
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 1,
+        "label": "Luke 1:5–66",
+        "verseStart": 5,
+        "verseEnd": 66
+      }
+    ],
+    "relatedPlaceIds": [],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "herod-antipas",
+    "name": "Herod Antipas",
+    "aliases": [
+      "Antipas"
+    ],
+    "era": "4 BCE–39 CE",
+    "summary": "Son of Herod the Great and tetrarch of Galilee and Perea; central political figure in the John the Baptist narratives and Luke’s Passion account.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 14,
+        "label": "Matthew 14:1–12",
+        "verseStart": 1,
+        "verseEnd": 12
+      },
+      {
+        "book": "Luke",
+        "chapter": 3,
+        "label": "Luke 3:1",
+        "verseStart": 1
+      },
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23:6–12",
+        "verseStart": 6,
+        "verseEnd": 12
+      }
+    ],
+    "relatedPlaceIds": [
+      "tiberias",
+      "machaerus",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-schurer-second-temple",
+      "source-josephus-ant18-b8"
+    ],
+    "artisticNote": "Artistic silhouette only; no portrait claim."
+  },
+  {
+    "id": "archelaus",
+    "name": "Herod Archelaus",
+    "aliases": [
+      "Archelaus"
+    ],
+    "era": "4 BCE–6 CE",
+    "summary": "Son of Herod the Great who ruled Judea, Samaria, and Idumea as ethnarch until deposition by Rome.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 2,
+        "label": "Matthew 2:22",
+        "verseStart": 22
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "samaria"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant17-b8",
+      "source-schurer-second-temple"
+    ]
+  },
+  {
+    "id": "philip-tetrarch",
+    "name": "Philip the Tetrarch",
+    "aliases": [
+      "Herod Philip II"
+    ],
+    "era": "4 BCE–34 CE",
+    "summary": "Son of Herod the Great who ruled territories northeast of Galilee and developed Paneas/Caesarea Philippi.",
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 3,
+        "label": "Luke 3:1",
+        "verseStart": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "panium"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant18-b8",
+      "source-schurer-second-temple"
+    ]
+  },
+  {
+    "id": "tiberius-caesar",
+    "name": "Tiberius Caesar",
+    "aliases": [
+      "Tiberius"
+    ],
+    "era": "14–37 CE",
+    "summary": "Roman emperor during the public ministries of John the Baptist and Jesus.",
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 3,
+        "label": "Luke 3:1",
+        "verseStart": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "rome",
+      "tiberias"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-schurer-second-temple",
+      "source-tacitus-annals15"
+    ]
+  },
+  {
+    "id": "quirinius",
+    "name": "Publius Sulpicius Quirinius",
+    "aliases": [
+      "Cyrenius"
+    ],
+    "era": "Roman Syria, 6 CE census context",
+    "summary": "Roman official associated by Josephus with the census of Judea in 6 CE and by Luke with the birth narrative; reconciling the chronological references is a major historical problem.",
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 2,
+        "label": "Luke 2:2",
+        "verseStart": 2
+      }
+    ],
+    "relatedPlaceIds": [
+      "antioch-orontes",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant18-b8",
+      "source-schurer-second-temple"
+    ]
+  },
+  {
+    "id": "pontius-pilate",
+    "name": "Pontius Pilate",
+    "aliases": [
+      "Pilate"
+    ],
+    "era": "prefect of Judea, c. 26–36 CE",
+    "summary": "Roman prefect of Judea under Tiberius. Independently attested by inscription and ancient literary sources; the exact Jerusalem praetorium used during Jesus’ trial is debated.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27"
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15"
+      },
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23"
+      },
+      {
+        "book": "John",
+        "chapter": 18,
+        "label": "John 18:28–40",
+        "verseStart": 28,
+        "verseEnd": 40
+      }
+    ],
+    "relatedPlaceIds": [
+      "caesarea-maritima",
+      "jerusalem",
+      "praetorium-pilate"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-pilate-stone",
+      "source-josephus-ant18-b8",
+      "source-philo-embassy",
+      "source-tacitus-annals15"
+    ],
+    "artisticNote": "Artistic silhouette only; not a portrait.",
+    "textualReferences": [
+      {
+        "label": "Pilate inscription, Caesarea",
+        "sourceId": "source-pilate-stone",
+        "kind": "inscription"
+      },
+      {
+        "label": "Tacitus, Annals 15.44",
+        "sourceId": "source-tacitus-annals15",
+        "kind": "ancient-literary"
+      }
+    ]
+  },
+  {
+    "id": "caiaphas",
+    "name": "Joseph Caiaphas",
+    "aliases": [
+      "Caiaphas"
+    ],
+    "era": "high priest, c. 18–36 CE",
+    "summary": "Jerusalem high priest under Roman rule, named in Gospel Passion narratives and Josephus. An ossuary inscription is often associated with his family but is not absolute proof of identity.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 26,
+        "label": "Matthew 26:3–68",
+        "verseStart": 3,
+        "verseEnd": 68
+      },
+      {
+        "book": "John",
+        "chapter": 11,
+        "label": "John 11:49–53",
+        "verseStart": 49,
+        "verseEnd": 53
+      },
+      {
+        "book": "John",
+        "chapter": 18,
+        "label": "John 18:13–28",
+        "verseStart": 13,
+        "verseEnd": 28
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant18-b8",
+      "source-caiaphas-ossuary"
+    ],
+    "artisticNote": "Artistic silhouette only; no portrait claim."
+  },
+  {
+    "id": "annas",
+    "name": "Annas",
+    "aliases": [
+      "Ananus son of Seth"
+    ],
+    "era": "early first century CE",
+    "summary": "Former high priest and influential priestly patriarch, named in Luke and John.",
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 3,
+        "label": "Luke 3:2",
+        "verseStart": 2
+      },
+      {
+        "book": "John",
+        "chapter": 18,
+        "label": "John 18:13–24",
+        "verseStart": 13,
+        "verseEnd": 24
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant18-b8"
+    ]
+  },
+  {
+    "id": "peter",
+    "name": "Peter",
+    "aliases": [
+      "Simon Peter",
+      "Cephas"
+    ],
+    "era": "early first century CE",
+    "summary": "Galilean disciple prominently associated with Capernaum, the Sea of Galilee, Caesarea Philippi narratives, and Jerusalem.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 4,
+        "label": "Matthew 4:18",
+        "verseStart": 18
+      },
+      {
+        "book": "Matthew",
+        "chapter": 16,
+        "label": "Matthew 16:13–20",
+        "verseStart": 13,
+        "verseEnd": 20
+      },
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1:40–42",
+        "verseStart": 40,
+        "verseEnd": 42
+      },
+      {
+        "book": "John",
+        "chapter": 21,
+        "label": "John 21"
+      }
+    ],
+    "relatedPlaceIds": [
+      "capernaum",
+      "sea-galilee",
+      "panium",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ],
+    "artisticNote": "Artistic silhouette only; not a historical portrait."
+  },
+  {
+    "id": "andrew",
+    "name": "Andrew",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Disciple and brother of Peter, associated with Bethsaida and Galilee.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 4,
+        "label": "Matthew 4:18",
+        "verseStart": 18
+      },
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1:40–44",
+        "verseStart": 40,
+        "verseEnd": 44
+      }
+    ],
+    "relatedPlaceIds": [
+      "bethsaida-gospels",
+      "capernaum",
+      "sea-galilee"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "james-zebedee",
+    "name": "James son of Zebedee",
+    "aliases": [
+      "James"
+    ],
+    "era": "early first century CE",
+    "summary": "Galilean disciple, brother of John, associated with the fishing narratives and Transfiguration.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 4,
+        "label": "Matthew 4:21",
+        "verseStart": 21
+      },
+      {
+        "book": "Matthew",
+        "chapter": 17,
+        "label": "Matthew 17:1",
+        "verseStart": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "sea-galilee",
+      "mount-transfiguration"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "john-zebedee",
+    "name": "John son of Zebedee",
+    "aliases": [
+      "John"
+    ],
+    "era": "early first century CE",
+    "summary": "Galilean disciple, brother of James, prominent in Synoptic disciple lists and later Christian tradition.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 4,
+        "label": "Matthew 4:21",
+        "verseStart": 21
+      },
+      {
+        "book": "Mark",
+        "chapter": 3,
+        "label": "Mark 3:17",
+        "verseStart": 17
+      }
+    ],
+    "relatedPlaceIds": [
+      "sea-galilee",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "philip-apostle",
+    "name": "Philip",
+    "aliases": [
+      "Philip the disciple"
+    ],
+    "era": "early first century CE",
+    "summary": "Disciple associated especially with Bethsaida and the Johannine narratives.",
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1:43–46",
+        "verseStart": 43,
+        "verseEnd": 46
+      },
+      {
+        "book": "John",
+        "chapter": 6,
+        "label": "John 6:5–7",
+        "verseStart": 5,
+        "verseEnd": 7
+      },
+      {
+        "book": "John",
+        "chapter": 12,
+        "label": "John 12:21–22",
+        "verseStart": 21,
+        "verseEnd": 22
+      }
+    ],
+    "relatedPlaceIds": [
+      "bethsaida-gospels",
+      "sea-galilee"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "nathanael",
+    "name": "Nathanael",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Disciple in John associated with Cana of Galilee.",
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1:45–51",
+        "verseStart": 45,
+        "verseEnd": 51
+      },
+      {
+        "book": "John",
+        "chapter": 21,
+        "label": "John 21:2",
+        "verseStart": 2
+      }
+    ],
+    "relatedPlaceIds": [
+      "cana-galilee"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "matthew-disciple",
+    "name": "Matthew",
+    "aliases": [
+      "Levi tradition"
+    ],
+    "era": "early first century CE",
+    "summary": "Disciple and tax collector in Gospel tradition, associated with Jesus’ Galilean ministry.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 9,
+        "label": "Matthew 9:9",
+        "verseStart": 9
+      },
+      {
+        "book": "Mark",
+        "chapter": 2,
+        "label": "Mark 2:14",
+        "verseStart": 14
+      }
+    ],
+    "relatedPlaceIds": [
+      "capernaum"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "thomas",
+    "name": "Thomas",
+    "aliases": [
+      "Didymus"
+    ],
+    "era": "early first century CE",
+    "summary": "Disciple prominent in John, including the Jerusalem and Galilee resurrection narratives.",
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 11,
+        "label": "John 11:16",
+        "verseStart": 16
+      },
+      {
+        "book": "John",
+        "chapter": 20,
+        "label": "John 20:24–29",
+        "verseStart": 24,
+        "verseEnd": 29
+      },
+      {
+        "book": "John",
+        "chapter": 21,
+        "label": "John 21:2",
+        "verseStart": 2
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "sea-galilee"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "mary-magdalene",
+    "name": "Mary Magdalene",
+    "aliases": [
+      "Mary of Magdala"
+    ],
+    "era": "early first century CE",
+    "summary": "Follower of Jesus named in crucifixion, burial, and resurrection traditions; her epithet links her to Magdala.",
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 8,
+        "label": "Luke 8:2",
+        "verseStart": 2
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15:40–47",
+        "verseStart": 40,
+        "verseEnd": 47
+      },
+      {
+        "book": "John",
+        "chapter": 20,
+        "label": "John 20:1–18",
+        "verseStart": 1,
+        "verseEnd": 18
+      }
+    ],
+    "relatedPlaceIds": [
+      "magdala",
+      "jerusalem",
+      "tomb-jesus"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ],
+    "artisticNote": "Artistic silhouette only; not a historical portrait."
+  },
+  {
+    "id": "martha",
+    "name": "Martha",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Woman associated with Bethany, Mary, and Lazarus in Luke and John.",
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 10,
+        "label": "Luke 10:38–42",
+        "verseStart": 38,
+        "verseEnd": 42
+      },
+      {
+        "book": "John",
+        "chapter": 11,
+        "label": "John 11:1–44",
+        "verseStart": 1,
+        "verseEnd": 44
+      },
+      {
+        "book": "John",
+        "chapter": 12,
+        "label": "John 12:1–8",
+        "verseStart": 1,
+        "verseEnd": 8
+      }
+    ],
+    "relatedPlaceIds": [
+      "bethany-judea"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "mary-bethany",
+    "name": "Mary of Bethany",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Sister of Martha and Lazarus in John, associated with Bethany and the anointing narrative.",
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 11,
+        "label": "John 11:1–44",
+        "verseStart": 1,
+        "verseEnd": 44
+      },
+      {
+        "book": "John",
+        "chapter": 12,
+        "label": "John 12:1–8",
+        "verseStart": 1,
+        "verseEnd": 8
+      }
+    ],
+    "relatedPlaceIds": [
+      "bethany-judea"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "lazarus",
+    "name": "Lazarus of Bethany",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Man of Bethany raised by Jesus in John’s narrative and brother of Martha and Mary.",
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 11,
+        "label": "John 11:1–44",
+        "verseStart": 1,
+        "verseEnd": 44
+      },
+      {
+        "book": "John",
+        "chapter": 12,
+        "label": "John 12:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      }
+    ],
+    "relatedPlaceIds": [
+      "bethany-judea"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "nicodemus",
+    "name": "Nicodemus",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Jerusalem figure in John, appearing in a nighttime dialogue, a council scene, and Jesus’ burial.",
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 3,
+        "label": "John 3:1–21",
+        "verseStart": 1,
+        "verseEnd": 21
+      },
+      {
+        "book": "John",
+        "chapter": 7,
+        "label": "John 7:50–52",
+        "verseStart": 50,
+        "verseEnd": 52
+      },
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:39–42",
+        "verseStart": 39,
+        "verseEnd": 42
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "tomb-jesus"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "joseph-arimathea",
+    "name": "Joseph of Arimathea",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Figure in all four Gospel burial narratives who provides or arranges Jesus’ tomb.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27:57–60",
+        "verseStart": 57,
+        "verseEnd": 60
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15:43–46",
+        "verseStart": 43,
+        "verseEnd": 46
+      },
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23:50–53",
+        "verseStart": 50,
+        "verseEnd": 53
+      },
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:38–42",
+        "verseStart": 38,
+        "verseEnd": 42
+      }
+    ],
+    "relatedPlaceIds": [
+      "arimathea",
+      "tomb-jesus",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "zacchaeus",
+    "name": "Zacchaeus",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Chief tax collector encountered by Jesus at Jericho in Luke.",
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 19,
+        "label": "Luke 19:1–10",
+        "verseStart": 1,
+        "verseEnd": 10
+      }
+    ],
+    "relatedPlaceIds": [
+      "jericho"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "simon-cyrene",
+    "name": "Simon of Cyrene",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Man compelled to carry Jesus’ cross in the Synoptic Passion narratives; his origin is Cyrene, but the encounter occurs in Jerusalem.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27:32",
+        "verseStart": 32
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15:21",
+        "verseStart": 21
+      },
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23:26",
+        "verseStart": 26
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "golgotha"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "barabbas",
+    "name": "Barabbas",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Prisoner released in the Passion narratives instead of Jesus.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27:15–26",
+        "verseStart": 15,
+        "verseEnd": 26
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15:6–15",
+        "verseStart": 6,
+        "verseEnd": 15
+      },
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23:18–25",
+        "verseStart": 18,
+        "verseEnd": 25
+      },
+      {
+        "book": "John",
+        "chapter": 18,
+        "label": "John 18:40",
+        "verseStart": 40
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "jairus",
+    "name": "Jairus",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Synagogue leader in the Galilean healing narrative of Jairus’s daughter.",
+    "scripture": [
+      {
+        "book": "Mark",
+        "chapter": 5,
+        "label": "Mark 5:21–43",
+        "verseStart": 21,
+        "verseEnd": 43
+      },
+      {
+        "book": "Luke",
+        "chapter": 8,
+        "label": "Luke 8:40–56",
+        "verseStart": 40,
+        "verseEnd": 56
+      }
+    ],
+    "relatedPlaceIds": [
+      "capernaum",
+      "sea-galilee"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "judas-iscariot",
+    "name": "Judas Iscariot",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Disciple associated with betrayal and Jesus’ arrest in the Passion narratives.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 26,
+        "label": "Matthew 26:14–50",
+        "verseStart": 14,
+        "verseEnd": 50
+      },
+      {
+        "book": "John",
+        "chapter": 18,
+        "label": "John 18:2–5",
+        "verseStart": 2,
+        "verseEnd": 5
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "gethsemane"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "herodias",
+    "name": "Herodias",
+    "aliases": [],
+    "era": "early first century CE",
+    "summary": "Herodian princess whose marriage to Herod Antipas is central to the Gospel account of John the Baptist’s execution.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 14,
+        "label": "Matthew 14:3–11",
+        "verseStart": 3,
+        "verseEnd": 11
+      },
+      {
+        "book": "Mark",
+        "chapter": 6,
+        "label": "Mark 6:17–28",
+        "verseStart": 17,
+        "verseEnd": 28
+      }
+    ],
+    "relatedPlaceIds": [
+      "machaerus",
+      "tiberias"
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant18-b8"
+    ]
+  }
+]

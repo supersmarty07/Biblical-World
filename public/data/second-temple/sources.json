@@ -1,0 +1,222 @@
+[
+  {
+    "id": "source-batch7-methodology",
+    "title": "Batch 7 Second Temple / Hellenistic Curation Methodology",
+    "organization": "The Biblical World project",
+    "license": "Original project metadata",
+    "notes": "Separates ancient literary testimony, canonical Scripture references, securely dated geopolitical events, archaeological site identification, inscriptions/papyri, and modern scholarly reconstruction. Hellenistic and Hasmonean political polygons are broad orientation only, not surveyed borders.",
+    "kind": "project-methodology"
+  },
+  {
+    "id": "source-grabbe-hellenistic",
+    "title": "A History of the Jews and Judaism in the Second Temple Period — Hellenistic and Hasmonean volumes",
+    "author": "Lester L. Grabbe",
+    "organization": "T&T Clark",
+    "notes": "Critical historical synthesis used for Hellenistic Judea, the Maccabean revolt, Hasmonean rule, and source criticism. Exact chronology and institutional interpretations are cross-checked rather than copied as map geometry.",
+    "kind": "modern-scholarship"
+  },
+  {
+    "id": "source-schurer-second-temple",
+    "title": "The History of the Jewish People in the Age of Jesus Christ (175 B.C.–A.D. 135), revised edition",
+    "author": "Emil Schürer; revised by Géza Vermes, Fergus Millar, Matthew Black and Martin Goodman",
+    "organization": "T&T Clark",
+    "notes": "Major reference for Seleucid, Hasmonean, Roman and Herodian chronology and institutions.",
+    "kind": "modern-scholarship"
+  },
+  {
+    "id": "source-1-maccabees",
+    "title": "1 Maccabees",
+    "organization": "Ancient Jewish historical narrative preserved in the Septuagint/deuterocanonical tradition",
+    "dateLabel": "Late second century BCE is commonly proposed for composition",
+    "notes": "Primary ancient literary source for the revolt and early Hasmonean dynasty. It is not bundled as part of the project’s default BSB Protestant-canon text and is treated as an ancient source rather than as archaeological proof.",
+    "kind": "deuterocanonical-text"
+  },
+  {
+    "id": "source-2-maccabees",
+    "title": "2 Maccabees",
+    "organization": "Ancient Jewish epitome of a work attributed to Jason of Cyrene",
+    "dateLabel": "Hellenistic period; exact composition date debated",
+    "notes": "Ancient literary source especially important for the Jerusalem crisis under Antiochus IV and temple-centered memory. Its literary/theological aims are kept distinct from independent archaeological evidence.",
+    "kind": "deuterocanonical-text"
+  },
+  {
+    "id": "source-josephus-ant12",
+    "title": "Josephus, Jewish Antiquities, Book 12",
+    "author": "Flavius Josephus",
+    "dateLabel": "Late first century CE",
+    "notes": "Later ancient narrative for Ptolemaic/Seleucid Judea and the Maccabean revolt. Josephus often depends on earlier sources and must not be treated as a contemporary inscription.",
+    "kind": "ancient-literary"
+  },
+  {
+    "id": "source-josephus-ant13",
+    "title": "Josephus, Jewish Antiquities, Book 13",
+    "author": "Flavius Josephus",
+    "dateLabel": "Late first century CE",
+    "notes": "Major ancient narrative for Hasmonean rulers, expansion, internal conflict and neighboring peoples; used critically alongside archaeology and earlier evidence.",
+    "kind": "ancient-literary"
+  },
+  {
+    "id": "source-josephus-ant14",
+    "title": "Josephus, Jewish Antiquities, Book 14",
+    "author": "Flavius Josephus",
+    "dateLabel": "Late first century CE",
+    "notes": "Ancient narrative for Pompey, Hyrcanus II, Aristobulus II, Antipater and the Roman transition.",
+    "kind": "ancient-literary"
+  },
+  {
+    "id": "source-josephus-war1",
+    "title": "Josephus, Jewish War, Book 1",
+    "author": "Flavius Josephus",
+    "dateLabel": "Late first century CE",
+    "notes": "Ancient narrative for late Hasmonean politics, Pompey, Herod’s rise and early Herodian rule; checked against Antiquities and Roman sources.",
+    "kind": "ancient-literary"
+  },
+  {
+    "id": "source-arrian-alexander",
+    "title": "Arrian, Anabasis of Alexander",
+    "author": "Arrian of Nicomedia",
+    "dateLabel": "Second century CE, using earlier Alexander traditions",
+    "notes": "Key later ancient narrative for Alexander’s campaigns. The atlas uses it for broad campaign sequence, not for claiming an exact march line.",
+    "kind": "ancient-literary"
+  },
+  {
+    "id": "source-polybius-histories",
+    "title": "Polybius, Histories",
+    "author": "Polybius",
+    "dateLabel": "Second century BCE",
+    "notes": "Near-contemporary ancient history for Hellenistic interstate politics, including Antiochus III and the Ptolemaic-Seleucid struggle. Surviving coverage is incomplete.",
+    "kind": "ancient-literary"
+  },
+  {
+    "id": "source-diodorus-library",
+    "title": "Diodorus Siculus, Library of History",
+    "author": "Diodorus Siculus",
+    "dateLabel": "First century BCE",
+    "notes": "Ancient narrative useful for Alexander and successor-era context, employed critically where the surviving text bears on events.",
+    "kind": "ancient-literary"
+  },
+  {
+    "id": "source-appian-syrian",
+    "title": "Appian, Syrian Wars",
+    "author": "Appian of Alexandria",
+    "dateLabel": "Second century CE",
+    "notes": "Later ancient source for Seleucid and Roman eastern history; used as contextual evidence, not as a cartographic authority.",
+    "kind": "ancient-literary"
+  },
+  {
+    "id": "source-strabo-geography",
+    "title": "Strabo, Geography",
+    "author": "Strabo",
+    "dateLabel": "Late first century BCE to early first century CE",
+    "notes": "Ancient geographic description for the eastern Mediterranean and Near East. Place descriptions are cross-checked against archaeology.",
+    "kind": "ancient-literary"
+  },
+  {
+    "id": "source-zenon-archive",
+    "title": "Zenon Archive papyri",
+    "organization": "Ptolemaic administrative papyri",
+    "dateLabel": "Third century BCE",
+    "notes": "Contemporary documentary evidence for Ptolemaic administration, travel and economic networks in Egypt and the southern Levant; not a political-border dataset.",
+    "kind": "documentary"
+  },
+  {
+    "id": "source-heliodorus-stele",
+    "title": "Heliodorus / Seleucus IV administrative stele tradition",
+    "organization": "Seleucid royal-administrative inscriptional evidence",
+    "dateLabel": "Second century BCE",
+    "notes": "Inscriptional evidence for Seleucid temple-administration policy in Coele-Syria/Phoenicia. It provides context for the period but is not treated as proof of every scene in 2 Maccabees 3.",
+    "kind": "inscription"
+  },
+  {
+    "id": "source-magen-gerizim",
+    "title": "Mount Gerizim Excavations and Samaritan temple precinct publications",
+    "author": "Yitzhak Magen and excavation teams",
+    "organization": "Archaeological publication tradition",
+    "notes": "Archaeological basis for the Persian/Hellenistic sanctuary and settlement on Mount Gerizim. The destruction phase is correlated cautiously with Hasmonean historical testimony.",
+    "kind": "archaeology"
+  },
+  {
+    "id": "source-kloner-maresha",
+    "title": "Maresha archaeological publications",
+    "author": "Amos Kloner and collaborators",
+    "organization": "Archaeological publication tradition",
+    "notes": "Used for Hellenistic Maresha/Marisa, its Idumean and cosmopolitan material culture, subterranean complexes and destruction/transition history.",
+    "kind": "archaeology"
+  },
+  {
+    "id": "source-magness-qumran",
+    "title": "The Archaeology of Qumran and the Dead Sea Scrolls",
+    "author": "Jodi Magness",
+    "organization": "Eerdmans",
+    "year": 2002,
+    "notes": "Archaeological synthesis for Khirbet Qumran, settlement phases and material culture. The identity of the community and its relation to the scroll caves remain interpretive questions.",
+    "kind": "modern-scholarship"
+  },
+  {
+    "id": "source-vanderkam-scrolls",
+    "title": "The Dead Sea Scrolls Today",
+    "author": "James C. VanderKam",
+    "organization": "Eerdmans",
+    "notes": "General scholarly reference for manuscript corpus, dating, provenance questions and Second Temple Jewish diversity.",
+    "kind": "modern-scholarship"
+  },
+  {
+    "id": "source-richardson-herod",
+    "title": "Herod: King of the Jews and Friend of the Romans",
+    "author": "Peter Richardson",
+    "organization": "University of South Carolina Press",
+    "year": 1996,
+    "notes": "Historical synthesis for Herod’s rise, Roman relations, administration and building program.",
+    "kind": "modern-scholarship"
+  },
+  {
+    "id": "source-netzer-herod",
+    "title": "The Architecture of Herod, the Great Builder",
+    "author": "Ehud Netzer",
+    "organization": "Mohr Siebeck",
+    "year": 2006,
+    "notes": "Archaeological/architectural synthesis for Herodian palaces, fortresses, Caesarea, Herodium and Jerusalem. Reconstructed elevations are not treated as directly preserved in full.",
+    "kind": "modern-scholarship"
+  },
+  {
+    "id": "source-graf-nabataeans",
+    "title": "Rome and the Arabian Frontier: From the Nabataeans to the Saracens",
+    "author": "David F. Graf",
+    "organization": "Ashgate/Variorum",
+    "notes": "Historical and archaeological context for Nabataean territory, caravan networks and the Roman eastern frontier.",
+    "kind": "modern-scholarship"
+  },
+  {
+    "id": "source-roller-cleopatra",
+    "title": "Cleopatra: A Biography",
+    "author": "Duane W. Roller",
+    "organization": "Oxford University Press",
+    "year": 2010,
+    "notes": "Historical synthesis for Cleopatra VII, Antony, Herod and eastern Mediterranean politics in the late first century BCE.",
+    "kind": "modern-scholarship"
+  },
+  {
+    "id": "source-plutarch-pompey-antony",
+    "title": "Plutarch, Lives of Pompey and Antony",
+    "author": "Plutarch",
+    "dateLabel": "Late first to early second century CE",
+    "notes": "Later ancient biographical evidence for Roman eastern politics. Narrative details are cross-checked with Josephus and other Roman evidence.",
+    "kind": "ancient-literary"
+  },
+  {
+    "id": "source-hengel-judaism-hellenism",
+    "title": "Judaism and Hellenism",
+    "author": "Martin Hengel",
+    "organization": "Fortress Press",
+    "notes": "Influential synthesis on Hellenistic cultural interaction in Judea and the eastern Mediterranean. Used as interpretive context, not as a source of exact map boundaries.",
+    "kind": "modern-scholarship"
+  },
+  {
+    "id": "source-second-temple-atlas",
+    "title": "The Sacred Bridge: Carta’s Atlas of the Biblical World",
+    "author": "Anson F. Rainey and R. Steven Notley",
+    "organization": "Carta",
+    "notes": "Reference for historical geography and chronological orientation. No proprietary atlas geometry is copied; project coordinates and polygons are independently curated and uncertainty-labelled.",
+    "kind": "modern-scholarship"
+  }
+]

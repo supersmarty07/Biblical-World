@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "records": [
+    {
+      "id": "batch10-original",
+      "appliesTo": "Project-authored Revelation records, uncertainty notes, stories, visionary-scene metadata, and generalized context polygons",
+      "license": "CC BY 4.0 recommended for original curated data",
+      "attributionRequired": true,
+      "notes": "Third-party sources retain their own rights. No copyrighted commentary text is reproduced; entries are project-authored summaries and bibliographic citations."
+    },
+    {
+      "id": "revelation-references",
+      "appliesTo": "Canonical Revelation references and ancient-source citations",
+      "license": "References/facts; full source texts not bundled here",
+      "attributionRequired": false,
+      "notes": "The source files cite Revelation, Irenaeus, and modern scholarship without reproducing copyrighted editions."
+    }
+  ]
+}

@@ -1,0 +1,1508 @@
+[
+  {
+    "id": "eden",
+    "name": "Garden of Eden",
+    "aliases": [
+      "Eden"
+    ],
+    "summary": "Genesis presents Eden as the garden associated with the first human story. Its modern geographic location cannot be established, so this atlas deliberately does not place a normal map pin for Eden.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "symbolic",
+      "explanation": "Genesis names rivers in the Eden narrative, including the Tigris and Euphrates, but the other river identifications and the relationship of the description to modern geography are unresolved. A precise coordinate would create false certainty."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 2,
+        "verseStart": 8,
+        "verseEnd": 14,
+        "label": "Genesis 2:8–14"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 3,
+        "label": "Genesis 3"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "historicalContext": "Early Genesis is treated here as literary/theological geography unless a location can be independently identified."
+  },
+  {
+    "id": "mountains-ararat",
+    "name": "Mountains of Ararat",
+    "aliases": [
+      "Ararat"
+    ],
+    "summary": "The flood narrative says the ark came to rest on the “mountains of Ararat,” a regional expression rather than an identification of the modern summit called Mount Ararat.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The map anchor represents the broader Armenian highland/Urartu region for orientation only; Genesis does not specify the modern mountain traditionally called Ararat."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 8,
+        "verseStart": 4,
+        "verseEnd": 4,
+        "label": "Genesis 8:4"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      44.5,
+      39.7
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Broad orientation anchor only; not a claim that the ark landed on modern Mount Ararat."
+  },
+  {
+    "id": "shinar",
+    "name": "Shinar",
+    "aliases": [
+      "Land of Shinar"
+    ],
+    "summary": "A biblical regional name associated with southern Mesopotamia and the Babel narrative.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Shinar is commonly correlated with Babylonia/southern Mesopotamia, but it is a regional term rather than a surveyable modern boundary."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 10,
+        "verseStart": 10,
+        "verseEnd": 10,
+        "label": "Genesis 10:10"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 11,
+        "verseStart": 2,
+        "verseEnd": 9,
+        "label": "Genesis 11:2–9"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      44.4,
+      32.7
+    ],
+    "coordinateRole": "approximate-area",
+    "historicalContext": "Shown as a broad regional anchor, not a political polygon."
+  },
+  {
+    "id": "babylon",
+    "name": "Babel / Babylon",
+    "aliases": [
+      "Babel",
+      "Babylon"
+    ],
+    "summary": "Genesis names Babel in Shinar in the tower narrative. The Hebrew name corresponds to Babylon, although the story’s literary and historical interpretation is distinct from the identification of the later city.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The city of Babylon is archaeologically located; the degree to which Genesis 11 describes a recoverable historical episode is a separate interpretive question."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 11,
+        "verseStart": 1,
+        "verseEnd": 9,
+        "label": "Genesis 11:1–9"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-anchor-yale",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      44.42,
+      32.5364
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "ur",
+    "name": "Ur",
+    "aliases": [
+      "Ur of the Chaldeans",
+      "Tell el-Muqayyar"
+    ],
+    "summary": "The southern Mesopotamian city of Ur is the leading identification for the “Ur of the Chaldeans” named in the patriarchal narrative, though alternative proposals have existed.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tell el-Muqayyar is widely identified with ancient Ur. The additional biblical qualifier “of the Chaldeans” and the patriarchal chronology have generated discussion, so the atlas labels the biblical identification probable rather than absolute."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 11,
+        "verseStart": 28,
+        "verseEnd": 31,
+        "label": "Genesis 11:28–31"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 15,
+        "verseStart": 7,
+        "verseEnd": 7,
+        "label": "Genesis 15:7"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-macmillan-atlas",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      46.1031,
+      30.9625
+    ],
+    "coordinateRole": "candidate-site",
+    "archaeology": "Tell el-Muqayyar preserves the major urban remains of ancient Ur in southern Mesopotamia. The atlas does not infer that a particular excavated house belonged to Abraham.",
+    "interpretations": [
+      {
+        "title": "Southern Mesopotamian Ur (Tell el-Muqayyar)",
+        "status": "probable",
+        "summary": "The conventional and leading historical-geographic identification used for this atlas.",
+        "sourceIds": [
+          "source-sacred-bridge",
+          "source-macmillan-atlas"
+        ]
+      },
+      {
+        "title": "Northern alternatives",
+        "status": "possible",
+        "summary": "Some interpreters have proposed northern locations; the atlas records the existence of alternatives without plotting them as equal-confidence sites in Batch 2.",
+        "sourceIds": [
+          "source-anchor-yale"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "haran",
+    "name": "Haran",
+    "aliases": [
+      "Harran",
+      "Carrhae"
+    ],
+    "summary": "Haran in upper Mesopotamia is a major stop in the Terah/Abraham narrative and later the setting of Jacob’s family story.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The ancient city is securely associated with modern Harran in southeastern Türkiye; the biblical place-name and later classical Carrhae belong to the same long-lived settlement zone."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 11,
+        "verseStart": 31,
+        "verseEnd": 32,
+        "label": "Genesis 11:31–32"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 12,
+        "verseStart": 4,
+        "verseEnd": 5,
+        "label": "Genesis 12:4–5"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 27,
+        "verseStart": 43,
+        "verseEnd": 43,
+        "label": "Genesis 27:43"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 28,
+        "verseStart": 10,
+        "verseEnd": 10,
+        "label": "Genesis 28:10"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      39.0315,
+      36.864
+    ],
+    "coordinateRole": "identified-site",
+    "historicalContext": "Upper Mesopotamian crossroads linking routes toward Syria, Anatolia, and Mesopotamia.",
+    "archaeology": "Harran is an archaeologically documented ancient settlement with a long cultic and urban history. Genesis-specific household details are not archaeologically recoverable."
+  },
+  {
+    "id": "damascus",
+    "name": "Damascus",
+    "aliases": [
+      "Dimashq"
+    ],
+    "summary": "Damascus appears in Abraham’s pursuit narrative in Genesis 14 and serves as an important geographic reference point north of Canaan.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Damascus is one of the ancient Near East’s best-established continuously occupied urban locations; the exact pursuit route in Genesis 14 is not known."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 14,
+        "verseStart": 15,
+        "verseEnd": 15,
+        "label": "Genesis 14:15"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      36.309,
+      33.5138
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "canaan",
+    "name": "Canaan",
+    "aliases": [
+      "Land of Canaan"
+    ],
+    "summary": "Canaan is the principal regional setting of the patriarchal narratives after Abraham’s migration from Haran.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "“Canaan” is well attested as an ancient regional term, but its boundaries varied by period and source. The coordinate is only a map anchor for the southern Levant."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 12,
+        "verseStart": 5,
+        "verseEnd": 6,
+        "label": "Genesis 12:5–6"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 17,
+        "verseStart": 8,
+        "verseEnd": 8,
+        "label": "Genesis 17:8"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.2,
+      31.75
+    ],
+    "coordinateRole": "approximate-area",
+    "historicalContext": "A regional label whose historical extent changes over time; no hard border is asserted here."
+  },
+  {
+    "id": "shechem",
+    "name": "Shechem",
+    "aliases": [
+      "Tell Balata",
+      "Sichem"
+    ],
+    "summary": "Shechem is the first named Canaanite location in Abraham’s journey and later a major setting in Jacob’s story.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Shechem is widely and securely identified with Tell Balata near modern Nablus."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 12,
+        "verseStart": 6,
+        "verseEnd": 7,
+        "label": "Genesis 12:6–7"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 33,
+        "verseStart": 18,
+        "verseEnd": 20,
+        "label": "Genesis 33:18–20"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 34,
+        "label": "Genesis 34"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 37,
+        "verseStart": 12,
+        "verseEnd": 14,
+        "label": "Genesis 37:12–14"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.2896,
+      32.2135
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Tell Balata preserves substantial Bronze and Iron Age urban remains. Archaeology identifies the city; it does not independently verify specific patriarchal episodes."
+  },
+  {
+    "id": "bethel",
+    "name": "Bethel",
+    "aliases": [
+      "Luz",
+      "Beitin"
+    ],
+    "summary": "Bethel is prominent in both Abraham’s and Jacob’s narratives, including Jacob’s dream and later return.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Biblical Bethel is commonly identified with the vicinity of modern Beitin. The identification is strong but not treated as completely beyond dispute."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 12,
+        "verseStart": 8,
+        "verseEnd": 8,
+        "label": "Genesis 12:8"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 13,
+        "verseStart": 3,
+        "verseEnd": 4,
+        "label": "Genesis 13:3–4"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 28,
+        "verseStart": 10,
+        "verseEnd": 22,
+        "label": "Genesis 28:10–22"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 35,
+        "verseStart": 1,
+        "verseEnd": 15,
+        "label": "Genesis 35:1–15"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.222,
+      31.929
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Marker uses the Beitin-area identification.",
+    "archaeology": "The Beitin-area identification rests on historical geography, name continuity, and site evidence; exact locations of the narrative altar or stone cannot be identified archaeologically."
+  },
+  {
+    "id": "ai",
+    "name": "Ai",
+    "aliases": [
+      "Aiath",
+      "et-Tell candidate"
+    ],
+    "summary": "Ai is named near Bethel in Abraham’s route and later becomes important in Joshua. Its precise archaeological identification is debated.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "low",
+      "explanation": "The traditional et-Tell identification creates chronological problems for some historical reconstructions, and alternatives have been proposed. This marker represents a commonly discussed candidate, not a settled identification."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 12,
+        "verseStart": 8,
+        "verseEnd": 8,
+        "label": "Genesis 12:8"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 13,
+        "verseStart": 3,
+        "verseEnd": 3,
+        "label": "Genesis 13:3"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-anchor-yale",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.26,
+      31.916
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Candidate-site marker; not an established identification.",
+    "interpretations": [
+      {
+        "title": "et-Tell",
+        "status": "disputed",
+        "summary": "Frequently identified with Ai in traditional mapping, but archaeological chronology has made the identification controversial.",
+        "sourceIds": [
+          "source-anchor-yale"
+        ]
+      },
+      {
+        "title": "Alternative sites",
+        "status": "possible",
+        "summary": "Other nearby candidates have been proposed; Batch 2 does not endorse a single alternative.",
+        "sourceIds": [
+          "source-anchor-yale"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "negev",
+    "name": "Negev",
+    "aliases": [
+      "Negeb",
+      "South Country"
+    ],
+    "summary": "The Negev is the arid/semi-arid southern zone through which Abraham moves in Genesis.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The Negev is a recognized geographic region, but Genesis does not define a surveyed boundary. The map uses a broad anchor only."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 12,
+        "verseStart": 9,
+        "verseEnd": 9,
+        "label": "Genesis 12:9"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 13,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "Genesis 13:1"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 20,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "Genesis 20:1"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      34.8,
+      30.65
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "egypt",
+    "name": "Egypt",
+    "aliases": [
+      "Mizraim"
+    ],
+    "summary": "Egypt appears repeatedly in Genesis: Abraham goes there during famine, Joseph rises to power there, and Jacob’s household eventually migrates there.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Egypt is geographically certain; this anchor represents the country broadly rather than a specific royal residence or patriarchal stopping point."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 12,
+        "verseStart": 10,
+        "verseEnd": 20,
+        "label": "Genesis 12:10–20"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 37,
+        "verseStart": 28,
+        "verseEnd": 28,
+        "label": "Genesis 37:28"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 41,
+        "label": "Genesis 41"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 46,
+        "verseStart": 1,
+        "verseEnd": 7,
+        "label": "Genesis 46:1–7"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      31.0,
+      29.6
+    ],
+    "coordinateRole": "approximate-area",
+    "historicalContext": "Dynastic correlation for the patriarchal narratives is intentionally not asserted in Batch 2."
+  },
+  {
+    "id": "hebron",
+    "name": "Hebron",
+    "aliases": [
+      "Kiriath-arba",
+      "El-Khalil"
+    ],
+    "summary": "Hebron is one of the central patriarchal locations, associated with Abraham, Sarah, Isaac, Jacob, and the family burial tradition.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The ancient city is securely associated with Hebron. Specific patriarchal-period structures cannot be directly tied to named individuals."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 13,
+        "verseStart": 18,
+        "verseEnd": 18,
+        "label": "Genesis 13:18"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 23,
+        "label": "Genesis 23"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 35,
+        "verseStart": 27,
+        "verseEnd": 29,
+        "label": "Genesis 35:27–29"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 37,
+        "verseStart": 14,
+        "verseEnd": 14,
+        "label": "Genesis 37:14"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.0957,
+      31.5326
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Hebron has a long settlement history. The Cave of Machpelah/Ibrahimi Mosque complex preserves a powerful later monumental tradition over the burial place identified by Jewish, Christian, and Islamic tradition."
+  },
+  {
+    "id": "mamre",
+    "name": "Mamre",
+    "aliases": [
+      "Elonei Mamre",
+      "Ramat el-Khalil tradition"
+    ],
+    "summary": "Mamre is associated with Abraham’s encampment near Hebron and with several key Genesis scenes.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "traditional",
+      "explanation": "Genesis locates Mamre in relation to Hebron; later tradition associates it with a site north of the city. The exact patriarchal encampment or “oaks” cannot be located with precision."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 13,
+        "verseStart": 18,
+        "verseEnd": 18,
+        "label": "Genesis 13:18"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 18,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "Genesis 18:1"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 23,
+        "verseStart": 17,
+        "verseEnd": 19,
+        "label": "Genesis 23:17–19"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.1,
+      31.556
+    ],
+    "coordinateRole": "traditional-site",
+    "locationNote": "Traditional-area marker north of Hebron; not an identified tree or tent location."
+  },
+  {
+    "id": "salem",
+    "name": "Salem",
+    "aliases": [
+      "Jerusalem (probable identification)"
+    ],
+    "summary": "Genesis 14 names Melchizedek as king of Salem. Salem has long been associated with Jerusalem, but Genesis itself does not explicitly state the equivalence.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Jerusalem identification is ancient and widely accepted, but the atlas keeps the textual name “Salem” distinct from later Jerusalem evidence."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 14,
+        "verseStart": 18,
+        "verseEnd": 20,
+        "label": "Genesis 14:18–20"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.235,
+      31.778
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Marker uses Jerusalem as the probable identification of Salem."
+  },
+  {
+    "id": "sodom",
+    "name": "Sodom",
+    "aliases": [],
+    "summary": "Sodom is a major city in the Lot narratives, but its archaeological location remains disputed.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "low",
+      "explanation": "Multiple sites around the Dead Sea have been proposed, especially in southern and northeastern settings. There is no scholarly consensus strong enough for this atlas to place a definitive pin."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 13,
+        "verseStart": 10,
+        "verseEnd": 13,
+        "label": "Genesis 13:10–13"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 18,
+        "verseStart": 16,
+        "verseEnd": 33,
+        "label": "Genesis 18:16–33"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 19,
+        "label": "Genesis 19"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "interpretations": [
+      {
+        "title": "Southern Dead Sea proposals",
+        "status": "possible",
+        "summary": "Several sites near the southern basin have been proposed in relation to the Cities of the Plain.",
+        "sourceIds": [
+          "source-anchor-yale",
+          "source-sacred-bridge"
+        ]
+      },
+      {
+        "title": "Northeastern Dead Sea proposals",
+        "status": "possible",
+        "summary": "Other proposals place Sodom north or northeast of the Dead Sea. No single candidate is treated as established.",
+        "sourceIds": [
+          "source-anchor-yale"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gomorrah",
+    "name": "Gomorrah",
+    "aliases": [],
+    "summary": "Gomorrah is paired with Sodom in Genesis, but no modern archaeological identification is secure enough to map as a point.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "low",
+      "explanation": "Like Sodom, Gomorrah has competing proposals and uncertain correlation with excavated sites."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 14,
+        "verseStart": 8,
+        "verseEnd": 11,
+        "label": "Genesis 14:8–11"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 19,
+        "verseStart": 24,
+        "verseEnd": 29,
+        "label": "Genesis 19:24–29"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ]
+  },
+  {
+    "id": "zoar",
+    "name": "Zoar",
+    "aliases": [
+      "Bela"
+    ],
+    "summary": "Zoar is the small city to which Lot flees in Genesis 19. Its broad setting near the Dead Sea is plausible, but exact identification is uncertain.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "low",
+      "explanation": "The marker is a regional orientation anchor only, not an asserted excavated site."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 14,
+        "verseStart": 2,
+        "verseEnd": 2,
+        "label": "Genesis 14:2"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 19,
+        "verseStart": 20,
+        "verseEnd": 23,
+        "label": "Genesis 19:20–23"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.47,
+      31.05
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Approximate Dead Sea-area anchor; exact site unresolved."
+  },
+  {
+    "id": "jordan-plain",
+    "name": "Plain of the Jordan",
+    "aliases": [
+      "Kikkar of the Jordan"
+    ],
+    "summary": "The well-watered Jordan plain is central to Lot’s choice in Genesis 13. The narrative geography points toward the Jordan/Dead Sea basin, but exact ancient extents and settlement relations are debated.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Shown as a broad basin anchor, not a precise polygon."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 13,
+        "verseStart": 10,
+        "verseEnd": 12,
+        "label": "Genesis 13:10–12"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.53,
+      31.75
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "beersheba",
+    "name": "Beersheba",
+    "aliases": [
+      "Beer-sheba",
+      "Tell es-Seba"
+    ],
+    "summary": "Beersheba is a recurring patriarchal center associated with Abraham, Isaac, and Jacob.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tell es-Seba is the major archaeological site associated with biblical Beersheba, while modern Beersheba lies nearby. The earliest patriarchal-era correlation is more interpretive than later Iron Age identification."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 21,
+        "verseStart": 22,
+        "verseEnd": 34,
+        "label": "Genesis 21:22–34"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 26,
+        "verseStart": 23,
+        "verseEnd": 33,
+        "label": "Genesis 26:23–33"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 28,
+        "verseStart": 10,
+        "verseEnd": 10,
+        "label": "Genesis 28:10"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 46,
+        "verseStart": 1,
+        "verseEnd": 5,
+        "label": "Genesis 46:1–5"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      34.8409,
+      31.2453
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Marker uses Tell es-Seba as the principal archaeological anchor for biblical Beersheba.",
+    "archaeology": "Tell es-Seba is best known for Iron Age remains; the atlas does not identify a specific excavated well as Abraham’s or Isaac’s."
+  },
+  {
+    "id": "gerar",
+    "name": "Gerar",
+    "aliases": [
+      "Tell Haror candidate"
+    ],
+    "summary": "Gerar is associated with Abimelech in the Abraham and Isaac narratives. Its exact location is not completely settled.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "low",
+      "explanation": "Tell Haror is among the commonly proposed identifications, but this remains a candidate-site representation."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 20,
+        "verseStart": 1,
+        "verseEnd": 2,
+        "label": "Genesis 20:1–2"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 26,
+        "verseStart": 1,
+        "verseEnd": 6,
+        "label": "Genesis 26:1–6"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      34.61,
+      31.36
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Candidate-site marker near Tell Haror; alternatives exist.",
+    "interpretations": [
+      {
+        "title": "Tell Haror",
+        "status": "possible",
+        "summary": "A frequently proposed candidate for Gerar used here for orientation only.",
+        "sourceIds": [
+          "source-sacred-bridge",
+          "source-anchor-yale"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beer-lahai-roi",
+    "name": "Beer-lahai-roi",
+    "aliases": [
+      "Beer Lahai Roi"
+    ],
+    "summary": "A well associated with Hagar and later Isaac. Genesis locates it between Kadesh and Bered, but the site has not been securely identified.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "The textual relative location is insufficient to justify a precise modern coordinate."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 16,
+        "verseStart": 13,
+        "verseEnd": 14,
+        "label": "Genesis 16:13–14"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 24,
+        "verseStart": 62,
+        "verseEnd": 62,
+        "label": "Genesis 24:62"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 25,
+        "verseStart": 11,
+        "verseEnd": 11,
+        "label": "Genesis 25:11"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ]
+  },
+  {
+    "id": "moriah",
+    "name": "Moriah",
+    "aliases": [
+      "Land of Moriah",
+      "Mount Moriah"
+    ],
+    "summary": "Genesis 22 sends Abraham to the “land of Moriah.” 2 Chronicles 3:1 later names Mount Moriah as the site of Solomon’s temple in Jerusalem, creating the canonical basis for the traditional Jerusalem identification.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "traditional",
+      "explanation": "The Jerusalem/Temple Mount marker represents the later biblical and long-standing traditional identification. Genesis 22 itself does not provide modern coordinates, so the atlas does not describe the location as archaeologically established for Abraham’s journey."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 22,
+        "verseStart": 1,
+        "verseEnd": 19,
+        "label": "Genesis 22:1–19"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 3,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "2 Chronicles 3:1"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.2354,
+      31.778
+    ],
+    "coordinateRole": "traditional-site",
+    "locationNote": "Traditional/canonical identification at the Temple Mount; exact Genesis-era location remains interpretive.",
+    "interpretations": [
+      {
+        "title": "Temple Mount / Jerusalem",
+        "status": "traditional",
+        "summary": "Supported by the later identification in 2 Chronicles 3:1 and enduring Jewish and Christian tradition.",
+        "sourceIds": [
+          "source-genesis-text",
+          "source-sacred-bridge"
+        ]
+      },
+      {
+        "title": "Broader or alternative Moriah proposals",
+        "status": "possible",
+        "summary": "Genesis speaks of a “land of Moriah,” leaving room for discussion about how directly the later Mount Moriah label should be projected backward.",
+        "sourceIds": [
+          "source-anchor-yale"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "paddan-aram",
+    "name": "Paddan-aram",
+    "aliases": [
+      "Paddan Aram",
+      "Aram-naharaim context"
+    ],
+    "summary": "The regional setting of Jacob’s years with Laban, closely associated with Haran in the Genesis narrative.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Paddan-aram is a regional expression rather than a precisely bounded territory. The anchor is placed near Haran for orientation."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 25,
+        "verseStart": 20,
+        "verseEnd": 20,
+        "label": "Genesis 25:20"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 28,
+        "verseStart": 2,
+        "verseEnd": 7,
+        "label": "Genesis 28:2–7"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 31,
+        "verseStart": 18,
+        "verseEnd": 18,
+        "label": "Genesis 31:18"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      39.05,
+      36.7
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Regional anchor near Harran; not a political boundary."
+  },
+  {
+    "id": "gilead",
+    "name": "Gilead",
+    "aliases": [
+      "Hill Country of Gilead"
+    ],
+    "summary": "The highland region east of the Jordan forms the setting for Jacob’s encounter with Laban on his return from Paddan-aram.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Gilead is a recognizable highland region, but its exact boundaries varied. This point is a regional anchor."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 31,
+        "verseStart": 21,
+        "verseEnd": 25,
+        "label": "Genesis 31:21–25"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.72,
+      32.45
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "mahanaim",
+    "name": "Mahanaim",
+    "aliases": [],
+    "summary": "Jacob names Mahanaim after an encounter with the “camp of God.” The ancient site’s exact modern identification is uncertain.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "low",
+      "explanation": "Several Transjordanian candidates have been proposed. The marker is a cautious orientation point rather than an established tell identification."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 32,
+        "verseStart": 1,
+        "verseEnd": 2,
+        "label": "Genesis 32:1–2"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.67,
+      32.33
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Approximate candidate area east of the Jordan."
+  },
+  {
+    "id": "jabbok",
+    "name": "Jabbok River",
+    "aliases": [
+      "Wadi Zarqa",
+      "Zarqa River"
+    ],
+    "summary": "The Jabbok is the river/wadi associated with Jacob’s night encounter before meeting Esau.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The biblical Jabbok is securely associated with the modern Zarqa River system."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 32,
+        "verseStart": 22,
+        "verseEnd": 24,
+        "label": "Genesis 32:22–24"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.73,
+      32.19
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "peniel",
+    "name": "Peniel / Penuel",
+    "aliases": [
+      "Penuel"
+    ],
+    "summary": "Jacob names the place Peniel after wrestling through the night near the Jabbok. Exact site identification remains uncertain.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "low",
+      "explanation": "The narrative fixes Peniel near the Jabbok, but proposed tells vary. The marker is an approximate candidate-area anchor."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 32,
+        "verseStart": 24,
+        "verseEnd": 31,
+        "label": "Genesis 32:24–31"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.7,
+      32.18
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Approximate Jabbok-area anchor; not an established archaeological identification."
+  },
+  {
+    "id": "succoth",
+    "name": "Succoth",
+    "aliases": [],
+    "summary": "Jacob settles temporarily at Succoth after meeting Esau. The site lies east of the Jordan, but exact identification is debated.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "low",
+      "explanation": "Multiple lower-Jabbok/Jordan-valley candidates have been discussed; this map pin is an orientation candidate only."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 33,
+        "verseStart": 17,
+        "verseEnd": 17,
+        "label": "Genesis 33:17"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.62,
+      32.18
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Approximate candidate area east of the Jordan."
+  },
+  {
+    "id": "dothan",
+    "name": "Dothan",
+    "aliases": [
+      "Tell Dothan"
+    ],
+    "summary": "Dothan is where Joseph finds his brothers before being sold and taken toward Egypt.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "Tell Dothan is widely identified with biblical Dothan and fits the north-central hill-country setting."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 37,
+        "verseStart": 17,
+        "verseEnd": 28,
+        "label": "Genesis 37:17–28"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.238,
+      32.418
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Tell Dothan is an archaeological mound with occupation spanning multiple periods. No specific feature can be tied directly to Joseph."
+  },
+  {
+    "id": "goshen",
+    "name": "Goshen",
+    "aliases": [
+      "Land of Goshen"
+    ],
+    "summary": "Goshen is the region of Egypt in which Joseph settles Jacob’s household according to Genesis.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Goshen is generally placed in the eastern Nile Delta, but its exact historical boundaries and relationship to specific sites vary by reconstruction."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 45,
+        "verseStart": 10,
+        "verseEnd": 10,
+        "label": "Genesis 45:10"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 46,
+        "verseStart": 28,
+        "verseEnd": 34,
+        "label": "Genesis 46:28–34"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 47,
+        "verseStart": 1,
+        "verseEnd": 6,
+        "label": "Genesis 47:1–6"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      31.95,
+      30.65
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Broad eastern-Delta orientation anchor, not a precise border."
+  },
+  {
+    "id": "on",
+    "name": "On / Heliopolis",
+    "aliases": [
+      "Heliopolis",
+      "Iunu"
+    ],
+    "summary": "Joseph marries Asenath, daughter of Potiphera priest of On. On is securely identified with ancient Heliopolis in the Cairo area.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The identification of Egyptian On with Heliopolis is secure; the Genesis narrative’s precise historical setting remains a separate question."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 41,
+        "verseStart": 45,
+        "verseEnd": 50,
+        "label": "Genesis 41:45–50"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 46,
+        "verseStart": 20,
+        "verseEnd": 20,
+        "label": "Genesis 46:20"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      31.287,
+      30.129
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "seir",
+    "name": "Seir / Edom",
+    "aliases": [
+      "Mount Seir",
+      "Edom"
+    ],
+    "summary": "Seir/Edom is associated with Esau and his descendants in Genesis.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Edomite/Seir highlands lie south and southeast of the Dead Sea, but exact territorial limits changed and are not presented as fixed boundaries."
+    },
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 32,
+        "verseStart": 3,
+        "verseEnd": 3,
+        "label": "Genesis 32:3"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 33,
+        "verseStart": 14,
+        "verseEnd": 16,
+        "label": "Genesis 33:14–16"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 36,
+        "verseStart": 8,
+        "verseEnd": 9,
+        "label": "Genesis 36:8–9"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-sacred-bridge",
+      "source-batch2-methodology"
+    ],
+    "coordinates": [
+      35.35,
+      30.4
+    ],
+    "coordinateRole": "approximate-area"
+  }
+]

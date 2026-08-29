@@ -1,0 +1,554 @@
+[
+  {
+    "id": "journey-josiah-megiddo",
+    "name": "Josiah: Jerusalem to Megiddo",
+    "person": "Josiah",
+    "personId": "josiah",
+    "character": "josiah",
+    "summary": "A schematic highland-to-Jezreel route for the final royal journey; only the endpoints are textual.",
+    "segments": [
+      {
+        "id": "josiah-jerusalem-megiddo",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "megiddo",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            35.22,
+            32.05
+          ],
+          [
+            35.22,
+            32.28
+          ],
+          [
+            35.18,
+            32.46
+          ],
+          [
+            35.183,
+            32.585
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 23,
+            "label": "2 Kings 23:29",
+            "verseStart": 29,
+            "verseEnd": 29
+          }
+        ],
+        "sourceIds": [
+          "source-exile-restoration-text",
+          "source-batch6-methodology"
+        ],
+        "note": "No itinerary is preserved; the line follows a generalized northward corridor rather than a recovered path."
+      }
+    ]
+  },
+  {
+    "id": "journey-jehoiachin-exile",
+    "name": "Jehoiachin: Jerusalem to Babylon",
+    "person": "Jehoiachin",
+    "personId": "jehoiachin",
+    "character": "generic",
+    "summary": "The 597 BCE deportation is historically anchored at both ends; the intervening road is a plausible imperial corridor only.",
+    "segments": [
+      {
+        "id": "jehoiachin-jerusalem-babylon",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "babylon",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            36,
+            33
+          ],
+          [
+            36.75,
+            35.13
+          ],
+          [
+            38,
+            36
+          ],
+          [
+            40,
+            35.2
+          ],
+          [
+            42,
+            34
+          ],
+          [
+            44.42,
+            32.54
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 24,
+            "label": "2 Kings 24:12–16",
+            "verseStart": 12,
+            "verseEnd": 16
+          }
+        ],
+        "sourceIds": [
+          "source-exile-restoration-text",
+          "source-batch6-methodology"
+        ],
+        "note": "The text states deportation to Babylon but not the stopping points; the northern arc avoids drawing an implausible straight line across desert."
+      }
+    ]
+  },
+  {
+    "id": "journey-zedekiah-capture",
+    "name": "Zedekiah: Jerusalem → Jericho plains → Riblah",
+    "person": "Zedekiah",
+    "personId": "zedekiah",
+    "character": "zedekiah",
+    "summary": "Named sequence from the failed escape to Babylonian headquarters; segment geometry remains reconstructed.",
+    "segments": [
+      {
+        "id": "zedekiah-jerusalem-jericho",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "jericho",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            35.32,
+            31.79
+          ],
+          [
+            35.39,
+            31.82
+          ],
+          [
+            35.444,
+            31.871
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 25,
+            "label": "2 Kings 25:4–5",
+            "verseStart": 4,
+            "verseEnd": 5
+          }
+        ],
+        "sourceIds": [
+          "source-exile-restoration-text",
+          "source-batch6-methodology"
+        ],
+        "note": "The text gives direction toward the Arabah and capture in the Jericho plains, not a precise path."
+      },
+      {
+        "id": "zedekiah-jericho-riblah",
+        "fromPlaceId": "jericho",
+        "toPlaceId": "riblah",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.444,
+            31.871
+          ],
+          [
+            35.55,
+            32.4
+          ],
+          [
+            35.65,
+            33.1
+          ],
+          [
+            35.8,
+            33.7
+          ],
+          [
+            36,
+            34
+          ],
+          [
+            36.43,
+            34.44
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 25,
+            "label": "2 Kings 25:5–7",
+            "verseStart": 5,
+            "verseEnd": 7
+          }
+        ],
+        "sourceIds": [
+          "source-exile-restoration-text",
+          "source-batch6-methodology"
+        ],
+        "note": "The destination Riblah is named; the transport road between Jericho and Riblah is reconstructed."
+      }
+    ]
+  },
+  {
+    "id": "journey-jeremiah-anathoth-jerusalem",
+    "name": "Jeremiah: Anathoth and Jerusalem",
+    "person": "Jeremiah",
+    "personId": "jeremiah",
+    "character": "jeremiah",
+    "summary": "Short highland visualization connecting Jeremiah’s home town with the city where much of his ministry unfolds.",
+    "segments": [
+      {
+        "id": "jeremiah-anathoth-jerusalem",
+        "fromPlaceId": "anathoth",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.259,
+            31.812
+          ],
+          [
+            35.25,
+            31.8
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Jeremiah",
+            "chapter": 1,
+            "label": "Jeremiah 1:1–3",
+            "verseStart": 1,
+            "verseEnd": 3
+          }
+        ],
+        "sourceIds": [
+          "source-exile-restoration-text",
+          "source-batch6-methodology"
+        ],
+        "note": "The text associates Jeremiah with both places but does not preserve a specific commute or road."
+      }
+    ]
+  },
+  {
+    "id": "journey-refugees-tahpanhes",
+    "name": "Mizpah to Tahpanhes after Gedaliah",
+    "person": "Johanan son of Kareah",
+    "personId": "johanan-kareah",
+    "character": "generic",
+    "summary": "Refugee movement from Judah into Egypt after Gedaliah’s assassination.",
+    "segments": [
+      {
+        "id": "refugees-mizpah-tahpanhes",
+        "fromPlaceId": "mizpah-benjamin",
+        "toPlaceId": "tahpanhes",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.215,
+            31.884
+          ],
+          [
+            34.9,
+            31.6
+          ],
+          [
+            34.5,
+            31.2
+          ],
+          [
+            33.6,
+            30.9
+          ],
+          [
+            32.17,
+            30.86
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Jeremiah",
+            "chapter": 43,
+            "label": "Jeremiah 43:5–7",
+            "verseStart": 5,
+            "verseEnd": 7
+          }
+        ],
+        "sourceIds": [
+          "source-exile-restoration-text",
+          "source-batch6-methodology"
+        ],
+        "note": "Tahpanhes is the textual destination; border crossings and roads are not specified and the line is schematic."
+      }
+    ]
+  },
+  {
+    "id": "journey-zerubbabel-return",
+    "name": "Early return: Babylonia to Jerusalem",
+    "person": "Zerubbabel",
+    "personId": "zerubbabel",
+    "character": "zerubbabel",
+    "summary": "Visualizes the return tradition as a broad Mesopotamia–Levant corridor, not a single documented caravan itinerary.",
+    "segments": [
+      {
+        "id": "zerubbabel-babylon-jerusalem",
+        "fromPlaceId": "babylon",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            44.42,
+            32.54
+          ],
+          [
+            42.2,
+            34
+          ],
+          [
+            40.2,
+            35.1
+          ],
+          [
+            38,
+            36
+          ],
+          [
+            36.7,
+            35.1
+          ],
+          [
+            36.1,
+            34
+          ],
+          [
+            35.5,
+            32.7
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Ezra",
+            "chapter": 2,
+            "label": "Ezra 2:1"
+          },
+          {
+            "book": "Ezra",
+            "chapter": 3,
+            "label": "Ezra 3:1"
+          }
+        ],
+        "sourceIds": [
+          "source-exile-restoration-text",
+          "source-batch6-methodology"
+        ],
+        "note": "Ezra lists origins/returnees and Jerusalem arrival but not a turn-by-turn road; the corridor follows plausible imperial travel geography."
+      }
+    ]
+  },
+  {
+    "id": "journey-ezra-babylon-jerusalem",
+    "name": "Ezra: Babylonia to Jerusalem",
+    "person": "Ezra",
+    "personId": "ezra",
+    "character": "ezra",
+    "summary": "Ezra’s journey is animated between known broad endpoints while Ahava and Casiphia remain unpinned.",
+    "segments": [
+      {
+        "id": "ezra-babylon-jerusalem",
+        "fromPlaceId": "babylon",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            44.42,
+            32.54
+          ],
+          [
+            42.1,
+            34.1
+          ],
+          [
+            40.1,
+            35.2
+          ],
+          [
+            38,
+            36
+          ],
+          [
+            36.8,
+            35
+          ],
+          [
+            36,
+            33.9
+          ],
+          [
+            35.5,
+            32.8
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Ezra",
+            "chapter": 7,
+            "label": "Ezra 7:9",
+            "verseStart": 9,
+            "verseEnd": 9
+          },
+          {
+            "book": "Ezra",
+            "chapter": 8,
+            "label": "Ezra 8:31–32",
+            "verseStart": 31,
+            "verseEnd": 32
+          }
+        ],
+        "sourceIds": [
+          "source-exile-restoration-text",
+          "source-batch6-methodology"
+        ],
+        "note": "Ahava and Casiphia cannot be fixed on the map, so the animation intentionally does not pretend to pass through exact coordinates for them."
+      }
+    ]
+  },
+  {
+    "id": "journey-nehemiah-susa-jerusalem",
+    "name": "Nehemiah: Susa to Jerusalem",
+    "person": "Nehemiah",
+    "personId": "nehemiah",
+    "character": "nehemiah",
+    "summary": "A broad Achaemenid westward travel visualization from Susa to Jerusalem.",
+    "segments": [
+      {
+        "id": "nehemiah-susa-jerusalem",
+        "fromPlaceId": "susa",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            48.25,
+            32.19
+          ],
+          [
+            46.3,
+            32.8
+          ],
+          [
+            44.4,
+            33.1
+          ],
+          [
+            42.2,
+            34.2
+          ],
+          [
+            40,
+            35.3
+          ],
+          [
+            38,
+            36
+          ],
+          [
+            36.7,
+            35
+          ],
+          [
+            35.9,
+            33.6
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Nehemiah",
+            "chapter": 2,
+            "label": "Nehemiah 2:1–11",
+            "verseStart": 1,
+            "verseEnd": 11
+          }
+        ],
+        "sourceIds": [
+          "source-exile-restoration-text",
+          "source-batch6-methodology"
+        ],
+        "note": "Nehemiah mentions royal letters to governors Beyond the River but no complete itinerary; the line is a regional corridor, not an authenticated Persian road trace."
+      }
+    ]
+  },
+  {
+    "id": "journey-cyrus-babylon-context",
+    "name": "Cyrus: Persian conquest reaches Babylon",
+    "person": "Cyrus II",
+    "personId": "cyrus-ii",
+    "character": "cyrus-ii",
+    "summary": "Historical movement visualized from the Iranian royal heartland toward Babylon only as empire-scale orientation.",
+    "segments": [
+      {
+        "id": "cyrus-pasargadae-babylon",
+        "fromPlaceId": "pasargadae",
+        "toPlaceId": "babylon",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            53.167,
+            30.2
+          ],
+          [
+            51.5,
+            30.5
+          ],
+          [
+            49.5,
+            31
+          ],
+          [
+            47.2,
+            31.7
+          ],
+          [
+            44.42,
+            32.54
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-exile-restoration-text",
+          "source-batch6-methodology"
+        ],
+        "note": "This is not a march itinerary from an ancient campaign diary; it is a schematic contextual transition between royal heartland and conquered Babylon."
+      }
+    ]
+  }
+]

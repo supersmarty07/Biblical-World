@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "paul",
+    "name": "Paul / Saul of Tarsus",
+    "aliases": [
+      "Saul",
+      "Saul of Tarsus"
+    ],
+    "era": "first century CE",
+    "summary": "Apostle and missionary central to Acts 9–28 and author of the undisputed Pauline letters. The atlas distinguishes Acts’ narrative chronology from Paul’s own letters where correlations are debated.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 9,
+        "label": "Acts 9:1–30",
+        "verseStart": 1,
+        "verseEnd": 30
+      },
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:9",
+        "verseStart": 9
+      },
+      {
+        "book": "Romans",
+        "chapter": 1,
+        "label": "Romans 1:1",
+        "verseStart": 1
+      },
+      {
+        "book": "Galatians",
+        "chapter": 1,
+        "label": "Galatians 1:1",
+        "verseStart": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "damascus",
+      "tarsus",
+      "antioch-orontes",
+      "corinth",
+      "ephesus",
+      "rome"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-pauline-canonical",
+      "source-paul-chronology-b9"
+    ],
+    "artisticNote": "Artistic silhouette only; not a historical portrait."
+  },
+  {
+    "id": "matthias",
+    "name": "Matthias",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Disciple chosen in Acts 1 to replace Judas among the Twelve.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 1,
+        "label": "Acts 1:15–26",
+        "verseStart": 15,
+        "verseEnd": 26
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "stephen",
+    "name": "Stephen",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Hellenistic Jewish member of the Jerusalem community whose speech and execution dominate Acts 6–7.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 6,
+        "label": "Acts 6:1–15",
+        "verseStart": 1,
+        "verseEnd": 15
+      },
+      {
+        "book": "Acts",
+        "chapter": 7,
+        "label": "Acts 7:1–60",
+        "verseStart": 1,
+        "verseEnd": 60
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "stephen-stoning-site"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "artisticNote": "Artistic silhouette only."
+  },
+  {
+    "id": "philip-evangelist",
+    "name": "Philip the Evangelist",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "One of the Seven in Acts, associated with Samaria, the Gaza road, Azotus, and later Caesarea.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 8,
+        "label": "Acts 8:4–40",
+        "verseStart": 4,
+        "verseEnd": 40
+      },
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:8–9",
+        "verseStart": 8,
+        "verseEnd": 9
+      }
+    ],
+    "relatedPlaceIds": [
+      "samaria-sebaste",
+      "gaza",
+      "azotus",
+      "caesarea-maritima"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "artisticNote": "Artistic silhouette only."
+  },
+  {
+    "id": "barnabas",
+    "name": "Barnabas",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Cypriot Jewish follower of Jesus and major partner of Paul in Antioch and the first missionary journey.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 4,
+        "label": "Acts 4:36–37",
+        "verseStart": 36,
+        "verseEnd": 37
+      },
+      {
+        "book": "Acts",
+        "chapter": 11,
+        "label": "Acts 11:22–30",
+        "verseStart": 22,
+        "verseEnd": 30
+      },
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:1–3",
+        "verseStart": 1,
+        "verseEnd": 3
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "antioch-orontes",
+      "cyprus-acts"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "artisticNote": "Artistic silhouette only."
+  },
+  {
+    "id": "ananias-damascus",
+    "name": "Ananias of Damascus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Disciple in Damascus who visits Saul in Acts 9.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 9,
+        "label": "Acts 9:10–19",
+        "verseStart": 10,
+        "verseEnd": 19
+      },
+      {
+        "book": "Acts",
+        "chapter": 22,
+        "label": "Acts 22:12–16",
+        "verseStart": 12,
+        "verseEnd": 16
+      }
+    ],
+    "relatedPlaceIds": [
+      "damascus",
+      "straight-street-damascus"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "cornelius",
+    "name": "Cornelius",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Roman centurion at Caesarea whose household forms a pivotal episode in Acts 10.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 10,
+        "label": "Acts 10:1–48",
+        "verseStart": 1,
+        "verseEnd": 48
+      }
+    ],
+    "relatedPlaceIds": [
+      "caesarea-maritima",
+      "joppa"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "artisticNote": "Artistic silhouette only."
+  },
+  {
+    "id": "tabitha",
+    "name": "Tabitha / Dorcas",
+    "aliases": [
+      "Dorcas"
+    ],
+    "era": "first century CE",
+    "summary": "Disciple at Joppa raised in the Acts narrative after Peter is summoned from Lydda.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 9,
+        "label": "Acts 9:36–43",
+        "verseStart": 36,
+        "verseEnd": 43
+      }
+    ],
+    "relatedPlaceIds": [
+      "joppa"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "agabus",
+    "name": "Agabus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Prophet in Acts associated with a famine prediction at Antioch and later with Paul’s impending arrest at Caesarea.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 11,
+        "label": "Acts 11:27–30",
+        "verseStart": 27,
+        "verseEnd": 30
+      },
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:10–14",
+        "verseStart": 10,
+        "verseEnd": 14
+      }
+    ],
+    "relatedPlaceIds": [
+      "antioch-orontes",
+      "caesarea-maritima"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "herod-agrippa-i",
+    "name": "Herod Agrippa I",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Herodian ruler who receives Judea and Samaria under Claudius; Acts 12 associates him with James’s execution, Peter’s imprisonment, and his own death at Caesarea.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 12,
+        "label": "Acts 12:1–23",
+        "verseStart": 1,
+        "verseEnd": 23
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "caesarea-maritima"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant19-b9"
+    ]
+  },
+  {
+    "id": "james-brother-jesus",
+    "name": "James, brother of Jesus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Prominent Jerusalem leader in Acts 12, 15, and 21 and in Paul’s letters.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 15,
+        "label": "Acts 15:13–21",
+        "verseStart": 13,
+        "verseEnd": 21
+      },
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:18",
+        "verseStart": 18
+      },
+      {
+        "book": "Galatians",
+        "chapter": 1,
+        "label": "Galatians 1:19",
+        "verseStart": 19
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-pauline-canonical",
+      "source-josephus-ant20-b9"
+    ]
+  },
+  {
+    "id": "john-mark",
+    "name": "John Mark",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Jerusalem-linked associate of Barnabas and Paul who accompanies part of the first journey.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 12,
+        "label": "Acts 12:12,25",
+        "verseStart": 12,
+        "verseEnd": 25
+      },
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:5,13",
+        "verseStart": 5,
+        "verseEnd": 13
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "antioch-orontes",
+      "cyprus-acts",
+      "perga"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "sergius-paulus",
+    "name": "Sergius Paulus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Proconsul of Cyprus named in Acts 13 at Paphos.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:6–12",
+        "verseStart": 6,
+        "verseEnd": 12
+      }
+    ],
+    "relatedPlaceIds": [
+      "paphos"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-cyprus-archaeology-b9"
+    ]
+  },
+  {
+    "id": "elymas",
+    "name": "Bar-Jesus / Elymas",
+    "aliases": [
+      "Bar-Jesus"
+    ],
+    "era": "first century CE",
+    "summary": "Jewish magician/prophet in Acts 13 associated with the Paphos episode.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:6–12",
+        "verseStart": 6,
+        "verseEnd": 12
+      }
+    ],
+    "relatedPlaceIds": [
+      "paphos"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "silas",
+    "name": "Silas / Silvanus",
+    "aliases": [
+      "Silvanus"
+    ],
+    "era": "first century CE",
+    "summary": "Jerusalem delegate and missionary companion of Paul on the second journey.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 15,
+        "label": "Acts 15:22–40",
+        "verseStart": 22,
+        "verseEnd": 40
+      },
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:19–40",
+        "verseStart": 19,
+        "verseEnd": 40
+      },
+      {
+        "book": "1 Thessalonians",
+        "chapter": 1,
+        "label": "1 Thessalonians 1:1",
+        "verseStart": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "antioch-orontes",
+      "philippi",
+      "thessalonica",
+      "corinth"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "artisticNote": "Artistic silhouette only."
+  },
+  {
+    "id": "timothy",
+    "name": "Timothy",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Pauline coworker from the Lystra/Derbe region who joins the journey in Acts 16 and appears in several letters.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:1–5",
+        "verseStart": 1,
+        "verseEnd": 5
+      },
+      {
+        "book": "1 Thessalonians",
+        "chapter": 1,
+        "label": "1 Thessalonians 1:1",
+        "verseStart": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "lystra",
+      "derbe-acts",
+      "thessalonica",
+      "corinth"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "lydia",
+    "name": "Lydia",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Purple-cloth dealer from Thyatira encountered at Philippi in Acts 16.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:14–15,40",
+        "verseStart": 14,
+        "verseEnd": 40
+      }
+    ],
+    "relatedPlaceIds": [
+      "philippi",
+      "gangites-prayer-place"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "artisticNote": "Artistic silhouette only."
+  },
+  {
+    "id": "jason-thessalonica",
+    "name": "Jason of Thessalonica",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Host associated with Paul and Silas in the Thessalonian disturbance of Acts 17.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17:5–9",
+        "verseStart": 5,
+        "verseEnd": 9
+      }
+    ],
+    "relatedPlaceIds": [
+      "thessalonica"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "dionysius-areopagite",
+    "name": "Dionysius the Areopagite",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Athenian hearer named among those who joined Paul after the Areopagus speech.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17:34",
+        "verseStart": 34
+      }
+    ],
+    "relatedPlaceIds": [
+      "athens",
+      "areopagus-athens"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "damaris",
+    "name": "Damaris",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Woman named in Acts 17 among those who believed after Paul’s Athenian address.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17:34",
+        "verseStart": 34
+      }
+    ],
+    "relatedPlaceIds": [
+      "athens"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "priscilla",
+    "name": "Priscilla / Prisca",
+    "aliases": [
+      "Prisca"
+    ],
+    "era": "first century CE",
+    "summary": "Jewish Christian coworker of Paul and Aquila, associated with Corinth, Ephesus, and Rome.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:2–3,18–26",
+        "verseStart": 2,
+        "verseEnd": 26
+      },
+      {
+        "book": "Romans",
+        "chapter": 16,
+        "label": "Romans 16:3",
+        "verseStart": 3
+      }
+    ],
+    "relatedPlaceIds": [
+      "rome",
+      "corinth",
+      "ephesus"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "artisticNote": "Artistic silhouette only."
+  },
+  {
+    "id": "aquila",
+    "name": "Aquila",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Jewish Christian coworker of Priscilla and Paul, originally of Pontus and associated with Rome, Corinth, and Ephesus.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:2–3,18–26",
+        "verseStart": 2,
+        "verseEnd": 26
+      },
+      {
+        "book": "Romans",
+        "chapter": 16,
+        "label": "Romans 16:3",
+        "verseStart": 3
+      }
+    ],
+    "relatedPlaceIds": [
+      "rome",
+      "corinth",
+      "ephesus"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "artisticNote": "Artistic silhouette only."
+  },
+  {
+    "id": "claudius-emperor",
+    "name": "Claudius",
+    "aliases": [],
+    "era": "Roman emperor, 41–54 CE",
+    "summary": "Roman emperor (41–54 CE), relevant to Agrippa I, the Judean famine context, and Acts 18’s notice of Jews leaving Rome.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 11,
+        "label": "Acts 11:28",
+        "verseStart": 28
+      },
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:2",
+        "verseStart": 2
+      }
+    ],
+    "relatedPlaceIds": [
+      "rome",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant19-b9",
+      "source-josephus-ant20-b9",
+      "source-suetonius-claudius25"
+    ]
+  },
+  {
+    "id": "gallio",
+    "name": "Lucius Junius Gallio Annaeanus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Roman proconsul of Achaia before whom Acts places a case against Paul in Corinth.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:12–17",
+        "verseStart": 12,
+        "verseEnd": 17
+      }
+    ],
+    "relatedPlaceIds": [
+      "corinth",
+      "corinth-bema"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-gallio-inscription"
+    ]
+  },
+  {
+    "id": "crispus",
+    "name": "Crispus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Synagogue leader in Corinth named in Acts 18 and 1 Corinthians 1.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:8",
+        "verseStart": 8
+      },
+      {
+        "book": "1 Corinthians",
+        "chapter": 1,
+        "label": "1 Corinthians 1:14",
+        "verseStart": 14
+      }
+    ],
+    "relatedPlaceIds": [
+      "corinth"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "sosthenes",
+    "name": "Sosthenes",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Synagogue leader named in Acts 18; a Sosthenes also appears in 1 Corinthians 1:1, but identity is not assumed as certain.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:17",
+        "verseStart": 17
+      },
+      {
+        "book": "1 Corinthians",
+        "chapter": 1,
+        "label": "1 Corinthians 1:1",
+        "verseStart": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "corinth"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "apollos",
+    "name": "Apollos",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Alexandrian Jewish teacher active in Ephesus and Corinth in Acts 18–19 and 1 Corinthians.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:24–28",
+        "verseStart": 24,
+        "verseEnd": 28
+      },
+      {
+        "book": "1 Corinthians",
+        "chapter": 3,
+        "label": "1 Corinthians 3:4–6",
+        "verseStart": 4,
+        "verseEnd": 6
+      }
+    ],
+    "relatedPlaceIds": [
+      "ephesus",
+      "corinth"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "demetrius-ephesus",
+    "name": "Demetrius of Ephesus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Silversmith named in Acts 19 as an organizer of the disturbance connected with Artemis-related craft.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 19,
+        "label": "Acts 19:23–28",
+        "verseStart": 23,
+        "verseEnd": 28
+      }
+    ],
+    "relatedPlaceIds": [
+      "ephesus",
+      "ephesus-theater",
+      "artemision-ephesus"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "tyrannus",
+    "name": "Tyrannus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Person associated with the lecture hall used by Paul in Acts 19.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 19,
+        "label": "Acts 19:9",
+        "verseStart": 9
+      }
+    ],
+    "relatedPlaceIds": [
+      "ephesus",
+      "hall-tyrannus"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "eutychus",
+    "name": "Eutychus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Young man in the Troas narrative of Acts 20.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:7–12",
+        "verseStart": 7,
+        "verseEnd": 12
+      }
+    ],
+    "relatedPlaceIds": [
+      "alexandria-troas"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "trophimus",
+    "name": "Trophimus the Ephesian",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Pauline companion from Asia whose presence becomes part of the accusation leading to Paul’s Jerusalem arrest.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:4",
+        "verseStart": 4
+      },
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:29",
+        "verseStart": 29
+      }
+    ],
+    "relatedPlaceIds": [
+      "ephesus",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "claudius-lysias",
+    "name": "Claudius Lysias",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Roman tribune in Jerusalem who arrests/protects Paul and transfers him toward Caesarea.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:31–40",
+        "verseStart": 31,
+        "verseEnd": 40
+      },
+      {
+        "book": "Acts",
+        "chapter": 23,
+        "label": "Acts 23:23–30",
+        "verseStart": 23,
+        "verseEnd": 30
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "antipatris",
+      "caesarea-maritima"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "ananias-high-priest",
+    "name": "Ananias son of Nedebaios",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Jerusalem high priest who appears in Acts 23–24 and is also known from Josephus.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 23,
+        "label": "Acts 23:2",
+        "verseStart": 2
+      },
+      {
+        "book": "Acts",
+        "chapter": 24,
+        "label": "Acts 24:1",
+        "verseStart": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "caesarea-maritima"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant20-b9"
+    ]
+  },
+  {
+    "id": "felix",
+    "name": "Antonius Felix",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Roman procurator of Judea before whom Paul is held and heard at Caesarea.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 23,
+        "label": "Acts 23:24",
+        "verseStart": 24
+      },
+      {
+        "book": "Acts",
+        "chapter": 24,
+        "label": "Acts 24:1–27",
+        "verseStart": 1,
+        "verseEnd": 27
+      }
+    ],
+    "relatedPlaceIds": [
+      "caesarea-maritima"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant20-b9",
+      "source-josephus-war2-b9"
+    ]
+  },
+  {
+    "id": "drusilla",
+    "name": "Drusilla",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Jewish wife of Felix who appears with him in Acts 24.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 24,
+        "label": "Acts 24:24",
+        "verseStart": 24
+      }
+    ],
+    "relatedPlaceIds": [
+      "caesarea-maritima"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant20-b9"
+    ]
+  },
+  {
+    "id": "porcius-festus",
+    "name": "Porcius Festus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Roman procurator who succeeds Felix and hears Paul’s case at Caesarea.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 24,
+        "label": "Acts 24:27",
+        "verseStart": 27
+      },
+      {
+        "book": "Acts",
+        "chapter": 25,
+        "label": "Acts 25:1–27",
+        "verseStart": 1,
+        "verseEnd": 27
+      }
+    ],
+    "relatedPlaceIds": [
+      "caesarea-maritima",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant20-b9"
+    ]
+  },
+  {
+    "id": "herod-agrippa-ii",
+    "name": "Herod Agrippa II",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Herodian ruler who hears Paul with Bernice at Caesarea in Acts 25–26.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 25,
+        "label": "Acts 25:13–27",
+        "verseStart": 13,
+        "verseEnd": 27
+      },
+      {
+        "book": "Acts",
+        "chapter": 26,
+        "label": "Acts 26:1–32",
+        "verseStart": 1,
+        "verseEnd": 32
+      }
+    ],
+    "relatedPlaceIds": [
+      "caesarea-maritima"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant20-b9",
+      "source-josephus-war2-b9"
+    ],
+    "artisticNote": "Artistic silhouette only."
+  },
+  {
+    "id": "berenice",
+    "name": "Berenice",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Sister of Agrippa II who appears with him in Caesarea during Paul’s hearing.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 25,
+        "label": "Acts 25:13,23",
+        "verseStart": 13,
+        "verseEnd": 23
+      }
+    ],
+    "relatedPlaceIds": [
+      "caesarea-maritima"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant20-b9"
+    ]
+  },
+  {
+    "id": "julius-centurion",
+    "name": "Julius the centurion",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Centurion of the Augustan cohort charged with transporting Paul toward Rome in Acts 27.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:1–3",
+        "verseStart": 1,
+        "verseEnd": 3
+      }
+    ],
+    "relatedPlaceIds": [
+      "caesarea-maritima",
+      "sidon-monarchy",
+      "myra",
+      "malta-acts",
+      "rome"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "aristarchus",
+    "name": "Aristarchus of Thessalonica",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Macedonian companion of Paul named in Acts 19, 20, and the voyage narrative.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 19,
+        "label": "Acts 19:29",
+        "verseStart": 29
+      },
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:4",
+        "verseStart": 4
+      },
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:2",
+        "verseStart": 2
+      }
+    ],
+    "relatedPlaceIds": [
+      "thessalonica",
+      "ephesus",
+      "caesarea-maritima",
+      "rome"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "publius-malta",
+    "name": "Publius of Malta",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Leading man of the island named in Acts 28 who receives Paul’s party.",
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:7–10",
+        "verseStart": 7,
+        "verseEnd": 10
+      }
+    ],
+    "relatedPlaceIds": [
+      "malta-acts"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "epaphras",
+    "name": "Epaphras",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Coworker associated with Colossae, Laodicea, and Hierapolis in Colossians.",
+    "scripture": [
+      {
+        "book": "Colossians",
+        "chapter": 1,
+        "label": "Colossians 1:7–8",
+        "verseStart": 7,
+        "verseEnd": 8
+      },
+      {
+        "book": "Colossians",
+        "chapter": 4,
+        "label": "Colossians 4:12–13",
+        "verseStart": 12,
+        "verseEnd": 13
+      }
+    ],
+    "relatedPlaceIds": [
+      "colossae",
+      "laodicea-lycus",
+      "hierapolis"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-pauline-canonical",
+      "source-colossae-lycus-b9"
+    ]
+  },
+  {
+    "id": "philemon",
+    "name": "Philemon",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Recipient of the letter to Philemon, associated by the letter’s network with the Colossian context.",
+    "scripture": [
+      {
+        "book": "Philemon",
+        "chapter": 1,
+        "label": "Philemon 1:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      }
+    ],
+    "relatedPlaceIds": [
+      "colossae"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-pauline-canonical",
+      "source-colossae-lycus-b9"
+    ]
+  },
+  {
+    "id": "onesimus",
+    "name": "Onesimus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Figure central to Philemon and named in Colossians 4:9.",
+    "scripture": [
+      {
+        "book": "Philemon",
+        "chapter": 1,
+        "label": "Philemon 1:10–16",
+        "verseStart": 10,
+        "verseEnd": 16
+      },
+      {
+        "book": "Colossians",
+        "chapter": 4,
+        "label": "Colossians 4:9",
+        "verseStart": 9
+      }
+    ],
+    "relatedPlaceIds": [
+      "colossae"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-pauline-canonical",
+      "source-colossae-lycus-b9"
+    ]
+  },
+  {
+    "id": "titus",
+    "name": "Titus",
+    "aliases": [],
+    "era": "first century CE",
+    "summary": "Pauline coworker prominent in Galatians and 2 Corinthians; he is not named in Acts.",
+    "scripture": [
+      {
+        "book": "Galatians",
+        "chapter": 2,
+        "label": "Galatians 2:1–3",
+        "verseStart": 1,
+        "verseEnd": 3
+      },
+      {
+        "book": "2 Corinthians",
+        "chapter": 8,
+        "label": "2 Corinthians 8:16–24",
+        "verseStart": 16,
+        "verseEnd": 24
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "corinth"
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-pauline-canonical",
+      "source-paul-chronology-b9"
+    ]
+  }
+]

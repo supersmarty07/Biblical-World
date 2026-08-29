@@ -1,0 +1,38 @@
+[
+  {
+    "id": "abraham-preview",
+    "name": "Patriarchal Journey Preview",
+    "person": "Abraham",
+    "summary": "A Batch 1 structural route demonstrating animation and route-certainty styling. It is not the final reconstructed journey.",
+    "demo": true,
+    "segments": [
+      {
+        "id": "ur-haran-preview",
+        "fromPlaceId": "ur-demo",
+        "toPlaceId": "haran-demo",
+        "routeCertainty": "reconstructed",
+        "coordinates": [[46.1031,30.9625],[43.8,33.3],[41.5,35.2],[39.0315,36.864]],
+        "scripture": [{ "book": "Genesis", "chapter": 11, "verseStart": 31, "label": "Genesis 11:31" }],
+        "sourceIds": ["source-batch1-methodology"]
+      },
+      {
+        "id": "haran-shechem-preview",
+        "fromPlaceId": "haran-demo",
+        "toPlaceId": "shechem-demo",
+        "routeCertainty": "reconstructed",
+        "coordinates": [[39.0315,36.864],[37.3,35.9],[36.3,34.4],[35.65,33.1],[35.2896,32.2135]],
+        "scripture": [{ "book": "Genesis", "chapter": 12, "verseStart": 4, "verseEnd": 6, "label": "Genesis 12:4–6" }],
+        "sourceIds": ["source-batch1-methodology"]
+      },
+      {
+        "id": "shechem-hebron-preview",
+        "fromPlaceId": "shechem-demo",
+        "toPlaceId": "hebron-demo",
+        "routeCertainty": "reconstructed",
+        "coordinates": [[35.2896,32.2135],[35.222,31.929],[35.17,31.72],[35.0957,31.5326]],
+        "scripture": [{ "book": "Genesis", "chapter": 13, "verseStart": 18, "label": "Genesis 13:18" }],
+        "sourceIds": ["source-batch1-methodology"]
+      }
+    ]
+  }
+]

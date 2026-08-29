@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "records": [
+    {
+      "id": "batch2-original-curation",
+      "scope": "public/data/genesis/*.json and context-regions.geojson except third-party quotations/assets",
+      "thirdParty": false,
+      "status": "original-curation",
+      "notes": "Project-authored metadata, summaries, uncertainty classifications, route reconstructions, and broad context polygons. These should be re-reviewed against pinpoint scholarly citations before claiming academic completeness."
+    },
+    {
+      "id": "bsb-status",
+      "scope": "Scripture references only in Batch 2",
+      "thirdParty": true,
+      "status": "CC0/public-domain-research-note",
+      "notes": "The user supplied 2026 research stating that the Berean Standard Bible entered the public domain/CC0 in 2023. Batch 2 does not bundle the full text."
+    },
+    {
+      "id": "pleiades-status",
+      "scope": "source metadata only",
+      "thirdParty": true,
+      "status": "CC-BY-research-note",
+      "notes": "No Pleiades bulk data is bundled in Batch 2. Exact upstream version/license wording must be rechecked before importing a dump."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "roman-asia-b10",
+        "name": "Roman Asia — broad late-first-century orientation",
+        "validFrom": 80,
+        "validTo": 110,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-b10-methodology",
+          "source-barrington-revelation"
+        ],
+        "note": "Highly generalized provincial orientation only; not a surveyed or year-exact frontier.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.0,
+              36.7
+            ],
+            [
+              30.7,
+              36.7
+            ],
+            [
+              30.7,
+              40.2
+            ],
+            [
+              26.0,
+              40.2
+            ],
+            [
+              26.0,
+              36.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "aegean-islands-b10",
+        "name": "Aegean islands — Patmos orientation",
+        "validFrom": 80,
+        "validTo": 110,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-b10-methodology",
+          "source-barrington-revelation"
+        ],
+        "note": "Schematic maritime orientation only; not an administrative border.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.7,
+              36.8
+            ],
+            [
+              27.2,
+              36.8
+            ],
+            [
+              27.2,
+              38.2
+            ],
+            [
+              25.7,
+              38.2
+            ],
+            [
+              25.7,
+              36.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "roman-aegean-network-b10",
+        "name": "Western Anatolian Roman urban network — orientation",
+        "validFrom": 80,
+        "validTo": 110,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-b10-methodology",
+          "source-barrington-revelation"
+        ],
+        "note": "Schematic regional frame around the seven churches; not a formal ancient territorial unit.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.6,
+              37.5
+            ],
+            [
+              29.8,
+              37.5
+            ],
+            [
+              29.8,
+              39.5
+            ],
+            [
+              26.6,
+              39.5
+            ],
+            [
+              26.6,
+              37.5
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

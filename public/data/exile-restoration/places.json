@@ -1,0 +1,1418 @@
+[
+  {
+    "id": "anathoth",
+    "name": "Anathoth",
+    "aliases": [
+      "Anata",
+      "Anathoth of Benjamin"
+    ],
+    "coordinates": [
+      35.259,
+      31.812
+    ],
+    "coordinateRole": "candidate-site",
+    "summary": "Priestly town associated with Jeremiah’s family and land purchase; commonly identified with the village area of Anata northeast of Jerusalem.",
+    "historicalContext": "Anathoth belongs to the Benjamin/Judah highland setting immediately before and during the Babylonian crisis.",
+    "archaeology": "The general identification is strong in historical geography, but the exact ancient settlement footprint and Jeremiah’s field are not recoverable as named archaeological features.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The modern Anata area preserves the name and fits the textual geography, but the atlas does not claim a precisely excavated “house of Jeremiah.”"
+    },
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 1,
+        "label": "Jeremiah 1:1"
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 32,
+        "label": "Jeremiah 32:6–15",
+        "verseStart": 6,
+        "verseEnd": 15
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ]
+  },
+  {
+    "id": "valley-hinnom",
+    "name": "Valley of Hinnom",
+    "aliases": [
+      "Ge Hinnom",
+      "Valley of Ben Hinnom"
+    ],
+    "coordinates": [
+      35.227,
+      31.768
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "The valley system south/west of ancient Jerusalem is secure; this coordinate is only a display anchor.",
+    "summary": "Valley adjoining Jerusalem, central to Jeremiah’s denunciation of Topheth and later Gehenna traditions.",
+    "historicalContext": "The valley forms part of Jerusalem’s Iron Age topography and helps orient Jeremiah’s judgment oracles.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The valley’s broad topographic identity is secure, but individual ritual loci within it are less certain."
+    },
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 7,
+        "label": "Jeremiah 7:31–32",
+        "verseStart": 31,
+        "verseEnd": 32
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 19,
+        "label": "Jeremiah 19:1–13",
+        "verseStart": 1,
+        "verseEnd": 13
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ]
+  },
+  {
+    "id": "topheth",
+    "name": "Topheth",
+    "aliases": [
+      "Tophet"
+    ],
+    "summary": "Cultic place condemned by Jeremiah in the Valley of Ben Hinnom.",
+    "historicalContext": "The biblical texts locate Topheth in the Hinnom valley complex, but do not give a recoverable modern coordinate.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The valley context is clear; the exact ritual site is not established sufficiently to justify a normal map pin."
+    },
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 7,
+        "label": "Jeremiah 7:31–32",
+        "verseStart": 31,
+        "verseEnd": 32
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 19,
+        "label": "Jeremiah 19:6",
+        "verseStart": 6,
+        "verseEnd": 6
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ]
+  },
+  {
+    "id": "ketef-hinnom",
+    "name": "Ketef Hinnom",
+    "aliases": [],
+    "coordinates": [
+      35.2288,
+      31.7688
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Jerusalem burial-cave complex where two small silver amulets preserving wording related to the priestly blessing were discovered.",
+    "historicalContext": "The finds illuminate late Iron Age religious/textual culture near the end of the monarchy; they do not name Jeremiah, Josiah, or another biblical individual.",
+    "archaeology": "The silver amulets are among the most important epigraphic finds from late pre-exilic Jerusalem.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The archaeological site and find context are established; historical interpretation is kept separate from biblical ownership claims."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-ketef-hinnom",
+      "source-lipschits-fall-rise"
+    ]
+  },
+  {
+    "id": "ramat-rahel",
+    "name": "Ramat Rahel",
+    "aliases": [
+      "Khirbet Salih"
+    ],
+    "coordinates": [
+      35.216,
+      31.739
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Major administrative and elite complex south of Jerusalem with important late Iron Age, Babylonian, and Persian-period phases.",
+    "historicalContext": "Ramat Rahel helps visualize continuity and administrative reorganization in Judah/Yehud across the Babylonian and Persian transitions.",
+    "archaeology": "Excavations document monumental architecture, stamped storage systems, and long-term administrative significance. Identifying specific officials remains interpretive.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The site is secure; its administrative role is strongly supported, while person-specific identifications are avoided."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-ramat-rahel",
+      "source-lipschits-fall-rise",
+      "source-grabbe-second-temple"
+    ]
+  },
+  {
+    "id": "riblah",
+    "name": "Riblah",
+    "aliases": [
+      "Riblah in the land of Hamath"
+    ],
+    "coordinates": [
+      36.43,
+      34.44
+    ],
+    "coordinateRole": "candidate-site",
+    "summary": "Northern Syrian headquarters where the biblical narrative places Nebuchadnezzar during the final judgment on Zedekiah and Judean officials.",
+    "locationNote": "Commonly identified near modern Ribleh on the Orontes corridor; exact ancient extent is imperfectly known.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "The regional identification near Ribleh fits name and route geography; the exact camp/royal headquarters cannot be pinpointed."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 23,
+        "label": "2 Kings 23:33",
+        "verseStart": 33,
+        "verseEnd": 33
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 25,
+        "label": "2 Kings 25:6–21",
+        "verseStart": 6,
+        "verseEnd": 21
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 39,
+        "label": "Jeremiah 39:5–7",
+        "verseStart": 5,
+        "verseEnd": 7
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings",
+      "source-batch6-methodology"
+    ]
+  },
+  {
+    "id": "carchemish",
+    "name": "Carchemish",
+    "aliases": [
+      "Karkemish",
+      "Jerablus/Karkamış site"
+    ],
+    "coordinates": [
+      38.015,
+      36.829
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Major Euphrates city where Babylonian and Egyptian forces fought in 605 BCE, a crucial chronological anchor for the end of Judah’s independence.",
+    "archaeology": "The site is securely identified on the Turkey–Syria border. The 605 BCE battle is independently situated in Babylonian chronicle evidence.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Carchemish is securely identified archaeologically and historically."
+    },
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 46,
+        "label": "Jeremiah 46:2",
+        "verseStart": 2,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-babylonian-chronicle-5",
+      "source-cogan-tadmor-kings"
+    ]
+  },
+  {
+    "id": "hamath-syria",
+    "name": "Hamath",
+    "aliases": [
+      "Hama"
+    ],
+    "coordinates": [
+      36.75,
+      35.13
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Major Syrian city/region on the Orontes corridor, useful for understanding Riblah and northward imperial routes.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Hamath is securely associated with modern Hama; biblical “land of Hamath” can denote a wider region."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 25,
+        "label": "2 Kings 25:21",
+        "verseStart": 21,
+        "verseEnd": 21
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 39,
+        "label": "Jeremiah 39:5",
+        "verseStart": 5,
+        "verseEnd": 5
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings"
+    ]
+  },
+  {
+    "id": "tahpanhes",
+    "name": "Tahpanhes",
+    "aliases": [
+      "Tahpanhes / Tahpanhes",
+      "Daphnae",
+      "Tell Defenneh"
+    ],
+    "coordinates": [
+      32.17,
+      30.86
+    ],
+    "coordinateRole": "candidate-site",
+    "summary": "Eastern Nile Delta site associated with the Judean refugees and Jeremiah after Gedaliah’s assassination.",
+    "archaeology": "Tell Defenneh is the standard candidate for Daphnae/Tahpanhes; exact identification details and specific “palace pavement” correlations require caution.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tell Defenneh is the leading historical-geographic identification, but the atlas does not identify a particular excavated surface as Jeremiah’s action site."
+    },
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 43,
+        "label": "Jeremiah 43:7–13",
+        "verseStart": 7,
+        "verseEnd": 13
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 44,
+        "label": "Jeremiah 44:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah",
+      "source-batch6-methodology"
+    ]
+  },
+  {
+    "id": "memphis-egypt",
+    "name": "Memphis (Noph)",
+    "aliases": [
+      "Noph",
+      "Memphis"
+    ],
+    "coordinates": [
+      31.25,
+      29.85
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Ancient Egyptian capital region named Noph in Jeremiah; important context for Judean communities in Egypt.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Noph is securely identified with Memphis in standard historical geography."
+    },
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 44,
+        "label": "Jeremiah 44:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 46,
+        "label": "Jeremiah 46:14",
+        "verseStart": 14,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ]
+  },
+  {
+    "id": "pathros",
+    "name": "Pathros / Upper Egypt",
+    "aliases": [
+      "Pathros"
+    ],
+    "coordinates": [
+      32.65,
+      26
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Pathros is a regional designation for Upper Egypt; the coordinate is only a map label anchor.",
+    "summary": "Regional name for Upper Egypt, included among places where Judeans are addressed in Jeremiah 44.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "The general association with Upper Egypt is strong; no single city coordinate should represent the region."
+    },
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 44,
+        "label": "Jeremiah 44:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ]
+  },
+  {
+    "id": "migdol-jeremiah",
+    "name": "Migdol in Jeremiah’s Egyptian setting",
+    "aliases": [
+      "Migdol"
+    ],
+    "summary": "An Egyptian place named with Tahpanhes, Noph, and Pathros in Jeremiah 44; multiple eastern-Delta sites named “Migdol/tower” complicate exact identification.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The textual region is Egyptian, but the exact Migdol intended is insufficiently secure for a pin."
+    },
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 44,
+        "label": "Jeremiah 44:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 46,
+        "label": "Jeremiah 46:14",
+        "verseStart": 14,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ]
+  },
+  {
+    "id": "perath-jeremiah",
+    "name": "Perath in Jeremiah 13",
+    "aliases": [
+      "Perath",
+      "Euphrates?"
+    ],
+    "summary": "Place/river term in Jeremiah’s linen-belt sign action. The Hebrew commonly denotes the Euphrates, but the extraordinary travel implied has generated alternative local proposals.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The lexical reading “Euphrates” is straightforward, while some interpreters propose a local site such as Parah. The atlas leaves the sign-action location unpinned."
+    },
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 13,
+        "label": "Jeremiah 13:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ],
+    "interpretations": [
+      {
+        "title": "Euphrates reading",
+        "status": "probable",
+        "summary": "Hebrew perat ordinarily names the Euphrates; the narrative may intentionally emphasize a long symbolic journey.",
+        "sourceIds": [
+          "source-exile-restoration-text",
+          "source-thompson-jeremiah"
+        ]
+      },
+      {
+        "title": "Local Parah proposal",
+        "status": "possible",
+        "summary": "Some interpreters have proposed Parah near Anathoth to avoid repeated Euphrates travel; this is not certain.",
+        "sourceIds": [
+          "source-thompson-jeremiah",
+          "source-batch6-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "neo-babylonian-empire",
+    "name": "Neo-Babylonian Empire",
+    "aliases": [
+      "Chaldean Empire"
+    ],
+    "coordinates": [
+      44.42,
+      32.54
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "The point is a searchable label near Babylon, not an empire centroid or border claim.",
+    "summary": "Mesopotamian empire under Nabopolassar and Nebuchadnezzar II that defeated Egypt’s position in Syria-Palestine and conquered Judah.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The empire is historically established; the searchable point is only an anchor and changing imperial borders are rendered separately as generalized context."
+    },
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 24,
+        "label": "2 Kings 24–25"
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 25,
+        "label": "Jeremiah 25"
+      }
+    ],
+    "sourceIds": [
+      "source-babylonian-chronicle-5",
+      "source-lipschits-fall-rise",
+      "source-briant-persia"
+    ]
+  },
+  {
+    "id": "babylon-southern-palace",
+    "name": "Nebuchadnezzar II’s Southern Palace at Babylon",
+    "aliases": [
+      "Southern Palace"
+    ],
+    "coordinates": [
+      44.4207,
+      32.5364
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Excavated Neo-Babylonian royal palace complex at Babylon, useful context for the court world imagined in Daniel.",
+    "archaeology": "The palace complex is archaeological reality; the atlas does not label a specific hall as the scene of Daniel 5.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The palace complex is established; correlation with a particular biblical court scene is not archaeologically demonstrated."
+    },
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 1,
+        "label": "Daniel 1"
+      },
+      {
+        "book": "Daniel",
+        "chapter": 5,
+        "label": "Daniel 5"
+      }
+    ],
+    "sourceIds": [
+      "source-collins-daniel",
+      "source-batch6-methodology"
+    ]
+  },
+  {
+    "id": "nippur",
+    "name": "Nippur",
+    "aliases": [
+      "Nuffar"
+    ],
+    "coordinates": [
+      45.234,
+      32.126
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Major Babylonian city and administrative landscape south-east of Babylon; important for locating exilic settlement evidence in central/southern Babylonia.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Nippur is securely identified archaeologically."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-al-yahudu",
+      "source-block-ezekiel",
+      "source-batch6-methodology"
+    ]
+  },
+  {
+    "id": "kebar-canal",
+    "name": "Kebar Canal",
+    "aliases": [
+      "Chebar",
+      "Kebar",
+      "Naru Kabari"
+    ],
+    "coordinates": [
+      45.1,
+      32.25
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Displayed in central Babylonia as an approximate area anchor. This is not an exact reconstructed canal course.",
+    "summary": "Babylonian waterway beside which Ezekiel locates himself among the exiles.",
+    "historicalContext": "The Kebar should not be confused with the Khabur River in northern Mesopotamia; scholarship commonly relates it to a Babylonian canal system.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "The Babylonian canal context is strong, while the precise ancient watercourse cannot responsibly be drawn as a modern line from the biblical text alone."
+    },
+    "scripture": [
+      {
+        "book": "Ezekiel",
+        "chapter": 1,
+        "label": "Ezekiel 1:1–3",
+        "verseStart": 1,
+        "verseEnd": 3
+      },
+      {
+        "book": "Ezekiel",
+        "chapter": 3,
+        "label": "Ezekiel 3:15",
+        "verseStart": 15,
+        "verseEnd": 15
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-block-ezekiel",
+      "source-batch6-methodology"
+    ]
+  },
+  {
+    "id": "tel-abib-exile",
+    "name": "Tel-abib in Babylonia",
+    "aliases": [
+      "Tel Abib"
+    ],
+    "summary": "Settlement by the Kebar where Ezekiel says he sat among the exiles. It is unrelated to the modern Israeli city Tel Aviv.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "high",
+      "explanation": "Its Babylonian setting by the Kebar is textual, but no secure archaeological coordinate is established."
+    },
+    "scripture": [
+      {
+        "book": "Ezekiel",
+        "chapter": 3,
+        "label": "Ezekiel 3:15",
+        "verseStart": 15,
+        "verseEnd": 15
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-block-ezekiel"
+    ]
+  },
+  {
+    "id": "al-yahudu",
+    "name": "Al-Yahudu (“Town of Judah”)",
+    "aliases": [
+      "Āl-Yāhūdu"
+    ],
+    "summary": "Settlement known from cuneiform documents involving Judeans in Babylonia, important independent evidence for exile-community life.",
+    "historicalContext": "The tablets document families, land tenure, obligations, and economic integration over generations.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "high",
+      "explanation": "Al-Yahudu is historically attested in tablets, but its exact archaeological location is not securely established and should not be pinned."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-al-yahudu"
+    ]
+  },
+  {
+    "id": "babylonia-exile-zone",
+    "name": "Judean Exile Settlement Zone in Babylonia",
+    "aliases": [
+      "Exilic Babylonia"
+    ],
+    "coordinates": [
+      44.9,
+      32.4
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Broad orientation anchor derived from textual/cuneiform evidence, not a bounded ethnic enclave.",
+    "summary": "Generalized central/southern Babylonian landscape where Judean exiles are attested by biblical and cuneiform sources.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The broad Babylonian setting is strong; communities were dispersed and the point is only a search/display anchor."
+    },
+    "scripture": [
+      {
+        "book": "Ezekiel",
+        "chapter": 1,
+        "label": "Ezekiel 1:1–3",
+        "verseStart": 1,
+        "verseEnd": 3
+      },
+      {
+        "book": "Psalm",
+        "chapter": 137,
+        "label": "Psalm 137"
+      }
+    ],
+    "sourceIds": [
+      "source-al-yahudu",
+      "source-block-ezekiel",
+      "source-jehoiachin-rations"
+    ]
+  },
+  {
+    "id": "euphrates-river",
+    "name": "Euphrates River",
+    "aliases": [
+      "Perath"
+    ],
+    "coordinates": [
+      44.3,
+      32.7
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Display point on the Babylonian reach; the river extends far beyond this coordinate.",
+    "summary": "Major Mesopotamian river structuring imperial travel and settlement; named explicitly in Jeremiah and elsewhere.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The river is secure; this pin merely provides a map entry point."
+    },
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 46,
+        "label": "Jeremiah 46:2",
+        "verseStart": 2,
+        "verseEnd": 2
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 51,
+        "label": "Jeremiah 51:63",
+        "verseStart": 63,
+        "verseEnd": 63
+      },
+      {
+        "book": "Revelation",
+        "chapter": 9,
+        "label": "Revelation 9:14",
+        "verseStart": 14
+      },
+      {
+        "book": "Revelation",
+        "chapter": 16,
+        "label": "Revelation 16:12",
+        "verseStart": 12
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-batch6-methodology"
+    ]
+  },
+  {
+    "id": "tigris-river",
+    "name": "Tigris River",
+    "aliases": [
+      "Hiddekel"
+    ],
+    "coordinates": [
+      44.37,
+      33.32
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Display anchor only; Daniel 10 does not identify a specific modern point along the river.",
+    "summary": "Major Mesopotamian river used as the setting of Daniel 10.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The Tigris is established; the exact visionary location along it is unspecified."
+    },
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 10,
+        "label": "Daniel 10:4",
+        "verseStart": 4,
+        "verseEnd": 4
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-collins-daniel"
+    ]
+  },
+  {
+    "id": "dura-plain",
+    "name": "Plain of Dura",
+    "aliases": [
+      "Dura"
+    ],
+    "summary": "Plain in the province of Babylon where Daniel 3 sets Nebuchadnezzar’s image. Numerous “Duru/Dura” place-names prevent a secure identification.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The literary setting is Babylonian, but no candidate is secure enough for a normal atlas pin."
+    },
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 3,
+        "label": "Daniel 3:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-collins-daniel"
+    ]
+  },
+  {
+    "id": "achaemenid-persian-empire",
+    "name": "Achaemenid Persian Empire",
+    "aliases": [
+      "Persian Empire"
+    ],
+    "coordinates": [
+      52.89,
+      29.94
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Searchable label anchor near Persepolis, not an imperial capital claim for every reign or a substitute for changing borders.",
+    "summary": "Empire founded by Cyrus II that conquered Babylon in 539 BCE and governed Judah/Yehud through the Persian period.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The empire is established; boundaries changed and are shown only as generalized time-aware context."
+    },
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 1,
+        "label": "Ezra 1"
+      },
+      {
+        "book": "Daniel",
+        "chapter": 6,
+        "label": "Daniel 6"
+      },
+      {
+        "book": "Esther",
+        "chapter": 1,
+        "label": "Esther 1"
+      }
+    ],
+    "sourceIds": [
+      "source-briant-persia",
+      "source-kuhrt-persia",
+      "source-behistun"
+    ]
+  },
+  {
+    "id": "susa",
+    "name": "Susa",
+    "aliases": [
+      "Shushan",
+      "Susa citadel"
+    ],
+    "coordinates": [
+      48.25,
+      32.19
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Major Elamite and Achaemenid royal center; primary setting of Esther and a visionary setting in Daniel 8.",
+    "archaeology": "The site and Achaemenid palace complex are securely known. The atlas does not identify a specific excavated room as Esther’s banquet hall.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Susa is securely identified."
+    },
+    "scripture": [
+      {
+        "book": "Esther",
+        "chapter": 1,
+        "label": "Esther 1:2",
+        "verseStart": 2,
+        "verseEnd": 2
+      },
+      {
+        "book": "Daniel",
+        "chapter": 8,
+        "label": "Daniel 8:2",
+        "verseStart": 2,
+        "verseEnd": 2
+      },
+      {
+        "book": "Nehemiah",
+        "chapter": 1,
+        "label": "Nehemiah 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-susa-archaeology",
+      "source-briant-persia"
+    ]
+  },
+  {
+    "id": "ulai-canal",
+    "name": "Ulai Canal",
+    "aliases": [
+      "Ulai",
+      "Eulaios"
+    ],
+    "coordinates": [
+      48.28,
+      32.18
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Anchored near Susa for orientation; the exact ancient channel alignment is not represented.",
+    "summary": "Watercourse in Daniel 8’s Susa vision.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "Association with the Susa hydraulic landscape/Eulaios is plausible, but exact ancient channel geometry is uncertain."
+    },
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 8,
+        "label": "Daniel 8:2, 16",
+        "verseStart": 2,
+        "verseEnd": 16
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-collins-daniel",
+      "source-susa-archaeology"
+    ]
+  },
+  {
+    "id": "ecbatana",
+    "name": "Ecbatana",
+    "aliases": [
+      "Achmetha",
+      "Hamadan"
+    ],
+    "coordinates": [
+      48.515,
+      34.799
+    ],
+    "coordinateRole": "candidate-site",
+    "summary": "Median/Persian royal city called Achmetha in Ezra 6, where the narrative says Cyrus’s memorandum was found.",
+    "archaeology": "The identification with Hamadan is standard, though ancient remains lie beneath/around the modern city and exact archive locations cannot be reconstructed.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "Ecbatana is strongly associated with Hamadan; precise palace/archive geography is not recoverable."
+    },
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 6,
+        "label": "Ezra 6:2",
+        "verseStart": 2,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-briant-persia",
+      "source-williamson-ezra-nehemiah"
+    ]
+  },
+  {
+    "id": "persepolis",
+    "name": "Persepolis",
+    "aliases": [
+      "Parsa"
+    ],
+    "coordinates": [
+      52.891,
+      29.935
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Monumental Achaemenid royal center founded under Darius I; not named in the Hebrew Bible but essential context for the Persian imperial world.",
+    "archaeology": "Palaces, reliefs, administrative tablets, and inscriptions make Persepolis one of the best-documented Achaemenid centers.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The site is securely identified; it is included as historical context rather than a biblical event location."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-behistun",
+      "source-briant-persia",
+      "source-kuhrt-persia"
+    ]
+  },
+  {
+    "id": "pasargadae",
+    "name": "Pasargadae",
+    "aliases": [],
+    "coordinates": [
+      53.167,
+      30.2
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Early Achaemenid royal center associated with Cyrus II, useful for understanding the Persian world behind Ezra.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Pasargadae is securely identified archaeologically; the Bible does not narrate an event there."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-briant-persia",
+      "source-kuhrt-persia"
+    ]
+  },
+  {
+    "id": "elam-region",
+    "name": "Elam / Susiana",
+    "aliases": [
+      "Province of Elam"
+    ],
+    "coordinates": [
+      48.4,
+      32.2
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Broad geographic label; not a surveyed provincial border.",
+    "summary": "Southwestern Iranian region containing Susa, named in Daniel 8’s literary setting.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The historical region is established, but territorial definitions changed and are generalized."
+    },
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 8,
+        "label": "Daniel 8:2",
+        "verseStart": 2,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-briant-persia"
+    ]
+  },
+  {
+    "id": "yehud-province",
+    "name": "Yehud (Persian-period Judah)",
+    "aliases": [
+      "Yehud Medinata"
+    ],
+    "coordinates": [
+      35.23,
+      31.78
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "The pin is a searchable label at Jerusalem. Actual provincial extent varied and is shown only as generalized context.",
+    "summary": "Small Persian-period province centered on Jerusalem, the political setting of much of Ezra and Nehemiah.",
+    "historicalContext": "Yehud was part of the larger western Achaemenid administrative system, often discussed within the satrapy/province “Beyond the River.”",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Yehud is historically well attested, but exact borders by decade are not recoverable as modern cadastral lines."
+    },
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 5,
+        "label": "Ezra 5:1–8",
+        "verseStart": 1,
+        "verseEnd": 8
+      },
+      {
+        "book": "Nehemiah",
+        "chapter": 5,
+        "label": "Nehemiah 5:14",
+        "verseStart": 14,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-grabbe-second-temple",
+      "source-williamson-ezra-nehemiah",
+      "source-lipschits-fall-rise"
+    ]
+  },
+  {
+    "id": "beyond-river-province",
+    "name": "Beyond the River (Abar-Nahara)",
+    "aliases": [
+      "Trans-Euphrates",
+      "Eber-Nari"
+    ],
+    "coordinates": [
+      36.4,
+      33.5
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Broad searchable anchor in the Levant; administrative extent and terminology changed across Achaemenid rule.",
+    "summary": "Western Persian administrative designation used in Ezra for the territory west of the Euphrates.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The administrative concept is established; the point and context polygon are schematic."
+    },
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 4,
+        "label": "Ezra 4:10–20",
+        "verseStart": 10,
+        "verseEnd": 20
+      },
+      {
+        "book": "Ezra",
+        "chapter": 5,
+        "label": "Ezra 5:3",
+        "verseStart": 3,
+        "verseEnd": 3
+      },
+      {
+        "book": "Ezra",
+        "chapter": 6,
+        "label": "Ezra 6:6",
+        "verseStart": 6,
+        "verseEnd": 6
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-briant-persia",
+      "source-williamson-ezra-nehemiah"
+    ]
+  },
+  {
+    "id": "ahava",
+    "name": "Ahava",
+    "aliases": [
+      "River/canal of Ahava"
+    ],
+    "summary": "Gathering place where Ezra assembles the returning group before departure toward Jerusalem.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "high",
+      "explanation": "The textual role is clear, but no modern location is established. It is therefore omitted from route geometry as a fixed point."
+    },
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 8,
+        "label": "Ezra 8:15–31",
+        "verseStart": 15,
+        "verseEnd": 31
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah"
+    ]
+  },
+  {
+    "id": "casiphia",
+    "name": "Casiphia",
+    "aliases": [],
+    "summary": "Place from which Ezra requests Levites and temple servants during the Ahava encampment.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Casiphia’s location is not securely identified and receives no normal map pin."
+    },
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 8,
+        "label": "Ezra 8:17",
+        "verseStart": 17,
+        "verseEnd": 17
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah"
+    ]
+  },
+  {
+    "id": "elephantine",
+    "name": "Elephantine",
+    "aliases": [
+      "Yeb"
+    ],
+    "coordinates": [
+      32.884,
+      24.086
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Island on the Nile with a fifth-century BCE Judean/Jewish military community and temple documented in Aramaic papyri.",
+    "historicalContext": "Elephantine demonstrates that Persian-period Judean/Jewish life extended well beyond Yehud and Babylonia.",
+    "archaeology": "Papyri document community institutions and a temple to YHW. This historical context is not narrated in Ezra–Nehemiah.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The site and documentary archive are securely identified."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-elephantine-papyri",
+      "source-briant-persia"
+    ]
+  },
+  {
+    "id": "second-temple-site-persian",
+    "name": "Early Second Temple footprint",
+    "aliases": [
+      "Zerubbabel’s Temple"
+    ],
+    "summary": "Temple completed in the reign of Darius I according to Ezra. Its broad location belongs on the Temple Mount, but the exact Persian-period architectural footprint is not independently recoverable.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "moderate",
+      "explanation": "The canonical and historical temple location belongs to Jerusalem’s Temple Mount tradition; a precise Persian-period plan should not be pinned as though excavated."
+    },
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 3,
+        "label": "Ezra 3:8–13",
+        "verseStart": 8,
+        "verseEnd": 13
+      },
+      {
+        "book": "Ezra",
+        "chapter": 6,
+        "label": "Ezra 6:14–18",
+        "verseStart": 14,
+        "verseEnd": 18
+      },
+      {
+        "book": "Haggai",
+        "chapter": 2,
+        "label": "Haggai 2"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-grabbe-second-temple"
+    ]
+  },
+  {
+    "id": "nehemiah-wall-circuit",
+    "name": "Nehemiah’s wall circuit",
+    "aliases": [
+      "Jerusalem walls in Nehemiah"
+    ],
+    "summary": "Wall and gate system rebuilt in Nehemiah’s narrative. Archaeology illuminates Persian-period Jerusalem, but the exact line and identification of every named gate remain debated.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "Jerusalem is secure, but the full fifth-century wall circuit cannot responsibly be rendered as one unquestioned polyline."
+    },
+    "scripture": [
+      {
+        "book": "Nehemiah",
+        "chapter": 2,
+        "label": "Nehemiah 2:11–20",
+        "verseStart": 11,
+        "verseEnd": 20
+      },
+      {
+        "book": "Nehemiah",
+        "chapter": 3,
+        "label": "Nehemiah 3"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-grabbe-second-temple"
+    ]
+  },
+  {
+    "id": "cush-nubia",
+    "name": "Cush / Nubia",
+    "aliases": [
+      "Kush"
+    ],
+    "coordinates": [
+      32.5,
+      20.5
+    ],
+    "coordinateRole": "display-anchor",
+    "locationNote": "Broad regional label in the Nile valley south of Egypt; the coordinate is not a border or capital.",
+    "summary": "Nile-valley region south of Egypt referenced in prophetic and Persian-imperial biblical geography.",
+    "historicalContext": "The extent of Kushite/Nubian states changed through time. The atlas uses a broad orientation anchor only.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Cush/Nubia is a secure historical-geographic region, while exact biblical-era borders vary by century."
+    },
+    "scripture": [
+      {
+        "book": "Zephaniah",
+        "chapter": 2,
+        "label": "Zephaniah 2:12",
+        "verseStart": 12,
+        "verseEnd": 12
+      },
+      {
+        "book": "Esther",
+        "chapter": 1,
+        "label": "Esther 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-roberts-nahum-hab-zeph",
+      "source-briant-persia"
+    ]
+  },
+  {
+    "id": "thebes-no-amon",
+    "name": "Thebes (No-Amon)",
+    "aliases": [
+      "No-Amon",
+      "Waset",
+      "Thebes"
+    ],
+    "coordinates": [
+      32.64,
+      25.72
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Major Egyptian city invoked in Nahum as an example of a seemingly powerful city that had nevertheless fallen.",
+    "historicalContext": "Nahum 3 compares Nineveh with No-Amon/Thebes; Assyria sacked Thebes in 663 BCE, providing the historical background for the comparison.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "No-Amon is securely identified with Egyptian Thebes."
+    },
+    "scripture": [
+      {
+        "book": "Nahum",
+        "chapter": 3,
+        "label": "Nahum 3:8–10",
+        "verseStart": 8,
+        "verseEnd": 10
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-roberts-nahum-hab-zeph"
+    ]
+  },
+  {
+    "id": "teman-edom",
+    "name": "Teman in Edom",
+    "aliases": [
+      "Teman"
+    ],
+    "summary": "Edomite place/region used in prophetic literature as a poetic-geographic representative of Edom.",
+    "historicalContext": "Several southern Jordan/Edomite identifications have been proposed, but the exact site intended in every prophetic text is not secure.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Edomite regional association is clear, but the atlas avoids selecting one archaeological site as definitive Teman."
+    },
+    "scripture": [
+      {
+        "book": "Obadiah",
+        "chapter": 1,
+        "label": "Obadiah 1:9",
+        "verseStart": 9,
+        "verseEnd": 9
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-raabe-obadiah"
+    ]
+  }
+]

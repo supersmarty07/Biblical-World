@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "records": [
+    {
+      "id": "project-batch7",
+      "scope": "Original Batch 7 curation, summaries, chronology metadata, route reconstructions, uncertainty notes, and generalized historical context polygons",
+      "license": "CC BY 4.0 recommended for original project data",
+      "attributionRequired": true,
+      "notes": "No proprietary atlas geometry or copyrighted publication prose is copied. Ancient sources and modern scholarship are cited as evidence/provenance."
+    },
+    {
+      "id": "ancient-literary-metadata-b7",
+      "scope": "Project-authored metadata describing 1–2 Maccabees, Josephus, Polybius, Arrian, Strabo, Appian and related ancient sources",
+      "license": "Project-authored descriptive metadata; underlying editions/translations retain their own rights",
+      "attributionRequired": true,
+      "notes": "The repository does not bundle modern copyrighted translations of these works."
+    },
+    {
+      "id": "archaeology-metadata-b7",
+      "scope": "Project-authored summaries of Gerizim, Maresha, Qumran, Masada, Jericho palaces, Caesarea and related archaeological evidence",
+      "license": "Project-authored descriptive metadata; photographs, plans and publication figures are not redistributed",
+      "attributionRequired": true,
+      "notes": "Future imagery must be licensed item-by-item."
+    }
+  ]
+}

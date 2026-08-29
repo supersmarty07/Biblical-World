@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "records": [
+    {
+      "id": "batch8-original",
+      "appliesTo": "Project-authored Gospel records, uncertainty notes, stories, route reconstructions, and broad context polygons",
+      "license": "CC BY 4.0 recommended for original curated data",
+      "attributionRequired": true,
+      "notes": "Third-party sources remain under their own rights; no copyrighted source text is reproduced beyond references/short metadata."
+    },
+    {
+      "id": "gospel-references",
+      "appliesTo": "Canonical Scripture references",
+      "license": "References/facts; full Bible text not bundled in Batch 8",
+      "attributionRequired": false,
+      "notes": "The project continues to store references and original summaries only. Recheck the official BSB declaration before bundling a complete Bible text."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "source-exodus-judges-text",
+    "title": "Exodus through Judges — biblical text and canonical place/event sequence",
+    "organization": "Berean Standard Bible / canonical references",
+    "url": "https://berean.bible/",
+    "license": "CC0 / public domain according to project research supplied 2026-08-29",
+    "verifiedAt": "2026-08-29 — licensing status supplied by user research; official-source release check still recommended",
+    "notes": "Scripture establishes the narrative sequence and place-names. It does not by itself establish modern coordinates or archaeological correlations."
+  },
+  {
+    "id": "source-batch3-methodology",
+    "title": "Batch 3 Exodus–Judges Curation Methodology",
+    "organization": "The Biblical World project",
+    "license": "Original project metadata",
+    "notes": "Batch 3 separates textual sequence, site identification, archaeological chronology, later tradition, and route reconstruction. Unknown stations are not given synthetic coordinates; candidate sites are visibly labeled."
+  },
+  {
+    "id": "source-oxford-history",
+    "title": "The Oxford History of the Biblical World",
+    "author": "Michael D. Coogan, ed.",
+    "organization": "Oxford University Press",
+    "year": 1998,
+    "notes": "Broad academic orientation for Late Bronze/Iron Age historical context and the emergence of Israel. Page-level citations remain an editorial follow-up before an academic-grade release."
+  },
+  {
+    "id": "source-hoffmeier-egypt",
+    "title": "Israel in Egypt: The Evidence for the Authenticity of the Exodus Tradition",
+    "author": "James K. Hoffmeier",
+    "organization": "Oxford University Press",
+    "year": 1996,
+    "notes": "Used as one scholarly treatment of Egyptian geography and Exodus traditions; not treated as a sole or consensus authority."
+  },
+  {
+    "id": "source-hoffmeier-sinai",
+    "title": "Ancient Israel in Sinai: The Evidence for the Authenticity of the Wilderness Tradition",
+    "author": "James K. Hoffmeier",
+    "organization": "Oxford University Press",
+    "year": 2005,
+    "notes": "Used for Sinai-route and wilderness-geography orientation alongside other atlases; proposals remain labeled by confidence."
+  },
+  {
+    "id": "source-dever-early-israelites",
+    "title": "Who Were the Early Israelites and Where Did They Come From?",
+    "author": "William G. Dever",
+    "organization": "Eerdmans",
+    "year": 2003,
+    "notes": "Academic archaeological synthesis used for early Israel/highland-settlement context. Specific interpretive claims are not presented as unanimous consensus."
+  },
+  {
+    "id": "source-finkelstein-settlement",
+    "title": "The Archaeology of the Israelite Settlement",
+    "author": "Israel Finkelstein",
+    "year": 1988,
+    "notes": "Foundational survey-based study of Iron I highland settlement used as context for the Judges-era transition. Later scholarship has refined and debated parts of its interpretation."
+  },
+  {
+    "id": "source-kenyon-jericho",
+    "title": "Digging Up Jericho",
+    "author": "Kathleen M. Kenyon",
+    "year": 1957,
+    "notes": "Classic excavation synthesis relevant to Jericho chronology. Later reassessments exist; the atlas explicitly marks the Joshua correlation as disputed."
+  },
+  {
+    "id": "source-ben-tor-israel",
+    "title": "The Archaeology of Ancient Israel",
+    "author": "Amnon Ben-Tor, ed.",
+    "organization": "Yale University Press",
+    "year": 1992,
+    "notes": "General archaeological reference for Canaanite and early Israelite sites; used for orientation rather than fabricated pinpoint citations."
+  },
+  {
+    "id": "source-archaeology-jordan",
+    "title": "The Archaeology of Jordan",
+    "author": "Burton MacDonald, Russell Adams, and Piotr Bienkowski, eds.",
+    "organization": "Sheffield Academic Press",
+    "year": 2001,
+    "notes": "Regional archaeological orientation for Moab, Edom, Ammon, and Transjordan. Exact page-level citations remain editorial work."
+  }
+]

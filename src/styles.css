@@ -1,0 +1,634 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #eee8dc;
+  background: #0a0f12;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --bg: #0a0f12;
+  --panel: rgba(17, 24, 27, 0.94);
+  --panel-soft: rgba(18, 27, 30, 0.82);
+  --line: rgba(232, 218, 186, 0.13);
+  --line-strong: rgba(232, 218, 186, 0.24);
+  --text: #eee8dc;
+  --muted: #9fa8a4;
+  --faint: #6e7975;
+  --gold: #dfbb75;
+  --gold-strong: #f1cf86;
+  --danger: #d68c70;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { width: 100%; min-width: 320px; height: 100%; margin: 0; }
+body { overflow: hidden; }
+button, input { font: inherit; }
+button { color: inherit; }
+a { color: var(--gold-strong); }
+svg { width: 20px; height: 20px; }
+
+.app-shell { height: 100%; background: var(--bg); }
+.topbar {
+  height: 72px;
+  position: relative;
+  z-index: 50;
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(320px, 620px) minmax(220px, 1fr);
+  align-items: center;
+  gap: 20px;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(9, 14, 16, 0.95);
+  backdrop-filter: blur(18px);
+}
+.brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.brand__mark {
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(241, 207, 134, 0.38);
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  color: var(--gold-strong);
+  font-family: Georgia, serif;
+  font-size: 12px;
+  letter-spacing: .08em;
+  background: radial-gradient(circle at 35% 25%, rgba(241,207,134,.14), transparent 65%);
+}
+.brand__title { font-family: Georgia, "Times New Roman", serif; font-size: 18px; line-height: 1.05; letter-spacing: .015em; }
+.brand__subtitle { margin-top: 4px; font-size: 10px; color: var(--muted); letter-spacing: .13em; text-transform: uppercase; }
+.search-trigger {
+  height: 42px;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(255,255,255,.035);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  color: var(--muted);
+  cursor: pointer;
+  transition: .18s ease;
+}
+.search-trigger:hover { border-color: var(--line-strong); background: rgba(255,255,255,.055); color: var(--text); }
+.search-trigger span { text-align: left; flex: 1; font-size: 13px; }
+kbd { padding: 3px 7px; border: 1px solid var(--line); border-radius: 6px; color: var(--faint); font-size: 11px; background: rgba(0,0,0,.25); }
+.topbar__actions { justify-self: end; display: flex; gap: 8px; }
+.topbar__layers { justify-self: end; }
+
+.workspace { position: relative; height: calc(100% - 72px); overflow: hidden; }
+.map-wrap, .map { position: absolute; inset: 0; }
+.map { background: #0c1417; }
+.map-vignette { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(circle at 52% 42%, transparent 38%, rgba(5,9,10,.14) 72%, rgba(5,9,10,.46) 100%); }
+.maplibregl-ctrl-group { background: rgba(14,20,22,.88) !important; border: 1px solid var(--line) !important; box-shadow: none !important; }
+.maplibregl-ctrl-group button { filter: invert(.9) sepia(.1); }
+.maplibregl-ctrl-attrib { background: rgba(10,15,17,.78) !important; color: #a6ada8 !important; }
+.maplibregl-ctrl-attrib a { color: #cab279 !important; }
+
+.map-legend {
+  position: absolute;
+  left: 22px;
+  bottom: 148px;
+  z-index: 8;
+  display: flex;
+  gap: 14px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(10,15,17,.7);
+  backdrop-filter: blur(10px);
+  font-size: 10px;
+  color: var(--muted);
+}
+.map-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend-dot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; box-shadow: 0 0 0 2px rgba(255,255,255,.07); }
+.legend-dot--established { background: #f4d98f; }
+.legend-dot--probable { background: #e4c078; }
+.legend-dot--disputed { background: #c48262; }
+
+.floating-panel {
+  position: absolute;
+  z-index: 12;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel-soft);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 18px 60px rgba(0,0,0,.22);
+}
+.layer-panel { top: 18px; right: 20px; width: 260px; padding: 14px; outline: none; }
+.floating-panel__title { display: flex; align-items: center; gap: 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: #d8c59d; margin-bottom: 8px; }
+.floating-panel__title svg { width: 17px; }
+.layer-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid rgba(255,255,255,.055); cursor: pointer; }
+.layer-row span { min-width: 0; display: grid; gap: 3px; }
+.layer-row strong { font-size: 12px; font-weight: 600; }
+.layer-row small { color: var(--faint); font-size: 10px; }
+.layer-row input { accent-color: #d9b66e; width: 16px; height: 16px; }
+.layer-row--disabled { opacity: .48; cursor: not-allowed; }
+.panel-disclaimer { margin: 10px 0 0; color: #8f9792; font-size: 10px; line-height: 1.45; }
+
+.info-panel {
+  position: absolute;
+  z-index: 20;
+  top: 18px;
+  left: 20px;
+  bottom: 142px;
+  width: min(385px, calc(100vw - 40px));
+  padding: 24px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--panel);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 24px 70px rgba(0,0,0,.32);
+  transform: translateX(calc(-100% - 30px));
+  opacity: 0;
+  pointer-events: none;
+  transition: transform .25s ease, opacity .2s ease;
+}
+.info-panel--open { transform: translateX(0); opacity: 1; pointer-events: auto; }
+.info-panel__close { position: sticky; float: right; top: 0; margin-top: -8px; margin-right: -8px; z-index: 2; }
+.icon-button {
+  width: 38px;
+  height: 38px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: rgba(255,255,255,.035);
+  cursor: pointer;
+}
+.icon-button:hover:not(:disabled) { background: rgba(255,255,255,.075); border-color: var(--line-strong); }
+.icon-button:disabled { opacity: .35; cursor: default; }
+
+.eyebrow { display: block; color: var(--gold); font-size: 10px; text-transform: uppercase; letter-spacing: .14em; font-weight: 650; }
+.place-detail__icon { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 50%; background: rgba(223,187,117,.08); color: var(--gold); margin-bottom: 18px; }
+.place-detail h1, .story-card h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; letter-spacing: -.015em; }
+.place-detail h1 { font-size: 34px; margin: 6px 0 4px; }
+.aliases { color: var(--muted); font-size: 12px; margin: 0 0 12px; }
+.place-summary { color: #cacac3; font-size: 14px; line-height: 1.72; margin: 20px 0; }
+.demo-banner { margin: 14px 0; padding: 9px 10px; border: 1px solid rgba(214,140,112,.24); border-radius: 10px; background: rgba(214,140,112,.07); color: #dda68f; font-size: 10px; line-height: 1.45; }
+.confidence { display: inline-flex; align-items: center; padding: 5px 8px; border: 1px solid rgba(255,255,255,.1); border-radius: 999px; font-size: 10px; text-transform: uppercase; letter-spacing: .08em; }
+.confidence--established { color: #f2d791; background: rgba(242,215,145,.07); }
+.confidence--probable { color: #dfbc77; }
+.confidence--possible, .confidence--traditional { color: #c7ad7e; }
+.confidence--disputed { color: #d8967c; }
+.confidence--unknown, .confidence--symbolic { color: #aeb6b1; }
+.detail-section { border-top: 1px solid var(--line); padding: 18px 0 2px; }
+.detail-section h3 { display: flex; align-items: center; gap: 8px; font-size: 11px; text-transform: uppercase; letter-spacing: .11em; color: #d4c39e; margin: 0 0 12px; }
+.detail-section h3 svg { width: 15px; }
+.detail-section p { font-size: 12px; color: var(--muted); line-height: 1.65; }
+.confidence-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 14px 0 0; }
+.confidence-grid div { padding: 9px; border-radius: 10px; background: rgba(255,255,255,.025); }
+.confidence-grid dt { font-size: 9px; color: var(--faint); text-transform: uppercase; letter-spacing: .08em; }
+.confidence-grid dd { margin: 4px 0 0; font-size: 11px; text-transform: capitalize; }
+.scripture-list, .scripture-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.scripture-list span, .scripture-chips span { padding: 6px 8px; border-radius: 8px; background: rgba(223,187,117,.065); color: #d8c59d; font-size: 10px; }
+.source-row { padding: 10px 0; display: grid; gap: 3px; border-bottom: 1px solid rgba(255,255,255,.045); }
+.source-row strong { font-size: 11px; }
+.source-row small, .source-row p { color: var(--faint); font-size: 10px; margin: 0; line-height: 1.5; }
+.source-row a { font-size: 10px; text-decoration: none; }
+.source-row--missing { color: var(--danger); font-size: 11px; }
+
+.story-card { padding-top: 30px; }
+.story-card h2 { margin: 8px 0 10px; font-size: 31px; }
+.story-card > p { color: var(--muted); line-height: 1.65; font-size: 13px; }
+.primary-button {
+  margin-top: 10px;
+  min-height: 42px;
+  padding: 0 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(223,187,117,.34);
+  border-radius: 11px;
+  background: rgba(223,187,117,.1);
+  color: #f0d293;
+  cursor: pointer;
+}
+.primary-button:hover { background: rgba(223,187,117,.16); }
+.primary-button svg { width: 17px; }
+.demo-note { margin-top: 12px !important; font-size: 10px !important; color: #b58d7e !important; }
+.story-card__progress { display: flex; gap: 4px; margin-bottom: 22px; }
+.story-card__progress span { flex: 1; height: 2px; background: rgba(255,255,255,.08); }
+.story-card__progress span.is-active { background: #c8a35f; }
+.story-card__nav { display: flex; align-items: center; justify-content: space-between; margin-top: 18px; }
+.story-card__nav span { font-size: 10px; color: var(--faint); }
+.text-button { margin: 16px 0 0; padding: 0; border: 0; background: transparent; color: var(--muted); font-size: 10px; text-decoration: underline; cursor: pointer; }
+
+.timeline {
+  position: absolute;
+  z-index: 14;
+  left: 20px;
+  right: 20px;
+  bottom: 18px;
+  height: 108px;
+  padding: 13px 18px 10px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(11,17,19,.9);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 18px 60px rgba(0,0,0,.2);
+}
+.timeline__headline { display: flex; justify-content: space-between; align-items: end; gap: 20px; }
+.timeline__headline strong { display: block; font-family: Georgia, serif; font-size: 21px; margin-top: 3px; font-weight: 500; }
+.timeline__note { color: var(--faint); font-size: 9px; }
+.timeline input[type="range"] { width: 100%; accent-color: #d4af68; margin: 7px 0 0; }
+.timeline__marks { display: flex; justify-content: space-between; color: #6f7975; font-size: 8px; text-transform: uppercase; letter-spacing: .04em; }
+
+.search-backdrop { position: fixed; inset: 0; z-index: 100; display: grid; place-items: start center; padding-top: 11vh; background: rgba(3,6,7,.68); backdrop-filter: blur(10px); }
+.search-dialog { width: min(680px, calc(100vw - 28px)); max-height: min(640px, 76vh); overflow: hidden; border: 1px solid var(--line-strong); border-radius: 18px; background: #11191c; box-shadow: 0 30px 100px rgba(0,0,0,.5); }
+.search-dialog__input { display: grid; grid-template-columns: 24px 1fr 38px; align-items: center; gap: 10px; padding: 14px; border-bottom: 1px solid var(--line); }
+.search-dialog__input > svg { color: #bfa76e; }
+.search-dialog__input input { width: 100%; border: 0; outline: 0; background: transparent; color: var(--text); font-size: 17px; }
+.search-dialog__input input::placeholder { color: #66706c; }
+.search-dialog__results { max-height: 500px; overflow: auto; padding: 8px; }
+.search-hint { padding: 22px; color: var(--faint); font-size: 12px; text-align: center; }
+.search-result { width: 100%; display: grid; grid-template-columns: 70px 1fr; gap: 3px 12px; text-align: left; padding: 12px; border: 0; border-radius: 11px; background: transparent; cursor: pointer; }
+.search-result:hover { background: rgba(255,255,255,.045); }
+.search-result__kind { grid-row: 1 / 3; color: var(--gold); font-size: 9px; text-transform: uppercase; letter-spacing: .1em; padding-top: 3px; }
+.search-result strong { font-size: 13px; font-weight: 600; }
+.search-result small { color: var(--muted); font-size: 10px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+.traveler-marker { width: 42px; height: 42px; filter: drop-shadow(0 4px 8px rgba(0,0,0,.45)); }
+.traveler-marker svg { width: 42px; height: 42px; animation: traveler-bob .62s ease-in-out infinite alternate; }
+.traveler-marker__halo { fill: rgba(14,21,22,.85); stroke: rgba(238,205,133,.34); stroke-width: 1; }
+.traveler-marker__figure { fill: #e7c679; }
+.traveler-marker__staff { stroke: #cfb274; stroke-width: 1.6; stroke-linecap: round; }
+@keyframes traveler-bob { to { transform: translateY(-2px); } }
+
+.loading-screen, .error-screen { position: absolute; inset: 0; z-index: 40; display: grid; place-items: center; align-content: center; gap: 14px; background: #0b1114; }
+.loading-screen strong, .error-screen strong { font-family: Georgia, serif; font-size: 18px; font-weight: 500; }
+.loading-orbit { width: 34px; height: 34px; border: 1px solid rgba(223,187,117,.22); border-top-color: #d9b56d; border-radius: 50%; animation: spin 1s linear infinite; }
+.error-screen span { color: var(--muted); font-size: 11px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.bottom-nav { display: none; }
+
+@media (max-width: 860px) {
+  .topbar { height: 62px; grid-template-columns: 1fr auto; padding: 0 14px; }
+  .workspace { height: calc(100% - 62px - 60px); }
+  .brand__title { font-size: 15px; }
+  .brand__subtitle { display: none; }
+  .search-trigger { width: 42px; height: 42px; padding: 0; justify-content: center; }
+  .search-trigger span, .search-trigger kbd { display: none; }
+  .topbar__actions { display: none; }
+  .topbar__layers { display: none; }
+  .layer-panel { top: 12px; right: 12px; width: 218px; padding: 11px; opacity: .93; }
+  .layer-row small, .panel-disclaimer { display: none; }
+  .info-panel { left: 0; right: 0; top: auto; bottom: 0; width: 100%; max-height: 72%; border-radius: 22px 22px 0 0; border-left: 0; border-right: 0; padding: 22px 18px 28px; transform: translateY(110%); }
+  .info-panel--open { transform: translateY(0); }
+  .timeline { left: 10px; right: 10px; bottom: 10px; height: 92px; padding: 10px 12px; border-radius: 14px; }
+  .timeline__headline strong { font-size: 18px; }
+  .timeline__note, .timeline__marks span:nth-child(even) { display: none; }
+  .map-legend { left: 10px; bottom: 112px; flex-direction: column; gap: 4px; }
+  .bottom-nav { height: 60px; display: grid; grid-template-columns: repeat(4, 1fr); background: #0b1113; border-top: 1px solid var(--line); }
+  .bottom-nav button { display: grid; place-items: center; align-content: center; gap: 2px; border: 0; background: transparent; color: #919a96; font-size: 9px; }
+  .bottom-nav svg { width: 18px; height: 18px; }
+}
+
+@media (max-width: 520px) {
+  .layer-panel { width: auto; }
+  .layer-row span { display: none; }
+  .layer-row { border: 0; padding: 5px 0; }
+  .floating-panel__title { margin: 0; }
+  .floating-panel__title + .layer-row { margin-top: 6px; }
+  .map-legend { display: none; }
+  .timeline__marks { font-size: 7px; }
+  .place-detail h1 { font-size: 30px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+/* Batch 3 — Genesis through Judges experience */
+.map-period-badge {
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  z-index: 9;
+  display: grid;
+  gap: 2px;
+  min-width: 170px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(10,15,17,.68);
+  backdrop-filter: blur(12px);
+  pointer-events: none;
+}
+.map-period-badge span { color: var(--gold); font-size: 8px; letter-spacing: .15em; text-transform: uppercase; }
+.map-period-badge strong { font-family: Georgia, serif; font-weight: 500; font-size: 18px; }
+.map-period-badge small { color: var(--faint); font-size: 8px; }
+
+.evidence-banner {
+  margin: 14px 0;
+  padding: 10px 11px;
+  border: 1px solid rgba(223,187,117,.20);
+  border-radius: 10px;
+  background: rgba(223,187,117,.055);
+  color: #cdbb91;
+  font-size: 10px;
+  line-height: 1.55;
+}
+.coordinate-role {
+  display: inline-flex;
+  margin: 10px 0 0;
+  padding: 4px 7px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 7px;
+  color: var(--faint);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.detail-section p strong { color: #d5c8ae; font-weight: 600; }
+.interpretation-list { display: grid; gap: 8px; }
+.interpretation-card { padding: 10px; border: 1px solid rgba(255,255,255,.055); border-radius: 11px; background: rgba(255,255,255,.02); }
+.interpretation-card > div { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.interpretation-card strong { font-size: 11px; }
+.interpretation-card p { margin: 7px 0 0; font-size: 10px; }
+.entity-links { display: flex; flex-wrap: wrap; gap: 6px; }
+.entity-links button {
+  border: 1px solid rgba(223,187,117,.14);
+  border-radius: 8px;
+  background: rgba(223,187,117,.045);
+  color: #d8c59d;
+  padding: 6px 8px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.entity-links button:hover { background: rgba(223,187,117,.10); }
+.entity-detail .primary-button { width: 100%; justify-content: center; margin-top: 12px; }
+
+.story-library { padding-top: 28px; }
+.story-library h2 { margin: 8px 0 8px; font-family: Georgia, serif; font-size: 30px; font-weight: 500; }
+.story-library > p { margin: 0 0 18px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+.story-library__grid { display: grid; gap: 8px; }
+.story-library__item {
+  width: 100%;
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  text-align: left;
+  border: 1px solid rgba(255,255,255,.065);
+  border-radius: 12px;
+  background: rgba(255,255,255,.025);
+  cursor: pointer;
+}
+.story-library__item:hover { border-color: rgba(223,187,117,.26); background: rgba(223,187,117,.055); }
+.story-library__item span { color: var(--gold); font-size: 8px; text-transform: uppercase; letter-spacing: .12em; }
+.story-library__item strong { font-family: Georgia, serif; font-size: 16px; font-weight: 500; }
+.story-library__item small { color: var(--muted); font-size: 9px; line-height: 1.5; }
+
+.character-portrait {
+  position: relative;
+  overflow: hidden;
+  margin: 6px 0 18px;
+  border: 1px solid rgba(223,187,117,.12);
+  border-radius: 14px;
+  background: radial-gradient(circle at 74% 24%, rgba(223,187,117,.12), transparent 35%), linear-gradient(180deg, #182327, #10191c);
+}
+.character-portrait svg { display: block; width: 100%; height: auto; }
+.character-portrait__sun { fill: rgba(229,196,125,.16); }
+.character-portrait__ridge { fill: rgba(124,112,83,.24); }
+.character-portrait__ground { fill: rgba(70,77,66,.48); }
+.character-portrait__traveler { fill: #c6a766; animation: portrait-walk 1.15s ease-in-out infinite alternate; transform-origin: 105px 100px; }
+.character-portrait__robe { fill: #9f8454; }
+.character-portrait__staff { fill: none; stroke: #d4bc82; stroke-width: 2; stroke-linecap: round; }
+.character-portrait__caravan { fill: rgba(192,160,97,.42); }
+.character-portrait__caption { position: absolute; left: 10px; right: 10px; bottom: 8px; display: flex; align-items: end; justify-content: space-between; gap: 10px; }
+.character-portrait__caption strong { font-family: Georgia, serif; font-size: 13px; font-weight: 500; }
+.character-portrait__caption span { color: #a99b7d; font-size: 7px; text-transform: uppercase; letter-spacing: .08em; }
+.character-portrait--compact { margin-top: 0; }
+.character-portrait--compact svg { max-height: 112px; object-fit: cover; }
+.character-portrait--joseph .character-portrait__robe { fill: #8d7863; }
+.character-portrait--jacob .character-portrait__robe { fill: #8c8060; }
+.character-portrait--isaac .character-portrait__robe { fill: #9a7d58; }
+@keyframes portrait-walk { to { transform: translateY(-2px) rotate(.5deg); } }
+
+.traveler-marker__robe { fill: #9d8352; }
+.traveler-marker--joseph .traveler-marker__figure { fill: #d3ba8e; }
+.traveler-marker--jacob .traveler-marker__figure { fill: #dfc071; }
+.traveler-marker--isaac .traveler-marker__figure { fill: #d1ad67; }
+
+@media (max-width: 860px) {
+  .map-period-badge { top: 10px; left: 10px; min-width: 0; padding: 7px 9px; }
+  .map-period-badge small { display: none; }
+  .map-period-badge strong { font-size: 14px; }
+}
+
+@media (max-width: 520px) {
+  .map-period-badge { display: none; }
+  .character-portrait__caption span { display: none; }
+}
+
+/* Batch 3 character accents: artistic silhouettes, not historical portraits. */
+.character-portrait__spear { stroke: rgba(226, 195, 127, .72); stroke-width: 1.7; stroke-linecap: round; fill: none; }
+.character-portrait--moses .character-portrait__robe { fill: #8a7658; }
+.character-portrait--joshua .character-portrait__robe { fill: #7d7656; }
+.character-portrait--deborah .character-portrait__robe { fill: #8a6f61; }
+.character-portrait--gideon .character-portrait__robe { fill: #736c50; }
+.character-portrait--samson .character-portrait__robe { fill: #7a6551; }
+.traveler-marker--moses .traveler-marker__figure { fill: #e0c38b; }
+.traveler-marker--joshua .traveler-marker__figure { fill: #d9bf72; }
+.traveler-marker--deborah .traveler-marker__figure { fill: #d8b18d; }
+.traveler-marker--gideon .traveler-marker__figure { fill: #cfbb78; }
+.traveler-marker--samson .traveler-marker__figure { fill: #d0a97f; }
+
+.story-art { margin: -4px 0 12px; border: 1px solid rgba(220,195,139,.13); border-radius: 14px; overflow: hidden; background: #101718; box-shadow: inset 0 0 40px rgba(0,0,0,.24); }
+.story-art svg { display: block; width: 100%; height: auto; }
+.story-art figcaption { padding: 7px 10px; color: var(--faint); font-size: 8px; letter-spacing: .04em; border-top: 1px solid rgba(255,255,255,.05); }
+.story-art__sky-a { stop-color: #243235; }
+.story-art__sky-b { stop-color: #121a1c; }
+.story-art__sun { fill: rgba(224,191,120,.22); }
+.story-art__far { fill: #38413c; }
+.story-art__near { fill: #262e2b; }
+.story-art__water { fill: #25383b; opacity: .85; }
+.story-art__architecture, .story-art__walls, .story-art__camp, .story-art__caravan { fill: #5d5545; stroke: #85775d; stroke-width: 1.2; }
+.story-art__reeds, .story-art__chariot { stroke: #897c61; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.story-art__traveler { fill: #b99a64; stroke: #d0b477; stroke-width: 1.2; }
+.story-art--egypt .story-art__sky-a { stop-color: #344040; }
+.story-art--sinai .story-art__sky-a { stop-color: #3a342c; }
+.story-art--joshua .story-art__sky-a { stop-color: #2f3b39; }
+.story-art--judges .story-art__sky-a { stop-color: #353833; }
+@media (max-width: 700px) { .story-art { border-radius: 10px; } .story-art figcaption { font-size: 7px; } }
+
+/* Batch 4 — Ruth, Samuel, Saul, David, Solomon. Artistic accents only. */
+.character-portrait--ruth .character-portrait__robe { fill: #8c7664; }
+.character-portrait--samuel .character-portrait__robe { fill: #85745d; }
+.character-portrait--saul .character-portrait__robe { fill: #746a58; }
+.character-portrait--david .character-portrait__robe { fill: #7f6b55; }
+.character-portrait--absalom .character-portrait__robe { fill: #80645a; }
+.character-portrait--solomon .character-portrait__robe { fill: #8a7257; }
+.character-portrait__headband { fill: none; stroke: #d8ba76; stroke-width: 2.4; stroke-linecap: round; }
+.traveler-marker--ruth .traveler-marker__figure { fill: #d1b391; }
+.traveler-marker--samuel .traveler-marker__figure { fill: #d8c09a; }
+.traveler-marker--saul .traveler-marker__figure { fill: #c9b279; }
+.traveler-marker--david .traveler-marker__figure { fill: #ddbc78; }
+.traveler-marker--absalom .traveler-marker__figure { fill: #ca9f83; }
+.traveler-marker--solomon .traveler-marker__figure { fill: #d9b77b; }
+.story-art--ruth .story-art__sky-a { stop-color: #3a3931; }
+.story-art--monarchy .story-art__sky-a { stop-color: #313936; }
+.story-art--jerusalem .story-art__sky-a { stop-color: #3d352d; }
+.story-art--solomon .story-art__sky-a { stop-color: #303b3b; }
+.story-art__grain, .story-art__spear-line, .story-art__cedar { fill: none; stroke: #9b8b69; stroke-width: 2.2; stroke-linecap: round; }
+.story-art__fort, .story-art__jerusalem, .story-art__ship { fill: #6f6655; stroke: #a49472; stroke-width: 1.2; }
+.story-art__valley { fill: #202c2c; opacity: .44; }
+
+/* Batch 5 — Divided Kingdom + Prophets. Artistic accents only. */
+.character-portrait--rehoboam .character-portrait__robe { fill: #806b55; }
+.character-portrait--jeroboam-i .character-portrait__robe { fill: #756a50; }
+.character-portrait--shoshenq-i .character-portrait__robe { fill: #8b7250; }
+.character-portrait--omri .character-portrait__robe { fill: #766950; }
+.character-portrait--ahab .character-portrait__robe { fill: #765f51; }
+.character-portrait--jezebel .character-portrait__robe { fill: #845d62; }
+.character-portrait--elijah .character-portrait__robe { fill: #7d7154; }
+.character-portrait--elisha .character-portrait__robe { fill: #87775b; }
+.character-portrait--jehu .character-portrait__robe { fill: #6f6551; }
+.character-portrait--amos .character-portrait__robe { fill: #826f58; }
+.character-portrait--jonah .character-portrait__robe { fill: #756d5e; }
+.character-portrait--isaiah .character-portrait__robe { fill: #827058; }
+.character-portrait--hezekiah .character-portrait__robe { fill: #7a6652; }
+.character-portrait--sargon-ii .character-portrait__robe { fill: #685f55; }
+.character-portrait--sennacherib .character-portrait__robe { fill: #68594f; }
+.traveler-marker--rehoboam .traveler-marker__figure { fill: #d3b47b; }
+.traveler-marker--elijah .traveler-marker__figure { fill: #d6be88; }
+.traveler-marker--elisha .traveler-marker__figure { fill: #d8c193; }
+.traveler-marker--jehu .traveler-marker__figure { fill: #cfad76; }
+.traveler-marker--jonah .traveler-marker__figure { fill: #cbb88d; }
+.traveler-marker--sargon-ii .traveler-marker__figure { fill: #c3a16f; }
+.traveler-marker--sennacherib .traveler-marker__figure { fill: #c8a574; }
+.story-art--divided .story-art__sky-a { stop-color: #343a34; }
+.story-art--prophet .story-art__sky-a { stop-color: #343a35; }
+.story-art--assyria .story-art__sky-a { stop-color: #3b3230; }
+.story-art__border, .story-art__altar, .story-art__siege { fill: none; stroke: #9b8768; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.dating-card strong { display: block; margin-bottom: 4px; color: var(--gold); font-family: Georgia, serif; font-size: 15px; font-weight: 500; }
+.dating-card p { margin: 3px 0 0; }
+
+.story-art--exile .story-art__sky-a { stop-color: #39342f; }
+.story-art--babylon .story-art__sky-a { stop-color: #33383a; }
+.story-art--persia .story-art__sky-a { stop-color: #353a36; }
+.story-art--restoration .story-art__sky-a { stop-color: #3a3930; }
+
+/* Batch 7 — Hellenistic, Maccabean, Roman, and Herodian bridge. Artistic accents only. */
+.character-portrait--alexander-iii .character-portrait__robe { fill: #706b86; }
+.character-portrait--antiochus-iv .character-portrait__robe { fill: #7e617a; }
+.character-portrait--mattathias .character-portrait__robe { fill: #807158; }
+.character-portrait--judas-maccabeus .character-portrait__robe { fill: #77644e; }
+.character-portrait--jonathan-apphus .character-portrait__robe { fill: #7b6a52; }
+.character-portrait--simon-thassi .character-portrait__robe { fill: #806f53; }
+.character-portrait--john-hyrcanus-i .character-portrait__robe { fill: #766451; }
+.character-portrait--pompey .character-portrait__robe { fill: #6d626a; }
+.character-portrait--herod-great .character-portrait__robe { fill: #835f50; }
+.character-portrait--augustus .character-portrait__robe { fill: #696370; }
+.traveler-marker--alexander-iii .traveler-marker__figure { fill: #c7b4d8; }
+.traveler-marker--antiochus-iv .traveler-marker__figure { fill: #cf9fc2; }
+.traveler-marker--judas-maccabeus .traveler-marker__figure { fill: #dfbd77; }
+.traveler-marker--pompey .traveler-marker__figure { fill: #bfb5c4; }
+.traveler-marker--herod-great .traveler-marker__figure { fill: #d0a17d; }
+.story-art--hellenistic .story-art__sky-a { stop-color: #343442; }
+.story-art--maccabee .story-art__sky-a { stop-color: #3c342f; }
+.story-art--roman .story-art__sky-a { stop-color: #343238; }
+.story-art--herodian .story-art__sky-a { stop-color: #3d352f; }
+.story-art__columns, .story-art__roman, .story-art__harbor { fill: none; stroke: #a49373; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.story-art__standards { fill: none; stroke: #9e8c72; stroke-width: 2; stroke-linecap: round; }
+.scripture-chips--ancient span { border-color: rgba(176, 154, 111, .34); background: rgba(132, 110, 75, .12); color: #cdbb96; }
+
+
+/* Batch 8 — Gospels and first-century Judea/Galilee. Artistic accents only; no portrait claim. */
+.character-portrait--jesus .character-portrait__robe { fill: #81735f; }
+.character-portrait--john-baptist .character-portrait__robe { fill: #756b54; }
+.character-portrait--peter .character-portrait__robe { fill: #796f61; }
+.character-portrait--mary-magdalene .character-portrait__robe { fill: #806b6c; }
+.character-portrait--herod-antipas .character-portrait__robe { fill: #7d5f58; }
+.character-portrait--pontius-pilate .character-portrait__robe { fill: #69636d; }
+.character-portrait--caiaphas .character-portrait__robe { fill: #7a705f; }
+.traveler-marker--jesus .traveler-marker__figure { fill: #d6c094; }
+.traveler-marker--john-baptist .traveler-marker__figure { fill: #ccb982; }
+.traveler-marker--peter .traveler-marker__figure { fill: #cfc4aa; }
+.traveler-marker--mary-magdalene .traveler-marker__figure { fill: #d0aaa9; }
+.story-art--gospel .story-art__sky-a { stop-color: #343c39; }
+.story-art--galilee .story-art__sky-a { stop-color: #2f3d40; }
+.story-art--passion .story-art__sky-a { stop-color: #3b3432; }
+.story-art__village, .story-art__boat { fill: #6f6655; stroke: #a49472; stroke-width: 1.2; stroke-linejoin: round; }
+.story-art__olive, .story-art__shore { fill: none; stroke: #95866a; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.story-art__olive circle { fill: #5e684f; stroke: none; }
+
+/* Batch 9 — Acts, Paul, Roman mission geography. Artistic accents only; no portrait claim. */
+.character-portrait--paul .character-portrait__robe { fill: #756f62; }
+.character-portrait--stephen .character-portrait__robe { fill: #7f7466; }
+.character-portrait--philip-evangelist .character-portrait__robe { fill: #7c755d; }
+.character-portrait--barnabas .character-portrait__robe { fill: #82725e; }
+.character-portrait--cornelius .character-portrait__robe { fill: #6f6b66; }
+.character-portrait--silas .character-portrait__robe { fill: #736d60; }
+.character-portrait--timothy .character-portrait__robe { fill: #7f765f; }
+.character-portrait--lydia .character-portrait__robe { fill: #806b76; }
+.character-portrait--priscilla .character-portrait__robe { fill: #7d6c73; }
+.character-portrait--aquila .character-portrait__robe { fill: #716c61; }
+.character-portrait--felix .character-portrait__robe { fill: #66636c; }
+.character-portrait--porcius-festus .character-portrait__robe { fill: #68646f; }
+.character-portrait--herod-agrippa-ii .character-portrait__robe { fill: #795f59; }
+.traveler-marker--paul .traveler-marker__figure { fill: #d2c4a4; }
+.traveler-marker--stephen .traveler-marker__figure { fill: #c9bca5; }
+.traveler-marker--philip-evangelist .traveler-marker__figure { fill: #c8c092; }
+.traveler-marker--barnabas .traveler-marker__figure { fill: #d1b798; }
+.traveler-marker--silas .traveler-marker__figure { fill: #c8bd9f; }
+.story-art--acts .story-art__sky-a { stop-color: #343a3a; }
+.story-art--mission .story-art__sky-a { stop-color: #303b3d; }
+.story-art--voyage .story-art__sky-a { stop-color: #293b45; }
+.story-art__road, .story-art__storm { fill: none; stroke: #9a8c72; stroke-width: 2; stroke-linecap: round; }
+
+/* Batch 10 — Revelation and final integration. Visionary mode is intentionally distinct from terrestrial map geography. */
+.character-portrait--john-of-patmos .character-portrait__robe { fill: #756f78; }
+.traveler-marker--john-of-patmos .traveler-marker__figure { fill: #d2c4d8; }
+.visionary-overlay { position:absolute; inset:0; z-index:10; overflow:hidden; background:#070b12; pointer-events:none; }
+.visionary-overlay__wash { position:absolute; inset:0; background:radial-gradient(circle at 52% 42%,rgba(203,176,112,.08),transparent 38%),linear-gradient(145deg,#090d17,#0d1417 58%,#120f15); }
+.visionary-svg { position:absolute; width:min(76vw,1000px); height:auto; left:50%; top:46%; transform:translate(-50%,-50%); opacity:.96; }
+.visionary-svg__bg { fill:transparent; }
+.visionary-stars circle { fill:#e9d6a1; opacity:.45; animation:visionTwinkle 3s ease-in-out infinite alternate; }
+.visionary-stars circle:nth-child(3n) { animation-delay:-1.2s; }
+.visionary-orbit,.visionary-rings circle { fill:none; stroke:#d9bd78; stroke-width:2; opacity:.35; }
+.visionary-orbit--two { stroke-dasharray:6 10; animation:visionRotate 20s linear infinite; transform-origin:480px 300px; }
+.visionary-throne { fill:#b79a60; stroke:#f2d899; stroke-width:3; opacity:.78; }
+.visionary-lamb { fill:#efe1bd; opacity:.9; }
+.visionary-scroll { fill:none; stroke:#e1c782; stroke-width:5; }
+.visionary-trumpets path,.visionary-crowns path { fill:#d6b970; opacity:.72; }
+.visionary-core,.visionary-sun-disc { fill:#d8bd76; opacity:.26; }
+.visionary-woman { fill:#d9c392; opacity:.82; }
+.visionary-dragon { fill:#7d4245; stroke:#bd7773; stroke-width:3; opacity:.86; }
+.visionary-sea { fill:#203945; opacity:.8; }
+.visionary-beast { fill:#61505a; stroke:#a98d77; stroke-width:3; }
+.visionary-beast--two { fill:#514f43; }
+.visionary-number { fill:#d5b96f; font-family:Georgia,serif; font-size:74px; letter-spacing:.12em; opacity:.82; }
+.visionary-city { fill:#6f5a58; stroke:#c29f70; stroke-width:3; }
+.visionary-cracks { fill:none; stroke:#e5b17d; stroke-width:5; }
+.visionary-fire { fill:none; stroke:#a85846; stroke-width:24; opacity:.22; }
+.visionary-hills { fill:#313532; stroke:#857d66; stroke-width:2; }
+.visionary-horizon,.visionary-standards path,.visionary-groundline { fill:none; stroke:#b59a67; stroke-width:3; }
+.visionary-throne--white { fill:#dbd8ce; stroke:#fff3ce; }
+.visionary-books { fill:#8d7652; stroke:#c7a66c; stroke-width:2; }
+.visionary-cube path { fill:rgba(186,154,83,.13); stroke:url(#visionGold); stroke-width:4; }
+.visionary-gates rect { fill:#e4ca83; opacity:.82; }
+.visionary-measure { fill:none; stroke:#c9ad71; stroke-width:2; stroke-dasharray:8 7; }
+.visionary-river { fill:url(#visionWater); opacity:.63; }
+.visionary-tree path { fill:none; stroke:#a68c59; stroke-width:13; stroke-linecap:round; }
+.visionary-tree circle { fill:#5f745b; stroke:#a6a878; stroke-width:2; opacity:.84; }
+.visionary-arc { fill:none; stroke:#e0c47e; stroke-width:4; stroke-dasharray:10 12; opacity:.6; }
+.visionary-overlay__caption { position:absolute; left:430px; right:310px; bottom:142px; max-width:640px; text-align:center; margin:auto; padding:16px 18px; border:1px solid rgba(225,196,126,.18); border-radius:16px; background:rgba(8,13,18,.68); backdrop-filter:blur(15px); }
+.visionary-overlay__caption>span { color:#d7bb76; font-size:9px; letter-spacing:.18em; }
+.visionary-overlay__caption>strong { display:block; margin:5px 0; font-family:Georgia,serif; font-size:28px; font-weight:500; }
+.visionary-overlay__caption>p { margin:4px auto 10px; max-width:560px; color:#aab3b0; font-size:11px; line-height:1.55; }
+.visionary-overlay__caption .scripture-chips { justify-content:center; }
+.visionary-metrics { display:grid; grid-template-columns:repeat(3,1fr); gap:7px; margin-top:10px; }
+.visionary-metrics div { padding:8px; border-radius:9px; background:rgba(255,255,255,.035); display:grid; gap:2px; }
+.visionary-metrics small { color:#a89a79; font-size:8px; text-transform:uppercase; }
+.visionary-metrics b { font-family:Georgia,serif; color:#ead49e; font-size:13px; font-weight:500; }
+.visionary-metrics em { color:#7f8985; font-size:8px; font-style:normal; line-height:1.3; }
+@keyframes visionTwinkle { to { opacity:.9; transform:scale(1.5); } }
+@keyframes visionRotate { to { transform:rotate(360deg); } }
+@media(max-width:860px){ .visionary-overlay__caption{left:12px;right:12px;bottom:108px;max-width:none}.visionary-svg{width:115vw;top:40%}.visionary-overlay__caption>strong{font-size:22px}.visionary-metrics{grid-template-columns:1fr 1fr}.visionary-metrics div:last-child{grid-column:1/-1} }
+.story-art--revelation .story-art__sky-a { stop-color:#252b3b; }
+.story-art--revelation .story-art__sky-b { stop-color:#11171c; }
+.story-art__island { fill:#5d665d; stroke:#a59674; stroke-width:1.4; }
+.story-art__stars circle { fill:#e3cc91; opacity:.75; }
+.visionary-sources { margin-top:9px; color:#737e7b; font-size:8px; line-height:1.4; }

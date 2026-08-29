@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "rameses",
+    "name": "Rameses / Pi-Ramesses",
+    "aliases": [
+      "Pi-Ramesses",
+      "Per-Ramesses",
+      "Qantir"
+    ],
+    "summary": "Exodus names Rameses as a departure point and one of the store-city names associated with Israelite labor. The major Ramesside royal city Pi-Ramesses is securely located at Qantir, but the biblical toponym does not by itself fix the date or route of the Exodus.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Qantir is the established location of Pi-Ramesses. Identifying the biblical Rameses with this city is strong historically, while the relationship between the toponym and the composition/date of Exodus is a separate question."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 1,
+        "verseStart": 11,
+        "verseEnd": 11,
+        "label": "Exodus 1:11"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 12,
+        "verseStart": 37,
+        "verseEnd": 37,
+        "label": "Exodus 12:37"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 3,
+        "verseEnd": 5,
+        "label": "Numbers 33:3–5"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-egypt",
+      "source-sacred-bridge"
+    ],
+    "coordinates": [
+      31.83,
+      30.8
+    ],
+    "coordinateRole": "candidate-site",
+    "archaeology": "Qantir and nearby Tell el-Dabʿa preserve the Ramesside capital and earlier settlement complex in the eastern Nile Delta. No excavated structure can be identified as an Israelite worksite from the biblical narrative."
+  },
+  {
+    "id": "pithom",
+    "name": "Pithom",
+    "aliases": [
+      "Per-Atum"
+    ],
+    "summary": "Exodus names Pithom alongside Rameses. Its identification is disputed, with Tell el-Maskhuta and Tell er-Retaba among the principal proposals in Wadi Tumilat.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The biblical name is clear, but modern site identification remains debated; the atlas therefore does not assign Pithom a single point."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 1,
+        "verseStart": 11,
+        "verseEnd": 11,
+        "label": "Exodus 1:11"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-egypt",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "interpretations": [
+      {
+        "title": "Tell el-Maskhuta",
+        "status": "possible",
+        "summary": "A frequently proposed identification in eastern Wadi Tumilat; occupation history and the dating of the toponym complicate a simple equation.",
+        "sourceIds": [
+          "source-hoffmeier-egypt",
+          "source-sacred-bridge"
+        ]
+      },
+      {
+        "title": "Tell er-Retaba",
+        "status": "possible",
+        "summary": "Another major proposal for Pithom, also in Wadi Tumilat. The atlas preserves the dispute rather than selecting one site.",
+        "sourceIds": [
+          "source-hoffmeier-egypt",
+          "source-sacred-bridge"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tell-el-maskhuta",
+    "name": "Tell el-Maskhuta",
+    "aliases": [],
+    "summary": "An archaeological site in Wadi Tumilat often proposed as Pithom. It is shown as a candidate site, not as the settled biblical identification.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "low",
+      "explanation": "The archaeological site is certain; its identification with biblical Pithom is debated."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 1,
+        "verseStart": 11,
+        "verseEnd": 11,
+        "label": "Exodus 1:11"
+      }
+    ],
+    "sourceIds": [
+      "source-hoffmeier-egypt",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      32.17,
+      30.55
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Candidate for Pithom; not treated as definitive."
+  },
+  {
+    "id": "tell-er-retaba",
+    "name": "Tell er-Retaba",
+    "aliases": [],
+    "summary": "A fortified settlement in Wadi Tumilat and another major candidate for biblical Pithom.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "low",
+      "explanation": "The site is well known archaeologically, but its equation with Pithom is not certain."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 1,
+        "verseStart": 11,
+        "verseEnd": 11,
+        "label": "Exodus 1:11"
+      }
+    ],
+    "sourceIds": [
+      "source-hoffmeier-egypt",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      32.04,
+      30.55
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Candidate for Pithom; not treated as definitive."
+  },
+  {
+    "id": "wadi-tumilat",
+    "name": "Wadi Tumilat",
+    "aliases": [],
+    "summary": "An east–west corridor across the eastern Nile Delta that is important for reconstructing travel between the Delta and the Sinai approaches.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Wadi Tumilat is a real geographic corridor; its role in any particular reconstruction of the Exodus route remains interpretive."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 12,
+        "verseStart": 37,
+        "verseEnd": 37,
+        "label": "Exodus 12:37"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 13,
+        "verseStart": 20,
+        "verseEnd": 20,
+        "label": "Exodus 13:20"
+      }
+    ],
+    "sourceIds": [
+      "source-hoffmeier-egypt",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      31.95,
+      30.55
+    ],
+    "coordinateRole": "approximate-area",
+    "historicalContext": "Shown as a geographic corridor, not as an assertion that every Exodus station lay inside it."
+  },
+  {
+    "id": "sukkoth-exodus",
+    "name": "Succoth (Exodus)",
+    "aliases": [
+      "Succoth"
+    ],
+    "summary": "The first station named after departure from Rameses. It is generally placed somewhere in or near the eastern Delta/Wadi Tumilat system, but no site is securely established.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "The station name is preserved in the text, but the modern location is unresolved."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 12,
+        "verseStart": 37,
+        "verseEnd": 37,
+        "label": "Exodus 12:37"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 5,
+        "verseEnd": 6,
+        "label": "Numbers 33:5–6"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-egypt",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "etham",
+    "name": "Etham",
+    "aliases": [],
+    "summary": "A wilderness-edge station named after Succoth. Its location is unknown.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "No modern site can be established with confidence."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 13,
+        "verseStart": 20,
+        "verseEnd": 20,
+        "label": "Exodus 13:20"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 6,
+        "verseEnd": 8,
+        "label": "Numbers 33:6–8"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-egypt",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "pi-hahiroth",
+    "name": "Pi-hahiroth",
+    "aliases": [],
+    "summary": "An Exodus station associated with the sea-crossing narrative. Its location is unknown and depends heavily on broader route theories.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "The toponym has not been securely identified."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 14,
+        "verseStart": 2,
+        "verseEnd": 2,
+        "label": "Exodus 14:2"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 7,
+        "verseEnd": 8,
+        "label": "Numbers 33:7–8"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-egypt",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "migdol-exodus",
+    "name": "Migdol (Exodus)",
+    "aliases": [],
+    "summary": "A place-name meaning “tower” or associated with a fortified point in the sea-crossing narrative. Several Egyptian frontier locations have been proposed, but no unique identification is secure.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "Migdol is a common place-name/term in Egyptian frontier geography; the Exodus reference cannot be assigned a single modern coordinate."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 14,
+        "verseStart": 2,
+        "verseEnd": 2,
+        "label": "Exodus 14:2"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 7,
+        "verseEnd": 8,
+        "label": "Numbers 33:7–8"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-egypt",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "baal-zephon",
+    "name": "Baal-zephon",
+    "aliases": [],
+    "summary": "A place named opposite the Israelite camp before the sea crossing. Its precise location is unknown.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "Proposals depend on uncertain reconstruction of the crossing area."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 14,
+        "verseStart": 2,
+        "verseEnd": 9,
+        "label": "Exodus 14:2–9"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-egypt",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "yam-suph",
+    "name": "Yam Suph / Sea Crossing Region",
+    "aliases": [
+      "Sea of Reeds",
+      "Red Sea"
+    ],
+    "summary": "The Hebrew expression yam sûp̄ is traditionally rendered “Red Sea” and often discussed as “Sea of Reeds.” The specific body of water crossed in Exodus cannot be fixed with confidence.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "The text names a sea/water body, but proposed locations range across lakes and marshes of the eastern Delta/Suez approaches and, in some reconstructions, farther south. A single pin would overstate the evidence."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 14,
+        "label": "Exodus 14"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 15,
+        "verseStart": 4,
+        "verseEnd": 4,
+        "label": "Exodus 15:4"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 8,
+        "verseEnd": 8,
+        "label": "Numbers 33:8"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-egypt",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "interpretations": [
+      {
+        "title": "Eastern Delta / lake-and-marsh proposals",
+        "status": "possible",
+        "summary": "Many historical-geographic reconstructions place the crossing among ancient lakes, lagoons, or marsh systems east of the Delta. Exact paleohydrology and route remain debated.",
+        "sourceIds": [
+          "source-hoffmeier-egypt",
+          "source-sacred-bridge"
+        ]
+      },
+      {
+        "title": "Gulf of Suez proposals",
+        "status": "possible",
+        "summary": "Some reconstructions identify the crossing with or near the northern Gulf of Suez. The text alone does not resolve the question.",
+        "sourceIds": [
+          "source-hoffmeier-egypt",
+          "source-sacred-bridge"
+        ]
+      },
+      {
+        "title": "Gulf of Aqaba / farther-east proposals",
+        "status": "possible",
+        "summary": "Farther-east proposals exist, but require a substantially different route reconstruction and are not presented here as established.",
+        "sourceIds": [
+          "source-hoffmeier-sinai",
+          "source-batch3-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "marah",
+    "name": "Marah",
+    "aliases": [],
+    "summary": "A wilderness station where the water is described as bitter. Its location is not securely known.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "Traditional and itinerary-based proposals exist, but no identification is secure enough for a normal map pin."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 15,
+        "verseStart": 23,
+        "verseEnd": 25,
+        "label": "Exodus 15:23–25"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 8,
+        "verseEnd": 9,
+        "label": "Numbers 33:8–9"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-sinai",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "elim",
+    "name": "Elim",
+    "aliases": [],
+    "summary": "A wilderness station associated with twelve springs and seventy palm trees. Its precise modern location is unknown.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "Suggested oases exist, but the text does not permit a secure identification."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 15,
+        "verseStart": 27,
+        "verseEnd": 27,
+        "label": "Exodus 15:27"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 9,
+        "verseEnd": 10,
+        "label": "Numbers 33:9–10"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-sinai",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "wilderness-sin",
+    "name": "Wilderness of Sin",
+    "aliases": [],
+    "summary": "A wilderness region named between Elim and Sinai. It should not be confused with the later “Wilderness of Zin.”",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "Its location depends on the wider Sinai route reconstruction."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 16,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "Exodus 16:1"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 11,
+        "verseEnd": 12,
+        "label": "Numbers 33:11–12"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-sinai",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "rephidim",
+    "name": "Rephidim",
+    "aliases": [],
+    "summary": "A station before Sinai associated with water from the rock and conflict with Amalek. Its location is not securely known.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "Traditional identifications are tied to a chosen Mount Sinai; there is no independent secure archaeological identification."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 17,
+        "label": "Exodus 17"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 14,
+        "verseEnd": 15,
+        "label": "Numbers 33:14–15"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-sinai",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "mount-sinai",
+    "name": "Mount Sinai / Horeb",
+    "aliases": [
+      "Horeb"
+    ],
+    "summary": "The mountain of the covenant in Exodus. Its location is unknown; traditions and scholarly proposals range across the Sinai Peninsula and beyond.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The biblical mountain is central to the narrative, but there is no consensus modern identification. The atlas therefore treats “Mount Sinai” as unlocated and displays candidate sites separately."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 19,
+        "label": "Exodus 19"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 24,
+        "label": "Exodus 24"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 34,
+        "label": "Exodus 34"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 5,
+        "label": "Deuteronomy 5"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-sinai",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "interpretations": [
+      {
+        "title": "Jebel Musa / southern Sinai tradition",
+        "status": "traditional",
+        "summary": "The strongest continuous Christian tradition identifies Jebel Musa in southern Sinai, especially from late antiquity onward. Tradition is not equivalent to archaeological proof of the Exodus mountain.",
+        "sourceIds": [
+          "source-hoffmeier-sinai",
+          "source-sacred-bridge"
+        ]
+      },
+      {
+        "title": "Northern or central Sinai / Negev proposals",
+        "status": "possible",
+        "summary": "Multiple reconstructions place Sinai farther north or northeast based on itinerary, geography, and textual arguments. No proposal has achieved consensus.",
+        "sourceIds": [
+          "source-hoffmeier-sinai",
+          "source-sacred-bridge"
+        ]
+      },
+      {
+        "title": "Northwestern Arabia proposals",
+        "status": "possible",
+        "summary": "Locations east of the Gulf of Aqaba have also been proposed. These remain disputed and are not treated as established by this atlas.",
+        "sourceIds": [
+          "source-hoffmeier-sinai",
+          "source-batch3-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jebel-musa",
+    "name": "Jebel Musa",
+    "aliases": [
+      "Gebel Musa"
+    ],
+    "summary": "The traditional Mount Sinai in southern Sinai, beside St Catherine’s Monastery. It is mapped as a traditional identification only.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "traditional",
+      "explanation": "Jebel Musa has a long Christian identification with Sinai, but no archaeological discovery proves it was the mountain of Exodus."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 19,
+        "label": "Exodus 19"
+      }
+    ],
+    "sourceIds": [
+      "source-hoffmeier-sinai",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      33.975,
+      28.54
+    ],
+    "coordinateRole": "traditional-site",
+    "locationNote": "Traditional candidate for Mount Sinai; not the atlas default location for the biblical mountain."
+  },
+  {
+    "id": "har-karkom",
+    "name": "Har Karkom",
+    "aliases": [],
+    "summary": "A mountain in the southern Negev proposed by some scholars as Mount Sinai/Horeb. The proposal is controversial and not widely accepted as established.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "low",
+      "explanation": "The identification is a specific scholarly proposal with disputed chronology and interpretation."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 19,
+        "label": "Exodus 19"
+      }
+    ],
+    "sourceIds": [
+      "source-hoffmeier-sinai",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      34.75,
+      30.2
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Contested candidate; included to make interpretive alternatives visible."
+  },
+  {
+    "id": "hazeroth",
+    "name": "Hazeroth",
+    "aliases": [],
+    "summary": "A wilderness station associated with Miriam and Aaron’s challenge to Moses. Its exact location is unknown.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "No secure modern identification exists."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 11,
+        "verseStart": 35,
+        "verseEnd": 35,
+        "label": "Numbers 11:35"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 12,
+        "verseStart": 16,
+        "verseEnd": 16,
+        "label": "Numbers 12:16"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 17,
+        "verseEnd": 18,
+        "label": "Numbers 33:17–18"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-sinai",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "kibroth-hattaavah",
+    "name": "Kibroth-hattaavah",
+    "aliases": [],
+    "summary": "A wilderness station named in Numbers in connection with the quail episode. Its modern location is unknown.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "Itinerary proposals are dependent on broader route models."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 11,
+        "verseStart": 34,
+        "verseEnd": 35,
+        "label": "Numbers 11:34–35"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 16,
+        "verseEnd": 17,
+        "label": "Numbers 33:16–17"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-sinai",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "kadesh-barnea",
+    "name": "Kadesh-barnea",
+    "aliases": [
+      "Kadesh",
+      "Ain el-Qudeirat"
+    ],
+    "summary": "A major wilderness location associated with the spies, extended encampment, and the southern approach to Canaan. ʿAin el-Qudeirat is the leading modern identification, though the relationship between the archaeological remains and the narrative periods is complex.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The oasis complex around ʿAin el-Qudeirat is widely identified with Kadesh-barnea on geographic and historical grounds; exact narrative chronology remains debated."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 13,
+        "verseStart": 26,
+        "verseEnd": 26,
+        "label": "Numbers 13:26"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 20,
+        "verseStart": 1,
+        "verseEnd": 13,
+        "label": "Numbers 20:1–13"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 1,
+        "verseStart": 19,
+        "verseEnd": 46,
+        "label": "Deuteronomy 1:19–46"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-hoffmeier-sinai"
+    ],
+    "coordinates": [
+      34.44,
+      30.65
+    ],
+    "coordinateRole": "candidate-site",
+    "archaeology": "Iron Age fortifications are known at ʿAin el-Qudeirat. Their dates should not be used automatically as dates for every biblical tradition associated with Kadesh."
+  },
+  {
+    "id": "hormah",
+    "name": "Hormah",
+    "aliases": [],
+    "summary": "A southern-Canaan/Negev place associated with conflict in Numbers and later in Judges. Its precise site identification remains debated.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "low",
+      "explanation": "Several southern sites have been proposed; there is no universally accepted identification."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 14,
+        "verseStart": 45,
+        "verseEnd": 45,
+        "label": "Numbers 14:45"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 21,
+        "verseStart": 3,
+        "verseEnd": 3,
+        "label": "Numbers 21:3"
+      },
+      {
+        "book": "Judges",
+        "chapter": 1,
+        "verseStart": 17,
+        "verseEnd": 17,
+        "label": "Judges 1:17"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "arad",
+    "name": "Arad",
+    "aliases": [],
+    "summary": "An ancient city site in the northern Negev. Tel Arad is securely identified with later biblical Arad, though the relationship between the archaeological sequence and the conquest narrative requires caution.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tel Arad is an established ancient site and biblical place identification; specific narrative correlations remain interpretive."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 21,
+        "verseStart": 1,
+        "verseEnd": 3,
+        "label": "Numbers 21:1–3"
+      },
+      {
+        "book": "Judges",
+        "chapter": 1,
+        "verseStart": 16,
+        "verseEnd": 17,
+        "label": "Judges 1:16–17"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      35.126,
+      31.281
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Tel Arad preserves an Early Bronze city and later Iron Age fortress complex, with an occupational gap that is important when discussing the Numbers/Judges narratives."
+  },
+  {
+    "id": "mount-hor",
+    "name": "Mount Hor",
+    "aliases": [
+      "Jabal Harun"
+    ],
+    "summary": "The mountain where Numbers places Aaron’s death. Jabal Harun near Petra is the dominant later tradition, but the biblical mountain is not securely identified.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "traditional",
+      "explanation": "Jabal Harun is a long-standing traditional identification; the exact biblical location remains uncertain."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 20,
+        "verseStart": 22,
+        "verseEnd": 29,
+        "label": "Numbers 20:22–29"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 37,
+        "verseEnd": 41,
+        "label": "Numbers 33:37–41"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      35.407,
+      30.317
+    ],
+    "coordinateRole": "traditional-site",
+    "locationNote": "Traditional candidate near Petra."
+  },
+  {
+    "id": "ezion-geber",
+    "name": "Ezion-geber",
+    "aliases": [
+      "Eziongeber",
+      "Tell el-Kheleifeh"
+    ],
+    "summary": "A Red Sea port/place near Elath mentioned in the wilderness itinerary and later monarchic narratives. Tell el-Kheleifeh was long identified with Ezion-geber, but precise identification and function have been debated.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Gulf of Aqaba setting is strong; the exact archaeological equation is less secure."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 35,
+        "verseEnd": 36,
+        "label": "Numbers 33:35–36"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 2,
+        "verseStart": 8,
+        "verseEnd": 8,
+        "label": "Deuteronomy 2:8"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "coordinates": [
+      34.98,
+      29.55
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "midian",
+    "name": "Midian",
+    "aliases": [],
+    "summary": "A biblical regional/people-name associated with Moses’ flight, Jethro, and later conflicts. Its geographic extent varied and cannot be drawn as a precise modern border.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Midian is generally associated with northwestern Arabia and adjacent zones east of the Gulf of Aqaba, but its extent and political organization changed over time."
+    },
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 2,
+        "verseStart": 15,
+        "verseEnd": 22,
+        "label": "Exodus 2:15–22"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 3,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "Exodus 3:1"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 25,
+        "label": "Numbers 25"
+      },
+      {
+        "book": "Judges",
+        "chapter": 6,
+        "label": "Judges 6"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      36.0,
+      28.5
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Broad orientation anchor only; not a political boundary."
+  },
+  {
+    "id": "moab",
+    "name": "Moab",
+    "aliases": [],
+    "summary": "A Transjordanian region east of the Dead Sea associated with Balak, Balaam, and Israel’s final approach to the Jordan.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The core geographic region east of the Dead Sea is well established, while political borders varied through time."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 21,
+        "verseStart": 26,
+        "verseEnd": 30,
+        "label": "Numbers 21:26–30"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 22,
+        "label": "Numbers 22"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 2,
+        "verseStart": 8,
+        "verseEnd": 12,
+        "label": "Deuteronomy 2:8–12"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan"
+    ],
+    "coordinates": [
+      35.75,
+      31.35
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "arnon",
+    "name": "Arnon / Wadi Mujib",
+    "aliases": [
+      "Wadi Mujib"
+    ],
+    "summary": "The Arnon is securely identified with Wadi Mujib, a major canyon entering the Dead Sea from the east.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The geographic identification of the Arnon with Wadi Mujib is strong."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 21,
+        "verseStart": 13,
+        "verseEnd": 14,
+        "label": "Numbers 21:13–14"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 2,
+        "verseStart": 24,
+        "verseEnd": 24,
+        "label": "Deuteronomy 2:24"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan"
+    ],
+    "coordinates": [
+      35.67,
+      31.47
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "dibon",
+    "name": "Dibon",
+    "aliases": [
+      "Dhiban"
+    ],
+    "summary": "An important Moabite city securely identified with Dhiban, later famous for the Mesha Stele.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Dhiban is the established location of ancient Dibon."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 21,
+        "verseStart": 30,
+        "verseEnd": 30,
+        "label": "Numbers 21:30"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 32,
+        "verseStart": 3,
+        "verseEnd": 34,
+        "label": "Numbers 32:3–34"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 45,
+        "verseEnd": 46,
+        "label": "Numbers 33:45–46"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan"
+    ],
+    "coordinates": [
+      35.77,
+      31.5
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Dhiban is a major Iron Age Moabite center; the Mesha Stele belongs to a later period than the wilderness narratives but is important evidence for Moab and its place-names."
+  },
+  {
+    "id": "heshbon",
+    "name": "Heshbon",
+    "aliases": [
+      "Tell Hesban"
+    ],
+    "summary": "A Transjordanian city associated in Numbers and Deuteronomy with Sihon. Tell Hesban is the traditional archaeological identification, though the site’s Late Bronze/Iron Age sequence complicates direct narrative correlation.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tell Hesban is the standard geographic identification; chronology and the identification of the specific city in the conquest traditions remain debated."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 21,
+        "verseStart": 25,
+        "verseEnd": 30,
+        "label": "Numbers 21:25–30"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 2,
+        "verseStart": 24,
+        "verseEnd": 37,
+        "label": "Deuteronomy 2:24–37"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan"
+    ],
+    "coordinates": [
+      35.81,
+      31.8
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "plains-moab",
+    "name": "Plains of Moab",
+    "aliases": [],
+    "summary": "The biblical staging area east of the Jordan opposite Jericho where Numbers and Deuteronomy place Israel before entry into Canaan.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "The broad setting in the Jordan Valley east of Jericho is clear; exact camp boundaries are not recoverable."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 22,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "Numbers 22:1"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 48,
+        "verseEnd": 56,
+        "label": "Numbers 33:48–56"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 34,
+        "verseStart": 1,
+        "verseEnd": 8,
+        "label": "Deuteronomy 34:1–8"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      35.65,
+      31.83
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "mount-nebo",
+    "name": "Mount Nebo",
+    "aliases": [
+      "Nebo",
+      "Pisgah region"
+    ],
+    "summary": "The ridge east of the Jordan traditionally and geographically associated with Moses’ final view of the land.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Nebo/Pisgah region is well located; identifying the exact summit intended by the text is less certain."
+    },
+    "scripture": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 34,
+        "verseStart": 1,
+        "verseEnd": 8,
+        "label": "Deuteronomy 34:1–8"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 27,
+        "verseStart": 12,
+        "verseEnd": 14,
+        "label": "Numbers 27:12–14"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan"
+    ],
+    "coordinates": [
+      35.725,
+      31.767
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "jordan-crossing",
+    "name": "Jordan Crossing Opposite Jericho",
+    "aliases": [],
+    "summary": "Joshua describes Israel crossing the Jordan opposite Jericho. The river corridor is known, but the exact crossing point is not securely identified.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The geographic corridor is clear; river channels and crossing locations have changed, and no exact point can be established from the text alone."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 3,
+        "label": "Joshua 3"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 4,
+        "label": "Joshua 4"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      35.55,
+      31.87
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Broad river-corridor anchor, not an exact crossing point."
+  },
+  {
+    "id": "jericho",
+    "name": "Jericho / Tell es-Sultan",
+    "aliases": [
+      "Tell es-Sultan"
+    ],
+    "summary": "The ancient settlement mound of Jericho is securely located at Tell es-Sultan. The archaeological chronology of its Late Bronze occupation/destruction and its relationship to Joshua 6 remain major subjects of debate.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "low",
+      "explanation": "The city location is established; the historical correlation between specific destruction levels and Joshua’s conquest narrative is disputed."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 2,
+        "label": "Joshua 2"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 6,
+        "label": "Joshua 6"
+      },
+      {
+        "book": "Judges",
+        "chapter": 1,
+        "verseStart": 16,
+        "verseEnd": 16,
+        "label": "Judges 1:16"
+      },
+      {
+        "book": "Judges",
+        "chapter": 3,
+        "verseStart": 13,
+        "verseEnd": 13,
+        "label": "Judges 3:13"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-kenyon-jericho",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      35.444,
+      31.871
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Tell es-Sultan preserves a long sequence of occupation. Kathleen Kenyon’s excavations and subsequent reassessments are central to debate about the relevant Bronze Age chronology; the atlas does not turn that debate into a certainty badge for the biblical event.",
+    "interpretations": [
+      {
+        "title": "Site identification",
+        "status": "established",
+        "summary": "Tell es-Sultan is the archaeological site of ancient Jericho.",
+        "sourceIds": [
+          "source-kenyon-jericho",
+          "source-ben-tor-israel"
+        ]
+      },
+      {
+        "title": "Joshua 6 event correlation",
+        "status": "disputed",
+        "summary": "Scholars disagree over whether and how the archaeological destruction sequence can be correlated with the conquest narrative.",
+        "sourceIds": [
+          "source-kenyon-jericho",
+          "source-oxford-history",
+          "source-ben-tor-israel"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gilgal-joshua",
+    "name": "Gilgal (Joshua)",
+    "aliases": [],
+    "summary": "The first encampment west of the Jordan in Joshua and a recurring place-name in the narratives. Several sites near Jericho have been proposed; no identification is secure.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "The text’s regional setting is clear, but “Gilgal” may also function as a descriptive place-name and no single excavated site is certain."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 4,
+        "verseStart": 19,
+        "verseEnd": 24,
+        "label": "Joshua 4:19–24"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 5,
+        "verseStart": 9,
+        "verseEnd": 12,
+        "label": "Joshua 5:9–12"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 9,
+        "verseStart": 6,
+        "verseEnd": 6,
+        "label": "Joshua 9:6"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "gibeon",
+    "name": "Gibeon / el-Jib",
+    "aliases": [
+      "el-Jib"
+    ],
+    "summary": "Ancient Gibeon is securely identified with el-Jib northwest of Jerusalem, supported by archaeology and inscribed jar handles.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The el-Jib identification is strong and widely accepted."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 9,
+        "label": "Joshua 9"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 10,
+        "verseStart": 1,
+        "verseEnd": 14,
+        "label": "Joshua 10:1–14"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      35.185,
+      31.85
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Excavations at el-Jib exposed substantial Iron Age installations and inscriptions identifying Gibeon; the site identification is stronger than claims about individual Joshua-era episodes."
+  },
+  {
+    "id": "aijalon-valley",
+    "name": "Valley of Aijalon",
+    "aliases": [
+      "Ayalon Valley"
+    ],
+    "summary": "A valley west of the central highlands, named in Joshua’s battle poem. The valley is geographically identifiable, though the event’s precise battlefield movements are not reconstructable.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Aijalon is a recognizable geographic valley; the exact event route remains interpretive."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 10,
+        "verseStart": 12,
+        "verseEnd": 14,
+        "label": "Joshua 10:12–14"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      34.98,
+      31.85
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "hazor",
+    "name": "Hazor / Tel Hazor",
+    "aliases": [
+      "Tel Hazor",
+      "Tell el-Qedah"
+    ],
+    "summary": "The largest major Canaanite center in the southern Levant, securely identified with Tel Hazor. Joshua 11 associates it with a northern coalition and destruction; archaeological destruction levels exist, but their narrative correlation is debated.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The site identification is established. Connecting a particular destruction horizon with Joshua requires historical interpretation."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 11,
+        "verseStart": 1,
+        "verseEnd": 15,
+        "label": "Joshua 11:1–15"
+      },
+      {
+        "book": "Judges",
+        "chapter": 4,
+        "verseStart": 2,
+        "verseEnd": 2,
+        "label": "Judges 4:2"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel",
+      "source-oxford-history"
+    ],
+    "coordinates": [
+      35.57,
+      33.02
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Tel Hazor preserves extensive Middle and Late Bronze Age remains and major destruction horizons, followed by Iron Age settlement. It is central to discussions of the transition from Canaanite to Israelite periods."
+  },
+  {
+    "id": "waters-merom",
+    "name": "Waters of Merom",
+    "aliases": [],
+    "summary": "A geographic name in Joshua 11 associated with the northern battle. The exact body of water or locality is uncertain; identification with the Hula region is common but not definitive.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "low",
+      "explanation": "The broad northern setting is likely; the exact feature meant by “waters of Merom” is debated."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 11,
+        "verseStart": 5,
+        "verseEnd": 7,
+        "label": "Joshua 11:5–7"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      35.6,
+      33.1
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Broad Hula/northern basin orientation only."
+  },
+  {
+    "id": "shiloh",
+    "name": "Shiloh / Khirbet Seilun",
+    "aliases": [
+      "Khirbet Seilun",
+      "Tel Shiloh"
+    ],
+    "summary": "A central hill-country sanctuary and assembly place in Joshua and Judges. Khirbet Seilun is the accepted location of ancient Shiloh.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The geographic identification of Shiloh with Khirbet Seilun is strong."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 18,
+        "verseStart": 1,
+        "verseEnd": 10,
+        "label": "Joshua 18:1–10"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 19,
+        "verseStart": 51,
+        "verseEnd": 51,
+        "label": "Joshua 19:51"
+      },
+      {
+        "book": "Judges",
+        "chapter": 18,
+        "verseStart": 31,
+        "verseEnd": 31,
+        "label": "Judges 18:31"
+      },
+      {
+        "book": "Judges",
+        "chapter": 21,
+        "verseStart": 19,
+        "verseEnd": 23,
+        "label": "Judges 21:19–23"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      35.29,
+      32.055
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Shiloh has remains spanning Bronze and Iron Age periods. Archaeology informs settlement history but does not identify the tabernacle structure with certainty."
+  },
+  {
+    "id": "mount-ebal",
+    "name": "Mount Ebal",
+    "aliases": [],
+    "summary": "The mountain north of Shechem associated in Deuteronomy and Joshua with covenant ceremony. The mountain itself is securely identified; interpretation of a prominent Iron Age structure on it is debated.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The mountain identification is secure. The function and biblical relevance of the excavated structure on Ebal remain debated."
+    },
+    "scripture": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "verseStart": 29,
+        "verseEnd": 29,
+        "label": "Deuteronomy 11:29"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 27,
+        "verseStart": 4,
+        "verseEnd": 13,
+        "label": "Deuteronomy 27:4–13"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 8,
+        "verseStart": 30,
+        "verseEnd": 35,
+        "label": "Joshua 8:30–35"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      35.276,
+      32.234
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "mount-gerizim",
+    "name": "Mount Gerizim",
+    "aliases": [],
+    "summary": "The mountain south of Shechem paired with Ebal in the covenant blessings and curses.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The geographic mountain is securely identified."
+    },
+    "scripture": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 11,
+        "verseStart": 29,
+        "verseEnd": 29,
+        "label": "Deuteronomy 11:29"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 27,
+        "verseStart": 12,
+        "verseEnd": 13,
+        "label": "Deuteronomy 27:12–13"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 8,
+        "verseStart": 33,
+        "verseEnd": 35,
+        "label": "Joshua 8:33–35"
+      },
+      {
+        "book": "Judges",
+        "chapter": 9,
+        "verseStart": 7,
+        "verseEnd": 7,
+        "label": "Judges 9:7"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "coordinates": [
+      35.273,
+      32.199
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "timnath-serah",
+    "name": "Timnath-serah",
+    "aliases": [
+      "Timnath-heres",
+      "Khirbet Tibnah"
+    ],
+    "summary": "Joshua’s inheritance and burial place in the hill country of Ephraim. Khirbet Tibnah is a common proposal, but the identification is not absolute.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The location is traditionally/probably sought at Khirbet Tibnah; alternative identifications and name forms exist."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 19,
+        "verseStart": 49,
+        "verseEnd": 50,
+        "label": "Joshua 19:49–50"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 24,
+        "verseStart": 29,
+        "verseEnd": 30,
+        "label": "Joshua 24:29–30"
+      },
+      {
+        "book": "Judges",
+        "chapter": 2,
+        "verseStart": 8,
+        "verseEnd": 9,
+        "label": "Judges 2:8–9"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      35.17,
+      32.04
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "megiddo",
+    "name": "Megiddo / Tel Megiddo",
+    "aliases": [
+      "Tel Megiddo",
+      "Tell el-Mutesellim"
+    ],
+    "summary": "A major fortified city controlling routes through the Jezreel Valley. Judges 5 names Megiddo in the poetic battle setting.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Tel Megiddo is the secure location of ancient Megiddo."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 1,
+        "verseStart": 27,
+        "verseEnd": 27,
+        "label": "Judges 1:27"
+      },
+      {
+        "book": "Judges",
+        "chapter": 5,
+        "verseStart": 19,
+        "verseEnd": 19,
+        "label": "Judges 5:19"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      35.184,
+      32.585
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "taanach",
+    "name": "Taanach / Tell Taʿannek",
+    "aliases": [
+      "Tell Taʿannek"
+    ],
+    "summary": "A Canaanite city near Megiddo, named in Judges 5 and the territorial traditions.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Tell Taʿannek is the accepted location of ancient Taanach."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 1,
+        "verseStart": 27,
+        "verseEnd": 27,
+        "label": "Judges 1:27"
+      },
+      {
+        "book": "Judges",
+        "chapter": 5,
+        "verseStart": 19,
+        "verseEnd": 19,
+        "label": "Judges 5:19"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      35.22,
+      32.52
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "beth-shean",
+    "name": "Beth-shean / Tell el-Husn",
+    "aliases": [
+      "Beth Shean",
+      "Beisan"
+    ],
+    "summary": "A major city in the Jordan Valley with strong Egyptian presence in the Late Bronze Age; Judges names it among cities not taken by Manasseh.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The ancient site is securely identified."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 1,
+        "verseStart": 27,
+        "verseEnd": 27,
+        "label": "Judges 1:27"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel",
+      "source-oxford-history"
+    ],
+    "coordinates": [
+      35.5,
+      32.5
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Late Bronze Beth-shean preserves substantial evidence of Egyptian imperial administration, making it an important anchor for the political landscape of Canaan before the Iron Age."
+  },
+  {
+    "id": "kedesh-naphtali",
+    "name": "Kedesh in Naphtali",
+    "aliases": [
+      "Kedesh",
+      "Tel Kedesh"
+    ],
+    "summary": "The northern city associated with Barak. Tel Kedesh is the leading identification.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "Tel Kedesh in Upper Galilee is widely identified with Kedesh of Naphtali."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 4,
+        "verseStart": 6,
+        "verseEnd": 10,
+        "label": "Judges 4:6–10"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      35.54,
+      33.11
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "mount-tabor",
+    "name": "Mount Tabor",
+    "aliases": [],
+    "summary": "A prominent Lower Galilee mountain where Deborah instructs Barak to assemble forces.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Mount Tabor is a securely identified geographic landmark."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 4,
+        "verseStart": 6,
+        "verseEnd": 14,
+        "label": "Judges 4:6–14"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "coordinates": [
+      35.392,
+      32.687
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "kishon",
+    "name": "Kishon River",
+    "aliases": [],
+    "summary": "The river draining the Jezreel Valley toward the Mediterranean and associated with the battle in Judges 4–5.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The Kishon is securely identified; the exact battlefield segment is not."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 4,
+        "verseStart": 7,
+        "verseEnd": 13,
+        "label": "Judges 4:7–13"
+      },
+      {
+        "book": "Judges",
+        "chapter": 5,
+        "verseStart": 21,
+        "verseEnd": 21,
+        "label": "Judges 5:21"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "coordinates": [
+      35.15,
+      32.67
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "harosheth-hagoyim",
+    "name": "Harosheth-hagoyim",
+    "aliases": [],
+    "summary": "Sisera’s base in Judges 4. Its exact location is disputed, and proposed sites depend on interpretation of the Kishon battle geography.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "No proposal commands consensus; the atlas intentionally leaves it unpinned."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 4,
+        "verseStart": 2,
+        "verseEnd": 16,
+        "label": "Judges 4:2–16"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "ophrah-abiezrites",
+    "name": "Ophrah of the Abiezrites",
+    "aliases": [],
+    "summary": "Gideon’s home in Judges 6. Its exact location is unknown.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "The clan setting is clear in the narrative, but a secure archaeological identification is lacking."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 6,
+        "verseStart": 11,
+        "verseEnd": 24,
+        "label": "Judges 6:11–24"
+      },
+      {
+        "book": "Judges",
+        "chapter": 8,
+        "verseStart": 27,
+        "verseEnd": 32,
+        "label": "Judges 8:27–32"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "spring-harod",
+    "name": "Spring of Harod",
+    "aliases": [
+      "Ein Harod",
+      "Ain Jalud"
+    ],
+    "summary": "The spring where Gideon selects his fighting force before confronting Midian. ʿAin Jalud is the common identification.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The spring at ʿAin Jalud fits the geographic setting at the foot of Mount Gilboa and is commonly identified with the biblical spring."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 7,
+        "verseStart": 1,
+        "verseEnd": 8,
+        "label": "Judges 7:1–8"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "coordinates": [
+      35.36,
+      32.55
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "jezreel-valley",
+    "name": "Jezreel Valley",
+    "aliases": [],
+    "summary": "A major east–west lowland corridor and repeated arena of conflict in Judges.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The valley is an established geographic region; battle lines shown by the atlas are schematic."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 4,
+        "label": "Judges 4"
+      },
+      {
+        "book": "Judges",
+        "chapter": 6,
+        "verseStart": 33,
+        "verseEnd": 35,
+        "label": "Judges 6:33–35"
+      },
+      {
+        "book": "Judges",
+        "chapter": 7,
+        "label": "Judges 7"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "coordinates": [
+      35.25,
+      32.56
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "mizpah-gilead",
+    "name": "Mizpah of Gilead",
+    "aliases": [],
+    "summary": "A meeting place associated with Jephthah in Judges 10–11. Its exact site is disputed among Transjordanian proposals.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "The Gilead setting is clear, but the toponym is not uniquely identified."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 10,
+        "verseStart": 17,
+        "verseEnd": 18,
+        "label": "Judges 10:17–18"
+      },
+      {
+        "book": "Judges",
+        "chapter": 11,
+        "verseStart": 11,
+        "verseEnd": 34,
+        "label": "Judges 11:11–34"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "zorah",
+    "name": "Zorah",
+    "aliases": [
+      "Tel Zorʿa"
+    ],
+    "summary": "A town in the Shephelah associated with Samson’s family. Tel Zorʿa is the accepted/probable identification.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "Tel Zorʿa strongly preserves the ancient name and fits the biblical geography."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 13,
+        "verseStart": 2,
+        "verseEnd": 25,
+        "label": "Judges 13:2–25"
+      },
+      {
+        "book": "Judges",
+        "chapter": 16,
+        "verseStart": 31,
+        "verseEnd": 31,
+        "label": "Judges 16:31"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      34.99,
+      31.77
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "eshtaol",
+    "name": "Eshtaol",
+    "aliases": [],
+    "summary": "A town paired with Zorah in the Samson narratives. Its identification is probable in the same Shephelah district, but less secure than major tells.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The general area is clear; precise identification is not as strong as Zorah or Gaza."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 13,
+        "verseStart": 25,
+        "verseEnd": 25,
+        "label": "Judges 13:25"
+      },
+      {
+        "book": "Judges",
+        "chapter": 16,
+        "verseStart": 31,
+        "verseEnd": 31,
+        "label": "Judges 16:31"
+      },
+      {
+        "book": "Judges",
+        "chapter": 18,
+        "verseStart": 2,
+        "verseEnd": 11,
+        "label": "Judges 18:2–11"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "coordinates": [
+      35.0,
+      31.78
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "timnah-samson",
+    "name": "Timnah (Samson)",
+    "aliases": [
+      "Tel Batash"
+    ],
+    "summary": "A Philistine-border town in the Samson narratives, commonly identified with Tel Batash in the Sorek Valley.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tel Batash is a leading identification and fits the geographic context."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 14,
+        "verseStart": 1,
+        "verseEnd": 20,
+        "label": "Judges 14:1–20"
+      },
+      {
+        "book": "Judges",
+        "chapter": 15,
+        "verseStart": 1,
+        "verseEnd": 6,
+        "label": "Judges 15:1–6"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      34.95,
+      31.75
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "sorek-valley",
+    "name": "Valley of Sorek",
+    "aliases": [],
+    "summary": "The valley associated with Delilah in Judges 16, forming a natural corridor between the Philistine plain and Judahite highlands.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The Sorek Valley is a clear geographic region; the specific residence of Delilah is unknown."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 16,
+        "verseStart": 4,
+        "verseEnd": 4,
+        "label": "Judges 16:4"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "coordinates": [
+      34.9,
+      31.78
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "gaza",
+    "name": "Gaza",
+    "aliases": [],
+    "summary": "One of the principal Philistine cities and the setting of Samson’s final episode. Ancient Gaza lies beneath and around the modern city, so the historical city is secure even though exact Iron Age urban boundaries are not.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Gaza is a continuously important named city with secure geographic continuity."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 16,
+        "verseStart": 1,
+        "verseEnd": 3,
+        "label": "Judges 16:1–3"
+      },
+      {
+        "book": "Judges",
+        "chapter": 16,
+        "verseStart": 21,
+        "verseEnd": 31,
+        "label": "Judges 16:21–31"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      34.466,
+      31.501
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "ashkelon",
+    "name": "Ashkelon",
+    "aliases": [],
+    "summary": "A major Philistine coastal city named in Samson’s story. Its archaeological site is securely identified.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Ashkelon is securely located at the coastal tell and national-park area."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 14,
+        "verseStart": 19,
+        "verseEnd": 19,
+        "label": "Judges 14:19"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      34.546,
+      31.669
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "ashdod",
+    "name": "Ashdod",
+    "aliases": [],
+    "summary": "One of the Philistine pentapolis cities, important to the Judges-era political landscape even where individual narratives focus elsewhere.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Tel Ashdod is the secure ancient city site."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 13,
+        "verseStart": 3,
+        "verseEnd": 3,
+        "label": "Joshua 13:3"
+      },
+      {
+        "book": "Judges",
+        "chapter": 1,
+        "verseStart": 18,
+        "verseEnd": 18,
+        "label": "Judges 1:18"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      34.655,
+      31.754
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "ekron",
+    "name": "Ekron / Tel Miqne",
+    "aliases": [
+      "Tel Miqne"
+    ],
+    "summary": "A Philistine pentapolis city securely identified with Tel Miqne, with strong inscriptional support from a later Iron Age royal dedicatory inscription.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Tel Miqne is the established location of Ekron."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 13,
+        "verseStart": 3,
+        "verseEnd": 3,
+        "label": "Joshua 13:3"
+      },
+      {
+        "book": "Judges",
+        "chapter": 1,
+        "verseStart": 18,
+        "verseEnd": 18,
+        "label": "Judges 1:18"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      34.85,
+      31.78
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "gath",
+    "name": "Gath / Tell es-Safi",
+    "aliases": [
+      "Tell es-Safi"
+    ],
+    "summary": "One of the major Philistine cities, securely/probably identified with Tell es-Safi.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "Tell es-Safi is the widely accepted identification of Gath."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 13,
+        "verseStart": 3,
+        "verseEnd": 3,
+        "label": "Joshua 13:3"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "coordinates": [
+      34.847,
+      31.7
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "lehi",
+    "name": "Lehi / Ramath-lehi",
+    "aliases": [
+      "Ramath-lehi"
+    ],
+    "summary": "A place in Judah associated with Samson’s battle and the spring called En-hakkore. Its modern location is unknown.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "low",
+      "explanation": "The narrative setting is within the Judah–Philistia borderland, but no secure site has been identified."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 15,
+        "verseStart": 9,
+        "verseEnd": 19,
+        "label": "Judges 15:9–19"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "edom",
+    "name": "Edom",
+    "aliases": [
+      "Land of Edom"
+    ],
+    "coordinates": [
+      35.7,
+      30.6
+    ],
+    "coordinateRole": "approximate-area",
+    "summary": "A Transjordanian/southern highland region associated with the descendants of Esau. Its geographic core south and southeast of the Dead Sea is clear, while political borders and the chronology of Edomite state formation changed over time.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Edom is a well-established historical-geographic region, but it should not be visualized as one timeless surveyed border."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 20,
+        "verseStart": 14,
+        "verseEnd": 21,
+        "label": "Numbers 20:14–21"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 2,
+        "verseStart": 1,
+        "verseEnd": 8,
+        "label": "Deuteronomy 2:1–8"
+      },
+      {
+        "book": "Judges",
+        "chapter": 11,
+        "verseStart": 17,
+        "verseEnd": 18,
+        "label": "Judges 11:17–18"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan",
+      "source-batch3-methodology"
+    ],
+    "historicalContext": "Shown as a broad core-region anchor only. The emergence, extent, and administration of Edom changed across the Late Bronze and Iron Age transition."
+  },
+  {
+    "id": "ammon",
+    "name": "Ammon",
+    "aliases": [
+      "Land of the Ammonites"
+    ],
+    "coordinates": [
+      35.93,
+      31.95
+    ],
+    "coordinateRole": "approximate-area",
+    "summary": "A Transjordanian region centered east of the Jordan around the Amman/Rabbah highlands, especially important in Deuteronomy and the Jephthah narrative.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Ammonite core region is historically well established, but political boundaries shifted and should not be drawn as fixed modern-style borders."
+    },
+    "scripture": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 2,
+        "verseStart": 19,
+        "verseEnd": 23,
+        "label": "Deuteronomy 2:19–23"
+      },
+      {
+        "book": "Judges",
+        "chapter": 10,
+        "verseStart": 6,
+        "verseEnd": 18,
+        "label": "Judges 10:6–18"
+      },
+      {
+        "book": "Judges",
+        "chapter": 11,
+        "verseStart": 4,
+        "verseEnd": 33,
+        "label": "Judges 11:4–33"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan",
+      "source-batch3-methodology"
+    ],
+    "historicalContext": "The atlas uses a broad core-region anchor. It does not imply that a single polygon describes Ammon for every biblical period."
+  },
+  {
+    "id": "bashan",
+    "name": "Bashan",
+    "aliases": [
+      "Land of Bashan"
+    ],
+    "coordinates": [
+      35.9,
+      32.9
+    ],
+    "coordinateRole": "approximate-area",
+    "summary": "A broad region east and northeast of the Sea of Galilee, associated in Numbers and Deuteronomy with Og and later Transjordanian territorial traditions.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Bashan is a recognizable ancient regional name, but its boundaries varied and cannot be reduced to one precise polygon."
+    },
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 21,
+        "verseStart": 33,
+        "verseEnd": 35,
+        "label": "Numbers 21:33–35"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 3,
+        "verseStart": 1,
+        "verseEnd": 14,
+        "label": "Deuteronomy 3:1–14"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "debir",
+    "name": "Debir / Kiriath-sepher",
+    "aliases": [
+      "Kiriath-sepher",
+      "Kiriath-sannah"
+    ],
+    "summary": "A hill-country town captured in the Othniel tradition. Several archaeological sites have been proposed; no identification is sufficiently secure here for a normal pin.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The biblical town is localized broadly in the southern hill country, but proposals such as Tell Beit Mirsim and Khirbet Rabud have been debated."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 15,
+        "verseStart": 15,
+        "verseEnd": 17,
+        "label": "Joshua 15:15–17"
+      },
+      {
+        "book": "Judges",
+        "chapter": 1,
+        "verseStart": 11,
+        "verseEnd": 13,
+        "label": "Judges 1:11–13"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch3-methodology"
+    ],
+    "interpretations": [
+      {
+        "title": "Khirbet Rabud proposal",
+        "status": "possible",
+        "summary": "Khirbet Rabud is a prominent modern proposal for Debir in the southern hill country. The atlas does not promote it to an established identification.",
+        "sourceIds": [
+          "source-sacred-bridge",
+          "source-anchor-yale"
+        ]
+      },
+      {
+        "title": "Tell Beit Mirsim proposal",
+        "status": "possible",
+        "summary": "Tell Beit Mirsim was historically identified with Debir and remains important in the discussion, though the identification has been challenged.",
+        "sourceIds": [
+          "source-sacred-bridge",
+          "source-anchor-yale"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thebez",
+    "name": "Thebez",
+    "aliases": [
+      "Tubas (proposal)"
+    ],
+    "summary": "A town where Abimelech is mortally wounded in Judges 9. Modern Tubas is a common geographic proposal, but the equation is not fully secure.",
+    "category": "city",
+    "coordinates": [
+      35.37,
+      32.32
+    ],
+    "coordinateRole": "candidate-site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The name and regional fit support a Tubas-area proposal, but the atlas keeps the identification at candidate level."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 9,
+        "verseStart": 50,
+        "verseEnd": 55,
+        "label": "Judges 9:50–55"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "dan-laish",
+    "name": "Dan / Laish",
+    "aliases": [
+      "Laish",
+      "Leshem",
+      "Tel Dan"
+    ],
+    "summary": "The northern city called Laish before the Danite migration and later Dan. Tel Dan is the securely identified archaeological site of ancient Dan/Laish.",
+    "category": "city",
+    "coordinates": [
+      35.652,
+      33.249
+    ],
+    "coordinateRole": "identified-site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The identification of Tel Dan with ancient Dan/Laish is strong, supported by geography, long occupation, and inscriptional/historical evidence."
+    },
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 19,
+        "verseStart": 47,
+        "verseEnd": 48,
+        "label": "Joshua 19:47–48"
+      },
+      {
+        "book": "Judges",
+        "chapter": 18,
+        "verseStart": 7,
+        "verseEnd": 31,
+        "label": "Judges 18:7–31"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "archaeology": "Tel Dan preserves major Bronze and Iron Age remains. The site identification is secure; the historicity and precise chronology of the migration narrative remain separate questions."
+  },
+  {
+    "id": "bethlehem-judah",
+    "name": "Bethlehem of Judah",
+    "aliases": [
+      "Bethlehem"
+    ],
+    "summary": "A Judean hill-country town that appears at the opening of Judges 17 and in the Levite narrative of Judges 19. The town’s location is secure, though individual episode locations within it are not recoverable.",
+    "category": "city",
+    "coordinates": [
+      35.202,
+      31.705
+    ],
+    "coordinateRole": "identified-site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Bethlehem’s geographic continuity in the Judean hill country is secure; this does not archaeologically verify the Judges episodes."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 17,
+        "verseStart": 7,
+        "verseEnd": 9,
+        "label": "Judges 17:7–9"
+      },
+      {
+        "book": "Judges",
+        "chapter": 19,
+        "verseStart": 1,
+        "verseEnd": 10,
+        "label": "Judges 19:1–10"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "gibeah-benjamin",
+    "name": "Gibeah of Benjamin",
+    "aliases": [
+      "Gibeah",
+      "Gibeah of Saul",
+      "Tell el-Ful (proposal)"
+    ],
+    "summary": "The Benjaminite town central to Judges 19–20. Tell el-Ful is the traditional and leading candidate for Gibeah, but the exact identification and occupation history require caution.",
+    "category": "city",
+    "coordinates": [
+      35.23,
+      31.82
+    ],
+    "coordinateRole": "candidate-site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tell el-Ful is widely associated with Gibeah, especially later Saul traditions; the Judges-era correlation is not archaeologically exact."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 19,
+        "verseStart": 12,
+        "verseEnd": 30,
+        "label": "Judges 19:12–30"
+      },
+      {
+        "book": "Judges",
+        "chapter": 20,
+        "label": "Judges 20"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "mizpah-benjamin",
+    "name": "Mizpah of Benjamin",
+    "aliases": [
+      "Mizpah",
+      "Tell en-Nasbeh (proposal)"
+    ],
+    "summary": "An assembly point in Judges 20–21. Tell en-Nasbeh is the leading archaeological identification for Mizpah of Benjamin, though the map keeps it at probable rather than absolute confidence.",
+    "category": "city",
+    "coordinates": [
+      35.216,
+      31.885
+    ],
+    "coordinateRole": "candidate-site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tell en-Nasbeh fits the biblical geography and is widely identified as Mizpah, but place-name debates and period-specific correlations warrant a probable label."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 20,
+        "verseStart": 1,
+        "verseEnd": 3,
+        "label": "Judges 20:1–3"
+      },
+      {
+        "book": "Judges",
+        "chapter": 21,
+        "verseStart": 1,
+        "verseEnd": 8,
+        "label": "Judges 21:1–8"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "jabesh-gilead",
+    "name": "Jabesh-gilead",
+    "aliases": [
+      "Jabesh Gilead"
+    ],
+    "summary": "A Transjordanian town involved in the aftermath of the Benjaminite civil war. Proposed archaeological identifications exist, but no single site is secure enough for a normal pin in this release.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Gilead setting is clear, but the precise site remains debated."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 21,
+        "verseStart": 8,
+        "verseEnd": 14,
+        "label": "Judges 21:8–14"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "hill-country-ephraim",
+    "name": "Hill Country of Ephraim",
+    "aliases": [
+      "Mount Ephraim"
+    ],
+    "summary": "A central highland region that forms the setting for multiple Judges traditions, including Ehud’s rallying point and the Levite of Judges 19.",
+    "category": "region",
+    "coordinates": [
+      35.28,
+      32.15
+    ],
+    "coordinateRole": "approximate-area",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The central Ephraimite hill country is a well-defined broad geographic region, not a precise tribal border."
+    },
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 3,
+        "verseStart": 27,
+        "verseEnd": 27,
+        "label": "Judges 3:27"
+      },
+      {
+        "book": "Judges",
+        "chapter": 17,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "Judges 17:1"
+      },
+      {
+        "book": "Judges",
+        "chapter": 19,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "Judges 19:1"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  }
+]

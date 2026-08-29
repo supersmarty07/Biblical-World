@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-southern-mesopotamia",
+        "name": "Southern Mesopotamia — broad Bronze Age context",
+        "validFrom": -2600,
+        "validTo": -1600,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch2-methodology"
+        ],
+        "note": "General cultural-geographic context, not a dynastic political boundary.",
+        "family": "mesopotamian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.0,
+              29.4
+            ],
+            [
+              48.5,
+              29.4
+            ],
+            [
+              48.5,
+              33.7
+            ],
+            [
+              43.0,
+              33.7
+            ],
+            [
+              43.0,
+              29.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-upper-mesopotamia",
+        "name": "Upper Mesopotamia / northern Syria — broad context",
+        "validFrom": -2600,
+        "validTo": -1600,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch2-methodology"
+        ],
+        "note": "General travel/cultural zone centered on the Euphrates-Harran corridor; not a state border.",
+        "family": "mesopotamian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36.0,
+              34.3
+            ],
+            [
+              42.0,
+              34.3
+            ],
+            [
+              42.0,
+              38.2
+            ],
+            [
+              36.0,
+              38.2
+            ],
+            [
+              36.0,
+              34.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-canaan",
+        "name": "Canaan / southern Levant — broad context",
+        "validFrom": -2300,
+        "validTo": -1500,
+        "confidence": "probable",
+        "sourceIds": [
+          "source-batch2-methodology"
+        ],
+        "note": "Approximate cultural-geographic context only; boundaries varied and were not modern surveyed borders.",
+        "family": "canaanite"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.4,
+              30.5
+            ],
+            [
+              35.9,
+              30.5
+            ],
+            [
+              36.0,
+              33.5
+            ],
+            [
+              34.7,
+              33.5
+            ],
+            [
+              34.4,
+              30.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-egypt",
+        "name": "Egypt / Nile corridor — broad context",
+        "validFrom": -2600,
+        "validTo": -1500,
+        "confidence": "established",
+        "sourceIds": [
+          "source-batch2-methodology"
+        ],
+        "note": "Broad Nile and Delta context; not a dynasty-specific territorial polygon.",
+        "family": "egyptian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1,
+              22.0
+            ],
+            [
+              33.5,
+              22.0
+            ],
+            [
+              33.5,
+              31.6
+            ],
+            [
+              29.1,
+              31.6
+            ],
+            [
+              29.1,
+              22.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

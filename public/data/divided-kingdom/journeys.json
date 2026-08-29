@@ -1,0 +1,533 @@
+[
+  {
+    "id": "journey-rehoboam-shechem",
+    "name": "Rehoboam: Jerusalem to Shechem",
+    "person": "Rehoboam",
+    "personId": "rehoboam",
+    "character": "rehoboam",
+    "summary": "The royal assembly moves to Shechem; the road between Jerusalem and Shechem is reconstructed as a broad highland corridor.",
+    "segments": [
+      {
+        "id": "rehoboam-jerusalem-shechem",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "shechem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            35.25,
+            31.95
+          ],
+          [
+            35.27,
+            32.08
+          ],
+          [
+            35.3,
+            32.214
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 12,
+            "label": "1 Kings 12:1",
+            "verseStart": 1,
+            "verseEnd": 1
+          }
+        ],
+        "sourceIds": [
+          "source-divided-kingdom-text",
+          "source-sacred-bridge",
+          "source-batch5-methodology"
+        ],
+        "note": "The endpoints are secure; the line is not a preserved ancient itinerary."
+      }
+    ]
+  },
+  {
+    "id": "journey-elijah-carmel-jezreel",
+    "name": "Elijah: Carmel to Jezreel",
+    "person": "Elijah",
+    "personId": "elijah",
+    "character": "elijah",
+    "summary": "After the rain narrative, Elijah runs ahead of Ahab toward Jezreel. The exact route across the valley is unknown.",
+    "segments": [
+      {
+        "id": "elijah-carmel-jezreel",
+        "fromPlaceId": "mount-carmel",
+        "toPlaceId": "jezreel-city",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.09,
+            32.7
+          ],
+          [
+            35.16,
+            32.66
+          ],
+          [
+            35.24,
+            32.61
+          ],
+          [
+            35.323,
+            32.558
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 18,
+            "label": "1 Kings 18:45–46",
+            "verseStart": 45,
+            "verseEnd": 46
+          }
+        ],
+        "sourceIds": [
+          "source-divided-kingdom-text",
+          "source-sacred-bridge",
+          "source-batch5-methodology"
+        ],
+        "note": "Carmel is represented by a ridge-area anchor; the path across the valley is schematic."
+      }
+    ]
+  },
+  {
+    "id": "journey-elijah-jezreel-beersheba",
+    "name": "Elijah: Jezreel to Beersheba",
+    "person": "Elijah",
+    "personId": "elijah",
+    "character": "elijah",
+    "summary": "Elijah leaves the Jezreel region and reaches Beersheba before continuing into the wilderness toward unlocated Horeb.",
+    "segments": [
+      {
+        "id": "elijah-jezreel-beersheba",
+        "fromPlaceId": "jezreel-city",
+        "toPlaceId": "beersheba",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.323,
+            32.558
+          ],
+          [
+            35.18,
+            32.1
+          ],
+          [
+            35.17,
+            31.75
+          ],
+          [
+            35.09,
+            31.35
+          ],
+          [
+            34.8,
+            31.245
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 19,
+            "label": "1 Kings 19:1–4",
+            "verseStart": 1,
+            "verseEnd": 4
+          }
+        ],
+        "sourceIds": [
+          "source-divided-kingdom-text",
+          "source-sacred-bridge",
+          "source-batch5-methodology"
+        ],
+        "note": "Only the named endpoints are mapped; no claim is made about the exact road or the later unlocated Horeb segment."
+      }
+    ]
+  },
+  {
+    "id": "journey-elisha-bethel-jordan",
+    "name": "Elisha cycle: Bethel, Jericho, Jordan",
+    "person": "Elisha",
+    "personId": "elisha",
+    "character": "elisha",
+    "summary": "A partial visualization of 2 Kings 2 using secure Bethel/Jericho/Jordan anchors; the initial Gilgal is intentionally omitted because its identity is uncertain.",
+    "segments": [
+      {
+        "id": "elisha-bethel-jericho",
+        "fromPlaceId": "bethel",
+        "toPlaceId": "jericho",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.22,
+            31.93
+          ],
+          [
+            35.3,
+            31.88
+          ],
+          [
+            35.38,
+            31.84
+          ],
+          [
+            35.444,
+            31.871
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 2,
+            "label": "2 Kings 2:2–4",
+            "verseStart": 2,
+            "verseEnd": 4
+          }
+        ],
+        "sourceIds": [
+          "source-divided-kingdom-text",
+          "source-sacred-bridge",
+          "source-batch5-methodology"
+        ],
+        "note": "Road geometry is reconstructed."
+      },
+      {
+        "id": "elisha-jericho-jordan",
+        "fromPlaceId": "jericho",
+        "toPlaceId": "jordan-river",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.444,
+            31.871
+          ],
+          [
+            35.5,
+            31.88
+          ],
+          [
+            35.56,
+            32.1
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 2,
+            "label": "2 Kings 2:4–14",
+            "verseStart": 4,
+            "verseEnd": 14
+          }
+        ],
+        "sourceIds": [
+          "source-divided-kingdom-text",
+          "source-sacred-bridge",
+          "source-batch5-methodology"
+        ],
+        "note": "The Jordan endpoint is a display anchor, not the exact crossing place."
+      }
+    ]
+  },
+  {
+    "id": "journey-jehu-gilead-jezreel-samaria",
+    "name": "Jehu: Gilead context to Jezreel and Samaria",
+    "person": "Jehu",
+    "personId": "jehu",
+    "character": "jehu",
+    "summary": "The coup narrative begins at unlocated Ramoth-gilead. The animation therefore starts from broad Gilead context, then follows secure Jezreel and Samaria anchors.",
+    "segments": [
+      {
+        "id": "jehu-gilead-jezreel",
+        "fromPlaceId": "gilead",
+        "toPlaceId": "jezreel-city",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.75,
+            32.3
+          ],
+          [
+            35.6,
+            32.38
+          ],
+          [
+            35.48,
+            32.48
+          ],
+          [
+            35.323,
+            32.558
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 9,
+            "label": "2 Kings 9:1–30",
+            "verseStart": 1,
+            "verseEnd": 30
+          }
+        ],
+        "sourceIds": [
+          "source-divided-kingdom-text",
+          "source-sacred-bridge",
+          "source-batch5-methodology"
+        ],
+        "note": "Ramoth-gilead itself remains unpinned; the start is broad Gilead context only."
+      },
+      {
+        "id": "jehu-jezreel-samaria",
+        "fromPlaceId": "jezreel-city",
+        "toPlaceId": "samaria",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.323,
+            32.558
+          ],
+          [
+            35.27,
+            32.43
+          ],
+          [
+            35.189,
+            32.276
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 10,
+            "label": "2 Kings 10:1–17",
+            "verseStart": 1,
+            "verseEnd": 17
+          }
+        ],
+        "sourceIds": [
+          "source-divided-kingdom-text",
+          "source-sacred-bridge",
+          "source-batch5-methodology"
+        ],
+        "note": "Textual city sequence; exact road is not known."
+      }
+    ]
+  },
+  {
+    "id": "journey-hazael-damascus-gath",
+    "name": "Hazael: Damascus toward Gath",
+    "person": "Hazael",
+    "personId": "hazael",
+    "character": "generic",
+    "summary": "A broad visualization of Hazael’s reach from Aram-Damascus to Gath in 2 Kings 12, not a reconstructed military road.",
+    "segments": [
+      {
+        "id": "hazael-damascus-gath",
+        "fromPlaceId": "damascus",
+        "toPlaceId": "gath",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            36.3,
+            33.51
+          ],
+          [
+            35.75,
+            33.0
+          ],
+          [
+            35.45,
+            32.4
+          ],
+          [
+            35.15,
+            31.95
+          ],
+          [
+            34.847,
+            31.7
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 12,
+            "label": "2 Kings 12:17–18",
+            "verseStart": 17,
+            "verseEnd": 18
+          }
+        ],
+        "sourceIds": [
+          "source-divided-kingdom-text",
+          "source-sacred-bridge",
+          "source-batch5-methodology"
+        ],
+        "note": "The text gives endpoints, not an itinerary; the line is schematic regional reach."
+      }
+    ]
+  },
+  {
+    "id": "journey-jonah-joppa-sea",
+    "name": "Jonah: departure from Joppa",
+    "person": "Jonah",
+    "personId": "jonah",
+    "character": "jonah",
+    "summary": "Jonah boards a ship at Joppa bound for disputed Tarshish. The animation goes only into the Mediterranean and deliberately stops short of assigning Tarshish a location.",
+    "segments": [
+      {
+        "id": "jonah-joppa-sea",
+        "fromPlaceId": "joppa",
+        "toPlaceId": "mediterranean-sea",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            34.752,
+            32.052
+          ],
+          [
+            34.2,
+            32.4
+          ],
+          [
+            33.6,
+            33.0
+          ],
+          [
+            33.0,
+            34.0
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Jonah",
+            "chapter": 1,
+            "label": "Jonah 1:3–16",
+            "verseStart": 3,
+            "verseEnd": 16
+          }
+        ],
+        "sourceIds": [
+          "source-divided-kingdom-text",
+          "source-batch5-methodology"
+        ],
+        "note": "A narrative-direction visualization only. Tarshish remains unpinned and the ship route is unknown."
+      }
+    ]
+  },
+  {
+    "id": "journey-samaria-deportation-gozan",
+    "name": "Assyrian deportation: Samaria toward Gozan",
+    "person": "Deportation context",
+    "personId": "sargon-ii",
+    "character": "sargon-ii",
+    "summary": "A broad schematic corridor from Samaria to the Khabur/Gozan region. The actual deportation system involved multiple routes, stages, and destinations.",
+    "segments": [
+      {
+        "id": "samaria-gozan",
+        "fromPlaceId": "samaria",
+        "toPlaceId": "gozan",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.189,
+            32.276
+          ],
+          [
+            36.2,
+            33.3
+          ],
+          [
+            37.2,
+            34.5
+          ],
+          [
+            38.5,
+            35.5
+          ],
+          [
+            40.119,
+            36.827
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 17,
+            "label": "2 Kings 17:6",
+            "verseStart": 6,
+            "verseEnd": 6
+          }
+        ],
+        "sourceIds": [
+          "source-divided-kingdom-text",
+          "source-assyrian-royal-inscriptions",
+          "source-sargon-samaria",
+          "source-batch5-methodology"
+        ],
+        "note": "Not a traced deportation road; Halah and unnamed Median cities are intentionally omitted from the line."
+      }
+    ]
+  },
+  {
+    "id": "journey-sennacherib-lachish-jerusalem",
+    "name": "Sennacherib’s 701 campaign: Lachish to Jerusalem pressure",
+    "person": "Sennacherib",
+    "personId": "sennacherib",
+    "character": "sennacherib",
+    "summary": "A schematic transition from captured Lachish to the Assyrian pressure on Jerusalem in the biblical and Assyrian accounts.",
+    "segments": [
+      {
+        "id": "sennacherib-lachish-jerusalem",
+        "fromPlaceId": "lachish",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.848,
+            31.565
+          ],
+          [
+            35.0,
+            31.63
+          ],
+          [
+            35.1,
+            31.7
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 18,
+            "label": "2 Kings 18:13–17",
+            "verseStart": 13,
+            "verseEnd": 17
+          },
+          {
+            "book": "Isaiah",
+            "chapter": 36,
+            "label": "Isaiah 36:1–2",
+            "verseStart": 1,
+            "verseEnd": 2
+          }
+        ],
+        "sourceIds": [
+          "source-divided-kingdom-text",
+          "source-sennacherib-701",
+          "source-ussishkin-lachish",
+          "source-batch5-methodology"
+        ],
+        "note": "Not a troop-track reconstruction. The biblical envoy sequence and campaign geography provide the conceptual link."
+      }
+    ]
+  }
+]

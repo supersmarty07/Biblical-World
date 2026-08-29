@@ -1,0 +1,1974 @@
+[
+  {
+    "id": "ramathaim-zophim",
+    "name": "Ramathaim-zophim",
+    "aliases": [
+      "Ramathaim",
+      "Ramathaim-zophim"
+    ],
+    "summary": "Samuel's family home in 1 Samuel 1. The precise modern identification is unresolved, so the atlas preserves the textual place without a pin.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The hill-country setting is clear, but proposals for Ramathaim-zophim are not secure enough for a unique coordinate."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 1,
+        "verseStart": 1,
+        "verseEnd": 3,
+        "label": "1 Samuel 1:1–3"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ]
+  },
+  {
+    "id": "ramah-samuel",
+    "name": "Ramah of Samuel",
+    "aliases": [
+      "Ramah",
+      "Ramah in Benjamin",
+      "er-Ram (proposal)"
+    ],
+    "summary": "Samuel's base after the Shiloh period and a recurring location in the Saul narratives. The identification with er-Ram north of Jerusalem is common but not certain.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "er-Ram is a leading identification for biblical Ramah in Benjamin, but several Ramah place-names and the limited archaeological correlation warrant a probable label."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 7,
+        "verseStart": 15,
+        "verseEnd": 17,
+        "label": "1 Samuel 7:15–17"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 19,
+        "verseStart": 18,
+        "verseEnd": 24,
+        "label": "1 Samuel 19:18–24"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ],
+    "coordinates": [
+      35.235,
+      31.849
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "aphek-samuel",
+    "name": "Aphek / Tel Afek",
+    "aliases": [
+      "Aphek",
+      "Antipatris",
+      "Tel Afek"
+    ],
+    "summary": "The Philistine camp location before the battle in which the ark was captured. Ancient Aphek is securely identified with Tel Afek near the Yarkon headwaters.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Tel Afek is securely identified with ancient Aphek; linking individual battle episodes to particular excavated layers is a separate question."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 4,
+        "verseStart": 1,
+        "verseEnd": 2,
+        "label": "1 Samuel 4:1–2"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 29,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "1 Samuel 29:1"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      34.931,
+      32.105
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "ebenezer-samuel",
+    "name": "Ebenezer (1 Samuel)",
+    "aliases": [
+      "Eben-ezer"
+    ],
+    "summary": "The Israelite camp and battle location in 1 Samuel 4. The text places it opposite Philistine Aphek, but no modern site can be identified confidently.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Its relative location near Aphek is textual; proposed identifications such as Izbet Sartah remain hypotheses rather than established equivalences."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 4,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "1 Samuel 4:1"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 5,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "1 Samuel 5:1"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ]
+  },
+  {
+    "id": "beth-shemesh-monarchy",
+    "name": "Beth-shemesh / Tel Beth Shemesh",
+    "aliases": [
+      "Beth-shemesh",
+      "Tell er-Rumeileh",
+      "Tel Beth Shemesh"
+    ],
+    "summary": "The border-town to which the ark returns from Philistine territory in 1 Samuel 6. The ancient city is securely located at Tel Beth Shemesh.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The site identification is secure. The atlas does not identify a specific excavated installation with the ark episode."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 6,
+        "verseStart": 9,
+        "verseEnd": 21,
+        "label": "1 Samuel 6:9–21"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      34.995,
+      31.752
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "kiriath-jearim",
+    "name": "Kiriath-jearim",
+    "aliases": [
+      "Kiriath Jearim",
+      "Kiriath-baal",
+      "Deir el-Azar / Tel Qiryat Ye’arim"
+    ],
+    "summary": "A hill-country town where the ark remains before David brings it toward Jerusalem. The Deir el-Azar / Tel Qiryat Ye'arim hill is the leading archaeological identification.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The hill near Abu Ghosh is widely identified with Kiriath-jearim, but the atlas distinguishes the site identification from the historicity of individual ark movements."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 6,
+        "verseStart": 21,
+        "verseEnd": 21,
+        "label": "1 Samuel 6:21"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 7,
+        "verseStart": 1,
+        "verseEnd": 2,
+        "label": "1 Samuel 7:1–2"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 6,
+        "verseStart": 1,
+        "verseEnd": 4,
+        "label": "2 Samuel 6:1–4"
+      },
+      {
+        "book": "1 Chronicles",
+        "chapter": 13,
+        "verseStart": 5,
+        "verseEnd": 6,
+        "label": "1 Chronicles 13:5–6"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      35.101,
+      31.805
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "gilgal-samuel",
+    "name": "Gilgal in Samuel",
+    "aliases": [
+      "Gilgal"
+    ],
+    "summary": "A recurring assembly and cultic place in the Samuel narratives. Whether every Samuel reference points to the same Gilgal as Joshua's encampment is uncertain.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Several places called Gilgal are possible; no responsible unique coordinate is used for the Samuel narratives."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 10,
+        "verseStart": 8,
+        "verseEnd": 8,
+        "label": "1 Samuel 10:8"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 11,
+        "verseStart": 14,
+        "verseEnd": 15,
+        "label": "1 Samuel 11:14–15"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 13,
+        "verseStart": 4,
+        "verseEnd": 15,
+        "label": "1 Samuel 13:4–15"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 15,
+        "verseStart": 12,
+        "verseEnd": 33,
+        "label": "1 Samuel 15:12–33"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ]
+  },
+  {
+    "id": "valley-elah",
+    "name": "Valley of Elah",
+    "aliases": [
+      "Elah Valley",
+      "Wadi es-Sunt"
+    ],
+    "summary": "The broad valley between the Judean highlands and Philistine plain that forms the setting of the David and Goliath narrative.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The valley is a well-defined geographic feature. The exact positions of the two camps and duel are not archaeologically known."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 17,
+        "verseStart": 1,
+        "verseEnd": 3,
+        "label": "1 Samuel 17:1–3"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 21,
+        "verseStart": 9,
+        "verseEnd": 9,
+        "label": "1 Samuel 21:9"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      34.956,
+      31.688
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "socoh-judah",
+    "name": "Socoh of Judah",
+    "aliases": [
+      "Socoh",
+      "Shochoh",
+      "Khirbet Shuweika"
+    ],
+    "summary": "A Judean town named beside Azekah in the Philistine deployment before David's encounter with Goliath.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Khirbet Shuweika is a strong geographic candidate for Socoh; the marker is not a claim about the precise battle camp."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 17,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "1 Samuel 17:1"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      34.975,
+      31.681
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "azekah-monarchy",
+    "name": "Azekah / Tel Azekah",
+    "aliases": [
+      "Azekah",
+      "Tel Azekah"
+    ],
+    "summary": "A fortified hill on the western approaches to Judah, named in the Elah Valley deployment.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Tel Azekah is securely identified with ancient Azekah."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 17,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "1 Samuel 17:1"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      34.917,
+      31.7
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "nob",
+    "name": "Nob",
+    "aliases": [
+      "Nob, city of priests"
+    ],
+    "summary": "The priestly town visited by David in 1 Samuel 21. Its general setting near Jerusalem is likely, but the exact archaeological site remains unresolved.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Ancient Nob is not securely located; the atlas does not equate it with a particular modern hill."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 21,
+        "verseStart": 1,
+        "verseEnd": 9,
+        "label": "1 Samuel 21:1–9"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 22,
+        "verseStart": 11,
+        "verseEnd": 19,
+        "label": "1 Samuel 22:11–19"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ]
+  },
+  {
+    "id": "adullam",
+    "name": "Adullam",
+    "aliases": [
+      "Cave of Adullam",
+      "Khirbet esh-Sheikh Madhkur (proposal)"
+    ],
+    "summary": "A Judean lowland stronghold associated with David's fugitive period. The town is commonly placed near Khirbet esh-Sheikh Madhkur, while the cave itself cannot be identified.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The regional identification of Adullam is strong, but no cave can be authenticated as the cave of David."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 22,
+        "verseStart": 1,
+        "verseEnd": 2,
+        "label": "1 Samuel 22:1–2"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 23,
+        "verseStart": 13,
+        "verseEnd": 17,
+        "label": "2 Samuel 23:13–17"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      34.975,
+      31.649
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "keilah",
+    "name": "Keilah",
+    "aliases": [
+      "Khirbet Qila"
+    ],
+    "summary": "A fortified town rescued by David from Philistine attack and later left when Saul approached.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Khirbet Qila preserves the name and fits the geography; period-specific correlation is more cautious."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 23,
+        "verseStart": 1,
+        "verseEnd": 13,
+        "label": "1 Samuel 23:1–13"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      35.013,
+      31.613
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "ziph-judah",
+    "name": "Ziph of Judah",
+    "aliases": [
+      "Ziph",
+      "Tell Zif"
+    ],
+    "summary": "A settlement and wilderness district south of Hebron central to Saul's pursuit of David.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tell Zif is the standard archaeological candidate for biblical Ziph; wilderness episodes cannot be pinned to exact points."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 23,
+        "verseStart": 14,
+        "verseEnd": 25,
+        "label": "1 Samuel 23:14–25"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 26,
+        "verseStart": 1,
+        "verseEnd": 3,
+        "label": "1 Samuel 26:1–3"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      35.12,
+      31.481
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "maon-judah",
+    "name": "Maon of Judah",
+    "aliases": [
+      "Maon",
+      "Khirbet Ma’in"
+    ],
+    "summary": "A town south of Hebron associated with the wilderness where David evades Saul and with Nabal's household.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Khirbet Ma’in is the accepted or leading identification, while the wider wilderness setting remains approximate."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 23,
+        "verseStart": 24,
+        "verseEnd": 25,
+        "label": "1 Samuel 23:24–25"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 25,
+        "verseStart": 2,
+        "verseEnd": 3,
+        "label": "1 Samuel 25:2–3"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      35.161,
+      31.414
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "carmel-judah",
+    "name": "Carmel of Judah",
+    "aliases": [
+      "Carmel",
+      "Khirbet al-Karmil"
+    ],
+    "summary": "A Judean hill-country town near Maon associated with Nabal and Abigail; it is distinct from Mount Carmel in northern Israel.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Khirbet al-Karmil preserves the place-name and fits the southern hill-country geography."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 25,
+        "verseStart": 2,
+        "verseEnd": 40,
+        "label": "1 Samuel 25:2–40"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      35.133,
+      31.432
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "en-gedi",
+    "name": "En-gedi",
+    "aliases": [
+      "Ein Gedi"
+    ],
+    "summary": "An oasis on the western shore of the Dead Sea associated with David's refuge from Saul.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The oasis and ancient settlement zone are securely identified; the exact cave of 1 Samuel 24 is unknown."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 23,
+        "verseStart": 29,
+        "verseEnd": 29,
+        "label": "1 Samuel 23:29"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 24,
+        "verseStart": 1,
+        "verseEnd": 22,
+        "label": "1 Samuel 24:1–22"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      35.389,
+      31.45
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "wilderness-ziph",
+    "name": "Wilderness of Ziph",
+    "aliases": [],
+    "summary": "The rugged hill-country/desert-margin district around Ziph where David hides from Saul. The marker is a regional orientation only.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The broad district is geographically intelligible from Ziph, but its ancient limits were not surveyed borders."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 23,
+        "verseStart": 14,
+        "verseEnd": 15,
+        "label": "1 Samuel 23:14–15"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 26,
+        "verseStart": 1,
+        "verseEnd": 3,
+        "label": "1 Samuel 26:1–3"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-batch4-methodology"
+    ],
+    "coordinates": [
+      35.14,
+      31.49
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "wilderness-maon",
+    "name": "Wilderness of Maon",
+    "aliases": [],
+    "summary": "A southern Judean wilderness district in the pursuit narratives, represented as a broad orientation rather than a boundary.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The regional setting near Maon is clear; the exact encounter location is unknown."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 23,
+        "verseStart": 24,
+        "verseEnd": 28,
+        "label": "1 Samuel 23:24–28"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-batch4-methodology"
+    ],
+    "coordinates": [
+      35.19,
+      31.4
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "ziklag",
+    "name": "Ziklag",
+    "aliases": [],
+    "summary": "A town granted to David by Achish of Gath. Numerous sites in the northern Negev and Shephelah have been proposed, but no identification has achieved consensus.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The biblical regional setting is recoverable, but competing archaeological candidates prevent a responsible single pin."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 27,
+        "verseStart": 5,
+        "verseEnd": 7,
+        "label": "1 Samuel 27:5–7"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 30,
+        "verseStart": 1,
+        "verseEnd": 31,
+        "label": "1 Samuel 30:1–31"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 1,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "2 Samuel 1:1"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ]
+  },
+  {
+    "id": "brook-besor",
+    "name": "Besor Brook / Wadi Gaza",
+    "aliases": [
+      "Besor",
+      "Nahal Besor",
+      "Wadi Gaza"
+    ],
+    "summary": "The watercourse crossed during David's pursuit of Amalekite raiders. The modern Besor/Wadi Gaza system provides the regional anchor; the exact crossing is unknown.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The drainage system is identifiable, while the narrative crossing point cannot be fixed."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 30,
+        "verseStart": 9,
+        "verseEnd": 10,
+        "label": "1 Samuel 30:9–10"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 30,
+        "verseStart": 21,
+        "verseEnd": 21,
+        "label": "1 Samuel 30:21"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-batch4-methodology"
+    ],
+    "coordinates": [
+      34.5,
+      31.4
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "mount-gilboa",
+    "name": "Mount Gilboa",
+    "aliases": [
+      "Gilboa"
+    ],
+    "summary": "The ridge south-east of the Jezreel Valley where Saul and his sons die in battle against the Philistines.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Mount Gilboa is a securely identified landscape feature; exact battlefield positions are unknown."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 28,
+        "verseStart": 4,
+        "verseEnd": 4,
+        "label": "1 Samuel 28:4"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 31,
+        "verseStart": 1,
+        "verseEnd": 8,
+        "label": "1 Samuel 31:1–8"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 1,
+        "verseStart": 21,
+        "verseEnd": 21,
+        "label": "2 Samuel 1:21"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-mazar-land-bible"
+    ],
+    "coordinates": [
+      35.416,
+      32.5
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "shunem",
+    "name": "Shunem",
+    "aliases": [
+      "Shunem",
+      "Sulem"
+    ],
+    "summary": "A settlement on the northern edge of the Jezreel Valley where the Philistines camp before Saul's final battle.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The preservation of the name at Sulem and its location fit Shunem strongly; exact ancient settlement limits remain archaeological questions."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 28,
+        "verseStart": 4,
+        "verseEnd": 4,
+        "label": "1 Samuel 28:4"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "coordinates": [
+      35.335,
+      32.607
+    ],
+    "coordinateRole": "candidate-site"
+  },
+  {
+    "id": "endor",
+    "name": "Endor",
+    "aliases": [
+      "En-dor",
+      "Endur (regional survival)"
+    ],
+    "summary": "The place where Saul consults a medium before the battle on Gilboa. The ancient settlement is usually sought near the modern name-survival area north of the Jezreel Valley.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The regional name survival is suggestive, but the precise ancient site used in the narrative is not secure."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 28,
+        "verseStart": 7,
+        "verseEnd": 25,
+        "label": "1 Samuel 28:7–25"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ],
+    "coordinates": [
+      35.421,
+      32.625
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "aliases": [
+      "Jerusalem",
+      "Jebus"
+    ],
+    "summary": "The highland city captured by David and made the political center of his kingdom; it becomes the central city of the Solomon narratives.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Jerusalem is geographically secure. The footprint and scale of the city in the 10th century BCE remain subjects of archaeological debate."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "verseStart": 6,
+        "verseEnd": 10,
+        "label": "2 Samuel 5:6–10"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 6,
+        "verseStart": 12,
+        "verseEnd": 19,
+        "label": "2 Samuel 6:12–19"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 1,
+        "verseStart": 32,
+        "verseEnd": 40,
+        "label": "1 Kings 1:32–40"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 8,
+        "verseStart": 1,
+        "verseEnd": 66,
+        "label": "1 Kings 8:1–66"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-jerusalem-bible-archaeology",
+      "source-reich-city-david"
+    ],
+    "coordinates": [
+      35.235,
+      31.778
+    ],
+    "coordinateRole": "identified-site",
+    "historicalContext": "The biblical narratives portray Jerusalem as Davidic capital and Solomonic temple city. Archaeology confirms continuous ancient settlement but debates the scale, fortifications, and state capacity of the 10th-century city.",
+    "archaeology": "Excavations on the southeastern ridge and around the Old City illuminate Iron Age Jerusalem, but interpretations of specific monumental structures and their dating vary among scholars."
+  },
+  {
+    "id": "city-of-david-ridge",
+    "name": "Southeastern Ridge / “City of David” Archaeological Zone",
+    "aliases": [
+      "City of David archaeological zone",
+      "Southeastern Hill",
+      "Southeastern Ridge"
+    ],
+    "summary": "The narrow ridge south of the Temple Mount that preserves the earliest urban core of Jerusalem. Modern archaeology commonly calls it the City of David, while the biblical phrase can function differently in different texts.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The ridge is an established topographic and archaeological zone. Equating every biblical use of “City of David” with one modern excavation boundary would be overly precise."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "verseStart": 7,
+        "verseEnd": 9,
+        "label": "2 Samuel 5:7–9"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 2,
+        "verseStart": 10,
+        "verseEnd": 10,
+        "label": "1 Kings 2:10"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 11,
+        "verseStart": 43,
+        "verseEnd": 43,
+        "label": "1 Kings 11:43"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-jerusalem-bible-archaeology",
+      "source-reich-city-david",
+      "source-anchor-yale"
+    ],
+    "coordinates": [
+      35.236,
+      31.773
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "The southeastern ridge contains major Bronze and Iron Age remains and water-system features. Attribution of particular monumental constructions to David or Solomon is debated."
+  },
+  {
+    "id": "zion-biblical",
+    "name": "Zion — Biblical Toponym",
+    "aliases": [
+      "Zion",
+      "Fortress of Zion",
+      "Mount Zion"
+    ],
+    "summary": "In 2 Samuel 5, Zion names the stronghold David captures and associates with the City of David. Later biblical usage expands toward Jerusalem and the temple, so the atlas treats Zion as a changing toponym rather than one eternal GPS point.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "high",
+      "explanation": "The textual meaning of Zion changes through time. A single modern pin would conflate the early stronghold, the City of David, later temple associations, and still later Mount Zion traditions."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "verseStart": 7,
+        "verseEnd": 7,
+        "label": "2 Samuel 5:7"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 8,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "1 Kings 8:1"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 5,
+        "verseStart": 2,
+        "verseEnd": 2,
+        "label": "2 Chronicles 5:2"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale",
+      "source-jerusalem-bible-archaeology",
+      "source-batch4-methodology"
+    ],
+    "interpretations": [
+      {
+        "title": "Early Davidic usage",
+        "status": "probable",
+        "summary": "The fortress of Zion in 2 Samuel 5 is commonly associated with the southeastern hill/City of David area.",
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-anchor-yale",
+          "source-jerusalem-bible-archaeology"
+        ]
+      },
+      {
+        "title": "Later biblical expansion",
+        "status": "established",
+        "summary": "Later biblical texts can use Zion for Jerusalem more broadly and in temple-oriented theological language.",
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-anchor-yale"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kidron-valley",
+    "name": "Kidron Valley",
+    "aliases": [
+      "Kidron",
+      "Valley of Kidron"
+    ],
+    "summary": "The valley immediately east of ancient Jerusalem, crossed by David as he flees Absalom.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The Kidron Valley is a secure topographic feature; the exact crossing point of David’s party is not known."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 15,
+        "verseStart": 23,
+        "verseEnd": 23,
+        "label": "2 Samuel 15:23"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-jerusalem-bible-archaeology"
+    ],
+    "coordinates": [
+      35.241,
+      31.776
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "mount-olives",
+    "name": "Mount of Olives",
+    "aliases": [
+      "Mount Olivet"
+    ],
+    "summary": "The ridge east of Jerusalem ascended by David during Absalom's revolt and prominent in later biblical history.",
+    "category": "mountain",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The Mount of Olives ridge is securely identified; individual narrative stopping points are not recoverable."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 15,
+        "verseStart": 30,
+        "verseEnd": 32,
+        "label": "2 Samuel 15:30–32"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-jerusalem-bible-archaeology"
+    ],
+    "coordinates": [
+      35.243,
+      31.778
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "valley-rephaim",
+    "name": "Valley of Rephaim",
+    "aliases": [
+      "Rephaim Valley"
+    ],
+    "summary": "A valley southwest of Jerusalem associated with Philistine deployments after David's accession.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The broad valley is securely located, but the exact battle positions and route called Baal-perazim are uncertain."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "verseStart": 18,
+        "verseEnd": 25,
+        "label": "2 Samuel 5:18–25"
+      },
+      {
+        "book": "1 Chronicles",
+        "chapter": 14,
+        "verseStart": 9,
+        "verseEnd": 16,
+        "label": "1 Chronicles 14:9–16"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-jerusalem-bible-archaeology"
+    ],
+    "coordinates": [
+      35.207,
+      31.748
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "baal-perazim",
+    "name": "Baal-perazim",
+    "aliases": [],
+    "summary": "A battle locality named after David's victory over the Philistines near the Rephaim Valley. Its exact location cannot be recovered.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The narrative locates Baal-perazim in the Jerusalem/Valley of Rephaim context but provides no secure archaeological identification."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "verseStart": 20,
+        "verseEnd": 20,
+        "label": "2 Samuel 5:20"
+      },
+      {
+        "book": "1 Chronicles",
+        "chapter": 14,
+        "verseStart": 11,
+        "verseEnd": 11,
+        "label": "1 Chronicles 14:11"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-batch4-methodology"
+    ]
+  },
+  {
+    "id": "gihon-spring",
+    "name": "Gihon Spring",
+    "aliases": [
+      "Gihon"
+    ],
+    "summary": "Jerusalem's principal ancient spring, used as the setting for Solomon's public anointing in 1 Kings 1.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The spring and associated water systems are securely located on Jerusalem’s eastern slope; the ceremonial details are textual rather than archaeologically observable."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 1,
+        "verseStart": 32,
+        "verseEnd": 40,
+        "label": "1 Kings 1:32–40"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 32,
+        "verseStart": 30,
+        "verseEnd": 30,
+        "label": "2 Chronicles 32:30"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-jerusalem-bible-archaeology",
+      "source-reich-city-david"
+    ],
+    "coordinates": [
+      35.237,
+      31.773
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "temple-mount",
+    "name": "Temple Mount / Haram al-Sharif",
+    "aliases": [
+      "Temple Mount",
+      "Haram al-Sharif"
+    ],
+    "summary": "The elevated sacred precinct north of the southeastern ridge, traditionally and historically associated with the First and Second Temples. Direct archaeological excavation of the temple footprint is not available.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The elevated precinct is a secure topographic and historical place. Its association with the Jewish temples is foundational, while the exact First Temple footprint and surviving 10th-century structures cannot be directly mapped from excavation."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 6,
+        "verseStart": 1,
+        "verseEnd": 38,
+        "label": "1 Kings 6:1–38"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 8,
+        "verseStart": 1,
+        "verseEnd": 11,
+        "label": "1 Kings 8:1–11"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 3,
+        "verseStart": 1,
+        "verseEnd": 2,
+        "label": "2 Chronicles 3:1–2"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-jerusalem-bible-archaeology",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ],
+    "coordinates": [
+      35.2354,
+      31.7781
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "The present platform is dominated by later Herodian, Roman, Byzantine, Islamic, Crusader, and subsequent remains. Claims about precise First Temple foundations require exceptional caution."
+  },
+  {
+    "id": "first-temple-site",
+    "name": "First Temple — Biblical Building Site",
+    "aliases": [
+      "Solomon’s Temple",
+      "First Temple"
+    ],
+    "summary": "The temple Solomon is said to build in Jerusalem. The atlas keeps it searchable and links it to the Temple Mount tradition but does not draw an exact footprint as an archaeological fact.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "moderate",
+      "explanation": "The biblical and later historical tradition locates the First Temple in the Temple Mount precinct, but no excavated footprint allows an exact modern polygon or pin."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 6,
+        "verseStart": 1,
+        "verseEnd": 38,
+        "label": "1 Kings 6:1–38"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 7,
+        "verseStart": 13,
+        "verseEnd": 51,
+        "label": "1 Kings 7:13–51"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 8,
+        "verseStart": 1,
+        "verseEnd": 66,
+        "label": "1 Kings 8:1–66"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 3,
+        "verseStart": 1,
+        "verseEnd": 17,
+        "label": "2 Chronicles 3:1–17"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-jerusalem-bible-archaeology",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ],
+    "interpretations": [
+      {
+        "title": "Temple Mount precinct",
+        "status": "traditional",
+        "summary": "Jewish historical tradition and the biblical/Second Temple continuity place Solomon’s temple within the Temple Mount precinct.",
+        "sourceIds": [
+          "source-united-monarchy-text",
+          "source-jerusalem-bible-archaeology",
+          "source-anchor-yale"
+        ]
+      },
+      {
+        "title": "Exact footprint",
+        "status": "unknown",
+        "summary": "The precise orientation, dimensions in modern coordinates, and surviving foundations cannot be established archaeologically from direct excavation.",
+        "sourceIds": [
+          "source-jerusalem-bible-archaeology",
+          "source-batch4-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "araunah-threshing-floor",
+    "name": "Threshing Floor of Araunah / Ornan",
+    "aliases": [
+      "Araunah’s threshing floor",
+      "Ornan’s threshing floor"
+    ],
+    "summary": "The location where David erects an altar after the census plague and which Chronicles later connects with the temple site. No independent archaeological point can be assigned.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "moderate",
+      "explanation": "The canonical literary linkage to the later temple site is explicit in Chronicles; the exact ancient threshing floor cannot be archaeologically isolated."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 24,
+        "verseStart": 18,
+        "verseEnd": 25,
+        "label": "2 Samuel 24:18–25"
+      },
+      {
+        "book": "1 Chronicles",
+        "chapter": 21,
+        "verseStart": 18,
+        "verseEnd": 30,
+        "label": "1 Chronicles 21:18–30"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 3,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "2 Chronicles 3:1"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-jerusalem-bible-archaeology",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ]
+  },
+  {
+    "id": "rabbah-ammon",
+    "name": "Rabbah of the Ammonites / Amman",
+    "aliases": [
+      "Rabbah",
+      "Rabbath-ammon",
+      "Amman Citadel"
+    ],
+    "summary": "The Ammonite capital besieged by Joab and David in 2 Samuel. Its location at modern Amman is secure, though the exact Iron Age urban extent is not.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Rabbah’s continuity with Amman is secure; archaeological remains illuminate the long-lived site but do not verify every campaign detail."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 11,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "2 Samuel 11:1"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 12,
+        "verseStart": 26,
+        "verseEnd": 31,
+        "label": "2 Samuel 12:26–31"
+      },
+      {
+        "book": "1 Chronicles",
+        "chapter": 20,
+        "verseStart": 1,
+        "verseEnd": 3,
+        "label": "1 Chronicles 20:1–3"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan",
+      "source-anchor-yale"
+    ],
+    "coordinates": [
+      35.935,
+      31.955
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "geshur",
+    "name": "Geshur",
+    "aliases": [
+      "Kingdom of Geshur"
+    ],
+    "summary": "A small polity in the southern Golan / Bashan region associated with Absalom's maternal family and exile. Its political boundaries are not precisely recoverable.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The broad southern Golan setting is well supported; Geshur’s exact borders and capital arrangements varied and remain debated."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 3,
+        "verseStart": 3,
+        "verseEnd": 3,
+        "label": "2 Samuel 3:3"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 13,
+        "verseStart": 37,
+        "verseEnd": 38,
+        "label": "2 Samuel 13:37–38"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 15,
+        "verseStart": 8,
+        "verseEnd": 8,
+        "label": "2 Samuel 15:8"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-oxford-history"
+    ],
+    "coordinates": [
+      35.75,
+      32.95
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "bahurim",
+    "name": "Bahurim",
+    "aliases": [],
+    "summary": "A settlement east or northeast of Jerusalem encountered in the Absalom narratives. Its exact site remains uncertain.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The route context is clear, but proposed modern identifications are not secure enough for a normal pin."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 3,
+        "verseStart": 16,
+        "verseEnd": 16,
+        "label": "2 Samuel 3:16"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 16,
+        "verseStart": 5,
+        "verseEnd": 14,
+        "label": "2 Samuel 16:5–14"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 17,
+        "verseStart": 18,
+        "verseEnd": 18,
+        "label": "2 Samuel 17:18"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ]
+  },
+  {
+    "id": "forest-ephraim",
+    "name": "Forest of Ephraim",
+    "aliases": [
+      "Wood of Ephraim"
+    ],
+    "summary": "The battlefield where Absalom's forces are defeated. Despite the name, the narrative context is east of the Jordan around Mahanaim; the exact location is unknown.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The name does not justify pinning the battle in the later tribal hill country of Ephraim. The Transjordan campaign context is stronger than any exact coordinate."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 18,
+        "verseStart": 6,
+        "verseEnd": 18,
+        "label": "2 Samuel 18:6–18"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ]
+  },
+  {
+    "id": "gezer-monarchy",
+    "name": "Gezer / Tel Gezer",
+    "aliases": [
+      "Gezer",
+      "Tel Gezer"
+    ],
+    "summary": "A major city at the Aijalon approaches. 1 Kings associates its transfer and building activity with Solomon; archaeology confirms major Iron Age occupation while the dating and attribution of specific gates/structures remain debated.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tel Gezer is securely identified. Calling any particular gate “Solomon’s gate” without qualification would collapse a live chronological debate."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 9,
+        "verseStart": 15,
+        "verseEnd": 17,
+        "label": "1 Kings 9:15–17"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-mazar-land-bible",
+      "source-ben-tor-israel",
+      "source-david-solomon-debate"
+    ],
+    "coordinates": [
+      34.921,
+      31.86
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Gezer has extensive Bronze and Iron Age remains. Architectural complexes once routinely assigned to Solomon have been redated or debated in competing chronological models."
+  },
+  {
+    "id": "tyre",
+    "name": "Tyre",
+    "aliases": [
+      "Tyrus",
+      "Ṣūr"
+    ],
+    "summary": "The Phoenician port city associated with Hiram's diplomatic, timber, and craft relationship with David and Solomon.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Tyre’s ancient location is secure; coastline and island-mainland relationships changed substantially through later engineering and sedimentation."
+    },
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "verseStart": 11,
+        "verseEnd": 12,
+        "label": "2 Samuel 5:11–12"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 5,
+        "verseStart": 1,
+        "verseEnd": 18,
+        "label": "1 Kings 5:1–18"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 9,
+        "verseStart": 10,
+        "verseEnd": 14,
+        "label": "1 Kings 9:10–14"
+      },
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:3–6",
+        "verseStart": 3,
+        "verseEnd": 6
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-oxford-history",
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "coordinates": [
+      35.196,
+      33.271
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "sidon-monarchy",
+    "name": "Sidon",
+    "aliases": [
+      "Zidon"
+    ],
+    "summary": "A principal Phoenician coastal city and regional reference point in the monarchy narratives.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Sidon is securely identified with the long-lived coastal city."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 11,
+        "verseStart": 1,
+        "verseEnd": 5,
+        "label": "1 Kings 11:1–5"
+      },
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:3",
+        "verseStart": 3
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-oxford-history",
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "coordinates": [
+      35.369,
+      33.56
+    ],
+    "coordinateRole": "identified-site"
+  },
+  {
+    "id": "ophir",
+    "name": "Ophir",
+    "aliases": [],
+    "summary": "A source of gold associated with Solomon's maritime trade. Proposals range across Arabia, the Red Sea, East Africa, and beyond; no consensus location exists.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Ophir should not be mapped to a single country or port because the textual and comparative evidence permits multiple proposal families."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 9,
+        "verseStart": 26,
+        "verseEnd": 28,
+        "label": "1 Kings 9:26–28"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 10,
+        "verseStart": 11,
+        "verseEnd": 11,
+        "label": "1 Kings 10:11"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 8,
+        "verseStart": 17,
+        "verseEnd": 18,
+        "label": "2 Chronicles 8:17–18"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale",
+      "source-sacred-bridge",
+      "source-batch4-methodology"
+    ]
+  },
+  {
+    "id": "sheba-saba",
+    "name": "Sheba / Saba — Southern Arabian Context",
+    "aliases": [
+      "Sheba",
+      "Saba",
+      "Marib"
+    ],
+    "summary": "The Queen of Sheba narrative points toward the Sabaean cultural world of southern Arabia. The marker uses the Marib region as a broad cultural anchor, not as a claim about the queen's palace or itinerary.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Saba is strongly associated with ancient South Arabia, especially Yemen, but the narrative queen and her 10th-century itinerary are not independently located archaeologically."
+    },
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 10,
+        "verseStart": 1,
+        "verseEnd": 13,
+        "label": "1 Kings 10:1–13"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 9,
+        "verseStart": 1,
+        "verseEnd": 12,
+        "label": "2 Chronicles 9:1–12"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale",
+      "source-oxford-history",
+      "source-batch4-methodology"
+    ],
+    "coordinates": [
+      45.33,
+      15.42
+    ],
+    "coordinateRole": "approximate-area"
+  },
+  {
+    "id": "michmash",
+    "name": "Michmash / Mukhmas area",
+    "aliases": [
+      "Michmash",
+      "Michmas",
+      "Mukhmas"
+    ],
+    "summary": "A Benjaminite town east of the central ridge and the principal Philistine/Israelite theater in 1 Samuel 13–14. The modern name Mukhmas preserves the ancient toponym, though the precise Iron Age settlement footprint is not mapped here as certain.",
+    "category": "city",
+    "coordinates": [
+      35.285,
+      31.872
+    ],
+    "coordinateRole": "approximate-area",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The name survival and topography strongly place Michmash in the Mukhmas area; the atlas uses a regional anchor rather than claiming one excavated structure."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 13,
+        "verseStart": 2,
+        "verseEnd": 23,
+        "label": "1 Samuel 13:2–23"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 14,
+        "verseStart": 1,
+        "verseEnd": 31,
+        "label": "1 Samuel 14:1–31"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mazar-land-bible"
+    ]
+  },
+  {
+    "id": "geba-benjamin",
+    "name": "Geba of Benjamin",
+    "aliases": [
+      "Geba",
+      "Jabaʿ (proposal)"
+    ],
+    "summary": "A Benjaminite town opposite the Michmash area in the Saul/Jonathan narratives. The modern village Jabaʿ is commonly associated with ancient Geba.",
+    "category": "city",
+    "coordinates": [
+      35.259,
+      31.857
+    ],
+    "coordinateRole": "candidate-site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Toponymic survival and regional geography support the Jabaʿ identification, but period-specific archaeological correlation is kept cautious."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 13,
+        "verseStart": 3,
+        "verseEnd": 3,
+        "label": "1 Samuel 13:3"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 14,
+        "verseStart": 5,
+        "verseEnd": 5,
+        "label": "1 Samuel 14:5"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mazar-land-bible"
+    ]
+  },
+  {
+    "id": "michmash-pass",
+    "name": "Pass of Michmash / Wadi Suweinit context",
+    "aliases": [
+      "Passage of Michmash",
+      "Wadi Suweinit"
+    ],
+    "summary": "The steep ravine landscape between the Geba and Michmash areas associated with Jonathan’s attack. The broad topography is identifiable, while the named crags Bozez and Seneh are not securely fixed to individual rocks.",
+    "category": "region",
+    "coordinates": [
+      35.274,
+      31.864
+    ],
+    "coordinateRole": "approximate-area",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The ravine system fits the textual topography between Geba and Michmash; exact ancient path and crag identifications remain interpretive."
+    },
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 14,
+        "verseStart": 4,
+        "verseEnd": 15,
+        "label": "1 Samuel 14:4–15"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-batch4-methodology"
+    ]
+  }
+]

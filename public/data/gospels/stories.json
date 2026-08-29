@@ -1,0 +1,1210 @@
+[
+  {
+    "id": "story-infancy-gospels",
+    "title": "The Infancy Narratives",
+    "subtitle": "Bethlehem, Egypt, Nazareth — and the chronological questions around Herod and Quirinius.",
+    "personId": "jesus",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "inf-bethlehem",
+        "title": "Bethlehem",
+        "eyebrow": "Matthew 1–2 · Luke 2",
+        "description": "Both Matthew and Luke place Jesus’ birth in Bethlehem, but they organize the surrounding movements differently.",
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 2,
+            "label": "Matthew 2:1",
+            "verseStart": 1
+          },
+          {
+            "book": "Luke",
+            "chapter": 2,
+            "label": "Luke 2:1–7",
+            "verseStart": 1,
+            "verseEnd": 7
+          }
+        ],
+        "placeId": "bethlehem-judah",
+        "journeyId": "journey-matthew-infancy",
+        "contextYear": -5,
+        "camera": {
+          "center": [
+            35.203,
+            31.705
+          ],
+          "zoom": 8,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "inf-chronology",
+        "title": "Herod and Quirinius",
+        "eyebrow": "chronology · evidence-aware",
+        "description": "Matthew’s Herodian setting and Luke’s Quirinius notice create a genuine chronology problem. The atlas displays the tension rather than manufacturing a solution.",
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 2,
+            "label": "Matthew 2:1",
+            "verseStart": 1
+          },
+          {
+            "book": "Luke",
+            "chapter": 2,
+            "label": "Luke 2:2",
+            "verseStart": 2
+          }
+        ],
+        "placeId": "jerusalem",
+        "contextYear": -5,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 7,
+          "pitch": 25
+        },
+        "textualReferences": [
+          {
+            "label": "Josephus on Archelaus and Quirinius",
+            "sourceId": "source-josephus-ant18-b8",
+            "kind": "ancient-literary"
+          }
+        ]
+      },
+      {
+        "id": "inf-egypt",
+        "title": "Egypt in Matthew",
+        "eyebrow": "Matthew 2:13–23",
+        "description": "Matthew’s route goes from Bethlehem into unnamed Egypt and then to Nazareth. The line is generalized because no Egyptian settlement is named.",
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 2,
+            "label": "Matthew 2:13–23",
+            "verseStart": 13,
+            "verseEnd": 23
+          }
+        ],
+        "placeId": "egypt",
+        "journeyId": "journey-matthew-infancy",
+        "contextYear": -4,
+        "camera": {
+          "center": [
+            31.3,
+            30.1
+          ],
+          "zoom": 4.5,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "inf-luke",
+        "title": "Luke’s distinct sequence",
+        "eyebrow": "Luke 2",
+        "description": "Luke instead narrates Nazareth → Bethlehem → Jerusalem → Nazareth. The app keeps this as a separate journey rather than merging the two infancy narratives into one synthetic route.",
+        "scripture": [
+          {
+            "book": "Luke",
+            "chapter": 2,
+            "label": "Luke 2:1–39",
+            "verseStart": 1,
+            "verseEnd": 39
+          }
+        ],
+        "placeId": "nazareth",
+        "journeyId": "journey-luke-infancy",
+        "contextYear": -4,
+        "camera": {
+          "center": [
+            35.3035,
+            32.6996
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-john-baptist",
+    "title": "John the Baptist & the Jordan",
+    "subtitle": "Wilderness, baptismal geography, Herod Antipas, and Machaerus.",
+    "personId": "john-baptist",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "jb-wilderness",
+        "title": "The wilderness",
+        "eyebrow": "early first century CE",
+        "description": "John is placed in the Judean wilderness and Jordan region, not at one modern tourist coordinate.",
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 3,
+            "label": "Matthew 3:1–6",
+            "verseStart": 1,
+            "verseEnd": 6
+          },
+          {
+            "book": "Mark",
+            "chapter": 1,
+            "label": "Mark 1:4–5",
+            "verseStart": 4,
+            "verseEnd": 5
+          }
+        ],
+        "placeId": "judean-wilderness-gospels",
+        "contextYear": 28,
+        "camera": {
+          "center": [
+            35.36,
+            31.7
+          ],
+          "zoom": 7,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "jb-baptism",
+        "title": "The Jordan",
+        "eyebrow": "baptism geography",
+        "description": "The baptism of Jesus belongs to the Jordan landscape. Bethany beyond the Jordan remains disputed; al-Maghtas is shown as ancient commemoration rather than proof.",
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 3,
+            "label": "Matthew 3:13–17",
+            "verseStart": 13,
+            "verseEnd": 17
+          },
+          {
+            "book": "John",
+            "chapter": 1,
+            "label": "John 1:28",
+            "verseStart": 28
+          }
+        ],
+        "placeId": "al-maghtas",
+        "contextYear": 28,
+        "camera": {
+          "center": [
+            35.55,
+            31.84
+          ],
+          "zoom": 8,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "jb-machaerus",
+        "title": "Machaerus",
+        "eyebrow": "Josephus + Gospel context",
+        "description": "The Gospels narrate John’s execution under Antipas but do not name the fortress. Josephus places John at Machaerus.",
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 6,
+            "label": "Mark 6:17–29",
+            "verseStart": 17,
+            "verseEnd": 29
+          }
+        ],
+        "placeId": "machaerus",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.62,
+            31.57
+          ],
+          "zoom": 8,
+          "pitch": 35
+        },
+        "textualReferences": [
+          {
+            "label": "Josephus, Antiquities 18.116–119",
+            "sourceId": "source-josephus-ant18-b8",
+            "kind": "ancient-literary"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "story-galilee-beginnings",
+    "title": "Nazareth, Cana & Capernaum",
+    "subtitle": "The Lower Galilee setting and the problem of identifying Cana.",
+    "personId": "jesus",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "gal-nazareth",
+        "title": "Nazareth",
+        "eyebrow": "Lower Galilee",
+        "description": "Nazareth is an established early Roman settlement; the app does not identify individual Gospel houses.",
+        "scripture": [
+          {
+            "book": "Luke",
+            "chapter": 4,
+            "label": "Luke 4:16–30",
+            "verseStart": 16,
+            "verseEnd": 30
+          }
+        ],
+        "placeId": "nazareth",
+        "contextYear": 28,
+        "camera": {
+          "center": [
+            35.3035,
+            32.6996
+          ],
+          "zoom": 9,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "gal-cana",
+        "title": "Cana — unresolved",
+        "eyebrow": "John 2",
+        "description": "Cana itself has no pin. Khirbet Qana and Kafr Kanna are displayed separately as candidate and tradition.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 2,
+            "label": "John 2:1–11",
+            "verseStart": 1,
+            "verseEnd": 11
+          }
+        ],
+        "placeId": "cana-galilee",
+        "contextYear": 28,
+        "camera": {
+          "center": [
+            35.32,
+            32.78
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "gal-cap",
+        "title": "Capernaum",
+        "eyebrow": "northwestern lakeshore",
+        "description": "Capernaum is one of the strongest archaeological anchors in Gospel geography.",
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 1,
+            "label": "Mark 1:21–34",
+            "verseStart": 21,
+            "verseEnd": 34
+          }
+        ],
+        "placeId": "capernaum",
+        "journeyId": "journey-cana-capernaum",
+        "contextYear": 28,
+        "camera": {
+          "center": [
+            35.575,
+            32.881
+          ],
+          "zoom": 10,
+          "pitch": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-sea-galilee",
+    "title": "Around the Sea of Galilee",
+    "subtitle": "Capernaum, Bethsaida, Magdala, the lake crossings, and disputed east-shore geography.",
+    "personId": "jesus",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "sea-cap",
+        "title": "Capernaum",
+        "eyebrow": "ministry center",
+        "description": "The village and lakeshore economy provide a strong physical setting for many Gospel scenes.",
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 4,
+            "label": "Matthew 4:13",
+            "verseStart": 13
+          },
+          {
+            "book": "Mark",
+            "chapter": 1,
+            "label": "Mark 1:21",
+            "verseStart": 21
+          }
+        ],
+        "placeId": "capernaum",
+        "contextYear": 29,
+        "camera": {
+          "center": [
+            35.575,
+            32.881
+          ],
+          "zoom": 9,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "sea-bethsaida",
+        "title": "Bethsaida — two leading candidates",
+        "eyebrow": "archaeology still debated",
+        "description": "The Gospel place remains unpinned while el-Araj and et-Tell are displayed as competing archaeological candidates.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 1,
+            "label": "John 1:44",
+            "verseStart": 44
+          }
+        ],
+        "placeId": "bethsaida-gospels",
+        "contextYear": 29,
+        "camera": {
+          "center": [
+            35.62,
+            32.91
+          ],
+          "zoom": 9,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "sea-east",
+        "title": "The “other side”",
+        "eyebrow": "textual variants matter",
+        "description": "Gerasenes, Gadarenes, and Gergesenes should not be collapsed into one shoreline pin.",
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 5,
+            "label": "Mark 5:1–20",
+            "verseStart": 1,
+            "verseEnd": 20
+          }
+        ],
+        "placeId": "gerasenes-gadarenes-region",
+        "journeyId": "journey-galilee-eastshore",
+        "contextYear": 29,
+        "camera": {
+          "center": [
+            35.62,
+            32.82
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "sea-magdala",
+        "title": "Magdala",
+        "eyebrow": "archaeological context",
+        "description": "Magdala adds a richly excavated first-century settlement and synagogue context without inventing a particular Gospel visit.",
+        "scripture": [],
+        "placeId": "magdala",
+        "contextYear": 29,
+        "camera": {
+          "center": [
+            35.51,
+            32.83
+          ],
+          "zoom": 9,
+          "pitch": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-samaria-sychar",
+    "title": "Samaria & Sychar",
+    "subtitle": "John 4 in the Shechem–Gerizim landscape, with Sychar kept disputed.",
+    "personId": "jesus",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "sam-route",
+        "title": "Through Samaria",
+        "eyebrow": "John 4",
+        "description": "John explicitly narrates movement through Samaria on the way to Galilee.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 4,
+            "label": "John 4:3–5",
+            "verseStart": 3,
+            "verseEnd": 5
+          }
+        ],
+        "placeId": "samaria-region-gospels",
+        "journeyId": "journey-john4-samaria",
+        "contextYear": 29,
+        "camera": {
+          "center": [
+            35.24,
+            32.2
+          ],
+          "zoom": 7,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "sam-sychar",
+        "title": "Sychar",
+        "eyebrow": "unresolved village",
+        "description": "Askar is a reasonable candidate, not a settled identification.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 4,
+            "label": "John 4:5",
+            "verseStart": 5
+          }
+        ],
+        "placeId": "sychar",
+        "contextYear": 29,
+        "camera": {
+          "center": [
+            35.29,
+            32.215
+          ],
+          "zoom": 9,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "sam-well",
+        "title": "Jacob’s Well & Gerizim",
+        "eyebrow": "tradition + physical landscape",
+        "description": "The ancient well and Mount Gerizim create a strong landscape context while the patriarchal attribution remains traditional.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 4,
+            "label": "John 4:6–26",
+            "verseStart": 6,
+            "verseEnd": 26
+          }
+        ],
+        "placeId": "jacobs-well-traditional",
+        "contextYear": 29,
+        "camera": {
+          "center": [
+            35.281,
+            32.212
+          ],
+          "zoom": 10,
+          "pitch": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-northern-ministry",
+    "title": "Tyre, Sidon & Caesarea Philippi",
+    "subtitle": "A northern ministry corridor and the unnamed mountain problem.",
+    "personId": "jesus",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "north-tyre",
+        "title": "Phoenician coast",
+        "eyebrow": "Mark 7",
+        "description": "The Gospel sequence moves beyond Galilee toward Tyre and Sidon; the route is generalized.",
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 7,
+            "label": "Mark 7:24–31",
+            "verseStart": 24,
+            "verseEnd": 31
+          }
+        ],
+        "placeId": "tyre",
+        "journeyId": "journey-northern-ministry",
+        "contextYear": 29,
+        "camera": {
+          "center": [
+            35.2,
+            33.27
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "north-panium",
+        "title": "Caesarea Philippi",
+        "eyebrow": "Panium / Paneas",
+        "description": "The city at Paneas is securely identified; the confession is placed in its district, not at a modern shrine point.",
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 16,
+            "label": "Matthew 16:13–20",
+            "verseStart": 13,
+            "verseEnd": 20
+          }
+        ],
+        "placeId": "panium",
+        "contextYear": 29,
+        "camera": {
+          "center": [
+            35.694,
+            33.249
+          ],
+          "zoom": 9,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "north-mountain",
+        "title": "The Transfiguration mountain",
+        "eyebrow": "unnamed in the Gospels",
+        "description": "Tabor is traditional; Hermon is a modern proposal. The actual mountain remains unpinned.",
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 17,
+            "label": "Matthew 17:1–8",
+            "verseStart": 1,
+            "verseEnd": 8
+          }
+        ],
+        "placeId": "mount-transfiguration",
+        "contextYear": 29,
+        "camera": {
+          "center": [
+            35.7,
+            33.0
+          ],
+          "zoom": 7,
+          "pitch": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-final-journey",
+    "title": "The Road Toward Jerusalem",
+    "subtitle": "Jericho, Bethany, the Mount of Olives and the ascent into Jerusalem.",
+    "personId": "jesus",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "fj-jericho",
+        "title": "Jericho",
+        "eyebrow": "final approach",
+        "description": "The Synoptics place Jesus in the Jericho region on the final approach.",
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 10,
+            "label": "Mark 10:46",
+            "verseStart": 46
+          },
+          {
+            "book": "Luke",
+            "chapter": 19,
+            "label": "Luke 19:1",
+            "verseStart": 1
+          }
+        ],
+        "placeId": "jericho",
+        "journeyId": "journey-final-jerusalem",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.444,
+            31.872
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "fj-bethany",
+        "title": "Bethany",
+        "eyebrow": "home of Martha, Mary, Lazarus",
+        "description": "Bethany is a strong village identification; individual traditional tombs/houses are separate claims.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 11,
+            "label": "John 11:1",
+            "verseStart": 1
+          },
+          {
+            "book": "John",
+            "chapter": 12,
+            "label": "John 12:1",
+            "verseStart": 1
+          }
+        ],
+        "placeId": "bethany-judea",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.261,
+            31.771
+          ],
+          "zoom": 10,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "fj-olives",
+        "title": "Mount of Olives",
+        "eyebrow": "approach to Jerusalem",
+        "description": "Bethphage and the Mount of Olives frame the entry narratives.",
+        "scripture": [
+          {
+            "book": "Luke",
+            "chapter": 19,
+            "label": "Luke 19:29–44",
+            "verseStart": 29,
+            "verseEnd": 44
+          }
+        ],
+        "placeId": "mount-olives",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.245,
+            31.779
+          ],
+          "zoom": 9,
+          "pitch": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-first-century-jerusalem",
+    "title": "Jerusalem in the Time of Jesus",
+    "subtitle": "Temple precinct, pools, palace, Antonia, and the topography behind Passion debates.",
+    "personId": "jesus",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "j1-temple",
+        "title": "Herodian Temple precinct",
+        "eyebrow": "physical anchor, reconstructed architecture",
+        "description": "The Temple Mount is secure; detailed reconstructions must distinguish surviving fabric, ancient descriptions, and later models.",
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 11,
+            "label": "Mark 11:15–19",
+            "verseStart": 15,
+            "verseEnd": 19
+          }
+        ],
+        "placeId": "temple-mount",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 11,
+          "pitch": 45
+        }
+      },
+      {
+        "id": "j1-pools",
+        "title": "Bethesda and Siloam",
+        "eyebrow": "archaeological anchors",
+        "description": "These pools are among the strongest places where Johannine geography intersects with excavated Second Temple Jerusalem.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 5,
+            "label": "John 5:2",
+            "verseStart": 2
+          },
+          {
+            "book": "John",
+            "chapter": 9,
+            "label": "John 9:7",
+            "verseStart": 7
+          }
+        ],
+        "placeId": "pool-bethesda",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.2366,
+            31.7814
+          ],
+          "zoom": 11,
+          "pitch": 40
+        }
+      },
+      {
+        "id": "j1-palace",
+        "title": "Herod’s western palace",
+        "eyebrow": "Roman governor context",
+        "description": "The western palace is a major candidate for the governor’s praetorium; Antonia remains a separate fortress and later trial tradition.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 18,
+            "label": "John 18:28",
+            "verseStart": 28
+          }
+        ],
+        "placeId": "herods-palace-jerusalem",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.225,
+            31.776
+          ],
+          "zoom": 11,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "j1-antonia",
+        "title": "Antonia Fortress",
+        "eyebrow": "not automatically the trial site",
+        "description": "The fortress’s general position is known, but identifying it as Pilate’s praetorium is a separate and disputed historical claim.",
+        "scripture": [],
+        "placeId": "antonia-fortress",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.236,
+            31.781
+          ],
+          "zoom": 11,
+          "pitch": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-final-week-gospels",
+    "title": "The Final Week",
+    "subtitle": "Bethany, Jerusalem, Temple, Mount of Olives, Last Supper, and Gethsemane.",
+    "personId": "jesus",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "fw-entry",
+        "title": "Entry from the east",
+        "eyebrow": "Bethphage → Mount of Olives → Jerusalem",
+        "description": "The approach is textually strong while the exact road trace remains generalized.",
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 11,
+            "label": "Mark 11:1–11",
+            "verseStart": 1,
+            "verseEnd": 11
+          }
+        ],
+        "placeId": "bethphage",
+        "journeyId": "journey-final-week",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.258,
+            31.778
+          ],
+          "zoom": 9,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "fw-temple",
+        "title": "Temple teaching and action",
+        "eyebrow": "Jerusalem",
+        "description": "The Temple precinct is an established physical focus; exact court positions are not reconstructed as certain.",
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 11,
+            "label": "Mark 11:15–19",
+            "verseStart": 15,
+            "verseEnd": 19
+          }
+        ],
+        "placeId": "temple-mount",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 11,
+          "pitch": 45
+        }
+      },
+      {
+        "id": "fw-supper",
+        "title": "The upper room",
+        "eyebrow": "exact building unknown",
+        "description": "The Last Supper is kept in Jerusalem without assigning the later Cenacle as the proven room.",
+        "scripture": [
+          {
+            "book": "Luke",
+            "chapter": 22,
+            "label": "Luke 22:7–20",
+            "verseStart": 7,
+            "verseEnd": 20
+          }
+        ],
+        "placeId": "upper-room-jerusalem",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.23,
+            31.776
+          ],
+          "zoom": 10,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "fw-geth",
+        "title": "Gethsemane",
+        "eyebrow": "Kidron and Mount of Olives",
+        "description": "The landscape is strong; the modern garden enclosure is traditional.",
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 14,
+            "label": "Mark 14:32–52",
+            "verseStart": 32,
+            "verseEnd": 52
+          },
+          {
+            "book": "John",
+            "chapter": 18,
+            "label": "John 18:1",
+            "verseStart": 1
+          }
+        ],
+        "placeId": "gethsemane",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.24,
+            31.779
+          ],
+          "zoom": 11,
+          "pitch": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-pilate-trial",
+    "title": "Pilate, the Praetorium & Trial Geography",
+    "subtitle": "Why the atlas refuses to turn the modern Via Dolorosa into a recovered first-century GPS route.",
+    "personId": "pontius-pilate",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "pt-pilate",
+        "title": "Pilate the prefect",
+        "eyebrow": "independently attested",
+        "description": "The Caesarea inscription anchors Pilate as prefect; the Passion narratives place him in Jerusalem for Jesus’ trial.",
+        "scripture": [
+          {
+            "book": "Luke",
+            "chapter": 3,
+            "label": "Luke 3:1",
+            "verseStart": 1
+          },
+          {
+            "book": "John",
+            "chapter": 18,
+            "label": "John 18:28",
+            "verseStart": 28
+          }
+        ],
+        "placeId": "caesarea-maritima",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            34.892,
+            32.501
+          ],
+          "zoom": 8,
+          "pitch": 20
+        },
+        "textualReferences": [
+          {
+            "label": "Pilate inscription",
+            "sourceId": "source-pilate-stone",
+            "kind": "inscription"
+          }
+        ]
+      },
+      {
+        "id": "pt-praetorium",
+        "title": "Where was the praetorium?",
+        "eyebrow": "genuine topographic debate",
+        "description": "The Gospel word identifies the governor’s headquarters, not a modern building. The western palace and Antonia-area tradition are shown separately.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 18,
+            "label": "John 18:28",
+            "verseStart": 28
+          },
+          {
+            "book": "John",
+            "chapter": 19,
+            "label": "John 19:13",
+            "verseStart": 13
+          }
+        ],
+        "placeId": "praetorium-pilate",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.23,
+            31.778
+          ],
+          "zoom": 10,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "pt-gabbatha",
+        "title": "Gabbatha",
+        "eyebrow": "no recoverable coordinate",
+        "description": "John’s place-name depends on the praetorium question, so it remains unpinned.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 19,
+            "label": "John 19:13",
+            "verseStart": 13
+          }
+        ],
+        "placeId": "gabbatha",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.23,
+            31.778
+          ],
+          "zoom": 10,
+          "pitch": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-crucifixion-burial",
+    "title": "Crucifixion & Burial Geography",
+    "subtitle": "Golgotha, the tomb, Holy Sepulchre, Garden Tomb — text, archaeology and tradition kept separate.",
+    "personId": "jesus",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "cb-golgotha",
+        "title": "Golgotha",
+        "eyebrow": "outside Jerusalem · exact point disputed",
+        "description": "The execution place is textual but unpinned. Candidate sites are evaluated separately.",
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 15,
+            "label": "Mark 15:22",
+            "verseStart": 22
+          }
+        ],
+        "placeId": "golgotha",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.23,
+            31.78
+          ],
+          "zoom": 11,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "cb-holy",
+        "title": "Holy Sepulchre tradition",
+        "eyebrow": "ancient tradition + compatible archaeology",
+        "description": "The site’s quarry/tomb history and early Christian identification make it historically significant, but archaeology cannot prove a particular cross or tomb belonged to Jesus.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 19,
+            "label": "John 19:41–42",
+            "verseStart": 41,
+            "verseEnd": 42
+          }
+        ],
+        "placeId": "holy-sepulchre",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.2297,
+            31.7785
+          ],
+          "zoom": 13,
+          "pitch": 45
+        }
+      },
+      {
+        "id": "cb-garden",
+        "title": "Garden Tomb tradition",
+        "eyebrow": "modern alternative",
+        "description": "The alternative site is shown respectfully but with the archaeological dating problem made explicit.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 19,
+            "label": "John 19:41",
+            "verseStart": 41
+          }
+        ],
+        "placeId": "garden-tomb",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.229,
+            31.783
+          ],
+          "zoom": 13,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "cb-tomb",
+        "title": "The textual tomb",
+        "eyebrow": "no pin",
+        "description": "The Gospel tomb record stays separate from candidate sites so the app never makes tradition look like coordinate certainty.",
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 27,
+            "label": "Matthew 27:57–61",
+            "verseStart": 57,
+            "verseEnd": 61
+          }
+        ],
+        "placeId": "tomb-jesus",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.23,
+            31.78
+          ],
+          "zoom": 11,
+          "pitch": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-resurrection-geography",
+    "title": "Resurrection Geography",
+    "subtitle": "Jerusalem, Emmaus and Galilee — with supernatural claims and geographic claims handled separately.",
+    "personId": "jesus",
+    "theme": "Gospels",
+    "chapters": [
+      {
+        "id": "rg-jerusalem",
+        "title": "Jerusalem and the empty tomb traditions",
+        "eyebrow": "Gospel proclamation",
+        "description": "The atlas can map the city and tomb traditions, but archaeology cannot adjudicate the theological claim of resurrection.",
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 20,
+            "label": "John 20:1–18",
+            "verseStart": 1,
+            "verseEnd": 18
+          }
+        ],
+        "placeId": "jerusalem",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 10,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "rg-emmaus",
+        "title": "Emmaus",
+        "eyebrow": "location disputed",
+        "description": "The road narrative is textually clear; the destination is not. No route animation chooses a candidate for the user.",
+        "scripture": [
+          {
+            "book": "Luke",
+            "chapter": 24,
+            "label": "Luke 24:13–35",
+            "verseStart": 13,
+            "verseEnd": 35
+          }
+        ],
+        "placeId": "emmaus-luke",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.16,
+            31.82
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "rg-galilee",
+        "title": "Galilee",
+        "eyebrow": "multiple appearance traditions",
+        "description": "Matthew and John place appearances in Galilee, but Matthew’s mountain is unnamed and is not equated with the Transfiguration mountain.",
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 28,
+            "label": "Matthew 28:16–20",
+            "verseStart": 16,
+            "verseEnd": 20
+          },
+          {
+            "book": "John",
+            "chapter": 21,
+            "label": "John 21:1–14",
+            "verseStart": 1,
+            "verseEnd": 14
+          }
+        ],
+        "placeId": "sea-galilee",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.58,
+            32.8
+          ],
+          "zoom": 7,
+          "pitch": 25
+        }
+      }
+    ]
+  }
+]

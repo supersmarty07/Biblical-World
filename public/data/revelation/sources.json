@@ -1,0 +1,101 @@
+[
+  {
+    "id": "source-b10-methodology",
+    "title": "Batch 10 Revelation geographic and visionary methodology",
+    "organization": "The Biblical World project",
+    "kind": "project-methodology",
+    "notes": "Project-authored method: historical places may be mapped with confidence labels; visionary geography is never assigned ordinary terrestrial coordinates. Literary sequence is not equated with physical travel."
+  },
+  {
+    "id": "source-revelation-canonical",
+    "title": "Revelation — canonical text",
+    "kind": "canonical-text",
+    "notes": "Canonical textual references only; the repository’s Bible-text licensing remains governed separately."
+  },
+  {
+    "id": "source-barrington-revelation",
+    "title": "Barrington Atlas of the Greek and Roman World",
+    "author": "Richard J. A. Talbert, ed.",
+    "year": 2000,
+    "kind": "modern-scholarship",
+    "notes": "Used as a general reference for Roman-period places and provincial geography."
+  },
+  {
+    "id": "source-asia-minor-archaeology-b10",
+    "title": "The Seven Churches in their Asia Minor urban setting — curated archaeological bibliography",
+    "kind": "modern-scholarship",
+    "notes": "Project synthesis drawing on site archaeology and standard historical geography; does not assert that Revelation’s metaphors have one-to-one archaeological explanations."
+  },
+  {
+    "id": "source-hemer-seven-churches",
+    "title": "The Letters to the Seven Churches of Asia in Their Local Setting",
+    "author": "Colin J. Hemer",
+    "year": 1986,
+    "kind": "modern-scholarship",
+    "notes": "Influential contextual study; individual local-background proposals are treated as proposals rather than automatic explanations."
+  },
+  {
+    "id": "source-koester-revelation",
+    "title": "Revelation: A New Translation with Introduction and Commentary",
+    "author": "Craig R. Koester",
+    "year": 2014,
+    "kind": "modern-scholarship",
+    "notes": "Anchor Yale Bible commentary used for literary, historical, and interpretive context."
+  },
+  {
+    "id": "source-aune-revelation",
+    "title": "Revelation 1–22",
+    "author": "David E. Aune",
+    "dateLabel": "1997–1998",
+    "kind": "modern-scholarship",
+    "notes": "Word Biblical Commentary volumes used for historical-literary context and discussion of disputed identifications."
+  },
+  {
+    "id": "source-friesen-imperial-cults",
+    "title": "Twice Neokoros: Ephesus, Asia and the Cult of the Flavian Imperial Family",
+    "author": "Steven J. Friesen",
+    "year": 1993,
+    "kind": "modern-scholarship",
+    "notes": "Used for imperial-cult context; the project does not reduce Revelation to a single empire-cult explanatory model."
+  },
+  {
+    "id": "source-pergamon-archaeology-b10",
+    "title": "Pergamum archaeological and monumental context — project bibliography",
+    "kind": "archaeology",
+    "notes": "Used for the acropolis, Great Altar, sanctuaries, and urban setting. “Satan’s throne” is not archaeologically identified."
+  },
+  {
+    "id": "source-sardis-archaeology-b10",
+    "title": "Archaeological Exploration of Sardis — project reference",
+    "organization": "Sardis Expedition / Harvard-Cornell tradition",
+    "kind": "archaeology",
+    "notes": "Used for the securely identified city and its archaeological landscape; later remains are not backdated to Revelation without qualification."
+  },
+  {
+    "id": "source-patmos-tradition-b10",
+    "title": "Cave of the Apocalypse and Monastery of Saint John — reception-history reference",
+    "kind": "modern-scholarship",
+    "notes": "Used only for later Christian tradition on Patmos, not as first-century proof."
+  },
+  {
+    "id": "source-irenaeus-domitian",
+    "title": "Irenaeus, Against Heresies 5.30.3",
+    "author": "Irenaeus of Lyons",
+    "dateLabel": "Late second century CE",
+    "kind": "ancient-literary",
+    "notes": "Important early testimony often used for a Domitianic dating tradition; its wording and interpretation are discussed in scholarship."
+  },
+  {
+    "id": "source-domitian-context-b10",
+    "title": "Domitian and the Roman imperial context — project bibliography",
+    "kind": "modern-scholarship",
+    "notes": "Used for reign dates and broad imperial setting. Revelation itself never names Domitian."
+  },
+  {
+    "id": "source-b10-canonical-integration",
+    "title": "Genesis–Revelation canonical motif integration",
+    "organization": "The Biblical World project",
+    "kind": "project-methodology",
+    "notes": "Project-authored thematic navigation connecting repeated biblical images without asserting direct historical geography between visionary scenes."
+  }
+]

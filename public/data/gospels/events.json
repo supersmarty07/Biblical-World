@@ -1,0 +1,1740 @@
+[
+  {
+    "id": "event-birth-jesus",
+    "title": "Birth of Jesus in Bethlehem",
+    "summary": "Matthew and Luke place Jesus’ birth in Bethlehem. Exact year and the relationship between Matthew’s Herodian chronology and Luke’s census notice remain debated.",
+    "confidence": "moderate",
+    "placeIds": [
+      "bethlehem-judah"
+    ],
+    "personIds": [
+      "jesus",
+      "mary-mother-jesus",
+      "joseph-husband-mary"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 1,
+        "label": "Matthew 1:18–25",
+        "verseStart": 18,
+        "verseEnd": 25
+      },
+      {
+        "book": "Matthew",
+        "chapter": 2,
+        "label": "Matthew 2:1",
+        "verseStart": 1
+      },
+      {
+        "book": "Luke",
+        "chapter": 2,
+        "label": "Luke 2:1–20",
+        "verseStart": 1,
+        "verseEnd": 20
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant17-b8",
+      "source-josephus-ant18-b8",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "A common historical window is roughly 6–4 BCE because Matthew places the birth before Herod the Great’s death. Luke 2 names Quirinius; Josephus associates Quirinius’s Judean census with 6 CE. The atlas does not claim to solve this chronological problem.",
+    "dating": {
+      "label": "commonly placed c. 6–4 BCE; exact year disputed",
+      "basis": "approximate",
+      "from": -6,
+      "to": -4
+    }
+  },
+  {
+    "id": "event-magi-bethlehem",
+    "title": "Magi and Herod in Matthew",
+    "summary": "Matthew narrates visitors from the east, Herod’s inquiry in Jerusalem, and the child at Bethlehem. The Magi’s origin and exact travel route are not specified.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "bethlehem-judah"
+    ],
+    "personIds": [
+      "jesus",
+      "mary-mother-jesus",
+      "herod-great"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 2,
+        "label": "Matthew 2:1–12",
+        "verseStart": 1,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "No route from a speculative eastern homeland is drawn; “from the east” does not identify a specific kingdom or city.",
+    "dating": {
+      "label": "within Matthew’s Herod the Great setting, before 4 BCE",
+      "basis": "textual",
+      "from": -6,
+      "to": -4
+    }
+  },
+  {
+    "id": "event-flight-egypt",
+    "title": "Flight into Egypt",
+    "summary": "Matthew narrates Joseph taking Mary and Jesus from Bethlehem into Egypt and later returning. No Egyptian town or exact route is named.",
+    "confidence": "moderate",
+    "placeIds": [
+      "bethlehem-judah",
+      "egypt",
+      "nazareth"
+    ],
+    "personIds": [
+      "jesus",
+      "mary-mother-jesus",
+      "joseph-husband-mary"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 2,
+        "label": "Matthew 2:13–23",
+        "verseStart": 13,
+        "verseEnd": 23
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "historicalNote": "The journey line is deliberately generalized and does not invent an Egyptian residence, border crossing, or shrine tradition.",
+    "dating": {
+      "label": "Matthew infancy narrative; before death of Herod the Great",
+      "basis": "textual",
+      "from": -6,
+      "to": -4
+    }
+  },
+  {
+    "id": "event-settlement-nazareth",
+    "title": "Jesus’ family at Nazareth",
+    "summary": "Matthew and Luke both associate Jesus’ upbringing with Nazareth, though their infancy narrative sequences differ.",
+    "confidence": "high",
+    "placeIds": [
+      "nazareth"
+    ],
+    "personIds": [
+      "jesus",
+      "mary-mother-jesus",
+      "joseph-husband-mary"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 2,
+        "label": "Matthew 2:23",
+        "verseStart": 23
+      },
+      {
+        "book": "Luke",
+        "chapter": 2,
+        "label": "Luke 2:39–52",
+        "verseStart": 39,
+        "verseEnd": 52
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-nazareth-archaeology"
+    ]
+  },
+  {
+    "id": "event-john-ministry",
+    "title": "John the Baptist in the wilderness and Jordan",
+    "summary": "The Synoptics place John in the Judean wilderness/Jordan region calling for repentance and baptizing; John’s Gospel also names Bethany beyond the Jordan and Aenon near Salim.",
+    "confidence": "high",
+    "placeIds": [
+      "judean-wilderness-gospels",
+      "jordan-river",
+      "bethany-beyond-jordan",
+      "aenon-salim"
+    ],
+    "personIds": [
+      "john-baptist"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 3,
+        "label": "Matthew 3:1–12",
+        "verseStart": 1,
+        "verseEnd": 12
+      },
+      {
+        "book": "Mark",
+        "chapter": 1,
+        "label": "Mark 1:2–8",
+        "verseStart": 2,
+        "verseEnd": 8
+      },
+      {
+        "book": "Luke",
+        "chapter": 3,
+        "label": "Luke 3:1–20",
+        "verseStart": 1,
+        "verseEnd": 20
+      },
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1:19–34",
+        "verseStart": 19,
+        "verseEnd": 34
+      },
+      {
+        "book": "John",
+        "chapter": 3,
+        "label": "John 3:23",
+        "verseStart": 23
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-baptism-site-research",
+      "source-gospel-geography"
+    ],
+    "historicalNote": "The broad Jordan/wilderness setting is strong; individual baptism locations are not collapsed into one coordinate.",
+    "dating": {
+      "label": "early first century CE; precise start year debated",
+      "basis": "approximate",
+      "from": 26,
+      "to": 29
+    }
+  },
+  {
+    "id": "event-baptism-jesus",
+    "title": "Baptism of Jesus",
+    "summary": "The Gospel traditions place Jesus’ baptism by John in the Jordan. The exact place on the river is not identified in the canonical texts.",
+    "confidence": "high",
+    "placeIds": [
+      "jordan-river",
+      "bethany-beyond-jordan"
+    ],
+    "personIds": [
+      "jesus",
+      "john-baptist"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 3,
+        "label": "Matthew 3:13–17",
+        "verseStart": 13,
+        "verseEnd": 17
+      },
+      {
+        "book": "Mark",
+        "chapter": 1,
+        "label": "Mark 1:9–11",
+        "verseStart": 9,
+        "verseEnd": 11
+      },
+      {
+        "book": "Luke",
+        "chapter": 3,
+        "label": "Luke 3:21–22",
+        "verseStart": 21,
+        "verseEnd": 22
+      },
+      {
+        "book": "John",
+        "chapter": 1,
+        "label": "John 1:29–34",
+        "verseStart": 29,
+        "verseEnd": 34
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-baptism-site-research"
+    ],
+    "historicalNote": "Al-Maghtas is shown as an ancient baptismal tradition, not as a proven exact coordinate for the event.",
+    "dating": {
+      "label": "early ministry; exact year uncertain",
+      "basis": "textual",
+      "from": 27,
+      "to": 30
+    }
+  },
+  {
+    "id": "event-temptation",
+    "title": "Temptation in the wilderness",
+    "summary": "The Synoptics place Jesus in the wilderness after the baptism but do not name a specific mountain, cave, or modern site.",
+    "confidence": "moderate",
+    "placeIds": [
+      "judean-wilderness-gospels"
+    ],
+    "personIds": [
+      "jesus"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 4,
+        "label": "Matthew 4:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "Mark",
+        "chapter": 1,
+        "label": "Mark 1:12–13",
+        "verseStart": 12,
+        "verseEnd": 13
+      },
+      {
+        "book": "Luke",
+        "chapter": 4,
+        "label": "Luke 4:1–13",
+        "verseStart": 1,
+        "verseEnd": 13
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "historicalNote": "Later Mount of Temptation traditions are not presented as archaeological proof."
+  },
+  {
+    "id": "event-john-machaerus",
+    "title": "John the Baptist imprisoned and executed",
+    "summary": "The Gospels narrate John’s imprisonment and execution under Herod Antipas; Josephus independently discusses John and places his imprisonment/execution at Machaerus.",
+    "confidence": "high",
+    "placeIds": [
+      "machaerus"
+    ],
+    "personIds": [
+      "john-baptist",
+      "herod-antipas",
+      "herodias"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 14,
+        "label": "Matthew 14:1–12",
+        "verseStart": 1,
+        "verseEnd": 12
+      },
+      {
+        "book": "Mark",
+        "chapter": 6,
+        "label": "Mark 6:14–29",
+        "verseStart": 14,
+        "verseEnd": 29
+      },
+      {
+        "book": "Luke",
+        "chapter": 3,
+        "label": "Luke 3:19–20",
+        "verseStart": 19,
+        "verseEnd": 20
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant18-b8",
+      "source-machaerus-archaeology"
+    ],
+    "historicalNote": "Machaerus is not named in the Gospels; the geographic connection is from Josephus and fits the Herodian fortress context.",
+    "dating": {
+      "label": "during Antipas’s rule; exact year debated",
+      "basis": "approximate",
+      "from": 28,
+      "to": 35
+    },
+    "textualReferences": [
+      {
+        "label": "Josephus, Antiquities 18.116–119",
+        "sourceId": "source-josephus-ant18-b8",
+        "kind": "ancient-literary"
+      }
+    ]
+  },
+  {
+    "id": "event-cana-wedding",
+    "title": "Wedding at Cana",
+    "summary": "John places Jesus’ first narrated sign at a wedding in Cana of Galilee. The village’s modern identification is disputed.",
+    "confidence": "moderate",
+    "placeIds": [
+      "cana-galilee"
+    ],
+    "personIds": [
+      "jesus",
+      "mary-mother-jesus",
+      "nathanael"
+    ],
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 2,
+        "label": "John 2:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-cana-research"
+    ]
+  },
+  {
+    "id": "event-capernaum-ministry",
+    "title": "Capernaum as a Galilean ministry center",
+    "summary": "The Synoptics and John repeatedly locate teaching, healings, and residence language at Capernaum.",
+    "confidence": "high",
+    "placeIds": [
+      "capernaum"
+    ],
+    "personIds": [
+      "jesus",
+      "peter",
+      "andrew",
+      "jairus"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 4,
+        "label": "Matthew 4:13",
+        "verseStart": 13
+      },
+      {
+        "book": "Mark",
+        "chapter": 1,
+        "label": "Mark 1:21–34",
+        "verseStart": 21,
+        "verseEnd": 34
+      },
+      {
+        "book": "Mark",
+        "chapter": 2,
+        "label": "Mark 2:1–12",
+        "verseStart": 1,
+        "verseEnd": 12
+      },
+      {
+        "book": "Luke",
+        "chapter": 4,
+        "label": "Luke 4:31–41",
+        "verseStart": 31,
+        "verseEnd": 41
+      },
+      {
+        "book": "John",
+        "chapter": 6,
+        "label": "John 6:59",
+        "verseStart": 59
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-capernaum-archaeology"
+    ]
+  },
+  {
+    "id": "event-sermon-mount",
+    "title": "Sermon on the Mount — unnamed mountain",
+    "summary": "Matthew places Jesus’ extended teaching on a mountain in Galilee but does not name it.",
+    "confidence": "moderate",
+    "placeIds": [
+      "sea-galilee"
+    ],
+    "personIds": [
+      "jesus"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 5,
+        "label": "Matthew 5:1",
+        "verseStart": 1
+      },
+      {
+        "book": "Matthew",
+        "chapter": 7,
+        "label": "Matthew 7:28–29",
+        "verseStart": 28,
+        "verseEnd": 29
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "historicalNote": "The traditional Mount of Beatitudes is displayed separately and is not labeled as the proven location."
+  },
+  {
+    "id": "event-storm-sea",
+    "title": "Crossing and storm on the Sea of Galilee",
+    "summary": "The Synoptics narrate a lake crossing during which a storm is calmed. The precise launch, route, and landing point vary by narrative context and cannot be recovered.",
+    "confidence": "high",
+    "placeIds": [
+      "sea-galilee"
+    ],
+    "personIds": [
+      "jesus",
+      "peter",
+      "andrew",
+      "james-zebedee",
+      "john-zebedee"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 8,
+        "label": "Matthew 8:23–27",
+        "verseStart": 23,
+        "verseEnd": 27
+      },
+      {
+        "book": "Mark",
+        "chapter": 4,
+        "label": "Mark 4:35–41",
+        "verseStart": 35,
+        "verseEnd": 41
+      },
+      {
+        "book": "Luke",
+        "chapter": 8,
+        "label": "Luke 8:22–25",
+        "verseStart": 22,
+        "verseEnd": 25
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "historicalNote": "The atlas does not draw a single “exact boat route” across the lake."
+  },
+  {
+    "id": "event-gerasene-episode",
+    "title": "Gerasene / Gadarene episode",
+    "summary": "The Synoptics place the episode east of the lake, but manuscript traditions differ among Gerasenes, Gadarenes, and Gergesenes.",
+    "confidence": "moderate",
+    "placeIds": [
+      "gerasenes-gadarenes-region",
+      "gadara-umm-qais",
+      "kursi-traditional"
+    ],
+    "personIds": [
+      "jesus"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 8,
+        "label": "Matthew 8:28–34",
+        "verseStart": 28,
+        "verseEnd": 34
+      },
+      {
+        "book": "Mark",
+        "chapter": 5,
+        "label": "Mark 5:1–20",
+        "verseStart": 1,
+        "verseEnd": 20
+      },
+      {
+        "book": "Luke",
+        "chapter": 8,
+        "label": "Luke 8:26–39",
+        "verseStart": 26,
+        "verseEnd": 39
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-gospel-geography"
+    ],
+    "historicalNote": "No single candidate is promoted to certain Gospel geography; textual variants and regional possibilities remain visible."
+  },
+  {
+    "id": "event-feeding-five-thousand",
+    "title": "Feeding of the five thousand",
+    "summary": "All four Gospels narrate a large feeding event in a remote lakeside setting. Luke associates the broader episode with Bethsaida, but the exact site is unknown.",
+    "confidence": "high",
+    "placeIds": [
+      "sea-galilee",
+      "bethsaida-gospels",
+      "tabgha-traditional"
+    ],
+    "personIds": [
+      "jesus",
+      "philip-apostle",
+      "andrew"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 14,
+        "label": "Matthew 14:13–21",
+        "verseStart": 13,
+        "verseEnd": 21
+      },
+      {
+        "book": "Mark",
+        "chapter": 6,
+        "label": "Mark 6:30–44",
+        "verseStart": 30,
+        "verseEnd": 44
+      },
+      {
+        "book": "Luke",
+        "chapter": 9,
+        "label": "Luke 9:10–17",
+        "verseStart": 10,
+        "verseEnd": 17
+      },
+      {
+        "book": "John",
+        "chapter": 6,
+        "label": "John 6:1–15",
+        "verseStart": 1,
+        "verseEnd": 15
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-bethsaida-debate",
+      "source-second-temple-atlas"
+    ],
+    "historicalNote": "Tabgha is a later commemoration and is not treated as the proven event site."
+  },
+  {
+    "id": "event-walking-sea",
+    "title": "Jesus walks on the Sea of Galilee",
+    "summary": "Matthew, Mark, and John narrate Jesus approaching the disciples’ boat on the lake. A precise route cannot be mapped responsibly.",
+    "confidence": "high",
+    "placeIds": [
+      "sea-galilee"
+    ],
+    "personIds": [
+      "jesus",
+      "peter"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 14,
+        "label": "Matthew 14:22–33",
+        "verseStart": 22,
+        "verseEnd": 33
+      },
+      {
+        "book": "Mark",
+        "chapter": 6,
+        "label": "Mark 6:45–52",
+        "verseStart": 45,
+        "verseEnd": 52
+      },
+      {
+        "book": "John",
+        "chapter": 6,
+        "label": "John 6:16–21",
+        "verseStart": 16,
+        "verseEnd": 21
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "event-sychar-samaria",
+    "title": "Jesus in Samaria at Sychar",
+    "summary": "John narrates Jesus traveling through Samaria, speaking with a Samaritan woman near Jacob’s well, and remaining with the community.",
+    "confidence": "moderate",
+    "placeIds": [
+      "samaria-region-gospels",
+      "sychar",
+      "jacobs-well-traditional",
+      "mount-gerizim"
+    ],
+    "personIds": [
+      "jesus"
+    ],
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 4,
+        "label": "John 4:1–42",
+        "verseStart": 1,
+        "verseEnd": 42
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-samaria-nt"
+    ],
+    "historicalNote": "The Shechem/Gerizim landscape is secure, while Sychar’s exact identification and the well’s patriarchal attribution remain separate questions."
+  },
+  {
+    "id": "event-nain",
+    "title": "Widow’s son at Nain",
+    "summary": "Luke locates a raising narrative at Nain in Galilee.",
+    "confidence": "moderate",
+    "placeIds": [
+      "nain"
+    ],
+    "personIds": [
+      "jesus"
+    ],
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 7,
+        "label": "Luke 7:11–17",
+        "verseStart": 11,
+        "verseEnd": 17
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ]
+  },
+  {
+    "id": "event-peter-confession",
+    "title": "Peter’s confession near Caesarea Philippi",
+    "summary": "The Synoptics place the confession episode in the district/villages of Caesarea Philippi, the city developed at Paneas.",
+    "confidence": "high",
+    "placeIds": [
+      "panium"
+    ],
+    "personIds": [
+      "jesus",
+      "peter"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 16,
+        "label": "Matthew 16:13–20",
+        "verseStart": 13,
+        "verseEnd": 20
+      },
+      {
+        "book": "Mark",
+        "chapter": 8,
+        "label": "Mark 8:27–30",
+        "verseStart": 27,
+        "verseEnd": 30
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-schurer-second-temple",
+      "source-second-temple-atlas"
+    ],
+    "historicalNote": "The broad district is strong; the text does not identify a cave, shrine, or exact rock as the place of the conversation."
+  },
+  {
+    "id": "event-transfiguration",
+    "title": "Transfiguration on an unnamed high mountain",
+    "summary": "The Synoptics narrate the Transfiguration on a high mountain after the Caesarea Philippi sequence, but do not name the mountain.",
+    "confidence": "high",
+    "placeIds": [
+      "mount-transfiguration"
+    ],
+    "personIds": [
+      "jesus",
+      "peter",
+      "james-zebedee",
+      "john-zebedee"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 17,
+        "label": "Matthew 17:1–8",
+        "verseStart": 1,
+        "verseEnd": 8
+      },
+      {
+        "book": "Mark",
+        "chapter": 9,
+        "label": "Mark 9:2–8",
+        "verseStart": 2,
+        "verseEnd": 8
+      },
+      {
+        "book": "Luke",
+        "chapter": 9,
+        "label": "Luke 9:28–36",
+        "verseStart": 28,
+        "verseEnd": 36
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-transfiguration-geography"
+    ],
+    "historicalNote": "Mount Tabor and Mount Hermon remain proposals/traditions, not established coordinates."
+  },
+  {
+    "id": "event-lazarus-bethany",
+    "title": "Lazarus of Bethany narrative",
+    "summary": "John locates the raising of Lazarus at Bethany near Jerusalem.",
+    "confidence": "high",
+    "placeIds": [
+      "bethany-judea"
+    ],
+    "personIds": [
+      "jesus",
+      "martha",
+      "mary-bethany",
+      "lazarus"
+    ],
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 11,
+        "label": "John 11:1–44",
+        "verseStart": 1,
+        "verseEnd": 44
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "historicalNote": "The village identification is strong; the later “Tomb of Lazarus” tradition is not used as proof of the narrative tomb."
+  },
+  {
+    "id": "event-zacchaeus-jericho",
+    "title": "Jesus and Zacchaeus at Jericho",
+    "summary": "Luke places the encounter with Zacchaeus during Jesus’ passage through Jericho.",
+    "confidence": "high",
+    "placeIds": [
+      "jericho"
+    ],
+    "personIds": [
+      "jesus",
+      "zacchaeus"
+    ],
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 19,
+        "label": "Luke 19:1–10",
+        "verseStart": 1,
+        "verseEnd": 10
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ]
+  },
+  {
+    "id": "event-final-approach-jerusalem",
+    "title": "Final approach to Jerusalem",
+    "summary": "The Synoptics place Jesus’ approach through the Jericho region toward Bethphage, Bethany, the Mount of Olives, and Jerusalem.",
+    "confidence": "high",
+    "placeIds": [
+      "jericho",
+      "bethany-judea",
+      "bethphage",
+      "mount-olives",
+      "jerusalem"
+    ],
+    "personIds": [
+      "jesus"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 20,
+        "label": "Matthew 20:29",
+        "verseStart": 29
+      },
+      {
+        "book": "Matthew",
+        "chapter": 21,
+        "label": "Matthew 21:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "Mark",
+        "chapter": 10,
+        "label": "Mark 10:46",
+        "verseStart": 46
+      },
+      {
+        "book": "Mark",
+        "chapter": 11,
+        "label": "Mark 11:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "Luke",
+        "chapter": 18,
+        "label": "Luke 18:35",
+        "verseStart": 35
+      },
+      {
+        "book": "Luke",
+        "chapter": 19,
+        "label": "Luke 19:28–44",
+        "verseStart": 28,
+        "verseEnd": 44
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-second-temple-atlas"
+    ],
+    "historicalNote": "The sequence is textually strong; the route line is a generalized corridor and not a recovered day-by-day road trace."
+  },
+  {
+    "id": "event-triumphal-entry",
+    "title": "Entry into Jerusalem",
+    "summary": "The Gospels narrate Jesus entering Jerusalem from the Mount of Olives/Bethphage direction.",
+    "confidence": "high",
+    "placeIds": [
+      "bethphage",
+      "mount-olives",
+      "jerusalem"
+    ],
+    "personIds": [
+      "jesus"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 21,
+        "label": "Matthew 21:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "Mark",
+        "chapter": 11,
+        "label": "Mark 11:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "Luke",
+        "chapter": 19,
+        "label": "Luke 19:28–44",
+        "verseStart": 28,
+        "verseEnd": 44
+      },
+      {
+        "book": "John",
+        "chapter": 12,
+        "label": "John 12:12–19",
+        "verseStart": 12,
+        "verseEnd": 19
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-jerusalem-nt-archaeology"
+    ]
+  },
+  {
+    "id": "event-temple-action-gospels",
+    "title": "Jesus in the Temple precinct",
+    "summary": "The Gospels place teaching and a disruption of commerce in the Jerusalem Temple precinct during Jesus’ final period in the city.",
+    "confidence": "high",
+    "placeIds": [
+      "temple-mount"
+    ],
+    "personIds": [
+      "jesus"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 21,
+        "label": "Matthew 21:12–17",
+        "verseStart": 12,
+        "verseEnd": 17
+      },
+      {
+        "book": "Mark",
+        "chapter": 11,
+        "label": "Mark 11:15–19",
+        "verseStart": 15,
+        "verseEnd": 19
+      },
+      {
+        "book": "Luke",
+        "chapter": 19,
+        "label": "Luke 19:45–48",
+        "verseStart": 45,
+        "verseEnd": 48
+      },
+      {
+        "book": "John",
+        "chapter": 2,
+        "label": "John 2:13–22",
+        "verseStart": 13,
+        "verseEnd": 22
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "historicalNote": "The Gospels differ in literary placement, especially John versus the Synoptics. The event is mapped to the Temple precinct, not to a reconstructed exact stall or court position."
+  },
+  {
+    "id": "event-bethany-anointing",
+    "title": "Anointing at Bethany",
+    "summary": "Mark, Matthew, and John place an anointing tradition at Bethany, with narrative details differing among the accounts.",
+    "confidence": "high",
+    "placeIds": [
+      "bethany-judea"
+    ],
+    "personIds": [
+      "jesus",
+      "mary-bethany",
+      "lazarus"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 26,
+        "label": "Matthew 26:6–13",
+        "verseStart": 6,
+        "verseEnd": 13
+      },
+      {
+        "book": "Mark",
+        "chapter": 14,
+        "label": "Mark 14:3–9",
+        "verseStart": 3,
+        "verseEnd": 9
+      },
+      {
+        "book": "John",
+        "chapter": 12,
+        "label": "John 12:1–8",
+        "verseStart": 1,
+        "verseEnd": 8
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ]
+  },
+  {
+    "id": "event-last-supper",
+    "title": "Last Supper in an upper room",
+    "summary": "The Synoptic Passion narratives place the meal in a prepared upper room within Jerusalem; the exact building is not identified.",
+    "confidence": "high",
+    "placeIds": [
+      "upper-room-jerusalem",
+      "jerusalem"
+    ],
+    "personIds": [
+      "jesus",
+      "peter",
+      "john-zebedee",
+      "judas-iscariot"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 26,
+        "label": "Matthew 26:17–30",
+        "verseStart": 17,
+        "verseEnd": 30
+      },
+      {
+        "book": "Mark",
+        "chapter": 14,
+        "label": "Mark 14:12–26",
+        "verseStart": 12,
+        "verseEnd": 26
+      },
+      {
+        "book": "Luke",
+        "chapter": 22,
+        "label": "Luke 22:7–23",
+        "verseStart": 7,
+        "verseEnd": 23
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "historicalNote": "The traditional Cenacle is not labeled as the proven first-century room."
+  },
+  {
+    "id": "event-gethsemane-arrest",
+    "title": "Prayer and arrest at Gethsemane",
+    "summary": "The Synoptics place Jesus’ prayer and arrest at Gethsemane; John describes a garden across the Kidron.",
+    "confidence": "high",
+    "placeIds": [
+      "gethsemane",
+      "kidron-valley",
+      "mount-olives"
+    ],
+    "personIds": [
+      "jesus",
+      "peter",
+      "judas-iscariot"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 26,
+        "label": "Matthew 26:36–56",
+        "verseStart": 36,
+        "verseEnd": 56
+      },
+      {
+        "book": "Mark",
+        "chapter": 14,
+        "label": "Mark 14:32–52",
+        "verseStart": 32,
+        "verseEnd": 52
+      },
+      {
+        "book": "Luke",
+        "chapter": 22,
+        "label": "Luke 22:39–53",
+        "verseStart": 39,
+        "verseEnd": 53
+      },
+      {
+        "book": "John",
+        "chapter": 18,
+        "label": "John 18:1–12",
+        "verseStart": 1,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "historicalNote": "The broad Mount of Olives/Kidron setting is strong. The modern garden enclosure is a tradition, not proof of the exact arrest point."
+  },
+  {
+    "id": "event-annas-caiaphas-hearing",
+    "title": "Hearings before Annas / Caiaphas",
+    "summary": "The Gospel Passion traditions place Jesus before high-priestly authorities in Jerusalem, but the precise houses and sequence vary among accounts.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem"
+    ],
+    "personIds": [
+      "jesus",
+      "annas",
+      "caiaphas",
+      "peter"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 26,
+        "label": "Matthew 26:57–75",
+        "verseStart": 57,
+        "verseEnd": 75
+      },
+      {
+        "book": "Mark",
+        "chapter": 14,
+        "label": "Mark 14:53–72",
+        "verseStart": 53,
+        "verseEnd": 72
+      },
+      {
+        "book": "Luke",
+        "chapter": 22,
+        "label": "Luke 22:54–71",
+        "verseStart": 54,
+        "verseEnd": 71
+      },
+      {
+        "book": "John",
+        "chapter": 18,
+        "label": "John 18:13–27",
+        "verseStart": 13,
+        "verseEnd": 27
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-jerusalem-nt-archaeology"
+    ],
+    "historicalNote": "No “house of Caiaphas” pilgrimage site is promoted to established event geography."
+  },
+  {
+    "id": "event-pilate-trial",
+    "title": "Jesus before Pontius Pilate",
+    "summary": "All four Gospels place Jesus before Pilate in Jerusalem. The exact praetorium location is debated between the western Herodian palace and traditional Antonia-area models.",
+    "confidence": "high",
+    "placeIds": [
+      "praetorium-pilate",
+      "jerusalem"
+    ],
+    "personIds": [
+      "jesus",
+      "pontius-pilate",
+      "barabbas"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27:1–26",
+        "verseStart": 1,
+        "verseEnd": 26
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15:1–15",
+        "verseStart": 1,
+        "verseEnd": 15
+      },
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23:1–25",
+        "verseStart": 1,
+        "verseEnd": 25
+      },
+      {
+        "book": "John",
+        "chapter": 18,
+        "label": "John 18:28–40",
+        "verseStart": 28,
+        "verseEnd": 40
+      },
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:1–16",
+        "verseStart": 1,
+        "verseEnd": 16
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-pilate-jerusalem-debate",
+      "source-pilate-stone",
+      "source-philo-embassy"
+    ],
+    "historicalNote": "The atlas intentionally avoids drawing a single exact Via Dolorosa as the recovered trial-to-crucifixion route."
+  },
+  {
+    "id": "event-herod-antipas-passion",
+    "title": "Jesus before Herod Antipas in Luke",
+    "summary": "Luke alone narrates Pilate sending Jesus to Herod Antipas, who was in Jerusalem at the time.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem"
+    ],
+    "personIds": [
+      "jesus",
+      "herod-antipas",
+      "pontius-pilate"
+    ],
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23:6–12",
+        "verseStart": 6,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "Luke does not identify the Jerusalem building used by Antipas; no exact palace pin is assigned."
+  },
+  {
+    "id": "event-crucifixion",
+    "title": "Crucifixion of Jesus",
+    "summary": "The four Gospels place Jesus’ crucifixion at Golgotha outside Jerusalem. The specific modern location is historically debated, with the Holy Sepulchre preserving the strongest ancient Christian site tradition.",
+    "confidence": "high",
+    "placeIds": [
+      "golgotha",
+      "jerusalem"
+    ],
+    "personIds": [
+      "jesus",
+      "pontius-pilate",
+      "simon-cyrene",
+      "mary-magdalene"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27:32–56",
+        "verseStart": 32,
+        "verseEnd": 56
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15:21–41",
+        "verseStart": 21,
+        "verseEnd": 41
+      },
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23:26–49",
+        "verseStart": 26,
+        "verseEnd": 49
+      },
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:16–37",
+        "verseStart": 16,
+        "verseEnd": 37
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-holy-sepulchre-research",
+      "source-garden-tomb-research",
+      "source-tacitus-annals15"
+    ],
+    "historicalNote": "The occurrence of Roman crucifixion under Pilate is treated as a historical event; the precise execution coordinate remains a separate geographic question.",
+    "dating": {
+      "label": "during Pontius Pilate’s prefecture, commonly c. 30 CE (exact year debated)",
+      "basis": "approximate",
+      "from": 30,
+      "to": 33
+    },
+    "textualReferences": [
+      {
+        "label": "Tacitus, Annals 15.44",
+        "sourceId": "source-tacitus-annals15",
+        "kind": "ancient-literary"
+      }
+    ]
+  },
+  {
+    "id": "event-burial-jesus",
+    "title": "Burial of Jesus",
+    "summary": "All four Gospels narrate Jesus’ burial in a rock-cut tomb associated with Joseph of Arimathea; John places a garden near the crucifixion site.",
+    "confidence": "high",
+    "placeIds": [
+      "tomb-jesus",
+      "golgotha"
+    ],
+    "personIds": [
+      "jesus",
+      "joseph-arimathea",
+      "nicodemus",
+      "mary-magdalene"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 27,
+        "label": "Matthew 27:57–61",
+        "verseStart": 57,
+        "verseEnd": 61
+      },
+      {
+        "book": "Mark",
+        "chapter": 15,
+        "label": "Mark 15:42–47",
+        "verseStart": 42,
+        "verseEnd": 47
+      },
+      {
+        "book": "Luke",
+        "chapter": 23,
+        "label": "Luke 23:50–56",
+        "verseStart": 50,
+        "verseEnd": 56
+      },
+      {
+        "book": "John",
+        "chapter": 19,
+        "label": "John 19:38–42",
+        "verseStart": 38,
+        "verseEnd": 42
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-holy-sepulchre-research",
+      "source-garden-tomb-research"
+    ],
+    "historicalNote": "The textual tomb remains unpinned; candidate/traditional sites are separate records."
+  },
+  {
+    "id": "event-resurrection-tomb",
+    "title": "Empty tomb / resurrection proclamation",
+    "summary": "The Gospels narrate discovery of the tomb empty and appearances of the risen Jesus. The atlas maps the textual and traditional geography without claiming archaeology can demonstrate the resurrection event itself.",
+    "confidence": "moderate",
+    "placeIds": [
+      "tomb-jesus",
+      "jerusalem"
+    ],
+    "personIds": [
+      "jesus",
+      "mary-magdalene",
+      "peter"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 28,
+        "label": "Matthew 28:1–10",
+        "verseStart": 1,
+        "verseEnd": 10
+      },
+      {
+        "book": "Mark",
+        "chapter": 16,
+        "label": "Mark 16:1–8",
+        "verseStart": 1,
+        "verseEnd": 8
+      },
+      {
+        "book": "Luke",
+        "chapter": 24,
+        "label": "Luke 24:1–12",
+        "verseStart": 1,
+        "verseEnd": 12
+      },
+      {
+        "book": "John",
+        "chapter": 20,
+        "label": "John 20:1–18",
+        "verseStart": 1,
+        "verseEnd": 18
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-holy-sepulchre-research"
+    ],
+    "historicalNote": "The atlas does not assign an archaeological confidence score to the theological claim of resurrection. It maps the textual geography, independently assessable tomb traditions, and historical setting while leaving the supernatural claim outside archaeological adjudication."
+  },
+  {
+    "id": "event-emmaus",
+    "title": "Road to Emmaus",
+    "summary": "Luke narrates two disciples traveling from Jerusalem to Emmaus and returning. The village’s location is disputed.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "emmaus-luke"
+    ],
+    "personIds": [
+      "jesus"
+    ],
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 24,
+        "label": "Luke 24:13–35",
+        "verseStart": 13,
+        "verseEnd": 35
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-emmaus-research"
+    ],
+    "historicalNote": "No route line is drawn because selecting one candidate village would prejudge the disputed identification."
+  },
+  {
+    "id": "event-galilee-appearances",
+    "title": "Galilee resurrection appearance traditions",
+    "summary": "Matthew and John place important resurrection appearances in Galilee, including a mountain in Matthew and the Sea of Tiberias in John.",
+    "confidence": "moderate",
+    "placeIds": [
+      "sea-galilee",
+      "galilee-resurrection-mountain"
+    ],
+    "personIds": [
+      "jesus",
+      "peter",
+      "thomas"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 28,
+        "label": "Matthew 28:16–20",
+        "verseStart": 16,
+        "verseEnd": 20
+      },
+      {
+        "book": "John",
+        "chapter": 21,
+        "label": "John 21:1–23",
+        "verseStart": 1,
+        "verseEnd": 23
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical"
+    ],
+    "historicalNote": "Matthew’s mountain is unnamed and remains a distinct unpinned record; it is not equated with the Transfiguration mountain or Mount Tabor. The atlas maps narrative geography without assigning archaeological proof to supernatural claims."
+  },
+  {
+    "id": "event-pilate-prefecture",
+    "title": "Pontius Pilate governs Judea",
+    "summary": "Pilate served as Roman prefect of Judea under Tiberius and is independently attested by inscription, Josephus, Philo, Tacitus, and the Gospels.",
+    "confidence": "high",
+    "placeIds": [
+      "caesarea-maritima",
+      "jerusalem"
+    ],
+    "personIds": [
+      "pontius-pilate",
+      "tiberius-caesar"
+    ],
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 3,
+        "label": "Luke 3:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-pilate-stone",
+      "source-josephus-ant18-b8",
+      "source-philo-embassy",
+      "source-tacitus-annals15",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "Caesarea was the normal administrative seat; Jerusalem became a focus during festivals and crises.",
+    "dating": {
+      "label": "c. 26–36 CE",
+      "basis": "historical",
+      "from": 26,
+      "to": 36
+    },
+    "textualReferences": [
+      {
+        "label": "Pilate inscription, Caesarea",
+        "sourceId": "source-pilate-stone",
+        "kind": "inscription"
+      },
+      {
+        "label": "Tacitus, Annals 15.44",
+        "sourceId": "source-tacitus-annals15",
+        "kind": "ancient-literary"
+      }
+    ]
+  },
+  {
+    "id": "event-caiaphas-high-priest",
+    "title": "Caiaphas as high priest",
+    "summary": "Joseph Caiaphas held the high priesthood during much of Pilate’s prefecture and appears prominently in the Passion narratives.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "temple-mount"
+    ],
+    "personIds": [
+      "caiaphas",
+      "annas"
+    ],
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 3,
+        "label": "Luke 3:2",
+        "verseStart": 2
+      },
+      {
+        "book": "John",
+        "chapter": 11,
+        "label": "John 11:49–53",
+        "verseStart": 49,
+        "verseEnd": 53
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant18-b8",
+      "source-caiaphas-ossuary",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "The ossuary often linked with Caiaphas is supportive family-context evidence but not treated as a conclusive personal identification.",
+    "dating": {
+      "label": "c. 18–36 CE",
+      "basis": "historical",
+      "from": 18,
+      "to": 36
+    }
+  },
+  {
+    "id": "event-antipas-galilee",
+    "title": "Herod Antipas rules Galilee and Perea",
+    "summary": "After Herod the Great’s death, Antipas ruled Galilee and Perea as tetrarch and developed Tiberias as a capital.",
+    "confidence": "high",
+    "placeIds": [
+      "tiberias",
+      "machaerus"
+    ],
+    "personIds": [
+      "herod-antipas"
+    ],
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 3,
+        "label": "Luke 3:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant17-b8",
+      "source-josephus-ant18-b8",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "Territorial polygons are broad context, not surveyed administrative boundaries.",
+    "dating": {
+      "label": "4 BCE–39 CE",
+      "basis": "historical",
+      "from": -4,
+      "to": 39
+    }
+  },
+  {
+    "id": "event-archelaus-judea",
+    "title": "Archelaus rules Judea, Samaria, and Idumea",
+    "summary": "Archelaus inherited a large portion of Herod’s kingdom before Rome deposed him and converted his territory to direct provincial administration.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "samaria"
+    ],
+    "personIds": [
+      "archelaus"
+    ],
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 2,
+        "label": "Matthew 2:22",
+        "verseStart": 22
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant17-b8",
+      "source-schurer-second-temple"
+    ],
+    "dating": {
+      "label": "4 BCE–6 CE",
+      "basis": "historical",
+      "from": -4,
+      "to": 6
+    }
+  },
+  {
+    "id": "event-quirinius-census",
+    "title": "Quirinius and the 6 CE Judean census",
+    "summary": "Josephus places Quirinius’s census after Archelaus’s deposition in 6 CE; Luke 2 associates Quirinius with the birth-census notice. The chronological relationship is disputed.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem"
+    ],
+    "personIds": [
+      "quirinius"
+    ],
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 2,
+        "label": "Luke 2:2",
+        "verseStart": 2
+      }
+    ],
+    "sourceIds": [
+      "source-batch8-methodology",
+      "source-gospels-canonical",
+      "source-josephus-ant18-b8",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "The atlas does not move the historically attested 6 CE census into Herod the Great’s reign, nor does it claim a definitive solution to Luke’s wording.",
+    "dating": {
+      "label": "6 CE for the historically attested Quirinian census of Judea",
+      "basis": "historical",
+      "from": 6,
+      "to": 6
+    },
+    "textualReferences": [
+      {
+        "label": "Josephus, Antiquities 18.1–4",
+        "sourceId": "source-josephus-ant18-b8",
+        "kind": "ancient-literary"
+      }
+    ]
+  }
+]

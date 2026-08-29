@@ -1,0 +1,1399 @@
+[
+  {
+    "id": "necho-ii",
+    "name": "Necho II",
+    "aliases": [
+      "Pharaoh Neco"
+    ],
+    "era": "Late seventh-century BCE Egypt",
+    "summary": "Egyptian pharaoh whose northward campaign forms the setting for Josiah’s death at Megiddo and the struggle over Syria-Palestine.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 23,
+        "label": "2 Kings 23:29–35",
+        "verseStart": 29,
+        "verseEnd": 35
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 46,
+        "label": "Jeremiah 46:2",
+        "verseStart": 2,
+        "verseEnd": 2
+      }
+    ],
+    "relatedPlaceIds": [
+      "egypt",
+      "megiddo",
+      "carchemish"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-babylonian-chronicle-5",
+      "source-cogan-tadmor-kings"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "josiah",
+    "name": "Josiah",
+    "aliases": [],
+    "era": "Late Kingdom of Judah",
+    "summary": "King of Judah associated with centralizing reforms and killed after confronting/meeting Pharaoh Necho II at Megiddo.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 22,
+        "label": "2 Kings 22–23"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 34,
+        "label": "2 Chronicles 34–35"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "temple-mount",
+      "megiddo"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings",
+      "source-lipschits-fall-rise"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "jehoahaz-judah",
+    "name": "Jehoahaz of Judah",
+    "aliases": [
+      "Shallum"
+    ],
+    "era": "Late Kingdom of Judah",
+    "summary": "Son of Josiah briefly installed as king before Necho II deposes him and takes him to Egypt.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 23,
+        "label": "2 Kings 23:30–34",
+        "verseStart": 30,
+        "verseEnd": 34
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 22,
+        "label": "Jeremiah 22:10–12",
+        "verseStart": 10,
+        "verseEnd": 12
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "riblah",
+      "egypt"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "jehoiakim",
+    "name": "Jehoiakim",
+    "aliases": [
+      "Eliakim"
+    ],
+    "era": "Late Kingdom of Judah",
+    "summary": "King installed by Necho II who later becomes subject to Babylon and rebels, placing Judah between Egyptian and Babylonian power.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 23,
+        "label": "2 Kings 23:34–24:7",
+        "verseStart": 34,
+        "verseEnd": 35
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 36,
+        "label": "Jeremiah 36"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "carchemish",
+      "neo-babylonian-empire"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-babylonian-chronicle-5",
+      "source-cogan-tadmor-kings"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "jehoiachin",
+    "name": "Jehoiachin",
+    "aliases": [
+      "Jeconiah",
+      "Coniah",
+      "Yaukin"
+    ],
+    "era": "Babylonian conquest of Judah",
+    "summary": "Young Judean king deported to Babylon in 597 BCE; Babylonian administrative tablets later name Yaukin, king of Judah, and his household.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 24,
+        "label": "2 Kings 24:8–17",
+        "verseStart": 8,
+        "verseEnd": 17
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 25,
+        "label": "2 Kings 25:27–30",
+        "verseStart": 27,
+        "verseEnd": 30
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "babylon",
+      "babylon-southern-palace"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-babylonian-chronicle-5",
+      "source-jehoiachin-rations"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "zedekiah",
+    "name": "Zedekiah",
+    "aliases": [
+      "Mattaniah"
+    ],
+    "era": "Final king of Judah",
+    "summary": "King installed by Nebuchadnezzar II whose rebellion ends with Jerusalem’s destruction and his capture near Jericho before judgment at Riblah.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 24,
+        "label": "2 Kings 24:17–20",
+        "verseStart": 17,
+        "verseEnd": 20
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 25,
+        "label": "2 Kings 25:1–7",
+        "verseStart": 1,
+        "verseEnd": 7
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 39,
+        "label": "Jeremiah 39"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "jericho",
+      "riblah"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings",
+      "source-lipschits-fall-rise"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "jeremiah",
+    "name": "Jeremiah",
+    "aliases": [],
+    "era": "Late Judah / Babylonian crisis",
+    "summary": "Prophet from Anathoth whose book spans Josiah through the fall of Jerusalem and the refugee movement into Egypt.",
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 1,
+        "label": "Jeremiah 1"
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 32,
+        "label": "Jeremiah 32"
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 39,
+        "label": "Jeremiah 39"
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 43,
+        "label": "Jeremiah 43"
+      }
+    ],
+    "relatedPlaceIds": [
+      "anathoth",
+      "jerusalem",
+      "valley-hinnom",
+      "mizpah-benjamin",
+      "tahpanhes"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah",
+      "source-lipschits-fall-rise"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "baruch",
+    "name": "Baruch son of Neriah",
+    "aliases": [],
+    "era": "Late Judah / Jeremiah narratives",
+    "summary": "Scribe associated with Jeremiah, especially the scroll narrative of Jeremiah 36.",
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 36,
+        "label": "Jeremiah 36"
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 45,
+        "label": "Jeremiah 45"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "nebuchadnezzar-ii",
+    "name": "Nebuchadnezzar II",
+    "aliases": [
+      "Nebuchadrezzar II"
+    ],
+    "era": "Neo-Babylonian Empire",
+    "summary": "Babylonian king whose reign includes the 597 capture of Jerusalem and the later destruction of the city/temple; also the dominant royal figure in Daniel 1–4.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 24,
+        "label": "2 Kings 24–25"
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 39,
+        "label": "Jeremiah 39"
+      },
+      {
+        "book": "Daniel",
+        "chapter": 1,
+        "label": "Daniel 1–4"
+      }
+    ],
+    "relatedPlaceIds": [
+      "babylon",
+      "carchemish",
+      "jerusalem",
+      "riblah"
+    ],
+    "sourceIds": [
+      "source-babylonian-chronicle-5",
+      "source-exile-restoration-text",
+      "source-collins-daniel"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "gedaliah",
+    "name": "Gedaliah son of Ahikam",
+    "aliases": [],
+    "era": "Babylonian administration in Judah",
+    "summary": "Appointed over the population remaining in Judah after Jerusalem’s fall and based at Mizpah; assassinated soon afterward in the biblical narrative.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 25,
+        "label": "2 Kings 25:22–25",
+        "verseStart": 22,
+        "verseEnd": 25
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 40,
+        "label": "Jeremiah 40–41"
+      }
+    ],
+    "relatedPlaceIds": [
+      "mizpah-benjamin",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-lipschits-fall-rise",
+      "source-thompson-jeremiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "ishmael-nethaniah",
+    "name": "Ishmael son of Nethaniah",
+    "aliases": [],
+    "era": "Aftermath of Jerusalem’s fall",
+    "summary": "Figure who kills Gedaliah at Mizpah according to Kings and Jeremiah.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 25,
+        "label": "2 Kings 25:25",
+        "verseStart": 25,
+        "verseEnd": 25
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 41,
+        "label": "Jeremiah 41"
+      }
+    ],
+    "relatedPlaceIds": [
+      "mizpah-benjamin"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "johanan-kareah",
+    "name": "Johanan son of Kareah",
+    "aliases": [],
+    "era": "Judean refugee movement to Egypt",
+    "summary": "Military leader who opposes Ishmael and then leads the surviving group into Egypt, taking Jeremiah and Baruch.",
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 41,
+        "label": "Jeremiah 41–43"
+      }
+    ],
+    "relatedPlaceIds": [
+      "mizpah-benjamin",
+      "tahpanhes",
+      "egypt"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "ezekiel",
+    "name": "Ezekiel",
+    "aliases": [],
+    "era": "Babylonian exile",
+    "summary": "Priest-prophet whose book dates visions among the exiles by the Kebar in Babylonia while repeatedly envisioning Jerusalem.",
+    "scripture": [
+      {
+        "book": "Ezekiel",
+        "chapter": 1,
+        "label": "Ezekiel 1:1–3",
+        "verseStart": 1,
+        "verseEnd": 3
+      },
+      {
+        "book": "Ezekiel",
+        "chapter": 3,
+        "label": "Ezekiel 3:15",
+        "verseStart": 15,
+        "verseEnd": 15
+      },
+      {
+        "book": "Ezekiel",
+        "chapter": 40,
+        "label": "Ezekiel 40–48"
+      }
+    ],
+    "relatedPlaceIds": [
+      "kebar-canal",
+      "tel-abib-exile",
+      "jerusalem",
+      "babylonia-exile-zone"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-block-ezekiel"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "daniel",
+    "name": "Daniel",
+    "aliases": [],
+    "era": "Daniel’s Babylonian/Persian literary setting",
+    "summary": "Principal figure of Daniel, whose court tales and visions are set in Babylonian and Persian imperial worlds.",
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 1,
+        "label": "Daniel 1"
+      },
+      {
+        "book": "Daniel",
+        "chapter": 5,
+        "label": "Daniel 5"
+      },
+      {
+        "book": "Daniel",
+        "chapter": 6,
+        "label": "Daniel 6"
+      },
+      {
+        "book": "Daniel",
+        "chapter": 8,
+        "label": "Daniel 8"
+      },
+      {
+        "book": "Daniel",
+        "chapter": 10,
+        "label": "Daniel 10"
+      }
+    ],
+    "relatedPlaceIds": [
+      "babylon",
+      "susa",
+      "tigris-river",
+      "ulai-canal"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-collins-daniel"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "hananiah-daniel",
+    "name": "Hananiah",
+    "aliases": [
+      "Shadrach"
+    ],
+    "era": "Daniel’s Babylonian literary setting",
+    "summary": "Companion of Daniel given the Babylonian court name Shadrach in Daniel 1.",
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 1,
+        "label": "Daniel 1:6–7",
+        "verseStart": 6,
+        "verseEnd": 7
+      },
+      {
+        "book": "Daniel",
+        "chapter": 3,
+        "label": "Daniel 3"
+      }
+    ],
+    "relatedPlaceIds": [
+      "babylon",
+      "dura-plain"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-collins-daniel"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "mishael-daniel",
+    "name": "Mishael",
+    "aliases": [
+      "Meshach"
+    ],
+    "era": "Daniel’s Babylonian literary setting",
+    "summary": "Companion of Daniel given the Babylonian court name Meshach.",
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 1,
+        "label": "Daniel 1:6–7",
+        "verseStart": 6,
+        "verseEnd": 7
+      },
+      {
+        "book": "Daniel",
+        "chapter": 3,
+        "label": "Daniel 3"
+      }
+    ],
+    "relatedPlaceIds": [
+      "babylon",
+      "dura-plain"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-collins-daniel"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "azariah-daniel",
+    "name": "Azariah",
+    "aliases": [
+      "Abednego"
+    ],
+    "era": "Daniel’s Babylonian literary setting",
+    "summary": "Companion of Daniel given the Babylonian court name Abednego.",
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 1,
+        "label": "Daniel 1:6–7",
+        "verseStart": 6,
+        "verseEnd": 7
+      },
+      {
+        "book": "Daniel",
+        "chapter": 3,
+        "label": "Daniel 3"
+      }
+    ],
+    "relatedPlaceIds": [
+      "babylon",
+      "dura-plain"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-collins-daniel"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "belshazzar",
+    "name": "Belshazzar",
+    "aliases": [
+      "Bel-shar-usur"
+    ],
+    "era": "Late Neo-Babylonian period / Daniel 5",
+    "summary": "Historically attested son of Nabonidus who exercised royal authority in Babylonia; Daniel 5 calls him king and sets the banquet narrative under him.",
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 5,
+        "label": "Daniel 5"
+      }
+    ],
+    "relatedPlaceIds": [
+      "babylon",
+      "babylon-southern-palace"
+    ],
+    "sourceIds": [
+      "source-collins-daniel",
+      "source-nabonidus-chronicle",
+      "source-exile-restoration-text"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "nabonidus",
+    "name": "Nabonidus",
+    "aliases": [],
+    "era": "Final Neo-Babylonian king",
+    "summary": "Last king of the Neo-Babylonian Empire; father of Belshazzar and ruler when Cyrus conquered Babylon in 539 BCE.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "babylon",
+      "neo-babylonian-empire"
+    ],
+    "sourceIds": [
+      "source-nabonidus-chronicle",
+      "source-briant-persia"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "darius-the-mede",
+    "name": "Darius the Mede",
+    "aliases": [],
+    "era": "Daniel 5–6 literary setting",
+    "summary": "Ruler named in Daniel after the fall of Babylon. No independently identified historical monarch under this exact title/person has achieved consensus.",
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 5,
+        "label": "Daniel 5:31",
+        "verseStart": 31,
+        "verseEnd": 31
+      },
+      {
+        "book": "Daniel",
+        "chapter": 6,
+        "label": "Daniel 6"
+      }
+    ],
+    "relatedPlaceIds": [
+      "babylon",
+      "media-region"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-collins-daniel"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "cyrus-ii",
+    "name": "Cyrus II",
+    "aliases": [
+      "Cyrus the Great"
+    ],
+    "era": "Early Achaemenid Empire",
+    "summary": "Founder of the Achaemenid Empire who conquered Babylon in 539 BCE; Ezra credits him with authorizing restoration of the Jerusalem temple.",
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 1,
+        "label": "Ezra 1"
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 44,
+        "label": "Isaiah 44:28",
+        "verseStart": 28,
+        "verseEnd": 28
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 45,
+        "label": "Isaiah 45:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Daniel",
+        "chapter": 10,
+        "label": "Daniel 10:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "babylon",
+      "pasargadae",
+      "achaemenid-persian-empire",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-cyrus-cylinder",
+      "source-nabonidus-chronicle",
+      "source-exile-restoration-text",
+      "source-briant-persia"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "sheshbazzar",
+    "name": "Sheshbazzar",
+    "aliases": [],
+    "era": "Early Persian restoration",
+    "summary": "Figure called prince/governor of Judah in Ezra and associated with returning temple vessels/foundation tradition; relationship to Zerubbabel remains debated.",
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 1,
+        "label": "Ezra 1:8–11",
+        "verseStart": 8,
+        "verseEnd": 11
+      },
+      {
+        "book": "Ezra",
+        "chapter": 5,
+        "label": "Ezra 5:14–16",
+        "verseStart": 14,
+        "verseEnd": 16
+      }
+    ],
+    "relatedPlaceIds": [
+      "babylon",
+      "jerusalem",
+      "yehud-province"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "zerubbabel",
+    "name": "Zerubbabel",
+    "aliases": [],
+    "era": "Early Persian Yehud",
+    "summary": "Davidic-descended governor/leader associated with the return community and rebuilding of the temple.",
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 3,
+        "label": "Ezra 3"
+      },
+      {
+        "book": "Haggai",
+        "chapter": 1,
+        "label": "Haggai 1–2"
+      },
+      {
+        "book": "Zechariah",
+        "chapter": 4,
+        "label": "Zechariah 4"
+      }
+    ],
+    "relatedPlaceIds": [
+      "babylon",
+      "jerusalem",
+      "second-temple-site-persian",
+      "yehud-province"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-grabbe-second-temple"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "jeshua-high-priest",
+    "name": "Jeshua / Joshua son of Jozadak",
+    "aliases": [
+      "Joshua the high priest"
+    ],
+    "era": "Early Persian Yehud",
+    "summary": "High-priestly leader associated with Zerubbabel in altar and temple restoration traditions.",
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 3,
+        "label": "Ezra 3:2–9",
+        "verseStart": 2,
+        "verseEnd": 9
+      },
+      {
+        "book": "Haggai",
+        "chapter": 1,
+        "label": "Haggai 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Zechariah",
+        "chapter": 3,
+        "label": "Zechariah 3"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "second-temple-site-persian"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "darius-i",
+    "name": "Darius I",
+    "aliases": [
+      "Darius the Great"
+    ],
+    "era": "Achaemenid Empire",
+    "summary": "Persian king under whom Ezra dates the completion of the Jerusalem temple; his empire is independently illuminated by Behistun and extensive Achaemenid evidence.",
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 4,
+        "label": "Ezra 4:24",
+        "verseStart": 24,
+        "verseEnd": 24
+      },
+      {
+        "book": "Ezra",
+        "chapter": 6,
+        "label": "Ezra 6"
+      },
+      {
+        "book": "Haggai",
+        "chapter": 1,
+        "label": "Haggai 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "persepolis",
+      "susa",
+      "achaemenid-persian-empire",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-behistun",
+      "source-exile-restoration-text",
+      "source-briant-persia"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "haggai",
+    "name": "Haggai",
+    "aliases": [],
+    "era": "Early Persian Yehud prophetic ministry",
+    "summary": "Prophet whose dated oracles urge Zerubbabel, Joshua, and the community to rebuild the temple.",
+    "scripture": [
+      {
+        "book": "Haggai",
+        "chapter": 1,
+        "label": "Haggai 1"
+      },
+      {
+        "book": "Haggai",
+        "chapter": 2,
+        "label": "Haggai 2"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "second-temple-site-persian",
+      "yehud-province"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "zechariah-prophet",
+    "name": "Zechariah",
+    "aliases": [],
+    "era": "Early Persian Yehud prophetic ministry",
+    "summary": "Prophet whose visions and oracles are dated in the reign of Darius and center on Jerusalem’s restoration.",
+    "scripture": [
+      {
+        "book": "Zechariah",
+        "chapter": 1,
+        "label": "Zechariah 1"
+      },
+      {
+        "book": "Zechariah",
+        "chapter": 3,
+        "label": "Zechariah 3"
+      },
+      {
+        "book": "Zechariah",
+        "chapter": 8,
+        "label": "Zechariah 8"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "second-temple-site-persian",
+      "yehud-province"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "ahasuerus-esther",
+    "name": "Ahasuerus",
+    "aliases": [
+      "Xerxes I?"
+    ],
+    "era": "Esther’s Persian court setting",
+    "summary": "King in Esther, commonly identified with Xerxes I because the Hebrew name corresponds closely to Old Persian Khshayarsha; the narrative’s individual events are not independently documented.",
+    "scripture": [
+      {
+        "book": "Esther",
+        "chapter": 1,
+        "label": "Esther 1–10"
+      }
+    ],
+    "relatedPlaceIds": [
+      "susa",
+      "achaemenid-persian-empire"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-berlin-esther",
+      "source-briant-persia"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "esther",
+    "name": "Esther",
+    "aliases": [
+      "Hadassah"
+    ],
+    "era": "Esther’s Persian court setting",
+    "summary": "Jewish heroine of Esther who becomes queen in the Susa court narrative.",
+    "scripture": [
+      {
+        "book": "Esther",
+        "chapter": 2,
+        "label": "Esther 2–9"
+      }
+    ],
+    "relatedPlaceIds": [
+      "susa"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-berlin-esther"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "mordecai",
+    "name": "Mordecai",
+    "aliases": [],
+    "era": "Esther’s Persian court setting",
+    "summary": "Jewish court figure and guardian/relative of Esther in the narrative.",
+    "scripture": [
+      {
+        "book": "Esther",
+        "chapter": 2,
+        "label": "Esther 2–10"
+      }
+    ],
+    "relatedPlaceIds": [
+      "susa"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-berlin-esther"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "haman",
+    "name": "Haman",
+    "aliases": [
+      "Haman the Agagite"
+    ],
+    "era": "Esther’s Persian court setting",
+    "summary": "Royal official and antagonist in Esther’s narrative.",
+    "scripture": [
+      {
+        "book": "Esther",
+        "chapter": 3,
+        "label": "Esther 3–7"
+      }
+    ],
+    "relatedPlaceIds": [
+      "susa"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-berlin-esther"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "artaxerxes-i",
+    "name": "Artaxerxes I",
+    "aliases": [
+      "Longimanus"
+    ],
+    "era": "Achaemenid Empire",
+    "summary": "Persian king conventionally identified as the Artaxerxes of Nehemiah and commonly of Ezra 7, though Ezra’s absolute chronology has been debated.",
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 7,
+        "label": "Ezra 7"
+      },
+      {
+        "book": "Nehemiah",
+        "chapter": 2,
+        "label": "Nehemiah 2"
+      }
+    ],
+    "relatedPlaceIds": [
+      "susa",
+      "achaemenid-persian-empire",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-briant-persia",
+      "source-williamson-ezra-nehemiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "ezra",
+    "name": "Ezra",
+    "aliases": [],
+    "era": "Persian-period Yehud",
+    "summary": "Priest-scribe who leads a group from Babylonia to Jerusalem in Ezra 7–8 and is associated with Torah teaching/reform.",
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 7,
+        "label": "Ezra 7–10"
+      },
+      {
+        "book": "Nehemiah",
+        "chapter": 8,
+        "label": "Nehemiah 8"
+      }
+    ],
+    "relatedPlaceIds": [
+      "babylon",
+      "ahava",
+      "casiphia",
+      "jerusalem",
+      "yehud-province"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-grabbe-second-temple"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "nehemiah",
+    "name": "Nehemiah",
+    "aliases": [],
+    "era": "Persian-period Yehud",
+    "summary": "Cupbearer in the Susa court narrative who becomes governor in Judah and leads Jerusalem wall reconstruction.",
+    "scripture": [
+      {
+        "book": "Nehemiah",
+        "chapter": 1,
+        "label": "Nehemiah 1–2"
+      },
+      {
+        "book": "Nehemiah",
+        "chapter": 3,
+        "label": "Nehemiah 3"
+      },
+      {
+        "book": "Nehemiah",
+        "chapter": 5,
+        "label": "Nehemiah 5:14",
+        "verseStart": 14,
+        "verseEnd": 14
+      }
+    ],
+    "relatedPlaceIds": [
+      "susa",
+      "jerusalem",
+      "nehemiah-wall-circuit",
+      "yehud-province"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-grabbe-second-temple"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "sanballat",
+    "name": "Sanballat the Horonite",
+    "aliases": [],
+    "era": "Persian-period Samaria/Judah context",
+    "summary": "Opponent of Nehemiah in the wall narrative; the name also appears in the Persian-period Samarian milieu known from external evidence, though person-by-person correlations require care.",
+    "scripture": [
+      {
+        "book": "Nehemiah",
+        "chapter": 2,
+        "label": "Nehemiah 2:10–20",
+        "verseStart": 10,
+        "verseEnd": 20
+      },
+      {
+        "book": "Nehemiah",
+        "chapter": 4,
+        "label": "Nehemiah 4"
+      }
+    ],
+    "relatedPlaceIds": [
+      "samaria",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-elephantine-papyri"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "tobiah-ammonite",
+    "name": "Tobiah",
+    "aliases": [
+      "Tobiah the Ammonite"
+    ],
+    "era": "Persian-period Judah/Transjordan context",
+    "summary": "Official/elite opponent of Nehemiah in the biblical narrative, linked with Ammonite identity and Jerusalem networks.",
+    "scripture": [
+      {
+        "book": "Nehemiah",
+        "chapter": 2,
+        "label": "Nehemiah 2:10–20",
+        "verseStart": 10,
+        "verseEnd": 20
+      },
+      {
+        "book": "Nehemiah",
+        "chapter": 6,
+        "label": "Nehemiah 6"
+      }
+    ],
+    "relatedPlaceIds": [
+      "ammon",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "geshem-arab",
+    "name": "Geshem the Arab",
+    "aliases": [
+      "Gashmu"
+    ],
+    "era": "Persian-period Arabian/Judah context",
+    "summary": "Arabian figure named among Nehemiah’s opponents; broader Arabian political connections are historical context, but exact office and territory are debated.",
+    "scripture": [
+      {
+        "book": "Nehemiah",
+        "chapter": 2,
+        "label": "Nehemiah 2:19",
+        "verseStart": 19,
+        "verseEnd": 19
+      },
+      {
+        "book": "Nehemiah",
+        "chapter": 6,
+        "label": "Nehemiah 6:1–6",
+        "verseStart": 1,
+        "verseEnd": 6
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "manasseh-judah",
+    "name": "Manasseh of Judah",
+    "aliases": [],
+    "era": "Seventh-century BCE Kingdom of Judah",
+    "summary": "Long-reigning king of Judah after Hezekiah. Assyrian royal texts independently name Manasseh king of Judah among western vassal rulers.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 21,
+        "label": "2 Kings 21:1–18",
+        "verseStart": 1,
+        "verseEnd": 18
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 33,
+        "label": "2 Chronicles 33:1–20",
+        "verseStart": 1,
+        "verseEnd": 20
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "judah-kingdom",
+      "neo-assyrian-empire"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-esarhaddon-manasseh",
+      "source-cogan-tadmor-kings"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "amon-judah",
+    "name": "Amon of Judah",
+    "aliases": [],
+    "era": "Seventh-century BCE Kingdom of Judah",
+    "summary": "Son and successor of Manasseh whose short reign ends in assassination before Josiah becomes king.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 21,
+        "label": "2 Kings 21:19–26",
+        "verseStart": 19,
+        "verseEnd": 26
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 33,
+        "label": "2 Chronicles 33:21–25",
+        "verseStart": 21,
+        "verseEnd": 25
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "judah-kingdom"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "zephaniah",
+    "name": "Zephaniah",
+    "aliases": [],
+    "era": "Late seventh-century BCE prophetic setting",
+    "summary": "Prophet dated by the book to the reign of Josiah; his oracles range from Jerusalem/Judah to Philistia, Moab, Ammon, Cush, and Assyria/Nineveh.",
+    "scripture": [
+      {
+        "book": "Zephaniah",
+        "chapter": 1,
+        "label": "Zephaniah 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Zephaniah",
+        "chapter": 2,
+        "label": "Zephaniah 2"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "gaza",
+      "ashkelon",
+      "ashdod",
+      "ekron",
+      "moab",
+      "ammon",
+      "cush-nubia",
+      "nineveh"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-roberts-nahum-hab-zeph"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "nahum",
+    "name": "Nahum",
+    "aliases": [],
+    "era": "Late Neo-Assyrian prophetic setting",
+    "summary": "Prophet whose book is an oracle concerning Nineveh and evokes the fall of Thebes/No-Amon as a historical analogy.",
+    "scripture": [
+      {
+        "book": "Nahum",
+        "chapter": 1,
+        "label": "Nahum 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Nahum",
+        "chapter": 3,
+        "label": "Nahum 3"
+      }
+    ],
+    "relatedPlaceIds": [
+      "nineveh",
+      "thebes-no-amon"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-roberts-nahum-hab-zeph",
+      "source-fall-nineveh-chronicle"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "habakkuk",
+    "name": "Habakkuk",
+    "aliases": [],
+    "era": "Late seventh / early sixth-century BCE prophetic setting",
+    "summary": "Prophet whose dialogue names the Chaldeans/Babylonians as a rising military power. The book’s exact date within that transition is debated.",
+    "scripture": [
+      {
+        "book": "Habakkuk",
+        "chapter": 1,
+        "label": "Habakkuk 1–3"
+      }
+    ],
+    "relatedPlaceIds": [
+      "judah-kingdom",
+      "neo-babylonian-empire"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-roberts-nahum-hab-zeph"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  },
+  {
+    "id": "obadiah-prophet",
+    "name": "Obadiah",
+    "aliases": [],
+    "era": "Edom/Jerusalem prophetic setting",
+    "summary": "Prophetic voice against Edom focused on violence against Jerusalem. The date—often linked to a destruction of Jerusalem—is debated.",
+    "scripture": [
+      {
+        "book": "Obadiah",
+        "chapter": 1,
+        "label": "Obadiah 1"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "edom",
+      "seir",
+      "teman-edom"
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-raabe-obadiah"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct the individual’s appearance."
+  }
+]

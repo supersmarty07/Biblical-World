@@ -1,0 +1,790 @@
+[
+  {
+    "id": "moses",
+    "name": "Moses",
+    "aliases": [],
+    "era": "Exodus–Wilderness",
+    "summary": "Central leader of the Exodus and wilderness narratives, associated with Egypt, Sinai/Horeb, Kadesh, and the plains of Moab. The identity of the Pharaoh(s) in his story is not named by the biblical text.",
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 2,
+        "label": "Exodus 2"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 3,
+        "label": "Exodus 3"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 12,
+        "label": "Exodus 12"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 19,
+        "label": "Exodus 19"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 20,
+        "label": "Numbers 20"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 34,
+        "label": "Deuteronomy 34"
+      }
+    ],
+    "relatedPlaceIds": [
+      "egypt",
+      "midian",
+      "mount-sinai",
+      "kadesh-barnea",
+      "plains-moab",
+      "mount-nebo",
+      "edom"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-oxford-history",
+      "source-hoffmeier-egypt",
+      "source-hoffmeier-sinai"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "aaron",
+    "name": "Aaron",
+    "aliases": [],
+    "era": "Exodus–Wilderness",
+    "summary": "Brother of Moses and first high priest in the Pentateuchal narrative, present through the Exodus, Sinai, and wilderness episodes.",
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 4,
+        "verseStart": 14,
+        "verseEnd": 16,
+        "label": "Exodus 4:14–16"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 28,
+        "label": "Exodus 28"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 20,
+        "verseStart": 22,
+        "verseEnd": 29,
+        "label": "Numbers 20:22–29"
+      }
+    ],
+    "relatedPlaceIds": [
+      "egypt",
+      "mount-sinai",
+      "mount-hor"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-sinai"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "miriam",
+    "name": "Miriam",
+    "aliases": [],
+    "era": "Exodus–Wilderness",
+    "summary": "Sister of Moses and Aaron, associated with the sea song and the Hazeroth episode.",
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 15,
+        "verseStart": 20,
+        "verseEnd": 21,
+        "label": "Exodus 15:20–21"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 12,
+        "label": "Numbers 12"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 20,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "Numbers 20:1"
+      }
+    ],
+    "relatedPlaceIds": [
+      "yam-suph",
+      "hazeroth",
+      "kadesh-barnea"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-sinai"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "pharaoh-exodus",
+    "name": "Pharaoh of the Exodus",
+    "aliases": [
+      "Pharaoh"
+    ],
+    "era": "Exodus",
+    "summary": "The ruler opposed by Moses in Exodus is never named in the biblical text. Attempts to identify him with a specific New Kingdom pharaoh depend on chronological models and remain disputed.",
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 5,
+        "label": "Exodus 5"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 7,
+        "label": "Exodus 7"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 12,
+        "label": "Exodus 12"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 14,
+        "label": "Exodus 14"
+      }
+    ],
+    "relatedPlaceIds": [
+      "egypt",
+      "rameses"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-oxford-history",
+      "source-hoffmeier-egypt",
+      "source-batch3-methodology"
+    ],
+    "artisticNote": "No portrait or named royal identity is assigned because Exodus does not name this Pharaoh and proposed identifications are disputed."
+  },
+  {
+    "id": "joshua",
+    "name": "Joshua",
+    "aliases": [],
+    "era": "Conquest / Settlement",
+    "summary": "Successor to Moses in the biblical narrative, leading the Jordan crossing and campaigns in Joshua before receiving Timnath-serah.",
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 13,
+        "verseStart": 8,
+        "verseEnd": 16,
+        "label": "Numbers 13:8–16"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 1,
+        "label": "Joshua 1"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 3,
+        "label": "Joshua 3"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 6,
+        "label": "Joshua 6"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 24,
+        "label": "Joshua 24"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jordan-crossing",
+      "jericho",
+      "gibeon",
+      "hazor",
+      "shiloh",
+      "timnath-serah"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-oxford-history",
+      "source-ben-tor-israel"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "caleb",
+    "name": "Caleb",
+    "aliases": [],
+    "era": "Wilderness / Settlement",
+    "summary": "One of the spies who supports entering the land and later receives Hebron in the Judah traditions.",
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 13,
+        "verseStart": 6,
+        "verseEnd": 30,
+        "label": "Numbers 13:6–30"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 14,
+        "verseStart": 24,
+        "verseEnd": 24,
+        "label": "Numbers 14:24"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 14,
+        "verseStart": 6,
+        "verseEnd": 15,
+        "label": "Joshua 14:6–15"
+      }
+    ],
+    "relatedPlaceIds": [
+      "kadesh-barnea",
+      "hebron"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "rahab",
+    "name": "Rahab",
+    "aliases": [],
+    "era": "Conquest narrative",
+    "summary": "A woman of Jericho who shelters Israelite spies in Joshua 2 and is spared in the city’s fall narrative.",
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 2,
+        "label": "Joshua 2"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 6,
+        "verseStart": 22,
+        "verseEnd": 25,
+        "label": "Joshua 6:22–25"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jericho"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "balak",
+    "name": "Balak",
+    "aliases": [],
+    "era": "Transjordan",
+    "summary": "King of Moab in Numbers who summons Balaam as Israel camps east of the Jordan.",
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 22,
+        "label": "Numbers 22"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 23,
+        "label": "Numbers 23"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 24,
+        "label": "Numbers 24"
+      }
+    ],
+    "relatedPlaceIds": [
+      "moab",
+      "plains-moab"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-archaeology-jordan"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "balaam",
+    "name": "Balaam",
+    "aliases": [],
+    "era": "Transjordan",
+    "summary": "Non-Israelite diviner in Numbers whose oracles are set in Moab. Separate ancient inscriptional evidence from Deir ʿAlla mentions a seer named Balaam son of Beor, but its relationship to the biblical figure is interpretive.",
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 22,
+        "label": "Numbers 22"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 23,
+        "label": "Numbers 23"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 24,
+        "label": "Numbers 24"
+      }
+    ],
+    "relatedPlaceIds": [
+      "moab",
+      "plains-moab"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-anchor-yale",
+      "source-archaeology-jordan"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "deborah",
+    "name": "Deborah",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "Prophet and judge who summons Barak and celebrates victory over Sisera in Judges 4–5.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 4,
+        "label": "Judges 4"
+      },
+      {
+        "book": "Judges",
+        "chapter": 5,
+        "label": "Judges 5"
+      }
+    ],
+    "relatedPlaceIds": [
+      "mount-tabor",
+      "kishon",
+      "jezreel-valley"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-oxford-history"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "barak",
+    "name": "Barak",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "Commander from Kedesh in Naphtali who leads forces from Mount Tabor against Sisera.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 4,
+        "label": "Judges 4"
+      },
+      {
+        "book": "Judges",
+        "chapter": 5,
+        "label": "Judges 5"
+      }
+    ],
+    "relatedPlaceIds": [
+      "kedesh-naphtali",
+      "mount-tabor",
+      "kishon"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "sisera",
+    "name": "Sisera",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "Commander of Jabin’s army in Judges 4, associated with Harosheth-hagoyim and the Kishon battle.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 4,
+        "label": "Judges 4"
+      },
+      {
+        "book": "Judges",
+        "chapter": 5,
+        "label": "Judges 5"
+      }
+    ],
+    "relatedPlaceIds": [
+      "harosheth-hagoyim",
+      "kishon",
+      "hazor"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "jael",
+    "name": "Jael",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "Woman who kills Sisera after the battle in Judges 4; the precise location of Heber the Kenite’s encampment is not securely mapped.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 4,
+        "verseStart": 17,
+        "verseEnd": 22,
+        "label": "Judges 4:17–22"
+      },
+      {
+        "book": "Judges",
+        "chapter": 5,
+        "verseStart": 24,
+        "verseEnd": 27,
+        "label": "Judges 5:24–27"
+      }
+    ],
+    "relatedPlaceIds": [],
+    "sourceIds": [
+      "source-exodus-judges-text"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "gideon",
+    "name": "Gideon",
+    "aliases": [
+      "Jerubbaal"
+    ],
+    "era": "Judges",
+    "summary": "Judge from Ophrah of the Abiezrites who fights Midian after assembling at the Spring of Harod.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 6,
+        "label": "Judges 6"
+      },
+      {
+        "book": "Judges",
+        "chapter": 7,
+        "label": "Judges 7"
+      },
+      {
+        "book": "Judges",
+        "chapter": 8,
+        "label": "Judges 8"
+      }
+    ],
+    "relatedPlaceIds": [
+      "ophrah-abiezrites",
+      "spring-harod",
+      "jezreel-valley",
+      "succoth",
+      "peniel"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "jephthah",
+    "name": "Jephthah",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "Gileadite leader whose conflict with Ammon is narrated in Judges 10–12. His home and Mizpah setting cannot be mapped precisely.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 10,
+        "verseStart": 17,
+        "verseEnd": 18,
+        "label": "Judges 10:17–18"
+      },
+      {
+        "book": "Judges",
+        "chapter": 11,
+        "label": "Judges 11"
+      },
+      {
+        "book": "Judges",
+        "chapter": 12,
+        "verseStart": 1,
+        "verseEnd": 7,
+        "label": "Judges 12:1–7"
+      }
+    ],
+    "relatedPlaceIds": [
+      "gilead",
+      "mizpah-gilead",
+      "jabbok",
+      "ammon"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-archaeology-jordan",
+      "source-sacred-bridge"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "samson",
+    "name": "Samson",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "Judge whose stories unfold along the Judah–Philistia frontier, especially Zorah, Timnah, the Sorek Valley, and Gaza.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 13,
+        "label": "Judges 13"
+      },
+      {
+        "book": "Judges",
+        "chapter": 14,
+        "label": "Judges 14"
+      },
+      {
+        "book": "Judges",
+        "chapter": 15,
+        "label": "Judges 15"
+      },
+      {
+        "book": "Judges",
+        "chapter": 16,
+        "label": "Judges 16"
+      }
+    ],
+    "relatedPlaceIds": [
+      "zorah",
+      "eshtaol",
+      "timnah-samson",
+      "sorek-valley",
+      "gaza",
+      "ashkelon",
+      "lehi"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "delilah",
+    "name": "Delilah",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "Woman of the Sorek Valley in Judges 16 whose precise home is unknown.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 16,
+        "verseStart": 4,
+        "verseEnd": 22,
+        "label": "Judges 16:4–22"
+      }
+    ],
+    "relatedPlaceIds": [
+      "sorek-valley"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "othniel",
+    "name": "Othniel",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "The first judge named in Judges 3 and, in Judges 1, the warrior associated with the capture of Debir/Kiriath-sepher.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 1,
+        "verseStart": 11,
+        "verseEnd": 13,
+        "label": "Judges 1:11–13"
+      },
+      {
+        "book": "Judges",
+        "chapter": 3,
+        "verseStart": 7,
+        "verseEnd": 11,
+        "label": "Judges 3:7–11"
+      }
+    ],
+    "relatedPlaceIds": [
+      "debir"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "ehud",
+    "name": "Ehud",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "Benjaminite judge who kills Eglon of Moab and rallies Israel from the Ephraimite hill country in Judges 3.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 3,
+        "verseStart": 12,
+        "verseEnd": 30,
+        "label": "Judges 3:12–30"
+      }
+    ],
+    "relatedPlaceIds": [
+      "moab",
+      "jericho",
+      "hill-country-ephraim"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "eglon",
+    "name": "Eglon",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "King of Moab in the Ehud narrative. Judges associates his control with the City of Palms/Jericho region.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 3,
+        "verseStart": 12,
+        "verseEnd": 30,
+        "label": "Judges 3:12–30"
+      }
+    ],
+    "relatedPlaceIds": [
+      "moab",
+      "jericho"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "abimelech",
+    "name": "Abimelech",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "Son of Gideon whose kingship and violent conflict center on Shechem before his death at Thebez.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 9,
+        "label": "Judges 9"
+      }
+    ],
+    "relatedPlaceIds": [
+      "shechem",
+      "mount-gerizim",
+      "thebez"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "micah-judges",
+    "name": "Micah of the Hill Country",
+    "aliases": [],
+    "era": "Judges",
+    "summary": "A man from the hill country of Ephraim whose household shrine becomes part of the Danite migration narrative in Judges 17–18.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 17,
+        "label": "Judges 17"
+      },
+      {
+        "book": "Judges",
+        "chapter": 18,
+        "verseStart": 1,
+        "verseEnd": 26,
+        "label": "Judges 18:1–26"
+      }
+    ],
+    "relatedPlaceIds": [
+      "hill-country-ephraim",
+      "zorah",
+      "eshtaol",
+      "dan-laish"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "artisticNote": "Animated and illustrated figures are artistic silhouettes for orientation, not historical portraits or claims about personal appearance."
+  },
+  {
+    "id": "levite-judges19",
+    "name": "The Levite of Judges 19",
+    "aliases": [
+      "Unnamed Levite"
+    ],
+    "era": "Judges",
+    "summary": "An unnamed Levite from the hill country of Ephraim whose journey from Bethlehem to Gibeah precipitates the civil-war narrative of Judges 19–21.",
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 19,
+        "label": "Judges 19"
+      },
+      {
+        "book": "Judges",
+        "chapter": 20,
+        "label": "Judges 20"
+      }
+    ],
+    "relatedPlaceIds": [
+      "hill-country-ephraim",
+      "bethlehem-judah",
+      "gibeah-benjamin",
+      "mizpah-benjamin"
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge"
+    ],
+    "artisticNote": "The biblical figure is unnamed. The app uses only a generic silhouette and does not invent a personal identity or appearance."
+  }
+]

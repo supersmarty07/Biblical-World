@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "records": [
+    {
+      "id": "batch9-original",
+      "appliesTo": "Project-authored Acts/Paul records, uncertainty notes, stories, route reconstructions, and broad context polygons",
+      "license": "CC BY 4.0 recommended for original curated data",
+      "attributionRequired": true,
+      "notes": "Third-party sources remain under their own rights. No copyrighted source text is reproduced beyond bibliographic references and project-authored summaries."
+    },
+    {
+      "id": "acts-paul-references",
+      "appliesTo": "Canonical Scripture references and ancient-source citations",
+      "license": "References/facts; full source texts not bundled",
+      "attributionRequired": false,
+      "notes": "Acts and Pauline references are metadata only. Josephus, Suetonius, inscriptions, and modern works are cited without reproducing copyrighted editions."
+    }
+  ]
+}

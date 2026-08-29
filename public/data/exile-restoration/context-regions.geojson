@@ -1,0 +1,499 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "late-judah-batch6",
+        "name": "Late Kingdom of Judah",
+        "validFrom": -640,
+        "validTo": -586,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch6-methodology"
+        ],
+        "note": "Generalized late-monarchy orientation only; borders and control shifted under Egyptian and Babylonian pressure and this is not a surveyed frontier.",
+        "family": "kingdom"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.75,
+              31.05
+            ],
+            [
+              35.45,
+              31.05
+            ],
+            [
+              35.55,
+              31.75
+            ],
+            [
+              35.25,
+              32.05
+            ],
+            [
+              34.75,
+              31.75
+            ],
+            [
+              34.75,
+              31.05
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "neo-babylonian-empire-batch6",
+        "name": "Neo-Babylonian imperial sphere",
+        "validFrom": -626,
+        "validTo": -539,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch6-methodology"
+        ],
+        "note": "Very broad generalized imperial orientation; control varied by year and local polity, so this polygon is not an exact border for every reign.",
+        "family": "empire"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30,
+              29
+            ],
+            [
+              35,
+              36
+            ],
+            [
+              39,
+              38
+            ],
+            [
+              46,
+              37
+            ],
+            [
+              49,
+              33
+            ],
+            [
+              47,
+              29
+            ],
+            [
+              38,
+              28
+            ],
+            [
+              30,
+              29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "babylonian-levant-batch6",
+        "name": "Babylonian control in the Levant",
+        "validFrom": -604,
+        "validTo": -539,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch6-methodology"
+        ],
+        "note": "Generalized zone of Babylonian hegemony after Carchemish; not an exact provincial map and local administration changed after each campaign.",
+        "family": "imperial-west"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34,
+              29.5
+            ],
+            [
+              36.7,
+              29.5
+            ],
+            [
+              37.5,
+              35.8
+            ],
+            [
+              35.2,
+              36.5
+            ],
+            [
+              34,
+              33
+            ],
+            [
+              34,
+              29.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "babylonia-core-batch6",
+        "name": "Babylonian heartland / exile context",
+        "validFrom": -597,
+        "validTo": -539,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch6-methodology"
+        ],
+        "note": "Broad orientation for central/southern Babylonia where exilic communities are documented; not an ethnic enclave or exact settlement polygon.",
+        "family": "diaspora"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.5,
+              30.5
+            ],
+            [
+              46.5,
+              30.5
+            ],
+            [
+              46.5,
+              33.8
+            ],
+            [
+              43.5,
+              33.8
+            ],
+            [
+              43.5,
+              30.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "achaemenid-west-batch6",
+        "name": "Achaemenid imperial sphere (atlas west/central extent)",
+        "validFrom": -539,
+        "validTo": -332,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch6-methodology"
+        ],
+        "note": "Generalized regional footprint for atlas orientation; the Achaemenid Empire was vastly larger and borders changed across reigns. This is not a cadastral or year-exact polygon.",
+        "family": "empire"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24,
+              21
+            ],
+            [
+              31,
+              38
+            ],
+            [
+              41,
+              42
+            ],
+            [
+              55,
+              37
+            ],
+            [
+              55,
+              23
+            ],
+            [
+              42,
+              20
+            ],
+            [
+              24,
+              21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yehud-medinata-batch6",
+        "name": "Yehud Medinata",
+        "validFrom": -539,
+        "validTo": -332,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch6-methodology"
+        ],
+        "note": "Generalized scholarly reconstruction of Persian-period Judah; exact borders are debated and changed through time.",
+        "family": "province"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.85,
+              31.2
+            ],
+            [
+              35.45,
+              31.2
+            ],
+            [
+              35.5,
+              31.85
+            ],
+            [
+              35.25,
+              32.05
+            ],
+            [
+              34.9,
+              31.8
+            ],
+            [
+              34.85,
+              31.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "samaria-persian-batch6",
+        "name": "Persian-period Samaria",
+        "validFrom": -539,
+        "validTo": -332,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch6-methodology"
+        ],
+        "note": "Broad provincial orientation around Samaria; not an exact border and not intended to erase local variation.",
+        "family": "province"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.9,
+              31.8
+            ],
+            [
+              35.5,
+              31.8
+            ],
+            [
+              35.65,
+              32.55
+            ],
+            [
+              35,
+              32.65
+            ],
+            [
+              34.9,
+              31.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "beyond-river-batch6",
+        "name": "Beyond the River / Abar-Nahara",
+        "validFrom": -539,
+        "validTo": -332,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch6-methodology"
+        ],
+        "note": "Highly generalized western Persian administrative zone; administrative terminology and boundaries varied, so the polygon is orientation only.",
+        "family": "province"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34,
+              29
+            ],
+            [
+              39,
+              29
+            ],
+            [
+              40,
+              37
+            ],
+            [
+              35,
+              37
+            ],
+            [
+              34,
+              29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "egypt-26dyn-batch6",
+        "name": "Egypt under the Twenty-sixth Dynasty",
+        "validFrom": -664,
+        "validTo": -525,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch6-methodology"
+        ],
+        "note": "Generalized political context for Necho II and Judean refugees; not a precise historical border at every moment.",
+        "family": "kingdom"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29,
+              22
+            ],
+            [
+              35,
+              22
+            ],
+            [
+              33,
+              31.5
+            ],
+            [
+              30,
+              31.5
+            ],
+            [
+              29,
+              22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "egypt-persian-batch6",
+        "name": "Egypt under Achaemenid rule",
+        "validFrom": -525,
+        "validTo": -404,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch6-methodology"
+        ],
+        "note": "Generalized first-period Persian control of Egypt for diaspora context; not an exact satrapal frontier.",
+        "family": "province"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29,
+              22
+            ],
+            [
+              35,
+              22
+            ],
+            [
+              33,
+              31.5
+            ],
+            [
+              30,
+              31.5
+            ],
+            [
+              29,
+              22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "elam-susiana-batch6",
+        "name": "Elam / Susiana under Persian rule",
+        "validFrom": -539,
+        "validTo": -332,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch6-methodology"
+        ],
+        "note": "Broad regional orientation around Susa; not an exact ancient provincial border.",
+        "family": "region"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47,
+              30.5
+            ],
+            [
+              50,
+              30.5
+            ],
+            [
+              50.5,
+              33.5
+            ],
+            [
+              47,
+              33.5
+            ],
+            [
+              47,
+              30.5
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

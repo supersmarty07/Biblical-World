@@ -1,0 +1,1283 @@
+[
+  {
+    "id": "story-josiah-last-judah",
+    "title": "Josiah & the Last Decades of Judah",
+    "subtitle": "Reform, Megiddo, Carchemish, and the geopolitical collapse that precedes Babylonian domination.",
+    "personId": "josiah",
+    "theme": "Late Judah",
+    "chapters": [
+      {
+        "id": "josiah-jerusalem",
+        "title": "Josiah in Jerusalem",
+        "eyebrow": "2 Kings 22–23 · late Iron Age Jerusalem",
+        "description": "Begin in Jerusalem, where Kings locates Josiah’s reform program. Archaeology supplies the city context, not a labeled “room of Josiah.”",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 22,
+            "label": "2 Kings 22–23"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8,
+          "pitch": 35
+        },
+        "contextYear": -620
+      },
+      {
+        "id": "josiah-ketef",
+        "title": "Late Iron Age textual world",
+        "eyebrow": "Ketef Hinnom · archaeological context",
+        "description": "Silver amulets from nearby Ketef Hinnom preserve wording related to the priestly blessing. They illuminate the era without identifying a biblical owner.",
+        "scripture": [],
+        "placeId": "ketef-hinnom",
+        "camera": {
+          "center": [
+            35.229,
+            31.769
+          ],
+          "zoom": 11,
+          "pitch": 35
+        },
+        "contextYear": -620
+      },
+      {
+        "id": "josiah-megiddo",
+        "title": "Megiddo, 609 BCE",
+        "eyebrow": "Royal death · Egyptian corridor",
+        "description": "Josiah dies in the Megiddo campaign context as Necho II moves north. Kings and Chronicles differ in detail, so the atlas does not overstate motives.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 23,
+            "label": "2 Kings 23:29–30",
+            "verseStart": 29,
+            "verseEnd": 30
+          }
+        ],
+        "placeId": "megiddo",
+        "journeyId": "journey-josiah-megiddo",
+        "camera": {
+          "center": [
+            35.3,
+            32.3
+          ],
+          "zoom": 6.3,
+          "pitch": 25
+        },
+        "contextYear": -609
+      },
+      {
+        "id": "josiah-carchemish",
+        "title": "Carchemish, 605 BCE",
+        "eyebrow": "Babylonian Chronicle · independently dated",
+        "description": "Four years later Babylon defeats Egypt at Carchemish, transforming the strategic world in which Judah operates.",
+        "scripture": [
+          {
+            "book": "Jeremiah",
+            "chapter": 46,
+            "label": "Jeremiah 46:2",
+            "verseStart": 2,
+            "verseEnd": 2
+          }
+        ],
+        "placeId": "carchemish",
+        "camera": {
+          "center": [
+            38.015,
+            36.829
+          ],
+          "zoom": 7.5,
+          "pitch": 25
+        },
+        "contextYear": -605
+      }
+    ]
+  },
+  {
+    "id": "story-late-prophets",
+    "title": "From Assyria’s Shadow to Babylon — The Late Prophets",
+    "subtitle": "Manasseh, Zephaniah, Nahum, Habakkuk, Nineveh’s fall, Jerusalem’s catastrophe, Obadiah, and the transition to exile.",
+    "theme": "Late Prophets",
+    "chapters": [
+      {
+        "id": "late-manasseh",
+        "title": "Manasseh under Assyria",
+        "eyebrow": "Seventh century BCE · biblical + Assyrian evidence",
+        "description": "Assyrian royal lists independently name Manasseh king of Judah, placing Jerusalem inside the Neo-Assyrian imperial system without validating every later narrative detail.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 21,
+            "label": "2 Kings 21:1–18",
+            "verseStart": 1,
+            "verseEnd": 18
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 7,
+          "pitch": 25
+        },
+        "contextYear": -680
+      },
+      {
+        "id": "late-zephaniah",
+        "title": "Zephaniah’s wide horizon",
+        "eyebrow": "Josiah’s reign · regional prophetic geography",
+        "description": "The oracles move from Jerusalem to Philistia, Moab, Ammon, Cush, and Nineveh. The map treats this as a literary-geographic horizon, not a travel itinerary.",
+        "scripture": [
+          {
+            "book": "Zephaniah",
+            "chapter": 2,
+            "label": "Zephaniah 2"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.4,
+            31.8
+          ],
+          "zoom": 4.6,
+          "pitch": 10
+        },
+        "contextYear": -625
+      },
+      {
+        "id": "late-nineveh",
+        "title": "Nineveh falls",
+        "eyebrow": "612 BCE · independently attested history",
+        "description": "Babylonian chronicle evidence records the coalition capture of Nineveh. This anchors the historical transition without fixing the composition date of Nahum.",
+        "scripture": [],
+        "placeId": "nineveh",
+        "camera": {
+          "center": [
+            43.15,
+            36.36
+          ],
+          "zoom": 7,
+          "pitch": 25
+        },
+        "contextYear": -612
+      },
+      {
+        "id": "late-habakkuk",
+        "title": "The Chaldeans rise",
+        "eyebrow": "Late seventh / early sixth century BCE",
+        "description": "Habakkuk’s Chaldeans belong to the Babylonian ascendance after Assyria’s collapse, but the book does not give a single externally fixed date.",
+        "scripture": [
+          {
+            "book": "Habakkuk",
+            "chapter": 1,
+            "label": "Habakkuk 1:5–11",
+            "verseStart": 5,
+            "verseEnd": 11
+          }
+        ],
+        "placeId": "neo-babylonian-empire",
+        "camera": {
+          "center": [
+            44.42,
+            32.54
+          ],
+          "zoom": 4.8,
+          "pitch": 10
+        },
+        "contextYear": -600
+      },
+      {
+        "id": "late-lament",
+        "title": "Jerusalem mourned",
+        "eyebrow": "After 587/586 BCE · poetic memory",
+        "description": "Lamentations is tied to destroyed Jerusalem as poetry and theology; the atlas does not turn the poems into a street-by-street archaeological report.",
+        "scripture": [
+          {
+            "book": "Lamentations",
+            "chapter": 1,
+            "label": "Lamentations 1"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8,
+          "pitch": 40
+        },
+        "contextYear": -586
+      },
+      {
+        "id": "late-obadiah",
+        "title": "Edom and Jerusalem",
+        "eyebrow": "Date disputed · exilic/post-exilic proposals",
+        "description": "Obadiah’s Edom/Jerusalem setting is clear, but the exact historical moment is debated. Teman remains unpinned.",
+        "scripture": [
+          {
+            "book": "Obadiah",
+            "chapter": 1,
+            "label": "Obadiah 1:10–14",
+            "verseStart": 10,
+            "verseEnd": 14
+          }
+        ],
+        "placeId": "edom",
+        "camera": {
+          "center": [
+            35.45,
+            30.6
+          ],
+          "zoom": 5.8,
+          "pitch": 15
+        },
+        "contextYear": -570
+      }
+    ]
+  },
+  {
+    "id": "story-jeremiah-fall",
+    "title": "Jeremiah — From Anathoth to the Fall of Jerusalem",
+    "subtitle": "A prophetic geography of Anathoth, Jerusalem, Hinnom, siege, Mizpah, and Egypt.",
+    "personId": "jeremiah",
+    "theme": "Jeremiah",
+    "chapters": [
+      {
+        "id": "jer-anathoth",
+        "title": "Anathoth",
+        "eyebrow": "Probable identification · hometown context",
+        "description": "Jeremiah is introduced as a priest from Anathoth. The village identification is probable; his specific household is not recoverable.",
+        "scripture": [
+          {
+            "book": "Jeremiah",
+            "chapter": 1,
+            "label": "Jeremiah 1:1",
+            "verseStart": 1,
+            "verseEnd": 1
+          }
+        ],
+        "placeId": "anathoth",
+        "journeyId": "journey-jeremiah-anathoth-jerusalem",
+        "camera": {
+          "center": [
+            35.25,
+            31.8
+          ],
+          "zoom": 9,
+          "pitch": 30
+        },
+        "contextYear": -620
+      },
+      {
+        "id": "jer-hinnom",
+        "title": "Hinnom and Topheth",
+        "eyebrow": "Known valley · unlocated ritual locus",
+        "description": "The Hinnom valley can be mapped, but Topheth itself is left without a fake coordinate.",
+        "scripture": [
+          {
+            "book": "Jeremiah",
+            "chapter": 7,
+            "label": "Jeremiah 7:31–32",
+            "verseStart": 31,
+            "verseEnd": 32
+          }
+        ],
+        "placeId": "valley-hinnom",
+        "camera": {
+          "center": [
+            35.227,
+            31.768
+          ],
+          "zoom": 10,
+          "pitch": 40
+        },
+        "contextYear": -600
+      },
+      {
+        "id": "jer-scroll",
+        "title": "The scroll under Jehoiakim",
+        "eyebrow": "Jeremiah 36 · textual event",
+        "description": "The royal-scroll episode belongs to Jerusalem, but no manuscript or chamber is claimed archaeologically.",
+        "scripture": [
+          {
+            "book": "Jeremiah",
+            "chapter": 36,
+            "label": "Jeremiah 36"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 9,
+          "pitch": 35
+        },
+        "contextYear": -604
+      },
+      {
+        "id": "jer-destruction",
+        "title": "The city falls",
+        "eyebrow": "587/586 BCE · chronology preserved",
+        "description": "Babylon destroys Jerusalem and the temple. The atlas keeps the common 587/586 BCE one-year chronological variation visible.",
+        "scripture": [
+          {
+            "book": "Jeremiah",
+            "chapter": 39,
+            "label": "Jeremiah 39"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8.5,
+          "pitch": 45
+        },
+        "contextYear": -586
+      },
+      {
+        "id": "jer-mizpah",
+        "title": "Mizpah after Jerusalem",
+        "eyebrow": "Babylonian administration",
+        "description": "Gedaliah’s administration shifts the narrative focus to Mizpah after the city’s fall.",
+        "scripture": [
+          {
+            "book": "Jeremiah",
+            "chapter": 40,
+            "label": "Jeremiah 40"
+          }
+        ],
+        "placeId": "mizpah-benjamin",
+        "camera": {
+          "center": [
+            35.215,
+            31.884
+          ],
+          "zoom": 9,
+          "pitch": 25
+        },
+        "contextYear": -585
+      },
+      {
+        "id": "jer-egypt",
+        "title": "Refugees reach Tahpanhes",
+        "eyebrow": "Route reconstructed · destination probable",
+        "description": "After Gedaliah’s assassination, survivors travel to Egypt. Tahpanhes is probably Tell Defenneh; Migdol remains unpinned.",
+        "scripture": [
+          {
+            "book": "Jeremiah",
+            "chapter": 43,
+            "label": "Jeremiah 43:5–7",
+            "verseStart": 5,
+            "verseEnd": 7
+          }
+        ],
+        "placeId": "tahpanhes",
+        "journeyId": "journey-refugees-tahpanhes",
+        "camera": {
+          "center": [
+            33,
+            30.9
+          ],
+          "zoom": 5.3,
+          "pitch": 15
+        },
+        "contextYear": -580
+      }
+    ]
+  },
+  {
+    "id": "story-babylonian-exile",
+    "title": "Jerusalem → Babylon — Conquest and Exile",
+    "subtitle": "597 BCE, 587/586 BCE, royal deportation, Babylonian evidence, and Judean life in exile.",
+    "personId": "jehoiachin",
+    "theme": "Exile",
+    "chapters": [
+      {
+        "id": "exile-597",
+        "title": "Jerusalem captured",
+        "eyebrow": "597 BCE · Babylonian Chronicle",
+        "description": "Jehoiachin’s deportation is one of the atlas’s strongest independently dated intersections between biblical narrative and Babylonian chronicle evidence.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 24,
+            "label": "2 Kings 24:8–17",
+            "verseStart": 8,
+            "verseEnd": 17
+          }
+        ],
+        "journeyId": "journey-jehoiachin-exile",
+        "camera": {
+          "center": [
+            39.5,
+            34
+          ],
+          "zoom": 4.3,
+          "pitch": 20
+        },
+        "contextYear": -597
+      },
+      {
+        "id": "exile-babylon",
+        "title": "Babylon",
+        "eyebrow": "Established imperial capital",
+        "description": "Babylon is no generic symbol here: it is an excavated city and administrative capital with an enormous cuneiform record.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 24,
+            "label": "2 Kings 24:15",
+            "verseStart": 15,
+            "verseEnd": 15
+          }
+        ],
+        "placeId": "babylon",
+        "camera": {
+          "center": [
+            44.42,
+            32.54
+          ],
+          "zoom": 8,
+          "pitch": 30
+        },
+        "contextYear": -597
+      },
+      {
+        "id": "exile-yaukin",
+        "title": "Yaukin in ration tablets",
+        "eyebrow": "Extra-biblical administrative evidence",
+        "description": "Babylonian tablets name Yaukin, king of Judah, and members of his household—independent evidence for the exiled Judean court.",
+        "scripture": [],
+        "placeId": "babylon-southern-palace",
+        "camera": {
+          "center": [
+            44.421,
+            32.536
+          ],
+          "zoom": 11,
+          "pitch": 40
+        },
+        "contextYear": -580
+      },
+      {
+        "id": "exile-communities",
+        "title": "Judeans in Babylonia",
+        "eyebrow": "Al-Yahudu tablets · exact site unpinned",
+        "description": "Later documents show Judean families farming, contracting, and living within Babylonian society. Al-Yahudu itself remains unpinned.",
+        "scripture": [],
+        "placeId": "babylonia-exile-zone",
+        "camera": {
+          "center": [
+            44.9,
+            32.4
+          ],
+          "zoom": 6.5,
+          "pitch": 20
+        },
+        "contextYear": -550
+      }
+    ]
+  },
+  {
+    "id": "story-ezekiel-exile",
+    "title": "Ezekiel by the Kebar",
+    "subtitle": "Exile geography, prophetic chronology, Jerusalem visions, and the difference between canals and visions.",
+    "personId": "ezekiel",
+    "theme": "Ezekiel",
+    "chapters": [
+      {
+        "id": "ez-kebar",
+        "title": "By the Kebar",
+        "eyebrow": "Babylonian canal context · approximate map area",
+        "description": "Ezekiel locates himself among exiles by the Kebar. The atlas deliberately does not confuse it with the northern Khabur River.",
+        "scripture": [
+          {
+            "book": "Ezekiel",
+            "chapter": 1,
+            "label": "Ezekiel 1:1–3",
+            "verseStart": 1,
+            "verseEnd": 3
+          }
+        ],
+        "placeId": "kebar-canal",
+        "camera": {
+          "center": [
+            45.1,
+            32.25
+          ],
+          "zoom": 7,
+          "pitch": 20
+        },
+        "contextYear": -593
+      },
+      {
+        "id": "ez-telabib",
+        "title": "Tel-abib",
+        "eyebrow": "Textually named · no modern pin",
+        "description": "Ezekiel’s settlement cannot be securely located, so the story keeps it textual rather than inventing coordinates.",
+        "scripture": [
+          {
+            "book": "Ezekiel",
+            "chapter": 3,
+            "label": "Ezekiel 3:15",
+            "verseStart": 15,
+            "verseEnd": 15
+          }
+        ],
+        "placeId": "tel-abib-exile",
+        "camera": {
+          "center": [
+            45,
+            32.2
+          ],
+          "zoom": 6.5,
+          "pitch": 15
+        },
+        "contextYear": -593
+      },
+      {
+        "id": "ez-vision",
+        "title": "Jerusalem in vision",
+        "eyebrow": "Visionary geography · not physical travel",
+        "description": "Ezekiel 8–11 describes visionary transport. The app distinguishes that from an animated terrestrial journey.",
+        "scripture": [
+          {
+            "book": "Ezekiel",
+            "chapter": 8,
+            "label": "Ezekiel 8–11"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8,
+          "pitch": 40
+        },
+        "contextYear": -592
+      },
+      {
+        "id": "ez-temple",
+        "title": "Visionary temple",
+        "eyebrow": "Ezekiel 40–48 · theological/visionary space",
+        "description": "The final temple vision is not drawn as an excavated Persian or Iron Age building footprint.",
+        "scripture": [
+          {
+            "book": "Ezekiel",
+            "chapter": 40,
+            "label": "Ezekiel 40–48"
+          }
+        ],
+        "placeId": "temple-mount",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 9,
+          "pitch": 45
+        },
+        "contextYear": -570
+      }
+    ]
+  },
+  {
+    "id": "story-daniel-imperial-world",
+    "title": "Daniel — Babylon, Susa, and Imperial Visions",
+    "subtitle": "Map the historical places while keeping court tales, visionary geography, and debated rulers epistemically distinct.",
+    "personId": "daniel",
+    "theme": "Daniel",
+    "chapters": [
+      {
+        "id": "dan-babylon",
+        "title": "Babylonian court setting",
+        "eyebrow": "Historical city · literary narrative",
+        "description": "Nebuchadnezzar and Babylon are historical. Daniel 1’s individual court biography is presented as the book’s literary/biblical setting rather than external archival fact.",
+        "scripture": [
+          {
+            "book": "Daniel",
+            "chapter": 1,
+            "label": "Daniel 1"
+          }
+        ],
+        "placeId": "babylon-southern-palace",
+        "camera": {
+          "center": [
+            44.421,
+            32.536
+          ],
+          "zoom": 10,
+          "pitch": 35
+        },
+        "contextYear": -590
+      },
+      {
+        "id": "dan-dura",
+        "title": "Plain of Dura",
+        "eyebrow": "Unlocated",
+        "description": "Daniel 3 gives a Babylonian provincial setting, but no Dura candidate is secure enough for a pin.",
+        "scripture": [
+          {
+            "book": "Daniel",
+            "chapter": 3,
+            "label": "Daniel 3:1",
+            "verseStart": 1,
+            "verseEnd": 1
+          }
+        ],
+        "placeId": "dura-plain",
+        "camera": {
+          "center": [
+            44.4,
+            32.5
+          ],
+          "zoom": 5.8,
+          "pitch": 15
+        },
+        "contextYear": -580
+      },
+      {
+        "id": "dan-539",
+        "title": "539 BCE",
+        "eyebrow": "Secure history vs Daniel 5 narrative",
+        "description": "The fall of Babylon is independently dated. Belshazzar is historical; “Darius the Mede” remains historically unresolved.",
+        "scripture": [
+          {
+            "book": "Daniel",
+            "chapter": 5,
+            "label": "Daniel 5"
+          }
+        ],
+        "placeId": "babylon",
+        "camera": {
+          "center": [
+            44.42,
+            32.54
+          ],
+          "zoom": 7.5,
+          "pitch": 30
+        },
+        "contextYear": -539
+      },
+      {
+        "id": "dan-susa",
+        "title": "Susa and the Ulai",
+        "eyebrow": "Historical royal center · visionary setting",
+        "description": "Daniel 8 names Susa and the Ulai. Susa is secure; the canal is shown only approximately.",
+        "scripture": [
+          {
+            "book": "Daniel",
+            "chapter": 8,
+            "label": "Daniel 8:2",
+            "verseStart": 2,
+            "verseEnd": 2
+          }
+        ],
+        "placeId": "susa",
+        "camera": {
+          "center": [
+            48.25,
+            32.19
+          ],
+          "zoom": 8,
+          "pitch": 25
+        },
+        "contextYear": -540
+      },
+      {
+        "id": "dan-tigris",
+        "title": "The Tigris",
+        "eyebrow": "Established river · unspecified point",
+        "description": "Daniel 10 names the Tigris but not a precise modern location along it.",
+        "scripture": [
+          {
+            "book": "Daniel",
+            "chapter": 10,
+            "label": "Daniel 10:4",
+            "verseStart": 4,
+            "verseEnd": 4
+          }
+        ],
+        "placeId": "tigris-river",
+        "camera": {
+          "center": [
+            44.37,
+            33.32
+          ],
+          "zoom": 5.7,
+          "pitch": 15
+        },
+        "contextYear": -530
+      }
+    ]
+  },
+  {
+    "id": "story-cyrus-return",
+    "title": "Cyrus, Babylon, and the Return",
+    "subtitle": "539 BCE conquest, Persian restoration ideology, Ezra’s decree tradition, and return to Jerusalem.",
+    "personId": "cyrus-ii",
+    "theme": "Persia",
+    "chapters": [
+      {
+        "id": "cyrus-heartland",
+        "title": "Persian royal heartland",
+        "eyebrow": "Pasargadae · historical context",
+        "description": "Pasargadae anchors Cyrus’s Iranian royal world; it is context, not a biblical event site.",
+        "scripture": [],
+        "journeyId": "journey-cyrus-babylon-context",
+        "camera": {
+          "center": [
+            49,
+            31.5
+          ],
+          "zoom": 4.5,
+          "pitch": 15
+        },
+        "contextYear": -540
+      },
+      {
+        "id": "cyrus-babylon",
+        "title": "Babylon falls",
+        "eyebrow": "539 BCE · Nabonidus Chronicle",
+        "description": "Persian forces take Babylon, ending Neo-Babylonian rule.",
+        "scripture": [],
+        "placeId": "babylon",
+        "camera": {
+          "center": [
+            44.42,
+            32.54
+          ],
+          "zoom": 7,
+          "pitch": 25
+        },
+        "contextYear": -539
+      },
+      {
+        "id": "cyrus-cylinder",
+        "title": "What the Cyrus Cylinder actually says",
+        "eyebrow": "Primary source · important limitation",
+        "description": "The cylinder describes restoration in Babylonian royal language but does not name Jerusalem, Judah, Judeans, or the Jerusalem temple.",
+        "scripture": [],
+        "placeId": "babylon",
+        "camera": {
+          "center": [
+            44.42,
+            32.54
+          ],
+          "zoom": 8,
+          "pitch": 25
+        },
+        "contextYear": -539
+      },
+      {
+        "id": "cyrus-ezra",
+        "title": "Ezra’s decree tradition",
+        "eyebrow": "Biblical text · historical policy context",
+        "description": "Ezra credits Cyrus with authorizing temple restoration. The app connects this to Persian policy context without claiming the cylinder is the Jerusalem decree.",
+        "scripture": [
+          {
+            "book": "Ezra",
+            "chapter": 1,
+            "label": "Ezra 1:1–11",
+            "verseStart": 1,
+            "verseEnd": 11
+          }
+        ],
+        "journeyId": "journey-zerubbabel-return",
+        "camera": {
+          "center": [
+            39.5,
+            34
+          ],
+          "zoom": 4.2,
+          "pitch": 15
+        },
+        "contextYear": -538
+      }
+    ]
+  },
+  {
+    "id": "story-temple-restoration",
+    "title": "Zerubbabel, Haggai & Zechariah — Rebuilding the Temple",
+    "subtitle": "Early Yehud, Darius I, prophetic dates, and the Second Temple without a fabricated floor plan.",
+    "personId": "zerubbabel",
+    "theme": "Restoration",
+    "chapters": [
+      {
+        "id": "temple-yehud",
+        "title": "Yehud under Persia",
+        "eyebrow": "Small province · generalized boundaries",
+        "description": "Persian-period Judah is shown as Yehud, with borders intentionally approximate.",
+        "scripture": [
+          {
+            "book": "Ezra",
+            "chapter": 5,
+            "label": "Ezra 5:1–8",
+            "verseStart": 1,
+            "verseEnd": 8
+          }
+        ],
+        "placeId": "yehud-province",
+        "camera": {
+          "center": [
+            35.2,
+            31.8
+          ],
+          "zoom": 6.7,
+          "pitch": 15
+        },
+        "contextYear": -520
+      },
+      {
+        "id": "temple-haggai",
+        "title": "Haggai’s dated challenge",
+        "eyebrow": "520 BCE context",
+        "description": "Haggai addresses Zerubbabel and Joshua/Jeshua during Darius I’s reign.",
+        "scripture": [
+          {
+            "book": "Haggai",
+            "chapter": 1,
+            "label": "Haggai 1"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8.5,
+          "pitch": 35
+        },
+        "contextYear": -520
+      },
+      {
+        "id": "temple-zechariah",
+        "title": "Zechariah’s visions",
+        "eyebrow": "Jerusalem-centered restoration",
+        "description": "Zechariah’s early visions belong to the same Persian setting while remaining prophetic/visionary literature.",
+        "scripture": [
+          {
+            "book": "Zechariah",
+            "chapter": 1,
+            "label": "Zechariah 1"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8,
+          "pitch": 30
+        },
+        "contextYear": -519
+      },
+      {
+        "id": "temple-515",
+        "title": "Temple completed",
+        "eyebrow": "515 BCE conventional date · footprint unpinned",
+        "description": "Ezra dates completion to Darius year 6. The atlas maps the Temple Mount but refuses to draw an invented Persian-period architectural plan.",
+        "scripture": [
+          {
+            "book": "Ezra",
+            "chapter": 6,
+            "label": "Ezra 6:14–18",
+            "verseStart": 14,
+            "verseEnd": 18
+          }
+        ],
+        "placeId": "second-temple-site-persian",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 9.5,
+          "pitch": 45
+        },
+        "contextYear": -515
+      }
+    ]
+  },
+  {
+    "id": "story-esther-susa",
+    "title": "Esther at Susa",
+    "subtitle": "Achaemenid palace geography, Ahasuerus/Xerxes, and the difference between a historical court setting and independently verified narrative.",
+    "personId": "esther",
+    "theme": "Esther",
+    "chapters": [
+      {
+        "id": "esther-susa",
+        "title": "The citadel of Susa",
+        "eyebrow": "Established royal city",
+        "description": "Susa’s Achaemenid palace complex is real and excavated. The story does not label a particular room as Esther’s banquet space.",
+        "scripture": [
+          {
+            "book": "Esther",
+            "chapter": 1,
+            "label": "Esther 1:2–9",
+            "verseStart": 2,
+            "verseEnd": 9
+          }
+        ],
+        "placeId": "susa",
+        "camera": {
+          "center": [
+            48.25,
+            32.19
+          ],
+          "zoom": 9,
+          "pitch": 35
+        },
+        "contextYear": -480
+      },
+      {
+        "id": "esther-empire",
+        "title": "From India to Cush",
+        "eyebrow": "Literary imperial scope · historical Achaemenid world",
+        "description": "Esther depicts a vast empire. The timeline shows a generalized Persian imperial context rather than interpreting the phrase as a surveyed map polygon.",
+        "scripture": [
+          {
+            "book": "Esther",
+            "chapter": 1,
+            "label": "Esther 1:1",
+            "verseStart": 1,
+            "verseEnd": 1
+          }
+        ],
+        "camera": {
+          "center": [
+            43.5,
+            31
+          ],
+          "zoom": 3.5,
+          "pitch": 0
+        },
+        "contextYear": -475
+      },
+      {
+        "id": "esther-identity",
+        "title": "Ahasuerus and Xerxes",
+        "eyebrow": "Common identification · not every episode externally attested",
+        "description": "Ahasuerus is commonly identified with Xerxes I on linguistic/historical grounds; the individual plot is not documented in surviving royal archives.",
+        "scripture": [
+          {
+            "book": "Esther",
+            "chapter": 2,
+            "label": "Esther 2"
+          }
+        ],
+        "placeId": "susa",
+        "camera": {
+          "center": [
+            48.25,
+            32.19
+          ],
+          "zoom": 8,
+          "pitch": 25
+        },
+        "contextYear": -475
+      },
+      {
+        "id": "esther-purim",
+        "title": "Purim narrative",
+        "eyebrow": "Canonical story · diaspora geography",
+        "description": "The atlas presents Esther’s diaspora court geography without converting absence or presence of external evidence into a verdict on faith claims.",
+        "scripture": [
+          {
+            "book": "Esther",
+            "chapter": 9,
+            "label": "Esther 9"
+          }
+        ],
+        "placeId": "susa",
+        "camera": {
+          "center": [
+            48.25,
+            32.19
+          ],
+          "zoom": 7,
+          "pitch": 20
+        },
+        "contextYear": -474
+      }
+    ]
+  },
+  {
+    "id": "story-ezra",
+    "title": "Ezra — Torah and the Road to Jerusalem",
+    "subtitle": "Babylonian diaspora, unlocated Ahava/Casiphia, debated chronology, and Jerusalem reform.",
+    "personId": "ezra",
+    "theme": "Ezra",
+    "chapters": [
+      {
+        "id": "ezra-babylon",
+        "title": "From Babylonia",
+        "eyebrow": "Textual departure · diaspora context",
+        "description": "Ezra emerges from the Persian-period Babylonian diaspora world, where Judean communities are independently attested.",
+        "scripture": [
+          {
+            "book": "Ezra",
+            "chapter": 7,
+            "label": "Ezra 7:6–9",
+            "verseStart": 6,
+            "verseEnd": 9
+          }
+        ],
+        "placeId": "babylon",
+        "camera": {
+          "center": [
+            44.42,
+            32.54
+          ],
+          "zoom": 7,
+          "pitch": 25
+        },
+        "contextYear": -458
+      },
+      {
+        "id": "ezra-ahava",
+        "title": "Ahava and Casiphia",
+        "eyebrow": "Named but unlocated",
+        "description": "Both are kept in the database and search, but neither receives a fake map coordinate.",
+        "scripture": [
+          {
+            "book": "Ezra",
+            "chapter": 8,
+            "label": "Ezra 8:15–20",
+            "verseStart": 15,
+            "verseEnd": 20
+          }
+        ],
+        "placeId": "ahava",
+        "camera": {
+          "center": [
+            43,
+            33
+          ],
+          "zoom": 5,
+          "pitch": 10
+        },
+        "contextYear": -458
+      },
+      {
+        "id": "ezra-route",
+        "title": "Toward Jerusalem",
+        "eyebrow": "Animated corridor · not exact itinerary",
+        "description": "The route animation connects the broad endpoints while explicitly skipping invented coordinates for Ahava and Casiphia.",
+        "scripture": [
+          {
+            "book": "Ezra",
+            "chapter": 8,
+            "label": "Ezra 8:31–32",
+            "verseStart": 31,
+            "verseEnd": 32
+          }
+        ],
+        "journeyId": "journey-ezra-babylon-jerusalem",
+        "camera": {
+          "center": [
+            39.5,
+            34
+          ],
+          "zoom": 4.3,
+          "pitch": 15
+        },
+        "contextYear": -458
+      },
+      {
+        "id": "ezra-date",
+        "title": "When did Ezra arrive?",
+        "eyebrow": "Chronology debated",
+        "description": "458 BCE under Artaxerxes I is traditional, but later chronologies have been proposed. The data model keeps that uncertainty visible.",
+        "scripture": [
+          {
+            "book": "Ezra",
+            "chapter": 7,
+            "label": "Ezra 7:7–9",
+            "verseStart": 7,
+            "verseEnd": 9
+          }
+        ],
+        "placeId": "yehud-province",
+        "camera": {
+          "center": [
+            35.23,
+            31.78
+          ],
+          "zoom": 6.5,
+          "pitch": 15
+        },
+        "contextYear": -458
+      },
+      {
+        "id": "ezra-torah",
+        "title": "Torah reading in Jerusalem",
+        "eyebrow": "Nehemiah 8 · literary sequence questions",
+        "description": "The public reading belongs to Jerusalem; the exact Water Gate square is not pinned.",
+        "scripture": [
+          {
+            "book": "Nehemiah",
+            "chapter": 8,
+            "label": "Nehemiah 8"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 9,
+          "pitch": 35
+        },
+        "contextYear": -440
+      }
+    ]
+  },
+  {
+    "id": "story-nehemiah",
+    "title": "Nehemiah — Susa to Jerusalem",
+    "subtitle": "A Persian imperial journey, Yehud governorship, wall reconstruction, and independently documented fifth-century context.",
+    "personId": "nehemiah",
+    "theme": "Nehemiah",
+    "chapters": [
+      {
+        "id": "neh-susa",
+        "title": "Susa",
+        "eyebrow": "Royal court setting · established site",
+        "description": "Nehemiah 1 begins at the Susa citadel. The physical city is secure; his exact chamber is not.",
+        "scripture": [
+          {
+            "book": "Nehemiah",
+            "chapter": 1,
+            "label": "Nehemiah 1:1",
+            "verseStart": 1,
+            "verseEnd": 1
+          }
+        ],
+        "journeyId": "journey-nehemiah-susa-jerusalem",
+        "camera": {
+          "center": [
+            42,
+            33.5
+          ],
+          "zoom": 4.2,
+          "pitch": 15
+        },
+        "contextYear": -445
+      },
+      {
+        "id": "neh-beyond",
+        "title": "Beyond the River",
+        "eyebrow": "Persian administration · generalized region",
+        "description": "Royal letters are addressed to governors west of the Euphrates. The province is rendered broadly rather than as a modern border.",
+        "scripture": [
+          {
+            "book": "Nehemiah",
+            "chapter": 2,
+            "label": "Nehemiah 2:7–9",
+            "verseStart": 7,
+            "verseEnd": 9
+          }
+        ],
+        "placeId": "beyond-river-province",
+        "camera": {
+          "center": [
+            36.4,
+            33.5
+          ],
+          "zoom": 5,
+          "pitch": 10
+        },
+        "contextYear": -445
+      },
+      {
+        "id": "neh-jerusalem",
+        "title": "Inspecting Jerusalem",
+        "eyebrow": "Established city · uncertain wall circuit",
+        "description": "Nehemiah surveys ruined walls, but the exact fifth-century circuit and every gate identification remain debated.",
+        "scripture": [
+          {
+            "book": "Nehemiah",
+            "chapter": 2,
+            "label": "Nehemiah 2:11–16",
+            "verseStart": 11,
+            "verseEnd": 16
+          }
+        ],
+        "placeId": "nehemiah-wall-circuit",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 9,
+          "pitch": 40
+        },
+        "contextYear": -445
+      },
+      {
+        "id": "neh-opposition",
+        "title": "Samaria, Ammon, Arabia",
+        "eyebrow": "Regional political network",
+        "description": "Sanballat, Tobiah, and Geshem place Yehud inside a wider western Persian political landscape.",
+        "scripture": [
+          {
+            "book": "Nehemiah",
+            "chapter": 4,
+            "label": "Nehemiah 4:1–8",
+            "verseStart": 1,
+            "verseEnd": 8
+          }
+        ],
+        "placeId": "yehud-province",
+        "camera": {
+          "center": [
+            35.4,
+            32
+          ],
+          "zoom": 5.8,
+          "pitch": 10
+        },
+        "contextYear": -445
+      },
+      {
+        "id": "neh-elephantine",
+        "title": "A wider Persian Jewish world",
+        "eyebrow": "407 BCE · extra-biblical context",
+        "description": "Later Elephantine correspondence independently reveals Judean/Jewish institutions and links to Jerusalem/Samaria. It is context, not a continuation of Nehemiah’s plot.",
+        "scripture": [],
+        "placeId": "elephantine",
+        "camera": {
+          "center": [
+            32.884,
+            24.086
+          ],
+          "zoom": 7,
+          "pitch": 20
+        },
+        "contextYear": -407
+      }
+    ]
+  }
+]

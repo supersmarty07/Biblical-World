@@ -1,0 +1,96 @@
+[
+  {
+    "id": "ur-demo",
+    "name": "Ur",
+    "aliases": ["Ur of the Chaldeans"],
+    "coordinates": [46.1031, 30.9625],
+    "summary": "A structural demo record used to exercise the atlas place, source, Scripture-reference, and journey systems. Batch 2 will replace this summary and its supporting evidence with the researched Genesis record.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "This record is deliberately marked as demo content. The application supports a distinction between identification confidence and interpretation confidence; Batch 2 will document the scholarly case and alternatives."
+    },
+    "scripture": [
+      { "book": "Genesis", "chapter": 11, "verseStart": 31, "label": "Genesis 11:31" },
+      { "book": "Genesis", "chapter": 15, "verseStart": 7, "label": "Genesis 15:7" }
+    ],
+    "sourceIds": ["source-batch1-methodology"],
+    "demo": true
+  },
+  {
+    "id": "haran-demo",
+    "name": "Haran",
+    "aliases": ["Harran"],
+    "coordinates": [39.0315, 36.864],
+    "summary": "Demo place record for the northern Mesopotamian stage of the patriarchal story engine. The final atlas will include ancient names, external gazetteer IDs, archaeology, period context, and citations.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "Batch 1 is testing the confidence UI rather than publishing a completed scholarly assessment."
+    },
+    "scripture": [
+      { "book": "Genesis", "chapter": 11, "verseStart": 31, "verseEnd": 32, "label": "Genesis 11:31–32" },
+      { "book": "Genesis", "chapter": 12, "verseStart": 4, "verseEnd": 5, "label": "Genesis 12:4–5" }
+    ],
+    "sourceIds": ["source-batch1-methodology"],
+    "demo": true
+  },
+  {
+    "id": "shechem-demo",
+    "name": "Shechem",
+    "aliases": ["Tell Balata"],
+    "coordinates": [35.2896, 32.2135],
+    "summary": "Demo record representing a Canaan location in the guided-story system. The production record will separate textual claims, archaeological evidence, later tradition, and modern identification.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The architecture is ready to hold external IDs and bibliography, but Batch 1 intentionally keeps source claims minimal."
+    },
+    "scripture": [
+      { "book": "Genesis", "chapter": 12, "verseStart": 6, "verseEnd": 7, "label": "Genesis 12:6–7" }
+    ],
+    "sourceIds": ["source-batch1-methodology"],
+    "demo": true
+  },
+  {
+    "id": "bethel-demo",
+    "name": "Bethel",
+    "aliases": ["Luz"],
+    "coordinates": [35.222, 31.929],
+    "summary": "Demo record used to validate aliases, multi-reference Scripture indexing, confidence display, and map navigation.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The final identification note and bibliography are deferred to the researched Genesis batch."
+    },
+    "scripture": [
+      { "book": "Genesis", "chapter": 12, "verseStart": 8, "label": "Genesis 12:8" },
+      { "book": "Genesis", "chapter": 28, "verseStart": 10, "verseEnd": 22, "label": "Genesis 28:10–22" }
+    ],
+    "sourceIds": ["source-batch1-methodology"],
+    "demo": true
+  },
+  {
+    "id": "hebron-demo",
+    "name": "Hebron",
+    "aliases": ["Kiriath-arba"],
+    "coordinates": [35.0957, 31.5326],
+    "summary": "Demo record used to exercise the atlas detail panel and future story expansion. Batch 2 will add the researched Mamre/Hebron relationship and archaeological context.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "This is a structural record, not the final historical argument or source set."
+    },
+    "scripture": [
+      { "book": "Genesis", "chapter": 13, "verseStart": 18, "label": "Genesis 13:18" },
+      { "book": "Genesis", "chapter": 23, "label": "Genesis 23" }
+    ],
+    "sourceIds": ["source-batch1-methodology"],
+    "demo": true
+  }
+]

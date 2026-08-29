@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 3,
+  "records": [
+    {
+      "id": "project-batch3",
+      "scope": "Original Batch 3 curation, schemas, journey reconstructions, and context polygons",
+      "license": "CC BY 4.0 recommended for original project data",
+      "attributionRequired": true,
+      "notes": "Third-party sources remain under their own rights; bibliography references are not redistributed source content."
+    },
+    {
+      "id": "bsb-reference",
+      "scope": "Scripture references only in this batch",
+      "license": "BSB public-domain/CC0 status per user-supplied 2026 research",
+      "attributionRequired": false,
+      "notes": "Batch 3 stores citation references and summaries, not full verse text."
+    }
+  ]
+}

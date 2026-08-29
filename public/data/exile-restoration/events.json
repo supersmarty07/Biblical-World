@@ -1,0 +1,1395 @@
+[
+  {
+    "id": "event-manasseh-assyrian-world",
+    "title": "Manasseh of Judah in the Assyrian imperial world",
+    "summary": "Manasseh’s long reign belongs to a Judah deeply embedded in Neo-Assyrian power; Assyrian royal lists independently name him as king of Judah.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "judah-kingdom",
+      "neo-assyrian-empire"
+    ],
+    "personIds": [
+      "manasseh-judah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 21,
+        "label": "2 Kings 21:1–18",
+        "verseStart": 1,
+        "verseEnd": 18
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-esarhaddon-manasseh",
+      "source-cogan-tadmor-kings"
+    ],
+    "historicalNote": "External Assyrian evidence establishes Manasseh as a historical Judean king/vassal. It does not independently verify the religious evaluation or Babylon captivity episode in Chronicles.",
+    "dating": {
+      "from": -690,
+      "to": -642,
+      "label": "Seventh century BCE; regnal reconstructions vary because co-regency models differ",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-amon-reign",
+    "title": "Amon’s short reign and assassination",
+    "summary": "Kings and Chronicles describe a brief reign of Amon between Manasseh and Josiah.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "judah-kingdom"
+    ],
+    "personIds": [
+      "amon-judah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 21,
+        "label": "2 Kings 21:19–26",
+        "verseStart": 19,
+        "verseEnd": 26
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings"
+    ],
+    "historicalNote": "The reign is placed conventionally around 642–640 BCE; the assassination narrative is known from the biblical text.",
+    "dating": {
+      "from": -642,
+      "to": -640,
+      "label": "c. 642–640 BCE (conventional chronology)",
+      "basis": "conventional"
+    }
+  },
+  {
+    "id": "event-zephaniah-geography",
+    "title": "Zephaniah’s horizon: Judah, the coast, Transjordan, Cush, and Nineveh",
+    "summary": "Zephaniah’s oracles create a late seventh-century geographic horizon stretching from Jerusalem across neighboring peoples to Assyria.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "gaza",
+      "ashkelon",
+      "ashdod",
+      "ekron",
+      "moab",
+      "ammon",
+      "cush-nubia",
+      "nineveh"
+    ],
+    "personIds": [
+      "zephaniah"
+    ],
+    "scripture": [
+      {
+        "book": "Zephaniah",
+        "chapter": 1,
+        "label": "Zephaniah 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Zephaniah",
+        "chapter": 2,
+        "label": "Zephaniah 2"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-roberts-nahum-hab-zeph"
+    ],
+    "historicalNote": "The book dates Zephaniah to Josiah’s reign, but individual oracles need not all be assigned one exact year.",
+    "dating": {
+      "from": -640,
+      "to": -609,
+      "label": "Josiah’s reign, late seventh century BCE",
+      "basis": "textual"
+    }
+  },
+  {
+    "id": "event-nineveh-fall-612",
+    "title": "Nineveh falls to the Babylonian-Median coalition",
+    "summary": "Nineveh, core capital of the Neo-Assyrian Empire, is captured and devastated in 612 BCE.",
+    "confidence": "high",
+    "placeIds": [
+      "nineveh",
+      "neo-assyrian-empire",
+      "neo-babylonian-empire"
+    ],
+    "personIds": [],
+    "scripture": [],
+    "sourceIds": [
+      "source-fall-nineveh-chronicle"
+    ],
+    "historicalNote": "This is independently attested Mesopotamian history and serves as context for Nahum; the chronicle does not date the composition of Nahum.",
+    "dating": {
+      "from": -612,
+      "to": -612,
+      "label": "612 BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-nahum-nineveh",
+    "title": "Nahum’s oracle concerning Nineveh",
+    "summary": "Nahum announces judgment on Nineveh and compares it with Thebes/No-Amon, which Assyria had conquered earlier.",
+    "confidence": "moderate",
+    "placeIds": [
+      "nineveh",
+      "thebes-no-amon"
+    ],
+    "personIds": [
+      "nahum"
+    ],
+    "scripture": [
+      {
+        "book": "Nahum",
+        "chapter": 1,
+        "label": "Nahum 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Nahum",
+        "chapter": 3,
+        "label": "Nahum 3:8–10",
+        "verseStart": 8,
+        "verseEnd": 10
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-roberts-nahum-hab-zeph",
+      "source-fall-nineveh-chronicle"
+    ],
+    "historicalNote": "The book presupposes knowledge of Assyrian power and Thebes’ fall; its exact composition date relative to 612 BCE remains a literary-historical question.",
+    "dating": {
+      "label": "Late seventh century BCE context; exact composition date debated",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-habakkuk-chaldeans",
+    "title": "Habakkuk and the rise of the Chaldeans",
+    "summary": "Habakkuk 1 invokes the Chaldeans/Babylonians as a terrifying military force in a prophetic dialogue about violence and justice.",
+    "confidence": "moderate",
+    "placeIds": [
+      "judah-kingdom",
+      "neo-babylonian-empire"
+    ],
+    "personIds": [
+      "habakkuk"
+    ],
+    "scripture": [
+      {
+        "book": "Habakkuk",
+        "chapter": 1,
+        "label": "Habakkuk 1:5–11",
+        "verseStart": 5,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-roberts-nahum-hab-zeph"
+    ],
+    "historicalNote": "The rise of Babylon is historical, but the book does not supply a single externally anchored date for the dialogue.",
+    "dating": {
+      "from": -620,
+      "to": -590,
+      "label": "Late seventh to early sixth century BCE is commonly proposed",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-lamentations-jerusalem",
+    "title": "Lamentations remembers Jerusalem’s catastrophe",
+    "summary": "Lamentations poetically mourns a destroyed, depopulated Jerusalem and the collapse of Zion/temple life.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "zion-biblical",
+      "temple-mount"
+    ],
+    "personIds": [],
+    "scripture": [
+      {
+        "book": "Lamentations",
+        "chapter": 1,
+        "label": "Lamentations 1"
+      },
+      {
+        "book": "Lamentations",
+        "chapter": 2,
+        "label": "Lamentations 2"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-lipschits-fall-rise"
+    ],
+    "historicalNote": "The poems strongly fit the world after Jerusalem’s Babylonian destruction; questions of authorship and precise composition history are left open.",
+    "dating": {
+      "from": -587,
+      "to": -550,
+      "label": "Exilic context after the 587/586 BCE destruction",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-obadiah-edom",
+    "title": "Obadiah’s oracle against Edom",
+    "summary": "Obadiah condemns Edom for violence and opportunism connected with Jerusalem’s disaster and invokes Mount Esau/Teman geography.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "edom",
+      "seir",
+      "teman-edom"
+    ],
+    "personIds": [
+      "obadiah-prophet"
+    ],
+    "scripture": [
+      {
+        "book": "Obadiah",
+        "chapter": 1,
+        "label": "Obadiah 1:10–14",
+        "verseStart": 10,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-raabe-obadiah"
+    ],
+    "historicalNote": "Many interpreters associate the book with the Babylonian destruction era, but proposals span more than one historical context; the atlas does not force an exact year.",
+    "dating": {
+      "label": "Date disputed; often placed in exilic or early post-exilic context",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-malachi-persian-yehud",
+    "title": "Malachi’s temple-and-priesthood setting in Persian Yehud",
+    "summary": "Malachi addresses a functioning temple cult, priesthood, offerings, and a “governor,” fitting the Persian-period Yehud world after temple restoration.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "temple-mount",
+      "second-temple-site-persian",
+      "yehud-province"
+    ],
+    "personIds": [],
+    "scripture": [
+      {
+        "book": "Malachi",
+        "chapter": 1,
+        "label": "Malachi 1:6–14",
+        "verseStart": 6,
+        "verseEnd": 14
+      },
+      {
+        "book": "Malachi",
+        "chapter": 3,
+        "label": "Malachi 3:1–12",
+        "verseStart": 1,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-grabbe-second-temple",
+      "source-batch6-methodology"
+    ],
+    "historicalNote": "The book’s exact date is not stated. The Persian-period setting is common, but the atlas avoids assigning it a precise regnal year or treating “Malachi” as certainly a recoverable historical individual.",
+    "dating": {
+      "label": "Persian period, after a functioning Second Temple; exact date debated",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-josiah-megiddo",
+    "title": "Josiah dies in the Megiddo campaign context",
+    "summary": "Kings and Chronicles place Josiah’s death in connection with Pharaoh Necho II at Megiddo as Egypt moves north toward the Euphrates corridor.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "megiddo",
+      "carchemish"
+    ],
+    "personIds": [
+      "josiah",
+      "necho-ii"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 23,
+        "label": "2 Kings 23:29–30",
+        "verseStart": 29,
+        "verseEnd": 30
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 35,
+        "label": "2 Chronicles 35:20–24",
+        "verseStart": 20,
+        "verseEnd": 24
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings",
+      "source-babylonian-chronicle-5"
+    ],
+    "historicalNote": "The two biblical accounts differ in narrative detail. The broader Egyptian-Babylonian contest is historically secure; Josiah’s motives are not independently documented.",
+    "dating": {
+      "from": -609,
+      "to": -609,
+      "label": "609 BCE (conventional historical chronology)",
+      "basis": "historical",
+      "note": "The Egyptian campaign chronology is securely placed in 609 BCE; the precise mechanics of Josiah’s encounter derive from the biblical accounts."
+    }
+  },
+  {
+    "id": "event-carchemish-605",
+    "title": "Battle of Carchemish and Babylonian ascendance",
+    "summary": "Babylonian forces under Nebuchadnezzar defeat Egypt’s army at Carchemish, reshaping control of Syria-Palestine.",
+    "confidence": "high",
+    "placeIds": [
+      "carchemish",
+      "neo-babylonian-empire",
+      "egypt"
+    ],
+    "personIds": [
+      "nebuchadnezzar-ii",
+      "necho-ii"
+    ],
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 46,
+        "label": "Jeremiah 46:2",
+        "verseStart": 2,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-babylonian-chronicle-5",
+      "source-exile-restoration-text"
+    ],
+    "historicalNote": "The battle and year are independently attested in Babylonian chronicle evidence; Jeremiah 46 references the same geopolitical setting.",
+    "dating": {
+      "from": -605,
+      "to": -605,
+      "label": "605 BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-jehoiakim-scroll",
+    "title": "Jeremiah’s scroll read and burned",
+    "summary": "Jeremiah 36 depicts Baruch reading a prophetic scroll that King Jehoiakim cuts and burns, after which it is rewritten.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem"
+    ],
+    "personIds": [
+      "jeremiah",
+      "baruch",
+      "jehoiakim"
+    ],
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 36,
+        "label": "Jeremiah 36"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ],
+    "historicalNote": "A textually located Jerusalem court episode; no archaeological object can be identified as this scroll.",
+    "dating": {
+      "label": "During Jehoiakim’s reign; Jeremiah 36 specifies the fourth/fifth-year sequence",
+      "basis": "textual"
+    }
+  },
+  {
+    "id": "event-jerusalem-597",
+    "title": "Nebuchadnezzar captures Jerusalem and deports Jehoiachin",
+    "summary": "Jerusalem is taken, Jehoiachin is deported, and Zedekiah is installed. Babylonian chronicle evidence independently anchors the capture in 597 BCE.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "babylon",
+      "neo-babylonian-empire"
+    ],
+    "personIds": [
+      "nebuchadnezzar-ii",
+      "jehoiachin",
+      "zedekiah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 24,
+        "label": "2 Kings 24:8–17",
+        "verseStart": 8,
+        "verseEnd": 17
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 36,
+        "label": "2 Chronicles 36:9–10",
+        "verseStart": 9,
+        "verseEnd": 10
+      }
+    ],
+    "sourceIds": [
+      "source-babylonian-chronicle-5",
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings"
+    ],
+    "historicalNote": "One of the strongest biblical/extra-biblical chronological intersections in the atlas: the Babylonian Chronicle records capture of the city of Judah and replacement of its king.",
+    "dating": {
+      "from": -597,
+      "to": -597,
+      "label": "597 BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-jehoiachin-rations",
+    "title": "Jehoiachin appears in Babylonian ration tablets",
+    "summary": "Administrative tablets from Babylonia name Yaukin, king of Judah, and members of his household, independently attesting the exiled royal family.",
+    "confidence": "high",
+    "placeIds": [
+      "babylon",
+      "babylonia-exile-zone"
+    ],
+    "personIds": [
+      "jehoiachin"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-jehoiachin-rations"
+    ],
+    "historicalNote": "This is extra-biblical administrative evidence. It supports Jehoiachin’s presence in Babylonia but does not narrate his deportation or later release.",
+    "dating": {
+      "label": "Sixth century BCE, during Nebuchadnezzar II’s reign",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-lachish-letters-crisis",
+    "title": "Lachish letters in Judah’s final crisis",
+    "summary": "Hebrew ostraca from Lachish illuminate military communication and anxiety near the end of the kingdom.",
+    "confidence": "high",
+    "placeIds": [
+      "lachish",
+      "azekah-monarchy",
+      "judah-kingdom"
+    ],
+    "personIds": [],
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 34,
+        "label": "Jeremiah 34:7",
+        "verseStart": 7,
+        "verseEnd": 7
+      }
+    ],
+    "sourceIds": [
+      "source-lachish-letters",
+      "source-exile-restoration-text"
+    ],
+    "historicalNote": "The ostraca and Jeremiah 34 share a late-monarchy world in which Lachish and Azekah are key fortified centers. The atlas does not claim that a specific ostracon directly quotes Jeremiah.",
+    "dating": {
+      "from": -590,
+      "to": -586,
+      "label": "Early sixth century BCE, near Judah’s final Babylonian crisis",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-jerusalem-destruction",
+    "title": "Jerusalem and the First Temple are destroyed",
+    "summary": "After Zedekiah’s rebellion, Babylonian forces breach Jerusalem, burn the temple/palace/major buildings, dismantle defenses, and deport more inhabitants.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "temple-mount",
+      "first-temple-site",
+      "riblah",
+      "neo-babylonian-empire"
+    ],
+    "personIds": [
+      "zedekiah",
+      "nebuchadnezzar-ii"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 25,
+        "label": "2 Kings 25:1–21",
+        "verseStart": 1,
+        "verseEnd": 21
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 39,
+        "label": "Jeremiah 39"
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 52,
+        "label": "Jeremiah 52"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings",
+      "source-lipschits-fall-rise"
+    ],
+    "historicalNote": "The destruction is historically and archaeologically fundamental. Absolute chronology is commonly given as 587 or 586 BCE depending on calendrical reconstruction; the atlas preserves that one-year issue.",
+    "dating": {
+      "from": -587,
+      "to": -586,
+      "label": "587/586 BCE (chronological convention varies)",
+      "basis": "historical",
+      "note": "Scholarly chronologies differ by a year in dating the final destruction."
+    }
+  },
+  {
+    "id": "event-zedekiah-capture",
+    "title": "Zedekiah flees, is captured near Jericho, and taken to Riblah",
+    "summary": "Kings and Jeremiah describe Zedekiah escaping Jerusalem toward the Arabah, being captured in the plains of Jericho, and brought to Nebuchadnezzar at Riblah.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "jericho",
+      "riblah"
+    ],
+    "personIds": [
+      "zedekiah",
+      "nebuchadnezzar-ii"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 25,
+        "label": "2 Kings 25:4–7",
+        "verseStart": 4,
+        "verseEnd": 7
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 39,
+        "label": "Jeremiah 39:4–7",
+        "verseStart": 4,
+        "verseEnd": 7
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings",
+      "source-thompson-jeremiah"
+    ],
+    "historicalNote": "The sequence of named locations is textual; the animation reconstructs connecting roads and does not claim to know Zedekiah’s exact path.",
+    "dating": {
+      "from": -587,
+      "to": -586,
+      "label": "During Jerusalem’s final fall, 587/586 BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-gedaliah-mizpah",
+    "title": "Gedaliah governs from Mizpah",
+    "summary": "After Jerusalem’s destruction, Babylon appoints Gedaliah over the population remaining in Judah; the biblical narrative locates his administration at Mizpah.",
+    "confidence": "moderate",
+    "placeIds": [
+      "mizpah-benjamin"
+    ],
+    "personIds": [
+      "gedaliah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 25,
+        "label": "2 Kings 25:22–24",
+        "verseStart": 22,
+        "verseEnd": 24
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 40,
+        "label": "Jeremiah 40"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-lipschits-fall-rise",
+      "source-thompson-jeremiah"
+    ],
+    "historicalNote": "Mizpah’s identification with Tell en-Nasbeh is probable rather than absolutely certain. The administrative reorganization is reconstructed from text and archaeology.",
+    "dating": {
+      "from": -586,
+      "to": -580,
+      "label": "Immediately after Jerusalem’s destruction",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-gedaliah-assassination",
+    "title": "Gedaliah is assassinated at Mizpah",
+    "summary": "Ishmael son of Nethaniah kills Gedaliah, precipitating further instability and the movement of survivors toward Egypt.",
+    "confidence": "moderate",
+    "placeIds": [
+      "mizpah-benjamin"
+    ],
+    "personIds": [
+      "gedaliah",
+      "ishmael-nethaniah",
+      "johanan-kareah",
+      "jeremiah"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 25,
+        "label": "2 Kings 25:25–26",
+        "verseStart": 25,
+        "verseEnd": 26
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 41,
+        "label": "Jeremiah 41"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ],
+    "historicalNote": "The event chronology shortly after the fall of Jerusalem is approximate; the exact year can vary in reconstruction.",
+    "dating": {
+      "from": -586,
+      "to": -580,
+      "label": "Shortly after 587/586 BCE",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-refugees-egypt",
+    "title": "Judean survivors go to Egypt",
+    "summary": "After Gedaliah’s assassination, Johanan and the group with Jeremiah travel into Egypt, reaching Tahpanhes according to Jeremiah.",
+    "confidence": "moderate",
+    "placeIds": [
+      "mizpah-benjamin",
+      "tahpanhes",
+      "memphis-egypt",
+      "pathros",
+      "migdol-jeremiah"
+    ],
+    "personIds": [
+      "johanan-kareah",
+      "jeremiah",
+      "baruch"
+    ],
+    "scripture": [
+      {
+        "book": "Jeremiah",
+        "chapter": 43,
+        "label": "Jeremiah 43:1–7",
+        "verseStart": 1,
+        "verseEnd": 7
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 44,
+        "label": "Jeremiah 44:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-thompson-jeremiah"
+    ],
+    "historicalNote": "Tahpanhes is probably Tell Defenneh; Migdol remains unpinned. The route itself is not preserved.",
+    "dating": {
+      "from": -586,
+      "to": -570,
+      "label": "Early Babylonian period after Jerusalem’s fall",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-ezekiel-call",
+    "title": "Ezekiel receives his opening vision by the Kebar",
+    "summary": "Ezekiel dates his prophetic call among the exiles by the Kebar in the fifth year of Jehoiachin’s exile.",
+    "confidence": "moderate",
+    "placeIds": [
+      "kebar-canal",
+      "tel-abib-exile",
+      "babylonia-exile-zone"
+    ],
+    "personIds": [
+      "ezekiel",
+      "jehoiachin"
+    ],
+    "scripture": [
+      {
+        "book": "Ezekiel",
+        "chapter": 1,
+        "label": "Ezekiel 1:1–3",
+        "verseStart": 1,
+        "verseEnd": 3
+      },
+      {
+        "book": "Ezekiel",
+        "chapter": 3,
+        "label": "Ezekiel 3:15",
+        "verseStart": 15,
+        "verseEnd": 15
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-block-ezekiel"
+    ],
+    "historicalNote": "The relative date is explicit in Ezekiel; mapping the Kebar uses an approximate Babylonian canal-zone anchor rather than a fabricated canal trace.",
+    "dating": {
+      "from": -593,
+      "to": -592,
+      "label": "c. 593/592 BCE (fifth year of Jehoiachin’s exile)",
+      "basis": "conventional"
+    }
+  },
+  {
+    "id": "event-ezekiel-jerusalem-vision",
+    "title": "Ezekiel’s vision of Jerusalem and the temple",
+    "summary": "Ezekiel 8–11 presents a visionary transport from Babylonia to Jerusalem, culminating in departure of divine glory.",
+    "confidence": "symbolic",
+    "placeIds": [
+      "kebar-canal",
+      "jerusalem",
+      "temple-mount"
+    ],
+    "personIds": [
+      "ezekiel"
+    ],
+    "scripture": [
+      {
+        "book": "Ezekiel",
+        "chapter": 8,
+        "label": "Ezekiel 8–11"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-block-ezekiel"
+    ],
+    "historicalNote": "This is explicitly a vision in the text. The atlas does not animate it as an ordinary recovered travel itinerary.",
+    "dating": {
+      "label": "Sixth year of Jehoiachin’s exile in Ezekiel’s chronology",
+      "basis": "textual"
+    }
+  },
+  {
+    "id": "event-al-yahudu-archive",
+    "title": "Judean communities documented in Babylonian tablets",
+    "summary": "Cuneiform archives such as Al-Yahudu document Judeans living, farming, contracting, and serving obligations in Babylonia across generations.",
+    "confidence": "high",
+    "placeIds": [
+      "babylonia-exile-zone",
+      "al-yahudu",
+      "nippur"
+    ],
+    "personIds": [],
+    "scripture": [],
+    "sourceIds": [
+      "source-al-yahudu"
+    ],
+    "historicalNote": "This is independent social-history evidence for Judean exiles/descendants. The exact Al-Yahudu site is deliberately left unpinned.",
+    "dating": {
+      "from": -572,
+      "to": -477,
+      "label": "Documents span the sixth–fifth centuries BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-daniel-court-setting",
+    "title": "Daniel’s Babylonian court setting",
+    "summary": "Daniel 1 places Daniel and his companions in a Babylonian royal educational/court setting under Nebuchadnezzar.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "babylon",
+      "babylon-southern-palace"
+    ],
+    "personIds": [
+      "daniel",
+      "hananiah-daniel",
+      "mishael-daniel",
+      "azariah-daniel",
+      "nebuchadnezzar-ii"
+    ],
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 1,
+        "label": "Daniel 1"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-collins-daniel"
+    ],
+    "historicalNote": "Jerusalem and Babylon are historical places and Nebuchadnezzar is historical; the individual court episode is mapped as literary/biblical setting rather than independently attested biography.",
+    "dating": {
+      "label": "Daniel 1’s Babylonian court setting",
+      "basis": "textual"
+    }
+  },
+  {
+    "id": "event-belshazzar-banquet",
+    "title": "Belshazzar’s banquet and the fall-of-Babylon literary setting",
+    "summary": "Daniel 5 sets its banquet on the night Babylon changes hands and names Belshazzar, a historically attested royal son/co-regent figure.",
+    "confidence": "moderate",
+    "placeIds": [
+      "babylon",
+      "babylon-southern-palace"
+    ],
+    "personIds": [
+      "belshazzar",
+      "daniel",
+      "darius-the-mede"
+    ],
+    "scripture": [
+      {
+        "book": "Daniel",
+        "chapter": 5,
+        "label": "Daniel 5"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-collins-daniel",
+      "source-nabonidus-chronicle"
+    ],
+    "historicalNote": "Babylon’s 539 BCE fall and Belshazzar are historical; the banquet, writing on the wall, and “Darius the Mede” transition are not independently documented in the Babylonian chronicle.",
+    "dating": {
+      "from": -539,
+      "to": -539,
+      "label": "Literary setting aligned with Babylon’s fall in 539 BCE",
+      "basis": "conventional"
+    }
+  },
+  {
+    "id": "event-babylon-falls-539",
+    "title": "Babylon falls to Cyrus’s forces",
+    "summary": "The Achaemenid conquest of Babylon ends Neo-Babylonian rule and establishes Persian control of Mesopotamia.",
+    "confidence": "high",
+    "placeIds": [
+      "babylon",
+      "neo-babylonian-empire",
+      "achaemenid-persian-empire"
+    ],
+    "personIds": [
+      "cyrus-ii",
+      "nabonidus",
+      "belshazzar"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-nabonidus-chronicle",
+      "source-cyrus-cylinder",
+      "source-briant-persia"
+    ],
+    "historicalNote": "The conquest is independently and securely dated. This historical event should not be conflated with every narrative detail in Daniel 5.",
+    "dating": {
+      "from": -539,
+      "to": -539,
+      "label": "539 BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-cyrus-restoration-policy",
+    "title": "Cyrus’s Babylonian restoration program",
+    "summary": "The Cyrus Cylinder presents Cyrus as restoring cults and returning divine images/communities within Mesopotamian royal ideology after 539 BCE.",
+    "confidence": "high",
+    "placeIds": [
+      "babylon",
+      "achaemenid-persian-empire"
+    ],
+    "personIds": [
+      "cyrus-ii"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-cyrus-cylinder",
+      "source-kuhrt-persia"
+    ],
+    "historicalNote": "The cylinder is important comparative context but does not mention Judah, Jerusalem, Judeans, or the Jerusalem temple by name.",
+    "dating": {
+      "from": -539,
+      "to": -538,
+      "label": "After the conquest of Babylon, 539 BCE",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-cyrus-decree-ezra",
+    "title": "Ezra credits Cyrus with authorizing temple restoration",
+    "summary": "Ezra 1 presents Cyrus issuing an authorization for rebuilding the house of YHWH in Jerusalem and returning temple vessels.",
+    "confidence": "moderate",
+    "placeIds": [
+      "babylon",
+      "jerusalem",
+      "temple-mount",
+      "achaemenid-persian-empire"
+    ],
+    "personIds": [
+      "cyrus-ii",
+      "sheshbazzar"
+    ],
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 1,
+        "label": "Ezra 1:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "Ezra",
+        "chapter": 6,
+        "label": "Ezra 6:1–5",
+        "verseStart": 1,
+        "verseEnd": 5
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-cyrus-cylinder"
+    ],
+    "historicalNote": "Persian policies of local cultic restoration are historically plausible, but the Cyrus Cylinder is not direct evidence for the Jerusalem decree and must not be quoted as if it names Jerusalem.",
+    "dating": {
+      "from": -538,
+      "to": -537,
+      "label": "c. 538/537 BCE in conventional reconstruction",
+      "basis": "conventional"
+    }
+  },
+  {
+    "id": "event-return-zerubbabel",
+    "title": "Return community and altar/temple foundation traditions",
+    "summary": "Ezra describes returnees from Babylonian exile, restoration of the altar, and temple rebuilding associated with Zerubbabel and Jeshua.",
+    "confidence": "moderate",
+    "placeIds": [
+      "babylon",
+      "jerusalem",
+      "second-temple-site-persian",
+      "yehud-province"
+    ],
+    "personIds": [
+      "zerubbabel",
+      "jeshua-high-priest",
+      "sheshbazzar"
+    ],
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 2,
+        "label": "Ezra 2"
+      },
+      {
+        "book": "Ezra",
+        "chapter": 3,
+        "label": "Ezra 3"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-grabbe-second-temple"
+    ],
+    "historicalNote": "The return is better understood as a series of movements under Persian rule than as one archaeologically traceable caravan route.",
+    "dating": {
+      "from": -538,
+      "to": -520,
+      "label": "Early Persian period, late sixth century BCE",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-haggai-zechariah-temple",
+    "title": "Haggai and Zechariah urge temple rebuilding",
+    "summary": "Dated prophetic activity under Darius I centers on Jerusalem’s temple restoration and the leadership of Zerubbabel and Joshua/Jeshua.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "second-temple-site-persian",
+      "yehud-province"
+    ],
+    "personIds": [
+      "haggai",
+      "zechariah-prophet",
+      "zerubbabel",
+      "jeshua-high-priest",
+      "darius-i"
+    ],
+    "scripture": [
+      {
+        "book": "Haggai",
+        "chapter": 1,
+        "label": "Haggai 1–2"
+      },
+      {
+        "book": "Zechariah",
+        "chapter": 1,
+        "label": "Zechariah 1–8"
+      },
+      {
+        "book": "Ezra",
+        "chapter": 5,
+        "label": "Ezra 5:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-behistun"
+    ],
+    "historicalNote": "Darius I’s reign is independently secure. The prophetic oracles are dated internally; Behistun supplies imperial context, not evidence for the prophets themselves.",
+    "dating": {
+      "from": -520,
+      "to": -518,
+      "label": "520–518 BCE for the principal dated Haggai/early Zechariah material",
+      "basis": "conventional"
+    }
+  },
+  {
+    "id": "event-second-temple-complete",
+    "title": "Second Temple completed in Darius I’s reign",
+    "summary": "Ezra dates completion of the rebuilt Jerusalem temple to the sixth year of Darius I.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "second-temple-site-persian",
+      "temple-mount",
+      "yehud-province"
+    ],
+    "personIds": [
+      "darius-i",
+      "zerubbabel",
+      "jeshua-high-priest"
+    ],
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 6,
+        "label": "Ezra 6:14–18",
+        "verseStart": 14,
+        "verseEnd": 18
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-grabbe-second-temple"
+    ],
+    "historicalNote": "515 BCE is the conventional conversion of Ezra’s regnal date. The exact architectural footprint of the Persian-period temple remains unpinned.",
+    "dating": {
+      "from": -515,
+      "to": -515,
+      "label": "515 BCE (conventional conversion of Darius I year 6)",
+      "basis": "conventional"
+    }
+  },
+  {
+    "id": "event-esther-susa-court",
+    "title": "Esther’s Susa court narrative",
+    "summary": "Esther’s story unfolds at the Persian royal center of Susa and across the empire under Ahasuerus, commonly identified with Xerxes I.",
+    "confidence": "moderate",
+    "placeIds": [
+      "susa",
+      "achaemenid-persian-empire"
+    ],
+    "personIds": [
+      "esther",
+      "mordecai",
+      "haman",
+      "ahasuerus-esther"
+    ],
+    "scripture": [
+      {
+        "book": "Esther",
+        "chapter": 1,
+        "label": "Esther 1–10"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-berlin-esther",
+      "source-susa-archaeology"
+    ],
+    "historicalNote": "Susa and the Persian court setting are historical; the named sequence of Esther’s events is not independently attested in Achaemenid archives. The atlas therefore maps setting, not external confirmation.",
+    "dating": {
+      "from": -486,
+      "to": -465,
+      "label": "If Ahasuerus is Xerxes I: reign 486–465 BCE",
+      "basis": "conventional"
+    }
+  },
+  {
+    "id": "event-ezra-journey",
+    "title": "Ezra leads a group from Babylonia to Jerusalem",
+    "summary": "Ezra 7–8 describes departure from Babylonia, assembly at the unlocated Ahava, and arrival at Jerusalem with royal authorization and temple gifts.",
+    "confidence": "moderate",
+    "placeIds": [
+      "babylon",
+      "ahava",
+      "casiphia",
+      "jerusalem",
+      "yehud-province"
+    ],
+    "personIds": [
+      "ezra",
+      "artaxerxes-i"
+    ],
+    "scripture": [
+      {
+        "book": "Ezra",
+        "chapter": 7,
+        "label": "Ezra 7:1–10",
+        "verseStart": 1,
+        "verseEnd": 10
+      },
+      {
+        "book": "Ezra",
+        "chapter": 8,
+        "label": "Ezra 8"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-grabbe-second-temple"
+    ],
+    "historicalNote": "The traditional date is 458 BCE under Artaxerxes I, but Ezra’s chronology has long been debated and alternate later datings exist. Ahava and Casiphia remain unpinned.",
+    "dating": {
+      "label": "Traditionally 458 BCE; alternate chronologies place Ezra later",
+      "basis": "conventional",
+      "note": "The atlas does not hard-code one contested Ezra absolute chronology as certain."
+    }
+  },
+  {
+    "id": "event-nehemiah-susa-jerusalem",
+    "title": "Nehemiah travels from Susa to Jerusalem",
+    "summary": "Nehemiah receives news at Susa, obtains royal permission from Artaxerxes, and travels to Jerusalem as governor.",
+    "confidence": "moderate",
+    "placeIds": [
+      "susa",
+      "jerusalem",
+      "yehud-province",
+      "beyond-river-province"
+    ],
+    "personIds": [
+      "nehemiah",
+      "artaxerxes-i"
+    ],
+    "scripture": [
+      {
+        "book": "Nehemiah",
+        "chapter": 1,
+        "label": "Nehemiah 1:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "Nehemiah",
+        "chapter": 2,
+        "label": "Nehemiah 2:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-briant-persia"
+    ],
+    "historicalNote": "The conventional date follows Artaxerxes I’s twentieth year. The actual overland itinerary is not listed and is reconstructed only as a broad imperial corridor.",
+    "dating": {
+      "from": -445,
+      "to": -444,
+      "label": "445/444 BCE (Artaxerxes I year 20, conventional chronology)",
+      "basis": "conventional"
+    }
+  },
+  {
+    "id": "event-nehemiah-walls",
+    "title": "Jerusalem’s walls rebuilt in Nehemiah",
+    "summary": "Nehemiah 2–6 narrates survey, organized rebuilding, opposition, and completion of Jerusalem’s wall in fifty-two days.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "nehemiah-wall-circuit",
+      "yehud-province"
+    ],
+    "personIds": [
+      "nehemiah",
+      "sanballat",
+      "tobiah-ammonite",
+      "geshem-arab"
+    ],
+    "scripture": [
+      {
+        "book": "Nehemiah",
+        "chapter": 2,
+        "label": "Nehemiah 2–6"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah",
+      "source-grabbe-second-temple"
+    ],
+    "historicalNote": "The narrative’s wall project is central, but the exact circuit and identification of every named gate in fifth-century archaeology remain debated, so no definitive wall polyline is drawn.",
+    "dating": {
+      "from": -445,
+      "to": -444,
+      "label": "Mid-fifth century BCE in conventional Nehemiah chronology",
+      "basis": "conventional"
+    }
+  },
+  {
+    "id": "event-torah-reading",
+    "title": "Ezra reads the Torah in Jerusalem",
+    "summary": "Nehemiah 8 depicts Ezra reading and interpreting the Torah before an assembly in Jerusalem.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "yehud-province"
+    ],
+    "personIds": [
+      "ezra",
+      "nehemiah"
+    ],
+    "scripture": [
+      {
+        "book": "Nehemiah",
+        "chapter": 8,
+        "label": "Nehemiah 8"
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-williamson-ezra-nehemiah"
+    ],
+    "historicalNote": "The event is textually located in Jerusalem; the precise archaeological location of the “Water Gate square” is not pinned.",
+    "dating": {
+      "label": "Persian period; relative sequence within Ezra–Nehemiah is debated",
+      "basis": "textual"
+    }
+  },
+  {
+    "id": "event-elephantine-407",
+    "title": "Elephantine community petitions about its YHW temple",
+    "summary": "Aramaic correspondence from Elephantine describes the local YHW temple and petitions authorities for permission to rebuild it after destruction.",
+    "confidence": "high",
+    "placeIds": [
+      "elephantine",
+      "yehud-province",
+      "samaria"
+    ],
+    "personIds": [],
+    "scripture": [],
+    "sourceIds": [
+      "source-elephantine-papyri"
+    ],
+    "historicalNote": "This is extra-biblical Persian-period context. A 407 BCE petition refers to authorities connected with Jerusalem/Judah and to sons of Sanballat in Samaria; it should not be folded into Nehemiah’s narrative as the same event.",
+    "dating": {
+      "from": -407,
+      "to": -407,
+      "label": "407 BCE temple petition",
+      "basis": "historical"
+    }
+  },
+  {
+    "id": "event-ramat-rahel-persian",
+    "title": "Ramat Rahel continues as an administrative center",
+    "summary": "Archaeology indicates continued administrative importance at Ramat Rahel across Babylonian and Persian rule.",
+    "confidence": "high",
+    "placeIds": [
+      "ramat-rahel",
+      "jerusalem"
+    ],
+    "personIds": [],
+    "scripture": [],
+    "sourceIds": [
+      "source-ramat-rahel",
+      "source-lipschits-fall-rise",
+      "source-grabbe-second-temple"
+    ],
+    "historicalNote": "This is archaeological/historical context rather than a named biblical episode.",
+    "dating": {
+      "from": -586,
+      "to": -332,
+      "label": "Babylonian through Persian-period phases",
+      "basis": "approximate"
+    }
+  },
+  {
+    "id": "event-jehoiachin-release",
+    "title": "Jehoiachin released from prison in Babylon",
+    "summary": "The closing scene of 2 Kings says Evil-merodach/Amel-Marduk elevates Jehoiachin in Babylon in the thirty-seventh year of his exile.",
+    "confidence": "moderate",
+    "placeIds": [
+      "babylon"
+    ],
+    "personIds": [
+      "jehoiachin"
+    ],
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 25,
+        "label": "2 Kings 25:27–30",
+        "verseStart": 27,
+        "verseEnd": 30
+      }
+    ],
+    "sourceIds": [
+      "source-exile-restoration-text",
+      "source-cogan-tadmor-kings",
+      "source-jehoiachin-rations"
+    ],
+    "historicalNote": "Amel-Marduk is a historical Babylonian king, but this specific release is known from the biblical narrative rather than an identified Babylonian release document.",
+    "dating": {
+      "from": -561,
+      "to": -561,
+      "label": "c. 561 BCE (conventional conversion of Jehoiachin’s 37th exile year)",
+      "basis": "conventional"
+    }
+  }
+]

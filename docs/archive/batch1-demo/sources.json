@@ -1,0 +1,9 @@
+[
+  {
+    "id": "source-batch1-methodology",
+    "title": "Batch 1 Platform Methodology",
+    "organization": "The Biblical World project",
+    "license": "Original demo data",
+    "notes": "Structural test data only. It proves the source/provenance pipeline and must be replaced or revalidated during the researched Genesis batch."
+  }
+]

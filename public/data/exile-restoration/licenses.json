@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 6,
+  "records": [
+    {
+      "id": "project-batch6",
+      "scope": "Original Batch 6 curation, summaries, dates, confidence metadata, route reconstructions, and generalized context polygons",
+      "license": "CC BY 4.0 recommended for original project data",
+      "attributionRequired": true,
+      "notes": "No proprietary atlas geometry or publication text is copied. Scholarly works and ancient documents are cited as sources rather than redistributed."
+    },
+    {
+      "id": "bsb-reference-batch6",
+      "scope": "Scripture-reference labels and canonical-sequence metadata",
+      "license": "BSB public-domain/CC0 status per user-supplied 2026 research",
+      "attributionRequired": false,
+      "notes": "Only references and original summaries are stored here. Recheck the official BSB declaration before bundling full Bible text."
+    },
+    {
+      "id": "primary-evidence-batch6",
+      "scope": "Metadata describing Babylonian, Persian, Judean, and Elephantine primary evidence",
+      "license": "Project-authored descriptive metadata; underlying artifacts/editions retain their own rights",
+      "attributionRequired": true,
+      "notes": "No scans, photographs, or modern translations from copyrighted editions are redistributed in this data pack."
+    }
+  ]
+}

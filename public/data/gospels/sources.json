@@ -1,0 +1,188 @@
+[
+  {
+    "id": "source-batch8-methodology",
+    "title": "Batch 8 Gospels / Historical Jesus Geography Curation Methodology",
+    "organization": "The Biblical World project",
+    "license": "Original project metadata",
+    "kind": "project-methodology",
+    "notes": "Separates Gospel textual geography, independently attested first-century history, archaeological sites, later pilgrimage traditions, and competing identifications. Uncertain Passion and ministry locations are left unpinned rather than forced onto a modern coordinate."
+  },
+  {
+    "id": "source-gospels-canonical",
+    "title": "Matthew, Mark, Luke, and John — canonical geographic sequence",
+    "organization": "Berean Standard Bible / canonical references",
+    "kind": "canonical-text",
+    "notes": "Batch 8 stores references and project-authored summaries, not full verse text. Synoptic and Johannine geography are not harmonized beyond what the texts explicitly support."
+  },
+  {
+    "id": "source-josephus-ant17-b8",
+    "title": "Josephus, Jewish Antiquities, Book 17",
+    "author": "Flavius Josephus",
+    "kind": "ancient-literary",
+    "dateLabel": "late first century CE",
+    "notes": "Primary literary source for Herod the Great’s final years, succession, Archelaus, and related political chronology."
+  },
+  {
+    "id": "source-josephus-ant18-b8",
+    "title": "Josephus, Jewish Antiquities, Book 18",
+    "author": "Flavius Josephus",
+    "kind": "ancient-literary",
+    "dateLabel": "late first century CE",
+    "notes": "Primary literary source for Quirinius, Roman prefects, Herod Antipas, John the Baptist, Pilate, and Caiaphas-era context. It is not treated as an archaeological source."
+  },
+  {
+    "id": "source-josephus-war1-b8",
+    "title": "Josephus, Jewish War, Book 1",
+    "author": "Flavius Josephus",
+    "kind": "ancient-literary",
+    "dateLabel": "first century CE",
+    "notes": "Source for Herodian building, fortresses, and political history."
+  },
+  {
+    "id": "source-josephus-war2-b8",
+    "title": "Josephus, Jewish War, Book 2",
+    "author": "Flavius Josephus",
+    "kind": "ancient-literary",
+    "dateLabel": "first century CE",
+    "notes": "Source for Herodian succession, Roman administration, Jerusalem, and provincial context."
+  },
+  {
+    "id": "source-philo-embassy",
+    "title": "Philo, Embassy to Gaius (Legatio ad Gaium)",
+    "author": "Philo of Alexandria",
+    "kind": "ancient-literary",
+    "dateLabel": "first century CE",
+    "notes": "Ancient literary evidence for Pilate and the use of Herod’s palace in Jerusalem in the episode of the gilded shields; relevant to praetorium debates."
+  },
+  {
+    "id": "source-tacitus-annals15",
+    "title": "Tacitus, Annals 15.44",
+    "author": "Tacitus",
+    "kind": "ancient-literary",
+    "dateLabel": "early second century CE",
+    "notes": "Roman literary reference to Christus being executed under Pontius Pilate during Tiberius’s reign. Later than the events and used as independent Roman literary context."
+  },
+  {
+    "id": "source-pilate-stone",
+    "title": "Pontius Pilate inscription from Caesarea Maritima",
+    "organization": "Caesarea archaeological context",
+    "kind": "inscription",
+    "dateLabel": "first century CE",
+    "notes": "Inscription naming Pontius Pilate and his prefectural office. It anchors Pilate historically at Caesarea; it does not identify the Jerusalem trial location."
+  },
+  {
+    "id": "source-caiaphas-ossuary",
+    "title": "“Joseph son of Caiaphas” ossuary and Jerusalem burial context",
+    "kind": "archaeology",
+    "dateLabel": "first century CE",
+    "notes": "An ornate ossuary bearing the name Yosef bar Qayafa is often associated with the high-priestly Caiaphas family. The personal identification is plausible but should not be treated as absolutely certain."
+  },
+  {
+    "id": "source-nazareth-archaeology",
+    "title": "Early Roman Nazareth archaeological synthesis",
+    "kind": "archaeology",
+    "notes": "Represents published archaeological work on early Roman settlement, domestic architecture, agricultural installations, and tombs at Nazareth. Used only to establish settlement context, not specific Gospel houses."
+  },
+  {
+    "id": "source-sepphoris-archaeology",
+    "title": "Sepphoris / Zippori archaeological publications",
+    "kind": "archaeology",
+    "notes": "Used for urban context in Lower Galilee and Antipas-era development; no Gospel visit is inferred."
+  },
+  {
+    "id": "source-cana-research",
+    "title": "Cana of Galilee identification research — Khirbet Qana and Kafr Kanna traditions",
+    "kind": "modern-scholarship",
+    "notes": "Used to preserve the distinction between the unlocated Gospel village, archaeological candidate Khirbet Qana, and later Kafr Kanna pilgrimage tradition."
+  },
+  {
+    "id": "source-capernaum-archaeology",
+    "title": "Capernaum archaeological publications",
+    "kind": "archaeology",
+    "notes": "Used for Roman-period village occupation, domestic remains, synagogue sequence, and settlement context. “House of Peter” identification is not treated as certain."
+  },
+  {
+    "id": "source-bethsaida-debate",
+    "title": "Bethsaida identification research — el-Araj and et-Tell",
+    "kind": "modern-scholarship",
+    "notes": "Represents the continuing archaeological debate over Bethsaida/Julias. Both major candidates are kept distinct and neither is promoted to established Gospel identification."
+  },
+  {
+    "id": "source-galilee-archaeology",
+    "title": "Archaeology of Roman Galilee — regional synthesis",
+    "kind": "modern-scholarship",
+    "notes": "Used for settlement, economy, roads, synagogues, and urban-rural context in first-century Galilee."
+  },
+  {
+    "id": "source-magdala-archaeology",
+    "title": "Magdala / Migdal early Roman archaeological publications",
+    "kind": "archaeology",
+    "notes": "Used for the early Roman synagogue, harbor-related remains, ritual baths, and settlement context."
+  },
+  {
+    "id": "source-gospel-geography",
+    "title": "Critical New Testament geography — Galilee, Decapolis, and Gospel place-name problems",
+    "kind": "modern-scholarship",
+    "notes": "Used for textual variants and disputed identifications such as Gerasenes/Gadarenes/Gergesenes and Aenon near Salim."
+  },
+  {
+    "id": "source-samaria-nt",
+    "title": "New Testament Samaria and Sychar geographic studies",
+    "kind": "modern-scholarship",
+    "notes": "Used for Sychar, Askar, Shechem, Jacob’s Well tradition, and Mount Gerizim context; no single Sychar identification is treated as established."
+  },
+  {
+    "id": "source-baptism-site-research",
+    "title": "Bethany beyond the Jordan / baptism-site archaeological and textual research",
+    "kind": "modern-scholarship",
+    "notes": "Used to distinguish the unlocated Johannine Bethany from the early Christian baptismal landscape at al-Maghtas/Wadi al-Kharrar."
+  },
+  {
+    "id": "source-machaerus-archaeology",
+    "title": "Machaerus archaeological publications",
+    "kind": "archaeology",
+    "notes": "Used for the established Herodian fortress at Mukawir. The connection to John the Baptist derives especially from Josephus, not from an excavated labeled prison cell."
+  },
+  {
+    "id": "source-jerusalem-nt-archaeology",
+    "title": "Second Temple Jerusalem archaeological and topographic synthesis",
+    "kind": "modern-scholarship",
+    "notes": "Used for Temple Mount environs, Herodian western palace, pools, walls, Kidron/Mount of Olives geography, and Passion topography. Specific Gospel rooms and trial stations remain uncertain."
+  },
+  {
+    "id": "source-pilate-jerusalem-debate",
+    "title": "Pilate’s Jerusalem praetorium — western palace and Antonia debate",
+    "kind": "modern-scholarship",
+    "notes": "Used to keep candidate locations distinct. The project does not equate the later Via Dolorosa route with a recovered first-century Passion itinerary."
+  },
+  {
+    "id": "source-bethesda-siloam",
+    "title": "Bethesda and Siloam archaeological publications",
+    "kind": "archaeology",
+    "notes": "Used for the excavated pool complexes and their Second Temple-period phases."
+  },
+  {
+    "id": "source-holy-sepulchre-research",
+    "title": "Church of the Holy Sepulchre — archaeology and historical topography",
+    "kind": "modern-scholarship",
+    "notes": "Used for quarry/tomb archaeology, ancient Christian tradition, and the site’s relationship to reconstructed first-century city walls. Compatibility is not presented as proof of the crucifixion or burial."
+  },
+  {
+    "id": "source-garden-tomb-research",
+    "title": "Garden Tomb archaeological assessment",
+    "kind": "modern-scholarship",
+    "notes": "Used to explain the modern tradition and the commonly accepted earlier dating of the rock-cut tomb, which weighs against identifying it as a newly cut first-century tomb."
+  },
+  {
+    "id": "source-emmaus-research",
+    "title": "Emmaus identification research — distance variants and candidate sites",
+    "kind": "modern-scholarship",
+    "notes": "Used to preserve Luke 24 manuscript-distance issues and multiple candidates without selecting one as certain."
+  },
+  {
+    "id": "source-transfiguration-geography",
+    "title": "Transfiguration mountain geographic traditions and proposals",
+    "kind": "modern-scholarship",
+    "notes": "Used to separate Mount Tabor tradition from Mount Hermon and other modern proposals; the Gospel mountain remains unnamed."
+  }
+]

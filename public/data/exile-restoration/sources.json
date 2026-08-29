@@ -1,0 +1,203 @@
+[
+  {
+    "id": "source-exile-restoration-text",
+    "title": "2 Kings 21–25; 2 Chronicles 33–36; Jeremiah; Ezekiel; Daniel; Ezra; Nehemiah; Esther; Haggai; Zechariah — biblical text and canonical geography",
+    "organization": "Berean Standard Bible / canonical references",
+    "url": "https://berean.bible/",
+    "license": "CC0 / public domain according to project research supplied 2026-08-29",
+    "verifiedAt": "2026-08-29 — licensing status supplied by user research; official-source release check still recommended",
+    "notes": "Primary source for biblical narrative sequence and place-names. Literary settings and theological claims are not automatically converted into independently verified historical events or precise modern coordinates."
+  },
+  {
+    "id": "source-batch6-methodology",
+    "title": "Batch 6 Exile, Babylon, Persia & Restoration Curation Methodology",
+    "organization": "The Biblical World project",
+    "license": "Original project metadata",
+    "notes": "Separates biblical narrative, securely dated imperial history, archaeological site identification, ancient inscriptions/tablets, literary setting, and reconstructed routes. Deportation and return lines visualize named endpoints and plausible corridors rather than recovered itineraries."
+  },
+  {
+    "id": "source-lipschits-fall-rise",
+    "title": "The Fall and Rise of Jerusalem: Judah under Babylonian Rule",
+    "author": "Oded Lipschits",
+    "organization": "Eisenbrauns",
+    "year": 2005,
+    "notes": "Historical and archaeological synthesis for Judah between the Babylonian conquest and early Persian period; used conservatively for demographic and administrative context."
+  },
+  {
+    "id": "source-cogan-tadmor-kings",
+    "title": "II Kings: A New Translation with Introduction and Commentary",
+    "author": "Mordechai Cogan and Hayim Tadmor",
+    "organization": "Anchor Bible",
+    "year": 1988,
+    "notes": "Reference for late-monarchy chronology, Assyrian/Babylonian context, and textual geography."
+  },
+  {
+    "id": "source-thompson-jeremiah",
+    "title": "The Book of Jeremiah",
+    "author": "J. A. Thompson",
+    "organization": "New International Commentary on the Old Testament",
+    "year": 1980,
+    "notes": "Used for Jeremiah narrative geography and historical setting; exact site identifications remain independently classified."
+  },
+  {
+    "id": "source-babylonian-chronicle-5",
+    "title": "Babylonian Chronicle concerning the early years of Nebuchadnezzar II (BM 21946 / Chronicle 5)",
+    "organization": "Neo-Babylonian cuneiform chronicle; standard scholarly editions/translations",
+    "dateLabel": "Early sixth century BCE; records campaigns including the capture of Jerusalem in 597 BCE",
+    "notes": "Primary extra-biblical chronological evidence for the 605 BCE Carchemish campaign sequence and Nebuchadnezzar’s capture of Jerusalem in 597 BCE. The tablet is not a biblical text and is treated independently."
+  },
+  {
+    "id": "source-jehoiachin-rations",
+    "title": "Babylonian ration tablets naming Yaukin/Jehoiachin, king of Judah, and members of his household",
+    "organization": "Neo-Babylonian administrative tablets",
+    "dateLabel": "Sixth century BCE, during the Babylonian exile",
+    "notes": "Administrative evidence for the exiled Judean king and royal household in Babylonia; it does not narrate Jerusalem’s fall."
+  },
+  {
+    "id": "source-lachish-letters",
+    "title": "Lachish Ostraca / Letters",
+    "organization": "Late Iron Age Hebrew ostraca from Lachish",
+    "dateLabel": "Early sixth century BCE, commonly associated with the final Babylonian crisis",
+    "notes": "Primary epigraphic evidence from Judah near the end of the monarchy. Letter 4 famously mentions watching for Lachish signals and not seeing Azekah, but precise historical synchronization is interpreted cautiously."
+  },
+  {
+    "id": "source-ketef-hinnom",
+    "title": "Ketef Hinnom silver amulets",
+    "organization": "Archaeological finds from Jerusalem",
+    "dateLabel": "Late seventh to early sixth century BCE in common archaeological dating",
+    "notes": "Silver amulets bearing wording closely related to the priestly blessing. They provide important evidence for pre-exilic/later Iron Age textual and religious context without identifying a biblical owner."
+  },
+  {
+    "id": "source-block-ezekiel",
+    "title": "The Book of Ezekiel, Volumes 1–2",
+    "author": "Daniel I. Block",
+    "organization": "New International Commentary on the Old Testament",
+    "year": 1997,
+    "notes": "Reference for Ezekiel’s chronology, Babylonian setting, visions, and the Kebar/Tel-abib geography. Visionary locations are kept distinct from ordinary terrestrial coordinates."
+  },
+  {
+    "id": "source-al-yahudu",
+    "title": "Documents of Judean Exiles and West Semites in Babylonia / Al-Yahudu archive scholarship",
+    "organization": "Published Neo-Babylonian and Achaemenid cuneiform tablets",
+    "dateLabel": "Sixth–fifth centuries BCE",
+    "notes": "Documents Judean communities integrated into rural Babylonian economic life. The exact findspot of Al-Yahudu is not securely known, so the atlas does not pin it as a modern archaeological site."
+  },
+  {
+    "id": "source-collins-daniel",
+    "title": "Daniel: A Commentary on the Book of Daniel",
+    "author": "John J. Collins",
+    "organization": "Hermeneia",
+    "year": 1993,
+    "notes": "Critical reference for the literary and historical settings of Daniel. The atlas maps named imperial places while clearly separating literary setting from external corroboration of individual court narratives."
+  },
+  {
+    "id": "source-nabonidus-chronicle",
+    "title": "Nabonidus Chronicle",
+    "organization": "Babylonian cuneiform chronicle",
+    "dateLabel": "Sixth century BCE; records events surrounding the Persian conquest of Babylon in 539 BCE",
+    "notes": "Primary evidence for the fall of Babylon to Cyrus’s forces. It does not mention Daniel or the biblical banquet narrative."
+  },
+  {
+    "id": "source-cyrus-cylinder",
+    "title": "Cyrus Cylinder",
+    "organization": "Achaemenid royal inscription from Babylon",
+    "dateLabel": "After Cyrus II’s conquest of Babylon, 539 BCE",
+    "notes": "Royal inscription describing Cyrus’s restoration of cults and displaced divine images/communities in Babylonian ideological language. It does not mention Judah, Jerusalem, the Judeans, or the Jerusalem temple by name."
+  },
+  {
+    "id": "source-behistun",
+    "title": "Behistun Inscription of Darius I",
+    "organization": "Achaemenid royal inscription",
+    "dateLabel": "Late sixth century BCE, early reign of Darius I",
+    "notes": "Primary royal evidence for Darius I’s accession, revolts, and imperial ideology. Used for Persian imperial context, not as direct evidence for Haggai or Zechariah."
+  },
+  {
+    "id": "source-briant-persia",
+    "title": "From Cyrus to Alexander: A History of the Persian Empire",
+    "author": "Pierre Briant",
+    "organization": "Eisenbrauns",
+    "year": 2002,
+    "notes": "Major historical synthesis for Achaemenid institutions, chronology, royal centers, and western imperial administration."
+  },
+  {
+    "id": "source-kuhrt-persia",
+    "title": "The Persian Empire: A Corpus of Sources from the Achaemenid Period",
+    "author": "Amélie Kuhrt",
+    "organization": "Routledge",
+    "year": 2007,
+    "notes": "Sourcebook for Achaemenid history used to cross-check royal chronology and imperial context."
+  },
+  {
+    "id": "source-williamson-ezra-nehemiah",
+    "title": "Ezra, Nehemiah",
+    "author": "H. G. M. Williamson",
+    "organization": "Word Biblical Commentary",
+    "year": 1985,
+    "notes": "Reference for Persian-period Judah, return traditions, Ezra/Nehemiah chronology, geography, and the uncertainty surrounding Ezra’s absolute date."
+  },
+  {
+    "id": "source-grabbe-second-temple",
+    "title": "A History of the Jews and Judaism in the Second Temple Period, Volume 1: Yehud",
+    "author": "Lester L. Grabbe",
+    "organization": "T&T Clark",
+    "year": 2004,
+    "notes": "Historical synthesis for Persian-period Yehud, administrative structures, social history, and source criticism."
+  },
+  {
+    "id": "source-berlin-esther",
+    "title": "Esther",
+    "author": "Adele Berlin",
+    "organization": "The JPS Bible Commentary",
+    "year": 2001,
+    "notes": "Reference for Esther’s Persian court setting, language, literary features, and the common identification of Ahasuerus with Xerxes I; individual narrative events are not claimed as independently attested."
+  },
+  {
+    "id": "source-susa-archaeology",
+    "title": "Susa archaeological and Achaemenid palace scholarship",
+    "organization": "Long-running French/Iranian archaeological research tradition",
+    "notes": "Used for the secure location of Susa and its Achaemenid palace complex. The atlas does not identify a specific excavated room as the scene of an Esther episode."
+  },
+  {
+    "id": "source-elephantine-papyri",
+    "title": "Elephantine Aramaic papyri and letters",
+    "organization": "Fifth-century BCE Jewish/Judean diaspora documents from Elephantine",
+    "dateLabel": "Fifth century BCE; temple petition correspondence includes 407 BCE",
+    "notes": "Independent evidence for a Judean/Jewish community and temple at Elephantine under Persian rule. This is historical context rather than a biblical narrative episode."
+  },
+  {
+    "id": "source-ramat-rahel",
+    "title": "Ramat Rahel archaeological research — Babylonian and Persian-period administrative center",
+    "organization": "Modern archaeological excavation and publication tradition",
+    "notes": "Used conservatively for the important administrative complex south of Jerusalem. The site is not assigned a named biblical governor without inscriptional evidence."
+  },
+  {
+    "id": "source-esarhaddon-manasseh",
+    "title": "Neo-Assyrian royal inscriptions naming Manasseh of Judah",
+    "organization": "Esarhaddon/Ashurbanipal-era royal inscription tradition",
+    "dateLabel": "Seventh century BCE",
+    "notes": "Assyrian royal lists include Manasseh, king of Judah, among western vassal rulers. This independently anchors Manasseh in the Assyrian imperial world without confirming every detail of 2 Kings or 2 Chronicles."
+  },
+  {
+    "id": "source-fall-nineveh-chronicle",
+    "title": "Babylonian Chronicle of the Fall of Nineveh (commonly ABC 3 / BM 21901)",
+    "organization": "Babylonian cuneiform chronicle",
+    "dateLabel": "Records the 612 BCE capture and destruction of Nineveh",
+    "notes": "Primary Mesopotamian evidence for the coalition campaign that ended Nineveh as the Neo-Assyrian royal capital. It is historical context for Nahum, not proof of the date of composition of the book."
+  },
+  {
+    "id": "source-roberts-nahum-hab-zeph",
+    "title": "Nahum, Habakkuk, and Zephaniah: A Commentary",
+    "author": "J. J. M. Roberts",
+    "organization": "Old Testament Library",
+    "year": 1991,
+    "notes": "Used for the historical-literary setting and geographic references of the late seventh-century prophetic corpus; exact composition dates remain debated."
+  },
+  {
+    "id": "source-raabe-obadiah",
+    "title": "Obadiah: A New Translation with Introduction and Commentary",
+    "author": "Paul R. Raabe",
+    "organization": "Anchor Bible",
+    "year": 1996,
+    "notes": "Reference for Obadiah’s Edom/Jerusalem geography and the long-standing debate over its historical setting and date."
+  }
+]

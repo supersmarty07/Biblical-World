@@ -1,0 +1,828 @@
+[
+  {
+    "id": "story-alexander-hellenistic",
+    "title": "Alexander & the Hellenistic Turn",
+    "subtitle": "From Achaemenid rule to the Macedonian conquest of the Levant and Egypt.",
+    "theme": "Hellenistic",
+    "chapters": [
+      {
+        "id": "alex-pella",
+        "title": "Pella and Macedon",
+        "eyebrow": "336–334 BCE · Macedonian launch point",
+        "description": "Begin at Pella, the royal center from which Alexander’s Asian campaign emerged.",
+        "scripture": [],
+        "placeId": "pella-macedonia",
+        "contextYear": -334,
+        "camera": {
+          "center": [
+            22.52,
+            40.76
+          ],
+          "zoom": 5.4,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "alex-coast",
+        "title": "Tyre and Gaza",
+        "eyebrow": "332 BCE · eastern Mediterranean sieges",
+        "description": "Alexander’s conquest of Tyre and Gaza is securely historical. The app does not add the much later Josephus story of Alexander in Jerusalem as an established event.",
+        "scripture": [],
+        "placeId": "tyre",
+        "journeyId": "journey-alexander-levant",
+        "contextYear": -332,
+        "camera": {
+          "center": [
+            35.05,
+            32.7
+          ],
+          "zoom": 5.3,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "alex-egypt",
+        "title": "Egypt and Alexandria",
+        "eyebrow": "332–331 BCE · new Mediterranean center",
+        "description": "The campaign enters Egypt and Alexandria is founded, setting up the Ptolemaic world in which a major Jewish diaspora develops.",
+        "scripture": [],
+        "placeId": "alexandria-egypt",
+        "contextYear": -331,
+        "camera": {
+          "center": [
+            29.92,
+            31.2
+          ],
+          "zoom": 6.0,
+          "pitch": 20
+        }
+      }
+    ],
+    "personId": "alexander-iii"
+  },
+  {
+    "id": "story-ptolemaic-judea",
+    "title": "Ptolemaic Judea & Alexandria",
+    "subtitle": "Third-century BCE Judea between Jerusalem, Egyptian rule, documentary papyri, and the Greek-speaking diaspora.",
+    "theme": "Ptolemaic",
+    "chapters": [
+      {
+        "id": "ptol-alexandria",
+        "title": "Alexandria",
+        "eyebrow": "Ptolemaic capital · Jewish diaspora",
+        "description": "Alexandria becomes a major Hellenistic metropolis and Jewish intellectual center.",
+        "scripture": [],
+        "placeId": "alexandria-egypt",
+        "contextYear": -270,
+        "camera": {
+          "center": [
+            29.92,
+            31.2
+          ],
+          "zoom": 6.2,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "ptol-torah",
+        "title": "Greek Torah",
+        "eyebrow": "Third century BCE · translation process",
+        "description": "The Greek Torah emerges in Ptolemaic Egypt. The familiar seventy-two-translator story is not treated as stenographic history.",
+        "scripture": [],
+        "placeId": "alexandria-egypt",
+        "contextYear": -250,
+        "camera": {
+          "center": [
+            29.92,
+            31.2
+          ],
+          "zoom": 7.2,
+          "pitch": 10
+        }
+      },
+      {
+        "id": "ptol-jerusalem",
+        "title": "Jerusalem under Ptolemaic hegemony",
+        "eyebrow": "301–200 BCE · generalized political context",
+        "description": "The timeline shows a Ptolemaic sphere around Judea, but not a year-exact provincial border.",
+        "scripture": [],
+        "placeId": "jerusalem",
+        "contextYear": -250,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 6.8,
+          "pitch": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-seleucid-takeover",
+    "title": "From Ptolemy to Seleucus",
+    "subtitle": "Panium, Antiochus III, temple administration, and the changing imperial framework before the revolt.",
+    "theme": "Seleucid",
+    "chapters": [
+      {
+        "id": "sel-panium",
+        "title": "Panium",
+        "eyebrow": "200 BCE · Ptolemaic–Seleucid war",
+        "description": "Antiochus III’s victory near Panium shifts Coele-Syria and Judea into Seleucid control.",
+        "scripture": [],
+        "placeId": "panium",
+        "contextYear": -200,
+        "camera": {
+          "center": [
+            35.694,
+            33.249
+          ],
+          "zoom": 7,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "sel-antioch",
+        "title": "Antioch",
+        "eyebrow": "Seleucid royal center",
+        "description": "Antioch is the political center of the dynasty now ruling Judea.",
+        "scripture": [],
+        "placeId": "antioch-orontes",
+        "contextYear": -190,
+        "camera": {
+          "center": [
+            36.161,
+            36.202
+          ],
+          "zoom": 6.5,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "sel-heliodorus",
+        "title": "Temple administration",
+        "eyebrow": "Seleucus IV · inscriptional context",
+        "description": "Seleucid administrative inscriptions illuminate temple oversight but do not independently verify the miraculous scene in 2 Maccabees 3.",
+        "scripture": [],
+        "placeId": "jerusalem",
+        "contextYear": -178,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8.2,
+          "pitch": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-antiochus-crisis",
+    "title": "Antiochus IV & the Jerusalem Crisis",
+    "subtitle": "High-priestly conflict, Seleucid intervention, the Acra, and the crisis that precipitated revolt.",
+    "theme": "Seleucid",
+    "chapters": [
+      {
+        "id": "ant4-antioch",
+        "title": "Antiochus IV",
+        "eyebrow": "175 BCE · Seleucid court",
+        "description": "Antiochus IV comes to the throne in a dynasty already under Roman and fiscal pressures.",
+        "scripture": [],
+        "placeId": "antioch-orontes",
+        "journeyId": "journey-antiochus-jerusalem",
+        "contextYear": -175,
+        "camera": {
+          "center": [
+            36.161,
+            36.202
+          ],
+          "zoom": 6.2,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "ant4-jerusalem",
+        "title": "Jerusalem divided",
+        "eyebrow": "169–167 BCE · literary sources differ in emphasis",
+        "description": "Onias III, Jason and Menelaus belong to a high-priestly and civic crisis remembered differently by 1 and 2 Maccabees.",
+        "scripture": [],
+        "placeId": "jerusalem",
+        "contextYear": -168,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 9,
+          "pitch": 40
+        },
+        "textualReferences": [
+          {
+            "label": "1 Maccabees 1",
+            "sourceId": "source-1-maccabees",
+            "kind": "deuterocanonical"
+          },
+          {
+            "label": "2 Maccabees 4–6",
+            "sourceId": "source-2-maccabees",
+            "kind": "deuterocanonical"
+          }
+        ]
+      },
+      {
+        "id": "ant4-acra",
+        "title": "The Acra problem",
+        "eyebrow": "Seleucid garrison · exact footprint disputed",
+        "description": "The Acra is central to the Maccabean narratives, but the app refuses to draw a definitive fortress footprint until competing archaeological proposals are explicitly modeled.",
+        "scripture": [],
+        "placeId": "jerusalem-acra",
+        "contextYear": -167,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 10,
+          "pitch": 45
+        }
+      }
+    ],
+    "personId": "antiochus-iv"
+  },
+  {
+    "id": "story-maccabean-revolt",
+    "title": "The Maccabean Revolt",
+    "subtitle": "Modein, Emmaus, temple rededication, Beth-zechariah, Adasa, and Elasa.",
+    "theme": "Maccabean",
+    "chapters": [
+      {
+        "id": "mac-modein",
+        "title": "Modein",
+        "eyebrow": "167 BCE · origin remembered, site disputed",
+        "description": "The revolt begins at Modein in 1 Maccabees. The town remains unpinned because its exact archaeological identification is debated.",
+        "scripture": [],
+        "placeId": "modein",
+        "contextYear": -167,
+        "camera": {
+          "center": [
+            35.0,
+            31.95
+          ],
+          "zoom": 7,
+          "pitch": 15
+        },
+        "textualReferences": [
+          {
+            "label": "1 Maccabees 2",
+            "sourceId": "source-1-maccabees",
+            "kind": "deuterocanonical"
+          }
+        ]
+      },
+      {
+        "id": "mac-emmaus",
+        "title": "Emmaus",
+        "eyebrow": "165 BCE · western approaches",
+        "description": "Judas defeats a Seleucid force near Emmaus; the site is a strong Maccabean-period identification.",
+        "scripture": [],
+        "placeId": "emmaus-nicopolis",
+        "journeyId": "journey-judas-emmaus-jerusalem",
+        "contextYear": -165,
+        "camera": {
+          "center": [
+            34.99,
+            31.839
+          ],
+          "zoom": 8,
+          "pitch": 25
+        },
+        "textualReferences": [
+          {
+            "label": "1 Maccabees 3:38–4:25",
+            "sourceId": "source-1-maccabees",
+            "kind": "deuterocanonical"
+          }
+        ]
+      },
+      {
+        "id": "mac-rededication",
+        "title": "Jerusalem rededicated",
+        "eyebrow": "164 BCE · temple-centered memory",
+        "description": "The temple is rededicated, later commemorated as Hanukkah. No excavated surface is labeled as the exact altar of 164 BCE.",
+        "scripture": [],
+        "placeId": "temple-mount",
+        "contextYear": -164,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 10,
+          "pitch": 45
+        },
+        "textualReferences": [
+          {
+            "label": "1 Maccabees 4:36–59",
+            "sourceId": "source-1-maccabees",
+            "kind": "deuterocanonical"
+          },
+          {
+            "label": "2 Maccabees 10:1–8",
+            "sourceId": "source-2-maccabees",
+            "kind": "deuterocanonical"
+          }
+        ]
+      },
+      {
+        "id": "mac-bethz",
+        "title": "Beth-zechariah",
+        "eyebrow": "162 BCE · candidate battlefield",
+        "description": "A major Seleucid counterattack includes war elephants in 1 Maccabees; the battlefield anchor remains a candidate.",
+        "scripture": [],
+        "placeId": "beth-zechariah",
+        "contextYear": -162,
+        "camera": {
+          "center": [
+            35.128,
+            31.673
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "mac-elasa",
+        "title": "Judas dies",
+        "eyebrow": "160 BCE · exact locality unknown",
+        "description": "The final battle at Elasa is historically narrated but geographically unresolved, so the story zooms to the broader region rather than inventing a pin.",
+        "scripture": [],
+        "placeId": "elasa",
+        "contextYear": -160,
+        "camera": {
+          "center": [
+            35.2,
+            31.95
+          ],
+          "zoom": 6.8,
+          "pitch": 15
+        }
+      }
+    ],
+    "personId": "judas-maccabeus"
+  },
+  {
+    "id": "story-hasmonean-state",
+    "title": "From Revolt to Hasmonean State",
+    "subtitle": "Jonathan, Simon, John Hyrcanus, territorial expansion, kingship, and the dynasty’s internal tensions.",
+    "theme": "Hasmonean",
+    "chapters": [
+      {
+        "id": "hasm-jonathan",
+        "title": "Jonathan and high priesthood",
+        "eyebrow": "152 BCE · Seleucid dynastic politics",
+        "description": "Jonathan’s rise shows the revolt becoming institutional power within a still-Seleucid diplomatic world.",
+        "scripture": [],
+        "placeId": "jerusalem",
+        "contextYear": -152,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 7.2,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "hasm-simon",
+        "title": "Simon and independence",
+        "eyebrow": "142–141 BCE · transition, not a single instant",
+        "description": "Tribute remission and evacuation of the Acra mark stages in the emergence of effective independence.",
+        "scripture": [],
+        "placeId": "jerusalem-acra",
+        "contextYear": -141,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 9,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "hasm-idumea",
+        "title": "Idumea incorporated",
+        "eyebrow": "c. 125 BCE · identity and empire",
+        "description": "Maresha and Adora anchor the southern expansion. Josephus’s account of compelled customs is presented as later literary testimony, not a modern ethnicity polygon.",
+        "scripture": [],
+        "placeId": "maresa",
+        "contextYear": -125,
+        "camera": {
+          "center": [
+            34.902,
+            31.599
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "hasm-gerizim",
+        "title": "Gerizim sanctuary destroyed",
+        "eyebrow": "c. 111/110 BCE · archaeology + Josephus",
+        "description": "A major Hellenistic sanctuary is archaeologically real; assigning its destruction precisely to John Hyrcanus is a strong but interpretive correlation.",
+        "scripture": [],
+        "placeId": "mount-gerizim-sanctuary",
+        "contextYear": -110,
+        "camera": {
+          "center": [
+            35.273,
+            32.199
+          ],
+          "zoom": 9,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "hasm-kings",
+        "title": "Kingship and expansion",
+        "eyebrow": "104–76 BCE · changing borders",
+        "description": "Aristobulus I and Alexander Jannaeus turn priestly rule into monarchy; the political map changes repeatedly rather than displaying one permanent Hasmonean border.",
+        "scripture": [],
+        "placeId": "jerusalem",
+        "contextYear": -90,
+        "camera": {
+          "center": [
+            35.2,
+            31.8
+          ],
+          "zoom": 5.8,
+          "pitch": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-second-temple-diversity",
+    "title": "Second Temple Judaism Beyond One Map",
+    "subtitle": "Jerusalem, Gerizim, Alexandria, Leontopolis, Qumran, manuscripts, and competing communities.",
+    "theme": "Diversity",
+    "chapters": [
+      {
+        "id": "div-jerusalem",
+        "title": "Jerusalem temple",
+        "eyebrow": "Central, but not alone",
+        "description": "Jerusalem remains the major Judean cultic center, yet Second Temple Jewish and Samaritan life is geographically diverse.",
+        "scripture": [],
+        "placeId": "temple-mount",
+        "contextYear": -100,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8.5,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "div-gerizim",
+        "title": "Mount Gerizim",
+        "eyebrow": "Samaritan sanctuary · archaeological precinct",
+        "description": "Gerizim provides a securely excavated alternative sacred center with its own inscriptions and community history.",
+        "scripture": [],
+        "placeId": "mount-gerizim-sanctuary",
+        "contextYear": -150,
+        "camera": {
+          "center": [
+            35.273,
+            32.199
+          ],
+          "zoom": 8.5,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "div-alex",
+        "title": "Alexandria",
+        "eyebrow": "Diaspora metropolis",
+        "description": "Greek-speaking Jewish life flourishes in Ptolemaic and later Roman Alexandria.",
+        "scripture": [],
+        "placeId": "alexandria-egypt",
+        "contextYear": -100,
+        "camera": {
+          "center": [
+            29.92,
+            31.2
+          ],
+          "zoom": 6,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "div-leontopolis",
+        "title": "Leontopolis",
+        "eyebrow": "Onias temple tradition · site precision limited",
+        "description": "Josephus describes another Jewish temple in Egypt; the atlas treats Tell el-Yahudiya as a candidate region rather than a recovered sanctuary footprint.",
+        "scripture": [],
+        "placeId": "leontopolis-jewish-temple",
+        "contextYear": -150,
+        "camera": {
+          "center": [
+            31.016,
+            30.29
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "div-qumran",
+        "title": "Qumran and the scrolls",
+        "eyebrow": "Late Second Temple · archaeology without forced sect label",
+        "description": "The site and manuscripts are real; whether “Qumran = Essenes” explains every feature remains an interpretive model rather than a map certainty.",
+        "scripture": [],
+        "placeId": "qumran",
+        "contextYear": -75,
+        "camera": {
+          "center": [
+            35.459,
+            31.741
+          ],
+          "zoom": 9,
+          "pitch": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-nabataea-idumea",
+    "title": "Nabataea, Idumea & the Southern Corridors",
+    "subtitle": "Petra, Maresha, caravan trade, Idumean incorporation, and the background to the Herodian family.",
+    "theme": "Nabataean",
+    "chapters": [
+      {
+        "id": "nab-petra",
+        "title": "Petra",
+        "eyebrow": "Nabataean kingdom · monumental growth through time",
+        "description": "Petra anchors Nabataean power, but the map does not project later monumental facades unchanged into the second century BCE.",
+        "scripture": [],
+        "placeId": "petra",
+        "journeyId": "journey-nabataean-incense",
+        "contextYear": -100,
+        "camera": {
+          "center": [
+            35.444,
+            30.328
+          ],
+          "zoom": 7,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "nab-avdat",
+        "title": "Across the Negev",
+        "eyebrow": "Caravan network · generalized corridor",
+        "description": "Avdat belongs to a wider network connecting Arabia, the Negev and Mediterranean ports such as Gaza.",
+        "scripture": [],
+        "placeId": "avdat",
+        "journeyId": "journey-nabataean-incense",
+        "contextYear": -100,
+        "camera": {
+          "center": [
+            34.773,
+            30.794
+          ],
+          "zoom": 6.5,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "nab-idumea",
+        "title": "Idumea",
+        "eyebrow": "Southern Judea · identities in transition",
+        "description": "Maresha’s archaeology shows a diverse Hellenistic city before Hasmonean incorporation; later Herodian ancestry emerges from this Idumean context.",
+        "scripture": [],
+        "placeId": "maresa",
+        "contextYear": -125,
+        "camera": {
+          "center": [
+            34.902,
+            31.599
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-rome-enters-judea",
+    "title": "Rome Enters Judea",
+    "subtitle": "Hasmonean civil war, Pompey, Roman Syria, and the end of independent Hasmonean kingship.",
+    "theme": "Roman",
+    "chapters": [
+      {
+        "id": "rome-civil",
+        "title": "Dynastic conflict",
+        "eyebrow": "67–63 BCE · Hyrcanus II vs Aristobulus II",
+        "description": "A Hasmonean succession dispute draws in neighboring and then Roman power.",
+        "scripture": [],
+        "placeId": "jerusalem",
+        "contextYear": -65,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 6.5,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "rome-damascus",
+        "title": "Pompey in Syria",
+        "eyebrow": "64/63 BCE · Roman eastern reorganization",
+        "description": "Pompey’s Syrian command provides the regional base for intervention.",
+        "scripture": [],
+        "placeId": "damascus",
+        "journeyId": "journey-pompey-damascus-jerusalem",
+        "contextYear": -64,
+        "camera": {
+          "center": [
+            36.29,
+            33.51
+          ],
+          "zoom": 5.6,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "rome-jerusalem",
+        "title": "Jerusalem captured",
+        "eyebrow": "63 BCE · siege and political rupture",
+        "description": "Pompey captures Jerusalem. The event is secure; exact siege lines remain a later-source reconstruction.",
+        "scripture": [],
+        "placeId": "jerusalem",
+        "journeyId": "journey-pompey-damascus-jerusalem",
+        "contextYear": -63,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 9,
+          "pitch": 40
+        },
+        "textualReferences": [
+          {
+            "label": "Josephus, Antiquities 14",
+            "sourceId": "source-josephus-ant14",
+            "kind": "ancient-literary"
+          }
+        ]
+      },
+      {
+        "id": "rome-neworder",
+        "title": "A Roman political world",
+        "eyebrow": "After 63 BCE · client politics",
+        "description": "Hyrcanus II remains high priest while Antipater grows in influence inside a Roman-dominated eastern Mediterranean.",
+        "scripture": [],
+        "placeId": "jerusalem",
+        "contextYear": -55,
+        "camera": {
+          "center": [
+            35.0,
+            32.0
+          ],
+          "zoom": 5.2,
+          "pitch": 10
+        }
+      }
+    ],
+    "personId": "pompey"
+  },
+  {
+    "id": "story-herod-transition",
+    "title": "Herod & the Roman Transition",
+    "subtitle": "Rome, Jerusalem, Actium, Rhodes, and the architecture that forms the immediate background to the Gospels.",
+    "theme": "Herodian",
+    "chapters": [
+      {
+        "id": "herod-rome",
+        "title": "Named king in Rome",
+        "eyebrow": "40 BCE · appointment before possession",
+        "description": "The Senate recognizes Herod as king, but he does not yet control Jerusalem.",
+        "scripture": [],
+        "placeId": "rome",
+        "contextYear": -40,
+        "camera": {
+          "center": [
+            12.486,
+            41.893
+          ],
+          "zoom": 5.8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "herod-capture",
+        "title": "Jerusalem, 37 BCE",
+        "eyebrow": "Roman-backed conquest",
+        "description": "Herod captures Jerusalem and removes Antigonus II, beginning effective rule.",
+        "scripture": [],
+        "placeId": "jerusalem",
+        "journeyId": "journey-herod-return",
+        "contextYear": -37,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8,
+          "pitch": 35
+        },
+        "textualReferences": [
+          {
+            "label": "Josephus, Jewish War 1",
+            "sourceId": "source-josephus-war1",
+            "kind": "ancient-literary"
+          }
+        ]
+      },
+      {
+        "id": "herod-actium",
+        "title": "Actium",
+        "eyebrow": "31 BCE · patronage system overturned",
+        "description": "Octavian defeats Antony and Cleopatra; Herod must renegotiate his position with the victor.",
+        "scripture": [],
+        "placeId": "actium",
+        "contextYear": -31,
+        "camera": {
+          "center": [
+            20.75,
+            38.95
+          ],
+          "zoom": 5.2,
+          "pitch": 10
+        }
+      },
+      {
+        "id": "herod-rhodes",
+        "title": "Rhodes",
+        "eyebrow": "30 BCE · Josephus’s political meeting",
+        "description": "Josephus describes Herod meeting Octavian on Rhodes; the maritime path is schematic.",
+        "scripture": [],
+        "placeId": "rhodes",
+        "journeyId": "journey-herod-rhodes",
+        "contextYear": -30,
+        "camera": {
+          "center": [
+            28.228,
+            36.451
+          ],
+          "zoom": 6.2,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "herod-temple",
+        "title": "Jerusalem rebuilt",
+        "eyebrow": "20/19 BCE onward · Herodian temple project",
+        "description": "Herod’s expansion transforms the Temple Mount. The platform is archaeological fact; sanctuary reconstructions remain models.",
+        "scripture": [],
+        "placeId": "temple-mount",
+        "contextYear": -20,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 10,
+          "pitch": 50
+        }
+      },
+      {
+        "id": "herod-caesarea",
+        "title": "Caesarea Maritima",
+        "eyebrow": "c. 10–9 BCE · harbor city",
+        "description": "Caesarea embodies Herod’s Roman-facing monumental program and becomes essential for the Acts-era map to come.",
+        "scripture": [],
+        "placeId": "caesarea-maritima",
+        "contextYear": -10,
+        "camera": {
+          "center": [
+            34.892,
+            32.501
+          ],
+          "zoom": 8,
+          "pitch": 30
+        }
+      }
+    ],
+    "personId": "herod-great"
+  }
+]

@@ -1,0 +1,1159 @@
+[
+  {
+    "id": "story-ruth",
+    "title": "Ruth — From Moab to Bethlehem",
+    "subtitle": "Migration, harvest, kinship, and the geographic bridge into the Davidic genealogy.",
+    "personId": "ruth",
+    "theme": "Ruth",
+    "chapters": [
+      {
+        "id": "ruth-moab",
+        "title": "A family in Moab",
+        "eyebrow": "Ruth 1 · Transjordan setting",
+        "description": "The story opens with a Bethlehemite family living in Moab. The atlas shows Moab only as a broad historical region, not a fixed modern border.",
+        "scripture": [
+          {
+            "book": "Ruth",
+            "chapter": 1,
+            "verseStart": 1,
+            "verseEnd": 5,
+            "label": "Ruth 1:1–5"
+          }
+        ],
+        "placeId": "moab",
+        "camera": {
+          "center": [
+            35.72,
+            31.55
+          ],
+          "zoom": 6,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "ruth-road",
+        "title": "Return toward Bethlehem",
+        "eyebrow": "Animated journey · reconstructed",
+        "description": "Ruth and Naomi travel west. Scripture does not name their exact road or Jordan crossing, so the line is intentionally schematic.",
+        "scripture": [
+          {
+            "book": "Ruth",
+            "chapter": 1,
+            "verseStart": 6,
+            "verseEnd": 22,
+            "label": "Ruth 1:6–22"
+          }
+        ],
+        "journeyId": "journey-ruth-moab-bethlehem",
+        "camera": {
+          "center": [
+            35.45,
+            31.68
+          ],
+          "zoom": 6,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "ruth-bethlehem",
+        "title": "Bethlehem",
+        "eyebrow": "Ruth 2–4 · established town",
+        "description": "The narrative’s fields and gate scenes belong to Bethlehem, but no excavated field can be assigned to Boaz.",
+        "scripture": [
+          {
+            "book": "Ruth",
+            "chapter": 2,
+            "label": "Ruth 2"
+          },
+          {
+            "book": "Ruth",
+            "chapter": 4,
+            "label": "Ruth 4"
+          }
+        ],
+        "placeId": "bethlehem-judah",
+        "camera": {
+          "center": [
+            35.202,
+            31.705
+          ],
+          "zoom": 9,
+          "pitch": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-samuel-ark",
+    "title": "Samuel & the Ark — Shiloh to Kiriath-jearim",
+    "subtitle": "Sanctuary, battle, Philistine cities, and the return of the ark.",
+    "personId": "samuel",
+    "theme": "Samuel",
+    "chapters": [
+      {
+        "id": "sam-shiloh",
+        "title": "Shiloh sanctuary setting",
+        "eyebrow": "1 Samuel 1–3 · established site",
+        "description": "Samuel’s early narrative is centered on Shiloh. Archaeology illuminates the settlement but does not expose a labeled tabernacle.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 1,
+            "label": "1 Samuel 1"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 3,
+            "label": "1 Samuel 3"
+          }
+        ],
+        "placeId": "shiloh",
+        "camera": {
+          "center": [
+            35.29,
+            32.055
+          ],
+          "zoom": 8,
+          "pitch": 28
+        }
+      },
+      {
+        "id": "sam-ebenezer",
+        "title": "Aphek and unlocated Ebenezer",
+        "eyebrow": "1 Samuel 4 · split certainty",
+        "description": "Philistine Aphek is secure; Israelite Ebenezer is not. The map refuses to collapse those different confidence levels.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 4,
+            "label": "1 Samuel 4"
+          }
+        ],
+        "placeId": "aphek-samuel",
+        "camera": {
+          "center": [
+            34.931,
+            32.105
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "sam-ark-route",
+        "title": "The ark through Philistia",
+        "eyebrow": "Animated journey · textual city sequence",
+        "description": "Ashdod, Gath, Ekron, Beth-shemesh, and Kiriath-jearim form a mappable sequence; the connecting paths are reconstructed.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 5,
+            "label": "1 Samuel 5"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 6,
+            "label": "1 Samuel 6"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 7,
+            "verseStart": 1,
+            "verseEnd": 2,
+            "label": "1 Samuel 7:1–2"
+          }
+        ],
+        "journeyId": "journey-ark-philistia",
+        "camera": {
+          "center": [
+            34.95,
+            31.85
+          ],
+          "zoom": 6,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "sam-kj",
+        "title": "Kiriath-jearim",
+        "eyebrow": "1 Samuel 7 · probable identification",
+        "description": "The Deir el-Azar hill is a leading identification, but the atlas still labels it probable rather than pretending archaeology names Abinadab’s house.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 7,
+            "verseStart": 1,
+            "verseEnd": 2,
+            "label": "1 Samuel 7:1–2"
+          }
+        ],
+        "placeId": "kiriath-jearim",
+        "camera": {
+          "center": [
+            35.101,
+            31.805
+          ],
+          "zoom": 9,
+          "pitch": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-saul",
+    "title": "Saul — Gibeah to Gilboa",
+    "subtitle": "The first monarchy narrative from Benjamin to the final Philistine campaign.",
+    "personId": "saul",
+    "theme": "Saul",
+    "chapters": [
+      {
+        "id": "saul-gibeah",
+        "title": "Gibeah of Saul",
+        "eyebrow": "1 Samuel 10 · probable site",
+        "description": "Tell el-Ful is a leading identification for Gibeah. The site is useful as orientation without turning its remains into Saul’s palace by default.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 10,
+            "verseStart": 26,
+            "verseEnd": 26,
+            "label": "1 Samuel 10:26"
+          }
+        ],
+        "placeId": "gibeah-benjamin",
+        "camera": {
+          "center": [
+            35.23,
+            31.82
+          ],
+          "zoom": 9,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "saul-mizpah",
+        "title": "Public selection at Mizpah",
+        "eyebrow": "1 Samuel 10 · probable site",
+        "description": "Mizpah is commonly identified with Tell en-Nasbeh. Samuel’s Gilgal references remain unpinned because they are less secure.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 10,
+            "verseStart": 17,
+            "verseEnd": 27,
+            "label": "1 Samuel 10:17–27"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 11,
+            "verseStart": 14,
+            "verseEnd": 15,
+            "label": "1 Samuel 11:14–15"
+          }
+        ],
+        "placeId": "mizpah-benjamin",
+        "camera": {
+          "center": [
+            35.216,
+            31.885
+          ],
+          "zoom": 8,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "saul-michmash",
+        "title": "The Michmash pass",
+        "eyebrow": "1 Samuel 13–14 · probable landscape",
+        "description": "Mukhmas/Jabaʿ and the Wadi Suweinit ravine provide a strong topographic setting for the Jonathan narrative. The atlas does not label individual rocks as Bozez or Seneh with false certainty.",
+        "placeId": "michmash-pass",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 13,
+            "label": "1 Samuel 13"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 14,
+            "verseStart": 1,
+            "verseEnd": 31,
+            "label": "1 Samuel 14:1–31"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.274,
+            31.864
+          ],
+          "zoom": 9.2,
+          "pitch": 40
+        }
+      },
+      {
+        "id": "saul-finalroute",
+        "title": "Toward the Jezreel/Gilboa theater",
+        "eyebrow": "Animated journey · reconstructed",
+        "description": "The line summarizes the final campaign geography. It is not a reconstructed military itinerary from primary route data.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 28,
+            "label": "1 Samuel 28"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 31,
+            "label": "1 Samuel 31"
+          }
+        ],
+        "journeyId": "journey-saul-final",
+        "camera": {
+          "center": [
+            35.35,
+            32.35
+          ],
+          "zoom": 6.5,
+          "pitch": 28
+        }
+      },
+      {
+        "id": "saul-gilboa",
+        "title": "Mount Gilboa",
+        "eyebrow": "1 Samuel 31 · established landscape",
+        "description": "The ridge is secure; the exact battlefield and location of Saul’s death are not.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 31,
+            "verseStart": 1,
+            "verseEnd": 6,
+            "label": "1 Samuel 31:1–6"
+          }
+        ],
+        "placeId": "mount-gilboa",
+        "camera": {
+          "center": [
+            35.416,
+            32.5
+          ],
+          "zoom": 8,
+          "pitch": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-david-elah",
+    "title": "David — Bethlehem and the Elah Valley",
+    "subtitle": "A landscape-first reading of 1 Samuel 16–17.",
+    "personId": "david",
+    "theme": "David",
+    "chapters": [
+      {
+        "id": "david-bethlehem",
+        "title": "Bethlehem",
+        "eyebrow": "1 Samuel 16 · established town",
+        "description": "Samuel comes to Bethlehem and the narrative introduces David within Jesse’s household.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 16,
+            "label": "1 Samuel 16"
+          }
+        ],
+        "placeId": "bethlehem-judah",
+        "camera": {
+          "center": [
+            35.202,
+            31.705
+          ],
+          "zoom": 9,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "david-road-elah",
+        "title": "From Bethlehem toward Elah",
+        "eyebrow": "Animated journey · reconstructed",
+        "description": "The text names the destination but not the road. The line simply connects the highland town to the valley.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 17,
+            "verseStart": 17,
+            "verseEnd": 23,
+            "label": "1 Samuel 17:17–23"
+          }
+        ],
+        "journeyId": "journey-david-elah",
+        "camera": {
+          "center": [
+            35.05,
+            31.69
+          ],
+          "zoom": 7.2,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "david-elah",
+        "title": "Between Socoh and Azekah",
+        "eyebrow": "1 Samuel 17 · secure landscape, unknown duel point",
+        "description": "The valley and named towns can be mapped with confidence. Neither army’s exact camp nor the duel site is known.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 17,
+            "verseStart": 1,
+            "verseEnd": 54,
+            "label": "1 Samuel 17:1–54"
+          }
+        ],
+        "placeId": "valley-elah",
+        "camera": {
+          "center": [
+            34.956,
+            31.688
+          ],
+          "zoom": 9,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "david-gath-origin",
+        "title": "Goliath of Gath",
+        "eyebrow": "Philistine urban context",
+        "description": "Gath is strongly identified with Tell es-Safi, but archaeological Philistine culture does not independently identify the named individual.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 17,
+            "verseStart": 4,
+            "verseEnd": 4,
+            "label": "1 Samuel 17:4"
+          }
+        ],
+        "placeId": "gath",
+        "camera": {
+          "center": [
+            34.847,
+            31.7
+          ],
+          "zoom": 8.5,
+          "pitch": 28
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-david-fugitive",
+    "title": "David — Fugitive Landscape",
+    "subtitle": "Gath, Adullam, Keilah, Ziph, Maon, and En-gedi without pretending to know every trail.",
+    "personId": "david",
+    "theme": "David",
+    "chapters": [
+      {
+        "id": "df-nob",
+        "title": "Nob remains unlocated",
+        "eyebrow": "1 Samuel 21 · known name, unknown coordinate",
+        "description": "David first visits Nob, but no secure site exists. The story therefore begins its animated map only at mappable anchors.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 21,
+            "verseStart": 1,
+            "verseEnd": 9,
+            "label": "1 Samuel 21:1–9"
+          }
+        ],
+        "placeId": "nob",
+        "camera": {
+          "center": [
+            35.2,
+            31.8
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "df-route",
+        "title": "Through the Judean frontier",
+        "eyebrow": "Animated journey · reconstructed",
+        "description": "The route connects Gath, Adullam, Keilah, Ziph, Maon, and En-gedi. It is a narrative scaffold, not a trail reconstruction.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 21,
+            "label": "1 Samuel 21"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 22,
+            "label": "1 Samuel 22"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 23,
+            "label": "1 Samuel 23"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 24,
+            "label": "1 Samuel 24"
+          }
+        ],
+        "journeyId": "journey-david-fugitive",
+        "camera": {
+          "center": [
+            35.05,
+            31.55
+          ],
+          "zoom": 6.5,
+          "pitch": 32
+        }
+      },
+      {
+        "id": "df-engedi",
+        "title": "En-gedi",
+        "eyebrow": "1 Samuel 24 · established oasis",
+        "description": "The oasis is known, but “the cave” is not archaeologically identifiable.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 24,
+            "label": "1 Samuel 24"
+          }
+        ],
+        "placeId": "en-gedi",
+        "camera": {
+          "center": [
+            35.389,
+            31.45
+          ],
+          "zoom": 9,
+          "pitch": 40
+        }
+      },
+      {
+        "id": "df-ziklag",
+        "title": "Ziklag — deliberately unpinned",
+        "eyebrow": "1 Samuel 27–30 · disputed site",
+        "description": "Multiple sites have been proposed for Ziklag. The atlas keeps the town searchable while declining to choose a winner without stronger evidence.",
+        "scripture": [
+          {
+            "book": "1 Samuel",
+            "chapter": 27,
+            "verseStart": 5,
+            "verseEnd": 7,
+            "label": "1 Samuel 27:5–7"
+          },
+          {
+            "book": "1 Samuel",
+            "chapter": 30,
+            "label": "1 Samuel 30"
+          }
+        ],
+        "placeId": "ziklag",
+        "camera": {
+          "center": [
+            34.75,
+            31.35
+          ],
+          "zoom": 6.5,
+          "pitch": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-david-jerusalem",
+    "title": "David — Hebron to Jerusalem",
+    "subtitle": "From regional kingship to the capture of Jerusalem and the ark’s arrival.",
+    "personId": "david",
+    "theme": "Jerusalem",
+    "chapters": [
+      {
+        "id": "dj-hebron",
+        "title": "Seven years at Hebron",
+        "eyebrow": "2 Samuel 2–5 · established city",
+        "description": "Hebron anchors David’s first reign before the move north to Jerusalem.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 2,
+            "verseStart": 1,
+            "verseEnd": 7,
+            "label": "2 Samuel 2:1–7"
+          },
+          {
+            "book": "2 Samuel",
+            "chapter": 5,
+            "verseStart": 1,
+            "verseEnd": 5,
+            "label": "2 Samuel 5:1–5"
+          }
+        ],
+        "placeId": "hebron",
+        "camera": {
+          "center": [
+            35.0957,
+            31.5326
+          ],
+          "zoom": 8,
+          "pitch": 28
+        }
+      },
+      {
+        "id": "dj-road",
+        "title": "Hebron to Jerusalem",
+        "eyebrow": "Animated transition · reconstructed",
+        "description": "The line is a political-geographic transition, not the route of the assault itself.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 5,
+            "verseStart": 1,
+            "verseEnd": 10,
+            "label": "2 Samuel 5:1–10"
+          }
+        ],
+        "journeyId": "journey-david-hebron-jerusalem",
+        "camera": {
+          "center": [
+            35.17,
+            31.68
+          ],
+          "zoom": 7,
+          "pitch": 32
+        }
+      },
+      {
+        "id": "dj-capture",
+        "title": "Jerusalem and the stronghold of Zion",
+        "eyebrow": "2 Samuel 5 · city secure, details debated",
+        "description": "Jerusalem’s location is unquestioned. The size of the 10th-century city and identification of particular monumental structures remain debated.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 5,
+            "verseStart": 6,
+            "verseEnd": 10,
+            "label": "2 Samuel 5:6–10"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 11,
+          "pitch": 45
+        }
+      },
+      {
+        "id": "dj-ark",
+        "title": "The ark comes toward Jerusalem",
+        "eyebrow": "Animated journey · reconstructed",
+        "description": "Kiriath-jearim and Jerusalem are mappable; intermediate stations are not.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 6,
+            "label": "2 Samuel 6"
+          }
+        ],
+        "journeyId": "journey-ark-jerusalem",
+        "camera": {
+          "center": [
+            35.17,
+            31.79
+          ],
+          "zoom": 8,
+          "pitch": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-jerusalem-zion",
+    "title": "Jerusalem & Zion — What Can We Actually Map?",
+    "subtitle": "A close-reading map of the southeastern ridge, Zion terminology, Gihon, the Temple Mount, and the First Temple tradition.",
+    "personId": "david",
+    "theme": "Jerusalem",
+    "chapters": [
+      {
+        "id": "jz-ridge",
+        "title": "The southeastern ridge",
+        "eyebrow": "Archaeology · established topography",
+        "description": "The ridge south of the Temple Mount contains the earliest urban core. Modern archaeology calls it the City of David zone, but biblical terminology should not be flattened into a modern park boundary.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 5,
+            "verseStart": 7,
+            "verseEnd": 9,
+            "label": "2 Samuel 5:7–9"
+          }
+        ],
+        "placeId": "city-of-david-ridge",
+        "camera": {
+          "center": [
+            35.236,
+            31.773
+          ],
+          "zoom": 12,
+          "pitch": 48
+        }
+      },
+      {
+        "id": "jz-zion",
+        "title": "Zion is a changing biblical term",
+        "eyebrow": "Toponymy · no single permanent pin",
+        "description": "In 2 Samuel 5, Zion is the captured stronghold. Later texts broaden Zion toward Jerusalem and the temple. The atlas keeps this semantic history visible.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 5,
+            "verseStart": 7,
+            "verseEnd": 7,
+            "label": "2 Samuel 5:7"
+          },
+          {
+            "book": "1 Kings",
+            "chapter": 8,
+            "verseStart": 1,
+            "verseEnd": 1,
+            "label": "1 Kings 8:1"
+          }
+        ],
+        "placeId": "zion-biblical",
+        "camera": {
+          "center": [
+            35.236,
+            31.776
+          ],
+          "zoom": 11.5,
+          "pitch": 45
+        }
+      },
+      {
+        "id": "jz-gihon",
+        "title": "Gihon Spring",
+        "eyebrow": "Water system · established",
+        "description": "The spring on the eastern slope is one of the strongest fixed points in early Jerusalem topography.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 1,
+            "verseStart": 32,
+            "verseEnd": 40,
+            "label": "1 Kings 1:32–40"
+          }
+        ],
+        "placeId": "gihon-spring",
+        "camera": {
+          "center": [
+            35.237,
+            31.773
+          ],
+          "zoom": 12,
+          "pitch": 50
+        }
+      },
+      {
+        "id": "jz-templemount",
+        "title": "Temple Mount precinct",
+        "eyebrow": "Sacred topography · traditional/historical continuity",
+        "description": "The temple tradition centers on this precinct, but the exact First Temple footprint cannot be directly excavated and should not be drawn as settled fact.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 6,
+            "label": "1 Kings 6"
+          },
+          {
+            "book": "2 Chronicles",
+            "chapter": 3,
+            "verseStart": 1,
+            "verseEnd": 1,
+            "label": "2 Chronicles 3:1"
+          }
+        ],
+        "placeId": "temple-mount",
+        "camera": {
+          "center": [
+            35.2354,
+            31.7781
+          ],
+          "zoom": 12,
+          "pitch": 48
+        }
+      },
+      {
+        "id": "jz-temple",
+        "title": "First Temple — searchable, not falsely pinned",
+        "eyebrow": "Evidence-aware reconstruction",
+        "description": "The temple is central to the text, yet no excavated footprint justifies a precise archaeological polygon. The atlas therefore distinguishes canonical location from measurable remains.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 6,
+            "label": "1 Kings 6"
+          },
+          {
+            "book": "1 Kings",
+            "chapter": 8,
+            "label": "1 Kings 8"
+          }
+        ],
+        "placeId": "first-temple-site",
+        "camera": {
+          "center": [
+            35.2354,
+            31.7781
+          ],
+          "zoom": 12,
+          "pitch": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-absalom",
+    "title": "Absalom — Jerusalem to Transjordan",
+    "subtitle": "A revolt mapped with high-confidence Jerusalem topography and low-confidence eastern battle geography.",
+    "personId": "absalom",
+    "theme": "David",
+    "chapters": [
+      {
+        "id": "ab-jerusalem",
+        "title": "Flight from Jerusalem",
+        "eyebrow": "2 Samuel 15 · established city",
+        "description": "David leaves Jerusalem as Absalom’s revolt gains control of the capital.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 15,
+            "verseStart": 13,
+            "verseEnd": 22,
+            "label": "2 Samuel 15:13–22"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 10,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "ab-kidron",
+        "title": "Across Kidron and up Olivet",
+        "eyebrow": "Animated journey · secure first steps",
+        "description": "The Kidron and Mount of Olives are secure. After the ridge, the map becomes much more schematic.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 15,
+            "verseStart": 23,
+            "verseEnd": 32,
+            "label": "2 Samuel 15:23–32"
+          }
+        ],
+        "journeyId": "journey-absalom-flight",
+        "camera": {
+          "center": [
+            35.24,
+            31.78
+          ],
+          "zoom": 10.5,
+          "pitch": 45
+        }
+      },
+      {
+        "id": "ab-mahanaim",
+        "title": "Mahanaim area",
+        "eyebrow": "2 Samuel 17 · candidate area",
+        "description": "Mahanaim’s exact location is uncertain, so the route endpoint is an orientation anchor rather than an established city pin.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 17,
+            "verseStart": 24,
+            "verseEnd": 29,
+            "label": "2 Samuel 17:24–29"
+          }
+        ],
+        "placeId": "mahanaim",
+        "camera": {
+          "center": [
+            35.67,
+            32.33
+          ],
+          "zoom": 7.5,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "ab-forest",
+        "title": "Forest of Ephraim — no pin",
+        "eyebrow": "2 Samuel 18 · unresolved battlefield",
+        "description": "The battle belongs to the Transjordan campaign context, but its exact landscape has not been identified.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 18,
+            "verseStart": 6,
+            "verseEnd": 18,
+            "label": "2 Samuel 18:6–18"
+          }
+        ],
+        "placeId": "forest-ephraim",
+        "camera": {
+          "center": [
+            35.7,
+            32.3
+          ],
+          "zoom": 6.8,
+          "pitch": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-solomon-temple",
+    "title": "Solomon — Gihon, Gibeon, and the Temple",
+    "subtitle": "Succession, worship, temple construction, and the difference between sacred tradition and direct archaeology.",
+    "personId": "solomon",
+    "theme": "Solomon",
+    "chapters": [
+      {
+        "id": "sol-gihon",
+        "title": "Anointed at Gihon",
+        "eyebrow": "1 Kings 1 · established spring",
+        "description": "The Gihon Spring provides a rare precise topographic anchor for a royal succession scene.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 1,
+            "verseStart": 32,
+            "verseEnd": 40,
+            "label": "1 Kings 1:32–40"
+          }
+        ],
+        "placeId": "gihon-spring",
+        "camera": {
+          "center": [
+            35.237,
+            31.773
+          ],
+          "zoom": 12,
+          "pitch": 50
+        }
+      },
+      {
+        "id": "sol-gibeon",
+        "title": "Gibeon",
+        "eyebrow": "1 Kings 3 · established city",
+        "description": "Gibeon is securely identified at el-Jib. The high place itself is not assigned to a specific excavated installation.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 3,
+            "verseStart": 4,
+            "verseEnd": 15,
+            "label": "1 Kings 3:4–15"
+          }
+        ],
+        "journeyId": "journey-solomon-gibeon",
+        "camera": {
+          "center": [
+            35.21,
+            31.82
+          ],
+          "zoom": 8,
+          "pitch": 32
+        }
+      },
+      {
+        "id": "sol-temple",
+        "title": "Temple construction",
+        "eyebrow": "1 Kings 5–8 · text-rich, archaeology-limited",
+        "description": "Architectural descriptions are extensive, but the map does not convert literary cubits into a falsely verified footprint on the modern platform.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 5,
+            "label": "1 Kings 5"
+          },
+          {
+            "book": "1 Kings",
+            "chapter": 6,
+            "label": "1 Kings 6"
+          },
+          {
+            "book": "1 Kings",
+            "chapter": 7,
+            "verseStart": 13,
+            "verseEnd": 51,
+            "label": "1 Kings 7:13–51"
+          },
+          {
+            "book": "1 Kings",
+            "chapter": 8,
+            "label": "1 Kings 8"
+          }
+        ],
+        "placeId": "first-temple-site",
+        "camera": {
+          "center": [
+            35.2354,
+            31.7781
+          ],
+          "zoom": 12,
+          "pitch": 50
+        }
+      },
+      {
+        "id": "sol-araunah",
+        "title": "Davidic altar and later temple linkage",
+        "eyebrow": "Samuel–Chronicles literary bridge",
+        "description": "Chronicles explicitly connects Araunah/Ornan’s threshing floor with the temple site. That canonical link is not the same thing as an excavated threshing floor.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 24,
+            "verseStart": 18,
+            "verseEnd": 25,
+            "label": "2 Samuel 24:18–25"
+          },
+          {
+            "book": "2 Chronicles",
+            "chapter": 3,
+            "verseStart": 1,
+            "verseEnd": 1,
+            "label": "2 Chronicles 3:1"
+          }
+        ],
+        "placeId": "araunah-threshing-floor",
+        "camera": {
+          "center": [
+            35.2354,
+            31.7781
+          ],
+          "zoom": 11.5,
+          "pitch": 45
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-solomon-world",
+    "title": "Solomon — Cities, Phoenicia, and Sheba",
+    "subtitle": "Explore what can and cannot be inferred from the royal building and trade narratives.",
+    "personId": "solomon",
+    "theme": "Solomon",
+    "chapters": [
+      {
+        "id": "sw-threecities",
+        "title": "Hazor, Megiddo, and Gezer",
+        "eyebrow": "1 Kings 9:15 · established sites, disputed attribution",
+        "description": "All three cities are secure archaeological sites. The chronological attribution of specific monumental gates to Solomon remains debated.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 9,
+            "verseStart": 15,
+            "verseEnd": 17,
+            "label": "1 Kings 9:15–17"
+          }
+        ],
+        "placeId": "gezer-monarchy",
+        "camera": {
+          "center": [
+            35.2,
+            32.15
+          ],
+          "zoom": 6.2,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "sw-tyre",
+        "title": "Tyre and Phoenician exchange",
+        "eyebrow": "1 Kings 5 · established city",
+        "description": "Tyre is secure; the supply line is only conceptual because the text’s sea-and-land logistics are not fully specified.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 5,
+            "label": "1 Kings 5"
+          }
+        ],
+        "journeyId": "journey-phoenician-supply",
+        "camera": {
+          "center": [
+            35.2,
+            32.55
+          ],
+          "zoom": 5.8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "sw-redsea",
+        "title": "Ezion-geber and Ophir",
+        "eyebrow": "1 Kings 9 · one anchor, one unknown",
+        "description": "Ezion-geber belongs to the Gulf of Aqaba context, while Ophir remains unlocated. The atlas refuses to draw a speculative international shipping line to a guessed Ophir.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 9,
+            "verseStart": 26,
+            "verseEnd": 28,
+            "label": "1 Kings 9:26–28"
+          }
+        ],
+        "placeId": "ezion-geber",
+        "camera": {
+          "center": [
+            34.95,
+            29.55
+          ],
+          "zoom": 7,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "sw-sheba",
+        "title": "Sheba / Saba context",
+        "eyebrow": "1 Kings 10 · broad South Arabian anchor",
+        "description": "Southern Arabia is the strongest cultural-geographic setting for Saba. The Marib anchor is regional and does not identify the queen’s residence or route.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 10,
+            "verseStart": 1,
+            "verseEnd": 13,
+            "label": "1 Kings 10:1–13"
+          }
+        ],
+        "placeId": "sheba-saba",
+        "camera": {
+          "center": [
+            45.33,
+            15.42
+          ],
+          "zoom": 5.8,
+          "pitch": 20
+        }
+      }
+    ]
+  }
+]

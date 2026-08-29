@@ -1,0 +1,841 @@
+[
+  {
+    "id": "journey-abraham",
+    "name": "Abraham — Mesopotamia to Canaan",
+    "person": "Abraham",
+    "personId": "abraham",
+    "character": "abraham",
+    "summary": "A route through the named Genesis sequence. Intermediate polylines are schematic reconstructions following plausible geographic corridors, not exact footsteps.",
+    "segments": [
+      {
+        "id": "abraham-ur-haran",
+        "fromPlaceId": "ur",
+        "toPlaceId": "haran",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            46.1031,
+            30.9625
+          ],
+          [
+            44.7,
+            32.4
+          ],
+          [
+            43.2,
+            34.0
+          ],
+          [
+            41.4,
+            35.5
+          ],
+          [
+            39.0315,
+            36.864
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 11,
+            "verseStart": 31,
+            "verseEnd": 31,
+            "label": "Genesis 11:31"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ],
+        "note": "Genesis gives origin and destination, not a surveyed route."
+      },
+      {
+        "id": "abraham-haran-shechem",
+        "fromPlaceId": "haran",
+        "toPlaceId": "shechem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            39.0315,
+            36.864
+          ],
+          [
+            37.5,
+            36.0
+          ],
+          [
+            36.3,
+            34.8
+          ],
+          [
+            35.7,
+            33.3
+          ],
+          [
+            35.2896,
+            32.2135
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 12,
+            "verseStart": 4,
+            "verseEnd": 6,
+            "label": "Genesis 12:4–6"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "abraham-shechem-bethel",
+        "fromPlaceId": "shechem",
+        "toPlaceId": "bethel",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.2896,
+            32.2135
+          ],
+          [
+            35.25,
+            32.08
+          ],
+          [
+            35.222,
+            31.929
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 12,
+            "verseStart": 6,
+            "verseEnd": 8,
+            "label": "Genesis 12:6–8"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "abraham-bethel-negev",
+        "fromPlaceId": "bethel",
+        "toPlaceId": "negev",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.222,
+            31.929
+          ],
+          [
+            35.15,
+            31.5
+          ],
+          [
+            34.98,
+            31.1
+          ],
+          [
+            34.8,
+            30.65
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 12,
+            "verseStart": 8,
+            "verseEnd": 9,
+            "label": "Genesis 12:8–9"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "abraham-negev-egypt",
+        "fromPlaceId": "negev",
+        "toPlaceId": "egypt",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.8,
+            30.65
+          ],
+          [
+            34.2,
+            30.55
+          ],
+          [
+            33.3,
+            30.3
+          ],
+          [
+            32.2,
+            30.1
+          ],
+          [
+            31.0,
+            29.6
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 12,
+            "verseStart": 10,
+            "verseEnd": 10,
+            "label": "Genesis 12:10"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "abraham-egypt-bethel",
+        "fromPlaceId": "egypt",
+        "toPlaceId": "bethel",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            31.0,
+            29.6
+          ],
+          [
+            32.3,
+            30.15
+          ],
+          [
+            33.5,
+            30.45
+          ],
+          [
+            34.5,
+            30.8
+          ],
+          [
+            35.0,
+            31.4
+          ],
+          [
+            35.222,
+            31.929
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 13,
+            "verseStart": 1,
+            "verseEnd": 4,
+            "label": "Genesis 13:1–4"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "abraham-bethel-hebron",
+        "fromPlaceId": "bethel",
+        "toPlaceId": "hebron",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.222,
+            31.929
+          ],
+          [
+            35.2,
+            31.75
+          ],
+          [
+            35.14,
+            31.65
+          ],
+          [
+            35.0957,
+            31.5326
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 13,
+            "verseStart": 14,
+            "verseEnd": 18,
+            "label": "Genesis 13:14–18"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-moriah",
+    "name": "Abraham and Isaac — toward Moriah",
+    "person": "Abraham and Isaac",
+    "personId": "abraham",
+    "character": "abraham",
+    "summary": "A highly interpretive schematic between Beersheba and the traditional Jerusalem/Moriah identification. Genesis supplies the destination name but not an exact route.",
+    "segments": [
+      {
+        "id": "beersheba-moriah",
+        "fromPlaceId": "beersheba",
+        "toPlaceId": "moriah",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            34.8409,
+            31.2453
+          ],
+          [
+            35.0,
+            31.45
+          ],
+          [
+            35.1,
+            31.62
+          ],
+          [
+            35.2,
+            31.75
+          ],
+          [
+            35.2354,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 22,
+            "verseStart": 1,
+            "verseEnd": 4,
+            "label": "Genesis 22:1–4"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-sacred-bridge",
+          "source-batch2-methodology"
+        ],
+        "note": "Displayed only when the traditional Jerusalem/Moriah identification is selected."
+      }
+    ]
+  },
+  {
+    "id": "journey-isaac",
+    "name": "Isaac — Gerar and Beersheba",
+    "person": "Isaac",
+    "personId": "isaac",
+    "character": "isaac",
+    "summary": "Genesis 26 names movement through the Gerar region and then to Beersheba; intermediate well locations are not mapped as precise modern points in Batch 2.",
+    "segments": [
+      {
+        "id": "isaac-gerar-beersheba",
+        "fromPlaceId": "gerar",
+        "toPlaceId": "beersheba",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.61,
+            31.36
+          ],
+          [
+            34.68,
+            31.32
+          ],
+          [
+            34.76,
+            31.28
+          ],
+          [
+            34.8409,
+            31.2453
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 26,
+            "verseStart": 1,
+            "verseEnd": 6,
+            "label": "Genesis 26:1–6"
+          },
+          {
+            "book": "Genesis",
+            "chapter": 26,
+            "verseStart": 23,
+            "verseEnd": 23,
+            "label": "Genesis 26:23"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-jacob",
+    "name": "Jacob — Beersheba, Haran, and Return",
+    "person": "Jacob",
+    "personId": "jacob",
+    "character": "jacob",
+    "summary": "A long-form Genesis route connecting named locations. Cross-country lines are schematic because the narrative rarely identifies the exact road taken.",
+    "segments": [
+      {
+        "id": "jacob-beersheba-bethel",
+        "fromPlaceId": "beersheba",
+        "toPlaceId": "bethel",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.8409,
+            31.2453
+          ],
+          [
+            35.02,
+            31.48
+          ],
+          [
+            35.14,
+            31.7
+          ],
+          [
+            35.222,
+            31.929
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 28,
+            "verseStart": 10,
+            "verseEnd": 19,
+            "label": "Genesis 28:10–19"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "jacob-bethel-haran",
+        "fromPlaceId": "bethel",
+        "toPlaceId": "haran",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.222,
+            31.929
+          ],
+          [
+            35.65,
+            33.2
+          ],
+          [
+            36.4,
+            34.6
+          ],
+          [
+            37.7,
+            35.8
+          ],
+          [
+            39.0315,
+            36.864
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 28,
+            "verseStart": 20,
+            "verseEnd": 29,
+            "label": "Genesis 28:20–29:14"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "jacob-haran-gilead",
+        "fromPlaceId": "haran",
+        "toPlaceId": "gilead",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            39.0315,
+            36.864
+          ],
+          [
+            37.7,
+            35.9
+          ],
+          [
+            36.8,
+            34.5
+          ],
+          [
+            36.0,
+            33.2
+          ],
+          [
+            35.72,
+            32.45
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 31,
+            "verseStart": 17,
+            "verseEnd": 25,
+            "label": "Genesis 31:17–25"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "jacob-gilead-peniel",
+        "fromPlaceId": "gilead",
+        "toPlaceId": "peniel",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.72,
+            32.45
+          ],
+          [
+            35.7,
+            32.3
+          ],
+          [
+            35.7,
+            32.18
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 32,
+            "verseStart": 1,
+            "verseEnd": 24,
+            "label": "Genesis 32:1–24"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "jacob-peniel-succoth",
+        "fromPlaceId": "peniel",
+        "toPlaceId": "succoth",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.7,
+            32.18
+          ],
+          [
+            35.66,
+            32.18
+          ],
+          [
+            35.62,
+            32.18
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 33,
+            "verseStart": 16,
+            "verseEnd": 17,
+            "label": "Genesis 33:16–17"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "jacob-succoth-shechem",
+        "fromPlaceId": "succoth",
+        "toPlaceId": "shechem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.62,
+            32.18
+          ],
+          [
+            35.52,
+            32.2
+          ],
+          [
+            35.4,
+            32.22
+          ],
+          [
+            35.2896,
+            32.2135
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 33,
+            "verseStart": 17,
+            "verseEnd": 20,
+            "label": "Genesis 33:17–20"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "jacob-shechem-bethel",
+        "fromPlaceId": "shechem",
+        "toPlaceId": "bethel",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.2896,
+            32.2135
+          ],
+          [
+            35.25,
+            32.08
+          ],
+          [
+            35.222,
+            31.929
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 35,
+            "verseStart": 1,
+            "verseEnd": 15,
+            "label": "Genesis 35:1–15"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "jacob-bethel-hebron",
+        "fromPlaceId": "bethel",
+        "toPlaceId": "hebron",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.222,
+            31.929
+          ],
+          [
+            35.18,
+            31.75
+          ],
+          [
+            35.0957,
+            31.5326
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 35,
+            "verseStart": 16,
+            "verseEnd": 27,
+            "label": "Genesis 35:16–27"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-joseph",
+    "name": "Joseph — Dothan to Egypt",
+    "person": "Joseph",
+    "personId": "joseph",
+    "character": "joseph",
+    "summary": "Genesis identifies Dothan and Egypt, but not the caravan’s exact road. The line is a broad southwesterly corridor reconstruction.",
+    "segments": [
+      {
+        "id": "joseph-dothan-egypt",
+        "fromPlaceId": "dothan",
+        "toPlaceId": "egypt",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            35.238,
+            32.418
+          ],
+          [
+            35.0,
+            32.0
+          ],
+          [
+            34.75,
+            31.55
+          ],
+          [
+            34.35,
+            31.1
+          ],
+          [
+            33.5,
+            30.55
+          ],
+          [
+            32.3,
+            30.15
+          ],
+          [
+            31.0,
+            29.6
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 37,
+            "verseStart": 25,
+            "verseEnd": 36,
+            "label": "Genesis 37:25–36"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ],
+        "note": "No claim is made that this polyline reproduces the merchants’ exact route."
+      }
+    ]
+  },
+  {
+    "id": "journey-jacob-egypt",
+    "name": "Jacob’s Household — Beersheba to Egypt",
+    "person": "Jacob",
+    "personId": "jacob",
+    "character": "jacob",
+    "summary": "A schematic migration corridor from Beersheba toward Egypt and the Goshen setting.",
+    "segments": [
+      {
+        "id": "jacob-beersheba-egypt",
+        "fromPlaceId": "beersheba",
+        "toPlaceId": "egypt",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.8409,
+            31.2453
+          ],
+          [
+            34.25,
+            31.05
+          ],
+          [
+            33.55,
+            30.75
+          ],
+          [
+            32.65,
+            30.45
+          ],
+          [
+            31.7,
+            30.2
+          ],
+          [
+            31.0,
+            29.6
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 46,
+            "verseStart": 1,
+            "verseEnd": 7,
+            "label": "Genesis 46:1–7"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      },
+      {
+        "id": "jacob-egypt-goshen",
+        "fromPlaceId": "egypt",
+        "toPlaceId": "goshen",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            31.0,
+            29.6
+          ],
+          [
+            31.45,
+            30.05
+          ],
+          [
+            31.95,
+            30.65
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 46,
+            "verseStart": 28,
+            "verseEnd": 34,
+            "label": "Genesis 46:28–34"
+          }
+        ],
+        "sourceIds": [
+          "source-genesis-text",
+          "source-batch2-methodology"
+        ]
+      }
+    ]
+  }
+]

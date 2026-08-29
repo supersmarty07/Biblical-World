@@ -1,0 +1,1163 @@
+[
+  {
+    "id": "story-division",
+    "title": "The Kingdom Divides — Shechem, Bethel, and Dan",
+    "subtitle": "From Solomon’s succession crisis to two kingdoms and competing political-religious centers.",
+    "personId": "rehoboam",
+    "theme": "Divided Kingdom",
+    "chapters": [
+      {
+        "id": "div-shechem",
+        "title": "Assembly at Shechem",
+        "eyebrow": "1 Kings 12 · established city",
+        "description": "Rehoboam goes to Shechem for the royal assembly. The political rupture is narrated here, but the conventional date is reconstructed.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 12,
+            "label": "1 Kings 12:1–20",
+            "verseStart": 1,
+            "verseEnd": 20
+          }
+        ],
+        "placeId": "shechem",
+        "camera": {
+          "center": [
+            35.3,
+            32.214
+          ],
+          "zoom": 8,
+          "pitch": 28
+        },
+        "contextYear": -930
+      },
+      {
+        "id": "div-route",
+        "title": "Jerusalem to Shechem",
+        "eyebrow": "Animated transition · reconstructed corridor",
+        "description": "The endpoints are known; the animation does not claim a preserved royal road.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 12,
+            "label": "1 Kings 12:1",
+            "verseStart": 1,
+            "verseEnd": 1
+          }
+        ],
+        "journeyId": "journey-rehoboam-shechem",
+        "camera": {
+          "center": [
+            35.27,
+            32.0
+          ],
+          "zoom": 6,
+          "pitch": 25
+        },
+        "contextYear": -930
+      },
+      {
+        "id": "div-two-kingdoms",
+        "title": "Israel and Judah",
+        "eyebrow": "Historical context · generalized boundaries",
+        "description": "The two polities are real historical entities, but their borders changed through time. Dashed context polygons are orientation, not cadastral lines.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 12,
+            "label": "1 Kings 12:16–24",
+            "verseStart": 16,
+            "verseEnd": 24
+          }
+        ],
+        "placeId": "israel-northern-kingdom",
+        "camera": {
+          "center": [
+            35.25,
+            32.0
+          ],
+          "zoom": 5.8,
+          "pitch": 15
+        },
+        "contextYear": -920
+      },
+      {
+        "id": "div-bethel",
+        "title": "Bethel and Dan",
+        "eyebrow": "1 Kings 12 · site identification vs cult attribution",
+        "description": "Kings links Jeroboam with sanctuaries at Bethel and Dan. Tel Dan is secure; Bethel is probable; archaeological phases are not automatically labeled with one king’s name.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 12,
+            "label": "1 Kings 12:25–33",
+            "verseStart": 25,
+            "verseEnd": 33
+          }
+        ],
+        "placeId": "bethel",
+        "camera": {
+          "center": [
+            35.22,
+            31.93
+          ],
+          "zoom": 8,
+          "pitch": 25
+        },
+        "contextYear": -920
+      },
+      {
+        "id": "div-shoshenq",
+        "title": "Shoshenq / Shishak",
+        "eyebrow": "Egyptian campaign · biblical + extra-biblical context",
+        "description": "An Egyptian Levantine campaign under Shoshenq I is independently attested. The Karnak place list is evidence for the campaign world, not a transcript of Kings.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 14,
+            "label": "1 Kings 14:25–28",
+            "verseStart": 25,
+            "verseEnd": 28
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 7,
+          "pitch": 28
+        },
+        "contextYear": -920
+      }
+    ]
+  },
+  {
+    "id": "story-omri-ahab",
+    "title": "Omri & Ahab — Samaria, Jezreel, and Qarqar",
+    "subtitle": "The Northern Kingdom as a major ninth-century polity in biblical and Assyrian sources.",
+    "personId": "ahab",
+    "theme": "Omrides",
+    "chapters": [
+      {
+        "id": "omri-tirzah",
+        "title": "From Tirzah",
+        "eyebrow": "1 Kings 16 · probable capital site",
+        "description": "Tell el-Far‘ah (North) is the leading identification of Tirzah, the northern capital before Samaria.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 16,
+            "label": "1 Kings 16:15–23",
+            "verseStart": 15,
+            "verseEnd": 23
+          }
+        ],
+        "placeId": "tirzah",
+        "camera": {
+          "center": [
+            35.337,
+            32.286
+          ],
+          "zoom": 8,
+          "pitch": 25
+        },
+        "contextYear": -880
+      },
+      {
+        "id": "omri-samaria",
+        "title": "Omri founds Samaria",
+        "eyebrow": "Capital city · established",
+        "description": "Samaria’s site is secure. Archaeology illuminates the royal center while individual rooms remain anonymous unless inscriptions say otherwise.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 16,
+            "label": "1 Kings 16:23–24",
+            "verseStart": 23,
+            "verseEnd": 24
+          }
+        ],
+        "placeId": "samaria",
+        "camera": {
+          "center": [
+            35.189,
+            32.276
+          ],
+          "zoom": 9,
+          "pitch": 35
+        },
+        "contextYear": -880
+      },
+      {
+        "id": "ahab-jezreel",
+        "title": "Jezreel and Naboth",
+        "eyebrow": "1 Kings 21 · secure city, unlocated vineyard",
+        "description": "The royal center is mappable; Naboth’s vineyard is not.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 21,
+            "label": "1 Kings 21"
+          }
+        ],
+        "placeId": "jezreel-city",
+        "camera": {
+          "center": [
+            35.323,
+            32.558
+          ],
+          "zoom": 9,
+          "pitch": 30
+        },
+        "contextYear": -850
+      },
+      {
+        "id": "qarqar",
+        "title": "Ahab in an Assyrian inscription",
+        "eyebrow": "853 BCE · extra-biblical context",
+        "description": "Shalmaneser III names Ahab of Israel at Qarqar. The battle is not in Kings and Assyrian troop totals remain royal claims.",
+        "scripture": [],
+        "placeId": "qarqar",
+        "camera": {
+          "center": [
+            35.74,
+            36.39
+          ],
+          "zoom": 7,
+          "pitch": 20
+        },
+        "contextYear": -850
+      }
+    ]
+  },
+  {
+    "id": "story-elijah",
+    "title": "Elijah — Drought, Carmel, Jezreel, and Horeb",
+    "subtitle": "A prophetic journey where some anchors are secure and others must remain deliberately unlocated.",
+    "personId": "elijah",
+    "theme": "Elijah",
+    "chapters": [
+      {
+        "id": "eli-kerith",
+        "title": "An unlocated brook",
+        "eyebrow": "1 Kings 17 · no fabricated pin",
+        "description": "Kerith is textually east of the Jordan but not securely identified. The story starts with uncertainty rather than a guessed wadi.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 17,
+            "label": "1 Kings 17:2–7",
+            "verseStart": 2,
+            "verseEnd": 7
+          }
+        ],
+        "placeId": "kerith-brook",
+        "camera": {
+          "center": [
+            35.75,
+            32.0
+          ],
+          "zoom": 6,
+          "pitch": 20
+        },
+        "contextYear": -850
+      },
+      {
+        "id": "eli-zarephath",
+        "title": "Zarephath in Phoenicia",
+        "eyebrow": "1 Kings 17 · established city",
+        "description": "Sarepta is a secure Phoenician site. The widow’s household remains narrative, not an excavated address.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 17,
+            "label": "1 Kings 17:8–24",
+            "verseStart": 8,
+            "verseEnd": 24
+          }
+        ],
+        "placeId": "zarephath",
+        "camera": {
+          "center": [
+            35.295,
+            33.458
+          ],
+          "zoom": 8,
+          "pitch": 20
+        },
+        "contextYear": -850
+      },
+      {
+        "id": "eli-carmel",
+        "title": "Mount Carmel",
+        "eyebrow": "1 Kings 18 · secure ridge, unknown altar point",
+        "description": "The Carmel range is established, but the map avoids selecting a modern shrine or summit as the proven altar location.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 18,
+            "label": "1 Kings 18:19–40",
+            "verseStart": 19,
+            "verseEnd": 40
+          }
+        ],
+        "placeId": "mount-carmel",
+        "camera": {
+          "center": [
+            35.09,
+            32.7
+          ],
+          "zoom": 8,
+          "pitch": 38
+        },
+        "contextYear": -850
+      },
+      {
+        "id": "eli-run",
+        "title": "Carmel to Jezreel",
+        "eyebrow": "Animated journey · reconstructed",
+        "description": "The text gives the movement toward Jezreel; the route across the valley is schematic.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 18,
+            "label": "1 Kings 18:45–46",
+            "verseStart": 45,
+            "verseEnd": 46
+          }
+        ],
+        "journeyId": "journey-elijah-carmel-jezreel",
+        "camera": {
+          "center": [
+            35.22,
+            32.63
+          ],
+          "zoom": 7,
+          "pitch": 28
+        },
+        "contextYear": -850
+      },
+      {
+        "id": "eli-beersheba",
+        "title": "Flight to Beersheba",
+        "eyebrow": "1 Kings 19 · reconstructed road",
+        "description": "Beersheba is secure. The route south is not.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 19,
+            "label": "1 Kings 19:1–4",
+            "verseStart": 1,
+            "verseEnd": 4
+          }
+        ],
+        "journeyId": "journey-elijah-jezreel-beersheba",
+        "camera": {
+          "center": [
+            35.0,
+            31.7
+          ],
+          "zoom": 5.7,
+          "pitch": 20
+        },
+        "contextYear": -850
+      },
+      {
+        "id": "eli-horeb",
+        "title": "Horeb remains unlocated",
+        "eyebrow": "1 Kings 19 · explicit uncertainty",
+        "description": "The narrative reaches Horeb, but the atlas keeps biblical Sinai/Horeb without a definitive coordinate and does not extend the animation to Jebel Musa as fact.",
+        "scripture": [
+          {
+            "book": "1 Kings",
+            "chapter": 19,
+            "label": "1 Kings 19:8–18",
+            "verseStart": 8,
+            "verseEnd": 18
+          }
+        ],
+        "placeId": "mount-sinai",
+        "camera": {
+          "center": [
+            34.0,
+            29.2
+          ],
+          "zoom": 5,
+          "pitch": 25
+        },
+        "contextYear": -850
+      }
+    ]
+  },
+  {
+    "id": "story-elisha",
+    "title": "Elisha — Jordan, Samaria, and Aram",
+    "subtitle": "Prophetic geography across a contested Israel-Aram frontier.",
+    "personId": "elisha",
+    "theme": "Elisha",
+    "chapters": [
+      {
+        "id": "elisha-transition",
+        "title": "Bethel, Jericho, Jordan",
+        "eyebrow": "2 Kings 2 · partial secure sequence",
+        "description": "The atlas deliberately omits the first Gilgal from the map sequence because its identity is uncertain.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 2,
+            "label": "2 Kings 2"
+          }
+        ],
+        "journeyId": "journey-elisha-bethel-jordan",
+        "camera": {
+          "center": [
+            35.36,
+            31.95
+          ],
+          "zoom": 6.7,
+          "pitch": 20
+        },
+        "contextYear": -850
+      },
+      {
+        "id": "elisha-samaria",
+        "title": "Samaria",
+        "eyebrow": "2 Kings 5–7 · northern capital",
+        "description": "Many Elisha narratives are embedded in the Israel-Aram struggle centered on Samaria.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 6,
+            "label": "2 Kings 6"
+          },
+          {
+            "book": "2 Kings",
+            "chapter": 7,
+            "label": "2 Kings 7"
+          }
+        ],
+        "placeId": "samaria",
+        "camera": {
+          "center": [
+            35.189,
+            32.276
+          ],
+          "zoom": 8,
+          "pitch": 28
+        },
+        "contextYear": -850
+      },
+      {
+        "id": "elisha-naaman",
+        "title": "Naaman and the Jordan",
+        "eyebrow": "2 Kings 5 · river, not miracle pin",
+        "description": "The Jordan is secure, but the text does not provide a modern bathing coordinate.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 5,
+            "label": "2 Kings 5:9–14",
+            "verseStart": 9,
+            "verseEnd": 14
+          }
+        ],
+        "placeId": "jordan-river",
+        "camera": {
+          "center": [
+            35.56,
+            32.1
+          ],
+          "zoom": 6,
+          "pitch": 15
+        },
+        "contextYear": -850
+      },
+      {
+        "id": "elisha-dothan",
+        "title": "Dothan",
+        "eyebrow": "2 Kings 6 · probable/established ancient site context",
+        "description": "Dothan links Elisha’s story with the northern hill country. The city identification is inherited from the Genesis pack and retains its confidence classification.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 6,
+            "label": "2 Kings 6:13–23",
+            "verseStart": 13,
+            "verseEnd": 23
+          }
+        ],
+        "placeId": "dothan",
+        "camera": {
+          "center": [
+            35.18,
+            32.42
+          ],
+          "zoom": 8,
+          "pitch": 20
+        },
+        "contextYear": -850
+      }
+    ]
+  },
+  {
+    "id": "story-jehu",
+    "title": "Jehu — Coup, Dynasty Change, and Assyria",
+    "subtitle": "From the Ramoth-gilead war to Jezreel, Samaria, and the Black Obelisk.",
+    "personId": "jehu",
+    "theme": "Jehu",
+    "chapters": [
+      {
+        "id": "jehu-ramoth",
+        "title": "Ramoth-gilead: known name, unknown site",
+        "eyebrow": "2 Kings 9 · disputed geography",
+        "description": "The coup begins at Ramoth-gilead, but the city is not securely pinned.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 9,
+            "label": "2 Kings 9:1–14",
+            "verseStart": 1,
+            "verseEnd": 14
+          }
+        ],
+        "placeId": "ramoth-gilead",
+        "camera": {
+          "center": [
+            35.75,
+            32.3
+          ],
+          "zoom": 6.5,
+          "pitch": 20
+        },
+        "contextYear": -840
+      },
+      {
+        "id": "jehu-drive",
+        "title": "Drive toward Jezreel",
+        "eyebrow": "Animated journey · broad Gilead start",
+        "description": "The line starts from broad Gilead context, not a guessed Ramoth site, then reaches established Jezreel.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 9,
+            "label": "2 Kings 9:15–30",
+            "verseStart": 15,
+            "verseEnd": 30
+          }
+        ],
+        "journeyId": "journey-jehu-gilead-jezreel-samaria",
+        "camera": {
+          "center": [
+            35.48,
+            32.45
+          ],
+          "zoom": 6,
+          "pitch": 25
+        },
+        "contextYear": -840
+      },
+      {
+        "id": "jehu-obelisk",
+        "title": "Tribute in Assyrian art",
+        "eyebrow": "c. 841 BCE · independent source",
+        "description": "The Black Obelisk depicts/captions tribute from Jehu under Assyria’s “house of Omri” label. It is not a portrait verified against Jehu’s actual appearance.",
+        "scripture": [],
+        "placeId": "calah-nimrud",
+        "camera": {
+          "center": [
+            43.326,
+            36.098
+          ],
+          "zoom": 7,
+          "pitch": 15
+        },
+        "contextYear": -840
+      }
+    ]
+  },
+  {
+    "id": "story-amos-hosea",
+    "title": "Amos & Hosea — Prophets of a Prosperous and Fragile North",
+    "subtitle": "Bethel and Samaria before the Assyrian collapse.",
+    "personId": "amos",
+    "theme": "Eighth-century Prophets",
+    "chapters": [
+      {
+        "id": "amos-tekoa",
+        "title": "Amos from Tekoa",
+        "eyebrow": "Amos 1 · probable town",
+        "description": "Tekoa anchors the prophet’s Judean origin; no imaginary route north is drawn.",
+        "scripture": [
+          {
+            "book": "Amos",
+            "chapter": 1,
+            "label": "Amos 1:1–2",
+            "verseStart": 1,
+            "verseEnd": 2
+          }
+        ],
+        "placeId": "tekoa",
+        "camera": {
+          "center": [
+            35.215,
+            31.636
+          ],
+          "zoom": 8,
+          "pitch": 20
+        },
+        "contextYear": -760
+      },
+      {
+        "id": "amos-bethel",
+        "title": "The royal sanctuary at Bethel",
+        "eyebrow": "Amos 7 · probable city identification",
+        "description": "Amos confronts Amaziah at Bethel. The site is probable; a specific altar from this scene is not.",
+        "scripture": [
+          {
+            "book": "Amos",
+            "chapter": 7,
+            "label": "Amos 7:10–17",
+            "verseStart": 10,
+            "verseEnd": 17
+          }
+        ],
+        "placeId": "bethel",
+        "camera": {
+          "center": [
+            35.22,
+            31.93
+          ],
+          "zoom": 8,
+          "pitch": 28
+        },
+        "contextYear": -760
+      },
+      {
+        "id": "hosea-samaria",
+        "title": "Hosea and Samaria",
+        "eyebrow": "Hosea · late Northern Kingdom",
+        "description": "Hosea’s imagery repeatedly addresses Israel/Ephraim/Samaria while the kingdom becomes increasingly vulnerable to Assyria.",
+        "scripture": [
+          {
+            "book": "Hosea",
+            "chapter": 8,
+            "label": "Hosea 8:5–6",
+            "verseStart": 5,
+            "verseEnd": 6
+          },
+          {
+            "book": "Hosea",
+            "chapter": 10,
+            "label": "Hosea 10:5–8",
+            "verseStart": 5,
+            "verseEnd": 8
+          }
+        ],
+        "placeId": "samaria",
+        "camera": {
+          "center": [
+            35.189,
+            32.276
+          ],
+          "zoom": 7.5,
+          "pitch": 20
+        },
+        "contextYear": -740
+      }
+    ]
+  },
+  {
+    "id": "story-jonah-geography",
+    "title": "Jonah — Literary Geography from Joppa to Nineveh",
+    "subtitle": "A map that preserves the story’s places without pretending Tarshish is settled geography.",
+    "personId": "jonah",
+    "theme": "Jonah",
+    "chapters": [
+      {
+        "id": "jonah-joppa",
+        "title": "Joppa",
+        "eyebrow": "Jonah 1 · established port",
+        "description": "The ancient port is secure and provides a strong coastal anchor.",
+        "scripture": [
+          {
+            "book": "Jonah",
+            "chapter": 1,
+            "label": "Jonah 1:3",
+            "verseStart": 3,
+            "verseEnd": 3
+          }
+        ],
+        "placeId": "joppa",
+        "camera": {
+          "center": [
+            34.752,
+            32.052
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "jonah-sea",
+        "title": "Toward Tarshish — but where?",
+        "eyebrow": "Animated literary direction · destination disputed",
+        "description": "The ship heads into the Mediterranean; the animation stops before assigning Tarshish to Spain, Anatolia, or another proposal.",
+        "scripture": [
+          {
+            "book": "Jonah",
+            "chapter": 1,
+            "label": "Jonah 1:3–16",
+            "verseStart": 3,
+            "verseEnd": 16
+          }
+        ],
+        "journeyId": "journey-jonah-joppa-sea",
+        "camera": {
+          "center": [
+            33.8,
+            33.0
+          ],
+          "zoom": 4.8,
+          "pitch": 10
+        }
+      },
+      {
+        "id": "jonah-tarshish",
+        "title": "Tarshish remains unpinned",
+        "eyebrow": "Interpretation layer · disputed",
+        "description": "The atlas presents proposal families in the place panel rather than a false coordinate.",
+        "scripture": [
+          {
+            "book": "Jonah",
+            "chapter": 1,
+            "label": "Jonah 1:3",
+            "verseStart": 3,
+            "verseEnd": 3
+          }
+        ],
+        "placeId": "tarshish",
+        "camera": {
+          "center": [
+            30.0,
+            34.0
+          ],
+          "zoom": 3.2,
+          "pitch": 0
+        }
+      },
+      {
+        "id": "jonah-nineveh",
+        "title": "Nineveh",
+        "eyebrow": "Jonah 3 · established Assyrian city",
+        "description": "Nineveh is archaeologically secure. Mapping the city does not settle the literary genre or historicity of the book.",
+        "scripture": [
+          {
+            "book": "Jonah",
+            "chapter": 3,
+            "label": "Jonah 3"
+          }
+        ],
+        "placeId": "nineveh",
+        "camera": {
+          "center": [
+            43.152,
+            36.359
+          ],
+          "zoom": 8,
+          "pitch": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-assyria-samaria",
+    "title": "Assyria and the Fall of Samaria",
+    "subtitle": "Tiglath-pileser III, Shalmaneser V, Sargon II, annexation, siege, and deportation.",
+    "personId": "sargon-ii",
+    "theme": "Assyria",
+    "chapters": [
+      {
+        "id": "assy-west",
+        "title": "Assyria enters the western kingdoms",
+        "eyebrow": "Late 8th century BCE · imperial context",
+        "description": "Assyrian power expands into Syria-Palestine. Context polygons are intentionally broad and time-aware.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 15,
+            "label": "2 Kings 15:29",
+            "verseStart": 29,
+            "verseEnd": 29
+          }
+        ],
+        "camera": {
+          "center": [
+            39.5,
+            34.5
+          ],
+          "zoom": 4,
+          "pitch": 10
+        },
+        "contextYear": -740
+      },
+      {
+        "id": "assy-damascus",
+        "title": "Damascus falls",
+        "eyebrow": "732 BCE context",
+        "description": "Tiglath-pileser III captures Damascus while northern Israelite territories are annexed and populations deported.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 16,
+            "label": "2 Kings 16:9",
+            "verseStart": 9,
+            "verseEnd": 9
+          }
+        ],
+        "placeId": "damascus",
+        "camera": {
+          "center": [
+            36.29,
+            33.51
+          ],
+          "zoom": 7,
+          "pitch": 20
+        },
+        "contextYear": -730
+      },
+      {
+        "id": "assy-samaria",
+        "title": "Samaria under siege",
+        "eyebrow": "Shalmaneser V / Sargon II · attribution nuance",
+        "description": "The end of Samaria is certain; which Assyrian king should receive the final capture credit is historically debated.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 17,
+            "label": "2 Kings 17:3–6",
+            "verseStart": 3,
+            "verseEnd": 6
+          }
+        ],
+        "placeId": "samaria",
+        "camera": {
+          "center": [
+            35.189,
+            32.276
+          ],
+          "zoom": 8,
+          "pitch": 25
+        },
+        "contextYear": -720
+      },
+      {
+        "id": "assy-deport",
+        "title": "Toward Gozan",
+        "eyebrow": "Animated deportation corridor · reconstructed",
+        "description": "The route is schematic. Halah and the unnamed Median cities remain separate uncertainty records.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 17,
+            "label": "2 Kings 17:6",
+            "verseStart": 6,
+            "verseEnd": 6
+          }
+        ],
+        "journeyId": "journey-samaria-deportation-gozan",
+        "camera": {
+          "center": [
+            37.8,
+            34.8
+          ],
+          "zoom": 4.3,
+          "pitch": 15
+        },
+        "contextYear": -720
+      },
+      {
+        "id": "assy-gozan",
+        "title": "Gozan and the Khabur",
+        "eyebrow": "2 Kings 17 · established destination region",
+        "description": "Guzana/Tell Halaf and the Khabur river provide secure Upper Mesopotamian anchors for part of the deportation notice.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 17,
+            "label": "2 Kings 17:6",
+            "verseStart": 6,
+            "verseEnd": 6
+          }
+        ],
+        "placeId": "gozan",
+        "camera": {
+          "center": [
+            40.119,
+            36.827
+          ],
+          "zoom": 7,
+          "pitch": 20
+        },
+        "contextYear": -720
+      }
+    ]
+  },
+  {
+    "id": "story-isaiah-hezekiah",
+    "title": "Isaiah, Ahaz & Hezekiah — Jerusalem under Assyrian Pressure",
+    "subtitle": "From the Syro-Ephraimite crisis to water engineering and imperial confrontation.",
+    "personId": "isaiah",
+    "theme": "Isaiah & Hezekiah",
+    "chapters": [
+      {
+        "id": "isaiah-upper-pool",
+        "title": "The Upper Pool conduit",
+        "eyebrow": "Isaiah 7 · deliberately unpinned",
+        "description": "Isaiah meets Ahaz by the conduit of the Upper Pool. The topographic reference is real; its exact archaeological coordinate is unresolved.",
+        "scripture": [
+          {
+            "book": "Isaiah",
+            "chapter": 7,
+            "label": "Isaiah 7:1–9",
+            "verseStart": 1,
+            "verseEnd": 9
+          }
+        ],
+        "placeId": "upper-pool-conduit",
+        "camera": {
+          "center": [
+            35.235,
+            31.78
+          ],
+          "zoom": 8,
+          "pitch": 28
+        },
+        "contextYear": -730
+      },
+      {
+        "id": "isaiah-assyria",
+        "title": "Appeal to Assyria",
+        "eyebrow": "2 Kings 16 · geopolitical turning point",
+        "description": "Ahaz’s appeal brings Judah more directly into Assyria’s imperial system while Damascus and northern Israel are attacked.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 16,
+            "label": "2 Kings 16:5–10",
+            "verseStart": 5,
+            "verseEnd": 10
+          }
+        ],
+        "camera": {
+          "center": [
+            38.5,
+            34.5
+          ],
+          "zoom": 4,
+          "pitch": 10
+        },
+        "contextYear": -730
+      },
+      {
+        "id": "hezekiah-water",
+        "title": "Gihon and the Siloam Tunnel",
+        "eyebrow": "Late 8th century BCE · archaeology + text",
+        "description": "The physical tunnel is secure and its inscription describes tunneling; the inscription itself does not name Hezekiah.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 20,
+            "label": "2 Kings 20:20",
+            "verseStart": 20,
+            "verseEnd": 20
+          },
+          {
+            "book": "2 Chronicles",
+            "chapter": 32,
+            "label": "2 Chronicles 32:30",
+            "verseStart": 30,
+            "verseEnd": 30
+          }
+        ],
+        "placeId": "siloam-tunnel",
+        "camera": {
+          "center": [
+            35.236,
+            31.773
+          ],
+          "zoom": 11,
+          "pitch": 40
+        },
+        "contextYear": -700
+      },
+      {
+        "id": "hezekiah-jerusalem",
+        "title": "Jerusalem in the Assyrian age",
+        "eyebrow": "Iron Age II · established city, debated details",
+        "description": "Late-eighth-century Jerusalem was a major fortified urban center. The map separates secure topography from debated event locations.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 18,
+            "label": "2 Kings 18"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 9,
+          "pitch": 38
+        },
+        "contextYear": -700
+      }
+    ]
+  },
+  {
+    "id": "story-sennacherib-701",
+    "title": "701 BCE — Lachish and Jerusalem",
+    "subtitle": "One of the atlas’s strongest convergences of biblical text, Assyrian inscriptions, reliefs, and archaeology.",
+    "personId": "hezekiah",
+    "theme": "701 BCE",
+    "chapters": [
+      {
+        "id": "701-lachish",
+        "title": "Lachish falls",
+        "eyebrow": "701 BCE · high-confidence historical event",
+        "description": "Lachish is securely identified and its siege has direct archaeological evidence plus Assyrian visual/textual commemoration.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 18,
+            "label": "2 Kings 18:13–17",
+            "verseStart": 13,
+            "verseEnd": 17
+          },
+          {
+            "book": "Isaiah",
+            "chapter": 36,
+            "label": "Isaiah 36:1–2",
+            "verseStart": 1,
+            "verseEnd": 2
+          }
+        ],
+        "placeId": "lachish",
+        "camera": {
+          "center": [
+            34.848,
+            31.565
+          ],
+          "zoom": 9,
+          "pitch": 38
+        },
+        "contextYear": -700
+      },
+      {
+        "id": "701-route",
+        "title": "From Lachish toward Jerusalem",
+        "eyebrow": "Animated campaign transition · reconstructed",
+        "description": "The campaign relationship is historical; the polyline is not an excavated army road.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 18,
+            "label": "2 Kings 18:17",
+            "verseStart": 17,
+            "verseEnd": 17
+          }
+        ],
+        "journeyId": "journey-sennacherib-lachish-jerusalem",
+        "camera": {
+          "center": [
+            35.05,
+            31.68
+          ],
+          "zoom": 6.7,
+          "pitch": 25
+        },
+        "contextYear": -700
+      },
+      {
+        "id": "701-upper-pool",
+        "title": "The Assyrian envoy",
+        "eyebrow": "2 Kings 18 / Isaiah 36 · place remains uncertain",
+        "description": "The envoy stands by the conduit of the Upper Pool on the Fuller’s Field road—important relative topography without a secure point.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 18,
+            "label": "2 Kings 18:17–18",
+            "verseStart": 17,
+            "verseEnd": 18
+          },
+          {
+            "book": "Isaiah",
+            "chapter": 36,
+            "label": "Isaiah 36:2",
+            "verseStart": 2,
+            "verseEnd": 2
+          }
+        ],
+        "placeId": "upper-pool-conduit",
+        "camera": {
+          "center": [
+            35.235,
+            31.78
+          ],
+          "zoom": 8,
+          "pitch": 30
+        },
+        "contextYear": -700
+      },
+      {
+        "id": "701-bird-cage",
+        "title": "Jerusalem is not claimed captured",
+        "eyebrow": "Assyrian annals + biblical narrative",
+        "description": "Sennacherib boasts of devastating Judah and confining Hezekiah in Jerusalem “like a bird in a cage,” while the biblical account narrates deliverance. The sources overlap but speak with different aims.",
+        "scripture": [
+          {
+            "book": "2 Kings",
+            "chapter": 19,
+            "label": "2 Kings 19"
+          },
+          {
+            "book": "Isaiah",
+            "chapter": 37,
+            "label": "Isaiah 37"
+          }
+        ],
+        "placeId": "jerusalem",
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 9,
+          "pitch": 40
+        },
+        "contextYear": -700
+      },
+      {
+        "id": "701-nineveh",
+        "title": "The Lachish reliefs at Nineveh",
+        "eyebrow": "Assyrian palace memory · archaeological source",
+        "description": "Reliefs from Sennacherib’s palace at Nineveh depict the Lachish siege. They are imperial propaganda and powerful historical evidence at the same time.",
+        "scripture": [],
+        "placeId": "nineveh",
+        "camera": {
+          "center": [
+            43.152,
+            36.359
+          ],
+          "zoom": 8,
+          "pitch": 20
+        },
+        "contextYear": -700
+      }
+    ]
+  }
+]

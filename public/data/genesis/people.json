@@ -1,0 +1,563 @@
+[
+  {
+    "id": "adam",
+    "name": "Adam",
+    "aliases": [],
+    "era": "Early Genesis",
+    "summary": "The first human figure in the Genesis creation and Eden narratives.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 2,
+        "verseStart": 7,
+        "verseEnd": 25,
+        "label": "Genesis 2:7–25"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 3,
+        "label": "Genesis 3"
+      }
+    ],
+    "relatedPlaceIds": [
+      "eden"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "eve",
+    "name": "Eve",
+    "aliases": [],
+    "era": "Early Genesis",
+    "summary": "The first woman in the Genesis Eden narrative and mother figure in the early genealogies.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 2,
+        "verseStart": 18,
+        "verseEnd": 25,
+        "label": "Genesis 2:18–25"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 3,
+        "verseStart": 20,
+        "verseEnd": 20,
+        "label": "Genesis 3:20"
+      }
+    ],
+    "relatedPlaceIds": [
+      "eden"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "noah",
+    "name": "Noah",
+    "aliases": [],
+    "era": "Early Genesis",
+    "summary": "Central figure of the flood narrative and post-flood genealogical transition.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 6,
+        "verseStart": 8,
+        "verseEnd": 22,
+        "label": "Genesis 6:8–22"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 8,
+        "label": "Genesis 8"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 9,
+        "verseStart": 1,
+        "verseEnd": 17,
+        "label": "Genesis 9:1–17"
+      }
+    ],
+    "relatedPlaceIds": [
+      "mountains-ararat"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "abraham",
+    "name": "Abraham",
+    "aliases": [
+      "Abram"
+    ],
+    "era": "Patriarchal narratives",
+    "summary": "Patriarch whose Genesis story moves from Mesopotamia through Haran into Canaan, Egypt, and the southern hill country.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 11,
+        "verseStart": 26,
+        "verseEnd": 32,
+        "label": "Genesis 11:26–32"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 12,
+        "label": "Genesis 12"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 22,
+        "label": "Genesis 22"
+      }
+    ],
+    "relatedPlaceIds": [
+      "ur",
+      "haran",
+      "shechem",
+      "bethel",
+      "hebron",
+      "beersheba",
+      "moriah"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "sarah",
+    "name": "Sarah",
+    "aliases": [
+      "Sarai"
+    ],
+    "era": "Patriarchal narratives",
+    "summary": "Wife of Abraham and mother of Isaac; associated especially with Hebron/Machpelah in the burial narrative.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 11,
+        "verseStart": 29,
+        "verseEnd": 31,
+        "label": "Genesis 11:29–31"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 17,
+        "verseStart": 15,
+        "verseEnd": 21,
+        "label": "Genesis 17:15–21"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 23,
+        "label": "Genesis 23"
+      }
+    ],
+    "relatedPlaceIds": [
+      "ur",
+      "haran",
+      "hebron"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "lot",
+    "name": "Lot",
+    "aliases": [],
+    "era": "Patriarchal narratives",
+    "summary": "Abraham’s nephew whose story is tied to the Jordan plain and the Sodom narrative.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 12,
+        "verseStart": 4,
+        "verseEnd": 5,
+        "label": "Genesis 12:4–5"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 13,
+        "verseStart": 5,
+        "verseEnd": 13,
+        "label": "Genesis 13:5–13"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 19,
+        "label": "Genesis 19"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jordan-plain",
+      "sodom",
+      "zoar"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "hagar",
+    "name": "Hagar",
+    "aliases": [],
+    "era": "Patriarchal narratives",
+    "summary": "Egyptian servant of Sarah and mother of Ishmael, associated with wilderness and well traditions.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 16,
+        "label": "Genesis 16"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 21,
+        "verseStart": 8,
+        "verseEnd": 21,
+        "label": "Genesis 21:8–21"
+      }
+    ],
+    "relatedPlaceIds": [
+      "beer-lahai-roi",
+      "beersheba"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "isaac",
+    "name": "Isaac",
+    "aliases": [],
+    "era": "Patriarchal narratives",
+    "summary": "Son of Abraham and Sarah; his narrative is centered mainly in the southern Canaan/Negev zone.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 21,
+        "verseStart": 1,
+        "verseEnd": 8,
+        "label": "Genesis 21:1–8"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 22,
+        "label": "Genesis 22"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 26,
+        "label": "Genesis 26"
+      }
+    ],
+    "relatedPlaceIds": [
+      "beersheba",
+      "gerar",
+      "beer-lahai-roi",
+      "hebron"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "rebekah",
+    "name": "Rebekah",
+    "aliases": [],
+    "era": "Patriarchal narratives",
+    "summary": "Wife of Isaac, brought from Abraham’s wider kin network in upper Mesopotamia.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 24,
+        "label": "Genesis 24"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 25,
+        "verseStart": 20,
+        "verseEnd": 26,
+        "label": "Genesis 25:20–26"
+      }
+    ],
+    "relatedPlaceIds": [
+      "haran",
+      "paddan-aram",
+      "beer-lahai-roi"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "jacob",
+    "name": "Jacob",
+    "aliases": [
+      "Israel"
+    ],
+    "era": "Patriarchal narratives",
+    "summary": "Son of Isaac whose journeys link Beersheba, Bethel, Haran/Paddan-aram, Gilead, the Jabbok, Shechem, and Hebron.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 25,
+        "verseStart": 26,
+        "verseEnd": 26,
+        "label": "Genesis 25:26"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 28,
+        "label": "Genesis 28"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 32,
+        "label": "Genesis 32"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 35,
+        "label": "Genesis 35"
+      }
+    ],
+    "relatedPlaceIds": [
+      "beersheba",
+      "bethel",
+      "haran",
+      "paddan-aram",
+      "gilead",
+      "jabbok",
+      "peniel",
+      "succoth",
+      "shechem",
+      "hebron"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "esau",
+    "name": "Esau",
+    "aliases": [
+      "Edom"
+    ],
+    "era": "Patriarchal narratives",
+    "summary": "Brother of Jacob and ancestral figure associated in Genesis with Seir/Edom.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 25,
+        "verseStart": 24,
+        "verseEnd": 34,
+        "label": "Genesis 25:24–34"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 33,
+        "label": "Genesis 33"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 36,
+        "label": "Genesis 36"
+      }
+    ],
+    "relatedPlaceIds": [
+      "seir",
+      "peniel"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "rachel",
+    "name": "Rachel",
+    "aliases": [],
+    "era": "Patriarchal narratives",
+    "summary": "Wife of Jacob and mother of Joseph and Benjamin; part of the Haran-to-Canaan return narrative.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 29,
+        "verseStart": 6,
+        "verseEnd": 30,
+        "label": "Genesis 29:6–30"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 30,
+        "verseStart": 22,
+        "verseEnd": 24,
+        "label": "Genesis 30:22–24"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 35,
+        "verseStart": 16,
+        "verseEnd": 20,
+        "label": "Genesis 35:16–20"
+      }
+    ],
+    "relatedPlaceIds": [
+      "haran",
+      "paddan-aram",
+      "bethel"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "leah",
+    "name": "Leah",
+    "aliases": [],
+    "era": "Patriarchal narratives",
+    "summary": "Wife of Jacob and mother of several sons who become ancestral tribal figures in Genesis.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 29,
+        "verseStart": 16,
+        "verseEnd": 35,
+        "label": "Genesis 29:16–35"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 30,
+        "verseStart": 9,
+        "verseEnd": 21,
+        "label": "Genesis 30:9–21"
+      }
+    ],
+    "relatedPlaceIds": [
+      "haran",
+      "paddan-aram",
+      "hebron"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "joseph",
+    "name": "Joseph",
+    "aliases": [],
+    "era": "Patriarchal narratives",
+    "summary": "Son of Jacob whose story moves from the hill country through Dothan to Egypt, where he rises to power and receives his family.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 37,
+        "label": "Genesis 37"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 39,
+        "label": "Genesis 39"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 41,
+        "label": "Genesis 41"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 45,
+        "label": "Genesis 45"
+      }
+    ],
+    "relatedPlaceIds": [
+      "hebron",
+      "shechem",
+      "dothan",
+      "egypt",
+      "on",
+      "goshen"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "judah",
+    "name": "Judah",
+    "aliases": [],
+    "era": "Patriarchal narratives",
+    "summary": "Son of Jacob who becomes prominent in the Joseph cycle and the family’s move to Egypt.",
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 37,
+        "verseStart": 26,
+        "verseEnd": 27,
+        "label": "Genesis 37:26–27"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 38,
+        "label": "Genesis 38"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 44,
+        "verseStart": 18,
+        "verseEnd": 34,
+        "label": "Genesis 44:18–34"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 46,
+        "verseStart": 28,
+        "verseEnd": 28,
+        "label": "Genesis 46:28"
+      }
+    ],
+    "relatedPlaceIds": [
+      "hebron",
+      "egypt",
+      "goshen"
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "artisticNote": "Any visual representation in the atlas is an artistic silhouette, not a historical portrait."
+  }
+]

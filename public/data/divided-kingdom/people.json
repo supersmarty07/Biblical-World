@@ -1,0 +1,1056 @@
+[
+  {
+    "id": "rehoboam",
+    "name": "Rehoboam",
+    "aliases": [],
+    "era": "Division of the monarchy",
+    "summary": "Son of Solomon and king in Jerusalem when the northern tribes reject his rule at Shechem.",
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 12,
+        "label": "1 Kings 12"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "shechem",
+      "judah-kingdom"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings"
+    ],
+    "artisticNote": "Silhouette is an artistic period cue, not a portrait."
+  },
+  {
+    "id": "jeroboam-i",
+    "name": "Jeroboam I",
+    "aliases": [
+      "Jeroboam son of Nebat"
+    ],
+    "era": "Early Northern Kingdom",
+    "summary": "First king of the Northern Kingdom in the Kings narrative; associated with Shechem, Penuel, Bethel, and Dan.",
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 12,
+        "label": "1 Kings 12"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 13,
+        "label": "1 Kings 13"
+      }
+    ],
+    "relatedPlaceIds": [
+      "shechem",
+      "peniel",
+      "bethel",
+      "dan-laish",
+      "israel-northern-kingdom"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings"
+    ]
+  },
+  {
+    "id": "shoshenq-i",
+    "name": "Shoshenq I",
+    "aliases": [
+      "Shishak"
+    ],
+    "era": "Egyptian Twenty-second Dynasty / early divided monarchy",
+    "summary": "Egyptian pharaoh commonly identified with the biblical Shishak who campaigns in the Levant during Rehoboam’s reign.",
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 14,
+        "label": "1 Kings 14:25–28",
+        "verseStart": 25,
+        "verseEnd": 28
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 12,
+        "label": "2 Chronicles 12"
+      }
+    ],
+    "relatedPlaceIds": [
+      "egypt",
+      "jerusalem",
+      "judah-kingdom"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-context-scripture"
+    ],
+    "artisticNote": "Artistic silhouette only; no claim to reconstruct Shoshenq’s appearance."
+  },
+  {
+    "id": "omri",
+    "name": "Omri",
+    "aliases": [],
+    "era": "Ninth-century BCE Northern Kingdom",
+    "summary": "Northern king who founds Samaria and establishes the dynasty later labeled “house of Omri” in foreign sources.",
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 16,
+        "label": "1 Kings 16:21–28",
+        "verseStart": 21,
+        "verseEnd": 28
+      }
+    ],
+    "relatedPlaceIds": [
+      "tirzah",
+      "samaria",
+      "israel-northern-kingdom"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings",
+      "source-samaria-archaeology"
+    ]
+  },
+  {
+    "id": "ahab",
+    "name": "Ahab",
+    "aliases": [],
+    "era": "Ninth-century BCE Northern Kingdom",
+    "summary": "Son of Omri; associated with Samaria, Jezreel, conflicts with Aram, Elijah, and—outside Kings—the coalition at Qarqar.",
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 16,
+        "label": "1 Kings 16:29–34",
+        "verseStart": 29,
+        "verseEnd": 34
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 18,
+        "label": "1 Kings 18"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 21,
+        "label": "1 Kings 21"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 22,
+        "label": "1 Kings 22"
+      }
+    ],
+    "relatedPlaceIds": [
+      "samaria",
+      "jezreel-city",
+      "mount-carmel",
+      "ramoth-gilead",
+      "qarqar"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings",
+      "source-kurkh-monolith"
+    ]
+  },
+  {
+    "id": "jezebel",
+    "name": "Jezebel",
+    "aliases": [],
+    "era": "Ninth-century BCE Northern Kingdom",
+    "summary": "Phoenician royal woman, wife of Ahab, central to the Elijah cycle and the Naboth/Jehu narratives.",
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 16,
+        "label": "1 Kings 16:31",
+        "verseStart": 31,
+        "verseEnd": 31
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 21,
+        "label": "1 Kings 21"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 9,
+        "label": "2 Kings 9:30–37",
+        "verseStart": 30,
+        "verseEnd": 37
+      }
+    ],
+    "relatedPlaceIds": [
+      "samaria",
+      "jezreel-city",
+      "sidon-monarchy"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-cogan-kings",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "elijah",
+    "name": "Elijah",
+    "aliases": [
+      "Elijah the Tishbite"
+    ],
+    "era": "Ninth-century BCE prophetic narratives",
+    "summary": "Prophet whose stories move between Gilead, Phoenicia, Carmel, Jezreel, Beersheba, and Horeb/Sinai.",
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 17,
+        "label": "1 Kings 17"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 18,
+        "label": "1 Kings 18"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 19,
+        "label": "1 Kings 19"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 1,
+        "label": "2 Kings 1"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 2,
+        "label": "2 Kings 2:1–12",
+        "verseStart": 1,
+        "verseEnd": 12
+      }
+    ],
+    "relatedPlaceIds": [
+      "tishbe-gilead",
+      "kerith-brook",
+      "zarephath",
+      "mount-carmel",
+      "jezreel-city",
+      "beersheba",
+      "mount-sinai"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-cogan-kings"
+    ],
+    "artisticNote": "No surviving portrait exists; the figure is a restrained artistic silhouette."
+  },
+  {
+    "id": "elisha",
+    "name": "Elisha",
+    "aliases": [],
+    "era": "Ninth-century BCE prophetic narratives",
+    "summary": "Successor to Elijah whose narratives center on the Jordan, Samaria, Dothan, Shunem, and Israel-Aram relations.",
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 19,
+        "label": "1 Kings 19:19–21",
+        "verseStart": 19,
+        "verseEnd": 21
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 2,
+        "label": "2 Kings 2"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 5,
+        "label": "2 Kings 5"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 6,
+        "label": "2 Kings 6"
+      }
+    ],
+    "relatedPlaceIds": [
+      "abel-meholah",
+      "bethel",
+      "jericho",
+      "jordan-river",
+      "samaria",
+      "dothan",
+      "shunem"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-cogan-kings"
+    ]
+  },
+  {
+    "id": "naaman",
+    "name": "Naaman",
+    "aliases": [],
+    "era": "Ninth-century BCE Aram/Israel narratives",
+    "summary": "Aramean commander in 2 Kings 5 who seeks healing through Elisha and washes in the Jordan.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 5,
+        "label": "2 Kings 5"
+      }
+    ],
+    "relatedPlaceIds": [
+      "damascus",
+      "samaria",
+      "jordan-river"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-cogan-kings",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "mesha-king-moab",
+    "name": "Mesha of Moab",
+    "aliases": [
+      "King Mesha"
+    ],
+    "era": "Ninth-century BCE Moab",
+    "summary": "Moabite king known from both 2 Kings 3 and the Mesha Stele, though the texts present different episodes and perspectives.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 3,
+        "label": "2 Kings 3:4–27",
+        "verseStart": 4,
+        "verseEnd": 27
+      }
+    ],
+    "relatedPlaceIds": [
+      "dibon",
+      "moab",
+      "kir-hareseth"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-mesha-stele",
+      "source-miller-hayes"
+    ]
+  },
+  {
+    "id": "jehoshaphat",
+    "name": "Jehoshaphat",
+    "aliases": [],
+    "era": "Ninth-century BCE Judah",
+    "summary": "King of Judah who appears as Ahab’s ally at Ramoth-gilead and joins the Moab campaign in 2 Kings 3.",
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 22,
+        "label": "1 Kings 22"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 3,
+        "label": "2 Kings 3"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "ramoth-gilead",
+      "moab"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings"
+    ]
+  },
+  {
+    "id": "jehu",
+    "name": "Jehu",
+    "aliases": [],
+    "era": "Ninth-century BCE Northern Kingdom",
+    "summary": "Army commander anointed king during the Ramoth-gilead crisis; his coup reaches Jezreel and Samaria. Assyrian evidence records tribute from Jehu.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 9,
+        "label": "2 Kings 9"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 10,
+        "label": "2 Kings 10"
+      }
+    ],
+    "relatedPlaceIds": [
+      "ramoth-gilead",
+      "jezreel-city",
+      "samaria",
+      "calah-nimrud"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-cogan-kings",
+      "source-black-obelisk"
+    ]
+  },
+  {
+    "id": "hazael",
+    "name": "Hazael",
+    "aliases": [],
+    "era": "Ninth-century BCE Aram-Damascus",
+    "summary": "King of Aram-Damascus and major opponent of Israel and Judah. A damaged Aramaic victory inscription from Tel Dan is often connected with his reign, though attribution is debated.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 8,
+        "label": "2 Kings 8:7–15",
+        "verseStart": 7,
+        "verseEnd": 15
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 10,
+        "label": "2 Kings 10:32–33",
+        "verseStart": 32,
+        "verseEnd": 33
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 12,
+        "label": "2 Kings 12:17–18",
+        "verseStart": 17,
+        "verseEnd": 18
+      }
+    ],
+    "relatedPlaceIds": [
+      "damascus",
+      "aram-damascus",
+      "gath",
+      "dan-laish"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings",
+      "source-tel-dan-stele"
+    ]
+  },
+  {
+    "id": "athaliah",
+    "name": "Athaliah",
+    "aliases": [],
+    "era": "Ninth-century BCE Judah",
+    "summary": "Royal woman who seizes power in Judah after Ahaziah’s death before being overthrown in the Joash narrative.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 11,
+        "label": "2 Kings 11"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 22,
+        "label": "2 Chronicles 22"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "temple-mount",
+      "judah-kingdom"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings"
+    ]
+  },
+  {
+    "id": "joash-judah",
+    "name": "Joash of Judah",
+    "aliases": [
+      "Jehoash of Judah"
+    ],
+    "era": "Ninth-century BCE Judah",
+    "summary": "King of Judah associated with Temple repairs and Hazael’s pressure on Jerusalem.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 11,
+        "label": "2 Kings 11"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 12,
+        "label": "2 Kings 12"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "temple-mount",
+      "gath"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings"
+    ]
+  },
+  {
+    "id": "amos",
+    "name": "Amos",
+    "aliases": [],
+    "era": "Eighth-century BCE prophet",
+    "summary": "Prophet from Tekoa whose oracles address Israel and its neighbors; Amos 7 places a confrontation at the royal sanctuary of Bethel.",
+    "scripture": [
+      {
+        "book": "Amos",
+        "chapter": 1,
+        "label": "Amos 1:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      },
+      {
+        "book": "Amos",
+        "chapter": 7,
+        "label": "Amos 7:10–17",
+        "verseStart": 10,
+        "verseEnd": 17
+      }
+    ],
+    "relatedPlaceIds": [
+      "tekoa",
+      "bethel",
+      "samaria",
+      "israel-northern-kingdom"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-miller-hayes"
+    ]
+  },
+  {
+    "id": "jeroboam-ii",
+    "name": "Jeroboam II",
+    "aliases": [],
+    "era": "Eighth-century BCE Northern Kingdom",
+    "summary": "Northern king during a period of territorial recovery and prosperity that forms part of the setting for Amos and Hosea.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 14,
+        "label": "2 Kings 14:23–29",
+        "verseStart": 23,
+        "verseEnd": 29
+      },
+      {
+        "book": "Amos",
+        "chapter": 1,
+        "label": "Amos 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "samaria",
+      "israel-northern-kingdom"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings"
+    ]
+  },
+  {
+    "id": "hosea-prophet",
+    "name": "Hosea",
+    "aliases": [],
+    "era": "Eighth-century BCE prophet",
+    "summary": "Prophet whose book addresses the Northern Kingdom in the final decades before Assyrian conquest, using Israel/Ephraim/Samaria as major political-theological terms.",
+    "scripture": [
+      {
+        "book": "Hosea",
+        "chapter": 1,
+        "label": "Hosea 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Hosea",
+        "chapter": 8,
+        "label": "Hosea 8:5–6",
+        "verseStart": 5,
+        "verseEnd": 6
+      },
+      {
+        "book": "Hosea",
+        "chapter": 10,
+        "label": "Hosea 10:5–8",
+        "verseStart": 5,
+        "verseEnd": 8
+      }
+    ],
+    "relatedPlaceIds": [
+      "samaria",
+      "bethel",
+      "israel-northern-kingdom"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-miller-hayes"
+    ]
+  },
+  {
+    "id": "jonah",
+    "name": "Jonah",
+    "aliases": [
+      "Jonah son of Amittai"
+    ],
+    "era": "Eighth-century royal context / prophetic narrative",
+    "summary": "A prophet named Jonah son of Amittai appears in 2 Kings 14; the book of Jonah places its narrative between Joppa, the sea, and Nineveh. The book’s composition and historicity are separate scholarly questions.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 14,
+        "label": "2 Kings 14:25",
+        "verseStart": 25,
+        "verseEnd": 25
+      },
+      {
+        "book": "Jonah",
+        "chapter": 1,
+        "label": "Jonah 1"
+      },
+      {
+        "book": "Jonah",
+        "chapter": 3,
+        "label": "Jonah 3"
+      }
+    ],
+    "relatedPlaceIds": [
+      "joppa",
+      "tarshish",
+      "mediterranean-sea",
+      "nineveh"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-miller-hayes"
+    ],
+    "artisticNote": "The Jonah figure is symbolic artwork, not a historical portrait."
+  },
+  {
+    "id": "ahaz",
+    "name": "Ahaz",
+    "aliases": [],
+    "era": "Late eighth-century BCE Judah",
+    "summary": "King of Judah during the Syro-Ephraimite crisis who appeals to Tiglath-pileser III of Assyria.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 16,
+        "label": "2 Kings 16"
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 7,
+        "label": "Isaiah 7"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "upper-pool-conduit",
+      "damascus",
+      "judah-kingdom"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings",
+      "source-assyrian-royal-inscriptions"
+    ]
+  },
+  {
+    "id": "pekah",
+    "name": "Pekah",
+    "aliases": [],
+    "era": "Late eighth-century BCE Northern Kingdom",
+    "summary": "King of Israel who allies with Rezin of Damascus against Judah before Assyrian intervention.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 15,
+        "label": "2 Kings 15:27–31",
+        "verseStart": 27,
+        "verseEnd": 31
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 16,
+        "label": "2 Kings 16:5–9",
+        "verseStart": 5,
+        "verseEnd": 9
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 7,
+        "label": "Isaiah 7:1–9",
+        "verseStart": 1,
+        "verseEnd": 9
+      }
+    ],
+    "relatedPlaceIds": [
+      "samaria",
+      "israel-northern-kingdom",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings",
+      "source-assyrian-royal-inscriptions"
+    ]
+  },
+  {
+    "id": "hoshea-israel",
+    "name": "Hoshea",
+    "aliases": [],
+    "era": "Final Northern Kingdom",
+    "summary": "Last king of the Northern Kingdom in Kings; his revolt against Assyria precedes the siege and fall of Samaria.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 17,
+        "label": "2 Kings 17:1–6",
+        "verseStart": 1,
+        "verseEnd": 6
+      }
+    ],
+    "relatedPlaceIds": [
+      "samaria",
+      "israel-northern-kingdom",
+      "neo-assyrian-empire"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-miller-hayes",
+      "source-cogan-kings",
+      "source-assyrian-royal-inscriptions"
+    ]
+  },
+  {
+    "id": "isaiah",
+    "name": "Isaiah",
+    "aliases": [],
+    "era": "Late eighth-century BCE prophet",
+    "summary": "Jerusalem-centered prophet active through the Assyrian crises of Ahaz and Hezekiah; his book preserves detailed Jerusalem and imperial geography.",
+    "scripture": [
+      {
+        "book": "Isaiah",
+        "chapter": 1,
+        "label": "Isaiah 1:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 7,
+        "label": "Isaiah 7"
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 20,
+        "label": "Isaiah 20"
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 36,
+        "label": "Isaiah 36"
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 37,
+        "label": "Isaiah 37"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "upper-pool-conduit",
+      "lachish",
+      "neo-assyrian-empire"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-miller-hayes",
+      "source-assyrian-royal-inscriptions"
+    ],
+    "artisticNote": "Artistic silhouette only; no historical likeness is claimed."
+  },
+  {
+    "id": "micah",
+    "name": "Micah",
+    "aliases": [
+      "Micah of Moresheth"
+    ],
+    "era": "Late eighth-century BCE prophet",
+    "summary": "Prophet associated with Moresheth in the Shephelah whose oracles address Samaria and Jerusalem amid Assyrian pressure.",
+    "scripture": [
+      {
+        "book": "Micah",
+        "chapter": 1,
+        "label": "Micah 1:1–16",
+        "verseStart": 1,
+        "verseEnd": 16
+      },
+      {
+        "book": "Micah",
+        "chapter": 3,
+        "label": "Micah 3:9–12",
+        "verseStart": 9,
+        "verseEnd": 12
+      }
+    ],
+    "relatedPlaceIds": [
+      "moresheth-gath",
+      "samaria",
+      "jerusalem",
+      "lachish"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-anchor-yale",
+      "source-miller-hayes"
+    ]
+  },
+  {
+    "id": "tiglath-pileser-iii",
+    "name": "Tiglath-pileser III",
+    "aliases": [
+      "Pul"
+    ],
+    "era": "Neo-Assyrian expansion",
+    "summary": "Assyrian king whose western campaigns transformed Syria-Palestine, annexing Damascus and northern Israelite territories and receiving tribute from regional rulers.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 15,
+        "label": "2 Kings 15:19–20",
+        "verseStart": 19,
+        "verseEnd": 20
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 15,
+        "label": "2 Kings 15:29",
+        "verseStart": 29,
+        "verseEnd": 29
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 16,
+        "label": "2 Kings 16:7–10",
+        "verseStart": 7,
+        "verseEnd": 10
+      }
+    ],
+    "relatedPlaceIds": [
+      "neo-assyrian-empire",
+      "damascus",
+      "dan-laish",
+      "samaria"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-assyrian-royal-inscriptions",
+      "source-context-scripture",
+      "source-cogan-kings"
+    ]
+  },
+  {
+    "id": "shalmaneser-iii",
+    "name": "Shalmaneser III",
+    "aliases": [],
+    "era": "Ninth-century BCE Neo-Assyria",
+    "summary": "Assyrian king whose inscriptions record Qarqar and later tribute from Jehu.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "qarqar",
+      "calah-nimrud",
+      "neo-assyrian-empire"
+    ],
+    "sourceIds": [
+      "source-kurkh-monolith",
+      "source-black-obelisk",
+      "source-assyrian-royal-inscriptions",
+      "source-context-scripture"
+    ]
+  },
+  {
+    "id": "shalmaneser-v",
+    "name": "Shalmaneser V",
+    "aliases": [],
+    "era": "Late eighth-century BCE Neo-Assyria",
+    "summary": "Assyrian king named in Kings as beginning the siege of Samaria; his short reign complicates attribution of the city’s final capture.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 17,
+        "label": "2 Kings 17:3–6",
+        "verseStart": 3,
+        "verseEnd": 6
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:9–10",
+        "verseStart": 9,
+        "verseEnd": 10
+      }
+    ],
+    "relatedPlaceIds": [
+      "samaria",
+      "neo-assyrian-empire"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-assyrian-royal-inscriptions",
+      "source-cogan-kings"
+    ]
+  },
+  {
+    "id": "sargon-ii",
+    "name": "Sargon II",
+    "aliases": [],
+    "era": "Late eighth-century BCE Neo-Assyria",
+    "summary": "Successor of Shalmaneser V whose inscriptions claim the conquest and deportation of Samaria and who later builds Dur-Sharrukin.",
+    "scripture": [
+      {
+        "book": "Isaiah",
+        "chapter": 20,
+        "label": "Isaiah 20:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "samaria",
+      "dur-sharrukin",
+      "neo-assyrian-empire"
+    ],
+    "sourceIds": [
+      "source-sargon-samaria",
+      "source-assyrian-royal-inscriptions",
+      "source-context-scripture",
+      "source-divided-kingdom-text"
+    ]
+  },
+  {
+    "id": "hezekiah",
+    "name": "Hezekiah",
+    "aliases": [],
+    "era": "Late eighth-century BCE Judah",
+    "summary": "King of Judah during the 701 BCE Assyrian campaign, associated in biblical tradition with reform, Jerusalem waterworks, and resistance to Sennacherib.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 19,
+        "label": "2 Kings 19"
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 20,
+        "label": "2 Kings 20"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 32,
+        "label": "2 Chronicles 32"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "temple-mount",
+      "gihon-spring",
+      "siloam-tunnel",
+      "lachish"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-cogan-kings",
+      "source-sennacherib-701",
+      "source-siloam-inscription",
+      "source-ussishkin-lachish"
+    ],
+    "artisticNote": "Artistic silhouette only; no historical likeness is claimed."
+  },
+  {
+    "id": "sennacherib",
+    "name": "Sennacherib",
+    "aliases": [],
+    "era": "701 BCE campaign / Neo-Assyria",
+    "summary": "Assyrian king whose 701 BCE campaign devastated Judah and captured Lachish; his inscriptions describe Hezekiah confined in Jerusalem but do not claim Jerusalem’s capture.",
+    "scripture": [
+      {
+        "book": "2 Kings",
+        "chapter": 18,
+        "label": "2 Kings 18:13–37",
+        "verseStart": 13,
+        "verseEnd": 37
+      },
+      {
+        "book": "2 Kings",
+        "chapter": 19,
+        "label": "2 Kings 19"
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 36,
+        "label": "Isaiah 36"
+      },
+      {
+        "book": "Isaiah",
+        "chapter": 37,
+        "label": "Isaiah 37"
+      }
+    ],
+    "relatedPlaceIds": [
+      "neo-assyrian-empire",
+      "lachish",
+      "jerusalem",
+      "nineveh"
+    ],
+    "sourceIds": [
+      "source-divided-kingdom-text",
+      "source-sennacherib-701",
+      "source-assyrian-royal-inscriptions",
+      "source-ussishkin-lachish"
+    ],
+    "artisticNote": "Royal clothing in the silhouette is generic Iron Age art direction, not a reconstruction from the Lachish reliefs."
+  }
+]

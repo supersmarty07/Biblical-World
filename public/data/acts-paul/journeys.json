@@ -1,0 +1,2221 @@
+[
+  {
+    "id": "journey-peter-joppa-caesarea",
+    "name": "Peter: Joppa → Caesarea",
+    "person": "Peter",
+    "personId": "peter",
+    "character": "peter",
+    "summary": "Acts 10 links Peter’s stay at Joppa with travel to Cornelius in Caesarea. The line is a generalized coastal/plain corridor.",
+    "segments": [
+      {
+        "id": "pjc-1",
+        "fromPlaceId": "joppa",
+        "toPlaceId": "caesarea-maritima",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            34.752,
+            32.052
+          ],
+          [
+            34.892,
+            32.501
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 10,
+            "label": "Acts 10:17–24",
+            "verseStart": 17,
+            "verseEnd": 24
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized first-century coastal/plain corridor; Acts does not preserve the exact road alignment."
+      }
+    ]
+  },
+  {
+    "id": "journey-paul-damascus",
+    "name": "Saul/Paul: Jerusalem → Damascus",
+    "person": "Paul",
+    "personId": "paul",
+    "character": "paul",
+    "summary": "Acts gives Jerusalem and Damascus as endpoints but no recoverable approach road or encounter coordinate.",
+    "segments": [
+      {
+        "id": "pd-1",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "damascus",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            35.4,
+            32.3
+          ],
+          [
+            35.8,
+            33.0
+          ],
+          [
+            36.1,
+            33.4
+          ],
+          [
+            36.309,
+            33.5138
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 9,
+            "label": "Acts 9:1–8",
+            "verseStart": 1,
+            "verseEnd": 8
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Schematic intercity corridor only; the exact Damascus-road route and encounter point are unknown."
+      }
+    ]
+  },
+  {
+    "id": "journey-philip-coast",
+    "name": "Philip: Samaria / Gaza road → Azotus → Caesarea",
+    "person": "Philip",
+    "personId": "philip-evangelist",
+    "character": "philip-evangelist",
+    "summary": "Acts 8 gives a sequence from Samaria to the Jerusalem–Gaza road, then Azotus and coastal towns to Caesarea. The desert-road encounter itself has no exact point.",
+    "segments": [
+      {
+        "id": "pc-1",
+        "fromPlaceId": "samaria-region-gospels",
+        "toPlaceId": "gaza",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            35.24,
+            32.2
+          ],
+          [
+            35.1,
+            31.9
+          ],
+          [
+            34.8,
+            31.7
+          ],
+          [
+            34.466,
+            31.501
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 8,
+            "label": "Acts 8:26–39",
+            "verseStart": 26,
+            "verseEnd": 39
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative regional line only. Acts does not identify the exact starting city in Samaria or the exact desert stretch of the Jerusalem–Gaza road."
+      },
+      {
+        "id": "pc-2",
+        "fromPlaceId": "gaza",
+        "toPlaceId": "azotus",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            34.466,
+            31.501
+          ],
+          [
+            34.655,
+            31.754
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 8,
+            "label": "Acts 8:39–40",
+            "verseStart": 39,
+            "verseEnd": 40
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Schematic coastal transition; Acts says Philip was found at Azotus but does not narrate a step-by-step road."
+      },
+      {
+        "id": "pc-3",
+        "fromPlaceId": "azotus",
+        "toPlaceId": "caesarea-maritima",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            34.655,
+            31.754
+          ],
+          [
+            34.77,
+            32.0
+          ],
+          [
+            34.82,
+            32.25
+          ],
+          [
+            34.892,
+            32.501
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 8,
+            "label": "Acts 8:40",
+            "verseStart": 40
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized coastal corridor through unnamed towns; not a recovered itinerary."
+      }
+    ]
+  },
+  {
+    "id": "journey-first-mission",
+    "name": "Paul & Barnabas — first missionary journey",
+    "person": "Paul",
+    "personId": "paul",
+    "character": "paul",
+    "summary": "Acts 13–14 city sequence from Antioch through Cyprus and southern Anatolia, including the narrated return through Lystra, Iconium, Pisidian Antioch and Perga. Lines are generalized; Derbe is visualized with an explicitly disputed candidate.",
+    "segments": [
+      {
+        "id": "fm-1",
+        "fromPlaceId": "antioch-orontes",
+        "toPlaceId": "seleucia-pieria",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            36.161,
+            36.202
+          ],
+          [
+            35.93,
+            36.12
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 13,
+            "label": "Acts 13:4",
+            "verseStart": 4
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized descent from Antioch to its port; exact road alignment not claimed."
+      },
+      {
+        "id": "fm-2",
+        "fromPlaceId": "seleucia-pieria",
+        "toPlaceId": "salamis-cyprus",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.93,
+            36.12
+          ],
+          [
+            34.8,
+            35.8
+          ],
+          [
+            33.9,
+            35.185
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 13,
+            "label": "Acts 13:4–5",
+            "verseStart": 4,
+            "verseEnd": 5
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative sea crossing; winds and exact sailing track are unknown."
+      },
+      {
+        "id": "fm-3",
+        "fromPlaceId": "salamis-cyprus",
+        "toPlaceId": "paphos",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            33.9,
+            35.185
+          ],
+          [
+            33.2,
+            35.0
+          ],
+          [
+            32.42,
+            34.758
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 13,
+            "label": "Acts 13:5–6",
+            "verseStart": 5,
+            "verseEnd": 6
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized cross-island corridor; Acts says they traversed the island but does not specify the road."
+      },
+      {
+        "id": "fm-4",
+        "fromPlaceId": "paphos",
+        "toPlaceId": "perga",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            32.42,
+            34.758
+          ],
+          [
+            31.7,
+            35.4
+          ],
+          [
+            30.852,
+            36.959
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 13,
+            "label": "Acts 13:13",
+            "verseStart": 13
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative maritime crossing to Pamphylia; exact track unknown."
+      },
+      {
+        "id": "fm-5",
+        "fromPlaceId": "perga",
+        "toPlaceId": "pisidian-antioch",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            30.852,
+            36.959
+          ],
+          [
+            30.8,
+            37.4
+          ],
+          [
+            31.0,
+            37.9
+          ],
+          [
+            31.184,
+            38.305
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 13,
+            "label": "Acts 13:14",
+            "verseStart": 14
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Reconstructed inland corridor across the Taurus; Acts gives endpoints, not the exact road."
+      },
+      {
+        "id": "fm-6",
+        "fromPlaceId": "pisidian-antioch",
+        "toPlaceId": "iconium",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            31.184,
+            38.305
+          ],
+          [
+            32.493,
+            37.872
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 13,
+            "label": "Acts 13:51",
+            "verseStart": 51
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized Roman-road corridor; no claim to a recovered footpath."
+      },
+      {
+        "id": "fm-7",
+        "fromPlaceId": "iconium",
+        "toPlaceId": "lystra",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            32.493,
+            37.872
+          ],
+          [
+            32.48,
+            37.58
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 14,
+            "label": "Acts 14:5–8",
+            "verseStart": 5,
+            "verseEnd": 8
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized Lycaonian corridor. Lystra’s modern identification is probable, not absolute."
+      },
+      {
+        "id": "fm-8",
+        "fromPlaceId": "lystra",
+        "toPlaceId": "kerti-hoyuk-derbe",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            32.48,
+            37.58
+          ],
+          [
+            33.36,
+            37.35
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 14,
+            "label": "Acts 14:20–21",
+            "verseStart": 20,
+            "verseEnd": 21
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Kerti Höyük is used only as a candidate visualization for disputed Derbe; the exact city identification and road are not established."
+      },
+      {
+        "id": "fm-9",
+        "fromPlaceId": "kerti-hoyuk-derbe",
+        "toPlaceId": "lystra",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            33.36,
+            37.35
+          ],
+          [
+            32.48,
+            37.58
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 14,
+            "label": "Acts 14:20–21",
+            "verseStart": 20,
+            "verseEnd": 21
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Return leg shown from the Derbe candidate back toward Lystra. Kerti Höyük remains only a candidate for Derbe, and the road is reconstructed."
+      },
+      {
+        "id": "fm-10",
+        "fromPlaceId": "lystra",
+        "toPlaceId": "iconium",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            32.48,
+            37.58
+          ],
+          [
+            32.493,
+            37.872
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 14,
+            "label": "Acts 14:21–22",
+            "verseStart": 21,
+            "verseEnd": 22
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Acts explicitly revisits Lystra and Iconium; the line is a generalized intercity corridor, not a recovered road track."
+      },
+      {
+        "id": "fm-11",
+        "fromPlaceId": "iconium",
+        "toPlaceId": "pisidian-antioch",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            32.493,
+            37.872
+          ],
+          [
+            31.184,
+            38.305
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 14,
+            "label": "Acts 14:21–22",
+            "verseStart": 21,
+            "verseEnd": 22
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Acts explicitly revisits Antioch after Iconium; route geometry is schematic."
+      },
+      {
+        "id": "fm-12",
+        "fromPlaceId": "pisidian-antioch",
+        "toPlaceId": "perga",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            31.184,
+            38.305
+          ],
+          [
+            31.0,
+            37.7
+          ],
+          [
+            30.852,
+            36.959
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 14,
+            "label": "Acts 14:24–25",
+            "verseStart": 24,
+            "verseEnd": 25
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Generalized return through Pisidia/Pamphylia to Perga; the exact mountain road is not recovered."
+      },
+      {
+        "id": "fm-13",
+        "fromPlaceId": "perga",
+        "toPlaceId": "attalia",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            30.852,
+            36.959
+          ],
+          [
+            30.704,
+            36.885
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 14,
+            "label": "Acts 14:25",
+            "verseStart": 25
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Short generalized movement from Perga to the port of Attalia."
+      },
+      {
+        "id": "fm-14",
+        "fromPlaceId": "attalia",
+        "toPlaceId": "antioch-orontes",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            30.704,
+            36.885
+          ],
+          [
+            32.1,
+            36.0
+          ],
+          [
+            34.0,
+            35.8
+          ],
+          [
+            36.161,
+            36.202
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 14,
+            "label": "Acts 14:26–28",
+            "verseStart": 26,
+            "verseEnd": 28
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Acts says they sailed from Attalia to Antioch; the maritime line is illustrative rather than an exact sailing track."
+      }
+    ]
+  },
+  {
+    "id": "journey-second-mission",
+    "name": "Paul — second missionary journey",
+    "person": "Paul",
+    "personId": "paul",
+    "character": "paul",
+    "summary": "Acts 15:40–18:23 from Antioch through Syria/Cilicia, Macedonia and Achaia, then Cenchreae/Ephesus/Caesarea and back to Antioch. Regional and maritime lines remain generalized.",
+    "segments": [
+      {
+        "id": "sm-1",
+        "fromPlaceId": "antioch-orontes",
+        "toPlaceId": "syria-cilicia-acts",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            36.161,
+            36.202
+          ],
+          [
+            35.7,
+            36.5
+          ],
+          [
+            35.6,
+            36.6
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 15,
+            "label": "Acts 15:40–41",
+            "verseStart": 40,
+            "verseEnd": 41
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Acts names Syria and Cilicia rather than Tarsus as a required stop; this line ends at a broad regional anchor, not a city claim."
+      },
+      {
+        "id": "sm-2",
+        "fromPlaceId": "syria-cilicia-acts",
+        "toPlaceId": "lystra",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.6,
+            36.6
+          ],
+          [
+            34.6,
+            37.2
+          ],
+          [
+            32.48,
+            37.58
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 16,
+            "label": "Acts 16:1–5",
+            "verseStart": 1,
+            "verseEnd": 5
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Generalized movement into the Derbe/Lystra area. The exact road and whether Tarsus was visited are not stated by Acts."
+      },
+      {
+        "id": "sm-3",
+        "fromPlaceId": "lystra",
+        "toPlaceId": "alexandria-troas",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            32.48,
+            37.58
+          ],
+          [
+            31.5,
+            38.5
+          ],
+          [
+            29.0,
+            39.0
+          ],
+          [
+            27.0,
+            39.5
+          ],
+          [
+            26.238,
+            39.753
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 16,
+            "label": "Acts 16:6–8",
+            "verseStart": 6,
+            "verseEnd": 8
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Highly schematic across Phrygian/Galatian/Mysian regions; the exact route is one of the least recoverable segments."
+      },
+      {
+        "id": "sm-4",
+        "fromPlaceId": "alexandria-troas",
+        "toPlaceId": "samothrace",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            26.238,
+            39.753
+          ],
+          [
+            25.53,
+            40.47
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 16,
+            "label": "Acts 16:11",
+            "verseStart": 11
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative sea crossing; not an exact sailing track."
+      },
+      {
+        "id": "sm-5",
+        "fromPlaceId": "samothrace",
+        "toPlaceId": "neapolis-macedonia",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            25.53,
+            40.47
+          ],
+          [
+            24.412,
+            40.938
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 16,
+            "label": "Acts 16:11",
+            "verseStart": 11
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative sea crossing to Neapolis."
+      },
+      {
+        "id": "sm-6",
+        "fromPlaceId": "neapolis-macedonia",
+        "toPlaceId": "philippi",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            24.412,
+            40.938
+          ],
+          [
+            24.286,
+            41.013
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 16,
+            "label": "Acts 16:12",
+            "verseStart": 12
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized Via Egnatia approach; not a surveyed reconstruction of Paul’s footsteps."
+      },
+      {
+        "id": "sm-7",
+        "fromPlaceId": "philippi",
+        "toPlaceId": "thessalonica",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            24.286,
+            41.013
+          ],
+          [
+            23.84,
+            40.823
+          ],
+          [
+            23.49,
+            40.64
+          ],
+          [
+            22.944,
+            40.64
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 17,
+            "label": "Acts 17:1",
+            "verseStart": 1
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Schematic Via Egnatia corridor through Amphipolis and Apollonia."
+      },
+      {
+        "id": "sm-8",
+        "fromPlaceId": "thessalonica",
+        "toPlaceId": "berea-macedonia",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            22.944,
+            40.64
+          ],
+          [
+            22.203,
+            40.524
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 17,
+            "label": "Acts 17:10",
+            "verseStart": 10
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized inland corridor; exact road alignment not claimed."
+      },
+      {
+        "id": "sm-9",
+        "fromPlaceId": "berea-macedonia",
+        "toPlaceId": "athens",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            22.203,
+            40.524
+          ],
+          [
+            21.8,
+            39.3
+          ],
+          [
+            22.7,
+            38.4
+          ],
+          [
+            23.7275,
+            37.9838
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 17,
+            "label": "Acts 17:14–15",
+            "verseStart": 14,
+            "verseEnd": 15
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Acts allows a sea/coastal transfer toward Athens; this line is illustrative rather than a recovered route."
+      },
+      {
+        "id": "sm-10",
+        "fromPlaceId": "athens",
+        "toPlaceId": "corinth",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            23.7275,
+            37.9838
+          ],
+          [
+            22.879,
+            37.906
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 18,
+            "label": "Acts 18:1",
+            "verseStart": 1
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized Athens–Corinth corridor."
+      },
+      {
+        "id": "sm-11",
+        "fromPlaceId": "corinth",
+        "toPlaceId": "cenchreae",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            22.879,
+            37.906
+          ],
+          [
+            22.994,
+            37.884
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 18,
+            "label": "Acts 18:18",
+            "verseStart": 18
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Acts names Cenchreae before the sailing east; this is a generalized short port transfer."
+      },
+      {
+        "id": "sm-12",
+        "fromPlaceId": "cenchreae",
+        "toPlaceId": "ephesus",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            22.994,
+            37.884
+          ],
+          [
+            24.4,
+            37.5
+          ],
+          [
+            26.2,
+            37.7
+          ],
+          [
+            27.341,
+            37.94
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 18,
+            "label": "Acts 18:18–21",
+            "verseStart": 18,
+            "verseEnd": 21
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Illustrative Aegean sailing track to Ephesus; exact winds and course are not recoverable."
+      },
+      {
+        "id": "sm-13",
+        "fromPlaceId": "ephesus",
+        "toPlaceId": "caesarea-maritima",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            27.341,
+            37.94
+          ],
+          [
+            29.0,
+            35.8
+          ],
+          [
+            32.5,
+            34.8
+          ],
+          [
+            34.892,
+            32.501
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 18,
+            "label": "Acts 18:21–22",
+            "verseStart": 21,
+            "verseEnd": 22
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Acts names Caesarea after the voyage. The sea track is schematic."
+      },
+      {
+        "id": "sm-14",
+        "fromPlaceId": "caesarea-maritima",
+        "toPlaceId": "antioch-orontes",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            34.892,
+            32.501
+          ],
+          [
+            35.0,
+            33.0
+          ],
+          [
+            36.161,
+            36.202
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 18,
+            "label": "Acts 18:22–23",
+            "verseStart": 22,
+            "verseEnd": 23
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Acts says Paul “went up and greeted the church” before going down to Antioch, but the verse does not name Jerusalem. The atlas therefore does not force Jerusalem as a plotted waypoint."
+      }
+    ]
+  },
+  {
+    "id": "journey-third-return",
+    "name": "Paul — Ephesus, Macedonia, and return to Jerusalem",
+    "person": "Paul",
+    "personId": "paul",
+    "character": "paul",
+    "summary": "Acts 18:23–21:17 from Antioch through Galatia/Phrygia to Ephesus, then the Macedonia/Greece circuit and the detailed Troas-to-Jerusalem return. Unnamed regional travel is shown with regional anchors rather than invented city stops.",
+    "segments": [
+      {
+        "id": "tr-1",
+        "fromPlaceId": "antioch-orontes",
+        "toPlaceId": "galatia-region-paul",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            36.161,
+            36.202
+          ],
+          [
+            34.7,
+            37.2
+          ],
+          [
+            32.3,
+            39.0
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 18,
+            "label": "Acts 18:22–23",
+            "verseStart": 22,
+            "verseEnd": 23
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Acts names the Galatian region; this ends at a broad regional anchor and is not a city stop or surveyed route."
+      },
+      {
+        "id": "tr-2",
+        "fromPlaceId": "galatia-region-paul",
+        "toPlaceId": "phrygia-region-acts",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            32.3,
+            39.0
+          ],
+          [
+            30.8,
+            39.0
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 18,
+            "label": "Acts 18:23",
+            "verseStart": 23
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Broad regional visualization only; “Galatian region and Phrygia” cannot be reduced to one exact road."
+      },
+      {
+        "id": "tr-3",
+        "fromPlaceId": "phrygia-region-acts",
+        "toPlaceId": "ephesus",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            30.8,
+            39.0
+          ],
+          [
+            29.3,
+            38.5
+          ],
+          [
+            27.341,
+            37.94
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 19,
+            "label": "Acts 19:1",
+            "verseStart": 1
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Reconstructed approach to Ephesus from the inland regions. Acts does not provide a recoverable street/road itinerary."
+      },
+      {
+        "id": "tr-4",
+        "fromPlaceId": "ephesus",
+        "toPlaceId": "macedonia-region-acts",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            27.341,
+            37.94
+          ],
+          [
+            25.5,
+            39.2
+          ],
+          [
+            22.5,
+            40.7
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 20,
+            "label": "Acts 20:1–2",
+            "verseStart": 1,
+            "verseEnd": 2
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Acts names Macedonia without listing every stop; this uses a regional anchor rather than inventing a city itinerary."
+      },
+      {
+        "id": "tr-5",
+        "fromPlaceId": "macedonia-region-acts",
+        "toPlaceId": "achaia-region-acts",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            22.5,
+            40.7
+          ],
+          [
+            22.8,
+            38.2
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 20,
+            "label": "Acts 20:2–3",
+            "verseStart": 2,
+            "verseEnd": 3
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Acts says Paul came to Greece/Achaia; the line joins broad regional anchors and does not assert Corinth as the unnamed three-month base."
+      },
+      {
+        "id": "tr-6",
+        "fromPlaceId": "achaia-region-acts",
+        "toPlaceId": "macedonia-region-acts",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            22.8,
+            38.2
+          ],
+          [
+            22.5,
+            40.7
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 20,
+            "label": "Acts 20:3–6",
+            "verseStart": 3,
+            "verseEnd": 6
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Return through Macedonia shown at regional scale; exact city sequence is not supplied in this passage."
+      },
+      {
+        "id": "tr-7",
+        "fromPlaceId": "macedonia-region-acts",
+        "toPlaceId": "alexandria-troas",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            22.5,
+            40.7
+          ],
+          [
+            24.4,
+            40.2
+          ],
+          [
+            26.238,
+            39.753
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 20,
+            "label": "Acts 20:5–6",
+            "verseStart": 5,
+            "verseEnd": 6
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical",
+          "source-hemer-acts"
+        ],
+        "note": "Generalized Macedonia-to-Troas transfer; Acts names Troas but not the exact overland/sea geometry."
+      },
+      {
+        "id": "tr-8",
+        "fromPlaceId": "alexandria-troas",
+        "toPlaceId": "assos",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            26.238,
+            39.753
+          ],
+          [
+            26.337,
+            39.49
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 20,
+            "label": "Acts 20:13",
+            "verseStart": 13
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Acts says Paul went overland to Assos while companions sailed; the line is a generalized land corridor."
+      },
+      {
+        "id": "tr-9",
+        "fromPlaceId": "assos",
+        "toPlaceId": "mitylene",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            26.337,
+            39.49
+          ],
+          [
+            26.555,
+            39.11
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 20,
+            "label": "Acts 20:14",
+            "verseStart": 14
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative short sailing leg."
+      },
+      {
+        "id": "tr-10",
+        "fromPlaceId": "mitylene",
+        "toPlaceId": "chios",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            26.555,
+            39.11
+          ],
+          [
+            26.13,
+            38.37
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 20,
+            "label": "Acts 20:15",
+            "verseStart": 15
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Island waypoint sequence; exact anchorage/track unknown."
+      },
+      {
+        "id": "tr-11",
+        "fromPlaceId": "chios",
+        "toPlaceId": "samos",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            26.13,
+            38.37
+          ],
+          [
+            26.94,
+            37.75
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 20,
+            "label": "Acts 20:15",
+            "verseStart": 15
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative sailing track only."
+      },
+      {
+        "id": "tr-12",
+        "fromPlaceId": "samos",
+        "toPlaceId": "miletus",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            26.94,
+            37.75
+          ],
+          [
+            27.278,
+            37.53
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 20,
+            "label": "Acts 20:15",
+            "verseStart": 15
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative sailing track to Miletus."
+      },
+      {
+        "id": "tr-13",
+        "fromPlaceId": "miletus",
+        "toPlaceId": "cos",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            27.278,
+            37.53
+          ],
+          [
+            27.29,
+            36.89
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 21,
+            "label": "Acts 21:1",
+            "verseStart": 1
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative Aegean sailing leg."
+      },
+      {
+        "id": "tr-14",
+        "fromPlaceId": "cos",
+        "toPlaceId": "rhodes",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            27.29,
+            36.89
+          ],
+          [
+            28.227,
+            36.442
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 21,
+            "label": "Acts 21:1",
+            "verseStart": 1
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative Aegean sailing leg."
+      },
+      {
+        "id": "tr-15",
+        "fromPlaceId": "rhodes",
+        "toPlaceId": "patara",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            28.227,
+            36.442
+          ],
+          [
+            29.316,
+            36.263
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 21,
+            "label": "Acts 21:1",
+            "verseStart": 1
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative maritime corridor."
+      },
+      {
+        "id": "tr-16",
+        "fromPlaceId": "patara",
+        "toPlaceId": "tyre",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            29.316,
+            36.263
+          ],
+          [
+            31.0,
+            34.8
+          ],
+          [
+            33.0,
+            34.5
+          ],
+          [
+            35.196,
+            33.271
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 21,
+            "label": "Acts 21:2–3",
+            "verseStart": 2,
+            "verseEnd": 3
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Long open-sea crossing shown schematically; actual wind-dependent track unknown."
+      },
+      {
+        "id": "tr-17",
+        "fromPlaceId": "tyre",
+        "toPlaceId": "ptolemais-akko",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.196,
+            33.271
+          ],
+          [
+            35.08,
+            32.923
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 21,
+            "label": "Acts 21:7",
+            "verseStart": 7
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized coastal sailing/travel segment."
+      },
+      {
+        "id": "tr-18",
+        "fromPlaceId": "ptolemais-akko",
+        "toPlaceId": "caesarea-maritima",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.08,
+            32.923
+          ],
+          [
+            34.892,
+            32.501
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 21,
+            "label": "Acts 21:8",
+            "verseStart": 8
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized coastal corridor."
+      },
+      {
+        "id": "tr-19",
+        "fromPlaceId": "caesarea-maritima",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            34.892,
+            32.501
+          ],
+          [
+            35.0,
+            32.1
+          ],
+          [
+            35.15,
+            31.9
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 21,
+            "label": "Acts 21:15–17",
+            "verseStart": 15,
+            "verseEnd": 17
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized ascent from Caesarea to Jerusalem; exact road choice not stated."
+      }
+    ]
+  },
+  {
+    "id": "journey-paul-caesarea-transfer",
+    "name": "Paul under guard: Jerusalem → Caesarea",
+    "person": "Paul",
+    "personId": "paul",
+    "character": "paul",
+    "summary": "Acts 23 provides Jerusalem, Antipatris, and Caesarea as explicit stages; the line follows only a schematic military-road corridor.",
+    "segments": [
+      {
+        "id": "ct-1",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "antipatris",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            34.933,
+            32.105
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 23,
+            "label": "Acts 23:23–31",
+            "verseStart": 23,
+            "verseEnd": 31
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized Roman-road corridor; exact marching route and overnight point within Antipatris are unknown."
+      },
+      {
+        "id": "ct-2",
+        "fromPlaceId": "antipatris",
+        "toPlaceId": "caesarea-maritima",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            34.933,
+            32.105
+          ],
+          [
+            34.892,
+            32.501
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 23,
+            "label": "Acts 23:31–33",
+            "verseStart": 31,
+            "verseEnd": 33
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized road to Caesarea; not a recovered patrol track."
+      }
+    ]
+  },
+  {
+    "id": "journey-voyage-to-rome",
+    "name": "Paul’s voyage to Rome",
+    "person": "Paul",
+    "personId": "paul",
+    "character": "paul",
+    "summary": "Acts 27–28 route rendered as a schematic maritime itinerary. The named stops are mapped; winds, tacking, drift, and the Malta wreck point remain uncertain.",
+    "segments": [
+      {
+        "id": "vr-1",
+        "fromPlaceId": "caesarea-maritima",
+        "toPlaceId": "sidon-monarchy",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            34.892,
+            32.501
+          ],
+          [
+            35.369,
+            33.56
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 27,
+            "label": "Acts 27:1–3",
+            "verseStart": 1,
+            "verseEnd": 3
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative coastal sailing leg; exact track unknown."
+      },
+      {
+        "id": "vr-2",
+        "fromPlaceId": "sidon-monarchy",
+        "toPlaceId": "myra",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.369,
+            33.56
+          ],
+          [
+            34.0,
+            35.0
+          ],
+          [
+            32.0,
+            35.5
+          ],
+          [
+            30.5,
+            36.0
+          ],
+          [
+            29.985,
+            36.259
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 27,
+            "label": "Acts 27:4–6",
+            "verseStart": 4,
+            "verseEnd": 6
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Schematic sailing under Cyprus toward Lycia; not an exact nautical reconstruction."
+      },
+      {
+        "id": "vr-3",
+        "fromPlaceId": "myra",
+        "toPlaceId": "cnidus",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            29.985,
+            36.259
+          ],
+          [
+            27.374,
+            36.685
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 27,
+            "label": "Acts 27:6–7",
+            "verseStart": 6,
+            "verseEnd": 7
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative westward sailing route constrained by winds."
+      },
+      {
+        "id": "vr-4",
+        "fromPlaceId": "cnidus",
+        "toPlaceId": "fair-havens",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            27.374,
+            36.685
+          ],
+          [
+            26.0,
+            35.6
+          ],
+          [
+            25.0,
+            35.1
+          ],
+          [
+            24.735,
+            34.93
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 27,
+            "label": "Acts 27:7–8",
+            "verseStart": 7,
+            "verseEnd": 8
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Schematic south-of-Crete approach; exact wind-driven track unknown."
+      },
+      {
+        "id": "vr-5",
+        "fromPlaceId": "fair-havens",
+        "toPlaceId": "cauda-gavdos",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            24.735,
+            34.93
+          ],
+          [
+            24.08,
+            34.84
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 27,
+            "label": "Acts 27:13–16",
+            "verseStart": 13,
+            "verseEnd": 16
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Storm-driven path shown illustratively; not a precise drift reconstruction."
+      },
+      {
+        "id": "vr-6",
+        "fromPlaceId": "cauda-gavdos",
+        "toPlaceId": "malta-acts",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            24.08,
+            34.84
+          ],
+          [
+            21.5,
+            35.0
+          ],
+          [
+            18.5,
+            35.4
+          ],
+          [
+            16.2,
+            35.8
+          ],
+          [
+            14.43,
+            35.9
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 27,
+            "label": "Acts 27:17–44",
+            "verseStart": 17,
+            "verseEnd": 44
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Highly schematic storm drift across the central Mediterranean. Exact longitude/latitude track and landfall bay are unrecoverable."
+      },
+      {
+        "id": "vr-7",
+        "fromPlaceId": "malta-acts",
+        "toPlaceId": "syracuse",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            14.43,
+            35.9
+          ],
+          [
+            15.293,
+            37.075
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 28,
+            "label": "Acts 28:11–12",
+            "verseStart": 11,
+            "verseEnd": 12
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative post-winter sailing leg."
+      },
+      {
+        "id": "vr-8",
+        "fromPlaceId": "syracuse",
+        "toPlaceId": "rhegium",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            15.293,
+            37.075
+          ],
+          [
+            15.65,
+            38.111
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 28,
+            "label": "Acts 28:13",
+            "verseStart": 13
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative coastal sailing leg."
+      },
+      {
+        "id": "vr-9",
+        "fromPlaceId": "rhegium",
+        "toPlaceId": "puteoli",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            15.65,
+            38.111
+          ],
+          [
+            14.9,
+            39.0
+          ],
+          [
+            14.3,
+            40.2
+          ],
+          [
+            14.12,
+            40.823
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 28,
+            "label": "Acts 28:13–14",
+            "verseStart": 13,
+            "verseEnd": 14
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Illustrative Tyrrhenian/coastal sailing route."
+      },
+      {
+        "id": "vr-10",
+        "fromPlaceId": "puteoli",
+        "toPlaceId": "appii-forum",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            14.12,
+            40.823
+          ],
+          [
+            14.0,
+            41.0
+          ],
+          [
+            13.4,
+            41.2
+          ],
+          [
+            12.94,
+            41.47
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 28,
+            "label": "Acts 28:14–15",
+            "verseStart": 14,
+            "verseEnd": 15
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized overland approach using the Roman road network; not a step-by-step itinerary."
+      },
+      {
+        "id": "vr-11",
+        "fromPlaceId": "appii-forum",
+        "toPlaceId": "rome",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            12.94,
+            41.47
+          ],
+          [
+            12.486,
+            41.893
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 28,
+            "label": "Acts 28:15–16",
+            "verseStart": 15,
+            "verseEnd": 16
+          }
+        ],
+        "sourceIds": [
+          "source-batch9-methodology",
+          "source-acts-canonical"
+        ],
+        "note": "Generalized Via Appia approach. Three Taverns is unpinned and therefore not forced onto the line as an exact waypoint."
+      }
+    ]
+  }
+]

@@ -1,0 +1,618 @@
+[
+  {
+    "id": "story-patmos-revelation",
+    "title": "Patmos & the Opening Vision",
+    "subtitle": "Historical island, debated date, and the transition from geography to vision.",
+    "personId": "john-of-patmos",
+    "theme": "Revelation",
+    "chapters": [
+      {
+        "id": "p1",
+        "title": "Patmos",
+        "eyebrow": "Revelation 1",
+        "description": "The island is certain; the exact place on Patmos and the circumstances of John’s presence are not recoverable beyond the text.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 1,
+            "label": "Revelation 1:9–11",
+            "verseStart": 9,
+            "verseEnd": 11
+          }
+        ],
+        "placeId": "patmos",
+        "contextYear": 95,
+        "camera": {
+          "center": [
+            26.55,
+            37.31
+          ],
+          "zoom": 8,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "p2",
+        "title": "The traditional cave",
+        "eyebrow": "Reception history",
+        "description": "The Cave of the Apocalypse is shown as a later traditional site, not first-century proof.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 1,
+            "label": "Revelation 1:9",
+            "verseStart": 9
+          }
+        ],
+        "placeId": "cave-apocalypse-patmos",
+        "contextYear": 95,
+        "camera": {
+          "center": [
+            26.54,
+            37.309
+          ],
+          "zoom": 11,
+          "pitch": 35
+        }
+      },
+      {
+        "id": "p3",
+        "title": "A vision beyond the map",
+        "eyebrow": "Revelation 1",
+        "description": "The application changes modes here: visionary imagery is not assigned normal coordinates.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 1,
+            "label": "Revelation 1:12–20",
+            "verseStart": 12,
+            "verseEnd": 20
+          }
+        ],
+        "visionarySceneId": "vision-throne-lamb"
+      }
+    ]
+  },
+  {
+    "id": "story-seven-churches-revelation",
+    "title": "The Seven Churches of Asia",
+    "subtitle": "A textual circuit through real cities of Roman Asia.",
+    "personId": "john-of-patmos",
+    "theme": "Seven Churches",
+    "chapters": [
+      {
+        "id": "s1",
+        "title": "Ephesus",
+        "eyebrow": "Revelation 2",
+        "description": "The first message begins at Ephesus. The animated line follows literary order, not a recovered courier route.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 2,
+            "label": "Revelation 2:1–7",
+            "verseStart": 1,
+            "verseEnd": 7
+          }
+        ],
+        "placeId": "ephesus",
+        "journeyId": "journey-seven-churches-literary-sequence",
+        "contextYear": 95,
+        "camera": {
+          "center": [
+            27.341,
+            37.94
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "s2",
+        "title": "Smyrna",
+        "eyebrow": "Revelation 2",
+        "description": "A securely identified Roman port city.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 2,
+            "label": "Revelation 2:8–11",
+            "verseStart": 8,
+            "verseEnd": 11
+          }
+        ],
+        "placeId": "smyrna",
+        "contextYear": 95,
+        "camera": {
+          "center": [
+            27.143,
+            38.424
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "s3",
+        "title": "Pergamum",
+        "eyebrow": "Revelation 2",
+        "description": "A monumental former royal capital; “Satan’s throne” is not pinned to one building.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 2,
+            "label": "Revelation 2:12–17",
+            "verseStart": 12,
+            "verseEnd": 17
+          }
+        ],
+        "placeId": "pergamum",
+        "contextYear": 95,
+        "camera": {
+          "center": [
+            27.183,
+            39.132
+          ],
+          "zoom": 8,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "s4",
+        "title": "Thyatira",
+        "eyebrow": "Revelation 2",
+        "description": "A securely located city beneath modern Akhisar.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 2,
+            "label": "Revelation 2:18–29",
+            "verseStart": 18,
+            "verseEnd": 29
+          }
+        ],
+        "placeId": "thyatira",
+        "contextYear": 95,
+        "camera": {
+          "center": [
+            27.84,
+            38.918
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "s5",
+        "title": "Sardis",
+        "eyebrow": "Revelation 3",
+        "description": "Ancient Sardis is secure; interpretive links between its history and Revelation’s rhetoric are kept separate.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 3,
+            "label": "Revelation 3:1–6",
+            "verseStart": 1,
+            "verseEnd": 6
+          }
+        ],
+        "placeId": "sardis-revelation",
+        "contextYear": 95,
+        "camera": {
+          "center": [
+            28.041,
+            38.488
+          ],
+          "zoom": 8,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "s6",
+        "title": "Philadelphia",
+        "eyebrow": "Revelation 3",
+        "description": "The ancient city lies beneath modern Alaşehir.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 3,
+            "label": "Revelation 3:7–13",
+            "verseStart": 7,
+            "verseEnd": 13
+          }
+        ],
+        "placeId": "philadelphia-asia",
+        "contextYear": 95,
+        "camera": {
+          "center": [
+            28.516,
+            38.35
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "s7",
+        "title": "Laodicea",
+        "eyebrow": "Revelation 3",
+        "description": "The seventh message ends in the Lycus Valley; water-supply metaphors are contextual proposals, not proven explanations.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 3,
+            "label": "Revelation 3:14–22",
+            "verseStart": 14,
+            "verseEnd": 22
+          }
+        ],
+        "placeId": "laodicea-lycus",
+        "contextYear": 95,
+        "camera": {
+          "center": [
+            29.107,
+            37.835
+          ],
+          "zoom": 8,
+          "pitch": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-throne-seals",
+    "title": "Throne, Lamb, Seals & Trumpets",
+    "subtitle": "Revelation’s map gives way to apocalyptic cosmology.",
+    "personId": "john-of-patmos",
+    "theme": "Visionary",
+    "chapters": [
+      {
+        "id": "t1",
+        "title": "The throne and the Lamb",
+        "eyebrow": "Revelation 4–5",
+        "description": "This is deliberately rendered in visionary mode.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 4,
+            "label": "Revelation 4:1–11",
+            "verseStart": 1,
+            "verseEnd": 11
+          },
+          {
+            "book": "Revelation",
+            "chapter": 5,
+            "label": "Revelation 5:1–14",
+            "verseStart": 1,
+            "verseEnd": 14
+          }
+        ],
+        "visionarySceneId": "vision-throne-lamb"
+      },
+      {
+        "id": "t2",
+        "title": "The seals",
+        "eyebrow": "Revelation 6–8",
+        "description": "Horsemen, martyrs, cosmic signs, and silence are visual motifs rather than map events.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 6,
+            "label": "Revelation 6:1–17",
+            "verseStart": 1,
+            "verseEnd": 17
+          },
+          {
+            "book": "Revelation",
+            "chapter": 8,
+            "label": "Revelation 8:1",
+            "verseStart": 1
+          }
+        ],
+        "visionarySceneId": "vision-seals-trumpets"
+      },
+      {
+        "id": "t3",
+        "title": "The trumpets",
+        "eyebrow": "Revelation 8–11",
+        "description": "The Euphrates is real geography within a visionary sequence, but the vision is not reduced to a literal military route.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 8,
+            "label": "Revelation 8:2–13",
+            "verseStart": 2,
+            "verseEnd": 13
+          },
+          {
+            "book": "Revelation",
+            "chapter": 9,
+            "label": "Revelation 9:1–21",
+            "verseStart": 1,
+            "verseEnd": 21
+          },
+          {
+            "book": "Revelation",
+            "chapter": 11,
+            "label": "Revelation 11:15–19",
+            "verseStart": 15,
+            "verseEnd": 19
+          }
+        ],
+        "visionarySceneId": "vision-seals-trumpets"
+      }
+    ]
+  },
+  {
+    "id": "story-woman-beasts",
+    "title": "Woman, Dragon & Beasts",
+    "subtitle": "Conflict imagery without modern political pinning.",
+    "personId": "john-of-patmos",
+    "theme": "Visionary",
+    "chapters": [
+      {
+        "id": "w1",
+        "title": "The woman and dragon",
+        "eyebrow": "Revelation 12",
+        "description": "Cosmic symbolic space.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 12,
+            "label": "Revelation 12:1–17",
+            "verseStart": 1,
+            "verseEnd": 17
+          }
+        ],
+        "visionarySceneId": "vision-woman-dragon"
+      },
+      {
+        "id": "w2",
+        "title": "The beasts",
+        "eyebrow": "Revelation 13",
+        "description": "Roman imperial context is relevant, but the app does not assign the beast to a modern nation or politician.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 13,
+            "label": "Revelation 13:1–18",
+            "verseStart": 1,
+            "verseEnd": 18
+          }
+        ],
+        "visionarySceneId": "vision-beasts"
+      }
+    ]
+  },
+  {
+    "id": "story-babylon-armageddon",
+    "title": "Babylon & Har-Magedon",
+    "subtitle": "Imperial symbolism and contested apocalyptic geography.",
+    "personId": "john-of-patmos",
+    "theme": "Visionary",
+    "chapters": [
+      {
+        "id": "b1",
+        "title": "Babylon the Great",
+        "eyebrow": "Revelation 17–18",
+        "description": "Rome is a strong historical referent in many readings, yet Babylon remains a visionary-symbolic city.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 17,
+            "label": "Revelation 17:1–18",
+            "verseStart": 1,
+            "verseEnd": 18
+          },
+          {
+            "book": "Revelation",
+            "chapter": 18,
+            "label": "Revelation 18:1–24",
+            "verseStart": 1,
+            "verseEnd": 24
+          }
+        ],
+        "placeId": "babylon-great-revelation",
+        "visionarySceneId": "vision-babylon"
+      },
+      {
+        "id": "b2",
+        "title": "Har-Magedon",
+        "eyebrow": "Revelation 16",
+        "description": "The name is preserved without pretending Tell Megiddo is the proven battlefield.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 16,
+            "label": "Revelation 16:16",
+            "verseStart": 16
+          }
+        ],
+        "placeId": "har-magedon-revelation",
+        "visionarySceneId": "vision-armageddon"
+      }
+    ]
+  },
+  {
+    "id": "story-new-creation",
+    "title": "Judgment & New Creation",
+    "subtitle": "The final visions are explored outside terrestrial map mode.",
+    "personId": "john-of-patmos",
+    "theme": "Visionary",
+    "chapters": [
+      {
+        "id": "n1",
+        "title": "The great white throne",
+        "eyebrow": "Revelation 20",
+        "description": "Final judgment is rendered as visionary space.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 20,
+            "label": "Revelation 20:11–15",
+            "verseStart": 11,
+            "verseEnd": 15
+          }
+        ],
+        "placeId": "heavenly-throne-revelation",
+        "visionarySceneId": "vision-final-judgment"
+      },
+      {
+        "id": "n2",
+        "title": "New Jerusalem",
+        "eyebrow": "Revelation 21",
+        "description": "The city’s enormous cubic dimensions are visualized without placing a pin on Earth.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 21,
+            "label": "Revelation 21:9–27",
+            "verseStart": 9,
+            "verseEnd": 27
+          }
+        ],
+        "placeId": "new-jerusalem-revelation",
+        "visionarySceneId": "vision-new-jerusalem"
+      },
+      {
+        "id": "n3",
+        "title": "River and tree of life",
+        "eyebrow": "Revelation 22",
+        "description": "The atlas closes by reconnecting river, tree, city, throne, and Edenic imagery.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 22,
+            "label": "Revelation 22:1–5",
+            "verseStart": 1,
+            "verseEnd": 5
+          }
+        ],
+        "placeId": "river-life-revelation",
+        "visionarySceneId": "vision-river-tree"
+      }
+    ]
+  },
+  {
+    "id": "story-genesis-to-revelation",
+    "title": "Genesis → Revelation",
+    "subtitle": "A final canonical-geography tour from Eden to New Creation.",
+    "theme": "Whole Bible",
+    "chapters": [
+      {
+        "id": "g1",
+        "title": "Eden: unlocated beginning",
+        "eyebrow": "Genesis 2–3",
+        "description": "The atlas began by refusing to invent coordinates for Eden.",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 2,
+            "label": "Genesis 2:8–14",
+            "verseStart": 8,
+            "verseEnd": 14
+          }
+        ],
+        "placeId": "eden",
+        "camera": {
+          "center": [
+            43,
+            34
+          ],
+          "zoom": 3,
+          "pitch": 0
+        }
+      },
+      {
+        "id": "g2",
+        "title": "Jerusalem: real and layered",
+        "eyebrow": "Kings → Gospels",
+        "description": "Jerusalem becomes a real archaeological and historical place while specific sacred locations retain their own confidence levels.",
+        "scripture": [
+          {
+            "book": "2 Samuel",
+            "chapter": 5,
+            "label": "2 Samuel 5:6–10",
+            "verseStart": 6,
+            "verseEnd": 10
+          },
+          {
+            "book": "Luke",
+            "chapter": 19,
+            "label": "Luke 19:28–48",
+            "verseStart": 28,
+            "verseEnd": 48
+          }
+        ],
+        "placeId": "jerusalem",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "g3",
+        "title": "Patmos: historical island",
+        "eyebrow": "Revelation 1",
+        "description": "The final biblical book begins from a secure island before moving beyond terrestrial geography.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 1,
+            "label": "Revelation 1:9–11",
+            "verseStart": 9,
+            "verseEnd": 11
+          }
+        ],
+        "placeId": "patmos",
+        "contextYear": 95,
+        "camera": {
+          "center": [
+            26.55,
+            37.31
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "g4",
+        "title": "New Jerusalem: visionary city",
+        "eyebrow": "Revelation 21",
+        "description": "The final city is visualized, not geolocated.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 21,
+            "label": "Revelation 21:1–27",
+            "verseStart": 1,
+            "verseEnd": 27
+          }
+        ],
+        "placeId": "new-jerusalem-revelation",
+        "visionarySceneId": "vision-new-jerusalem"
+      },
+      {
+        "id": "g5",
+        "title": "Tree of life restored",
+        "eyebrow": "Genesis ↔ Revelation",
+        "description": "The tree and river imagery frames the whole atlas without turning theology into fake cartography.",
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 22,
+            "label": "Revelation 22:1–5",
+            "verseStart": 1,
+            "verseEnd": 5
+          }
+        ],
+        "placeId": "river-life-revelation",
+        "visionarySceneId": "vision-genesis-revelation"
+      }
+    ]
+  }
+]

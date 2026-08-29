@@ -1,0 +1,439 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "herod-archelaus-b8",
+        "name": "Archelaus ethnarchy — broad Judea/Samaria/Idumea orientation",
+        "validFrom": -4,
+        "validTo": 6,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-schurer-second-temple"
+        ],
+        "note": "Generalized orientation only; ancient administrative frontiers were not surveyed modern borders and local status varied.",
+        "family": "herodian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.7,
+              30.8
+            ],
+            [
+              35.6,
+              30.8
+            ],
+            [
+              35.7,
+              32.6
+            ],
+            [
+              34.8,
+              32.6
+            ],
+            [
+              34.7,
+              30.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "antipas-galilee-b8",
+        "name": "Herod Antipas — Galilee orientation",
+        "validFrom": -4,
+        "validTo": 39,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-schurer-second-temple"
+        ],
+        "note": "Broad Galilee orientation only. Perea is shown separately because Antipas ruled noncontiguous territories.",
+        "family": "herodian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.0,
+              32.55
+            ],
+            [
+              35.75,
+              32.55
+            ],
+            [
+              35.85,
+              33.2
+            ],
+            [
+              35.0,
+              33.2
+            ],
+            [
+              35.0,
+              32.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "antipas-perea-b8",
+        "name": "Herod Antipas — Perea orientation",
+        "validFrom": -4,
+        "validTo": 39,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-schurer-second-temple"
+        ],
+        "note": "Broad trans-Jordan orientation; exact administrative edges varied and are not claimed.",
+        "family": "herodian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.45,
+              31.0
+            ],
+            [
+              36.0,
+              31.0
+            ],
+            [
+              36.0,
+              32.4
+            ],
+            [
+              35.45,
+              32.4
+            ],
+            [
+              35.45,
+              31.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "philip-tetrarchy-b8",
+        "name": "Philip’s tetrarchy — broad northeast orientation",
+        "validFrom": -4,
+        "validTo": 34,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-schurer-second-temple"
+        ],
+        "note": "Generalized Iturea/Trachonitis/Gaulanitis-region context; not a cadastral reconstruction.",
+        "family": "herodian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.6,
+              32.6
+            ],
+            [
+              36.7,
+              32.6
+            ],
+            [
+              36.7,
+              33.8
+            ],
+            [
+              35.6,
+              33.8
+            ],
+            [
+              35.6,
+              32.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "roman-judaea-b8",
+        "name": "Roman Judaea — broad provincial orientation",
+        "validFrom": 6,
+        "validTo": 41,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-schurer-second-temple"
+        ],
+        "note": "Direct Roman provincial administration after Archelaus. Boundaries and attached districts changed; polygon is orientation only.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.7,
+              30.9
+            ],
+            [
+              35.7,
+              30.9
+            ],
+            [
+              35.7,
+              32.5
+            ],
+            [
+              34.75,
+              32.5
+            ],
+            [
+              34.7,
+              30.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "roman-syria-b8",
+        "name": "Roman Syria — Levantine context",
+        "validFrom": -63,
+        "validTo": 40,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-schurer-second-temple"
+        ],
+        "note": "Broad context for Syria and the Phoenician coast; not an exact year-by-year provincial border.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.0,
+              33.0
+            ],
+            [
+              37.5,
+              33.0
+            ],
+            [
+              38.0,
+              37.5
+            ],
+            [
+              35.0,
+              37.5
+            ],
+            [
+              35.0,
+              33.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "decapolis-context-b8",
+        "name": "Decapolis city-zone orientation",
+        "validFrom": -63,
+        "validTo": 40,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-schurer-second-temple"
+        ],
+        "note": "The Decapolis was a grouping of cities rather than a single compact province. This translucent zone indicates regional concentration only.",
+        "family": "decapolis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.5,
+              31.7
+            ],
+            [
+              36.3,
+              31.7
+            ],
+            [
+              36.4,
+              33.0
+            ],
+            [
+              35.5,
+              33.0
+            ],
+            [
+              35.5,
+              31.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nabataean-aretas-b8",
+        "name": "Nabataean kingdom under Aretas IV — broad orientation",
+        "validFrom": -9,
+        "validTo": 40,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-schurer-second-temple"
+        ],
+        "note": "Very broad orientation for Nabataean power under Aretas IV; frontiers shifted and were not modern surveyed lines.",
+        "family": "nabataean"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.8,
+              27.5
+            ],
+            [
+              37.5,
+              27.5
+            ],
+            [
+              38.0,
+              31.8
+            ],
+            [
+              36.0,
+              32.2
+            ],
+            [
+              34.8,
+              29.5
+            ],
+            [
+              34.8,
+              27.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "galilee-cultural-b8",
+        "name": "Galilee — ministry landscape orientation",
+        "validFrom": 1,
+        "validTo": 40,
+        "confidence": "probable",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-schurer-second-temple"
+        ],
+        "note": "Geographic/cultural orientation for Galilee, overlapping Antipas’s political region; not a statement that every settlement shared one identity.",
+        "family": "galilee"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.0,
+              32.55
+            ],
+            [
+              35.8,
+              32.55
+            ],
+            [
+              35.8,
+              33.1
+            ],
+            [
+              35.0,
+              33.1
+            ],
+            [
+              35.0,
+              32.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "samaria-cultural-b8",
+        "name": "Samaria — first-century orientation",
+        "validFrom": 1,
+        "validTo": 40,
+        "confidence": "probable",
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-schurer-second-temple"
+        ],
+        "note": "Broad regional orientation for Samaria in New Testament geography; not an exact administrative border.",
+        "family": "samaria"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.9,
+              31.9
+            ],
+            [
+              35.55,
+              31.9
+            ],
+            [
+              35.55,
+              32.55
+            ],
+            [
+              34.9,
+              32.55
+            ],
+            [
+              34.9,
+              31.9
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

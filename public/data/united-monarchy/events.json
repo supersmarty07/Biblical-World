@@ -1,0 +1,966 @@
+[
+  {
+    "id": "event-ruth-return",
+    "title": "Ruth and Naomi travel from Moab to Bethlehem",
+    "summary": "Ruth 1 frames the story as a migration from Moab back to Bethlehem. The exact road is not described.",
+    "confidence": "high",
+    "placeIds": [
+      "moab",
+      "bethlehem-judah"
+    ],
+    "personIds": [
+      "ruth",
+      "naomi"
+    ],
+    "scripture": [
+      {
+        "book": "Ruth",
+        "chapter": 1,
+        "verseStart": 1,
+        "verseEnd": 22,
+        "label": "Ruth 1:1–22"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "The map animates a plausible Transjordan–Judean corridor only as reconstruction."
+  },
+  {
+    "id": "event-samuel-shiloh",
+    "title": "Samuel’s early life at Shiloh",
+    "summary": "The Samuel narrative opens around the Shiloh sanctuary under Eli.",
+    "confidence": "high",
+    "placeIds": [
+      "shiloh",
+      "ramathaim-zophim"
+    ],
+    "personIds": [
+      "samuel",
+      "eli"
+    ],
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 1,
+        "label": "1 Samuel 1"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 3,
+        "label": "1 Samuel 3"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "Shiloh is geographically established; Ramathaim-zophim is not."
+  },
+  {
+    "id": "event-ark-capture",
+    "title": "Ark captured in the Aphek–Ebenezer battle",
+    "summary": "Israel camps at Ebenezer, Philistines at Aphek, and the ark is captured.",
+    "confidence": "moderate",
+    "placeIds": [
+      "aphek-samuel",
+      "ebenezer-samuel",
+      "shiloh"
+    ],
+    "personIds": [
+      "eli",
+      "samuel"
+    ],
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 4,
+        "label": "1 Samuel 4"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mazar-land-bible"
+    ],
+    "historicalNote": "Aphek is secure; Ebenezer remains unlocated. Archaeology does not identify a specific destruction layer as this battle."
+  },
+  {
+    "id": "event-ark-philistia-return",
+    "title": "Ark moves through Philistine cities and returns to Israel",
+    "summary": "The ark narrative moves from Ashdod to Gath and Ekron, then to Beth-shemesh and Kiriath-jearim.",
+    "confidence": "high",
+    "placeIds": [
+      "ashdod",
+      "gath",
+      "ekron",
+      "beth-shemesh-monarchy",
+      "kiriath-jearim"
+    ],
+    "personIds": [],
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 5,
+        "label": "1 Samuel 5"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 6,
+        "label": "1 Samuel 6"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 7,
+        "verseStart": 1,
+        "verseEnd": 2,
+        "label": "1 Samuel 7:1–2"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "The city sequence is textual; the animated connecting lines are not preserved roads."
+  },
+  {
+    "id": "event-saul-chosen",
+    "title": "Saul is publicly chosen and confirmed as king",
+    "summary": "Samuel’s narratives associate Saul’s emergence with Mizpah, Gibeah, and a later confirmation at Gilgal.",
+    "confidence": "high",
+    "placeIds": [
+      "mizpah-benjamin",
+      "gibeah-benjamin",
+      "gilgal-samuel"
+    ],
+    "personIds": [
+      "samuel",
+      "saul"
+    ],
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 10,
+        "verseStart": 17,
+        "verseEnd": 27,
+        "label": "1 Samuel 10:17–27"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 11,
+        "verseStart": 14,
+        "verseEnd": 15,
+        "label": "1 Samuel 11:14–15"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "Gilgal is deliberately left unpinned."
+  },
+  {
+    "id": "event-jabesh-rescue",
+    "title": "Saul relieves Jabesh-gilead",
+    "summary": "Saul summons Israel and defeats the Ammonite threat against Jabesh-gilead.",
+    "confidence": "high",
+    "placeIds": [
+      "gibeah-benjamin",
+      "jabesh-gilead",
+      "ammon"
+    ],
+    "personIds": [
+      "saul"
+    ],
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 11,
+        "label": "1 Samuel 11"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan"
+    ],
+    "historicalNote": "Jabesh-gilead remains unlocated in the atlas; no exact march line is drawn."
+  },
+  {
+    "id": "event-jonathan-michmash",
+    "title": "Jonathan attacks the Philistine outpost at Michmash",
+    "summary": "1 Samuel 13–14 places Saul near Geba/Michmash and describes Jonathan crossing the steep pass to attack a Philistine outpost.",
+    "confidence": "high",
+    "placeIds": [
+      "gibeah-benjamin",
+      "geba-benjamin",
+      "michmash",
+      "michmash-pass"
+    ],
+    "personIds": [
+      "saul",
+      "jonathan"
+    ],
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 13,
+        "label": "1 Samuel 13"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 14,
+        "verseStart": 1,
+        "verseEnd": 31,
+        "label": "1 Samuel 14:1–31"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mazar-land-bible"
+    ],
+    "historicalNote": "The regional topography is compelling; the exact outpost, route, Bozez, and Seneh points are not treated as archaeologically fixed."
+  },
+  {
+    "id": "event-david-anointed",
+    "title": "Samuel anoints David at Bethlehem",
+    "summary": "The narrative shifts to Bethlehem, where Samuel anoints David among Jesse’s sons.",
+    "confidence": "high",
+    "placeIds": [
+      "bethlehem-judah"
+    ],
+    "personIds": [
+      "samuel",
+      "david"
+    ],
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 16,
+        "verseStart": 1,
+        "verseEnd": 13,
+        "label": "1 Samuel 16:1–13"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "The event is textual; no house or exact ceremony location is claimed archaeologically."
+  },
+  {
+    "id": "event-david-goliath",
+    "title": "David and Goliath in the Elah Valley",
+    "summary": "Philistine and Israelite forces face each other between Socoh and Azekah; David confronts Goliath in the valley.",
+    "confidence": "high",
+    "placeIds": [
+      "valley-elah",
+      "socoh-judah",
+      "azekah-monarchy",
+      "gath"
+    ],
+    "personIds": [
+      "david",
+      "goliath",
+      "saul",
+      "jonathan"
+    ],
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 17,
+        "label": "1 Samuel 17"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mazar-land-bible"
+    ],
+    "historicalNote": "The landscape and named towns are mappable. The duel spot and camp lines are reconstructed only."
+  },
+  {
+    "id": "event-david-fugitive",
+    "title": "David’s fugitive years",
+    "summary": "David moves through Gath, Adullam, Keilah, Ziph, Maon, En-gedi, and other refuges while evading Saul.",
+    "confidence": "high",
+    "placeIds": [
+      "gath",
+      "adullam",
+      "keilah",
+      "ziph-judah",
+      "maon-judah",
+      "en-gedi",
+      "nob"
+    ],
+    "personIds": [
+      "david",
+      "saul",
+      "jonathan",
+      "abigail"
+    ],
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 21,
+        "label": "1 Samuel 21"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 22,
+        "label": "1 Samuel 22"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 23,
+        "label": "1 Samuel 23"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 24,
+        "label": "1 Samuel 24"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 25,
+        "label": "1 Samuel 25"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 26,
+        "label": "1 Samuel 26"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "The narrative sequence is strong; exact trails and several place identifications are not."
+  },
+  {
+    "id": "event-david-ziklag",
+    "title": "David receives Ziklag from Achish",
+    "summary": "David lives under Philistine patronage and uses Ziklag as a base before Saul’s death.",
+    "confidence": "high",
+    "placeIds": [
+      "gath",
+      "ziklag",
+      "brook-besor"
+    ],
+    "personIds": [
+      "david"
+    ],
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 27,
+        "label": "1 Samuel 27"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 30,
+        "label": "1 Samuel 30"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "Because Ziklag is disputed, the atlas does not force a route to one candidate tell."
+  },
+  {
+    "id": "event-saul-endor-gilboa",
+    "title": "Saul at Endor and the final battle on Gilboa",
+    "summary": "Before the Philistine battle, Saul consults a medium at Endor; he and his sons die on Mount Gilboa, and their bodies are displayed at Beth-shean.",
+    "confidence": "high",
+    "placeIds": [
+      "shunem",
+      "endor",
+      "mount-gilboa",
+      "beth-shean",
+      "jabesh-gilead"
+    ],
+    "personIds": [
+      "saul",
+      "jonathan"
+    ],
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 28,
+        "verseStart": 4,
+        "verseEnd": 25,
+        "label": "1 Samuel 28:4–25"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 31,
+        "label": "1 Samuel 31"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-mazar-land-bible"
+    ],
+    "historicalNote": "Mount Gilboa and Beth-shean are secure anchors; the Endor point is approximate and Jabesh-gilead is unlocated."
+  },
+  {
+    "id": "event-david-hebron",
+    "title": "David becomes king at Hebron",
+    "summary": "After Saul’s death, David moves to Hebron and reigns over Judah before gaining wider kingship.",
+    "confidence": "high",
+    "placeIds": [
+      "hebron"
+    ],
+    "personIds": [
+      "david"
+    ],
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 2,
+        "verseStart": 1,
+        "verseEnd": 7,
+        "label": "2 Samuel 2:1–7"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "verseStart": 1,
+        "verseEnd": 5,
+        "label": "2 Samuel 5:1–5"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "Hebron is secure; the event’s political chronology is textual."
+  },
+  {
+    "id": "event-civil-war-gibeon",
+    "title": "Abner and Joab clash at Gibeon",
+    "summary": "Forces aligned with Ish-bosheth and David meet at the pool of Gibeon during the civil conflict.",
+    "confidence": "high",
+    "placeIds": [
+      "mahanaim",
+      "gibeon",
+      "hebron"
+    ],
+    "personIds": [
+      "abner",
+      "joab",
+      "ish-bosheth",
+      "david"
+    ],
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 2,
+        "verseStart": 8,
+        "verseEnd": 32,
+        "label": "2 Samuel 2:8–32"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "Gibeon is secure and Mahanaim remains only approximately identified."
+  },
+  {
+    "id": "event-david-captures-jerusalem",
+    "title": "David captures Jerusalem / the stronghold of Zion",
+    "summary": "David takes the Jebusite stronghold and makes Jerusalem his political center, naming the captured stronghold the City of David in the narrative.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "city-of-david-ridge",
+      "zion-biblical"
+    ],
+    "personIds": [
+      "david",
+      "joab"
+    ],
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "verseStart": 6,
+        "verseEnd": 10,
+        "label": "2 Samuel 5:6–10"
+      },
+      {
+        "book": "1 Chronicles",
+        "chapter": 11,
+        "verseStart": 4,
+        "verseEnd": 9,
+        "label": "1 Chronicles 11:4–9"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-jerusalem-bible-archaeology",
+      "source-reich-city-david",
+      "source-anchor-yale",
+      "source-david-solomon-debate"
+    ],
+    "historicalNote": "The city and southeastern ridge are secure; the scale of 10th-century Jerusalem and attribution of particular structures remain debated."
+  },
+  {
+    "id": "event-ark-to-jerusalem",
+    "title": "David brings the ark toward Jerusalem",
+    "summary": "The ark moves from Kiriath-jearim and is eventually installed in David’s city.",
+    "confidence": "high",
+    "placeIds": [
+      "kiriath-jearim",
+      "jerusalem",
+      "zion-biblical"
+    ],
+    "personIds": [
+      "david",
+      "michal"
+    ],
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 6,
+        "label": "2 Samuel 6"
+      },
+      {
+        "book": "1 Chronicles",
+        "chapter": 13,
+        "label": "1 Chronicles 13"
+      },
+      {
+        "book": "1 Chronicles",
+        "chapter": 15,
+        "label": "1 Chronicles 15"
+      },
+      {
+        "book": "1 Chronicles",
+        "chapter": 16,
+        "label": "1 Chronicles 16"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "The city sequence is textual; intermediate Perez-uzzah and Obed-edom locations are not given synthetic pins."
+  },
+  {
+    "id": "event-david-philistines-rephaim",
+    "title": "David confronts Philistine forces near Jerusalem",
+    "summary": "Philistine forces spread through the Valley of Rephaim; David’s victories include the named but unlocated Baal-perazim.",
+    "confidence": "high",
+    "placeIds": [
+      "valley-rephaim",
+      "baal-perazim",
+      "jerusalem"
+    ],
+    "personIds": [
+      "david"
+    ],
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "verseStart": 17,
+        "verseEnd": 25,
+        "label": "2 Samuel 5:17–25"
+      },
+      {
+        "book": "1 Chronicles",
+        "chapter": 14,
+        "verseStart": 8,
+        "verseEnd": 16,
+        "label": "1 Chronicles 14:8–16"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-jerusalem-bible-archaeology"
+    ],
+    "historicalNote": "The valley is known; exact battlefield and Baal-perazim coordinates are not."
+  },
+  {
+    "id": "event-rabbah-campaign",
+    "title": "Rabbah campaign and the Bathsheba narrative",
+    "summary": "Joab campaigns against Rabbah while David remains in Jerusalem, forming the geographic frame of 2 Samuel 11–12.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "rabbah-ammon"
+    ],
+    "personIds": [
+      "david",
+      "joab",
+      "bathsheba"
+    ],
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 11,
+        "label": "2 Samuel 11"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 12,
+        "verseStart": 26,
+        "verseEnd": 31,
+        "label": "2 Samuel 12:26–31"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "The route and siege works are not reconstructed in detail."
+  },
+  {
+    "id": "event-absalom-revolt",
+    "title": "Absalom’s revolt drives David from Jerusalem",
+    "summary": "David crosses the Kidron, ascends the Mount of Olives, and ultimately reaches the Mahanaim area; the final battle is in the unlocated Forest of Ephraim.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "kidron-valley",
+      "mount-olives",
+      "bahurim",
+      "mahanaim",
+      "forest-ephraim"
+    ],
+    "personIds": [
+      "david",
+      "absalom",
+      "joab"
+    ],
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 15,
+        "label": "2 Samuel 15"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 16,
+        "label": "2 Samuel 16"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 17,
+        "label": "2 Samuel 17"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 18,
+        "label": "2 Samuel 18"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "The Jerusalem topography is secure; Bahurim and the Forest of Ephraim remain unpinned, and the long route is schematic."
+  },
+  {
+    "id": "event-araunah-altar",
+    "title": "David builds an altar at Araunah’s threshing floor",
+    "summary": "After the census plague, David purchases the threshing floor and builds an altar; Chronicles later links this place to Solomon’s temple.",
+    "confidence": "high",
+    "placeIds": [
+      "araunah-threshing-floor",
+      "temple-mount"
+    ],
+    "personIds": [
+      "david"
+    ],
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 24,
+        "verseStart": 18,
+        "verseEnd": 25,
+        "label": "2 Samuel 24:18–25"
+      },
+      {
+        "book": "1 Chronicles",
+        "chapter": 21,
+        "verseStart": 18,
+        "verseEnd": 30,
+        "label": "1 Chronicles 21:18–30"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 3,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "2 Chronicles 3:1"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-jerusalem-bible-archaeology",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "The canonical linkage is explicit; an archaeological threshing-floor footprint is not."
+  },
+  {
+    "id": "event-solomon-anointed",
+    "title": "Solomon is anointed at Gihon",
+    "summary": "Zadok and Nathan take Solomon to Gihon, where he is anointed during the succession crisis.",
+    "confidence": "high",
+    "placeIds": [
+      "gihon-spring",
+      "jerusalem"
+    ],
+    "personIds": [
+      "solomon",
+      "bathsheba",
+      "nathan-prophet",
+      "david"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 1,
+        "verseStart": 28,
+        "verseEnd": 40,
+        "label": "1 Kings 1:28–40"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-jerusalem-bible-archaeology",
+      "source-reich-city-david"
+    ],
+    "historicalNote": "Gihon is a secure spring location; ceremonial positions and procession details remain textual."
+  },
+  {
+    "id": "event-solomon-gibeon",
+    "title": "Solomon worships at Gibeon",
+    "summary": "1 Kings depicts Solomon sacrificing at the great high place at Gibeon before his dream.",
+    "confidence": "high",
+    "placeIds": [
+      "gibeon",
+      "jerusalem"
+    ],
+    "personIds": [
+      "solomon"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 3,
+        "verseStart": 4,
+        "verseEnd": 15,
+        "label": "1 Kings 3:4–15"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 1,
+        "verseStart": 2,
+        "verseEnd": 13,
+        "label": "2 Chronicles 1:2–13"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "historicalNote": "Gibeon is securely identified, but no specific excavated high-place structure is asserted."
+  },
+  {
+    "id": "event-first-temple",
+    "title": "Construction and dedication of the First Temple",
+    "summary": "Kings and Chronicles describe Solomon’s temple construction and dedication in Jerusalem.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "temple-mount",
+      "first-temple-site",
+      "zion-biblical"
+    ],
+    "personIds": [
+      "solomon",
+      "hiram-tyre"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 5,
+        "label": "1 Kings 5"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 6,
+        "label": "1 Kings 6"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 7,
+        "verseStart": 13,
+        "verseEnd": 51,
+        "label": "1 Kings 7:13–51"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 8,
+        "label": "1 Kings 8"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 2,
+        "label": "2 Chronicles 2"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 3,
+        "label": "2 Chronicles 3"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 5,
+        "label": "2 Chronicles 5"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 7,
+        "label": "2 Chronicles 7"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-jerusalem-bible-archaeology",
+      "source-anchor-yale",
+      "source-mazar-land-bible",
+      "source-david-solomon-debate"
+    ],
+    "historicalNote": "The text gives architectural descriptions; the atlas does not turn them into an archaeologically verified exact footprint."
+  },
+  {
+    "id": "event-solomon-fortifications",
+    "title": "Hazor, Megiddo, and Gezer in the building program",
+    "summary": "1 Kings 9:15 names Hazor, Megiddo, and Gezer in Solomon’s building levy. All three are major archaeological sites, but dating and royal attribution of particular monumental gates are debated.",
+    "confidence": "moderate",
+    "placeIds": [
+      "hazor",
+      "megiddo",
+      "gezer-monarchy"
+    ],
+    "personIds": [
+      "solomon"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 9,
+        "verseStart": 15,
+        "verseEnd": 17,
+        "label": "1 Kings 9:15–17"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-mazar-land-bible",
+      "source-ben-tor-israel",
+      "source-david-solomon-debate",
+      "source-oxford-history"
+    ],
+    "historicalNote": "The dating and royal attribution of specific monumental complexes are debated. The atlas deliberately avoids labels such as “Solomon’s gate” as settled archaeological fact."
+  },
+  {
+    "id": "event-solomon-tyre-trade",
+    "title": "Phoenician exchange with Tyre",
+    "summary": "The Solomon narratives describe timber, craftsmen, and maritime cooperation with Hiram of Tyre.",
+    "confidence": "high",
+    "placeIds": [
+      "tyre",
+      "jerusalem",
+      "ezion-geber"
+    ],
+    "personIds": [
+      "solomon",
+      "hiram-tyre"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 5,
+        "label": "1 Kings 5"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 9,
+        "verseStart": 10,
+        "verseEnd": 28,
+        "label": "1 Kings 9:10–28"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale",
+      "source-oxford-history"
+    ],
+    "historicalNote": "The exact logistics of timber routes and fleets are not reconstructed as known roads."
+  },
+  {
+    "id": "event-solomon-sheba",
+    "title": "The Queen of Sheba visits Solomon",
+    "summary": "1 Kings and Chronicles narrate a royal visit from Sheba to Jerusalem. Southern Arabia is the strongest broad cultural context, but no exact itinerary is recoverable.",
+    "confidence": "high",
+    "placeIds": [
+      "sheba-saba",
+      "jerusalem"
+    ],
+    "personIds": [
+      "solomon",
+      "queen-sheba"
+    ],
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 10,
+        "verseStart": 1,
+        "verseEnd": 13,
+        "label": "1 Kings 10:1–13"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 9,
+        "verseStart": 1,
+        "verseEnd": 12,
+        "label": "2 Chronicles 9:1–12"
+      }
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale",
+      "source-oxford-history",
+      "source-batch4-methodology"
+    ],
+    "historicalNote": "Narrative confidence refers to what the text says, not independent archaeological proof of the visit."
+  }
+]

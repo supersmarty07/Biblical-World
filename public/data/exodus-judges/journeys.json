@@ -1,0 +1,1068 @@
+[
+  {
+    "id": "journey-exodus-egypt",
+    "name": "Exodus: Rameses to the Sea-Crossing Region",
+    "person": "Moses",
+    "personId": "moses",
+    "character": "moses",
+    "summary": "A schematic narrative sequence through the eastern Delta. Because Succoth, Etham, Pi-hahiroth, and the crossing water are not securely located, the route is explicitly reconstructed rather than presented as an exact road.",
+    "segments": [
+      {
+        "id": "rameses-wadi",
+        "fromPlaceId": "rameses",
+        "toPlaceId": "sukkoth-exodus",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            31.83,
+            30.8
+          ],
+          [
+            32.0,
+            30.66
+          ],
+          [
+            32.2,
+            30.52
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 12,
+            "verseStart": 37,
+            "verseEnd": 37,
+            "label": "Exodus 12:37"
+          },
+          {
+            "book": "Numbers",
+            "chapter": 33,
+            "verseStart": 3,
+            "verseEnd": 5,
+            "label": "Numbers 33:3–5"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-hoffmeier-egypt",
+          "source-batch3-methodology"
+        ],
+        "note": "Wadi Tumilat-oriented corridor; not an identified Exodus road."
+      },
+      {
+        "id": "wadi-sea",
+        "fromPlaceId": "sukkoth-exodus",
+        "toPlaceId": "yam-suph",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            32.2,
+            30.52
+          ],
+          [
+            32.45,
+            30.35
+          ],
+          [
+            32.65,
+            30.2
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 13,
+            "verseStart": 20,
+            "verseEnd": 22,
+            "label": "Exodus 13:20–22"
+          },
+          {
+            "book": "Exodus",
+            "chapter": 14,
+            "verseStart": 1,
+            "verseEnd": 2,
+            "label": "Exodus 14:1–2"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-hoffmeier-egypt",
+          "source-batch3-methodology"
+        ],
+        "note": "Endpoint is a display corridor near the eastern Delta/Suez approaches, not a claimed crossing point."
+      }
+    ]
+  },
+  {
+    "id": "journey-wilderness-sinai",
+    "name": "Wilderness: Sea Region to Sinai Candidates",
+    "person": "Moses",
+    "personId": "moses",
+    "character": "moses",
+    "summary": "A deliberately schematic southward route illustrating one traditional southern-Sinai family of reconstructions. Other route models exist and Mount Sinai itself remains unlocated.",
+    "segments": [
+      {
+        "id": "sea-marah",
+        "fromPlaceId": "yam-suph",
+        "toPlaceId": "marah",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            32.65,
+            30.2
+          ],
+          [
+            32.8,
+            29.85
+          ],
+          [
+            33.0,
+            29.5
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 15,
+            "verseStart": 22,
+            "verseEnd": 23,
+            "label": "Exodus 15:22–23"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-hoffmeier-sinai",
+          "source-batch3-methodology"
+        ]
+      },
+      {
+        "id": "marah-elim",
+        "fromPlaceId": "marah",
+        "toPlaceId": "elim",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            33.0,
+            29.5
+          ],
+          [
+            33.15,
+            29.2
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 15,
+            "verseStart": 27,
+            "verseEnd": 27,
+            "label": "Exodus 15:27"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-hoffmeier-sinai",
+          "source-batch3-methodology"
+        ]
+      },
+      {
+        "id": "elim-sinai",
+        "fromPlaceId": "elim",
+        "toPlaceId": "mount-sinai",
+        "routeCertainty": "unknown",
+        "coordinates": [
+          [
+            33.15,
+            29.2
+          ],
+          [
+            33.5,
+            28.9
+          ],
+          [
+            33.975,
+            28.54
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 16,
+            "verseStart": 1,
+            "verseEnd": 1,
+            "label": "Exodus 16:1"
+          },
+          {
+            "book": "Exodus",
+            "chapter": 19,
+            "verseStart": 1,
+            "verseEnd": 2,
+            "label": "Exodus 19:1–2"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-hoffmeier-sinai",
+          "source-batch3-methodology"
+        ],
+        "note": "Shown through the Jebel Musa traditional corridor solely as one visualization; Mount Sinai is not assigned Jebel Musa as its definitive coordinate."
+      }
+    ]
+  },
+  {
+    "id": "journey-kadesh-transjordan",
+    "name": "Kadesh to the Plains of Moab",
+    "person": "Moses",
+    "personId": "moses",
+    "character": "moses",
+    "summary": "A schematic route following the textual sequence from Kadesh around Edom toward the Arabah/Gulf of Aqaba and then north through Transjordan to Moab.",
+    "segments": [
+      {
+        "id": "kadesh-hor",
+        "fromPlaceId": "kadesh-barnea",
+        "toPlaceId": "mount-hor",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.44,
+            30.65
+          ],
+          [
+            34.7,
+            30.45
+          ],
+          [
+            35.1,
+            30.3
+          ],
+          [
+            35.407,
+            30.317
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Numbers",
+            "chapter": 20,
+            "verseStart": 22,
+            "verseEnd": 29,
+            "label": "Numbers 20:22–29"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      },
+      {
+        "id": "hor-ezion",
+        "fromPlaceId": "mount-hor",
+        "toPlaceId": "ezion-geber",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.407,
+            30.317
+          ],
+          [
+            35.2,
+            30.0
+          ],
+          [
+            35.0,
+            29.7
+          ],
+          [
+            34.98,
+            29.55
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Numbers",
+            "chapter": 21,
+            "verseStart": 4,
+            "verseEnd": 4,
+            "label": "Numbers 21:4"
+          },
+          {
+            "book": "Numbers",
+            "chapter": 33,
+            "verseStart": 35,
+            "verseEnd": 36,
+            "label": "Numbers 33:35–36"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      },
+      {
+        "id": "ezion-moab",
+        "fromPlaceId": "ezion-geber",
+        "toPlaceId": "plains-moab",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.98,
+            29.55
+          ],
+          [
+            35.3,
+            30.1
+          ],
+          [
+            35.55,
+            30.8
+          ],
+          [
+            35.72,
+            31.5
+          ],
+          [
+            35.65,
+            31.83
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Deuteronomy",
+            "chapter": 2,
+            "verseStart": 8,
+            "verseEnd": 18,
+            "label": "Deuteronomy 2:8–18"
+          },
+          {
+            "book": "Numbers",
+            "chapter": 21,
+            "verseStart": 10,
+            "verseEnd": 20,
+            "label": "Numbers 21:10–20"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-archaeology-jordan",
+          "source-batch3-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-joshua-entry",
+    "name": "Joshua: Jordan, Jericho, Ai, and Shechem",
+    "person": "Joshua",
+    "personId": "joshua",
+    "character": "joshua",
+    "summary": "A schematic map of Joshua’s narrative sequence from the Jordan crossing to Jericho, the Ai/Bethel area, and covenant geography at Shechem.",
+    "segments": [
+      {
+        "id": "jordan-jericho",
+        "fromPlaceId": "jordan-crossing",
+        "toPlaceId": "jericho",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.55,
+            31.87
+          ],
+          [
+            35.5,
+            31.87
+          ],
+          [
+            35.444,
+            31.871
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 3,
+            "label": "Joshua 3"
+          },
+          {
+            "book": "Joshua",
+            "chapter": 4,
+            "label": "Joshua 4"
+          },
+          {
+            "book": "Joshua",
+            "chapter": 6,
+            "label": "Joshua 6"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      },
+      {
+        "id": "jericho-ai",
+        "fromPlaceId": "jericho",
+        "toPlaceId": "ai",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.444,
+            31.871
+          ],
+          [
+            35.36,
+            31.95
+          ],
+          [
+            35.27,
+            31.98
+          ],
+          [
+            35.26,
+            31.916
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 7,
+            "label": "Joshua 7"
+          },
+          {
+            "book": "Joshua",
+            "chapter": 8,
+            "label": "Joshua 8"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ],
+        "note": "Ai’s site identification is itself disputed; the route is schematic."
+      },
+      {
+        "id": "ai-shechem",
+        "fromPlaceId": "ai",
+        "toPlaceId": "shechem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.26,
+            31.916
+          ],
+          [
+            35.28,
+            32.05
+          ],
+          [
+            35.2896,
+            32.2135
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 8,
+            "verseStart": 30,
+            "verseEnd": 35,
+            "label": "Joshua 8:30–35"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-joshua-south",
+    "name": "Joshua: Gibeon and the Southern Campaign",
+    "person": "Joshua",
+    "personId": "joshua",
+    "character": "joshua",
+    "summary": "A schematic route through the Gibeon/Aijalon episode. Exact battle movements cannot be recovered from the text.",
+    "segments": [
+      {
+        "id": "gilgal-gibeon",
+        "fromPlaceId": "gilgal-joshua",
+        "toPlaceId": "gibeon",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.44,
+            31.88
+          ],
+          [
+            35.31,
+            31.87
+          ],
+          [
+            35.185,
+            31.85
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 9,
+            "label": "Joshua 9"
+          },
+          {
+            "book": "Joshua",
+            "chapter": 10,
+            "verseStart": 6,
+            "verseEnd": 10,
+            "label": "Joshua 10:6–10"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      },
+      {
+        "id": "gibeon-aijalon",
+        "fromPlaceId": "gibeon",
+        "toPlaceId": "aijalon-valley",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.185,
+            31.85
+          ],
+          [
+            35.08,
+            31.87
+          ],
+          [
+            34.98,
+            31.85
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 10,
+            "verseStart": 10,
+            "verseEnd": 14,
+            "label": "Joshua 10:10–14"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-joshua-north",
+    "name": "Joshua: Northern Campaign to Hazor",
+    "person": "Joshua",
+    "personId": "joshua",
+    "character": "joshua",
+    "summary": "A schematic northern campaign visualization centered on Hazor and the Waters of Merom. It is not an archaeological reconstruction of exact troop movements.",
+    "segments": [
+      {
+        "id": "central-merom",
+        "fromPlaceId": "shechem",
+        "toPlaceId": "waters-merom",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.2896,
+            32.2135
+          ],
+          [
+            35.35,
+            32.55
+          ],
+          [
+            35.48,
+            32.9
+          ],
+          [
+            35.6,
+            33.1
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 11,
+            "verseStart": 1,
+            "verseEnd": 7,
+            "label": "Joshua 11:1–7"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      },
+      {
+        "id": "merom-hazor",
+        "fromPlaceId": "waters-merom",
+        "toPlaceId": "hazor",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.6,
+            33.1
+          ],
+          [
+            35.57,
+            33.02
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 11,
+            "verseStart": 10,
+            "verseEnd": 13,
+            "label": "Joshua 11:10–13"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-deborah-barak",
+    "name": "Deborah and Barak: Kedesh to Tabor and Kishon",
+    "person": "Barak",
+    "personId": "barak",
+    "character": "deborah",
+    "summary": "The route links the named geographic sequence in Judges 4, while avoiding a claim to exact troop tracks.",
+    "segments": [
+      {
+        "id": "kedesh-tabor",
+        "fromPlaceId": "kedesh-naphtali",
+        "toPlaceId": "mount-tabor",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.54,
+            33.11
+          ],
+          [
+            35.48,
+            32.92
+          ],
+          [
+            35.42,
+            32.75
+          ],
+          [
+            35.392,
+            32.687
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 4,
+            "verseStart": 6,
+            "verseEnd": 10,
+            "label": "Judges 4:6–10"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      },
+      {
+        "id": "tabor-kishon",
+        "fromPlaceId": "mount-tabor",
+        "toPlaceId": "kishon",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.392,
+            32.687
+          ],
+          [
+            35.3,
+            32.66
+          ],
+          [
+            35.15,
+            32.67
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 4,
+            "verseStart": 12,
+            "verseEnd": 16,
+            "label": "Judges 4:12–16"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-gideon",
+    "name": "Gideon: Harod and the Pursuit East",
+    "person": "Gideon",
+    "personId": "gideon",
+    "character": "gideon",
+    "summary": "A schematic route from the Spring of Harod toward the Jordan and the named Transjordanian towns Succoth and Penuel. Intermediate pursuit geography is uncertain.",
+    "segments": [
+      {
+        "id": "harod-jordan",
+        "fromPlaceId": "spring-harod",
+        "toPlaceId": "succoth",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.36,
+            32.55
+          ],
+          [
+            35.48,
+            32.45
+          ],
+          [
+            35.6,
+            32.3
+          ],
+          [
+            35.62,
+            32.2
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 7,
+            "label": "Judges 7"
+          },
+          {
+            "book": "Judges",
+            "chapter": 8,
+            "verseStart": 4,
+            "verseEnd": 6,
+            "label": "Judges 8:4–6"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      },
+      {
+        "id": "succoth-penuel",
+        "fromPlaceId": "succoth",
+        "toPlaceId": "peniel",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.62,
+            32.2
+          ],
+          [
+            35.65,
+            32.15
+          ],
+          [
+            35.69,
+            32.12
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 8,
+            "verseStart": 8,
+            "verseEnd": 17,
+            "label": "Judges 8:8–17"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-samson",
+    "name": "Samson: Judah–Philistia Frontier",
+    "person": "Samson",
+    "personId": "samson",
+    "character": "samson",
+    "summary": "A story route linking the securely or probably identified major places in Judges 13–16. Lehi and several episode locations remain unlocated.",
+    "segments": [
+      {
+        "id": "zorah-timnah",
+        "fromPlaceId": "zorah",
+        "toPlaceId": "timnah-samson",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            34.99,
+            31.77
+          ],
+          [
+            34.97,
+            31.76
+          ],
+          [
+            34.95,
+            31.75
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 14,
+            "verseStart": 1,
+            "verseEnd": 5,
+            "label": "Judges 14:1–5"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge"
+        ]
+      },
+      {
+        "id": "timnah-ashkelon",
+        "fromPlaceId": "timnah-samson",
+        "toPlaceId": "ashkelon",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.95,
+            31.75
+          ],
+          [
+            34.75,
+            31.72
+          ],
+          [
+            34.546,
+            31.669
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 14,
+            "verseStart": 19,
+            "verseEnd": 19,
+            "label": "Judges 14:19"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      },
+      {
+        "id": "sorek-gaza",
+        "fromPlaceId": "sorek-valley",
+        "toPlaceId": "gaza",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.9,
+            31.78
+          ],
+          [
+            34.72,
+            31.68
+          ],
+          [
+            34.58,
+            31.58
+          ],
+          [
+            34.466,
+            31.501
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 16,
+            "verseStart": 4,
+            "verseEnd": 21,
+            "label": "Judges 16:4–21"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "journey-danite-migration",
+    "name": "Danite Migration: Zorah/Eshtaol to Laish",
+    "person": "Danite scouts and migrants",
+    "character": "generic",
+    "summary": "A schematic northward route from the Shephelah to Laish/Dan. Judges gives important stops and narrative sequence, but no recoverable continuous road.",
+    "segments": [
+      {
+        "id": "dan-sheph-central",
+        "fromPlaceId": "zorah",
+        "toPlaceId": "hill-country-ephraim",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.99,
+            31.77
+          ],
+          [
+            35.1,
+            31.95
+          ],
+          [
+            35.2,
+            32.1
+          ],
+          [
+            35.28,
+            32.15
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 18,
+            "verseStart": 2,
+            "verseEnd": 13,
+            "label": "Judges 18:2–13"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ],
+        "note": "Schematic central-ridge corridor only."
+      },
+      {
+        "id": "dan-central-laish",
+        "fromPlaceId": "hill-country-ephraim",
+        "toPlaceId": "dan-laish",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.28,
+            32.15
+          ],
+          [
+            35.35,
+            32.45
+          ],
+          [
+            35.45,
+            32.75
+          ],
+          [
+            35.55,
+            33.02
+          ],
+          [
+            35.652,
+            33.249
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 18,
+            "verseStart": 14,
+            "verseEnd": 29,
+            "label": "Judges 18:14–29"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ],
+        "note": "Schematic northward travel corridor; exact route is unknown."
+      }
+    ]
+  },
+  {
+    "id": "journey-judges19",
+    "name": "The Levite: Bethlehem to Gibeah",
+    "person": "Unnamed Levite",
+    "personId": "levite-judges19",
+    "character": "generic",
+    "summary": "A schematic route from Bethlehem toward Jerusalem and north to Gibeah, following the sequence in Judges 19. The exact ancient road choice is reconstructed.",
+    "segments": [
+      {
+        "id": "bethlehem-gibeah",
+        "fromPlaceId": "bethlehem-judah",
+        "toPlaceId": "gibeah-benjamin",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.202,
+            31.705
+          ],
+          [
+            35.22,
+            31.76
+          ],
+          [
+            35.23,
+            31.79
+          ],
+          [
+            35.23,
+            31.82
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 19,
+            "verseStart": 10,
+            "verseEnd": 15,
+            "label": "Judges 19:10–15"
+          }
+        ],
+        "sourceIds": [
+          "source-exodus-judges-text",
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ],
+        "note": "Approximate ridge-route visualization; not an excavated itinerary."
+      }
+    ]
+  }
+]

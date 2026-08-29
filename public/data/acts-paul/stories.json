@@ -1,0 +1,1559 @@
+[
+  {
+    "id": "story-pentecost-jerusalem",
+    "title": "Pentecost & the Jerusalem Church",
+    "subtitle": "From the Mount of Olives to the Temple-centered Jerusalem community.",
+    "personId": "peter",
+    "theme": "Acts",
+    "chapters": [
+      {
+        "id": "p1",
+        "title": "From Olivet to Jerusalem",
+        "eyebrow": "Acts 1",
+        "description": "The ridge of the Mount of Olives is named; the exact ascension spot is not.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 1,
+            "label": "Acts 1:6–12",
+            "verseStart": 6,
+            "verseEnd": 12
+          }
+        ],
+        "placeId": "mount-olives",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.243,
+            31.778
+          ],
+          "zoom": 8,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "p2",
+        "title": "An unlocated upper room",
+        "eyebrow": "Acts 1",
+        "description": "The Jerusalem gathering is real narrative geography, but no surviving room can be identified as the Acts 1 location.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 1,
+            "label": "Acts 1:12–26",
+            "verseStart": 12,
+            "verseEnd": 26
+          }
+        ],
+        "placeId": "upper-room-jerusalem",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 9,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "p3",
+        "title": "Pentecost",
+        "eyebrow": "Acts 2",
+        "description": "Acts places Pentecost in Jerusalem without giving a recoverable address for the initial gathering.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 2,
+            "label": "Acts 2:1–41",
+            "verseStart": 1,
+            "verseEnd": 41
+          }
+        ],
+        "placeId": "jerusalem",
+        "contextYear": 30,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "p4",
+        "title": "Temple gathering",
+        "eyebrow": "Acts 3–5",
+        "description": "The Herodian Temple complex is a strong setting; the Beautiful Gate’s exact identity remains disputed.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 3,
+            "label": "Acts 3:1–11",
+            "verseStart": 1,
+            "verseEnd": 11
+          },
+          {
+            "book": "Acts",
+            "chapter": 5,
+            "label": "Acts 5:12",
+            "verseStart": 12
+          }
+        ],
+        "placeId": "temple-mount",
+        "contextYear": 31,
+        "camera": {
+          "center": [
+            35.2354,
+            31.7781
+          ],
+          "zoom": 10,
+          "pitch": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-stephen-philip",
+    "title": "Stephen, Philip & the Expanding Map",
+    "subtitle": "Jerusalem gives way to Samaria, the Gaza road, Azotus, and Caesarea.",
+    "personId": "philip-evangelist",
+    "theme": "Acts",
+    "chapters": [
+      {
+        "id": "sp1",
+        "title": "Stephen outside Jerusalem",
+        "eyebrow": "Acts 6–7",
+        "description": "Stephen’s execution is outside the city, but later gate traditions do not establish the exact spot.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 7,
+            "label": "Acts 7:54–60",
+            "verseStart": 54,
+            "verseEnd": 60
+          }
+        ],
+        "placeId": "stephen-stoning-site",
+        "contextYear": 33,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "sp2",
+        "title": "A city of Samaria",
+        "eyebrow": "Acts 8",
+        "description": "The project shows the Samaritan region and Sebaste separately rather than forcing Philip into one city with certainty.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 8,
+            "label": "Acts 8:4–25",
+            "verseStart": 4,
+            "verseEnd": 25
+          }
+        ],
+        "placeId": "samaria-region-gospels",
+        "contextYear": 34,
+        "camera": {
+          "center": [
+            35.24,
+            32.2
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "sp3",
+        "title": "The Gaza-road encounter",
+        "eyebrow": "Acts 8",
+        "description": "The endpoints are known broadly; the exact desert road segment is not.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 8,
+            "label": "Acts 8:26–39",
+            "verseStart": 26,
+            "verseEnd": 39
+          }
+        ],
+        "placeId": "gaza",
+        "journeyId": "journey-philip-coast",
+        "contextYear": 34,
+        "camera": {
+          "center": [
+            34.466,
+            31.501
+          ],
+          "zoom": 6,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "sp4",
+        "title": "Azotus to Caesarea",
+        "eyebrow": "Acts 8",
+        "description": "Acts says Philip passed through towns until Caesarea; the map draws only a generalized coastwise corridor.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 8,
+            "label": "Acts 8:40",
+            "verseStart": 40
+          }
+        ],
+        "placeId": "azotus",
+        "journeyId": "journey-philip-coast",
+        "contextYear": 34,
+        "camera": {
+          "center": [
+            34.655,
+            31.754
+          ],
+          "zoom": 7,
+          "pitch": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-saul-to-antioch",
+    "title": "Saul to Paul: Damascus, Tarsus & Antioch",
+    "subtitle": "Calling, Arabia in Galatians, Damascus, Tarsus, and the emergence of Antioch.",
+    "personId": "paul",
+    "theme": "Paul",
+    "chapters": [
+      {
+        "id": "sd1",
+        "title": "The road to Damascus",
+        "eyebrow": "Acts 9",
+        "description": "Damascus is certain; the encounter point is not.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 9,
+            "label": "Acts 9:1–19",
+            "verseStart": 1,
+            "verseEnd": 19
+          }
+        ],
+        "placeId": "damascus",
+        "journeyId": "journey-paul-damascus",
+        "contextYear": 35,
+        "camera": {
+          "center": [
+            36.309,
+            33.5138
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "sd2",
+        "title": "Straight Street",
+        "eyebrow": "Acts 9",
+        "description": "The Roman east–west street axis gives historical context without claiming Judas’s house has been found.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 9,
+            "label": "Acts 9:11–19",
+            "verseStart": 11,
+            "verseEnd": 19
+          }
+        ],
+        "placeId": "straight-street-damascus",
+        "contextYear": 35,
+        "camera": {
+          "center": [
+            36.309,
+            33.51
+          ],
+          "zoom": 10,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "sd3",
+        "title": "Arabia — Paul’s own reference",
+        "eyebrow": "Galatians 1",
+        "description": "Paul says he went to Arabia, but neither Acts nor Galatians gives a recoverable itinerary. Petra is only a Nabataean context anchor in the optional route visualization.",
+        "scripture": [
+          {
+            "book": "Galatians",
+            "chapter": 1,
+            "label": "Galatians 1:17",
+            "verseStart": 17
+          }
+        ],
+        "placeId": "arabia-galatians",
+        "contextYear": 35,
+        "camera": {
+          "center": [
+            35.0,
+            31.0
+          ],
+          "zoom": 4.5,
+          "pitch": 10
+        }
+      },
+      {
+        "id": "sd4",
+        "title": "Tarsus and Antioch",
+        "eyebrow": "Acts 9–11",
+        "description": "Paul returns to his Cilician home region before Barnabas brings him to Antioch.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 9,
+            "label": "Acts 9:30",
+            "verseStart": 30
+          },
+          {
+            "book": "Acts",
+            "chapter": 11,
+            "label": "Acts 11:25–26",
+            "verseStart": 25,
+            "verseEnd": 26
+          }
+        ],
+        "placeId": "antioch-orontes",
+        "contextYear": 42,
+        "camera": {
+          "center": [
+            36.161,
+            36.202
+          ],
+          "zoom": 6,
+          "pitch": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-peter-caesarea-agrippa",
+    "title": "Peter, Caesarea & Agrippa I",
+    "subtitle": "Joppa, Cornelius, Jerusalem persecution, and Agrippa’s death at Caesarea.",
+    "personId": "peter",
+    "theme": "Acts",
+    "chapters": [
+      {
+        "id": "pc1",
+        "title": "Joppa",
+        "eyebrow": "Acts 9–10",
+        "description": "Peter is at Joppa before messengers arrive from Caesarea.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 9,
+            "label": "Acts 9:36–43",
+            "verseStart": 36,
+            "verseEnd": 43
+          },
+          {
+            "book": "Acts",
+            "chapter": 10,
+            "label": "Acts 10:1–23",
+            "verseStart": 1,
+            "verseEnd": 23
+          }
+        ],
+        "placeId": "joppa",
+        "journeyId": "journey-peter-joppa-caesarea",
+        "contextYear": 39,
+        "camera": {
+          "center": [
+            34.752,
+            32.052
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "pc2",
+        "title": "Cornelius at Caesarea",
+        "eyebrow": "Acts 10",
+        "description": "Caesarea is an established Roman administrative city; Cornelius’s house is not identified.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 10,
+            "label": "Acts 10:24–48",
+            "verseStart": 24,
+            "verseEnd": 48
+          }
+        ],
+        "placeId": "caesarea-maritima",
+        "journeyId": "journey-peter-joppa-caesarea",
+        "contextYear": 39,
+        "camera": {
+          "center": [
+            34.892,
+            32.501
+          ],
+          "zoom": 8,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "pc3",
+        "title": "Agrippa I in Jerusalem",
+        "eyebrow": "Acts 12",
+        "description": "Agrippa’s rule is historical; Acts narrates James’s death and Peter’s imprisonment.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 12,
+            "label": "Acts 12:1–19",
+            "verseStart": 1,
+            "verseEnd": 19
+          }
+        ],
+        "placeId": "jerusalem",
+        "contextYear": 44,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "pc4",
+        "title": "Caesarea, 44 CE",
+        "eyebrow": "Acts + Josephus",
+        "description": "Acts and Josephus both place Agrippa’s fatal illness/death at Caesarea, though their narrative details differ.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 12,
+            "label": "Acts 12:20–23",
+            "verseStart": 20,
+            "verseEnd": 23
+          }
+        ],
+        "placeId": "caesarea-maritima",
+        "contextYear": 44,
+        "camera": {
+          "center": [
+            34.892,
+            32.501
+          ],
+          "zoom": 8,
+          "pitch": 25
+        },
+        "textualReferences": [
+          {
+            "label": "Josephus, Antiquities 19",
+            "sourceId": "source-josephus-ant19-b9",
+            "kind": "ancient-literary"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "story-antioch-council",
+    "title": "Antioch, Famine Relief & the Jerusalem Council",
+    "subtitle": "The Syrian hub, Claudian famine context, and a debated correlation with Galatians 2.",
+    "personId": "barnabas",
+    "theme": "Acts",
+    "chapters": [
+      {
+        "id": "ac1",
+        "title": "Antioch becomes a hub",
+        "eyebrow": "Acts 11",
+        "description": "Barnabas and Paul work in Antioch, where Acts gives the “Christians” naming notice.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 11,
+            "label": "Acts 11:19–26",
+            "verseStart": 19,
+            "verseEnd": 26
+          }
+        ],
+        "placeId": "antioch-orontes",
+        "contextYear": 43,
+        "camera": {
+          "center": [
+            36.161,
+            36.202
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "ac2",
+        "title": "Famine relief",
+        "eyebrow": "Acts 11 + Josephus",
+        "description": "Acts links Antioch to Judean relief; Josephus independently describes severe famine in Judea under Claudius.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 11,
+            "label": "Acts 11:27–30",
+            "verseStart": 27,
+            "verseEnd": 30
+          }
+        ],
+        "placeId": "jerusalem",
+        "contextYear": 47,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 6,
+          "pitch": 20
+        },
+        "textualReferences": [
+          {
+            "label": "Josephus, Antiquities 20",
+            "sourceId": "source-josephus-ant20-b9",
+            "kind": "ancient-literary"
+          }
+        ]
+      },
+      {
+        "id": "ac3",
+        "title": "Jerusalem meeting",
+        "eyebrow": "Acts 15 / Galatians 2",
+        "description": "The app cross-references the texts but does not simply declare that Acts 15 and Galatians 2 describe the same visit.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 15,
+            "label": "Acts 15:1–35",
+            "verseStart": 1,
+            "verseEnd": 35
+          },
+          {
+            "book": "Galatians",
+            "chapter": 2,
+            "label": "Galatians 2:1–10",
+            "verseStart": 1,
+            "verseEnd": 10
+          }
+        ],
+        "placeId": "jerusalem",
+        "contextYear": 49,
+        "camera": {
+          "center": [
+            35.235,
+            31.778
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-first-mission",
+    "title": "First Missionary Journey",
+    "subtitle": "Cyprus, Pamphylia, Pisidia, Lycaonia, and the Derbe problem.",
+    "personId": "paul",
+    "theme": "Mission",
+    "chapters": [
+      {
+        "id": "fm1",
+        "title": "Antioch to Cyprus",
+        "eyebrow": "Acts 13",
+        "description": "The journey begins at Antioch and its port Seleucia Pieria, then crosses to Salamis.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 13,
+            "label": "Acts 13:1–5",
+            "verseStart": 1,
+            "verseEnd": 5
+          }
+        ],
+        "placeId": "salamis-cyprus",
+        "journeyId": "journey-first-mission",
+        "contextYear": 47,
+        "camera": {
+          "center": [
+            33.9,
+            35.185
+          ],
+          "zoom": 5.5,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "fm2",
+        "title": "Paphos and the proconsul",
+        "eyebrow": "Acts 13",
+        "description": "Roman Paphos is secure. The app does not claim a particular palace room for Sergius Paulus.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 13,
+            "label": "Acts 13:6–12",
+            "verseStart": 6,
+            "verseEnd": 12
+          }
+        ],
+        "placeId": "paphos",
+        "journeyId": "journey-first-mission",
+        "contextYear": 47,
+        "camera": {
+          "center": [
+            32.42,
+            34.758
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "fm3",
+        "title": "Into Pisidia",
+        "eyebrow": "Acts 13",
+        "description": "Perga and Pisidian Antioch are secure cities; the Taurus crossing line is a reconstruction.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 13,
+            "label": "Acts 13:13–52",
+            "verseStart": 13,
+            "verseEnd": 52
+          }
+        ],
+        "placeId": "pisidian-antioch",
+        "journeyId": "journey-first-mission",
+        "contextYear": 47,
+        "camera": {
+          "center": [
+            31.184,
+            38.305
+          ],
+          "zoom": 6,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "fm4",
+        "title": "Lystra and disputed Derbe",
+        "eyebrow": "Acts 14",
+        "description": "Lystra is probable; Derbe remains debated. Kerti Höyük is used only as a candidate route endpoint.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 14,
+            "label": "Acts 14:8–21",
+            "verseStart": 8,
+            "verseEnd": 21
+          }
+        ],
+        "placeId": "lystra",
+        "journeyId": "journey-first-mission",
+        "contextYear": 48,
+        "camera": {
+          "center": [
+            32.48,
+            37.58
+          ],
+          "zoom": 6,
+          "pitch": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-second-mission-macedonia",
+    "title": "Second Journey: Into Macedonia",
+    "subtitle": "Troas, Philippi, Via Egnatia, Thessalonica, and Berea.",
+    "personId": "paul",
+    "theme": "Mission",
+    "chapters": [
+      {
+        "id": "sm1",
+        "title": "Across Anatolia to Troas",
+        "eyebrow": "Acts 16",
+        "description": "The route through Phrygian/Galatian/Mysian territory is intentionally schematic.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 16,
+            "label": "Acts 16:6–10",
+            "verseStart": 6,
+            "verseEnd": 10
+          }
+        ],
+        "placeId": "alexandria-troas",
+        "journeyId": "journey-second-mission",
+        "contextYear": 50,
+        "camera": {
+          "center": [
+            26.238,
+            39.753
+          ],
+          "zoom": 5,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "sm2",
+        "title": "Philippi",
+        "eyebrow": "Acts 16",
+        "description": "Philippi’s archaeology is strong; the riverside prayer place and prison building remain unlocated.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 16,
+            "label": "Acts 16:11–40",
+            "verseStart": 11,
+            "verseEnd": 40
+          }
+        ],
+        "placeId": "philippi",
+        "journeyId": "journey-second-mission",
+        "contextYear": 50,
+        "camera": {
+          "center": [
+            24.286,
+            41.013
+          ],
+          "zoom": 7,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "sm3",
+        "title": "Via Egnatia",
+        "eyebrow": "Acts 17",
+        "description": "Amphipolis and Apollonia sit along the broad corridor toward Thessalonica.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 17,
+            "label": "Acts 17:1",
+            "verseStart": 1
+          }
+        ],
+        "placeId": "amphipolis",
+        "journeyId": "journey-second-mission",
+        "contextYear": 50,
+        "camera": {
+          "center": [
+            23.84,
+            40.823
+          ],
+          "zoom": 6,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "sm4",
+        "title": "Thessalonica and Berea",
+        "eyebrow": "Acts 17",
+        "description": "Both cities are secure; Acts’ community settings are not tied to identified synagogue buildings.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 17,
+            "label": "Acts 17:1–15",
+            "verseStart": 1,
+            "verseEnd": 15
+          }
+        ],
+        "placeId": "thessalonica",
+        "journeyId": "journey-second-mission",
+        "contextYear": 50,
+        "camera": {
+          "center": [
+            22.944,
+            40.64
+          ],
+          "zoom": 6,
+          "pitch": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-athens-corinth",
+    "title": "Athens, Corinth & the Gallio Anchor",
+    "subtitle": "Areopagus ambiguity, Roman Corinth, and the strongest external date anchor in Paul’s Acts chronology.",
+    "personId": "paul",
+    "theme": "Paul",
+    "chapters": [
+      {
+        "id": "ac1",
+        "title": "Athens",
+        "eyebrow": "Acts 17",
+        "description": "Athens is secure, while “Areopagus” can refer to a council/body as well as the hill.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 17,
+            "label": "Acts 17:16–34",
+            "verseStart": 16,
+            "verseEnd": 34
+          }
+        ],
+        "placeId": "areopagus-athens",
+        "contextYear": 51,
+        "camera": {
+          "center": [
+            23.723,
+            37.972
+          ],
+          "zoom": 9,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "ac2",
+        "title": "Corinth",
+        "eyebrow": "Acts 18",
+        "description": "Roman Corinth is archaeologically strong and becomes a major Pauline correspondence center.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 18,
+            "label": "Acts 18:1–11",
+            "verseStart": 1,
+            "verseEnd": 11
+          }
+        ],
+        "placeId": "corinth",
+        "contextYear": 51,
+        "camera": {
+          "center": [
+            22.879,
+            37.906
+          ],
+          "zoom": 7,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "ac3",
+        "title": "Gallio, c. 51–52 CE",
+        "eyebrow": "Acts + Delphi inscription",
+        "description": "Gallio’s independently attested proconsulship anchors the chronology, but the inscription does not mention Paul.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 18,
+            "label": "Acts 18:12–17",
+            "verseStart": 12,
+            "verseEnd": 17
+          }
+        ],
+        "placeId": "corinth-bema",
+        "contextYear": 52,
+        "camera": {
+          "center": [
+            22.8793,
+            37.9057
+          ],
+          "zoom": 10,
+          "pitch": 30
+        },
+        "textualReferences": [
+          {
+            "label": "Delphi inscription mentioning Gallio",
+            "sourceId": "source-gallio-inscription",
+            "kind": "inscription"
+          }
+        ]
+      },
+      {
+        "id": "ac4",
+        "title": "Cenchreae",
+        "eyebrow": "Acts 18 / Romans 16",
+        "description": "The eastern port is securely located and links the Corinthian community to maritime travel.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 18,
+            "label": "Acts 18:18",
+            "verseStart": 18
+          },
+          {
+            "book": "Romans",
+            "chapter": 16,
+            "label": "Romans 16:1",
+            "verseStart": 1
+          }
+        ],
+        "placeId": "cenchreae",
+        "contextYear": 52,
+        "camera": {
+          "center": [
+            22.994,
+            37.884
+          ],
+          "zoom": 8,
+          "pitch": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-ephesus-third-journey",
+    "title": "Ephesus & the Third Journey",
+    "subtitle": "Roman Asia, Tyrannus, Artemis, the theater, and the return route.",
+    "personId": "paul",
+    "theme": "Mission",
+    "chapters": [
+      {
+        "id": "e1",
+        "title": "Roman Ephesus",
+        "eyebrow": "Acts 19",
+        "description": "The city is one of the strongest archaeological anchors in Acts.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 19,
+            "label": "Acts 19:1–10",
+            "verseStart": 1,
+            "verseEnd": 10
+          }
+        ],
+        "placeId": "ephesus",
+        "contextYear": 54,
+        "camera": {
+          "center": [
+            27.341,
+            37.94
+          ],
+          "zoom": 7,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "e2",
+        "title": "Tyrannus — building unknown",
+        "eyebrow": "Acts 19",
+        "description": "The hall is named but cannot be matched to an excavated room.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 19,
+            "label": "Acts 19:9–10",
+            "verseStart": 9,
+            "verseEnd": 10
+          }
+        ],
+        "placeId": "hall-tyrannus",
+        "contextYear": 54,
+        "camera": {
+          "center": [
+            27.341,
+            37.94
+          ],
+          "zoom": 8,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "e3",
+        "title": "Artemis and the theater",
+        "eyebrow": "Acts 19",
+        "description": "The Artemision and theater are independent archaeological sites; the narrative disturbance is sourced to Acts.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 19,
+            "label": "Acts 19:23–41",
+            "verseStart": 23,
+            "verseEnd": 41
+          }
+        ],
+        "placeId": "ephesus-theater",
+        "contextYear": 55,
+        "camera": {
+          "center": [
+            27.3417,
+            37.9411
+          ],
+          "zoom": 9,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "e4",
+        "title": "Troas and the Aegean coast",
+        "eyebrow": "Acts 20",
+        "description": "The named coastal stops are mapped; the sailing line remains illustrative.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 20,
+            "label": "Acts 20:5–16",
+            "verseStart": 5,
+            "verseEnd": 16
+          }
+        ],
+        "placeId": "alexandria-troas",
+        "journeyId": "journey-third-return",
+        "contextYear": 57,
+        "camera": {
+          "center": [
+            26.238,
+            39.753
+          ],
+          "zoom": 5,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "e5",
+        "title": "Miletus farewell",
+        "eyebrow": "Acts 20",
+        "description": "Miletus is secure; the exact gathering place is not.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 20,
+            "label": "Acts 20:17–38",
+            "verseStart": 17,
+            "verseEnd": 38
+          }
+        ],
+        "placeId": "miletus",
+        "journeyId": "journey-third-return",
+        "contextYear": 57,
+        "camera": {
+          "center": [
+            27.278,
+            37.53
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-jerusalem-arrest",
+    "title": "Return to Jerusalem & Arrest",
+    "subtitle": "Tyre, Caesarea, Temple controversy, and transfer under guard.",
+    "personId": "paul",
+    "theme": "Acts",
+    "chapters": [
+      {
+        "id": "ja1",
+        "title": "Tyre to Caesarea",
+        "eyebrow": "Acts 21",
+        "description": "The coastwise sequence is named, while exact ports/roads between stops are generalized.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 21,
+            "label": "Acts 21:3–14",
+            "verseStart": 3,
+            "verseEnd": 14
+          }
+        ],
+        "placeId": "caesarea-maritima",
+        "journeyId": "journey-third-return",
+        "contextYear": 57,
+        "camera": {
+          "center": [
+            34.892,
+            32.501
+          ],
+          "zoom": 6,
+          "pitch": 20
+        }
+      },
+      {
+        "id": "ja2",
+        "title": "Jerusalem",
+        "eyebrow": "Acts 21",
+        "description": "The Temple Mount and Antonia are strong topographic anchors, but the exact arrest pathway is not recoverable.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 21,
+            "label": "Acts 21:17–40",
+            "verseStart": 17,
+            "verseEnd": 40
+          }
+        ],
+        "placeId": "temple-mount",
+        "contextYear": 57,
+        "camera": {
+          "center": [
+            35.2354,
+            31.7781
+          ],
+          "zoom": 9,
+          "pitch": 30
+        }
+      },
+      {
+        "id": "ja3",
+        "title": "Night transfer",
+        "eyebrow": "Acts 23",
+        "description": "Acts explicitly names Antipatris on the military transfer to Caesarea.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 23,
+            "label": "Acts 23:23–33",
+            "verseStart": 23,
+            "verseEnd": 33
+          }
+        ],
+        "placeId": "antipatris",
+        "journeyId": "journey-paul-caesarea-transfer",
+        "contextYear": 58,
+        "camera": {
+          "center": [
+            34.933,
+            32.105
+          ],
+          "zoom": 7,
+          "pitch": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-caesarea-trials",
+    "title": "Two Years at Caesarea",
+    "subtitle": "Felix, Festus, Agrippa II, Berenice, and the appeal to Caesar.",
+    "personId": "paul",
+    "theme": "Acts",
+    "chapters": [
+      {
+        "id": "ct1",
+        "title": "Felix",
+        "eyebrow": "Acts 24",
+        "description": "Caesarea’s Roman administrative role is secure; no exact prison room is identified.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 24,
+            "label": "Acts 24:1–27",
+            "verseStart": 1,
+            "verseEnd": 27
+          }
+        ],
+        "placeId": "caesarea-maritima",
+        "contextYear": 58,
+        "camera": {
+          "center": [
+            34.892,
+            32.501
+          ],
+          "zoom": 8,
+          "pitch": 25
+        },
+        "textualReferences": [
+          {
+            "label": "Josephus, Antiquities 20",
+            "sourceId": "source-josephus-ant20-b9",
+            "kind": "ancient-literary"
+          }
+        ]
+      },
+      {
+        "id": "ct2",
+        "title": "Festus",
+        "eyebrow": "Acts 25",
+        "description": "Festus’s accession is historically attested but usually dated only approximately around 59–60 CE.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 25,
+            "label": "Acts 25:1–12",
+            "verseStart": 1,
+            "verseEnd": 12
+          }
+        ],
+        "placeId": "caesarea-maritima",
+        "contextYear": 60,
+        "camera": {
+          "center": [
+            34.892,
+            32.501
+          ],
+          "zoom": 8,
+          "pitch": 25
+        }
+      },
+      {
+        "id": "ct3",
+        "title": "Agrippa II and Berenice",
+        "eyebrow": "Acts 25–26",
+        "description": "The Herodian figures are independently historical; Acts supplies this specific hearing narrative.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 25,
+            "label": "Acts 25:13–27",
+            "verseStart": 13,
+            "verseEnd": 27
+          },
+          {
+            "book": "Acts",
+            "chapter": 26,
+            "label": "Acts 26:1–32",
+            "verseStart": 1,
+            "verseEnd": 32
+          }
+        ],
+        "placeId": "caesarea-maritima",
+        "contextYear": 60,
+        "camera": {
+          "center": [
+            34.892,
+            32.501
+          ],
+          "zoom": 8,
+          "pitch": 25
+        },
+        "textualReferences": [
+          {
+            "label": "Josephus, Antiquities 20",
+            "sourceId": "source-josephus-ant20-b9",
+            "kind": "ancient-literary"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "story-voyage-rome",
+    "title": "Shipwreck, Malta & Rome",
+    "subtitle": "An evidence-aware reconstruction of Acts 27–28 without a fake wreck pin.",
+    "personId": "paul",
+    "theme": "Voyage",
+    "chapters": [
+      {
+        "id": "vr1",
+        "title": "From Caesarea to Myra",
+        "eyebrow": "Acts 27",
+        "description": "Named endpoints are secure; the coastwise sailing line is illustrative.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 27,
+            "label": "Acts 27:1–6",
+            "verseStart": 1,
+            "verseEnd": 6
+          }
+        ],
+        "placeId": "myra",
+        "journeyId": "journey-voyage-to-rome",
+        "contextYear": 60,
+        "camera": {
+          "center": [
+            29.985,
+            36.259
+          ],
+          "zoom": 4.5,
+          "pitch": 10
+        }
+      },
+      {
+        "id": "vr2",
+        "title": "Fair Havens",
+        "eyebrow": "Acts 27",
+        "description": "Fair Havens is probably Kaloi Limenes; Phoenix remains unpinned because its harbor identification is disputed.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 27,
+            "label": "Acts 27:7–13",
+            "verseStart": 7,
+            "verseEnd": 13
+          }
+        ],
+        "placeId": "fair-havens",
+        "journeyId": "journey-voyage-to-rome",
+        "contextYear": 60,
+        "camera": {
+          "center": [
+            24.735,
+            34.93
+          ],
+          "zoom": 7,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "vr3",
+        "title": "Storm and Cauda",
+        "eyebrow": "Acts 27",
+        "description": "The line across the Mediterranean is a schematic drift visualization, not a navigational proof.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 27,
+            "label": "Acts 27:14–26",
+            "verseStart": 14,
+            "verseEnd": 26
+          }
+        ],
+        "placeId": "cauda-gavdos",
+        "journeyId": "journey-voyage-to-rome",
+        "contextYear": 60,
+        "camera": {
+          "center": [
+            24.08,
+            34.84
+          ],
+          "zoom": 5,
+          "pitch": 10
+        }
+      },
+      {
+        "id": "vr4",
+        "title": "Malta — island yes, bay unknown",
+        "eyebrow": "Acts 27–28",
+        "description": "Malta is the mainstream Melite identification. The exact beach/wreck site remains unpinned.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 27,
+            "label": "Acts 27:39–44",
+            "verseStart": 39,
+            "verseEnd": 44
+          },
+          {
+            "book": "Acts",
+            "chapter": 28,
+            "label": "Acts 28:1–10",
+            "verseStart": 1,
+            "verseEnd": 10
+          }
+        ],
+        "placeId": "malta-acts",
+        "journeyId": "journey-voyage-to-rome",
+        "contextYear": 60,
+        "camera": {
+          "center": [
+            14.43,
+            35.9
+          ],
+          "zoom": 6,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "vr5",
+        "title": "Puteoli and the Via Appia",
+        "eyebrow": "Acts 28",
+        "description": "After Puteoli the party approaches Rome overland, meeting believers at Appii Forum and Three Taverns.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 28,
+            "label": "Acts 28:11–15",
+            "verseStart": 11,
+            "verseEnd": 15
+          }
+        ],
+        "placeId": "puteoli",
+        "journeyId": "journey-voyage-to-rome",
+        "contextYear": 61,
+        "camera": {
+          "center": [
+            14.12,
+            40.823
+          ],
+          "zoom": 5,
+          "pitch": 15
+        }
+      },
+      {
+        "id": "vr6",
+        "title": "Rome",
+        "eyebrow": "Acts 28",
+        "description": "Acts ends with Paul in Rome under house arrest; it does not narrate his death or identify his rented address.",
+        "scripture": [
+          {
+            "book": "Acts",
+            "chapter": 28,
+            "label": "Acts 28:16–31",
+            "verseStart": 16,
+            "verseEnd": 31
+          }
+        ],
+        "placeId": "rome",
+        "journeyId": "journey-voyage-to-rome",
+        "contextYear": 61,
+        "camera": {
+          "center": [
+            12.486,
+            41.893
+          ],
+          "zoom": 7,
+          "pitch": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-pauline-network",
+    "title": "Paul’s Letters on the Map",
+    "subtitle": "Recipient geography from Rome to the Aegean and the Lycus Valley, without pretending every composition date/site is settled.",
+    "personId": "paul",
+    "theme": "Paul",
+    "chapters": [
+      {
+        "id": "pl1",
+        "title": "Rome",
+        "eyebrow": "Romans",
+        "description": "Romans addresses believers in Rome; this map point is the recipient city, not a claim that the letter was composed there.",
+        "scripture": [
+          {
+            "book": "Romans",
+            "chapter": 1,
+            "label": "Romans 1:7",
+            "verseStart": 7
+          }
+        ],
+        "placeId": "rome",
+        "contextYear": 57,
+        "camera": {
+          "center": [
+            12.486,
+            41.893
+          ],
+          "zoom": 5,
+          "pitch": 10
+        }
+      },
+      {
+        "id": "pl2",
+        "title": "Corinth",
+        "eyebrow": "Corinthian correspondence",
+        "description": "Corinth is secure as the recipient city for 1–2 Corinthians and a major Acts location.",
+        "scripture": [
+          {
+            "book": "1 Corinthians",
+            "chapter": 1,
+            "label": "1 Corinthians 1:2",
+            "verseStart": 2
+          },
+          {
+            "book": "2 Corinthians",
+            "chapter": 1,
+            "label": "2 Corinthians 1:1",
+            "verseStart": 1
+          }
+        ],
+        "placeId": "corinth",
+        "contextYear": 55,
+        "camera": {
+          "center": [
+            22.879,
+            37.906
+          ],
+          "zoom": 5,
+          "pitch": 10
+        }
+      },
+      {
+        "id": "pl3",
+        "title": "Galatia",
+        "eyebrow": "Galatians",
+        "description": "The North/South Galatia question is preserved rather than solved by a single polygon.",
+        "scripture": [
+          {
+            "book": "Galatians",
+            "chapter": 1,
+            "label": "Galatians 1:2",
+            "verseStart": 2
+          }
+        ],
+        "placeId": "galatia-region-paul",
+        "contextYear": 52,
+        "camera": {
+          "center": [
+            32.3,
+            39.0
+          ],
+          "zoom": 5,
+          "pitch": 10
+        }
+      },
+      {
+        "id": "pl4",
+        "title": "Philippi and Thessalonica",
+        "eyebrow": "Macedonian letters",
+        "description": "Philippi and Thessalonica are secure recipient cities and Acts anchors.",
+        "scripture": [
+          {
+            "book": "Philippians",
+            "chapter": 1,
+            "label": "Philippians 1:1",
+            "verseStart": 1
+          },
+          {
+            "book": "1 Thessalonians",
+            "chapter": 1,
+            "label": "1 Thessalonians 1:1",
+            "verseStart": 1
+          }
+        ],
+        "placeId": "philippi",
+        "contextYear": 55,
+        "camera": {
+          "center": [
+            24.286,
+            41.013
+          ],
+          "zoom": 5,
+          "pitch": 10
+        }
+      },
+      {
+        "id": "pl5",
+        "title": "The Lycus Valley",
+        "eyebrow": "Colossians / Philemon context",
+        "description": "Colossae, Laodicea, and Hierapolis form a real geographic network; Acts does not narrate Paul visiting Colossae.",
+        "scripture": [
+          {
+            "book": "Colossians",
+            "chapter": 4,
+            "label": "Colossians 4:13–16",
+            "verseStart": 13,
+            "verseEnd": 16
+          },
+          {
+            "book": "Philemon",
+            "chapter": 1,
+            "label": "Philemon 1:1–2",
+            "verseStart": 1,
+            "verseEnd": 2
+          }
+        ],
+        "placeId": "colossae",
+        "contextYear": 60,
+        "camera": {
+          "center": [
+            29.26,
+            37.79
+          ],
+          "zoom": 6,
+          "pitch": 15
+        }
+      }
+    ]
+  }
+]

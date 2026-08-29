@@ -1,0 +1,461 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "macedonian-imperial-sphere-b7",
+        "name": "Macedonian conquest sphere (atlas west/central view)",
+        "validFrom": -334,
+        "validTo": -323,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch7-methodology"
+        ],
+        "note": "Broad generalized orientation for Alexander’s empire within the atlas extent; the empire expanded year by year and this is not a single exact 334–323 BCE border.",
+        "family": "macedonian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20,
+              27
+            ],
+            [
+              20,
+              42
+            ],
+            [
+              35,
+              43
+            ],
+            [
+              50,
+              38
+            ],
+            [
+              50,
+              23
+            ],
+            [
+              34,
+              21
+            ],
+            [
+              20,
+              27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ptolemaic-coelesyria-b7",
+        "name": "Ptolemaic Egypt and southern-Levant sphere",
+        "validFrom": -301,
+        "validTo": -200,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch7-methodology"
+        ],
+        "note": "Generalized Ptolemaic sphere for context. Coele-Syria changed hands during the Syrian Wars, so the polygon is not valid as an exact border for every year.",
+        "family": "ptolemaic"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28,
+              22
+            ],
+            [
+              32,
+              22
+            ],
+            [
+              34.2,
+              29
+            ],
+            [
+              35.5,
+              33.4
+            ],
+            [
+              34.6,
+              34.0
+            ],
+            [
+              32,
+              31
+            ],
+            [
+              28,
+              31
+            ],
+            [
+              28,
+              22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seleucid-coelesyria-b7",
+        "name": "Seleucid Coele-Syria / Judea sphere",
+        "validFrom": -200,
+        "validTo": -142,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch7-methodology"
+        ],
+        "note": "Broad generalized western Seleucid control after Panium; local autonomy, warfare, and dynastic crises make year-exact borders inappropriate.",
+        "family": "seleucid"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.3,
+              29.5
+            ],
+            [
+              36.8,
+              29.5
+            ],
+            [
+              38.0,
+              36.5
+            ],
+            [
+              35.5,
+              38.0
+            ],
+            [
+              34.0,
+              33.0
+            ],
+            [
+              34.3,
+              29.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "early-hasmonean-b7",
+        "name": "Early Hasmonean Judean state",
+        "validFrom": -142,
+        "validTo": -104,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch7-methodology"
+        ],
+        "note": "Generalized orientation only; early Hasmonean territorial control expanded unevenly and this polygon is not a surveyed frontier.",
+        "family": "hasmonean"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.75,
+              31.2
+            ],
+            [
+              35.55,
+              31.2
+            ],
+            [
+              35.55,
+              32.1
+            ],
+            [
+              34.8,
+              32.0
+            ],
+            [
+              34.75,
+              31.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "expanded-hasmonean-b7",
+        "name": "Expanded Hasmonean kingdom (broad late snapshot)",
+        "validFrom": -103,
+        "validTo": -63,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch7-methodology"
+        ],
+        "note": "Very broad late-Hasmonean orientation. Borders changed repeatedly under John Hyrcanus, Aristobulus I and Alexander Jannaeus; no single polygon represents the whole period.",
+        "family": "hasmonean"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.45,
+              30.8
+            ],
+            [
+              35.9,
+              30.8
+            ],
+            [
+              36.0,
+              33.2
+            ],
+            [
+              35.0,
+              33.4
+            ],
+            [
+              34.4,
+              32.2
+            ],
+            [
+              34.45,
+              30.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "idumea-b7",
+        "name": "Hellenistic Idumea",
+        "validFrom": -300,
+        "validTo": -125,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch7-methodology"
+        ],
+        "note": "Generalized regional orientation for Hellenistic Idumea; settlement identities and political control were more complex than a modern bordered province.",
+        "family": "idumean"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.65,
+              30.7
+            ],
+            [
+              35.5,
+              30.7
+            ],
+            [
+              35.45,
+              31.7
+            ],
+            [
+              34.7,
+              31.7
+            ],
+            [
+              34.65,
+              30.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nabataean-b7",
+        "name": "Nabataean kingdom / trade sphere (broad)",
+        "validFrom": -168,
+        "validTo": 1,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch7-methodology"
+        ],
+        "note": "Broad generalized Nabataean orientation for the atlas period; the kingdom’s extent and control of caravan corridors changed through time and is not a fixed surveyed border.",
+        "family": "nabataean"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.2,
+              27.5
+            ],
+            [
+              38.5,
+              27.5
+            ],
+            [
+              38.5,
+              33.0
+            ],
+            [
+              36.0,
+              32.5
+            ],
+            [
+              34.5,
+              30.5
+            ],
+            [
+              34.2,
+              27.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "roman-syria-b7",
+        "name": "Roman Syria and eastern command sphere",
+        "validFrom": -64,
+        "validTo": 1,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch7-methodology"
+        ],
+        "note": "Generalized Roman provincial/command orientation after Pompey; provincial boundaries and dependent territories changed and are not represented here at cadastral precision.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.7,
+              32.5
+            ],
+            [
+              39.0,
+              32.0
+            ],
+            [
+              39.5,
+              37.5
+            ],
+            [
+              35.0,
+              37.5
+            ],
+            [
+              34.7,
+              32.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "roman-judea-transition-b7",
+        "name": "Roman-dominated Judea (pre-Herodian transition)",
+        "validFrom": -63,
+        "validTo": -40,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch7-methodology"
+        ],
+        "note": "Generalized political orientation after Pompey. Judea retained local institutions and client leadership; this is not a claim of direct provincial administration identical to later Judaea.",
+        "family": "roman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.7,
+              31.0
+            ],
+            [
+              35.7,
+              31.0
+            ],
+            [
+              35.7,
+              32.6
+            ],
+            [
+              34.65,
+              32.4
+            ],
+            [
+              34.7,
+              31.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "herodian-kingdom-b7",
+        "name": "Kingdom of Herod the Great (broad orientation)",
+        "validFrom": -37,
+        "validTo": -4,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-batch7-methodology"
+        ],
+        "note": "Broad generalized orientation for Herod’s kingdom; territory changed through grants and settlements, so the polygon is a contextual lens rather than a year-exact border.",
+        "family": "herodian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.4,
+              30.6
+            ],
+            [
+              36.2,
+              30.6
+            ],
+            [
+              36.3,
+              33.4
+            ],
+            [
+              35.0,
+              33.5
+            ],
+            [
+              34.4,
+              32.0
+            ],
+            [
+              34.4,
+              30.6
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

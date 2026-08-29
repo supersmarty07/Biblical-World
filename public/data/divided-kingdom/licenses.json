@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 5,
+  "records": [
+    {
+      "id": "project-batch5",
+      "scope": "Original Batch 5 curation, summaries, dating metadata, route reconstructions, and generalized context polygons",
+      "license": "CC BY 4.0 recommended for original project data",
+      "attributionRequired": true,
+      "notes": "No proprietary atlas geometry is copied. Scholarly publications and inscriptions are cited as sources, not redistributed source content."
+    },
+    {
+      "id": "bsb-reference-batch5",
+      "scope": "Scripture reference labels and narrative-sequence metadata",
+      "license": "BSB public-domain/CC0 status per user-supplied 2026 research",
+      "attributionRequired": false,
+      "notes": "This pack stores references and original summaries rather than full Bible text. Recheck the official BSB declaration before bundling a complete text release."
+    }
+  ]
+}

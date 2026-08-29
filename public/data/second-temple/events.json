@@ -1,0 +1,1050 @@
+[
+  {
+    "id": "event-alexander-levant-332",
+    "title": "Alexander conquers the Levantine coast",
+    "summary": "Alexander’s campaign moved through the eastern Mediterranean coast in 332 BCE, including the sieges of Tyre and Gaza before Egypt.",
+    "confidence": "high",
+    "placeIds": [
+      "tyre",
+      "gaza"
+    ],
+    "personIds": [
+      "alexander-iii"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-arrian-alexander",
+      "source-diodorus-library"
+    ],
+    "historicalNote": "The campaign sequence is well attested in ancient histories. The atlas does not infer an otherwise unattested visit to Jerusalem as a securely historical event.",
+    "dating": {
+      "label": "332 BCE",
+      "basis": "historical",
+      "from": -332,
+      "to": -332
+    }
+  },
+  {
+    "id": "event-alexander-egypt-331",
+    "title": "Alexander founds Alexandria",
+    "summary": "Alexander entered Egypt in 332 BCE and founded Alexandria in 331 BCE in conventional chronology.",
+    "confidence": "high",
+    "placeIds": [
+      "alexandria-egypt",
+      "memphis-egypt"
+    ],
+    "personIds": [
+      "alexander-iii"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-arrian-alexander",
+      "source-strabo-geography"
+    ],
+    "historicalNote": "The foundation is historical; the later city developed substantially under the Ptolemies.",
+    "dating": {
+      "label": "331 BCE (conventional foundation date)",
+      "basis": "historical",
+      "from": -331,
+      "to": -331
+    }
+  },
+  {
+    "id": "event-ptolemaic-judea",
+    "title": "Judea in the Ptolemaic sphere",
+    "summary": "After the Successor struggles, Judea formed part of the Ptolemaic-controlled southern Levant for much of the third century BCE.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "alexandria-egypt"
+    ],
+    "personIds": [
+      "ptolemy-i",
+      "ptolemy-ii"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-zenon-archive",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "Control shifted during the Successor wars. The atlas uses a generalized 301–200 BCE context lens rather than pretending every locality had an unchanged administrative status.",
+    "dating": {
+      "label": "Third century BCE; broadly 301–200 BCE for sustained Ptolemaic control",
+      "basis": "historical",
+      "from": -301,
+      "to": -200
+    }
+  },
+  {
+    "id": "event-septuagint-alexandria",
+    "title": "Greek Torah / Septuagint translation context",
+    "summary": "The Greek translation of the Torah emerged in Hellenistic Egypt, conventionally associated with Alexandria in the third century BCE.",
+    "confidence": "moderate",
+    "placeIds": [
+      "alexandria-egypt"
+    ],
+    "personIds": [
+      "ptolemy-ii"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-hengel-judaism-hellenism",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "The translation itself is historical, but the famous seventy-two-translators court story is a later idealized tradition and should not be mapped as a literal one-day event.",
+    "dating": {
+      "label": "Third century BCE; exact stages debated",
+      "basis": "approximate",
+      "from": -280,
+      "to": -200
+    }
+  },
+  {
+    "id": "event-panium-200",
+    "title": "Battle of Panium and Seleucid takeover",
+    "summary": "Antiochus III defeated Ptolemaic forces near Panium around 200 BCE, shifting Coele-Syria and Judea into the Seleucid sphere.",
+    "confidence": "high",
+    "placeIds": [
+      "panium",
+      "jerusalem"
+    ],
+    "personIds": [
+      "antiochus-iii"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-polybius-histories",
+      "source-josephus-ant12"
+    ],
+    "historicalNote": "The battle is historical; Judea’s administrative transition is modeled as a regional process rather than an instantaneous modern border switch.",
+    "dating": {
+      "label": "200 BCE (commonly dated)",
+      "basis": "historical",
+      "from": -200,
+      "to": -200
+    }
+  },
+  {
+    "id": "event-heliodorus-administration",
+    "title": "Seleucid temple-administration context under Seleucus IV",
+    "summary": "Inscriptional evidence from the reign of Seleucus IV illuminates royal administrative involvement in temple finances across Coele-Syria/Phoenicia.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem"
+    ],
+    "personIds": [
+      "seleucus-iv"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-heliodorus-stele",
+      "source-2-maccabees"
+    ],
+    "historicalNote": "The inscriptional evidence is independent context. It is not treated as direct proof of the miraculous confrontation narrated in 2 Maccabees 3.",
+    "dating": {
+      "label": "c. 178 BCE administrative context",
+      "basis": "approximate",
+      "from": -180,
+      "to": -175
+    },
+    "textualReferences": [
+      {
+        "label": "2 Maccabees 3",
+        "sourceId": "source-2-maccabees",
+        "kind": "deuterocanonical"
+      },
+      {
+        "label": "Heliodorus/Seleucus IV stele",
+        "sourceId": "source-heliodorus-stele",
+        "kind": "inscription"
+      }
+    ]
+  },
+  {
+    "id": "event-antiochus-jerusalem-crisis",
+    "title": "Antiochus IV and the Jerusalem crisis",
+    "summary": "Ancient Jewish sources describe severe intervention in Jerusalem, plundering, cultic disruption and decrees restricting traditional practices under Antiochus IV.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "temple-mount",
+      "jerusalem-acra"
+    ],
+    "personIds": [
+      "antiochus-iv",
+      "onias-iii",
+      "jason-high-priest",
+      "menelaus-high-priest"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-2-maccabees",
+      "source-josephus-ant12"
+    ],
+    "historicalNote": "The broad crisis is historically central, but 1 and 2 Maccabees differ in emphasis and sequence. The Acra’s exact footprint remains disputed.",
+    "dating": {
+      "label": "169–167 BCE crisis sequence",
+      "basis": "historical",
+      "from": -169,
+      "to": -167
+    },
+    "textualReferences": [
+      {
+        "label": "1 Maccabees 1:20–64",
+        "sourceId": "source-1-maccabees",
+        "kind": "deuterocanonical"
+      },
+      {
+        "label": "2 Maccabees 4–6",
+        "sourceId": "source-2-maccabees",
+        "kind": "deuterocanonical"
+      }
+    ]
+  },
+  {
+    "id": "event-maccabean-revolt-begins",
+    "title": "Maccabean revolt begins at Modein",
+    "summary": "1 Maccabees locates the outbreak of armed resistance at Modein under Mattathias, conventionally around 167 BCE.",
+    "confidence": "moderate",
+    "placeIds": [
+      "modein"
+    ],
+    "personIds": [
+      "mattathias",
+      "judas-maccabeus",
+      "jonathan-apphus",
+      "simon-thassi"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ],
+    "historicalNote": "The revolt is historical, but Modein’s exact archaeological identification remains debated, so the event has no fake precise origin pin.",
+    "dating": {
+      "label": "167 BCE (conventional chronology)",
+      "basis": "conventional",
+      "from": -167,
+      "to": -167
+    },
+    "textualReferences": [
+      {
+        "label": "1 Maccabees 2:15–28",
+        "sourceId": "source-1-maccabees",
+        "kind": "deuterocanonical"
+      }
+    ]
+  },
+  {
+    "id": "event-emmaus-165",
+    "title": "Battle of Emmaus",
+    "summary": "Judas Maccabeus defeated a Seleucid force in the Emmaus region, conventionally dated to 165 BCE.",
+    "confidence": "moderate",
+    "placeIds": [
+      "emmaus-nicopolis"
+    ],
+    "personIds": [
+      "judas-maccabeus"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ],
+    "historicalNote": "The settlement identification is strong; troop movements and battlefield extent are reconstructed from the literary narrative rather than excavated lines.",
+    "dating": {
+      "label": "165 BCE (conventional chronology)",
+      "basis": "conventional",
+      "from": -165,
+      "to": -165
+    },
+    "textualReferences": [
+      {
+        "label": "1 Maccabees 3:38–4:25",
+        "sourceId": "source-1-maccabees",
+        "kind": "deuterocanonical"
+      }
+    ]
+  },
+  {
+    "id": "event-temple-rededication-164",
+    "title": "Rededication of the Jerusalem temple",
+    "summary": "Judas and his supporters rededicated the temple after recapturing Jerusalem, remembered in the festival of Hanukkah.",
+    "confidence": "high",
+    "placeIds": [
+      "temple-mount",
+      "jerusalem"
+    ],
+    "personIds": [
+      "judas-maccabeus"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-2-maccabees",
+      "source-josephus-ant12"
+    ],
+    "historicalNote": "The event is strongly attested in ancient Jewish literary sources. No exact excavated altar surface is identified as the rededication point.",
+    "dating": {
+      "label": "164 BCE",
+      "basis": "historical",
+      "from": -164,
+      "to": -164
+    },
+    "textualReferences": [
+      {
+        "label": "1 Maccabees 4:36–59",
+        "sourceId": "source-1-maccabees",
+        "kind": "deuterocanonical"
+      },
+      {
+        "label": "2 Maccabees 10:1–8",
+        "sourceId": "source-2-maccabees",
+        "kind": "deuterocanonical"
+      }
+    ]
+  },
+  {
+    "id": "event-beth-zechariah-162",
+    "title": "Battle of Beth-zechariah",
+    "summary": "A Seleucid army under Antiochus V’s government defeated Judas’s forces near Beth-zechariah; 1 Maccabees famously associates the battle with war elephants.",
+    "confidence": "moderate",
+    "placeIds": [
+      "beth-zechariah",
+      "beth-zur-hellenistic"
+    ],
+    "personIds": [
+      "judas-maccabeus"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ],
+    "historicalNote": "The battle is literary-historically attested; the modern site anchor is only a candidate-area location.",
+    "dating": {
+      "label": "162 BCE (conventional chronology)",
+      "basis": "conventional",
+      "from": -162,
+      "to": -162
+    },
+    "textualReferences": [
+      {
+        "label": "1 Maccabees 6:28–47",
+        "sourceId": "source-1-maccabees",
+        "kind": "deuterocanonical"
+      }
+    ]
+  },
+  {
+    "id": "event-nicanor-adasa-161",
+    "title": "Defeat of Nicanor near Adasa",
+    "summary": "Judas Maccabeus defeated Nicanor in a battle near Adasa, conventionally dated to 161 BCE.",
+    "confidence": "moderate",
+    "placeIds": [
+      "adasa"
+    ],
+    "personIds": [
+      "judas-maccabeus",
+      "nicanor-seleucid"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ],
+    "historicalNote": "Adasa remains unpinned because no modern identification is secure enough for normal map precision.",
+    "dating": {
+      "label": "161 BCE",
+      "basis": "historical",
+      "from": -161,
+      "to": -161
+    },
+    "textualReferences": [
+      {
+        "label": "1 Maccabees 7:39–50",
+        "sourceId": "source-1-maccabees",
+        "kind": "deuterocanonical"
+      },
+      {
+        "label": "2 Maccabees 15",
+        "sourceId": "source-2-maccabees",
+        "kind": "deuterocanonical"
+      }
+    ]
+  },
+  {
+    "id": "event-judas-elasa-160",
+    "title": "Death of Judas at Elasa",
+    "summary": "Judas Maccabeus was killed fighting Bacchides at Elasa.",
+    "confidence": "moderate",
+    "placeIds": [
+      "elasa"
+    ],
+    "personIds": [
+      "judas-maccabeus",
+      "bacchides"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ],
+    "historicalNote": "The historical sequence is accepted from ancient literary evidence, while Elasa’s exact location is unresolved.",
+    "dating": {
+      "label": "160 BCE",
+      "basis": "historical",
+      "from": -160,
+      "to": -160
+    },
+    "textualReferences": [
+      {
+        "label": "1 Maccabees 9:1–22",
+        "sourceId": "source-1-maccabees",
+        "kind": "deuterocanonical"
+      }
+    ]
+  },
+  {
+    "id": "event-jonathan-high-priest-152",
+    "title": "Jonathan becomes high priest",
+    "summary": "Jonathan Apphus received the high priesthood amid Seleucid dynastic competition.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "ptolemais-akko"
+    ],
+    "personIds": [
+      "jonathan-apphus"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant13"
+    ],
+    "historicalNote": "The episode illustrates how local Judean leadership became entangled with Seleucid rival claimants.",
+    "dating": {
+      "label": "152 BCE",
+      "basis": "historical",
+      "from": -152,
+      "to": -152
+    },
+    "textualReferences": [
+      {
+        "label": "1 Maccabees 10:15–21",
+        "sourceId": "source-1-maccabees",
+        "kind": "deuterocanonical"
+      }
+    ]
+  },
+  {
+    "id": "event-simon-independence-142",
+    "title": "Simon and effective Judean independence",
+    "summary": "Under Simon, tribute obligations were remitted and Judean rule became effectively independent from Seleucid control; the Acra garrison was removed shortly afterward.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "jerusalem-acra",
+      "joppa"
+    ],
+    "personIds": [
+      "simon-thassi"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant13"
+    ],
+    "historicalNote": "Ancient chronology distinguishes political concessions from the later evacuation of the Acra; the atlas avoids collapsing all milestones into one day.",
+    "dating": {
+      "label": "142–141 BCE transition",
+      "basis": "historical",
+      "from": -142,
+      "to": -141
+    },
+    "textualReferences": [
+      {
+        "label": "1 Maccabees 13:41–52",
+        "sourceId": "source-1-maccabees",
+        "kind": "deuterocanonical"
+      }
+    ]
+  },
+  {
+    "id": "event-idumea-incorporation",
+    "title": "Hasmonean incorporation of Idumea",
+    "summary": "Josephus associates John Hyrcanus with the conquest/incorporation of Idumean centers including Adora and Marisa and with compulsory adoption of Judean customs.",
+    "confidence": "moderate",
+    "placeIds": [
+      "idumea-hellenistic",
+      "adora",
+      "maresa"
+    ],
+    "personIds": [
+      "john-hyrcanus-i"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant13",
+      "source-kloner-maresha"
+    ],
+    "historicalNote": "The political incorporation is historical, but Josephus’s description of identity/circumcision policy is a later literary account and should not be turned into a simplistic ethnic map.",
+    "dating": {
+      "label": "c. 125 BCE, approximate",
+      "basis": "approximate",
+      "from": -130,
+      "to": -120
+    }
+  },
+  {
+    "id": "event-gerizim-destruction",
+    "title": "Destruction of the Mount Gerizim sanctuary under John Hyrcanus",
+    "summary": "Josephus credits John Hyrcanus with destroying the Samaritan sanctuary on Mount Gerizim; archaeology documents a major Hellenistic sanctuary and destruction/transition.",
+    "confidence": "moderate",
+    "placeIds": [
+      "mount-gerizim-sanctuary",
+      "samaria"
+    ],
+    "personIds": [
+      "john-hyrcanus-i"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant13",
+      "source-magen-gerizim"
+    ],
+    "historicalNote": "The correlation between archaeological destruction and Josephus’s Hasmonean chronology is strong but interpretive rather than an inscribed “John Hyrcanus destroyed this” label.",
+    "dating": {
+      "label": "c. 111/110 BCE, conventional reconstruction",
+      "basis": "approximate",
+      "from": -112,
+      "to": -108
+    }
+  },
+  {
+    "id": "event-aristobulus-kingship",
+    "title": "Hasmonean kingship under Aristobulus I",
+    "summary": "Aristobulus I is commonly treated as the first Hasmonean ruler to assume the royal title after generations of priestly leadership.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem"
+    ],
+    "personIds": [
+      "aristobulus-i"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant13",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "Josephus is the principal narrative source; titulature and chronology are reconstructed from literary and numismatic evidence.",
+    "dating": {
+      "label": "104/103 BCE",
+      "basis": "conventional",
+      "from": -104,
+      "to": -103
+    }
+  },
+  {
+    "id": "event-jannaeus-expansion",
+    "title": "Alexander Jannaeus expands the Hasmonean kingdom",
+    "summary": "Alexander Jannaeus pursued extensive campaigns along the coast and in Transjordan while ruling as king and high priest.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "gaza",
+      "ptolemais-akko",
+      "joppa"
+    ],
+    "personIds": [
+      "alexander-jannaeus"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant13",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "Territorial extent changed repeatedly during his reign; context polygons are broad snapshots, not one permanent border.",
+    "dating": {
+      "label": "103–76 BCE",
+      "basis": "historical",
+      "from": -103,
+      "to": -76
+    }
+  },
+  {
+    "id": "event-salome-alexandra-reign",
+    "title": "Reign of Salome Alexandra",
+    "summary": "Salome Alexandra ruled the Hasmonean kingdom after Alexander Jannaeus and before the civil war between Hyrcanus II and Aristobulus II.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem"
+    ],
+    "personIds": [
+      "salome-alexandra",
+      "hyrcanus-ii",
+      "aristobulus-ii"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant13",
+      "source-schurer-second-temple"
+    ],
+    "dating": {
+      "label": "76–67 BCE (conventional chronology)",
+      "basis": "conventional",
+      "from": -76,
+      "to": -67
+    }
+  },
+  {
+    "id": "event-hasmonean-civil-war",
+    "title": "Hasmonean civil war",
+    "summary": "Hyrcanus II and Aristobulus II contested the throne, drawing in Nabataean and then Roman power.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "damascus"
+    ],
+    "personIds": [
+      "hyrcanus-ii",
+      "aristobulus-ii",
+      "antipater-idumaean",
+      "pompey"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant14",
+      "source-josephus-war1"
+    ],
+    "historicalNote": "This conflict is the immediate political context for Pompey’s intervention; campaign lines are reconstructed from narrative sequence.",
+    "dating": {
+      "label": "67–63 BCE",
+      "basis": "historical",
+      "from": -67,
+      "to": -63
+    }
+  },
+  {
+    "id": "event-pompey-jerusalem-63",
+    "title": "Pompey captures Jerusalem",
+    "summary": "Pompey intervened in the Hasmonean conflict and captured Jerusalem after a siege in 63 BCE, ending independent Hasmonean kingship.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "temple-mount"
+    ],
+    "personIds": [
+      "pompey",
+      "hyrcanus-ii",
+      "aristobulus-ii"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant14",
+      "source-josephus-war1",
+      "source-plutarch-pompey-antony"
+    ],
+    "historicalNote": "The capture is well anchored historically. Detailed siege topography is described by later sources and should not be overdrawn as a centimeter-accurate battle map.",
+    "dating": {
+      "label": "63 BCE",
+      "basis": "historical",
+      "from": -63,
+      "to": -63
+    },
+    "textualReferences": [
+      {
+        "label": "Josephus, Antiquities 14",
+        "sourceId": "source-josephus-ant14",
+        "kind": "ancient-literary"
+      },
+      {
+        "label": "Josephus, Jewish War 1",
+        "sourceId": "source-josephus-war1",
+        "kind": "ancient-literary"
+      }
+    ]
+  },
+  {
+    "id": "event-roman-syria-64",
+    "title": "Roman provincial reorganization in Syria",
+    "summary": "Pompey reorganized former Seleucid territories into Roman Syria, fundamentally changing the political environment around Judea.",
+    "confidence": "high",
+    "placeIds": [
+      "antioch-orontes",
+      "damascus"
+    ],
+    "personIds": [
+      "pompey"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-schurer-second-temple",
+      "source-plutarch-pompey-antony"
+    ],
+    "dating": {
+      "label": "64/63 BCE transition",
+      "basis": "historical",
+      "from": -64,
+      "to": -63
+    }
+  },
+  {
+    "id": "event-caesar-antipater-47",
+    "title": "Caesar, Hyrcanus II, and Antipater",
+    "summary": "After the Alexandrian War, Julius Caesar confirmed arrangements that strengthened Hyrcanus II and Antipater within the Roman political order.",
+    "confidence": "high",
+    "placeIds": [
+      "alexandria-egypt",
+      "jerusalem",
+      "rome"
+    ],
+    "personIds": [
+      "julius-caesar",
+      "hyrcanus-ii",
+      "antipater-idumaean"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant14"
+    ],
+    "historicalNote": "Josephus preserves decrees and narrative traditions; modern scholarship debates the textual transmission of some documentary material.",
+    "dating": {
+      "label": "47 BCE context",
+      "basis": "historical",
+      "from": -47,
+      "to": -47
+    }
+  },
+  {
+    "id": "event-parthian-antigonus-40",
+    "title": "Parthian intervention and Antigonus II",
+    "summary": "Parthian intervention in 40 BCE enabled Antigonus II Mattathias to seize power in Judea while Herod fled and sought Roman support.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem",
+      "rome"
+    ],
+    "personIds": [
+      "antigonus-ii",
+      "herod-great",
+      "hyrcanus-ii"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant14",
+      "source-josephus-war1"
+    ],
+    "dating": {
+      "label": "40 BCE",
+      "basis": "historical",
+      "from": -40,
+      "to": -40
+    }
+  },
+  {
+    "id": "event-herod-appointed-40",
+    "title": "Rome appoints Herod king",
+    "summary": "The Roman Senate recognized Herod as king in 40 BCE, although he still had to conquer the kingdom militarily.",
+    "confidence": "high",
+    "placeIds": [
+      "rome"
+    ],
+    "personIds": [
+      "herod-great",
+      "mark-antony",
+      "augustus"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-war1",
+      "source-richardson-herod"
+    ],
+    "historicalNote": "Roman appointment and effective possession are separated: Herod did not control Jerusalem until 37 BCE.",
+    "dating": {
+      "label": "40 BCE",
+      "basis": "historical",
+      "from": -40,
+      "to": -40
+    }
+  },
+  {
+    "id": "event-herod-captures-jerusalem-37",
+    "title": "Herod captures Jerusalem",
+    "summary": "With Roman support, Herod captured Jerusalem in 37 BCE and Antigonus II was removed, beginning effective Herodian rule.",
+    "confidence": "high",
+    "placeIds": [
+      "jerusalem"
+    ],
+    "personIds": [
+      "herod-great",
+      "antigonus-ii",
+      "mark-antony"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant14",
+      "source-josephus-war1",
+      "source-richardson-herod"
+    ],
+    "dating": {
+      "label": "37 BCE",
+      "basis": "historical",
+      "from": -37,
+      "to": -37
+    },
+    "textualReferences": [
+      {
+        "label": "Josephus, Antiquities 14",
+        "sourceId": "source-josephus-ant14",
+        "kind": "ancient-literary"
+      },
+      {
+        "label": "Josephus, Jewish War 1",
+        "sourceId": "source-josephus-war1",
+        "kind": "ancient-literary"
+      }
+    ]
+  },
+  {
+    "id": "event-actium-31",
+    "title": "Battle of Actium",
+    "summary": "Octavian defeated Antony and Cleopatra at Actium, transforming the eastern Mediterranean patronage system on which Herod had depended.",
+    "confidence": "high",
+    "placeIds": [
+      "actium",
+      "alexandria-egypt"
+    ],
+    "personIds": [
+      "augustus",
+      "mark-antony",
+      "cleopatra-vii",
+      "herod-great"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-plutarch-pompey-antony",
+      "source-roller-cleopatra"
+    ],
+    "historicalNote": "Actium is external Roman history but crucial for understanding Herod’s political realignment.",
+    "dating": {
+      "label": "31 BCE",
+      "basis": "historical",
+      "from": -31,
+      "to": -31
+    }
+  },
+  {
+    "id": "event-herod-octavian-rhodes",
+    "title": "Herod meets Octavian after Actium",
+    "summary": "Josephus describes Herod meeting Octavian on Rhodes and successfully retaining his kingship after Antony’s defeat.",
+    "confidence": "moderate",
+    "placeIds": [
+      "rhodes"
+    ],
+    "personIds": [
+      "herod-great",
+      "augustus"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-war1",
+      "source-richardson-herod"
+    ],
+    "historicalNote": "The meeting is known from Josephus; its exact venue and speech details are not independently recoverable.",
+    "dating": {
+      "label": "30 BCE, conventional chronology",
+      "basis": "conventional",
+      "from": -30,
+      "to": -30
+    },
+    "textualReferences": [
+      {
+        "label": "Josephus, Jewish War 1",
+        "sourceId": "source-josephus-war1",
+        "kind": "ancient-literary"
+      }
+    ]
+  },
+  {
+    "id": "event-herodian-temple-expansion",
+    "title": "Herod begins major Temple Mount expansion",
+    "summary": "Herod launched a major rebuilding and enlargement of the Jerusalem temple complex, conventionally dated to 20/19 BCE.",
+    "confidence": "high",
+    "placeIds": [
+      "temple-mount",
+      "jerusalem"
+    ],
+    "personIds": [
+      "herod-great"
+    ],
+    "scripture": [
+      {
+        "book": "John",
+        "chapter": 2,
+        "label": "John 2:20",
+        "verseStart": 20,
+        "verseEnd": 20
+      }
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-war1",
+      "source-netzer-herod",
+      "source-richardson-herod"
+    ],
+    "historicalNote": "The Herodian expansion is archaeologically visible in the platform and retaining walls, but reconstructions of the sanctuary superstructure remain interpretive.",
+    "dating": {
+      "label": "20/19 BCE commencement, conventional chronology",
+      "basis": "conventional",
+      "from": -20,
+      "to": -19
+    }
+  },
+  {
+    "id": "event-caesarea-dedication",
+    "title": "Herod’s Caesarea and harbor mature",
+    "summary": "Herod’s Caesarea Maritima and its artificial harbor became a major royal and Roman-oriented city on the coast.",
+    "confidence": "high",
+    "placeIds": [
+      "caesarea-maritima"
+    ],
+    "personIds": [
+      "herod-great",
+      "augustus"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-war1",
+      "source-netzer-herod",
+      "source-richardson-herod"
+    ],
+    "historicalNote": "Ancient sources and archaeology agree on the monumental program; exact dedication chronology is expressed as a range.",
+    "dating": {
+      "label": "c. 10–9 BCE dedication/completion phase",
+      "basis": "approximate",
+      "from": -10,
+      "to": -9
+    }
+  },
+  {
+    "id": "event-qumran-second-temple",
+    "title": "Qumran settlement and manuscript-cave context",
+    "summary": "Khirbet Qumran flourished in the late Second Temple period near caves containing a diverse manuscript corpus now known as the Dead Sea Scrolls.",
+    "confidence": "high",
+    "placeIds": [
+      "qumran"
+    ],
+    "personIds": [],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-magness-qumran",
+      "source-vanderkam-scrolls"
+    ],
+    "historicalNote": "The site, caves and manuscripts are archaeological facts; identifying every manuscript with the settlement’s residents or naming the community with certainty goes beyond the evidence.",
+    "dating": {
+      "label": "Late second/first centuries BCE into the first century CE; phases debated",
+      "basis": "approximate",
+      "from": -130,
+      "to": 1
+    }
+  },
+  {
+    "id": "event-leontopolis-temple",
+    "title": "Jewish temple at Leontopolis in Egypt",
+    "summary": "Josephus describes a Jewish temple in Egypt associated with Onias, providing an important example of Second Temple-period Jewish diversity outside Jerusalem.",
+    "confidence": "moderate",
+    "placeIds": [
+      "leontopolis-jewish-temple",
+      "alexandria-egypt"
+    ],
+    "personIds": [
+      "onias-iv"
+    ],
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant13",
+      "source-schurer-second-temple"
+    ],
+    "historicalNote": "Josephus’s Onias identifications and chronology are debated. The atlas therefore maps a candidate region rather than a recovered temple footprint.",
+    "dating": {
+      "label": "Second century BCE; foundation chronology debated",
+      "basis": "approximate",
+      "from": -170,
+      "to": -140
+    },
+    "textualReferences": [
+      {
+        "label": "Josephus, Antiquities 13",
+        "sourceId": "source-josephus-ant13",
+        "kind": "ancient-literary"
+      }
+    ]
+  }
+]

@@ -1,0 +1,499 @@
+[
+  {
+    "id": "journey-alexander-levant",
+    "name": "Alexander’s Levant-to-Egypt campaign sequence",
+    "person": "Alexander III",
+    "character": "alexander-iii",
+    "summary": "Animated orientation for Alexander’s well-attested campaign sequence from Macedonia through the Levant into Egypt; route geometry is intentionally generalized.",
+    "segments": [
+      {
+        "id": "alex-pella-tyre",
+        "fromPlaceId": "pella-macedonia",
+        "toPlaceId": "tyre",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            22.52,
+            40.76
+          ],
+          [
+            24.0,
+            39.5
+          ],
+          [
+            26.5,
+            38.5
+          ],
+          [
+            29.0,
+            37.0
+          ],
+          [
+            32.0,
+            36.5
+          ],
+          [
+            34.0,
+            35.0
+          ],
+          [
+            35.2,
+            33.27
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-arrian-alexander"
+        ],
+        "note": "Named campaign sequence is historical; the polyline is a generalized interregional corridor, not Alexander’s recovered road trace."
+      },
+      {
+        "id": "alex-tyre-gaza",
+        "fromPlaceId": "tyre",
+        "toPlaceId": "gaza",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.2,
+            33.27
+          ],
+          [
+            35.0,
+            32.8
+          ],
+          [
+            34.8,
+            32.2
+          ],
+          [
+            34.55,
+            31.5
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-arrian-alexander"
+        ],
+        "note": "Tyre and Gaza are named campaign stages; coastal movement is generalized and omits many intermediate stops."
+      },
+      {
+        "id": "alex-gaza-memphis",
+        "fromPlaceId": "gaza",
+        "toPlaceId": "memphis-egypt",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.55,
+            31.5
+          ],
+          [
+            33.5,
+            31.1
+          ],
+          [
+            32.5,
+            30.8
+          ],
+          [
+            31.4,
+            30.1
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-arrian-alexander"
+        ],
+        "note": "The entry into Egypt is historical; this line is a generalized orientation corridor, not Alexander’s exact recovered route or day-by-day march."
+      }
+    ],
+    "personId": "alexander-iii"
+  },
+  {
+    "id": "journey-antiochus-jerusalem",
+    "name": "Antiochus IV — Antioch to Jerusalem political corridor",
+    "person": "Antiochus IV",
+    "character": "antiochus-iv",
+    "summary": "A generalized corridor illustrating Seleucid royal movement between Antioch, the coastal Levant and Jerusalem during the crisis era.",
+    "segments": [
+      {
+        "id": "ant4-antioch-ptolemais",
+        "fromPlaceId": "antioch-orontes",
+        "toPlaceId": "ptolemais-akko",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            36.16,
+            36.2
+          ],
+          [
+            35.8,
+            35.0
+          ],
+          [
+            35.4,
+            34.2
+          ],
+          [
+            35.2,
+            33.4
+          ],
+          [
+            35.07,
+            32.93
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-1-maccabees",
+          "source-2-maccabees"
+        ],
+        "note": "The royal/campaign connection is historical at regional scale; the drawn line is generalized and the exact travel route, roads, and stopping places are not recoverable."
+      },
+      {
+        "id": "ant4-ptolemais-jerusalem",
+        "fromPlaceId": "ptolemais-akko",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.07,
+            32.93
+          ],
+          [
+            34.95,
+            32.4
+          ],
+          [
+            34.9,
+            32.0
+          ],
+          [
+            35.0,
+            31.7
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-1-maccabees",
+          "source-2-maccabees"
+        ],
+        "note": "Generalized coastal-to-highland corridor only; not an exact itinerary from the ancient texts."
+      }
+    ],
+    "personId": "antiochus-iv"
+  },
+  {
+    "id": "journey-judas-emmaus-jerusalem",
+    "name": "Judas Maccabeus — Emmaus to Jerusalem",
+    "person": "Judas Maccabeus",
+    "character": "judas-maccabeus",
+    "summary": "A restrained animation connecting the Emmaus victory with the later return to Jerusalem and temple rededication.",
+    "segments": [
+      {
+        "id": "judas-emmaus-jerusalem",
+        "fromPlaceId": "emmaus-nicopolis",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.99,
+            31.839
+          ],
+          [
+            35.05,
+            31.84
+          ],
+          [
+            35.13,
+            31.82
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-1-maccabees"
+        ],
+        "note": "The narrative sequence moves from victory in the western approaches toward Jerusalem; the drawn ascent is reconstructed, not a preserved march track."
+      }
+    ],
+    "personId": "judas-maccabeus"
+  },
+  {
+    "id": "journey-pompey-damascus-jerusalem",
+    "name": "Pompey — Syria to Jerusalem",
+    "person": "Pompey",
+    "character": "pompey",
+    "summary": "Historical sequence of Roman intervention from the Syrian command zone into Judea, with generalized route geometry.",
+    "segments": [
+      {
+        "id": "pompey-damascus-jericho",
+        "fromPlaceId": "damascus",
+        "toPlaceId": "jericho",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            36.29,
+            33.51
+          ],
+          [
+            35.9,
+            33.0
+          ],
+          [
+            35.7,
+            32.5
+          ],
+          [
+            35.55,
+            32.0
+          ],
+          [
+            35.45,
+            31.87
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-josephus-ant14",
+          "source-plutarch-pompey-antony"
+        ],
+        "note": "Josephus places Pompey in Syria and then Judea; the Jordan-corridor line is a generalized reconstruction, not an excavated Roman march route."
+      },
+      {
+        "id": "pompey-jericho-jerusalem",
+        "fromPlaceId": "jericho",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.45,
+            31.87
+          ],
+          [
+            35.39,
+            31.82
+          ],
+          [
+            35.31,
+            31.79
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-josephus-ant14"
+        ],
+        "note": "Jericho-to-Jerusalem is a plausible named sequence; exact troop path and siege approach remain reconstructed."
+      }
+    ],
+    "personId": "pompey"
+  },
+  {
+    "id": "journey-herod-return",
+    "name": "Herod’s return campaign toward Jerusalem",
+    "person": "Herod the Great",
+    "character": "herod-great",
+    "summary": "A generalized return-campaign animation leading toward Herod’s eventual capture of Jerusalem in 37 BCE.",
+    "segments": [
+      {
+        "id": "herod-ptolemais-joppa",
+        "fromPlaceId": "ptolemais-akko",
+        "toPlaceId": "joppa",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.07,
+            32.93
+          ],
+          [
+            34.93,
+            32.5
+          ],
+          [
+            34.87,
+            32.1
+          ],
+          [
+            34.75,
+            32.05
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-josephus-war1",
+          "source-richardson-herod"
+        ],
+        "note": "Josephus narrates Herod’s return and campaigns through the land; this coastal segment is generalized and not a day-by-day itinerary."
+      },
+      {
+        "id": "herod-joppa-jerusalem",
+        "fromPlaceId": "joppa",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.75,
+            32.05
+          ],
+          [
+            34.9,
+            31.98
+          ],
+          [
+            35.05,
+            31.9
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-josephus-war1",
+          "source-richardson-herod"
+        ],
+        "note": "The line visualizes the campaign’s coastal/highland relationship; it is a reconstructed corridor, not a claim that the exact military road or detours are known."
+      }
+    ],
+    "personId": "herod-great"
+  },
+  {
+    "id": "journey-herod-rhodes",
+    "name": "Herod’s post-Actium journey to Rhodes",
+    "person": "Herod the Great",
+    "character": "herod-great",
+    "summary": "Schematic Mediterranean route illustrating Herod’s political realignment after Actium.",
+    "segments": [
+      {
+        "id": "herod-jerusalem-rhodes",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "rhodes",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            34.8,
+            32.0
+          ],
+          [
+            33.5,
+            33.0
+          ],
+          [
+            31.5,
+            34.5
+          ],
+          [
+            29.5,
+            35.8
+          ],
+          [
+            28.228,
+            36.451
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-josephus-war1",
+          "source-richardson-herod"
+        ],
+        "note": "Josephus reports the meeting on Rhodes; the maritime line is schematic and does not identify embarkation port, ship track, or stops."
+      }
+    ],
+    "personId": "herod-great"
+  },
+  {
+    "id": "journey-nabataean-incense",
+    "name": "Nabataean caravan corridor — Petra to Gaza",
+    "person": "Nabataean caravan",
+    "character": "generic",
+    "summary": "A non-biblical historical context animation for Nabataean trade linking Petra, the Negev and the Mediterranean.",
+    "segments": [
+      {
+        "id": "nab-petra-avdat",
+        "fromPlaceId": "petra",
+        "toPlaceId": "avdat",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.444,
+            30.328
+          ],
+          [
+            35.2,
+            30.45
+          ],
+          [
+            34.95,
+            30.6
+          ],
+          [
+            34.773,
+            30.794
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-graf-nabataeans"
+        ],
+        "note": "A generalized caravan corridor linking known Nabataean centers; actual routes formed a network with changing stations."
+      },
+      {
+        "id": "nab-avdat-gaza",
+        "fromPlaceId": "avdat",
+        "toPlaceId": "gaza",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            34.773,
+            30.794
+          ],
+          [
+            34.68,
+            31.05
+          ],
+          [
+            34.62,
+            31.3
+          ],
+          [
+            34.55,
+            31.5
+          ]
+        ],
+        "scripture": [],
+        "sourceIds": [
+          "source-batch7-methodology",
+          "source-graf-nabataeans"
+        ],
+        "note": "The Negev-to-Gaza trade axis is historically important, but this line is not a single preserved paved road."
+      }
+    ]
+  }
+]

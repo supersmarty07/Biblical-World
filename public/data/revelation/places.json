@@ -1,0 +1,683 @@
+[
+  {
+    "id": "patmos",
+    "name": "Patmos",
+    "aliases": [
+      "Patmos island"
+    ],
+    "coordinates": [
+      26.55,
+      37.31
+    ],
+    "coordinateRole": "approximate-area",
+    "summary": "Aegean island where the seer John says he was when he received the Revelation.",
+    "historicalContext": "Patmos lay off the western coast of Roman Asia in the Aegean. Revelation 1:9 is the primary evidence for John’s presence there.",
+    "archaeology": "The island is certain; no first-century archaeological feature identifies the exact place where the visions were experienced.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The island named in Revelation is securely identified with modern Patmos. The exact location on the island is unknown."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 1,
+        "label": "Revelation 1:9–11",
+        "verseStart": 9,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-pleiades",
+      "source-barrington-revelation"
+    ]
+  },
+  {
+    "id": "cave-apocalypse-patmos",
+    "name": "Cave of the Apocalypse — traditional site",
+    "aliases": [
+      "Holy Cave of the Apocalypse"
+    ],
+    "coordinates": [
+      26.5398,
+      37.3087
+    ],
+    "coordinateRole": "traditional-site",
+    "summary": "Later Christian tradition identifies this cave on Patmos with John’s visionary experience.",
+    "historicalContext": "The tradition is important for reception history but is not first-century archaeological evidence.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "traditional",
+      "historicalInterpretation": "traditional",
+      "explanation": "The cave is a major later Christian traditional site; Revelation itself does not identify a cave and archaeology cannot verify it as John’s location."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 1,
+        "label": "Revelation 1:9–11",
+        "verseStart": 9,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-patmos-tradition-b10"
+    ]
+  },
+  {
+    "id": "smyrna",
+    "name": "Smyrna",
+    "aliases": [
+      "Izmir"
+    ],
+    "coordinates": [
+      27.1428,
+      38.4237
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Major port city of Roman Asia and the second of Revelation’s seven churches.",
+    "historicalContext": "Smyrna was a prosperous Roman provincial city with strong imperial associations. Much visible archaeology belongs to later rebuilding, especially after the 178 CE earthquake.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Smyrna is securely identified beneath and around modern Izmir."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 1,
+        "label": "Revelation 1:11",
+        "verseStart": 11
+      },
+      {
+        "book": "Revelation",
+        "chapter": 2,
+        "label": "Revelation 2:8–11",
+        "verseStart": 8,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-pleiades",
+      "source-barrington-revelation",
+      "source-asia-minor-archaeology-b10"
+    ]
+  },
+  {
+    "id": "pergamum",
+    "name": "Pergamum",
+    "aliases": [
+      "Pergamon",
+      "Bergama"
+    ],
+    "coordinates": [
+      27.183,
+      39.132
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Former Attalid capital and third church addressed in Revelation.",
+    "historicalContext": "Pergamum was a major political, religious, and cultural center of Roman Asia, with prominent temples and imperial-cult institutions.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The ancient city is securely identified at Bergama/Pergamon."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 1,
+        "label": "Revelation 1:11",
+        "verseStart": 11
+      },
+      {
+        "book": "Revelation",
+        "chapter": 2,
+        "label": "Revelation 2:12–17",
+        "verseStart": 12,
+        "verseEnd": 17
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-pleiades",
+      "source-barrington-revelation",
+      "source-pergamon-archaeology-b10"
+    ]
+  },
+  {
+    "id": "pergamum-great-altar",
+    "name": "Great Altar of Pergamum",
+    "aliases": [
+      "Pergamon Altar"
+    ],
+    "coordinates": [
+      27.184,
+      39.133
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Monumental Hellenistic altar from Pergamum, sometimes proposed as background to the phrase “Satan’s throne.”",
+    "historicalContext": "The altar predates Revelation and was a prominent part of Pergamum’s monumental landscape.",
+    "archaeology": "Its identification as the specific referent of Revelation 2:13 is speculative; imperial cult, the acropolis, and other interpretations also exist.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "low",
+      "explanation": "The altar itself is established archaeology; connecting it specifically to “Satan’s throne” is only one modern interpretation."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 2,
+        "label": "Revelation 2:13",
+        "verseStart": 13
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-pergamon-archaeology-b10",
+      "source-hemer-seven-churches"
+    ],
+    "interpretations": [
+      {
+        "title": "Great Altar as “Satan’s throne” background",
+        "status": "possible",
+        "summary": "A visually striking proposal, but Revelation does not name the altar and no consensus establishes this identification.",
+        "sourceIds": [
+          "source-hemer-seven-churches",
+          "source-koester-revelation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thyatira",
+    "name": "Thyatira",
+    "aliases": [
+      "Akhisar"
+    ],
+    "coordinates": [
+      27.84,
+      38.918
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Commercial city of Lydia and fourth church addressed in Revelation.",
+    "historicalContext": "Ancient Thyatira occupied the site of modern Akhisar. Epigraphic evidence from the city is important for its associations and occupational groups.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The ancient city is securely located at modern Akhisar, though much lies beneath the modern city."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 1,
+        "label": "Revelation 1:11",
+        "verseStart": 11
+      },
+      {
+        "book": "Revelation",
+        "chapter": 2,
+        "label": "Revelation 2:18–29",
+        "verseStart": 18,
+        "verseEnd": 29
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-pleiades",
+      "source-barrington-revelation",
+      "source-asia-minor-archaeology-b10"
+    ]
+  },
+  {
+    "id": "sardis-revelation",
+    "name": "Sardis",
+    "aliases": [
+      "Sardes"
+    ],
+    "coordinates": [
+      28.041,
+      38.488
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Ancient Lydian capital and fifth church addressed in Revelation.",
+    "historicalContext": "Sardis retained major urban importance in Roman Asia. Its acropolis and lower-city archaeology illuminate the setting but do not mechanically explain Revelation’s metaphors.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Sardis is securely identified at the archaeological site near modern Sart."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 1,
+        "label": "Revelation 1:11",
+        "verseStart": 11
+      },
+      {
+        "book": "Revelation",
+        "chapter": 3,
+        "label": "Revelation 3:1–6",
+        "verseStart": 1,
+        "verseEnd": 6
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-pleiades",
+      "source-barrington-revelation",
+      "source-sardis-archaeology-b10"
+    ]
+  },
+  {
+    "id": "philadelphia-asia",
+    "name": "Philadelphia of Lydia",
+    "aliases": [
+      "Alaşehir",
+      "Philadelphia"
+    ],
+    "coordinates": [
+      28.516,
+      38.35
+    ],
+    "coordinateRole": "identified-site",
+    "summary": "Sixth church addressed in Revelation, located in the Lydian interior of Roman Asia.",
+    "historicalContext": "The ancient city lies under modern Alaşehir; earthquakes and continuous occupation complicate archaeological reconstruction.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Philadelphia is securely identified with modern Alaşehir, though first-century remains are limited."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 1,
+        "label": "Revelation 1:11",
+        "verseStart": 11
+      },
+      {
+        "book": "Revelation",
+        "chapter": 3,
+        "label": "Revelation 3:7–13",
+        "verseStart": 7,
+        "verseEnd": 13
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-pleiades",
+      "source-barrington-revelation",
+      "source-asia-minor-archaeology-b10"
+    ]
+  },
+  {
+    "id": "roman-asia-revelation",
+    "name": "Roman province of Asia — Revelation setting",
+    "aliases": [
+      "Asia"
+    ],
+    "coordinates": [
+      28.2,
+      38.5
+    ],
+    "coordinateRole": "display-anchor",
+    "summary": "Broad provincial setting of the seven churches.",
+    "historicalContext": "“Asia” in Revelation 1:4 means the Roman province, not the modern continent. The map anchor represents a broad administrative landscape, not a capital point or exact border.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The province is historically established; this point is only a display anchor and its boundaries varied over time."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 1,
+        "label": "Revelation 1:4–11",
+        "verseStart": 4,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-barrington-revelation"
+    ]
+  },
+  {
+    "id": "babylon-great-revelation",
+    "name": "Babylon the Great — visionary city",
+    "aliases": [
+      "Babylon the Great"
+    ],
+    "summary": "Revelation’s symbolic “Babylon” is a visionary city and political-religious image, not plotted as the archaeological city of Babylon.",
+    "historicalContext": "Many interpreters see Rome as the primary first-century referent, while the imagery deliberately draws on biblical Babylon and broader imperial critique.",
+    "category": "other",
+    "confidence": {
+      "geographicIdentification": "symbolic",
+      "historicalInterpretation": "symbolic",
+      "explanation": "The text presents symbolic geography. Historical Babylon and Rome remain separate real-world places; this visionary entity receives no terrestrial coordinate."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 14,
+        "label": "Revelation 14:8",
+        "verseStart": 8
+      },
+      {
+        "book": "Revelation",
+        "chapter": 16,
+        "label": "Revelation 16:19",
+        "verseStart": 19
+      },
+      {
+        "book": "Revelation",
+        "chapter": 17,
+        "label": "Revelation 17:1–18",
+        "verseStart": 1,
+        "verseEnd": 18
+      },
+      {
+        "book": "Revelation",
+        "chapter": 18,
+        "label": "Revelation 18:1–24",
+        "verseStart": 1,
+        "verseEnd": 24
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-koester-revelation",
+      "source-aune-revelation"
+    ],
+    "interpretations": [
+      {
+        "title": "Rome as primary first-century referent",
+        "status": "probable",
+        "summary": "The seven hills/kings, imperial power, commerce, and persecution imagery make Rome a strong first-century referent, without exhausting the symbol.",
+        "sourceIds": [
+          "source-koester-revelation",
+          "source-friesen-imperial-cults"
+        ]
+      },
+      {
+        "title": "Historical Babylon in Mesopotamia",
+        "status": "possible",
+        "summary": "The ancient city supplies deep biblical imagery, but most modern historical readings do not treat Revelation 17–18 as a simple geographic prediction about the Mesopotamian ruins.",
+        "sourceIds": [
+          "source-aune-revelation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "har-magedon-revelation",
+    "name": "Har-Magedon / Armageddon — visionary toponym",
+    "aliases": [
+      "Armageddon",
+      "Harmagedon"
+    ],
+    "summary": "Revelation 16:16 names Har-Magedon in an apocalyptic battle scene. Its etymology and relationship to historical Megiddo are debated.",
+    "category": "other",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "symbolic",
+      "explanation": "The text gives a name but no recoverable battle coordinate. Linking it directly to Tell Megiddo is an interpretation, not an established site identification."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 16,
+        "label": "Revelation 16:16",
+        "verseStart": 16
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-koester-revelation",
+      "source-aune-revelation"
+    ],
+    "interpretations": [
+      {
+        "title": "Association with Megiddo",
+        "status": "possible",
+        "summary": "The name is commonly connected with Megiddo, a strategic biblical site, but the linguistic form and lack of a literal “Mount Megiddo” make the equation less simple than popular maps suggest.",
+        "sourceIds": [
+          "source-koester-revelation",
+          "source-aune-revelation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "heavenly-throne-revelation",
+    "name": "Heavenly throne room — visionary space",
+    "aliases": [
+      "Throne in heaven"
+    ],
+    "summary": "Revelation 4–5 describes a heavenly throne room with worship, living creatures, elders, and the Lamb.",
+    "category": "other",
+    "confidence": {
+      "geographicIdentification": "symbolic",
+      "historicalInterpretation": "symbolic",
+      "explanation": "This is visionary/theological space and is not assigned terrestrial coordinates."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 4,
+        "label": "Revelation 4:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "Revelation",
+        "chapter": 5,
+        "label": "Revelation 5:1–14",
+        "verseStart": 1,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-koester-revelation"
+    ]
+  },
+  {
+    "id": "abyss-revelation",
+    "name": "The Abyss — visionary space",
+    "aliases": [
+      "Bottomless pit"
+    ],
+    "summary": "Apocalyptic realm appearing in Revelation’s trumpet and beast imagery.",
+    "category": "other",
+    "confidence": {
+      "geographicIdentification": "symbolic",
+      "historicalInterpretation": "symbolic",
+      "explanation": "The Abyss is visionary cosmological imagery, not an archaeological place."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 9,
+        "label": "Revelation 9:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "Revelation",
+        "chapter": 11,
+        "label": "Revelation 11:7",
+        "verseStart": 7
+      },
+      {
+        "book": "Revelation",
+        "chapter": 20,
+        "label": "Revelation 20:1–3",
+        "verseStart": 1,
+        "verseEnd": 3
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-aune-revelation"
+    ]
+  },
+  {
+    "id": "gog-magog-revelation",
+    "name": "Gog and Magog — visionary nations",
+    "aliases": [
+      "Gog",
+      "Magog"
+    ],
+    "summary": "Revelation 20 reuses Ezekiel’s Gog/Magog imagery for nations gathered from the earth after the millennium.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "symbolic",
+      "historicalInterpretation": "symbolic",
+      "explanation": "The passage explicitly universalizes the imagery to nations at the earth’s corners; it should not be mapped onto a modern country."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 20,
+        "label": "Revelation 20:7–10",
+        "verseStart": 7,
+        "verseEnd": 10
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-koester-revelation"
+    ]
+  },
+  {
+    "id": "lake-fire-revelation",
+    "name": "Lake of fire — visionary space",
+    "aliases": [
+      "Lake of fire and sulfur"
+    ],
+    "summary": "Final-judgment image in Revelation 19–21.",
+    "category": "other",
+    "confidence": {
+      "geographicIdentification": "symbolic",
+      "historicalInterpretation": "symbolic",
+      "explanation": "Visionary eschatological imagery; no terrestrial coordinate is appropriate."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 19,
+        "label": "Revelation 19:20",
+        "verseStart": 20
+      },
+      {
+        "book": "Revelation",
+        "chapter": 20,
+        "label": "Revelation 20:10–15",
+        "verseStart": 10,
+        "verseEnd": 15
+      },
+      {
+        "book": "Revelation",
+        "chapter": 21,
+        "label": "Revelation 21:8",
+        "verseStart": 8
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical"
+    ]
+  },
+  {
+    "id": "new-jerusalem-revelation",
+    "name": "New Jerusalem — visionary city",
+    "aliases": [
+      "Holy City",
+      "Jerusalem coming down out of heaven"
+    ],
+    "summary": "Revelation 21–22 portrays a New Jerusalem descending from heaven, with immense symbolic dimensions, gates, foundations, river, and tree of life.",
+    "historicalContext": "The city reworks Jerusalem, temple, Eden, prophetic restoration, and cosmic imagery. It is deliberately visualized outside ordinary map mode.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "symbolic",
+      "historicalInterpretation": "symbolic",
+      "explanation": "The text explicitly presents a visionary city descending from heaven. Plotting it as a modern archaeological coordinate would misrepresent the genre."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 21,
+        "label": "Revelation 21:1–27",
+        "verseStart": 1,
+        "verseEnd": 27
+      },
+      {
+        "book": "Revelation",
+        "chapter": 22,
+        "label": "Revelation 22:1–5",
+        "verseStart": 1,
+        "verseEnd": 5
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-koester-revelation",
+      "source-aune-revelation"
+    ]
+  },
+  {
+    "id": "river-life-revelation",
+    "name": "River and tree of life — visionary landscape",
+    "aliases": [
+      "River of the water of life",
+      "Tree of life"
+    ],
+    "summary": "Revelation 22 reunites river, city, throne, and tree-of-life imagery in the final vision.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "symbolic",
+      "historicalInterpretation": "symbolic",
+      "explanation": "Visionary imagery consciously echoing Eden and prophetic temple-river traditions; no terrestrial watercourse is claimed."
+    },
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 22,
+        "label": "Revelation 22:1–5",
+        "verseStart": 1,
+        "verseEnd": 5
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-koester-revelation"
+    ]
+  }
+]

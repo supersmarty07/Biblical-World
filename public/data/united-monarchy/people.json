@@ -1,0 +1,803 @@
+[
+  {
+    "id": "ruth",
+    "name": "Ruth",
+    "aliases": [],
+    "era": "Judges-to-monarchy literary setting",
+    "summary": "A Moabite woman whose migration with Naomi to Bethlehem forms the geographic frame of Ruth and whose genealogy leads to David.",
+    "scripture": [
+      {
+        "book": "Ruth",
+        "chapter": 1,
+        "label": "Ruth 1"
+      },
+      {
+        "book": "Ruth",
+        "chapter": 4,
+        "verseStart": 13,
+        "verseEnd": 22,
+        "label": "Ruth 4:13–22"
+      }
+    ],
+    "relatedPlaceIds": [
+      "moab",
+      "bethlehem-judah"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "artisticNote": "The character artwork is an artistic silhouette, not a historical portrait."
+  },
+  {
+    "id": "naomi",
+    "name": "Naomi",
+    "aliases": [],
+    "era": "Judges-to-monarchy literary setting",
+    "summary": "A Bethlehemite woman who returns from Moab with Ruth after family loss.",
+    "scripture": [
+      {
+        "book": "Ruth",
+        "chapter": 1,
+        "label": "Ruth 1"
+      },
+      {
+        "book": "Ruth",
+        "chapter": 4,
+        "verseStart": 13,
+        "verseEnd": 17,
+        "label": "Ruth 4:13–17"
+      }
+    ],
+    "relatedPlaceIds": [
+      "moab",
+      "bethlehem-judah"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "boaz",
+    "name": "Boaz",
+    "aliases": [],
+    "era": "Judges-to-monarchy literary setting",
+    "summary": "A Bethlehem landholder and kinsman-redeemer in the Ruth narrative.",
+    "scripture": [
+      {
+        "book": "Ruth",
+        "chapter": 2,
+        "label": "Ruth 2"
+      },
+      {
+        "book": "Ruth",
+        "chapter": 4,
+        "label": "Ruth 4"
+      }
+    ],
+    "relatedPlaceIds": [
+      "bethlehem-judah"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "eli",
+    "name": "Eli",
+    "aliases": [],
+    "era": "Shiloh / transition to Samuel",
+    "summary": "Priest at Shiloh whose household frames Samuel’s early sanctuary narrative and the ark crisis.",
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 1,
+        "verseStart": 9,
+        "verseEnd": 28,
+        "label": "1 Samuel 1:9–28"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 4,
+        "verseStart": 12,
+        "verseEnd": 18,
+        "label": "1 Samuel 4:12–18"
+      }
+    ],
+    "relatedPlaceIds": [
+      "shiloh"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "samuel",
+    "name": "Samuel",
+    "aliases": [
+      "Shemuel"
+    ],
+    "era": "Late Judges / emergence of monarchy",
+    "summary": "Prophet, judge, and kingmaker whose narratives move between Shiloh, Ramah, Mizpah, Gilgal, Bethlehem, and Saul’s court world.",
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 1,
+        "label": "1 Samuel 1"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 7,
+        "label": "1 Samuel 7"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 8,
+        "label": "1 Samuel 8"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 10,
+        "label": "1 Samuel 10"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 16,
+        "label": "1 Samuel 16"
+      }
+    ],
+    "relatedPlaceIds": [
+      "shiloh",
+      "ramathaim-zophim",
+      "ramah-samuel",
+      "mizpah-benjamin",
+      "gilgal-samuel",
+      "bethlehem-judah"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-oxford-history"
+    ],
+    "artisticNote": "The character artwork is an artistic reconstruction informed only by broad Iron Age regional context."
+  },
+  {
+    "id": "saul",
+    "name": "Saul",
+    "aliases": [
+      "Shaul"
+    ],
+    "era": "Early monarchy",
+    "summary": "The first king in Samuel’s narrative, associated with Benjamin, Gibeah, Philistine warfare, and the final campaign at Gilboa.",
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 9,
+        "label": "1 Samuel 9"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 10,
+        "label": "1 Samuel 10"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 11,
+        "label": "1 Samuel 11"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 13,
+        "label": "1 Samuel 13"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 31,
+        "label": "1 Samuel 31"
+      }
+    ],
+    "relatedPlaceIds": [
+      "gibeah-benjamin",
+      "mizpah-benjamin",
+      "gilgal-samuel",
+      "jabesh-gilead",
+      "mount-gilboa",
+      "beth-shean",
+      "endor",
+      "michmash",
+      "geba-benjamin",
+      "michmash-pass"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-oxford-history"
+    ],
+    "artisticNote": "The silhouette is an artistic reconstruction, not a portrait and not a claim about royal regalia."
+  },
+  {
+    "id": "jonathan",
+    "name": "Jonathan",
+    "aliases": [
+      "Jonathan son of Saul"
+    ],
+    "era": "Early monarchy",
+    "summary": "Saul’s son and David’s ally, active in the Philistine conflict and killed with Saul on Mount Gilboa.",
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 13,
+        "verseStart": 2,
+        "verseEnd": 3,
+        "label": "1 Samuel 13:2–3"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 14,
+        "label": "1 Samuel 14"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 18,
+        "verseStart": 1,
+        "verseEnd": 4,
+        "label": "1 Samuel 18:1–4"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 20,
+        "label": "1 Samuel 20"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 31,
+        "verseStart": 2,
+        "verseEnd": 2,
+        "label": "1 Samuel 31:2"
+      }
+    ],
+    "relatedPlaceIds": [
+      "gibeah-benjamin",
+      "mount-gilboa",
+      "michmash",
+      "geba-benjamin",
+      "michmash-pass"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "david",
+    "name": "David",
+    "aliases": [
+      "David son of Jesse"
+    ],
+    "era": "Early monarchy / Davidic reign",
+    "summary": "Bethlehemite warrior, fugitive, king at Hebron, and ruler centered on Jerusalem. His narratives span the Shephelah, Judean wilderness, Philistine cities, Transjordan, and Jerusalem.",
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 16,
+        "label": "1 Samuel 16"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 17,
+        "label": "1 Samuel 17"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 2,
+        "label": "2 Samuel 2"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "label": "2 Samuel 5"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 6,
+        "label": "2 Samuel 6"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 15,
+        "label": "2 Samuel 15"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 24,
+        "label": "2 Samuel 24"
+      }
+    ],
+    "relatedPlaceIds": [
+      "bethlehem-judah",
+      "valley-elah",
+      "gath",
+      "adullam",
+      "keilah",
+      "ziph-judah",
+      "en-gedi",
+      "hebron",
+      "jerusalem",
+      "city-of-david-ridge",
+      "kidron-valley",
+      "mount-olives",
+      "mahanaim"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-oxford-history",
+      "source-david-solomon-debate",
+      "source-jerusalem-bible-archaeology"
+    ],
+    "artisticNote": "The artwork is symbolic and historical-contextual; no surviving portrait of David exists."
+  },
+  {
+    "id": "goliath",
+    "name": "Goliath",
+    "aliases": [
+      "Goliath of Gath"
+    ],
+    "era": "Early monarchy narrative",
+    "summary": "The Philistine champion from Gath in the Elah Valley narrative.",
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 17,
+        "label": "1 Samuel 17"
+      }
+    ],
+    "relatedPlaceIds": [
+      "gath",
+      "valley-elah",
+      "socoh-judah",
+      "azekah-monarchy"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "michal",
+    "name": "Michal",
+    "aliases": [
+      "Michal daughter of Saul"
+    ],
+    "era": "Saul / David transition",
+    "summary": "Saul’s daughter and David’s wife, associated especially with Gibeah and later Jerusalem narratives.",
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 18,
+        "verseStart": 20,
+        "verseEnd": 29,
+        "label": "1 Samuel 18:20–29"
+      },
+      {
+        "book": "1 Samuel",
+        "chapter": 19,
+        "verseStart": 11,
+        "verseEnd": 17,
+        "label": "1 Samuel 19:11–17"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 6,
+        "verseStart": 16,
+        "verseEnd": 23,
+        "label": "2 Samuel 6:16–23"
+      }
+    ],
+    "relatedPlaceIds": [
+      "gibeah-benjamin",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "abigail",
+    "name": "Abigail",
+    "aliases": [
+      "Abigail of Carmel"
+    ],
+    "era": "David’s fugitive period",
+    "summary": "A woman associated with Carmel and Maon who intervenes between David and Nabal and later becomes David’s wife.",
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 25,
+        "label": "1 Samuel 25"
+      }
+    ],
+    "relatedPlaceIds": [
+      "maon-judah",
+      "carmel-judah"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "abner",
+    "name": "Abner",
+    "aliases": [
+      "Abner son of Ner"
+    ],
+    "era": "Saul / David transition",
+    "summary": "Saul’s military commander and later supporter of Ish-bosheth during the civil conflict before David controls all Israel.",
+    "scripture": [
+      {
+        "book": "1 Samuel",
+        "chapter": 14,
+        "verseStart": 50,
+        "verseEnd": 51,
+        "label": "1 Samuel 14:50–51"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 2,
+        "label": "2 Samuel 2"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 3,
+        "label": "2 Samuel 3"
+      }
+    ],
+    "relatedPlaceIds": [
+      "mahanaim",
+      "gibeon",
+      "hebron"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "joab",
+    "name": "Joab",
+    "aliases": [
+      "Joab son of Zeruiah"
+    ],
+    "era": "Davidic reign",
+    "summary": "David’s principal commander, active at Gibeon, Jerusalem, Rabbah, and during Absalom’s revolt.",
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 2,
+        "label": "2 Samuel 2"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "verseStart": 8,
+        "verseEnd": 8,
+        "label": "2 Samuel 5:8"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 11,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "2 Samuel 11:1"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 18,
+        "label": "2 Samuel 18"
+      }
+    ],
+    "relatedPlaceIds": [
+      "gibeon",
+      "jerusalem",
+      "rabbah-ammon",
+      "forest-ephraim"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "ish-bosheth",
+    "name": "Ish-bosheth",
+    "aliases": [
+      "Ishbaal"
+    ],
+    "era": "Saul / David transition",
+    "summary": "A son of Saul installed as king over much of Israel from Mahanaim while David reigns at Hebron.",
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 2,
+        "verseStart": 8,
+        "verseEnd": 11,
+        "label": "2 Samuel 2:8–11"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 4,
+        "label": "2 Samuel 4"
+      }
+    ],
+    "relatedPlaceIds": [
+      "mahanaim"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "bathsheba",
+    "name": "Bathsheba",
+    "aliases": [
+      "Bath-shua"
+    ],
+    "era": "Davidic / Solomonic court",
+    "summary": "A central figure in the David and Solomon succession narratives in Jerusalem.",
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 11,
+        "label": "2 Samuel 11"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 12,
+        "verseStart": 24,
+        "verseEnd": 25,
+        "label": "2 Samuel 12:24–25"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 1,
+        "label": "1 Kings 1"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "nathan-prophet",
+    "name": "Nathan the Prophet",
+    "aliases": [
+      "Nathan"
+    ],
+    "era": "Davidic / Solomonic court",
+    "summary": "Court prophet in Jerusalem who delivers the dynastic oracle and later supports Solomon’s accession.",
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 7,
+        "label": "2 Samuel 7"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 12,
+        "label": "2 Samuel 12"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 1,
+        "label": "1 Kings 1"
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "gihon-spring"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale"
+    ]
+  },
+  {
+    "id": "absalom",
+    "name": "Absalom",
+    "aliases": [
+      "Absalom son of David"
+    ],
+    "era": "Davidic reign",
+    "summary": "David’s son whose rebellion drives the king from Jerusalem across the Kidron and toward Transjordan before the conflict near Mahanaim.",
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 13,
+        "label": "2 Samuel 13"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 15,
+        "label": "2 Samuel 15"
+      },
+      {
+        "book": "2 Samuel",
+        "chapter": 18,
+        "label": "2 Samuel 18"
+      }
+    ],
+    "relatedPlaceIds": [
+      "geshur",
+      "jerusalem",
+      "kidron-valley",
+      "mount-olives",
+      "mahanaim",
+      "forest-ephraim"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale"
+    ],
+    "artisticNote": "The figure is an artistic silhouette; the biblical text’s notice about Absalom’s hair is not used to fabricate a portrait."
+  },
+  {
+    "id": "solomon",
+    "name": "Solomon",
+    "aliases": [
+      "Jedidiah"
+    ],
+    "era": "Solomonic reign / early Iron II",
+    "summary": "David’s successor, associated with Gihon, Gibeon, temple construction, royal building, Phoenician exchange, and Red Sea trade traditions.",
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 1,
+        "label": "1 Kings 1"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 3,
+        "label": "1 Kings 3"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 5,
+        "label": "1 Kings 5"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 6,
+        "label": "1 Kings 6"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 8,
+        "label": "1 Kings 8"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 9,
+        "label": "1 Kings 9"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 10,
+        "label": "1 Kings 10"
+      }
+    ],
+    "relatedPlaceIds": [
+      "gihon-spring",
+      "gibeon",
+      "jerusalem",
+      "temple-mount",
+      "first-temple-site",
+      "gezer-monarchy",
+      "hazor",
+      "megiddo",
+      "tyre",
+      "ezion-geber",
+      "ophir",
+      "sheba-saba"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-sacred-bridge",
+      "source-anchor-yale",
+      "source-oxford-history",
+      "source-mazar-land-bible",
+      "source-david-solomon-debate",
+      "source-jerusalem-bible-archaeology"
+    ],
+    "artisticNote": "The artwork is an artistic reconstruction; it does not assert Solomon’s appearance or the exact form of 10th-century royal dress."
+  },
+  {
+    "id": "hiram-tyre",
+    "name": "Hiram of Tyre",
+    "aliases": [
+      "Huram"
+    ],
+    "era": "Davidic / Solomonic diplomatic context",
+    "summary": "Phoenician ruler associated in the biblical narratives with timber, craftsmen, and maritime exchange with David and Solomon.",
+    "scripture": [
+      {
+        "book": "2 Samuel",
+        "chapter": 5,
+        "verseStart": 11,
+        "verseEnd": 11,
+        "label": "2 Samuel 5:11"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 5,
+        "label": "1 Kings 5"
+      },
+      {
+        "book": "1 Kings",
+        "chapter": 9,
+        "verseStart": 10,
+        "verseEnd": 14,
+        "label": "1 Kings 9:10–14"
+      }
+    ],
+    "relatedPlaceIds": [
+      "tyre",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale",
+      "source-oxford-history"
+    ]
+  },
+  {
+    "id": "queen-sheba",
+    "name": "Queen of Sheba",
+    "aliases": [
+      "Queen of Saba"
+    ],
+    "era": "Solomonic narrative / South Arabian context",
+    "summary": "A royal visitor in 1 Kings 10 and 2 Chronicles 9. The text connects her with Sheba; no independent itinerary or palace can be mapped with confidence.",
+    "scripture": [
+      {
+        "book": "1 Kings",
+        "chapter": 10,
+        "verseStart": 1,
+        "verseEnd": 13,
+        "label": "1 Kings 10:1–13"
+      },
+      {
+        "book": "2 Chronicles",
+        "chapter": 9,
+        "verseStart": 1,
+        "verseEnd": 12,
+        "label": "2 Chronicles 9:1–12"
+      }
+    ],
+    "relatedPlaceIds": [
+      "sheba-saba",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-united-monarchy-text",
+      "source-anchor-yale",
+      "source-oxford-history",
+      "source-batch4-methodology"
+    ]
+  }
+]

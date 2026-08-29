@@ -1,0 +1,56 @@
+[
+  {
+    "id": "source-genesis-text",
+    "title": "Genesis — biblical text and canonical place/event sequence",
+    "organization": "Berean Standard Bible / canonical references",
+    "url": "https://berean.bible/",
+    "license": "CC0 / public domain according to project research supplied 2026-08-29",
+    "verifiedAt": "2026-08-29 — licensing status supplied by user research; official-source release check still recommended",
+    "notes": "This batch stores references and summaries, not a bundled full-text Bible. Scripture references are the primary source for narrative sequence; they do not by themselves establish modern geographic identification."
+  },
+  {
+    "id": "source-sacred-bridge",
+    "title": "The Sacred Bridge: Carta’s Atlas of the Biblical World",
+    "author": "Anson F. Rainey and R. Steven Notley",
+    "organization": "Carta",
+    "notes": "Major scholarly historical-geography reference used as a secondary orientation source. Page-level pinpoint citations should be added during later editorial verification."
+  },
+  {
+    "id": "source-macmillan-atlas",
+    "title": "The Macmillan Bible Atlas",
+    "author": "Yohanan Aharoni and Michael Avi-Yonah",
+    "notes": "Classic historical-geography atlas used as a secondary orientation source. Exact edition/page pinpointing remains an editorial follow-up item."
+  },
+  {
+    "id": "source-anchor-yale",
+    "title": "The Anchor Yale Bible Dictionary",
+    "author": "David Noel Freedman, ed.",
+    "organization": "Yale University Press / Doubleday reference tradition",
+    "notes": "Reference work used for place-name and interpretive orientation. Individual article/page pinpointing should be added before an academic-grade release."
+  },
+  {
+    "id": "source-pleiades",
+    "title": "Pleiades: A Gazetteer of Past Places",
+    "organization": "Institute for the Study of the Ancient World / NYU",
+    "url": "https://pleiades.stoa.org/",
+    "license": "CC BY (per 2026 research supplied by the user)",
+    "attribution": "Ancient-place data may be cross-checked against Pleiades; exact record IDs are intentionally not invented in this batch.",
+    "verifiedAt": "2026-08-29 — high-level licensing and suitability supplied by user research",
+    "notes": "Pleiades is strongest for classical antiquity and is not treated here as decisive for all Bronze Age identifications."
+  },
+  {
+    "id": "source-natural-earth",
+    "title": "Natural Earth",
+    "organization": "Natural Earth / NACIS",
+    "url": "https://www.naturalearthdata.com/",
+    "license": "Public domain (per 2026 research supplied by the user)",
+    "notes": "Planned source for future physical basemap vectors. Batch 2 does not bundle Natural Earth files because the runtime environment could not retrieve external datasets."
+  },
+  {
+    "id": "source-batch2-methodology",
+    "title": "Batch 2 Genesis Curation Methodology",
+    "organization": "The Biblical World project",
+    "license": "Original project metadata",
+    "notes": "Coordinates are intentionally classified by role. Established/probable sites use modern archaeological or city anchors; disputed or unlocated places are omitted from point rendering or shown only as explicitly labeled candidates/approximate anchors. Reconstructed route polylines are never presented as exact ancient footsteps."
+  }
+]

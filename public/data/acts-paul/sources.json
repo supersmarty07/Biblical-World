@@ -1,0 +1,200 @@
+[
+  {
+    "id": "source-batch9-methodology",
+    "title": "Batch 9 Acts + Paul Historical-Geography Curation Methodology",
+    "organization": "The Biblical World project",
+    "kind": "project-methodology",
+    "license": "Original project metadata",
+    "notes": "Separates canonical narrative geography, Pauline self-reference, independent ancient testimony, inscriptions, archaeology, later tradition, and route reconstruction. Exact roads, houses, prisons, wreck sites, and martyrdom locations remain unpinned unless evidence supports a location."
+  },
+  {
+    "id": "source-acts-canonical",
+    "title": "Acts of the Apostles — canonical geographic sequence",
+    "organization": "Canonical references",
+    "kind": "canonical-text",
+    "notes": "Project-authored summaries and references only. Acts provides the main narrative sequence for Batch 9; route lines are generalized visualizations, not recovered GPS tracks."
+  },
+  {
+    "id": "source-pauline-canonical",
+    "title": "Pauline letters — canonical geographic and chronological references",
+    "organization": "Canonical references",
+    "kind": "canonical-text",
+    "notes": "Used for Paul’s own geographic references and letter-recipient context. The atlas does not force disputed correlations between Acts and Galatians or assign exact composition sites where scholarship is divided."
+  },
+  {
+    "id": "source-josephus-ant19-b9",
+    "title": "Josephus, Jewish Antiquities, Book 19",
+    "author": "Flavius Josephus",
+    "kind": "ancient-literary",
+    "dateLabel": "late first century CE",
+    "notes": "Ancient literary source for Agrippa I, Claudian-era Judea, and Agrippa’s death at Caesarea."
+  },
+  {
+    "id": "source-josephus-ant20-b9",
+    "title": "Josephus, Jewish Antiquities, Book 20",
+    "author": "Flavius Josephus",
+    "kind": "ancient-literary",
+    "dateLabel": "late first century CE",
+    "notes": "Ancient literary source for the Claudian famine, high priest Ananias, Felix, Festus, and Agrippa II-era chronology."
+  },
+  {
+    "id": "source-josephus-war2-b9",
+    "title": "Josephus, Jewish War, Book 2",
+    "author": "Flavius Josephus",
+    "kind": "ancient-literary",
+    "dateLabel": "late first century CE",
+    "notes": "Ancient literary context for Roman Judea, procurators, Caesarea, and Agrippa II."
+  },
+  {
+    "id": "source-gallio-inscription",
+    "title": "Delphi inscription / Claudius letter mentioning Gallio",
+    "kind": "inscription",
+    "dateLabel": "c. 52 CE",
+    "notes": "Key external chronological anchor for Gallio’s proconsulship of Achaia, commonly used to constrain Paul’s Corinthian chronology. The inscription does not mention Paul."
+  },
+  {
+    "id": "source-suetonius-claudius25",
+    "title": "Suetonius, Claudius 25.4",
+    "author": "Suetonius",
+    "kind": "ancient-literary",
+    "dateLabel": "early second century CE",
+    "notes": "Reports Claudius expelling Jews from Rome because of disturbances associated with “Chrestus.” The relationship to Acts 18 and exact date are interpreted cautiously."
+  },
+  {
+    "id": "source-1clement5",
+    "title": "1 Clement 5",
+    "kind": "ancient-literary",
+    "dateLabel": "late first century CE",
+    "notes": "Early Christian memory of Peter and Paul’s suffering. Used only for later reception context; Acts itself ends with Paul alive under house arrest in Rome."
+  },
+  {
+    "id": "source-barrington-acts",
+    "title": "Barrington Atlas of the Greek and Roman World — eastern Mediterranean and Roman road geography",
+    "kind": "modern-scholarship",
+    "notes": "Reference framework for established Greco-Roman cities, regions, and transport geography. No proprietary map imagery is bundled."
+  },
+  {
+    "id": "source-hemer-acts",
+    "title": "The Book of Acts in the Setting of Hellenistic History",
+    "author": "Colin J. Hemer",
+    "year": 1989,
+    "kind": "modern-scholarship",
+    "notes": "Historical-geographic synthesis used cautiously for Acts place names, travel sequences, titles, and chronology."
+  },
+  {
+    "id": "source-mitchell-anatolia",
+    "title": "Anatolia: Land, Men, and Gods in Asia Minor",
+    "author": "Stephen Mitchell",
+    "year": 1993,
+    "kind": "modern-scholarship",
+    "notes": "Regional historical framework for Roman Asia Minor, Galatia, Pisidia, Lycaonia, roads, and civic geography."
+  },
+  {
+    "id": "source-roman-roads-asia",
+    "title": "Roman roads and itineraries of Asia Minor — scholarly synthesis",
+    "kind": "modern-scholarship",
+    "notes": "Used only for generalized corridor reconstruction. The atlas does not claim Paul followed a specific surviving paved alignment unless Acts states a route."
+  },
+  {
+    "id": "source-cyprus-archaeology-b9",
+    "title": "Roman Cyprus archaeological and historical synthesis",
+    "kind": "modern-scholarship",
+    "notes": "Supports Salamis, Paphos, and provincial context. It does not identify every Acts episode with a specific building."
+  },
+  {
+    "id": "source-pisidian-antioch-b9",
+    "title": "Pisidian Antioch archaeological and epigraphic research",
+    "kind": "archaeology",
+    "notes": "Supports the established city site and Roman colonial setting; the precise synagogue of Acts 13 is not identified."
+  },
+  {
+    "id": "source-lystra-derbe-b9",
+    "title": "Lystra and Derbe historical-geographic research",
+    "kind": "modern-scholarship",
+    "notes": "Lystra is commonly associated with the Hatunsaray/Zoldera mound area; Derbe remains debated, with Kerti Höyük among major proposals. Candidate geometry is labeled accordingly."
+  },
+  {
+    "id": "source-philippi-b9",
+    "title": "Philippi archaeological and Roman-colony research",
+    "kind": "archaeology",
+    "notes": "Supports the established city and colonial landscape; the exact riverside prayer place and prison of Acts are not recoverable."
+  },
+  {
+    "id": "source-via-egnatia-b9",
+    "title": "Via Egnatia historical-road research",
+    "kind": "modern-scholarship",
+    "notes": "Supports the broad east-west corridor through Macedonia. Journey polylines remain schematic rather than surveyed reconstructions of Paul’s footsteps."
+  },
+  {
+    "id": "source-athens-b9",
+    "title": "Roman-period Athens and Areopagus topographic research",
+    "kind": "modern-scholarship",
+    "notes": "Supports the physical Hill of Ares and civic context. Acts’ phrase “Areopagus” can denote the council/body as well as the hill, so the speech is not pinned to one exact spot."
+  },
+  {
+    "id": "source-corinth-b9",
+    "title": "Roman Corinth archaeological and epigraphic research",
+    "kind": "archaeology",
+    "notes": "Supports Corinth, Cenchreae, the forum/bema, and Gallio-era civic setting. The bema is a plausible forum setting, not archaeologically proven as Paul’s exact hearing position."
+  },
+  {
+    "id": "source-ephesus-b9",
+    "title": "Ephesus archaeological and epigraphic research",
+    "kind": "archaeology",
+    "notes": "Supports the city, theater, Artemision, and Roman provincial setting. The hall of Tyrannus and exact locations of individual house meetings remain unlocated."
+  },
+  {
+    "id": "source-troas-b9",
+    "title": "Alexandria Troas archaeological and historical research",
+    "kind": "archaeology",
+    "notes": "Supports the major Roman city/port used in Acts. The exact upper room of Acts 20 is not located."
+  },
+  {
+    "id": "source-caesarea-b9",
+    "title": "Caesarea Maritima Roman-period archaeology",
+    "kind": "archaeology",
+    "notes": "Supports the harbor city, administrative role, and first-century built environment. Individual prison rooms or audience halls used for Paul are not identified as certain."
+  },
+  {
+    "id": "source-damascus-b9",
+    "title": "Roman Damascus urban-topography research",
+    "kind": "modern-scholarship",
+    "notes": "Supports Damascus and the east-west Roman street axis underlying later Straight Street. Acts’ house of Judas and exact conversion location are not recoverable."
+  },
+  {
+    "id": "source-malta-navigation-b9",
+    "title": "Acts 27 ancient-navigation and Malta shipwreck scholarship",
+    "kind": "modern-scholarship",
+    "notes": "Used to model the voyage as a schematic maritime route. Malta is the mainstream identification of Melite; the exact wreck bay and anchors are not archaeologically demonstrated by Acts."
+  },
+  {
+    "id": "source-roman-mediterranean-navigation",
+    "title": "Ancient Mediterranean sailing and Roman maritime transport — historical synthesis",
+    "kind": "modern-scholarship",
+    "notes": "Supports seasonal sailing constraints and broad corridors only; winds and currents make any single drawn track illustrative."
+  },
+  {
+    "id": "source-rome-b9",
+    "title": "First-century Rome archaeological and historical topography",
+    "kind": "modern-scholarship",
+    "notes": "Supports Rome, Via Appia approaches, and urban context. Acts gives no recoverable address for Paul’s rented lodging."
+  },
+  {
+    "id": "source-colossae-lycus-b9",
+    "title": "Lycus Valley cities — Colossae, Laodicea, Hierapolis historical geography",
+    "kind": "modern-scholarship",
+    "notes": "Supports recipient geography for Pauline/Deutero-Pauline letters without claiming Acts narrates a visit to Colossae."
+  },
+  {
+    "id": "source-claudian-famine-b9",
+    "title": "Claudian famine in Judea — Josephus and Roman-era chronological synthesis",
+    "kind": "modern-scholarship",
+    "notes": "Relates Josephus’s famine notices to the broad Claudian period. It does not prove that every famine reference in Acts has one recoverable calendar year."
+  },
+  {
+    "id": "source-paul-chronology-b9",
+    "title": "Pauline chronology — modern critical synthesis",
+    "kind": "modern-scholarship",
+    "notes": "Uses Gallio as the strongest external anchor while treating most conversion, council, journey, arrest, Festus-accession, and voyage dates as conventional ranges rather than exact years."
+  }
+]

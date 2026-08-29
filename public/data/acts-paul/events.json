@@ -1,0 +1,1457 @@
+[
+  {
+    "id": "event-ascension-acts",
+    "title": "Ascension narrative from the Mount of Olives",
+    "summary": "Acts begins with Jesus’ departure from the disciples and their return from the Mount of Olives to Jerusalem. The exact point on the ridge is not identified.",
+    "confidence": "moderate",
+    "placeIds": [
+      "mount-olives",
+      "jerusalem"
+    ],
+    "personIds": [
+      "jesus",
+      "peter"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 1,
+        "label": "Acts 1:6–12",
+        "verseStart": 6,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "dating": {
+      "label": "after the resurrection narratives; absolute year debated",
+      "basis": "textual"
+    },
+    "historicalNote": "The atlas maps the named landscape without claiming archaeology can adjudicate the supernatural event or identify an exact footprint."
+  },
+  {
+    "id": "event-matthias-chosen",
+    "title": "Matthias chosen among the Twelve",
+    "summary": "Acts places the selection of Matthias within the Jerusalem community before Pentecost.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "upper-room-jerusalem"
+    ],
+    "personIds": [
+      "peter",
+      "matthias"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 1,
+        "label": "Acts 1:15–26",
+        "verseStart": 15,
+        "verseEnd": 26
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "The upper-room building is not archaeologically identified."
+  },
+  {
+    "id": "event-pentecost-acts",
+    "title": "Pentecost in Jerusalem",
+    "summary": "Acts 2 narrates the Spirit coming upon the gathered disciples during Pentecost and a multilingual crowd in Jerusalem.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem"
+    ],
+    "personIds": [
+      "peter",
+      "jesus"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 2,
+        "label": "Acts 2:1–41",
+        "verseStart": 1,
+        "verseEnd": 41
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "dating": {
+      "label": "Pentecost after Jesus’ death; commonly placed c. 30–33 CE",
+      "basis": "approximate",
+      "from": 30,
+      "to": 33,
+      "note": "Absolute chronology depends on the debated year of Jesus’ death."
+    },
+    "historicalNote": "Jerusalem is secure; Acts does not give a recoverable street address for the initial gathering."
+  },
+  {
+    "id": "event-beautiful-gate",
+    "title": "Healing at the Beautiful Gate",
+    "summary": "Acts 3 places Peter and John at a gate called Beautiful and then Solomon’s Portico.",
+    "confidence": "moderate",
+    "placeIds": [
+      "beautiful-gate-temple",
+      "solomons-portico-acts",
+      "temple-mount"
+    ],
+    "personIds": [
+      "peter"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 3,
+        "label": "Acts 3:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "The Herodian Temple complex is secure; the exact gate identity is disputed."
+  },
+  {
+    "id": "event-stephen-martyrdom",
+    "title": "Stephen’s speech and stoning",
+    "summary": "Acts 6–7 culminates with Stephen taken outside the city and stoned.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "stephen-stoning-site"
+    ],
+    "personIds": [
+      "stephen",
+      "paul"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 6,
+        "label": "Acts 6:8–15",
+        "verseStart": 8,
+        "verseEnd": 15
+      },
+      {
+        "book": "Acts",
+        "chapter": 7,
+        "label": "Acts 7:54–60",
+        "verseStart": 54,
+        "verseEnd": 60
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "Paul/Saul is portrayed as approving the execution. No exact execution site is recoverable."
+  },
+  {
+    "id": "event-philip-samaria",
+    "title": "Philip in Samaria",
+    "summary": "Acts 8 narrates Philip preaching in a city of Samaria before later travel south.",
+    "confidence": "moderate",
+    "placeIds": [
+      "samaria-region-gospels"
+    ],
+    "personIds": [
+      "philip-evangelist"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 8,
+        "label": "Acts 8:4–25",
+        "verseStart": 4,
+        "verseEnd": 25
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "Acts says “a city of Samaria” in many translations/manuscript interpretations; the atlas does not force the episode into the city of Sebaste as certain."
+  },
+  {
+    "id": "event-philip-eunuch",
+    "title": "Philip and the Ethiopian official on the Gaza road",
+    "summary": "Acts places the encounter on the road from Jerusalem to Gaza, described as desert/deserted. The exact road segment is unknown.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "gaza"
+    ],
+    "personIds": [
+      "philip-evangelist"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 8,
+        "label": "Acts 8:26–39",
+        "verseStart": 26,
+        "verseEnd": 39
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "No exact road segment is pinned. Ancient Jerusalem–Gaza travel could use more than one corridor."
+  },
+  {
+    "id": "event-saul-damascus",
+    "title": "Saul’s Damascus-road encounter and entry into Damascus",
+    "summary": "Acts narrates Saul approaching Damascus, experiencing a revelatory encounter, and entering the city blind.",
+    "confidence": "moderate",
+    "placeIds": [
+      "damascus",
+      "straight-street-damascus",
+      "house-judas-damascus"
+    ],
+    "personIds": [
+      "paul",
+      "ananias-damascus"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 9,
+        "label": "Acts 9:1–19",
+        "verseStart": 1,
+        "verseEnd": 19
+      },
+      {
+        "book": "Acts",
+        "chapter": 22,
+        "label": "Acts 22:6–16",
+        "verseStart": 6,
+        "verseEnd": 16
+      },
+      {
+        "book": "Acts",
+        "chapter": 26,
+        "label": "Acts 26:12–18",
+        "verseStart": 12,
+        "verseEnd": 18
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "dating": {
+      "label": "commonly placed c. 33–36 CE",
+      "basis": "approximate",
+      "from": 33,
+      "to": 36,
+      "note": "Pauline chronology is reconstructed; no exact year is stated."
+    },
+    "historicalNote": "Damascus is certain; the exact road approach and encounter location are not. Paul’s own Galatians 1 describes the calling and later Arabia/Damascus sequence without reproducing Acts’ narrative details."
+  },
+  {
+    "id": "event-paul-arabia",
+    "title": "Paul’s visit to “Arabia” in Galatians",
+    "summary": "Paul says in Galatians that after his calling he went to Arabia and returned to Damascus.",
+    "confidence": "moderate",
+    "placeIds": [
+      "arabia-galatians",
+      "damascus"
+    ],
+    "personIds": [
+      "paul"
+    ],
+    "scripture": [
+      {
+        "book": "Galatians",
+        "chapter": 1,
+        "label": "Galatians 1:15–18",
+        "verseStart": 15,
+        "verseEnd": 18
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-pauline-canonical",
+      "source-paul-chronology-b9"
+    ],
+    "historicalNote": "Acts does not narrate this Arabian interval. Its location, duration, and relationship to Nabataean territory remain debated."
+  },
+  {
+    "id": "event-paul-damascus-escape",
+    "title": "Paul’s escape from Damascus",
+    "summary": "Acts and 2 Corinthians preserve related escape traditions from Damascus.",
+    "confidence": "moderate",
+    "placeIds": [
+      "damascus"
+    ],
+    "personIds": [
+      "paul"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 9,
+        "label": "Acts 9:23–25",
+        "verseStart": 23,
+        "verseEnd": 25
+      },
+      {
+        "book": "2 Corinthians",
+        "chapter": 11,
+        "label": "2 Corinthians 11:32–33",
+        "verseStart": 32,
+        "verseEnd": 33
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-pauline-canonical"
+    ],
+    "historicalNote": "2 Corinthians mentions an ethnarch under Aretas; the political interpretation and exact chronology are debated."
+  },
+  {
+    "id": "event-cornelius",
+    "title": "Peter and Cornelius at Caesarea",
+    "summary": "Acts 10–11 links Peter at Joppa with Cornelius at Caesarea in a pivotal Gentile-inclusion narrative.",
+    "confidence": "moderate",
+    "placeIds": [
+      "joppa",
+      "caesarea-maritima"
+    ],
+    "personIds": [
+      "peter",
+      "cornelius"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 10,
+        "label": "Acts 10:1–48",
+        "verseStart": 1,
+        "verseEnd": 48
+      },
+      {
+        "book": "Acts",
+        "chapter": 11,
+        "label": "Acts 11:1–18",
+        "verseStart": 1,
+        "verseEnd": 18
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "Both cities are secure; Cornelius’s house is not archaeologically identified."
+  },
+  {
+    "id": "event-antioch-christians",
+    "title": "Antioch community and the name “Christians”",
+    "summary": "Acts 11 presents Antioch as a major mixed community and says disciples were first called Christians there.",
+    "confidence": "moderate",
+    "placeIds": [
+      "antioch-orontes"
+    ],
+    "personIds": [
+      "barnabas",
+      "paul"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 11,
+        "label": "Acts 11:19–26",
+        "verseStart": 19,
+        "verseEnd": 26
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "Antioch is secure; Acts is the literary source for the naming notice."
+  },
+  {
+    "id": "event-claudian-famine",
+    "title": "Claudian famine and Judean relief context",
+    "summary": "Acts 11 associates Agabus with a famine prediction and relief sent from Antioch; Josephus independently describes severe famine in Judea during Claudius’s reign.",
+    "confidence": "moderate",
+    "placeIds": [
+      "antioch-orontes",
+      "jerusalem"
+    ],
+    "personIds": [
+      "agabus",
+      "barnabas",
+      "paul",
+      "claudius-emperor"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 11,
+        "label": "Acts 11:27–30",
+        "verseStart": 27,
+        "verseEnd": 30
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant20-b9",
+      "source-claudian-famine-b9"
+    ],
+    "dating": {
+      "label": "mid-40s CE; commonly c. 46–48",
+      "basis": "approximate",
+      "from": 46,
+      "to": 48
+    },
+    "historicalNote": "The independent famine context is real, but matching every literary notice to one exact year is uncertain."
+  },
+  {
+    "id": "event-agrippa-persecution",
+    "title": "Agrippa I persecutes Jerusalem leaders",
+    "summary": "Acts 12 says Agrippa I executes James son of Zebedee and imprisons Peter.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem"
+    ],
+    "personIds": [
+      "herod-agrippa-i",
+      "james-zebedee",
+      "peter"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 12,
+        "label": "Acts 12:1–19",
+        "verseStart": 1,
+        "verseEnd": 19
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant19-b9"
+    ],
+    "historicalNote": "Agrippa I’s rule is independently attested; the prison-escape narrative is known from Acts."
+  },
+  {
+    "id": "event-agrippa-death-44",
+    "title": "Death of Agrippa I at Caesarea",
+    "summary": "Acts 12 and Josephus Antiquities 19 both place Agrippa I’s final illness/death at Caesarea, though narrative details and emphases differ.",
+    "confidence": "high",
+    "placeIds": [
+      "caesarea-maritima"
+    ],
+    "personIds": [
+      "herod-agrippa-i"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 12,
+        "label": "Acts 12:20–23",
+        "verseStart": 20,
+        "verseEnd": 23
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant19-b9"
+    ],
+    "dating": {
+      "label": "44 CE",
+      "basis": "historical",
+      "from": 44,
+      "to": 44
+    },
+    "historicalNote": "The shared Caesarea setting and 44 CE death are strong historical anchors; the sources are not identical accounts."
+  },
+  {
+    "id": "event-first-journey",
+    "title": "First missionary journey from Antioch",
+    "summary": "Acts 13–14 narrates Barnabas and Paul traveling from Antioch through Cyprus and south-central Anatolia and returning.",
+    "confidence": "moderate",
+    "placeIds": [
+      "antioch-orontes",
+      "seleucia-pieria",
+      "salamis-cyprus",
+      "paphos",
+      "perga",
+      "pisidian-antioch",
+      "iconium",
+      "lystra",
+      "derbe-acts",
+      "attalia"
+    ],
+    "personIds": [
+      "paul",
+      "barnabas",
+      "john-mark"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:1–52",
+        "verseStart": 1,
+        "verseEnd": 52
+      },
+      {
+        "book": "Acts",
+        "chapter": 14,
+        "label": "Acts 14:1–28",
+        "verseStart": 1,
+        "verseEnd": 28
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "dating": {
+      "label": "commonly c. 46–48 CE",
+      "basis": "conventional",
+      "from": 46,
+      "to": 48
+    },
+    "historicalNote": "The city sequence is textual. Exact roads and dates are reconstructed; Derbe’s modern site identification remains disputed."
+  },
+  {
+    "id": "event-sergius-paulus",
+    "title": "Sergius Paulus at Paphos",
+    "summary": "Acts names Sergius Paulus as proconsul of Cyprus during the Paphos episode.",
+    "confidence": "moderate",
+    "placeIds": [
+      "paphos"
+    ],
+    "personIds": [
+      "sergius-paulus",
+      "elymas",
+      "paul",
+      "barnabas"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:6–12",
+        "verseStart": 6,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "The proconsular office fits Roman Cyprus; inscriptions bearing related names do not by themselves conclusively identify the Acts individual."
+  },
+  {
+    "id": "event-lystra-stoning",
+    "title": "Paul stoned at Lystra",
+    "summary": "Acts 14 narrates Paul being stoned and left outside Lystra before continuing to Derbe.",
+    "confidence": "moderate",
+    "placeIds": [
+      "lystra",
+      "derbe-acts"
+    ],
+    "personIds": [
+      "paul",
+      "barnabas"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 14,
+        "label": "Acts 14:19–21",
+        "verseStart": 19,
+        "verseEnd": 21
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "Lystra’s site identification is probable; the exact stoning spot is not recoverable."
+  },
+  {
+    "id": "event-jerusalem-council",
+    "title": "Jerusalem Council / apostolic meeting",
+    "summary": "Acts 15 narrates a Jerusalem meeting over Gentile inclusion and Torah obligations.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem"
+    ],
+    "personIds": [
+      "paul",
+      "barnabas",
+      "peter",
+      "james-brother-jesus",
+      "titus"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 15,
+        "label": "Acts 15:1–35",
+        "verseStart": 1,
+        "verseEnd": 35
+      },
+      {
+        "book": "Galatians",
+        "chapter": 2,
+        "label": "Galatians 2:1–10",
+        "verseStart": 1,
+        "verseEnd": 10
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-pauline-canonical",
+      "source-paul-chronology-b9"
+    ],
+    "dating": {
+      "label": "commonly c. 48–50 CE",
+      "basis": "conventional",
+      "from": 48,
+      "to": 50
+    },
+    "historicalNote": "The relationship between Acts 15 and Paul’s Jerusalem visit in Galatians 2 is debated; the atlas cross-references them without declaring them identical."
+  },
+  {
+    "id": "event-second-journey",
+    "title": "Second missionary journey",
+    "summary": "Acts 15:36–18:22 narrates Paul and Silas through Syria/Cilicia and Anatolia, the crossing to Macedonia, Achaia, and return via Ephesus/Caesarea.",
+    "confidence": "moderate",
+    "placeIds": [
+      "antioch-orontes",
+      "tarsus",
+      "lystra",
+      "alexandria-troas",
+      "philippi",
+      "thessalonica",
+      "berea-macedonia",
+      "athens",
+      "corinth",
+      "ephesus",
+      "caesarea-maritima"
+    ],
+    "personIds": [
+      "paul",
+      "silas",
+      "timothy",
+      "lydia",
+      "priscilla",
+      "aquila"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 15,
+        "label": "Acts 15:36–41",
+        "verseStart": 36,
+        "verseEnd": 41
+      },
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16",
+        "verseStart": 1
+      },
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17",
+        "verseStart": 1
+      },
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:1–22",
+        "verseStart": 1,
+        "verseEnd": 22
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "dating": {
+      "label": "commonly c. 49–52 CE",
+      "basis": "conventional",
+      "from": 49,
+      "to": 52
+    },
+    "historicalNote": "The sequence is textual; dates and the inland Anatolian road choices remain reconstructed."
+  },
+  {
+    "id": "event-philippi-lydia",
+    "title": "Lydia and the Philippian riverside gathering",
+    "summary": "Acts 16 narrates Lydia’s encounter with Paul’s group by a river outside Philippi.",
+    "confidence": "moderate",
+    "placeIds": [
+      "philippi",
+      "gangites-prayer-place"
+    ],
+    "personIds": [
+      "paul",
+      "silas",
+      "timothy",
+      "lydia"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:11–15",
+        "verseStart": 11,
+        "verseEnd": 15
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "Philippi is secure; the exact riverside gathering spot is not."
+  },
+  {
+    "id": "event-philippi-prison",
+    "title": "Paul and Silas imprisoned at Philippi",
+    "summary": "Acts narrates imprisonment, an earthquake, and release after the magistrates learn Paul and Silas are Roman citizens.",
+    "confidence": "moderate",
+    "placeIds": [
+      "philippi",
+      "philippi-prison"
+    ],
+    "personIds": [
+      "paul",
+      "silas",
+      "lydia"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 16,
+        "label": "Acts 16:16–40",
+        "verseStart": 16,
+        "verseEnd": 40
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "The prison building is not archaeologically identified."
+  },
+  {
+    "id": "event-thessalonica-berea",
+    "title": "Thessalonica and Berea",
+    "summary": "Acts 17 narrates synagogue activity and opposition in Thessalonica followed by a move to Berea.",
+    "confidence": "moderate",
+    "placeIds": [
+      "thessalonica",
+      "berea-macedonia"
+    ],
+    "personIds": [
+      "paul",
+      "silas",
+      "timothy",
+      "jason-thessalonica"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17:1–15",
+        "verseStart": 1,
+        "verseEnd": 15
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "event-athens-areopagus",
+    "title": "Paul in Athens and the Areopagus address",
+    "summary": "Acts 17 narrates Paul in the agora and before/at the Areopagus, engaging philosophical audiences.",
+    "confidence": "moderate",
+    "placeIds": [
+      "athens",
+      "areopagus-athens"
+    ],
+    "personIds": [
+      "paul",
+      "dionysius-areopagite",
+      "damaris"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 17,
+        "label": "Acts 17:16–34",
+        "verseStart": 16,
+        "verseEnd": 34
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "The physical hill is known; “Areopagus” can also denote the council, so the exact speech location remains interpretive."
+  },
+  {
+    "id": "event-claudius-expulsion",
+    "title": "Aquila and Priscilla leave Rome under Claudius",
+    "summary": "Acts 18 says Aquila had recently come from Italy because Claudius ordered Jews to leave Rome. Suetonius preserves a related expulsion/disturbance notice.",
+    "confidence": "moderate",
+    "placeIds": [
+      "rome",
+      "corinth"
+    ],
+    "personIds": [
+      "claudius-emperor",
+      "aquila",
+      "priscilla"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:1–3",
+        "verseStart": 1,
+        "verseEnd": 3
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-suetonius-claudius25",
+      "source-paul-chronology-b9"
+    ],
+    "dating": {
+      "label": "commonly c. 49 CE",
+      "basis": "approximate",
+      "from": 49,
+      "to": 49
+    },
+    "historicalNote": "The exact date is usually placed around 49 CE, but Suetonius does not date the episode precisely and “Chrestus” is historically debated."
+  },
+  {
+    "id": "event-gallio-corinth",
+    "title": "Paul before Gallio at Corinth",
+    "summary": "Acts 18 places a legal accusation against Paul before Gallio, proconsul of Achaia.",
+    "confidence": "high",
+    "placeIds": [
+      "corinth",
+      "corinth-bema"
+    ],
+    "personIds": [
+      "paul",
+      "gallio",
+      "sosthenes",
+      "crispus"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:12–17",
+        "verseStart": 12,
+        "verseEnd": 17
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-gallio-inscription",
+      "source-corinth-b9",
+      "source-paul-chronology-b9"
+    ],
+    "dating": {
+      "label": "Gallio proconsulship c. 51–52 CE",
+      "basis": "historical",
+      "from": 51,
+      "to": 52
+    },
+    "historicalNote": "Gallio’s proconsulship is externally anchored by the Delphi inscription, but the inscription itself does not mention Paul and the exact hearing spot within Corinth is not proven."
+  },
+  {
+    "id": "event-third-journey",
+    "title": "Third missionary journey and return to Jerusalem",
+    "summary": "Acts 18:23–21:17 narrates travel through Galatia/Phrygia, an extended stay at Ephesus, Macedonia/Greece, Troas, the Aegean coast, and return to Jerusalem.",
+    "confidence": "moderate",
+    "placeIds": [
+      "antioch-orontes",
+      "galatia-region-paul",
+      "ephesus",
+      "alexandria-troas",
+      "miletus",
+      "tyre",
+      "ptolemais-akko",
+      "caesarea-maritima",
+      "jerusalem"
+    ],
+    "personIds": [
+      "paul",
+      "timothy",
+      "aristarchus",
+      "trophimus"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 18,
+        "label": "Acts 18:23",
+        "verseStart": 23
+      },
+      {
+        "book": "Acts",
+        "chapter": 19,
+        "label": "Acts 19",
+        "verseStart": 1
+      },
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20",
+        "verseStart": 1
+      },
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:1–17",
+        "verseStart": 1,
+        "verseEnd": 17
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "dating": {
+      "label": "commonly c. 52/53–57/58 CE",
+      "basis": "conventional",
+      "from": 52,
+      "to": 58
+    },
+    "historicalNote": "The textual itinerary is strong at named stops; exact inland roads and sailing tracks are reconstructed."
+  },
+  {
+    "id": "event-ephesus-ministry",
+    "title": "Extended ministry at Ephesus",
+    "summary": "Acts 19 describes Paul teaching in Ephesus for an extended period, including a hall associated with Tyrannus.",
+    "confidence": "moderate",
+    "placeIds": [
+      "ephesus",
+      "hall-tyrannus"
+    ],
+    "personIds": [
+      "paul",
+      "tyrannus",
+      "timothy"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 19,
+        "label": "Acts 19:1–22",
+        "verseStart": 1,
+        "verseEnd": 22
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "Ephesus is secure; the lecture hall is unlocated and exact chronology is reconstructed."
+  },
+  {
+    "id": "event-ephesus-riot",
+    "title": "Ephesus theater disturbance",
+    "summary": "Acts 19 narrates a crowd gathering in the theater amid conflict involving artisans and the Artemis cult.",
+    "confidence": "moderate",
+    "placeIds": [
+      "ephesus",
+      "ephesus-theater",
+      "artemision-ephesus"
+    ],
+    "personIds": [
+      "paul",
+      "demetrius-ephesus",
+      "aristarchus"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 19,
+        "label": "Acts 19:23–41",
+        "verseStart": 23,
+        "verseEnd": 41
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "The theater and Artemision are archaeological facts; the narrative episode is known from Acts."
+  },
+  {
+    "id": "event-troas-eutychus",
+    "title": "Eutychus at Troas",
+    "summary": "Acts 20 narrates a nighttime gathering at Troas and Eutychus falling from an upper story.",
+    "confidence": "moderate",
+    "placeIds": [
+      "alexandria-troas"
+    ],
+    "personIds": [
+      "paul",
+      "eutychus",
+      "timothy"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:5–12",
+        "verseStart": 5,
+        "verseEnd": 12
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "Troas is secure; the building is not identified."
+  },
+  {
+    "id": "event-miletus-farewell",
+    "title": "Farewell to Ephesian elders at Miletus",
+    "summary": "Acts 20 places Paul at Miletus summoning elders from Ephesus and giving a farewell speech.",
+    "confidence": "moderate",
+    "placeIds": [
+      "miletus",
+      "ephesus"
+    ],
+    "personIds": [
+      "paul"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 20,
+        "label": "Acts 20:17–38",
+        "verseStart": 17,
+        "verseEnd": 38
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ]
+  },
+  {
+    "id": "event-paul-jerusalem-arrest",
+    "title": "Paul’s Jerusalem arrival and arrest",
+    "summary": "Acts 21 narrates Paul’s arrival, Temple controversy, arrest by Roman forces, and subsequent hearings.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "temple-mount",
+      "antonia-fortress"
+    ],
+    "personIds": [
+      "paul",
+      "james-brother-jesus",
+      "trophimus",
+      "claudius-lysias",
+      "ananias-high-priest"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:17–40",
+        "verseStart": 17,
+        "verseEnd": 40
+      },
+      {
+        "book": "Acts",
+        "chapter": 22,
+        "label": "Acts 22",
+        "verseStart": 1
+      },
+      {
+        "book": "Acts",
+        "chapter": 23,
+        "label": "Acts 23:1–10",
+        "verseStart": 1,
+        "verseEnd": 10
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "dating": {
+      "label": "commonly c. 57–58 CE",
+      "basis": "conventional",
+      "from": 57,
+      "to": 58
+    },
+    "historicalNote": "Jerusalem/Temple/Antonia context is strong; the exact movement through the precinct and custody spaces is not recoverable."
+  },
+  {
+    "id": "event-transfer-caesarea",
+    "title": "Night transfer from Jerusalem to Caesarea",
+    "summary": "Acts 23 gives a military transfer via Antipatris to Caesarea after a plot against Paul.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jerusalem",
+      "antipatris",
+      "caesarea-maritima"
+    ],
+    "personIds": [
+      "paul",
+      "claudius-lysias",
+      "felix"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 23,
+        "label": "Acts 23:23–35",
+        "verseStart": 23,
+        "verseEnd": 35
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "The city sequence is explicit; the exact road and overnight facility are not."
+  },
+  {
+    "id": "event-paul-felix",
+    "title": "Paul before Felix at Caesarea",
+    "summary": "Acts 24 narrates a hearing before Felix and a prolonged period of custody.",
+    "confidence": "moderate",
+    "placeIds": [
+      "caesarea-maritima"
+    ],
+    "personIds": [
+      "paul",
+      "felix",
+      "drusilla",
+      "ananias-high-priest"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 24,
+        "label": "Acts 24:1–27",
+        "verseStart": 1,
+        "verseEnd": 27
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant20-b9",
+      "source-caesarea-b9"
+    ],
+    "historicalNote": "Felix and Caesarea’s administrative role are independently historical; the exact hearing room and prison location are not."
+  },
+  {
+    "id": "event-festus-agrippa",
+    "title": "Paul before Festus, Agrippa II, and Berenice",
+    "summary": "Acts 25–26 places Paul’s appeal and hearing before Festus with Agrippa II and Berenice at Caesarea.",
+    "confidence": "moderate",
+    "placeIds": [
+      "caesarea-maritima"
+    ],
+    "personIds": [
+      "paul",
+      "porcius-festus",
+      "herod-agrippa-ii",
+      "berenice"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 25,
+        "label": "Acts 25:1–27",
+        "verseStart": 1,
+        "verseEnd": 27
+      },
+      {
+        "book": "Acts",
+        "chapter": 26,
+        "label": "Acts 26:1–32",
+        "verseStart": 1,
+        "verseEnd": 32
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-josephus-ant20-b9",
+      "source-paul-chronology-b9"
+    ],
+    "dating": {
+      "label": "commonly c. 59–60 CE",
+      "basis": "approximate",
+      "from": 59,
+      "to": 60
+    },
+    "historicalNote": "Festus’s accession is historically real but its exact calendar year is debated, often placed c. 59–60 CE."
+  },
+  {
+    "id": "event-voyage-rome",
+    "title": "Voyage from Caesarea toward Rome",
+    "summary": "Acts 27–28 narrates Paul under guard traveling by sea from Caesarea through the eastern Mediterranean, shipwrecking on Melite/Malta, and continuing to Italy.",
+    "confidence": "moderate",
+    "placeIds": [
+      "caesarea-maritima",
+      "sidon-monarchy",
+      "myra",
+      "cnidus",
+      "crete-acts",
+      "fair-havens",
+      "cauda-gavdos",
+      "malta-acts",
+      "syracuse",
+      "rhegium",
+      "puteoli",
+      "rome"
+    ],
+    "personIds": [
+      "paul",
+      "julius-centurion",
+      "aristarchus"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:1–44",
+        "verseStart": 1,
+        "verseEnd": 44
+      },
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:1–16",
+        "verseStart": 1,
+        "verseEnd": 16
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-malta-navigation-b9",
+      "source-roman-mediterranean-navigation",
+      "source-paul-chronology-b9"
+    ],
+    "dating": {
+      "label": "commonly c. 59–61 CE",
+      "basis": "conventional",
+      "from": 59,
+      "to": 61
+    },
+    "historicalNote": "The named sequence is textual. The drawn sea track is illustrative because ancient wind, current, and tacking behavior prevent recovery of a single exact line."
+  },
+  {
+    "id": "event-fair-havens-decision",
+    "title": "Decision to leave Fair Havens",
+    "summary": "Acts 27 narrates debate over wintering at Fair Havens and an attempted move toward Phoenix before the storm.",
+    "confidence": "moderate",
+    "placeIds": [
+      "fair-havens",
+      "lasea",
+      "phoenix-crete"
+    ],
+    "personIds": [
+      "paul",
+      "julius-centurion"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:8–13",
+        "verseStart": 8,
+        "verseEnd": 13
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "Fair Havens/Lasea are probable identifications; Phoenix is deliberately left unpinned because harbor identification is disputed."
+  },
+  {
+    "id": "event-malta-shipwreck",
+    "title": "Shipwreck and winter on Malta",
+    "summary": "Acts narrates shipwreck on Melite, survival ashore, hospitality, and a three-month stay.",
+    "confidence": "moderate",
+    "placeIds": [
+      "malta-acts",
+      "paul-shipwreck-site"
+    ],
+    "personIds": [
+      "paul",
+      "julius-centurion",
+      "aristarchus",
+      "publius-malta"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:39–44",
+        "verseStart": 39,
+        "verseEnd": 44
+      },
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "historicalNote": "Malta is the mainstream island identification; the exact bay, wreck, anchors, and Publius estate are not established archaeological identifications."
+  },
+  {
+    "id": "event-paul-rome-house-arrest",
+    "title": "Paul under house arrest in Rome",
+    "summary": "Acts ends with Paul in Rome under guard, receiving visitors and teaching for two years.",
+    "confidence": "moderate",
+    "placeIds": [
+      "rome",
+      "paul-lodging-rome"
+    ],
+    "personIds": [
+      "paul",
+      "aristarchus"
+    ],
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:16–31",
+        "verseStart": 16,
+        "verseEnd": 31
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-rome-b9",
+      "source-paul-chronology-b9"
+    ],
+    "dating": {
+      "label": "commonly c. 60–62 CE",
+      "basis": "conventional",
+      "from": 60,
+      "to": 62
+    },
+    "historicalNote": "Rome is secure; the rented lodging is not. Acts does not narrate Paul’s death."
+  },
+  {
+    "id": "event-pauline-letter-network",
+    "title": "Pauline correspondence across the eastern Mediterranean",
+    "summary": "The Pauline letters address communities and coworkers in Rome, Corinth, Galatia, Ephesus/Asia, Philippi, Thessalonica, and the Lycus Valley. Recipient geography is often more secure than composition-place chronology.",
+    "confidence": "high",
+    "placeIds": [
+      "rome",
+      "corinth",
+      "galatia-region-paul",
+      "ephesus",
+      "philippi",
+      "thessalonica",
+      "colossae",
+      "laodicea-lycus",
+      "hierapolis"
+    ],
+    "personIds": [
+      "paul",
+      "timothy",
+      "silas",
+      "priscilla",
+      "aquila",
+      "epaphras",
+      "philemon",
+      "onesimus",
+      "titus"
+    ],
+    "scripture": [
+      {
+        "book": "Romans",
+        "chapter": 1,
+        "label": "Romans 1:7",
+        "verseStart": 7
+      },
+      {
+        "book": "1 Corinthians",
+        "chapter": 1,
+        "label": "1 Corinthians 1:2",
+        "verseStart": 2
+      },
+      {
+        "book": "Galatians",
+        "chapter": 1,
+        "label": "Galatians 1:2",
+        "verseStart": 2
+      },
+      {
+        "book": "Philippians",
+        "chapter": 1,
+        "label": "Philippians 1:1",
+        "verseStart": 1
+      },
+      {
+        "book": "1 Thessalonians",
+        "chapter": 1,
+        "label": "1 Thessalonians 1:1",
+        "verseStart": 1
+      },
+      {
+        "book": "Colossians",
+        "chapter": 1,
+        "label": "Colossians 1:2",
+        "verseStart": 2
+      }
+    ],
+    "sourceIds": [
+      "source-batch9-methodology",
+      "source-pauline-canonical",
+      "source-paul-chronology-b9",
+      "source-colossae-lycus-b9"
+    ],
+    "historicalNote": "This event-like network record visualizes recipient geography; it does not assert that every traditionally Pauline letter has the same authorship status or one exact composition site/date."
+  }
+]

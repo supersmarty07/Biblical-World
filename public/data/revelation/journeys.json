@@ -1,0 +1,274 @@
+[
+  {
+    "id": "journey-seven-churches-literary-sequence",
+    "name": "Seven Churches — textual sequence",
+    "person": "Literary sequence of the seven messages",
+    "summary": "Connects the seven churches in Revelation’s order. The line is an orientation device, not a recovered first-century itinerary.",
+    "segments": [
+      {
+        "id": "seven-1",
+        "fromPlaceId": "ephesus",
+        "toPlaceId": "smyrna",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            27.341,
+            37.94
+          ],
+          [
+            27.1428,
+            38.4237
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 1,
+            "label": "Revelation 1:11",
+            "verseStart": 11
+          },
+          {
+            "book": "Revelation",
+            "chapter": 2,
+            "label": "Revelation 2:1–29",
+            "verseStart": 1,
+            "verseEnd": 29
+          },
+          {
+            "book": "Revelation",
+            "chapter": 3,
+            "label": "Revelation 3:1–22",
+            "verseStart": 1,
+            "verseEnd": 22
+          }
+        ],
+        "sourceIds": [
+          "source-b10-methodology",
+          "source-revelation-canonical",
+          "source-barrington-revelation"
+        ],
+        "note": "Schematic connector following Revelation’s literary order. It is not evidence that John or a messenger traveled this exact line."
+      },
+      {
+        "id": "seven-2",
+        "fromPlaceId": "smyrna",
+        "toPlaceId": "pergamum",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            27.1428,
+            38.4237
+          ],
+          [
+            27.183,
+            39.132
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 1,
+            "label": "Revelation 1:11",
+            "verseStart": 11
+          },
+          {
+            "book": "Revelation",
+            "chapter": 2,
+            "label": "Revelation 2:1–29",
+            "verseStart": 1,
+            "verseEnd": 29
+          },
+          {
+            "book": "Revelation",
+            "chapter": 3,
+            "label": "Revelation 3:1–22",
+            "verseStart": 1,
+            "verseEnd": 22
+          }
+        ],
+        "sourceIds": [
+          "source-b10-methodology",
+          "source-revelation-canonical",
+          "source-barrington-revelation"
+        ],
+        "note": "Schematic connector following Revelation’s literary order. It is not evidence that John or a messenger traveled this exact line."
+      },
+      {
+        "id": "seven-3",
+        "fromPlaceId": "pergamum",
+        "toPlaceId": "thyatira",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            27.183,
+            39.132
+          ],
+          [
+            27.84,
+            38.918
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 1,
+            "label": "Revelation 1:11",
+            "verseStart": 11
+          },
+          {
+            "book": "Revelation",
+            "chapter": 2,
+            "label": "Revelation 2:1–29",
+            "verseStart": 1,
+            "verseEnd": 29
+          },
+          {
+            "book": "Revelation",
+            "chapter": 3,
+            "label": "Revelation 3:1–22",
+            "verseStart": 1,
+            "verseEnd": 22
+          }
+        ],
+        "sourceIds": [
+          "source-b10-methodology",
+          "source-revelation-canonical",
+          "source-barrington-revelation"
+        ],
+        "note": "Schematic connector following Revelation’s literary order. It is not evidence that John or a messenger traveled this exact line."
+      },
+      {
+        "id": "seven-4",
+        "fromPlaceId": "thyatira",
+        "toPlaceId": "sardis-revelation",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            27.84,
+            38.918
+          ],
+          [
+            28.041,
+            38.488
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 1,
+            "label": "Revelation 1:11",
+            "verseStart": 11
+          },
+          {
+            "book": "Revelation",
+            "chapter": 2,
+            "label": "Revelation 2:1–29",
+            "verseStart": 1,
+            "verseEnd": 29
+          },
+          {
+            "book": "Revelation",
+            "chapter": 3,
+            "label": "Revelation 3:1–22",
+            "verseStart": 1,
+            "verseEnd": 22
+          }
+        ],
+        "sourceIds": [
+          "source-b10-methodology",
+          "source-revelation-canonical",
+          "source-barrington-revelation"
+        ],
+        "note": "Schematic connector following Revelation’s literary order. It is not evidence that John or a messenger traveled this exact line."
+      },
+      {
+        "id": "seven-5",
+        "fromPlaceId": "sardis-revelation",
+        "toPlaceId": "philadelphia-asia",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            28.041,
+            38.488
+          ],
+          [
+            28.516,
+            38.35
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 1,
+            "label": "Revelation 1:11",
+            "verseStart": 11
+          },
+          {
+            "book": "Revelation",
+            "chapter": 2,
+            "label": "Revelation 2:1–29",
+            "verseStart": 1,
+            "verseEnd": 29
+          },
+          {
+            "book": "Revelation",
+            "chapter": 3,
+            "label": "Revelation 3:1–22",
+            "verseStart": 1,
+            "verseEnd": 22
+          }
+        ],
+        "sourceIds": [
+          "source-b10-methodology",
+          "source-revelation-canonical",
+          "source-barrington-revelation"
+        ],
+        "note": "Schematic connector following Revelation’s literary order. It is not evidence that John or a messenger traveled this exact line."
+      },
+      {
+        "id": "seven-6",
+        "fromPlaceId": "philadelphia-asia",
+        "toPlaceId": "laodicea-lycus",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            28.516,
+            38.35
+          ],
+          [
+            29.107,
+            37.835
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Revelation",
+            "chapter": 1,
+            "label": "Revelation 1:11",
+            "verseStart": 11
+          },
+          {
+            "book": "Revelation",
+            "chapter": 2,
+            "label": "Revelation 2:1–29",
+            "verseStart": 1,
+            "verseEnd": 29
+          },
+          {
+            "book": "Revelation",
+            "chapter": 3,
+            "label": "Revelation 3:1–22",
+            "verseStart": 1,
+            "verseEnd": 22
+          }
+        ],
+        "sourceIds": [
+          "source-b10-methodology",
+          "source-revelation-canonical",
+          "source-barrington-revelation"
+        ],
+        "note": "Schematic connector following Revelation’s literary order. It is not evidence that John or a messenger traveled this exact line."
+      }
+    ]
+  }
+]

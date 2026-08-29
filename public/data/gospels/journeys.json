@@ -1,0 +1,787 @@
+[
+  {
+    "id": "journey-matthew-infancy",
+    "name": "Matthew infancy geography — Bethlehem, Egypt, Nazareth",
+    "person": "Jesus’ family",
+    "personId": "jesus",
+    "character": "jesus",
+    "summary": "Generalized visualization of Matthew’s Bethlehem → Egypt → Nazareth sequence. Egypt is a regional destination because no Egyptian settlement is named.",
+    "segments": [
+      {
+        "id": "matt-bethlehem-egypt",
+        "fromPlaceId": "bethlehem-judah",
+        "toPlaceId": "egypt",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.203,
+            31.705
+          ],
+          [
+            34.8,
+            31.4
+          ],
+          [
+            34.3,
+            31.1
+          ],
+          [
+            33.4,
+            30.8
+          ],
+          [
+            32.4,
+            30.5
+          ],
+          [
+            31.3,
+            30.1
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 2,
+            "label": "Matthew 2:13–15",
+            "verseStart": 13,
+            "verseEnd": 15
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "note": "Textual destination sequence is known; the polyline is only a generalized corridor and does not choose a Sinai crossing or Egyptian residence."
+      },
+      {
+        "id": "matt-egypt-nazareth",
+        "fromPlaceId": "egypt",
+        "toPlaceId": "nazareth",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            31.3,
+            30.1
+          ],
+          [
+            32.4,
+            30.5
+          ],
+          [
+            33.5,
+            31.0
+          ],
+          [
+            34.5,
+            31.5
+          ],
+          [
+            35.0,
+            32.1
+          ],
+          [
+            35.3035,
+            32.6996
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Matthew",
+            "chapter": 2,
+            "label": "Matthew 2:19–23",
+            "verseStart": 19,
+            "verseEnd": 23
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "note": "Return to the land and settlement at Nazareth are textual; the exact route is unknown."
+      }
+    ]
+  },
+  {
+    "id": "journey-luke-infancy",
+    "name": "Luke infancy geography — Nazareth, Bethlehem, Jerusalem, Nazareth",
+    "person": "Jesus’ family",
+    "personId": "jesus",
+    "character": "jesus",
+    "summary": "Visualization of Luke’s distinct infancy sequence without merging it into Matthew’s Egypt narrative.",
+    "segments": [
+      {
+        "id": "luke-nazareth-bethlehem",
+        "fromPlaceId": "nazareth",
+        "toPlaceId": "bethlehem-judah",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.3035,
+            32.6996
+          ],
+          [
+            35.25,
+            32.2
+          ],
+          [
+            35.23,
+            31.9
+          ],
+          [
+            35.203,
+            31.705
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Luke",
+            "chapter": 2,
+            "label": "Luke 2:1–7",
+            "verseStart": 1,
+            "verseEnd": 7
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "note": "Nazareth-to-Bethlehem movement is textual; exact roads and stops are reconstructed."
+      },
+      {
+        "id": "luke-bethlehem-jerusalem",
+        "fromPlaceId": "bethlehem-judah",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.203,
+            31.705
+          ],
+          [
+            35.21,
+            31.74
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Luke",
+            "chapter": 2,
+            "label": "Luke 2:22–38",
+            "verseStart": 22,
+            "verseEnd": 38
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical"
+        ],
+        "note": "Presentation in Jerusalem is textual; the line is generalized."
+      },
+      {
+        "id": "luke-jerusalem-nazareth",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "nazareth",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            35.25,
+            32.0
+          ],
+          [
+            35.28,
+            32.35
+          ],
+          [
+            35.3035,
+            32.6996
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Luke",
+            "chapter": 2,
+            "label": "Luke 2:39",
+            "verseStart": 39
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "note": "Return to Nazareth is textual; exact road is not recovered."
+      }
+    ]
+  },
+  {
+    "id": "journey-cana-capernaum",
+    "name": "Cana to Capernaum in John 2",
+    "person": "Jesus",
+    "personId": "jesus",
+    "character": "jesus",
+    "summary": "Short Johannine sequence from Cana to Capernaum. Because Cana is disputed, the animated line uses candidate Khirbet Qana only as an explicit visualization hypothesis.",
+    "segments": [
+      {
+        "id": "qana-capernaum",
+        "fromPlaceId": "khirbet-qana",
+        "toPlaceId": "capernaum",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.314,
+            32.806
+          ],
+          [
+            35.39,
+            32.82
+          ],
+          [
+            35.48,
+            32.84
+          ],
+          [
+            35.575,
+            32.881
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 2,
+            "label": "John 2:12",
+            "verseStart": 12
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-cana-research"
+        ],
+        "note": "Khirbet Qana is a candidate, not a settled identification; the route is illustrative."
+      }
+    ]
+  },
+  {
+    "id": "journey-john4-samaria",
+    "name": "John 4 — Judea through Samaria toward Galilee",
+    "person": "Jesus",
+    "personId": "jesus",
+    "character": "jesus",
+    "summary": "Generalized visualization of John’s journey north through Samaria. Askar is used only as a candidate anchor for Sychar.",
+    "segments": [
+      {
+        "id": "john4-jerusalem-askar",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "askar-sychar-candidate",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            35.24,
+            31.95
+          ],
+          [
+            35.25,
+            32.08
+          ],
+          [
+            35.296,
+            32.216
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 4,
+            "label": "John 4:3–6",
+            "verseStart": 3,
+            "verseEnd": 6
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-samaria-nt"
+        ],
+        "note": "The through-Samaria sequence is textual; Askar and the line are interpretive visualization choices."
+      },
+      {
+        "id": "john4-askar-cana",
+        "fromPlaceId": "askar-sychar-candidate",
+        "toPlaceId": "khirbet-qana",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.296,
+            32.216
+          ],
+          [
+            35.3,
+            32.4
+          ],
+          [
+            35.31,
+            32.6
+          ],
+          [
+            35.314,
+            32.806
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "John",
+            "chapter": 4,
+            "label": "John 4:43–46",
+            "verseStart": 43,
+            "verseEnd": 46
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-samaria-nt"
+        ],
+        "note": "John proceeds into Galilee and names Cana; both the Sychar and Cana endpoints use candidate anchors rather than claims of certainty."
+      }
+    ]
+  },
+  {
+    "id": "journey-northern-ministry",
+    "name": "Northern ministry corridor — Galilee, Phoenicia, Caesarea Philippi",
+    "person": "Jesus",
+    "personId": "jesus",
+    "character": "jesus",
+    "summary": "Generalized Synoptic orientation linking Galilee with Tyre/Sidon and the Caesarea Philippi district.",
+    "segments": [
+      {
+        "id": "north-capernaum-tyre",
+        "fromPlaceId": "capernaum",
+        "toPlaceId": "tyre",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.575,
+            32.881
+          ],
+          [
+            35.45,
+            33.0
+          ],
+          [
+            35.3,
+            33.12
+          ],
+          [
+            35.2,
+            33.27
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 7,
+            "label": "Mark 7:24",
+            "verseStart": 24
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "note": "Named regional sequence only; exact path is unknown."
+      },
+      {
+        "id": "north-tyre-sidon",
+        "fromPlaceId": "tyre",
+        "toPlaceId": "sidon-monarchy",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.2,
+            33.27
+          ],
+          [
+            35.22,
+            33.4
+          ],
+          [
+            35.29,
+            33.56
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 7,
+            "label": "Mark 7:24–31",
+            "verseStart": 24,
+            "verseEnd": 31
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "note": "Generalized coastal corridor."
+      },
+      {
+        "id": "north-sidon-panium",
+        "fromPlaceId": "sidon-monarchy",
+        "toPlaceId": "panium",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.29,
+            33.56
+          ],
+          [
+            35.45,
+            33.5
+          ],
+          [
+            35.6,
+            33.4
+          ],
+          [
+            35.694,
+            33.249
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 8,
+            "label": "Mark 8:27",
+            "verseStart": 27
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "note": "The Gospel sequence is not a turn-by-turn itinerary; the polyline is orientation only."
+      }
+    ]
+  },
+  {
+    "id": "journey-final-jerusalem",
+    "name": "Final approach — Galilee through Jericho to Jerusalem",
+    "person": "Jesus",
+    "personId": "jesus",
+    "character": "jesus",
+    "summary": "Generalized long-distance final-journey visualization using the strong Jericho-to-Jerusalem sequence without pretending the Synoptic travel material is one modern GPS itinerary.",
+    "segments": [
+      {
+        "id": "final-capernaum-jericho",
+        "fromPlaceId": "capernaum",
+        "toPlaceId": "jericho",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.575,
+            32.881
+          ],
+          [
+            35.58,
+            32.5
+          ],
+          [
+            35.55,
+            32.15
+          ],
+          [
+            35.5,
+            31.9
+          ],
+          [
+            35.444,
+            31.872
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 10,
+            "label": "Mark 10:1–46",
+            "verseStart": 1,
+            "verseEnd": 46
+          },
+          {
+            "book": "Luke",
+            "chapter": 18,
+            "label": "Luke 18:31–35",
+            "verseStart": 31,
+            "verseEnd": 35
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "note": "The broad southward movement is textual; route and stops are generalized."
+      },
+      {
+        "id": "final-jericho-bethany",
+        "fromPlaceId": "jericho",
+        "toPlaceId": "bethany-judea",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.444,
+            31.872
+          ],
+          [
+            35.38,
+            31.84
+          ],
+          [
+            35.31,
+            31.8
+          ],
+          [
+            35.261,
+            31.771
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 10,
+            "label": "Mark 10:46",
+            "verseStart": 46
+          },
+          {
+            "book": "Mark",
+            "chapter": 11,
+            "label": "Mark 11:1",
+            "verseStart": 1
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-second-temple-atlas"
+        ],
+        "note": "Generalized ascent corridor from the Jericho region toward the Mount of Olives."
+      },
+      {
+        "id": "final-bethany-jerusalem",
+        "fromPlaceId": "bethany-judea",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.261,
+            31.771
+          ],
+          [
+            35.248,
+            31.776
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 11,
+            "label": "Mark 11:1–11",
+            "verseStart": 1,
+            "verseEnd": 11
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical"
+        ],
+        "note": "Bethany/Mount of Olives/Jerusalem sequence is textual; exact path within the ridge is generalized."
+      }
+    ]
+  },
+  {
+    "id": "journey-final-week",
+    "name": "Final-week movements — Bethany, Mount of Olives, Jerusalem",
+    "person": "Jesus",
+    "personId": "jesus",
+    "character": "jesus",
+    "summary": "Compact visualization of repeated movement between Bethany, the Mount of Olives and Jerusalem during the final week.",
+    "segments": [
+      {
+        "id": "week-bethany-olives",
+        "fromPlaceId": "bethany-judea",
+        "toPlaceId": "mount-olives",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.261,
+            31.771
+          ],
+          [
+            35.252,
+            31.776
+          ],
+          [
+            35.245,
+            31.779
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 11,
+            "label": "Mark 11:1",
+            "verseStart": 1
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical"
+        ],
+        "note": "Short ridge movement generalized; exact ancient road alignment is not asserted."
+      },
+      {
+        "id": "week-olives-jerusalem",
+        "fromPlaceId": "mount-olives",
+        "toPlaceId": "jerusalem",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.245,
+            31.779
+          ],
+          [
+            35.239,
+            31.778
+          ],
+          [
+            35.235,
+            31.778
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Luke",
+            "chapter": 19,
+            "label": "Luke 19:29–44",
+            "verseStart": 29,
+            "verseEnd": 44
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical"
+        ],
+        "note": "Textually oriented approach; line is illustrative."
+      },
+      {
+        "id": "week-jerusalem-bethany",
+        "fromPlaceId": "jerusalem",
+        "toPlaceId": "bethany-judea",
+        "routeCertainty": "known-sequence",
+        "coordinates": [
+          [
+            35.235,
+            31.778
+          ],
+          [
+            35.245,
+            31.778
+          ],
+          [
+            35.261,
+            31.771
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 11,
+            "label": "Mark 11:11–12",
+            "verseStart": 11,
+            "verseEnd": 12
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical"
+        ],
+        "note": "The Gospel names an overnight return to Bethany; exact path is generalized."
+      }
+    ]
+  },
+  {
+    "id": "journey-galilee-eastshore",
+    "name": "Sea of Galilee — west/east shore ministry orientation",
+    "person": "Jesus",
+    "personId": "jesus",
+    "character": "jesus",
+    "summary": "Illustrative land-and-lake context linking Capernaum with the east-shore Gerasene/Gadarene discussion. It is not an exact storm or boat track.",
+    "segments": [
+      {
+        "id": "sea-capernaum-kursi",
+        "fromPlaceId": "capernaum",
+        "toPlaceId": "kursi-traditional",
+        "routeCertainty": "reconstructed",
+        "coordinates": [
+          [
+            35.575,
+            32.881
+          ],
+          [
+            35.6,
+            32.86
+          ],
+          [
+            35.625,
+            32.84
+          ],
+          [
+            35.65,
+            32.825
+          ]
+        ],
+        "scripture": [
+          {
+            "book": "Mark",
+            "chapter": 4,
+            "label": "Mark 4:35",
+            "verseStart": 35
+          },
+          {
+            "book": "Mark",
+            "chapter": 5,
+            "label": "Mark 5:1",
+            "verseStart": 1
+          }
+        ],
+        "sourceIds": [
+          "source-batch8-methodology",
+          "source-gospels-canonical",
+          "source-gospel-geography"
+        ],
+        "note": "The Gospel describes a crossing to the other side, but the precise landing site is disputed; Kursi is only a traditional endpoint for visualization."
+      }
+    ]
+  }
+]

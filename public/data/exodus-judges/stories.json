@@ -1,0 +1,1391 @@
+[
+  {
+    "id": "story-exodus",
+    "title": "Exodus — From Egypt to the Sea",
+    "subtitle": "Explore Rameses, disputed Pithom, the eastern Delta corridor, and why the sea crossing is intentionally not pinned to one modern location.",
+    "personId": "moses",
+    "theme": "Exodus",
+    "chapters": [
+      {
+        "id": "ex-rameses",
+        "title": "Rameses and the eastern Delta",
+        "eyebrow": "Exodus 1 · place identification vs event",
+        "description": "Pi-Ramesses at Qantir is a real Ramesside capital. Exodus uses the name Rameses, but the city’s archaeology does not by itself identify the date or labor force of the biblical story.",
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 1,
+            "verseStart": 11,
+            "verseEnd": 11,
+            "label": "Exodus 1:11"
+          },
+          {
+            "book": "Exodus",
+            "chapter": 12,
+            "verseStart": 37,
+            "verseEnd": 37,
+            "label": "Exodus 12:37"
+          }
+        ],
+        "placeId": "rameses",
+        "camera": {
+          "center": [
+            31.83,
+            30.8
+          ],
+          "zoom": 7,
+          "pitch": 25,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "ex-pithom",
+        "title": "Pithom — two major candidates",
+        "eyebrow": "Exodus 1 · disputed geography",
+        "description": "Rather than choosing Tell el-Maskhuta or Tell er-Retaba, the atlas keeps Pithom unpinned and lets both candidate sites remain visible as proposals.",
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 1,
+            "verseStart": 11,
+            "verseEnd": 11,
+            "label": "Exodus 1:11"
+          }
+        ],
+        "placeId": "pithom",
+        "camera": {
+          "center": [
+            32.1,
+            30.55
+          ],
+          "zoom": 8,
+          "pitch": 20,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "ex-departure",
+        "title": "Departure toward the wilderness",
+        "eyebrow": "Animated journey · reconstructed corridor",
+        "description": "The traveler follows a Wadi Tumilat-oriented schematic route. Succoth and Etham are textual stations without secure modern coordinates.",
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 12,
+            "verseStart": 37,
+            "verseEnd": 42,
+            "label": "Exodus 12:37–42"
+          },
+          {
+            "book": "Exodus",
+            "chapter": 13,
+            "verseStart": 20,
+            "verseEnd": 22,
+            "label": "Exodus 13:20–22"
+          }
+        ],
+        "journeyId": "journey-exodus-egypt",
+        "camera": {
+          "center": [
+            32.15,
+            30.5
+          ],
+          "zoom": 6.6,
+          "pitch": 22,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "ex-sea",
+        "title": "Yam Suph — no definitive crossing pin",
+        "eyebrow": "Exodus 14 · unresolved geography",
+        "description": "The map does not claim one discovered Red Sea/Sea of Reeds crossing. It presents eastern-Delta, Gulf of Suez, and farther-east proposal families as interpretations rather than facts.",
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 14,
+            "label": "Exodus 14"
+          },
+          {
+            "book": "Exodus",
+            "chapter": 15,
+            "verseStart": 1,
+            "verseEnd": 21,
+            "label": "Exodus 15:1–21"
+          }
+        ],
+        "placeId": "yam-suph",
+        "camera": {
+          "center": [
+            32.6,
+            30.2
+          ],
+          "zoom": 6,
+          "pitch": 18,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-sinai-wilderness",
+    "title": "Sinai & Wilderness — Covenant and Uncertainty",
+    "subtitle": "Follow the wilderness sequence while keeping Marah, Elim, Rephidim, and Mount Sinai appropriately uncertain.",
+    "personId": "moses",
+    "theme": "Exodus–Numbers",
+    "chapters": [
+      {
+        "id": "sinai-route",
+        "title": "Into the wilderness",
+        "eyebrow": "Animated journey · one reconstruction family",
+        "description": "This visualization follows a traditional southern-Sinai corridor only to demonstrate the itinerary. It is not the atlas’s verdict on the route.",
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 15,
+            "verseStart": 22,
+            "verseEnd": 27,
+            "label": "Exodus 15:22–27"
+          },
+          {
+            "book": "Exodus",
+            "chapter": 16,
+            "verseStart": 1,
+            "verseEnd": 1,
+            "label": "Exodus 16:1"
+          }
+        ],
+        "journeyId": "journey-wilderness-sinai",
+        "camera": {
+          "center": [
+            33.2,
+            29.3
+          ],
+          "zoom": 5.6,
+          "pitch": 28,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "sinai-mountain",
+        "title": "Mount Sinai / Horeb",
+        "eyebrow": "Exodus 19 · location unknown",
+        "description": "The biblical mountain remains unlocated. The interface separates the unlocated biblical place from later or scholarly candidate mountains.",
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 19,
+            "label": "Exodus 19"
+          },
+          {
+            "book": "Exodus",
+            "chapter": 24,
+            "label": "Exodus 24"
+          }
+        ],
+        "placeId": "mount-sinai",
+        "camera": {
+          "center": [
+            34.1,
+            29.2
+          ],
+          "zoom": 5.2,
+          "pitch": 30,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "sinai-leviticus",
+        "title": "Leviticus at Sinai",
+        "eyebrow": "Leviticus · canonical geographic continuity",
+        "description": "Leviticus repeatedly frames legislation in relation to Sinai. Because Sinai itself remains unlocated, this chapter preserves the textual setting without manufacturing an archaeological coordinate.",
+        "placeId": "mount-sinai",
+        "scripture": [
+          {
+            "book": "Leviticus",
+            "chapter": 25,
+            "verseStart": 1,
+            "verseEnd": 1,
+            "label": "Leviticus 25:1"
+          },
+          {
+            "book": "Leviticus",
+            "chapter": 26,
+            "verseStart": 46,
+            "verseEnd": 46,
+            "label": "Leviticus 26:46"
+          },
+          {
+            "book": "Leviticus",
+            "chapter": 27,
+            "verseStart": 34,
+            "verseEnd": 34,
+            "label": "Leviticus 27:34"
+          }
+        ],
+        "camera": {
+          "center": [
+            34.1,
+            29.2
+          ],
+          "zoom": 5.2,
+          "pitch": 28,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "sinai-jebel",
+        "title": "Jebel Musa",
+        "eyebrow": "Late-antique and later tradition",
+        "description": "Jebel Musa is shown as a traditional candidate because of its long Christian identification, not because archaeology proves the Exodus encampment here.",
+        "scripture": [
+          {
+            "book": "Exodus",
+            "chapter": 19,
+            "label": "Exodus 19"
+          }
+        ],
+        "placeId": "jebel-musa",
+        "camera": {
+          "center": [
+            33.975,
+            28.54
+          ],
+          "zoom": 8,
+          "pitch": 40,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "sinai-kadesh",
+        "title": "Kadesh-barnea",
+        "eyebrow": "Numbers 13–20 · probable site",
+        "description": "ʿAin el-Qudeirat is the leading identification for Kadesh-barnea. Its Iron Age fortifications, however, should not be treated as a direct timestamp for the wilderness stories.",
+        "scripture": [
+          {
+            "book": "Numbers",
+            "chapter": 13,
+            "verseStart": 26,
+            "verseEnd": 26,
+            "label": "Numbers 13:26"
+          },
+          {
+            "book": "Numbers",
+            "chapter": 20,
+            "verseStart": 1,
+            "verseEnd": 13,
+            "label": "Numbers 20:1–13"
+          }
+        ],
+        "placeId": "kadesh-barnea",
+        "camera": {
+          "center": [
+            34.44,
+            30.65
+          ],
+          "zoom": 8,
+          "pitch": 28,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-transjordan",
+    "title": "Toward Moab — The Final Wilderness Route",
+    "subtitle": "Kadesh, Edom’s margins, the Arabah, Heshbon, Moab, Balaam, and Moses on Nebo.",
+    "personId": "moses",
+    "theme": "Numbers–Deuteronomy",
+    "chapters": [
+      {
+        "id": "tj-route",
+        "title": "Around Edom toward Moab",
+        "eyebrow": "Animated journey · reconstructed",
+        "description": "The route follows the broad textual sequence and geographic corridors, but it does not claim exact wilderness tracks.",
+        "scripture": [
+          {
+            "book": "Numbers",
+            "chapter": 20,
+            "verseStart": 14,
+            "verseEnd": 21,
+            "label": "Numbers 20:14–21"
+          },
+          {
+            "book": "Numbers",
+            "chapter": 21,
+            "verseStart": 4,
+            "verseEnd": 20,
+            "label": "Numbers 21:4–20"
+          },
+          {
+            "book": "Deuteronomy",
+            "chapter": 2,
+            "label": "Deuteronomy 2"
+          }
+        ],
+        "journeyId": "journey-kadesh-transjordan",
+        "camera": {
+          "center": [
+            35.2,
+            30.6
+          ],
+          "zoom": 5.4,
+          "pitch": 24,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "tj-heshbon",
+        "title": "Heshbon",
+        "eyebrow": "Numbers 21 · probable city identification",
+        "description": "Tell Hesban is the standard candidate for Heshbon, but the archaeological sequence is important and prevents simplistic correlation with a single conquest date.",
+        "scripture": [
+          {
+            "book": "Numbers",
+            "chapter": 21,
+            "verseStart": 25,
+            "verseEnd": 30,
+            "label": "Numbers 21:25–30"
+          }
+        ],
+        "placeId": "heshbon",
+        "camera": {
+          "center": [
+            35.81,
+            31.8
+          ],
+          "zoom": 8,
+          "pitch": 28,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "tj-balaam",
+        "title": "The plains of Moab",
+        "eyebrow": "Numbers 22–24 · broad location",
+        "description": "Balak and Balaam are set in Moab while Israel camps opposite Jericho. The camp is represented as a regional anchor rather than a precise campsite polygon.",
+        "scripture": [
+          {
+            "book": "Numbers",
+            "chapter": 22,
+            "label": "Numbers 22"
+          },
+          {
+            "book": "Numbers",
+            "chapter": 23,
+            "label": "Numbers 23"
+          },
+          {
+            "book": "Numbers",
+            "chapter": 24,
+            "label": "Numbers 24"
+          }
+        ],
+        "placeId": "plains-moab",
+        "camera": {
+          "center": [
+            35.65,
+            31.83
+          ],
+          "zoom": 7,
+          "pitch": 25,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "tj-nebo",
+        "title": "Nebo and the end of Deuteronomy",
+        "eyebrow": "Deuteronomy 34 · probable ridge",
+        "description": "The Nebo ridge is geographically clear, but the exact summit and Moses’ burial place are not known.",
+        "scripture": [
+          {
+            "book": "Deuteronomy",
+            "chapter": 34,
+            "label": "Deuteronomy 34"
+          }
+        ],
+        "placeId": "mount-nebo",
+        "camera": {
+          "center": [
+            35.725,
+            31.767
+          ],
+          "zoom": 9,
+          "pitch": 42,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-joshua-entry",
+    "title": "Joshua — Jordan, Jericho, and the Central Highlands",
+    "subtitle": "Enter Canaan with site-identification confidence separated from archaeological-event correlation.",
+    "personId": "joshua",
+    "theme": "Joshua",
+    "chapters": [
+      {
+        "id": "jos-crossing",
+        "title": "Across the Jordan",
+        "eyebrow": "Joshua 3–4 · broad river corridor",
+        "description": "The crossing is placed opposite Jericho only at regional scale. Shifting channels and the lack of an identified crossing point prevent an exact pin.",
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 3,
+            "label": "Joshua 3"
+          },
+          {
+            "book": "Joshua",
+            "chapter": 4,
+            "label": "Joshua 4"
+          }
+        ],
+        "placeId": "jordan-crossing",
+        "camera": {
+          "center": [
+            35.53,
+            31.87
+          ],
+          "zoom": 8,
+          "pitch": 25,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "jos-route",
+        "title": "Jericho → Ai → Shechem",
+        "eyebrow": "Animated narrative sequence",
+        "description": "This line shows the narrative sequence, not a recovered road. Ai remains a disputed identification even though Jericho and Shechem are secure sites.",
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 6,
+            "label": "Joshua 6"
+          },
+          {
+            "book": "Joshua",
+            "chapter": 7,
+            "label": "Joshua 7"
+          },
+          {
+            "book": "Joshua",
+            "chapter": 8,
+            "label": "Joshua 8"
+          }
+        ],
+        "journeyId": "journey-joshua-entry",
+        "camera": {
+          "center": [
+            35.35,
+            32.02
+          ],
+          "zoom": 6.8,
+          "pitch": 24,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "jos-jericho",
+        "title": "Jericho",
+        "eyebrow": "Joshua 6 · secure site, disputed event correlation",
+        "description": "Tell es-Sultan is unquestionably ancient Jericho. The disputed question is how its destruction chronology relates to Joshua 6—not where Jericho is.",
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 6,
+            "label": "Joshua 6"
+          }
+        ],
+        "placeId": "jericho",
+        "camera": {
+          "center": [
+            35.444,
+            31.871
+          ],
+          "zoom": 9,
+          "pitch": 38,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "jos-ai",
+        "title": "Ai",
+        "eyebrow": "Joshua 7–8 · disputed identification/history",
+        "description": "The leading et-Tell identification has a major occupation-history problem for common conquest chronologies. The app surfaces that issue instead of hiding it.",
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 7,
+            "label": "Joshua 7"
+          },
+          {
+            "book": "Joshua",
+            "chapter": 8,
+            "label": "Joshua 8"
+          }
+        ],
+        "placeId": "ai",
+        "camera": {
+          "center": [
+            35.26,
+            31.916
+          ],
+          "zoom": 9,
+          "pitch": 30,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "jos-ebal",
+        "title": "Ebal and Gerizim",
+        "eyebrow": "Joshua 8 · established mountains",
+        "description": "Unlike Ai, Mount Ebal, Mount Gerizim, and Shechem can be mapped confidently. Interpretation of archaeological features on Ebal is a separate debate.",
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 8,
+            "verseStart": 30,
+            "verseEnd": 35,
+            "label": "Joshua 8:30–35"
+          }
+        ],
+        "placeId": "mount-ebal",
+        "camera": {
+          "center": [
+            35.28,
+            32.215
+          ],
+          "zoom": 9,
+          "pitch": 42,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-joshua-campaigns",
+    "title": "Joshua — Gibeon, Hazor, and Shiloh",
+    "subtitle": "Explore securely identified cities alongside schematic campaign routes and the later assembly at Shiloh.",
+    "personId": "joshua",
+    "theme": "Joshua",
+    "chapters": [
+      {
+        "id": "jcamp-gibeon",
+        "title": "Gibeon",
+        "eyebrow": "Joshua 9 · established location",
+        "description": "El-Jib is securely ancient Gibeon. The treaty story and battle narrative are textual events layered onto a high-confidence place identification.",
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 9,
+            "label": "Joshua 9"
+          }
+        ],
+        "placeId": "gibeon",
+        "camera": {
+          "center": [
+            35.185,
+            31.85
+          ],
+          "zoom": 9,
+          "pitch": 30,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "jcamp-south",
+        "title": "Southern battle corridor",
+        "eyebrow": "Animated route · schematic",
+        "description": "The Gibeon-to-Aijalon line communicates direction and named geography, not precise troop tracks.",
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 10,
+            "verseStart": 1,
+            "verseEnd": 14,
+            "label": "Joshua 10:1–14"
+          }
+        ],
+        "journeyId": "journey-joshua-south",
+        "camera": {
+          "center": [
+            35.05,
+            31.85
+          ],
+          "zoom": 7.5,
+          "pitch": 28,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "jcamp-north",
+        "title": "North toward Hazor",
+        "eyebrow": "Animated route · schematic",
+        "description": "The northern campaign is visualized through the broad corridor toward the Waters of Merom and Hazor.",
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 11,
+            "verseStart": 1,
+            "verseEnd": 15,
+            "label": "Joshua 11:1–15"
+          }
+        ],
+        "journeyId": "journey-joshua-north",
+        "camera": {
+          "center": [
+            35.45,
+            32.75
+          ],
+          "zoom": 5.9,
+          "pitch": 20,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "jcamp-hazor",
+        "title": "Hazor",
+        "eyebrow": "Joshua 11 · established city, debated destruction correlation",
+        "description": "Tel Hazor is securely the great Canaanite city. Which destruction episode should be related to Joshua, if any, remains a historical question.",
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 11,
+            "verseStart": 10,
+            "verseEnd": 13,
+            "label": "Joshua 11:10–13"
+          }
+        ],
+        "placeId": "hazor",
+        "camera": {
+          "center": [
+            35.57,
+            33.02
+          ],
+          "zoom": 9,
+          "pitch": 35,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "jcamp-shiloh",
+        "title": "Shiloh",
+        "eyebrow": "Joshua 18 · established sanctuary center",
+        "description": "Khirbet Seilun is securely Shiloh. The app does not claim an excavated building can be identified as the tabernacle.",
+        "scripture": [
+          {
+            "book": "Joshua",
+            "chapter": 18,
+            "verseStart": 1,
+            "verseEnd": 10,
+            "label": "Joshua 18:1–10"
+          }
+        ],
+        "placeId": "shiloh",
+        "camera": {
+          "center": [
+            35.29,
+            32.055
+          ],
+          "zoom": 9,
+          "pitch": 34,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-deborah",
+    "title": "Deborah & Barak — Tabor and the Kishon",
+    "subtitle": "A Judges story anchored in securely identifiable northern geography while Harosheth-hagoyim remains unlocated.",
+    "personId": "deborah",
+    "theme": "Judges",
+    "chapters": [
+      {
+        "id": "deb-kedesh",
+        "title": "Kedesh in Naphtali",
+        "eyebrow": "Judges 4 · probable city",
+        "description": "Barak is summoned from Kedesh. Tel Kedesh is a strong geographic candidate.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 4,
+            "verseStart": 6,
+            "verseEnd": 10,
+            "label": "Judges 4:6–10"
+          }
+        ],
+        "placeId": "kedesh-naphtali",
+        "camera": {
+          "center": [
+            35.54,
+            33.11
+          ],
+          "zoom": 8,
+          "pitch": 30,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "deb-route",
+        "title": "Kedesh → Tabor → Kishon",
+        "eyebrow": "Animated journey · reconstructed movements",
+        "description": "The route links the named geographic sequence, while troop positions and battle lines remain schematic.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 4,
+            "verseStart": 6,
+            "verseEnd": 16,
+            "label": "Judges 4:6–16"
+          }
+        ],
+        "journeyId": "journey-deborah-barak",
+        "camera": {
+          "center": [
+            35.35,
+            32.83
+          ],
+          "zoom": 6.5,
+          "pitch": 26,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "deb-kishon",
+        "title": "The Kishon battle zone",
+        "eyebrow": "Judges 4–5 · established river, uncertain battlefield",
+        "description": "The Kishon is secure geography. Harosheth-hagoyim is not, so the app avoids manufacturing a precise enemy-base pin.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 4,
+            "verseStart": 7,
+            "verseEnd": 16,
+            "label": "Judges 4:7–16"
+          },
+          {
+            "book": "Judges",
+            "chapter": 5,
+            "verseStart": 19,
+            "verseEnd": 21,
+            "label": "Judges 5:19–21"
+          }
+        ],
+        "placeId": "kishon",
+        "camera": {
+          "center": [
+            35.15,
+            32.67
+          ],
+          "zoom": 8,
+          "pitch": 24,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-gideon",
+    "title": "Gideon — Harod and the Midianite Pursuit",
+    "subtitle": "From an unlocated Ophrah to a probable spring at Harod and a reconstructed pursuit east of the Jordan.",
+    "personId": "gideon",
+    "theme": "Judges",
+    "chapters": [
+      {
+        "id": "gid-ophrah",
+        "title": "Ophrah — deliberately unpinned",
+        "eyebrow": "Judges 6 · unknown site",
+        "description": "Gideon’s home is textually important but not securely identified. Search and story panels can represent it without forcing a point onto the map.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 6,
+            "verseStart": 11,
+            "verseEnd": 24,
+            "label": "Judges 6:11–24"
+          }
+        ],
+        "placeId": "ophrah-abiezrites",
+        "camera": {
+          "center": [
+            35.25,
+            32.35
+          ],
+          "zoom": 6.8,
+          "pitch": 20,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "gid-harod",
+        "title": "Spring of Harod",
+        "eyebrow": "Judges 7 · probable spring",
+        "description": "ʿAin Jalud fits the Mount Gilboa/Jezreel setting and is commonly identified with the Spring of Harod.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 7,
+            "verseStart": 1,
+            "verseEnd": 8,
+            "label": "Judges 7:1–8"
+          }
+        ],
+        "placeId": "spring-harod",
+        "camera": {
+          "center": [
+            35.36,
+            32.55
+          ],
+          "zoom": 9,
+          "pitch": 34,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "gid-pursuit",
+        "title": "Across the Jordan",
+        "eyebrow": "Animated pursuit · reconstructed",
+        "description": "Judges names Succoth and Penuel during the pursuit, but the line between them is a geographic reconstruction rather than a known road.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 8,
+            "verseStart": 4,
+            "verseEnd": 17,
+            "label": "Judges 8:4–17"
+          }
+        ],
+        "journeyId": "journey-gideon",
+        "camera": {
+          "center": [
+            35.52,
+            32.35
+          ],
+          "zoom": 6.7,
+          "pitch": 20,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-jephthah",
+    "title": "Jephthah — Gilead and Ammon",
+    "subtitle": "A Judges narrative whose broad Transjordan setting is much clearer than its individual place identifications.",
+    "personId": "jephthah",
+    "theme": "Judges",
+    "chapters": [
+      {
+        "id": "jep-gilead",
+        "title": "Gilead",
+        "eyebrow": "Judges 10–11 · broad region",
+        "description": "The Gilead region is well known, but “Mizpah of Gilead” is not securely identified.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 10,
+            "verseStart": 17,
+            "verseEnd": 18,
+            "label": "Judges 10:17–18"
+          },
+          {
+            "book": "Judges",
+            "chapter": 11,
+            "verseStart": 1,
+            "verseEnd": 11,
+            "label": "Judges 11:1–11"
+          }
+        ],
+        "placeId": "gilead",
+        "camera": {
+          "center": [
+            35.7,
+            32.25
+          ],
+          "zoom": 6.6,
+          "pitch": 26,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "jep-mizpah",
+        "title": "Mizpah of Gilead",
+        "eyebrow": "Judges 11 · no definitive pin",
+        "description": "Rather than selecting one Transjordanian site, the atlas leaves Mizpah unlocated and explains the uncertainty.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 11,
+            "verseStart": 11,
+            "verseEnd": 34,
+            "label": "Judges 11:11–34"
+          }
+        ],
+        "placeId": "mizpah-gilead",
+        "camera": {
+          "center": [
+            35.8,
+            32.2
+          ],
+          "zoom": 6.8,
+          "pitch": 20,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-samson",
+    "title": "Samson — The Philistine Frontier",
+    "subtitle": "Travel the Shephelah and coastal plain from Zorah and Timnah to Ashkelon, the Sorek Valley, and Gaza.",
+    "personId": "samson",
+    "theme": "Judges",
+    "chapters": [
+      {
+        "id": "sam-zorah",
+        "title": "Zorah and Eshtaol",
+        "eyebrow": "Judges 13 · home district",
+        "description": "Zorah is strongly identified at Tel Zorʿa; nearby Eshtaol is less certain. The story begins at the highland–Philistine frontier.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 13,
+            "verseStart": 2,
+            "verseEnd": 25,
+            "label": "Judges 13:2–25"
+          }
+        ],
+        "placeId": "zorah",
+        "camera": {
+          "center": [
+            34.99,
+            31.77
+          ],
+          "zoom": 9,
+          "pitch": 32,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "sam-timnah",
+        "title": "Timnah",
+        "eyebrow": "Judges 14 · probable site",
+        "description": "Tel Batash is a leading identification for the Timnah of Samson’s marriage story.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 14,
+            "verseStart": 1,
+            "verseEnd": 20,
+            "label": "Judges 14:1–20"
+          }
+        ],
+        "placeId": "timnah-samson",
+        "camera": {
+          "center": [
+            34.95,
+            31.75
+          ],
+          "zoom": 9,
+          "pitch": 26,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "sam-route",
+        "title": "Across the frontier",
+        "eyebrow": "Animated story route",
+        "description": "The line links named places in the narrative; Lehi and other episode sites remain unknown rather than invented.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 14,
+            "label": "Judges 14"
+          },
+          {
+            "book": "Judges",
+            "chapter": 15,
+            "label": "Judges 15"
+          },
+          {
+            "book": "Judges",
+            "chapter": 16,
+            "label": "Judges 16"
+          }
+        ],
+        "journeyId": "journey-samson",
+        "camera": {
+          "center": [
+            34.75,
+            31.68
+          ],
+          "zoom": 7,
+          "pitch": 22,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "sam-sorek",
+        "title": "Valley of Sorek",
+        "eyebrow": "Judges 16 · established valley",
+        "description": "The valley is identifiable, but Delilah’s dwelling is not.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 16,
+            "verseStart": 4,
+            "verseEnd": 22,
+            "label": "Judges 16:4–22"
+          }
+        ],
+        "placeId": "sorek-valley",
+        "camera": {
+          "center": [
+            34.9,
+            31.78
+          ],
+          "zoom": 8,
+          "pitch": 28,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "sam-gaza",
+        "title": "Gaza",
+        "eyebrow": "Judges 16 · established city",
+        "description": "Ancient Gaza is secure geographically even though its Iron Age urban footprint lies beneath and around later occupation.",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 16,
+            "verseStart": 21,
+            "verseEnd": 31,
+            "label": "Judges 16:21–31"
+          }
+        ],
+        "placeId": "gaza",
+        "camera": {
+          "center": [
+            34.466,
+            31.501
+          ],
+          "zoom": 9,
+          "pitch": 25,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-early-judges",
+    "title": "Early Judges — Othniel, Ehud, and Abimelech",
+    "subtitle": "Three early cycles showing how secure regional geography and disputed town identifications can coexist.",
+    "theme": "Judges",
+    "chapters": [
+      {
+        "id": "ej-othniel",
+        "title": "Othniel and disputed Debir",
+        "eyebrow": "Judges 1 & 3 · unpinned city",
+        "description": "Othniel’s story is geographically tied to the southern hill country, but Debir/Kiriath-sepher remains disputed. The atlas keeps the place searchable without choosing a site.",
+        "placeId": "debir",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 1,
+            "verseStart": 11,
+            "verseEnd": 13,
+            "label": "Judges 1:11–13"
+          },
+          {
+            "book": "Judges",
+            "chapter": 3,
+            "verseStart": 7,
+            "verseEnd": 11,
+            "label": "Judges 3:7–11"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.05,
+            31.35
+          ],
+          "zoom": 6.5,
+          "pitch": 20,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "ej-ehud",
+        "title": "Ehud, Moab, and Jericho",
+        "eyebrow": "Judges 3 · broad regional sequence",
+        "description": "Moab and Jericho are strong geographic anchors; the precise residence of Eglon and Ehud’s route are not reconstructed as exact sites.",
+        "placeId": "jericho",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 3,
+            "verseStart": 12,
+            "verseEnd": 30,
+            "label": "Judges 3:12–30"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.52,
+            31.65
+          ],
+          "zoom": 6.5,
+          "pitch": 22,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "ej-abimelech",
+        "title": "Abimelech at Shechem",
+        "eyebrow": "Judges 9 · secure city, candidate Thebez",
+        "description": "Shechem and Mount Gerizim are high-confidence locations. Thebez is shown only at candidate level near modern Tubas.",
+        "placeId": "shechem",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 9,
+            "label": "Judges 9"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.3,
+            32.22
+          ],
+          "zoom": 8,
+          "pitch": 30,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-danite-migration",
+    "title": "Danite Migration — From Zorah to Laish",
+    "subtitle": "Follow Judges 18 from the Shephelah north to securely identified Tel Dan, while treating the road between them as reconstruction.",
+    "theme": "Judges",
+    "chapters": [
+      {
+        "id": "dan-home",
+        "title": "Zorah and Eshtaol",
+        "eyebrow": "Judges 18 · departure district",
+        "description": "The Danite scouts depart from the Zorah–Eshtaol district. Zorah is strong geographically; Eshtaol is less certain.",
+        "placeId": "zorah",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 18,
+            "verseStart": 1,
+            "verseEnd": 6,
+            "label": "Judges 18:1–6"
+          }
+        ],
+        "camera": {
+          "center": [
+            34.99,
+            31.77
+          ],
+          "zoom": 8.5,
+          "pitch": 28,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "dan-route",
+        "title": "North through the land",
+        "eyebrow": "Animated journey · reconstructed",
+        "description": "The route is intentionally schematic. The narrative gives destinations and episodes, not a recoverable continuous road.",
+        "journeyId": "journey-danite-migration",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 18,
+            "verseStart": 7,
+            "verseEnd": 29,
+            "label": "Judges 18:7–29"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.35,
+            32.55
+          ],
+          "zoom": 5.4,
+          "pitch": 20,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "dan-laish",
+        "title": "Laish becomes Dan",
+        "eyebrow": "Judges 18 · established city site",
+        "description": "Tel Dan is one of the strongest geographic anchors in Judges. Site identification is secure even though the migration narrative’s chronology remains a separate historical question.",
+        "placeId": "dan-laish",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 18,
+            "verseStart": 27,
+            "verseEnd": 31,
+            "label": "Judges 18:27–31"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.652,
+            33.249
+          ],
+          "zoom": 9,
+          "pitch": 32,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-end-judges",
+    "title": "End of Judges — Gibeah and Civil War",
+    "subtitle": "Trace Judges 19–21 from Bethlehem to Gibeah and the Benjaminite war without hardening candidate sites into certainty.",
+    "personId": "levite-judges19",
+    "theme": "Judges",
+    "chapters": [
+      {
+        "id": "end-bethlehem",
+        "title": "Bethlehem of Judah",
+        "eyebrow": "Judges 19 · established town",
+        "description": "The narrative begins with the Levite retrieving his concubine from Bethlehem. The town is secure geographically; the household is not.",
+        "placeId": "bethlehem-judah",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 19,
+            "verseStart": 1,
+            "verseEnd": 10,
+            "label": "Judges 19:1–10"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.202,
+            31.705
+          ],
+          "zoom": 9,
+          "pitch": 30,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "end-route",
+        "title": "Bethlehem to Gibeah",
+        "eyebrow": "Animated journey · reconstructed ridge route",
+        "description": "The map follows the broad northbound sequence past Jerusalem toward Gibeah. It does not claim an exact road segment.",
+        "journeyId": "journey-judges19",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 19,
+            "verseStart": 10,
+            "verseEnd": 15,
+            "label": "Judges 19:10–15"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.22,
+            31.77
+          ],
+          "zoom": 7.5,
+          "pitch": 24,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "end-gibeah",
+        "title": "Gibeah",
+        "eyebrow": "Judges 19–20 · probable site",
+        "description": "Tell el-Ful is the leading candidate for Gibeah, but the app keeps the location at probable confidence rather than presenting the Judges episode as archaeologically proven.",
+        "placeId": "gibeah-benjamin",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 19,
+            "verseStart": 14,
+            "verseEnd": 30,
+            "label": "Judges 19:14–30"
+          },
+          {
+            "book": "Judges",
+            "chapter": 20,
+            "label": "Judges 20"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.23,
+            31.82
+          ],
+          "zoom": 9,
+          "pitch": 30,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "end-mizpah",
+        "title": "Assembly at Mizpah",
+        "eyebrow": "Judges 20 · probable site",
+        "description": "Tell en-Nasbeh is the leading identification for Mizpah of Benjamin. The military narrative is not converted into precise battle polygons.",
+        "placeId": "mizpah-benjamin",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 20,
+            "verseStart": 1,
+            "verseEnd": 3,
+            "label": "Judges 20:1–3"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.216,
+            31.885
+          ],
+          "zoom": 9,
+          "pitch": 30,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "end-jabesh",
+        "title": "Jabesh-gilead and Shiloh",
+        "eyebrow": "Judges 21 · mixed confidence",
+        "description": "Jabesh-gilead remains unpinned because its exact site is disputed; Shiloh is securely identified. The difference is visible rather than flattened.",
+        "placeId": "jabesh-gilead",
+        "scripture": [
+          {
+            "book": "Judges",
+            "chapter": 21,
+            "verseStart": 8,
+            "verseEnd": 23,
+            "label": "Judges 21:8–23"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.55,
+            32.05
+          ],
+          "zoom": 6.6,
+          "pitch": 20,
+          "bearing": 0
+        }
+      }
+    ]
+  }
+]

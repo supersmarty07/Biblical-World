@@ -1,0 +1,1116 @@
+[
+  {
+    "id": "pella-macedonia",
+    "name": "Pella",
+    "aliases": [
+      "Pélla"
+    ],
+    "summary": "Macedonian royal center associated with Philip II and Alexander III. The archaeological site lies near modern Pella in northern Greece.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The archaeological location of ancient Pella is established; specific palace phases and individual royal activities require period-specific interpretation."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-arrian-alexander"
+    ],
+    "coordinates": [
+      22.52,
+      40.76
+    ],
+    "coordinateRole": "identified-site",
+    "historicalContext": "Pella anchors the Macedonian origin of Alexander’s campaign, not a claim that every recorded episode occurred at one excavated structure.",
+    "archaeology": "Extensive Hellenistic urban and palace remains survive at Pella.",
+    "validFrom": -400,
+    "validTo": -100
+  },
+  {
+    "id": "granicus-region",
+    "name": "Granicus River battle region",
+    "aliases": [
+      "Biga Çayı"
+    ],
+    "summary": "Region of Alexander’s first major battle against Persian forces in Asia Minor in 334 BCE.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Granicus river system is identifiable, but the precise battlefield remains debated; the point is a regional orientation anchor."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-arrian-alexander"
+    ],
+    "coordinates": [
+      27.25,
+      40.31
+    ],
+    "coordinateRole": "approximate-area",
+    "locationNote": "Regional anchor only; not a surveyed battlefield coordinate.",
+    "validFrom": -334,
+    "validTo": -334
+  },
+  {
+    "id": "issus-battle-region",
+    "name": "Issus battle region",
+    "aliases": [
+      "Pinarus battle region"
+    ],
+    "summary": "Regional anchor for the 333 BCE battle between Alexander and Darius III near the Gulf of Issus.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Ancient Issus and the battle’s general setting are known, but identification of the Pinarus and exact battlefield remains disputed, so no normal pin is shown."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-arrian-alexander"
+    ],
+    "locationNote": "No exact battle pin; multiple river/battlefield identifications have been proposed.",
+    "validFrom": -333,
+    "validTo": -333
+  },
+  {
+    "id": "alexandria-egypt",
+    "name": "Alexandria",
+    "aliases": [
+      "Alexandria ad Aegyptum"
+    ],
+    "summary": "City founded by Alexander on Egypt’s Mediterranean coast and developed into the major Ptolemaic capital and Jewish diaspora center.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The location and continuous urban identity of Alexandria are established, while much of the ancient shoreline and city plan now lies altered or submerged."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-strabo-geography",
+      "source-zenon-archive"
+    ],
+    "coordinates": [
+      29.9187,
+      31.2001
+    ],
+    "coordinateRole": "identified-site",
+    "historicalContext": "Alexandria became a major center of Hellenistic scholarship and Jewish life. Traditions surrounding the Greek translation of the Torah belong here but should not be reduced to the Letter of Aristeas as literal reportage.",
+    "archaeology": "Ancient remains are fragmentary within the modern city and offshore; the Hellenistic urban footprint is reconstructed from archaeology and literary evidence.",
+    "validFrom": -331,
+    "validTo": 1
+  },
+  {
+    "id": "antioch-orontes",
+    "name": "Antioch on the Orontes",
+    "aliases": [
+      "Antioch",
+      "Antiocheia"
+    ],
+    "summary": "Seleucid royal foundation that became one of the great cities of the Hellenistic and Roman eastern Mediterranean.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Antioch is securely located at modern Antakya and its vicinity; Hellenistic urban phases are reconstructed from limited archaeology and texts."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 11,
+        "label": "Acts 11:19–26",
+        "verseStart": 19,
+        "verseEnd": 26
+      },
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:1–3",
+        "verseStart": 1,
+        "verseEnd": 3
+      },
+      {
+        "book": "Acts",
+        "chapter": 14,
+        "label": "Acts 14:26–28",
+        "verseStart": 26,
+        "verseEnd": 28
+      }
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-strabo-geography",
+      "source-appian-syrian",
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "coordinates": [
+      36.161,
+      36.202
+    ],
+    "coordinateRole": "identified-site",
+    "validFrom": -300,
+    "validTo": 300
+  },
+  {
+    "id": "seleucia-pieria",
+    "name": "Seleucia Pieria",
+    "aliases": [
+      "Seleukeia Pieria"
+    ],
+    "summary": "Port city serving Antioch and the Seleucid state on the northeastern Mediterranean.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The ancient port site near modern Samandağ is securely identified."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 13,
+        "label": "Acts 13:4",
+        "verseStart": 4
+      }
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-strabo-geography",
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "coordinates": [
+      35.93,
+      36.12
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Harbor works and later Roman engineering survive; Hellenistic phases form part of a long-lived port landscape.",
+    "validFrom": -300,
+    "validTo": 300
+  },
+  {
+    "id": "ptolemais-akko",
+    "name": "Ptolemais / Akko",
+    "aliases": [
+      "Acre",
+      "Akko",
+      "Ptolemais"
+    ],
+    "summary": "Ancient coastal city renamed Ptolemais in the Hellenistic period and repeatedly important in Seleucid and Hasmonean politics.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The ancient city at Akko/Acre is securely identified; specific Hellenistic event locations within the urban area are not recoverable."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:7",
+        "verseStart": 7
+      }
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-1-maccabees",
+      "source-josephus-ant13",
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-barrington-acts"
+    ],
+    "coordinates": [
+      35.07,
+      32.927
+    ],
+    "coordinateRole": "identified-site",
+    "validFrom": -300,
+    "validTo": 300
+  },
+  {
+    "id": "panium",
+    "name": "Panium / Paneas",
+    "aliases": [
+      "Panias",
+      "Banias",
+      "Caesarea Philippi"
+    ],
+    "summary": "Sanctuary and settlement area at the foot of Mount Hermon, near the 200 BCE battle that shifted Coele-Syria from Ptolemaic to Seleucid control.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The sanctuary/settlement at Paneas-Banias is established. The Battle of Panium involved a wider landscape and is not reduced to the pin itself."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-polybius-histories",
+      "source-strabo-geography"
+    ],
+    "coordinates": [
+      35.694,
+      33.249
+    ],
+    "coordinateRole": "identified-site",
+    "validFrom": -300,
+    "validTo": 40
+  },
+  {
+    "id": "modein",
+    "name": "Modein",
+    "aliases": [
+      "Modi'in",
+      "Modein of the Maccabees"
+    ],
+    "summary": "Town associated in 1 Maccabees with Mattathias and the beginning of the revolt against Seleucid policies.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The ancient place-name is clear in the literary sources, but the exact archaeological identification remains debated among sites near modern Modi'in/al-Midya, so the atlas does not force a single coordinate."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ],
+    "locationNote": "Unpinned pending a deliberately argued site-identification record.",
+    "validFrom": -200,
+    "validTo": -50
+  },
+  {
+    "id": "emmaus-nicopolis",
+    "name": "Emmaus (Nicopolis)",
+    "aliases": [
+      "Emmaus",
+      "Amwas",
+      "Nicopolis"
+    ],
+    "summary": "Hellenistic-period Emmaus in the Aijalon approaches, associated with Judas Maccabeus’s victory over a Seleucid force in 165 BCE.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Emmaus-Nicopolis/Amwas is a strong identification for the Maccabean Emmaus. This does not settle the separate New Testament Emmaus identification problem."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-1-maccabees",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      34.99,
+      31.839
+    ],
+    "coordinateRole": "identified-site",
+    "locationNote": "Mapped for the Maccabean-period site; New Testament Emmaus candidates will be modeled separately in Batch 8.",
+    "validFrom": -300,
+    "validTo": 300
+  },
+  {
+    "id": "beth-horon-hellenistic",
+    "name": "Beth-horon",
+    "aliases": [
+      "Upper/Lower Beth-horon"
+    ],
+    "summary": "Strategic ascent on the route from the coastal plain toward Jerusalem, important in Maccabean warfare.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The twin Beth-horon settlements are generally identified with the Beit Ur area; this point is a generalized pass/settlement anchor rather than a precise battle coordinate."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-1-maccabees",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.124,
+      31.891
+    ],
+    "coordinateRole": "approximate-area",
+    "validFrom": -1000,
+    "validTo": 1
+  },
+  {
+    "id": "beth-zur-hellenistic",
+    "name": "Beth-zur",
+    "aliases": [
+      "Bethsura"
+    ],
+    "summary": "Fortified Judean site south of Jerusalem, repeatedly contested during the Maccabean revolt.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "high",
+      "explanation": "Beth-zur is commonly identified with Khirbet et-Tubeiqah near modern Beit Sur/Halhul. The site identification is strong though individual battle deployments are not archaeologically recoverable."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-1-maccabees",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.102,
+      31.596
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Excavation revealed occupation and fortification phases relevant to Hellenistic control of the Jerusalem–Hebron corridor.",
+    "validFrom": -600,
+    "validTo": 1
+  },
+  {
+    "id": "beth-zechariah",
+    "name": "Beth-zechariah",
+    "aliases": [
+      "Beth-zachariah"
+    ],
+    "summary": "Battle locality south of Jerusalem associated with the Seleucid campaign against Judas Maccabeus in 162 BCE.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "A location near modern Beit Zakariya is plausible, but the exact ancient battle locality is not sufficiently certain for an identified-site label."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-1-maccabees"
+    ],
+    "coordinates": [
+      35.128,
+      31.673
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Candidate-area anchor; battlefield footprint unknown.",
+    "validFrom": -162,
+    "validTo": -162
+  },
+  {
+    "id": "adasa",
+    "name": "Adasa",
+    "aliases": [],
+    "summary": "Locality north of Jerusalem associated with Judas Maccabeus’s defeat of Nicanor in 161 BCE.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Ancient Adasa is described in relation to Beth-horon/Jerusalem but no single modern coordinate is secure enough for this atlas."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ],
+    "locationNote": "Unpinned because proposed identifications remain uncertain.",
+    "validFrom": -161,
+    "validTo": -161
+  },
+  {
+    "id": "elasa",
+    "name": "Elasa",
+    "aliases": [],
+    "summary": "Battle locality where Judas Maccabeus was killed fighting Bacchides in 160 BCE.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "The literary battle locality is known by name, but its modern identification is uncertain; no normal pin is shown."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ],
+    "validFrom": -160,
+    "validTo": -160
+  },
+  {
+    "id": "jerusalem-acra",
+    "name": "Jerusalem Acra",
+    "aliases": [
+      "Akra",
+      "Seleucid Acra"
+    ],
+    "summary": "Seleucid fortress/garrison complex in Jerusalem central to the Maccabean narratives.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "disputed",
+      "historicalInterpretation": "moderate",
+      "explanation": "The Acra was real in the Hellenistic city, but its exact location has been debated. Archaeological proposals south of the Temple Mount are important but should not yet be presented as an uncontested footprint."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ],
+    "locationNote": "No fixed pin or polygon; archaeological proposals can be compared in a future Jerusalem micro-layer.",
+    "validFrom": -170,
+    "validTo": -140
+  },
+  {
+    "id": "mount-gerizim-sanctuary",
+    "name": "Mount Gerizim sanctuary precinct",
+    "aliases": [
+      "Gerizim temple precinct"
+    ],
+    "summary": "Archaeological sanctuary and settlement complex on Mount Gerizim associated with the Samaritan community in Persian and Hellenistic periods.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The archaeological sanctuary precinct on Mount Gerizim is established. Correlating specific destruction layers with John Hyrcanus relies on historical interpretation."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-magen-gerizim"
+    ],
+    "coordinates": [
+      35.273,
+      32.199
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Excavation revealed a major sacred precinct with Persian/Hellenistic phases and inscriptions. Its history is essential for understanding Samaritan-Judean relations.",
+    "validFrom": -450,
+    "validTo": -100
+  },
+  {
+    "id": "idumea-hellenistic",
+    "name": "Idumea",
+    "aliases": [
+      "Idumaea"
+    ],
+    "summary": "Hellenistic successor region to biblical Edom in southern Judea/Shephelah, with important centers such as Maresha.",
+    "category": "region",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "Idumea was a historical region, but its borders changed and were not modern surveyed frontiers; the point is a display anchor only."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-josephus-ant13",
+      "source-kloner-maresha"
+    ],
+    "coordinates": [
+      35.05,
+      31.25
+    ],
+    "coordinateRole": "display-anchor",
+    "validFrom": -350,
+    "validTo": -37
+  },
+  {
+    "id": "maresa",
+    "name": "Maresha / Marisa",
+    "aliases": [
+      "Maresha",
+      "Marisa"
+    ],
+    "summary": "Major Hellenistic city in Idumea with a diverse population and extensive archaeological remains.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Tel Maresha is securely identified and extensively excavated."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-kloner-maresha"
+    ],
+    "coordinates": [
+      34.902,
+      31.599
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Hellenistic houses, inscriptions, burial complexes and subterranean installations reveal a cosmopolitan Idumean city before Hasmonean incorporation.",
+    "validFrom": -500,
+    "validTo": -40
+  },
+  {
+    "id": "adora",
+    "name": "Adora",
+    "aliases": [
+      "Adoraim",
+      "Dura"
+    ],
+    "summary": "Idumean settlement/fortified center associated with Hasmonean expansion south of Judea.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "Adora is generally identified with Dura near Hebron; the broader territorial implications of its capture are reconstructed from literary evidence."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-josephus-ant13",
+      "source-second-temple-atlas"
+    ],
+    "coordinates": [
+      35.017,
+      31.552
+    ],
+    "coordinateRole": "identified-site",
+    "validFrom": -300,
+    "validTo": 1
+  },
+  {
+    "id": "jamnia-yavneh",
+    "name": "Jamnia / Yavneh",
+    "aliases": [
+      "Jabneh",
+      "Yavneh"
+    ],
+    "summary": "Coastal-plain city contested by Hasmonean and neighboring powers and later important in Roman-period Jewish history.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Yavneh/Jamnia is securely associated with the modern Yavneh archaeological landscape."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-1-maccabees",
+      "source-josephus-ant13"
+    ],
+    "coordinates": [
+      34.738,
+      31.877
+    ],
+    "coordinateRole": "identified-site",
+    "validFrom": -800,
+    "validTo": 300
+  },
+  {
+    "id": "dor-hellenistic",
+    "name": "Dor",
+    "aliases": [
+      "Dora"
+    ],
+    "summary": "Ancient Mediterranean port city north of Caesarea, part of the Hellenistic and Hasmonean coastal political landscape.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Tel Dor securely preserves ancient Dor/Dora."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-strabo-geography",
+      "source-josephus-ant13"
+    ],
+    "coordinates": [
+      34.918,
+      32.617
+    ],
+    "coordinateRole": "identified-site",
+    "validFrom": -1000,
+    "validTo": 300
+  },
+  {
+    "id": "caesarea-maritima",
+    "name": "Caesarea Maritima",
+    "aliases": [
+      "Strato’s Tower",
+      "Caesarea"
+    ],
+    "summary": "Herod’s monumental harbor city on the Mediterranean, developed from Strato’s Tower and dedicated in the late first century BCE.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The Herodian city and harbor are securely located. Individual completion/dedication dates vary slightly across modern chronological reconstructions."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 10,
+        "label": "Acts 10",
+        "verseStart": 1,
+        "verseEnd": 48
+      },
+      {
+        "book": "Acts",
+        "chapter": 23,
+        "label": "Acts 23:23–35",
+        "verseStart": 23,
+        "verseEnd": 35
+      },
+      {
+        "book": "Acts",
+        "chapter": 27,
+        "label": "Acts 27:1–2",
+        "verseStart": 1,
+        "verseEnd": 2
+      }
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-richardson-herod",
+      "source-netzer-herod",
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "coordinates": [
+      34.892,
+      32.501
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Harbor engineering, theater, palace remains, streets and later inscriptions make Caesarea one of the best-preserved anchors for Herodian-Roman Judea.",
+    "validFrom": -22,
+    "validTo": 300
+  },
+  {
+    "id": "herodium",
+    "name": "Herodium",
+    "aliases": [
+      "Herodeion"
+    ],
+    "summary": "Herod’s palace-fortress and later mausoleum complex southeast of Jerusalem.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The archaeological site is secure. Interpretations of specific architectural phases and the royal tomb complex depend on excavation arguments."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-netzer-herod",
+      "source-richardson-herod"
+    ],
+    "coordinates": [
+      35.242,
+      31.665
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Upper palace-fortress, lower palace installations, monumental stair and mausoleum-related remains document Herodian construction.",
+    "validFrom": -30,
+    "validTo": 100
+  },
+  {
+    "id": "masada",
+    "name": "Masada",
+    "aliases": [
+      "Masada fortress"
+    ],
+    "summary": "Desert fortress overlooking the Dead Sea, enlarged dramatically under Herod after earlier Hasmonean use.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Masada is securely identified. Its Hasmonean beginnings and exact sequence of pre-Herodian phases are reconstructed from archaeology and Josephus."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-josephus-war1",
+      "source-netzer-herod"
+    ],
+    "coordinates": [
+      35.353,
+      31.315
+    ],
+    "coordinateRole": "identified-site",
+    "validFrom": -100,
+    "validTo": 100
+  },
+  {
+    "id": "jericho-herodian-palaces",
+    "name": "Jericho Herodian palace complex",
+    "aliases": [
+      "Tulul Abu al-Alayiq"
+    ],
+    "summary": "Winter-palace landscape west of ancient Jericho used and expanded by Hasmonean and Herodian rulers.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The palace complexes are archaeologically established; assigning every phase to a named ruler requires architectural chronology."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-netzer-herod"
+    ],
+    "coordinates": [
+      35.438,
+      31.866
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Multiple palace phases, pools, bath installations and gardens document elite residence in the Jericho oasis.",
+    "validFrom": -100,
+    "validTo": 50
+  },
+  {
+    "id": "qumran",
+    "name": "Khirbet Qumran",
+    "aliases": [
+      "Qumran"
+    ],
+    "summary": "Second Temple period settlement near the northwest Dead Sea, adjacent to caves where many Dead Sea Scrolls were found.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "moderate",
+      "explanation": "The archaeological site is secure. The exact identity of its inhabitants and the relationship between the settlement and all scroll deposits remain debated."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-magness-qumran",
+      "source-vanderkam-scrolls"
+    ],
+    "coordinates": [
+      35.459,
+      31.741
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Settlement phases, communal installations, pottery and nearby manuscript caves make Qumran central to Second Temple archaeology.",
+    "validFrom": -150,
+    "validTo": 68,
+    "interpretations": [
+      {
+        "title": "Essene-associated settlement",
+        "status": "probable",
+        "summary": "A long-standing and still influential interpretation connects Qumran with an Essene or Essene-related community, but the precise social model is debated.",
+        "sourceIds": [
+          "source-magness-qumran",
+          "source-vanderkam-scrolls"
+        ]
+      },
+      {
+        "title": "Alternative social/economic models",
+        "status": "possible",
+        "summary": "Alternative interpretations emphasize estate, pottery-production or other functions; the atlas therefore avoids equating “Qumran” automatically with a single sectarian identity.",
+        "sourceIds": [
+          "source-magness-qumran"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "leontopolis-jewish-temple",
+    "name": "Leontopolis Jewish temple region",
+    "aliases": [
+      "Onias temple",
+      "Leontopolis"
+    ],
+    "summary": "Egyptian locality associated by Josephus with a Jewish temple founded by Onias in the Ptolemaic period.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "possible",
+      "historicalInterpretation": "moderate",
+      "explanation": "Tell el-Yahudiya is commonly connected with ancient Leontopolis and the Oniad temple tradition, but the precise temple footprint and historical sequence remain debated."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-josephus-ant13"
+    ],
+    "coordinates": [
+      31.016,
+      30.29
+    ],
+    "coordinateRole": "candidate-site",
+    "locationNote": "Candidate-site anchor in the eastern Nile Delta; not a recovered temple plan.",
+    "validFrom": -170,
+    "validTo": 73
+  },
+  {
+    "id": "petra",
+    "name": "Petra",
+    "aliases": [
+      "Raqmu"
+    ],
+    "summary": "Nabataean capital and monumental caravan center in southern Transjordan.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Petra’s identification is secure; its monumental appearance evolved over time, so later rock-cut facades should not be projected unchanged into the second century BCE."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-graf-nabataeans",
+      "source-strabo-geography"
+    ],
+    "coordinates": [
+      35.444,
+      30.328
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Urban, hydraulic, funerary and cultic remains document a major Nabataean center whose monumental phases span Hellenistic and Roman periods.",
+    "validFrom": -300,
+    "validTo": 300
+  },
+  {
+    "id": "avdat",
+    "name": "Avdat / Oboda",
+    "aliases": [
+      "Oboda",
+      "Avdat"
+    ],
+    "summary": "Nabataean caravan station and later town on the incense route through the Negev.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Oboda/Avdat is securely identified; visible remains include substantial Roman/Byzantine phases in addition to Nabataean occupation."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-graf-nabataeans"
+    ],
+    "coordinates": [
+      34.773,
+      30.794
+    ],
+    "coordinateRole": "identified-site",
+    "validFrom": -200,
+    "validTo": 300
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "aliases": [
+      "Roma"
+    ],
+    "summary": "Capital of the Roman Republic and, under Augustus, the imperial center that increasingly shaped Judean politics.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Rome’s location is self-evident; individual senate meetings and residences are not assigned without specific evidence."
+    },
+    "scripture": [
+      {
+        "book": "Romans",
+        "chapter": 1,
+        "label": "Romans 1:7",
+        "verseStart": 7,
+        "verseEnd": 7
+      },
+      {
+        "book": "Acts",
+        "chapter": 28,
+        "label": "Acts 28:14–31",
+        "verseStart": 14,
+        "verseEnd": 31
+      }
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-josephus-ant14",
+      "source-plutarch-pompey-antony",
+      "source-batch9-methodology",
+      "source-acts-canonical"
+    ],
+    "coordinates": [
+      12.486,
+      41.893
+    ],
+    "coordinateRole": "identified-site",
+    "validFrom": -500,
+    "validTo": 300
+  },
+  {
+    "id": "actium",
+    "name": "Actium battle region",
+    "aliases": [
+      "Aktion"
+    ],
+    "summary": "Naval battle region in western Greece where Octavian defeated Antony and Cleopatra in 31 BCE.",
+    "category": "water",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The battle’s regional setting is established, but a single point cannot represent the moving naval engagement; the marker is a regional orientation anchor."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-plutarch-pompey-antony",
+      "source-roller-cleopatra"
+    ],
+    "coordinates": [
+      20.75,
+      38.95
+    ],
+    "coordinateRole": "approximate-area",
+    "validFrom": -31,
+    "validTo": -31
+  },
+  {
+    "id": "rhodes",
+    "name": "Rhodes",
+    "aliases": [
+      "Rhodos"
+    ],
+    "summary": "Major eastern Mediterranean island/city where Herod met Octavian after Actium according to Josephus.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "Ancient Rhodes city is securely located; the exact meeting venue described by Josephus is not archaeologically identified."
+    },
+    "scripture": [
+      {
+        "book": "Acts",
+        "chapter": 21,
+        "label": "Acts 21:1",
+        "verseStart": 1
+      }
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-josephus-war1",
+      "source-richardson-herod",
+      "source-batch9-methodology",
+      "source-acts-canonical",
+      "source-barrington-acts"
+    ],
+    "coordinates": [
+      28.228,
+      36.451
+    ],
+    "coordinateRole": "identified-site",
+    "validFrom": -400,
+    "validTo": 300
+  },
+  {
+    "id": "samaria-sebaste",
+    "name": "Samaria / Sebaste",
+    "aliases": [
+      "Sebaste"
+    ],
+    "summary": "Herodian refoundation of the older city of Samaria, renamed Sebaste in honor of Augustus.",
+    "category": "city",
+    "confidence": {
+      "geographicIdentification": "established",
+      "historicalInterpretation": "high",
+      "explanation": "The city site is the same archaeological hill as earlier Samaria; this period-specific record highlights Herodian rebuilding and naming rather than claiming a separate location."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-richardson-herod",
+      "source-netzer-herod"
+    ],
+    "coordinates": [
+      35.19,
+      32.276
+    ],
+    "coordinateRole": "identified-site",
+    "archaeology": "Herodian/Roman monumental remains overlay the Iron Age capital.",
+    "validFrom": -27,
+    "validTo": 300
+  },
+  {
+    "id": "hasmonean-palace-jerusalem",
+    "name": "Hasmonean palace in Jerusalem",
+    "aliases": [
+      "Hasmonean royal palace"
+    ],
+    "summary": "Royal residence described in later sources for Hasmonean Jerusalem.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "unknown",
+      "historicalInterpretation": "moderate",
+      "explanation": "Literary sources imply a Hasmonean palace in Jerusalem, but its exact archaeological footprint is not securely established, so no pin is shown."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-josephus-ant14"
+    ],
+    "validFrom": -140,
+    "validTo": -37
+  },
+  {
+    "id": "alexandrium",
+    "name": "Alexandrium fortress",
+    "aliases": [
+      "Sartaba",
+      "Alexandreion"
+    ],
+    "summary": "Hasmonean/Herodian fortress traditionally identified with Sartaba overlooking the Jordan Valley.",
+    "category": "site",
+    "confidence": {
+      "geographicIdentification": "probable",
+      "historicalInterpretation": "moderate",
+      "explanation": "The identification of Alexandrium with Sartaba is widely accepted but archaeological phase attribution is complex."
+    },
+    "scripture": [],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-second-temple-atlas",
+      "source-josephus-ant14",
+      "source-netzer-herod"
+    ],
+    "coordinates": [
+      35.45,
+      32.1
+    ],
+    "coordinateRole": "candidate-site",
+    "validFrom": -100,
+    "validTo": 100
+  }
+]

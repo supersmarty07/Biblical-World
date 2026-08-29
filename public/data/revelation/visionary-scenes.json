@@ -1,0 +1,273 @@
+[
+  {
+    "id": "vision-throne-lamb",
+    "title": "Throne & Lamb",
+    "subtitle": "Revelation 4–5",
+    "visualType": "throne",
+    "summary": "A non-geographic visualization of the throne room, scroll, and Lamb imagery.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 4,
+        "label": "Revelation 4:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "Revelation",
+        "chapter": 5,
+        "label": "Revelation 5:1–14",
+        "verseStart": 1,
+        "verseEnd": 14
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-koester-revelation"
+    ]
+  },
+  {
+    "id": "vision-seals-trumpets",
+    "title": "Seals & Trumpets",
+    "subtitle": "Revelation 6–11",
+    "visualType": "cosmos",
+    "summary": "Layered apocalyptic signs rendered as symbolic visual motifs rather than terrestrial events.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 6,
+        "label": "Revelation 6:1–17",
+        "verseStart": 1,
+        "verseEnd": 17
+      },
+      {
+        "book": "Revelation",
+        "chapter": 8,
+        "label": "Revelation 8:2–13",
+        "verseStart": 2,
+        "verseEnd": 13
+      },
+      {
+        "book": "Revelation",
+        "chapter": 9,
+        "label": "Revelation 9:1–21",
+        "verseStart": 1,
+        "verseEnd": 21
+      },
+      {
+        "book": "Revelation",
+        "chapter": 11,
+        "label": "Revelation 11:15–19",
+        "verseStart": 15,
+        "verseEnd": 19
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical"
+    ]
+  },
+  {
+    "id": "vision-woman-dragon",
+    "title": "Woman & Dragon",
+    "subtitle": "Revelation 12",
+    "visualType": "dragon",
+    "summary": "Cosmic conflict rendered outside ordinary map space.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 12,
+        "label": "Revelation 12:1–17",
+        "verseStart": 1,
+        "verseEnd": 17
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical"
+    ]
+  },
+  {
+    "id": "vision-beasts",
+    "title": "The Beasts",
+    "subtitle": "Revelation 13",
+    "visualType": "beasts",
+    "summary": "Symbolic imperial and coercive imagery without assigning the figures to a modern state or person.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 13,
+        "label": "Revelation 13:1–18",
+        "verseStart": 1,
+        "verseEnd": 18
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-friesen-imperial-cults"
+    ]
+  },
+  {
+    "id": "vision-babylon",
+    "title": "Babylon the Great",
+    "subtitle": "Revelation 17–18",
+    "visualType": "babylon",
+    "summary": "A collapsing imperial-city motif; Rome is shown only as historical interpretive context, not as a coordinate for the vision.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 17,
+        "label": "Revelation 17:1–18",
+        "verseStart": 1,
+        "verseEnd": 18
+      },
+      {
+        "book": "Revelation",
+        "chapter": 18,
+        "label": "Revelation 18:1–24",
+        "verseStart": 1,
+        "verseEnd": 24
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-koester-revelation"
+    ]
+  },
+  {
+    "id": "vision-armageddon",
+    "title": "Har-Magedon",
+    "subtitle": "Revelation 16:16; 19",
+    "visualType": "armageddon",
+    "summary": "Apocalyptic gathering and conflict visualized without a fake battlefield coordinate.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 16,
+        "label": "Revelation 16:16",
+        "verseStart": 16
+      },
+      {
+        "book": "Revelation",
+        "chapter": 19,
+        "label": "Revelation 19:11–21",
+        "verseStart": 11,
+        "verseEnd": 21
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical"
+    ]
+  },
+  {
+    "id": "vision-final-judgment",
+    "title": "Great White Throne",
+    "subtitle": "Revelation 20",
+    "visualType": "judgment",
+    "summary": "Final judgment visualized as visionary space, not geography.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 20,
+        "label": "Revelation 20:11–15",
+        "verseStart": 11,
+        "verseEnd": 15
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical"
+    ]
+  },
+  {
+    "id": "vision-new-jerusalem",
+    "title": "New Jerusalem",
+    "subtitle": "Revelation 21",
+    "visualType": "new-jerusalem",
+    "summary": "Scale-aware geometric visualization of the cubic city. Revelation gives 12,000 stadia for length, width, and height; the visualization treats this as visionary literary measurement rather than engineering survey data.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 21,
+        "label": "Revelation 21:9–27",
+        "verseStart": 9,
+        "verseEnd": 27
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-koester-revelation"
+    ],
+    "metrics": [
+      {
+        "label": "City measure",
+        "value": "12,000 stadia",
+        "note": "Approximately 2,200 km using a common stadion estimate; ancient stadion lengths varied."
+      },
+      {
+        "label": "Shape",
+        "value": "Length = width = height",
+        "note": "The cubic form strongly evokes the Holy of Holies."
+      },
+      {
+        "label": "Wall",
+        "value": "144 cubits",
+        "note": "Revelation 21:17; translation/interpretation of whether this is height or thickness varies."
+      }
+    ]
+  },
+  {
+    "id": "vision-river-tree",
+    "title": "River & Tree of Life",
+    "subtitle": "Revelation 22",
+    "visualType": "river-tree",
+    "summary": "The final vision connects throne, river, tree, healing, and unending light, deliberately echoing Eden.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 22,
+        "label": "Revelation 22:1–5",
+        "verseStart": 1,
+        "verseEnd": 5
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-koester-revelation"
+    ]
+  },
+  {
+    "id": "vision-genesis-revelation",
+    "title": "Eden → New Creation",
+    "subtitle": "Genesis 2–3 ↔ Revelation 21–22",
+    "visualType": "genesis-revelation",
+    "summary": "A canonical-theme visualization connecting river, tree of life, curse/exile, city, and restored access without claiming a terrestrial route between them.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 21,
+        "label": "Revelation 21:1–5",
+        "verseStart": 1,
+        "verseEnd": 5
+      },
+      {
+        "book": "Revelation",
+        "chapter": 22,
+        "label": "Revelation 22:1–5",
+        "verseStart": 1,
+        "verseEnd": 5
+      }
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-b10-canonical-integration"
+    ]
+  }
+]

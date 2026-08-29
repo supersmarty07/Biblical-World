@@ -1,0 +1,602 @@
+[
+  {
+    "id": "story-early-genesis",
+    "title": "Early Genesis — Geography and Uncertainty",
+    "subtitle": "Explore Eden, Ararat, Shinar, and Babel without pretending uncertain or theological geography is a modern GPS layer.",
+    "theme": "origins",
+    "chapters": [
+      {
+        "id": "early-eden",
+        "title": "Eden — deliberately unpinned",
+        "eyebrow": "Genesis 2–3 · unlocated geography",
+        "description": "The atlas treats Eden differently from an excavated city. Genesis names rivers, but the description cannot responsibly be converted into a single established coordinate. Search and evidence panels remain available even when no map pin is drawn.",
+        "placeId": "eden",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 2,
+            "verseStart": 8,
+            "verseEnd": 14,
+            "label": "Genesis 2:8–14"
+          }
+        ],
+        "camera": {
+          "center": [
+            42.0,
+            34.0
+          ],
+          "zoom": 3.5,
+          "pitch": 0,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "early-ararat",
+        "title": "The mountains of Ararat",
+        "eyebrow": "Genesis 8 · regional language",
+        "description": "Genesis says “mountains of Ararat,” not “Mount Ararat.” The map therefore uses a broad highland anchor and explicitly avoids claiming a landing site.",
+        "placeId": "mountains-ararat",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 8,
+            "verseStart": 4,
+            "verseEnd": 4,
+            "label": "Genesis 8:4"
+          }
+        ],
+        "camera": {
+          "center": [
+            44.5,
+            39.7
+          ],
+          "zoom": 5.0,
+          "pitch": 24,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "early-shinar",
+        "title": "Shinar and Babel",
+        "eyebrow": "Genesis 11 · Mesopotamia",
+        "description": "Shinar is shown as a regional Mesopotamian anchor. Babylon is locatable as an ancient city, while the tower narrative is presented as a textual event rather than an archaeological pin for a specific structure.",
+        "placeId": "babylon",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 11,
+            "verseStart": 1,
+            "verseEnd": 9,
+            "label": "Genesis 11:1–9"
+          }
+        ],
+        "camera": {
+          "center": [
+            44.4,
+            32.6
+          ],
+          "zoom": 6.0,
+          "pitch": 20,
+          "bearing": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-abraham",
+    "title": "Abraham — Journey of Promise",
+    "subtitle": "From southern Mesopotamia through Haran into Canaan, with route certainty and disputed geography made visible.",
+    "personId": "abraham",
+    "theme": "patriarchs",
+    "chapters": [
+      {
+        "id": "abraham-ur",
+        "title": "Ur",
+        "eyebrow": "Genesis 11 · probable identification",
+        "description": "The conventional identification places Ur of the Chaldeans at ancient Ur in southern Mesopotamia. The city is real and well excavated; linking the patriarchal family specifically to this site remains a historical-geographic judgment.",
+        "placeId": "ur",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 11,
+            "verseStart": 28,
+            "verseEnd": 31,
+            "label": "Genesis 11:28–31"
+          }
+        ],
+        "camera": {
+          "center": [
+            46.1031,
+            30.9625
+          ],
+          "zoom": 6.4,
+          "pitch": 28,
+          "bearing": -10
+        }
+      },
+      {
+        "id": "abraham-route",
+        "title": "Ur → Haran → Canaan",
+        "eyebrow": "Animated journey · reconstructed corridors",
+        "description": "The moving traveler follows the sequence named in Genesis. The connecting curves are schematic geographic reconstructions; the app never claims these are the exact roads walked by Abraham.",
+        "journeyId": "journey-abraham",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 11,
+            "verseStart": 31,
+            "verseEnd": 31,
+            "label": "Genesis 11:31"
+          },
+          {
+            "book": "Genesis",
+            "chapter": 12,
+            "verseStart": 4,
+            "verseEnd": 6,
+            "label": "Genesis 12:4–6"
+          }
+        ],
+        "camera": {
+          "center": [
+            40.2,
+            34.2
+          ],
+          "zoom": 4.2,
+          "pitch": 22,
+          "bearing": 1
+        }
+      },
+      {
+        "id": "abraham-shechem",
+        "title": "Shechem",
+        "eyebrow": "Genesis 12 · established city location",
+        "description": "Unlike Eden or Sodom, ancient Shechem can be mapped with high geographic confidence at Tell Balata. The archaeological city and the Genesis episode are kept conceptually distinct.",
+        "placeId": "shechem",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 12,
+            "verseStart": 6,
+            "verseEnd": 7,
+            "label": "Genesis 12:6–7"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.2896,
+            32.2135
+          ],
+          "zoom": 8.1,
+          "pitch": 34,
+          "bearing": -8
+        }
+      },
+      {
+        "id": "abraham-hebron",
+        "title": "Hebron and Mamre",
+        "eyebrow": "Patriarchal heartland",
+        "description": "Hebron is a secure ancient location; Mamre’s specific traditional site is less certain. The interface presents both without flattening their confidence levels.",
+        "placeId": "hebron",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 13,
+            "verseStart": 18,
+            "verseEnd": 18,
+            "label": "Genesis 13:18"
+          },
+          {
+            "book": "Genesis",
+            "chapter": 23,
+            "label": "Genesis 23"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.1,
+            31.54
+          ],
+          "zoom": 8.0,
+          "pitch": 32,
+          "bearing": 3
+        }
+      },
+      {
+        "id": "abraham-sodom",
+        "title": "Sodom — no definitive pin",
+        "eyebrow": "Genesis 18–19 · disputed location",
+        "description": "The atlas records competing Dead Sea proposals instead of choosing an archaeological site without sufficient consensus. This is a deliberate design feature, not missing data.",
+        "placeId": "sodom",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 19,
+            "label": "Genesis 19"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.5,
+            31.25
+          ],
+          "zoom": 6.2,
+          "pitch": 20,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "abraham-moriah",
+        "title": "Moriah",
+        "eyebrow": "Genesis 22 · traditional/canonical identification",
+        "description": "A separate journey illustrates the later Temple Mount identification of Moriah. Because Genesis speaks of the “land of Moriah,” the route and endpoint are labeled as interpretive rather than archaeologically proven for Abraham.",
+        "journeyId": "journey-moriah",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 22,
+            "verseStart": 1,
+            "verseEnd": 19,
+            "label": "Genesis 22:1–19"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.1,
+            31.55
+          ],
+          "zoom": 7.0,
+          "pitch": 35,
+          "bearing": -5
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-isaac",
+    "title": "Isaac — Wells, Gerar, and Beersheba",
+    "subtitle": "A more geographically concentrated patriarchal story centered in the southern Canaan/Negev zone.",
+    "personId": "isaac",
+    "theme": "patriarchs",
+    "chapters": [
+      {
+        "id": "isaac-gerar",
+        "title": "Gerar",
+        "eyebrow": "Genesis 26 · candidate site",
+        "description": "Gerar cannot be mapped with the same confidence as Hebron or Shechem. The atlas uses a candidate location near Tell Haror and marks the identification as possible.",
+        "placeId": "gerar",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 26,
+            "verseStart": 1,
+            "verseEnd": 6,
+            "label": "Genesis 26:1–6"
+          }
+        ],
+        "camera": {
+          "center": [
+            34.61,
+            31.36
+          ],
+          "zoom": 7.2,
+          "pitch": 22,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "isaac-route",
+        "title": "Toward Beersheba",
+        "eyebrow": "Animated journey · reconstructed",
+        "description": "Genesis names Isaac’s movement to Beersheba. Intermediate well locations are intentionally not assigned confident modern coordinates.",
+        "journeyId": "journey-isaac",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 26,
+            "verseStart": 23,
+            "verseEnd": 33,
+            "label": "Genesis 26:23–33"
+          }
+        ],
+        "camera": {
+          "center": [
+            34.73,
+            31.3
+          ],
+          "zoom": 8.0,
+          "pitch": 28,
+          "bearing": -8
+        }
+      },
+      {
+        "id": "isaac-beersheba",
+        "title": "Beersheba",
+        "eyebrow": "Patriarchal southern center",
+        "description": "Tell es-Seba is the principal archaeological anchor for biblical Beersheba, although its best-known remains are later than the patriarchal narratives.",
+        "placeId": "beersheba",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 26,
+            "verseStart": 23,
+            "verseEnd": 33,
+            "label": "Genesis 26:23–33"
+          }
+        ],
+        "camera": {
+          "center": [
+            34.8409,
+            31.2453
+          ],
+          "zoom": 8.4,
+          "pitch": 34,
+          "bearing": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-jacob",
+    "title": "Jacob — Exile, Return, and Israel",
+    "subtitle": "Follow Jacob from Beersheba to Bethel and Haran, then back through Gilead and the Jabbok into Canaan.",
+    "personId": "jacob",
+    "theme": "patriarchs",
+    "chapters": [
+      {
+        "id": "jacob-bethel",
+        "title": "Bethel",
+        "eyebrow": "Genesis 28 · probable site identification",
+        "description": "Jacob’s dream is tied to Bethel/Luz. The Beitin-area identification is strong enough to map, while still labeled probable rather than absolute.",
+        "placeId": "bethel",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 28,
+            "verseStart": 10,
+            "verseEnd": 22,
+            "label": "Genesis 28:10–22"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.222,
+            31.929
+          ],
+          "zoom": 8.2,
+          "pitch": 34,
+          "bearing": -5
+        }
+      },
+      {
+        "id": "jacob-haran",
+        "title": "To Haran and back",
+        "eyebrow": "Animated journey · long-range reconstruction",
+        "description": "The story animation connects the named geographic sequence but does not imply knowledge of Jacob’s exact roads across Syria and upper Mesopotamia.",
+        "journeyId": "journey-jacob",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 28,
+            "verseStart": 10,
+            "verseEnd": 10,
+            "label": "Genesis 28:10"
+          },
+          {
+            "book": "Genesis",
+            "chapter": 31,
+            "verseStart": 17,
+            "verseEnd": 25,
+            "label": "Genesis 31:17–25"
+          }
+        ],
+        "camera": {
+          "center": [
+            36.4,
+            34.2
+          ],
+          "zoom": 4.6,
+          "pitch": 18,
+          "bearing": 1
+        }
+      },
+      {
+        "id": "jacob-jabbok",
+        "title": "The Jabbok and Peniel",
+        "eyebrow": "Genesis 32 · secure river, uncertain site",
+        "description": "The Jabbok is securely identified with the Zarqa River. Peniel, however, remains a proposed local site. The map deliberately gives the river and settlement different confidence levels.",
+        "placeId": "peniel",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 32,
+            "verseStart": 22,
+            "verseEnd": 32,
+            "label": "Genesis 32:22–32"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.7,
+            32.19
+          ],
+          "zoom": 9.0,
+          "pitch": 36,
+          "bearing": -10
+        }
+      },
+      {
+        "id": "jacob-shechem",
+        "title": "Shechem and Bethel",
+        "eyebrow": "Return to Canaan",
+        "description": "Jacob’s return sequence links Succoth, Shechem, Bethel, and eventually Hebron. Established ancient cities stand alongside uncertain Transjordanian stops.",
+        "placeId": "shechem",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 33,
+            "verseStart": 17,
+            "verseEnd": 20,
+            "label": "Genesis 33:17–20"
+          },
+          {
+            "book": "Genesis",
+            "chapter": 35,
+            "verseStart": 1,
+            "verseEnd": 15,
+            "label": "Genesis 35:1–15"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.26,
+            32.08
+          ],
+          "zoom": 7.2,
+          "pitch": 28,
+          "bearing": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "story-joseph",
+    "title": "Joseph — From Dothan to Egypt",
+    "subtitle": "The Genesis story expands from the Canaanite hill country into Egypt and the eastern Delta.",
+    "personId": "joseph",
+    "theme": "patriarchs",
+    "chapters": [
+      {
+        "id": "joseph-dothan",
+        "title": "Dothan",
+        "eyebrow": "Genesis 37 · probable/established ancient site",
+        "description": "Tell Dothan gives the Joseph narrative one of its more confidently mapped locations. The story then moves into a long unrecorded travel corridor toward Egypt.",
+        "placeId": "dothan",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 37,
+            "verseStart": 17,
+            "verseEnd": 28,
+            "label": "Genesis 37:17–28"
+          }
+        ],
+        "camera": {
+          "center": [
+            35.238,
+            32.418
+          ],
+          "zoom": 8.1,
+          "pitch": 32,
+          "bearing": -4
+        }
+      },
+      {
+        "id": "joseph-route",
+        "title": "Caravan toward Egypt",
+        "eyebrow": "Animated journey · exact road unknown",
+        "description": "Genesis does not identify the merchants’ precise path. The animation therefore shows a broad geographic corridor and labels the route certainty as unknown.",
+        "journeyId": "journey-joseph",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 37,
+            "verseStart": 25,
+            "verseEnd": 36,
+            "label": "Genesis 37:25–36"
+          }
+        ],
+        "camera": {
+          "center": [
+            33.4,
+            31.1
+          ],
+          "zoom": 5.1,
+          "pitch": 20,
+          "bearing": 2
+        }
+      },
+      {
+        "id": "joseph-on",
+        "title": "On / Heliopolis",
+        "eyebrow": "Genesis 41 · Egyptian city",
+        "description": "On is securely identified with Heliopolis. It enters the Genesis story through Joseph’s marriage to Asenath, daughter of Potiphera priest of On.",
+        "placeId": "on",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 41,
+            "verseStart": 45,
+            "verseEnd": 45,
+            "label": "Genesis 41:45"
+          }
+        ],
+        "camera": {
+          "center": [
+            31.287,
+            30.129
+          ],
+          "zoom": 8.0,
+          "pitch": 20,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "joseph-goshen",
+        "title": "Goshen",
+        "eyebrow": "Genesis 46–47 · regional reconstruction",
+        "description": "Goshen is shown in the eastern Nile Delta as a broad regional anchor. Exact boundaries are not presented as settled.",
+        "placeId": "goshen",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 46,
+            "verseStart": 28,
+            "verseEnd": 34,
+            "label": "Genesis 46:28–34"
+          },
+          {
+            "book": "Genesis",
+            "chapter": 47,
+            "verseStart": 1,
+            "verseEnd": 6,
+            "label": "Genesis 47:1–6"
+          }
+        ],
+        "camera": {
+          "center": [
+            31.95,
+            30.65
+          ],
+          "zoom": 6.0,
+          "pitch": 18,
+          "bearing": 0
+        }
+      },
+      {
+        "id": "joseph-family-route",
+        "title": "Jacob comes to Egypt",
+        "eyebrow": "Animated migration · reconstructed corridor",
+        "description": "The final Genesis movement brings Jacob’s household from Beersheba into Egypt. The route is schematic, while the narrative sequence is explicit.",
+        "journeyId": "journey-jacob-egypt",
+        "scripture": [
+          {
+            "book": "Genesis",
+            "chapter": 46,
+            "verseStart": 1,
+            "verseEnd": 34,
+            "label": "Genesis 46:1–34"
+          }
+        ],
+        "camera": {
+          "center": [
+            33.0,
+            30.6
+          ],
+          "zoom": 5.0,
+          "pitch": 20,
+          "bearing": 0
+        }
+      }
+    ]
+  }
+]

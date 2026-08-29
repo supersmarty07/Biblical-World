@@ -1,0 +1,897 @@
+[
+  {
+    "id": "event-store-cities",
+    "title": "Forced labor and the store cities",
+    "summary": "Exodus associates Israelite forced labor with Pithom and Rameses. Pi-Ramesses is archaeologically known; Pithom remains disputed and the labor episode itself is not an excavated event marker.",
+    "confidence": "moderate",
+    "placeIds": [
+      "rameses",
+      "pithom"
+    ],
+    "personIds": [
+      "moses",
+      "pharaoh-exodus"
+    ],
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 1,
+        "verseStart": 8,
+        "verseEnd": 14,
+        "label": "Exodus 1:8–14"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-egypt",
+      "source-oxford-history"
+    ]
+  },
+  {
+    "id": "event-exodus-departure",
+    "title": "Departure from Rameses",
+    "summary": "The narrative sequence moves from Rameses to Succoth and onward toward the wilderness. The exact road and stations after Rameses are not securely identified.",
+    "confidence": "moderate",
+    "placeIds": [
+      "rameses",
+      "sukkoth-exodus",
+      "wadi-tumilat"
+    ],
+    "personIds": [
+      "moses",
+      "aaron",
+      "miriam"
+    ],
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 12,
+        "verseStart": 31,
+        "verseEnd": 42,
+        "label": "Exodus 12:31–42"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 33,
+        "verseStart": 3,
+        "verseEnd": 6,
+        "label": "Numbers 33:3–6"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-egypt",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "event-sea-crossing",
+    "title": "Crossing of the sea",
+    "summary": "Exodus 14–15 describes escape through the sea and the defeat of Pharaoh’s force. The water body and crossing point remain geographically unresolved.",
+    "confidence": "low",
+    "placeIds": [
+      "yam-suph",
+      "pi-hahiroth",
+      "migdol-exodus",
+      "baal-zephon"
+    ],
+    "personIds": [
+      "moses",
+      "miriam",
+      "pharaoh-exodus"
+    ],
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 14,
+        "label": "Exodus 14"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 15,
+        "verseStart": 1,
+        "verseEnd": 21,
+        "label": "Exodus 15:1–21"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-egypt",
+      "source-batch3-methodology"
+    ],
+    "historicalNote": "The map visualizes route alternatives only as broad schematic corridors; it does not present a discovered crossing site."
+  },
+  {
+    "id": "event-sinai-covenant",
+    "title": "Covenant at Sinai",
+    "summary": "Exodus places Israel at Mount Sinai/Horeb for covenant, law, and sanctuary traditions. The mountain’s modern location is unknown.",
+    "confidence": "moderate",
+    "placeIds": [
+      "mount-sinai",
+      "jebel-musa"
+    ],
+    "personIds": [
+      "moses",
+      "aaron"
+    ],
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 19,
+        "label": "Exodus 19"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 20,
+        "label": "Exodus 20"
+      },
+      {
+        "book": "Exodus",
+        "chapter": 24,
+        "label": "Exodus 24"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-sinai",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "event-golden-calf",
+    "title": "Golden calf episode",
+    "summary": "The golden calf narrative occurs at the Sinai camp while Moses is on the mountain. It is a textual event without an archaeologically identifiable camp location.",
+    "confidence": "moderate",
+    "placeIds": [
+      "mount-sinai"
+    ],
+    "personIds": [
+      "moses",
+      "aaron"
+    ],
+    "scripture": [
+      {
+        "book": "Exodus",
+        "chapter": 32,
+        "label": "Exodus 32"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-hoffmeier-sinai"
+    ]
+  },
+  {
+    "id": "event-spies",
+    "title": "The spies and Kadesh-barnea",
+    "summary": "Numbers sends spies from the wilderness and later locates the congregation at Kadesh. ʿAin el-Qudeirat is the leading site identification for Kadesh-barnea.",
+    "confidence": "moderate",
+    "placeIds": [
+      "kadesh-barnea",
+      "canaan",
+      "hebron"
+    ],
+    "personIds": [
+      "moses",
+      "joshua",
+      "caleb"
+    ],
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 13,
+        "label": "Numbers 13"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 14,
+        "label": "Numbers 14"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-hoffmeier-sinai"
+    ]
+  },
+  {
+    "id": "event-aaron-death",
+    "title": "Death of Aaron at Mount Hor",
+    "summary": "Numbers places Aaron’s death at Mount Hor. Jabal Harun is a later traditional candidate, not a proven biblical location.",
+    "confidence": "traditional",
+    "placeIds": [
+      "mount-hor"
+    ],
+    "personIds": [
+      "moses",
+      "aaron"
+    ],
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 20,
+        "verseStart": 22,
+        "verseEnd": 29,
+        "label": "Numbers 20:22–29"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "event-sihon",
+    "title": "Conflict with Sihon and Heshbon",
+    "summary": "Numbers and Deuteronomy narrate Israel’s defeat of Sihon and occupation of territory centered on Heshbon. Tell Hesban is the standard geographic candidate for Heshbon, but its archaeological chronology is debated.",
+    "confidence": "moderate",
+    "placeIds": [
+      "heshbon",
+      "arnon",
+      "moab",
+      "bashan"
+    ],
+    "personIds": [
+      "moses"
+    ],
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 21,
+        "verseStart": 21,
+        "verseEnd": 31,
+        "label": "Numbers 21:21–31"
+      },
+      {
+        "book": "Deuteronomy",
+        "chapter": 2,
+        "verseStart": 24,
+        "verseEnd": 37,
+        "label": "Deuteronomy 2:24–37"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan"
+    ]
+  },
+  {
+    "id": "event-balaam",
+    "title": "Balak and Balaam",
+    "summary": "Numbers places Balak and Balaam in Moab while Israel is camped on the plains east of Jericho.",
+    "confidence": "moderate",
+    "placeIds": [
+      "moab",
+      "plains-moab"
+    ],
+    "personIds": [
+      "balak",
+      "balaam",
+      "moses"
+    ],
+    "scripture": [
+      {
+        "book": "Numbers",
+        "chapter": 22,
+        "label": "Numbers 22"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 23,
+        "label": "Numbers 23"
+      },
+      {
+        "book": "Numbers",
+        "chapter": 24,
+        "label": "Numbers 24"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-archaeology-jordan"
+    ]
+  },
+  {
+    "id": "event-moses-nebo",
+    "title": "Moses views the land from Nebo",
+    "summary": "Deuteronomy ends with Moses viewing the land from Nebo/Pisgah and dying in Moab. The Nebo ridge is geographically clear; the exact summit and burial place are not.",
+    "confidence": "moderate",
+    "placeIds": [
+      "mount-nebo",
+      "plains-moab"
+    ],
+    "personIds": [
+      "moses"
+    ],
+    "scripture": [
+      {
+        "book": "Deuteronomy",
+        "chapter": 34,
+        "label": "Deuteronomy 34"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-archaeology-jordan"
+    ]
+  },
+  {
+    "id": "event-jordan-crossing",
+    "title": "Crossing the Jordan",
+    "summary": "Joshua describes Israel crossing the Jordan opposite Jericho. The river corridor is mapped; an exact crossing point is not.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jordan-crossing",
+      "gilgal-joshua",
+      "jericho"
+    ],
+    "personIds": [
+      "joshua"
+    ],
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 3,
+        "label": "Joshua 3"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 4,
+        "label": "Joshua 4"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "event-jericho",
+    "title": "Fall of Jericho",
+    "summary": "Joshua 6 narrates the fall of Jericho. Tell es-Sultan is securely Jericho, but correlation of its destruction history with the narrative is disputed.",
+    "confidence": "low",
+    "placeIds": [
+      "jericho"
+    ],
+    "personIds": [
+      "joshua",
+      "rahab"
+    ],
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 6,
+        "label": "Joshua 6"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-kenyon-jericho",
+      "source-ben-tor-israel",
+      "source-oxford-history"
+    ],
+    "historicalNote": "Site identification and event historicity are intentionally given separate confidence judgments."
+  },
+  {
+    "id": "event-ai",
+    "title": "Ai campaign",
+    "summary": "Joshua 7–8 narrates defeat and later victory at Ai. The leading identification with et-Tell creates well-known chronological problems because the site was not a major occupied city in the conventional Late Bronze setting.",
+    "confidence": "low",
+    "placeIds": [
+      "ai",
+      "bethel"
+    ],
+    "personIds": [
+      "joshua"
+    ],
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 7,
+        "label": "Joshua 7"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 8,
+        "label": "Joshua 8"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-oxford-history",
+      "source-ben-tor-israel",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "event-gibeon",
+    "title": "Gibeonite treaty and southern battle",
+    "summary": "Joshua 9–10 links the treaty with Gibeon to a southern coalition and the battle associated with the Valley of Aijalon. Gibeon itself is securely located; reconstructed campaign lines are schematic.",
+    "confidence": "moderate",
+    "placeIds": [
+      "gibeon",
+      "aijalon-valley"
+    ],
+    "personIds": [
+      "joshua"
+    ],
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 9,
+        "label": "Joshua 9"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 10,
+        "verseStart": 1,
+        "verseEnd": 14,
+        "label": "Joshua 10:1–14"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ]
+  },
+  {
+    "id": "event-hazor",
+    "title": "Northern coalition and Hazor",
+    "summary": "Joshua 11 makes Hazor the head of a northern coalition and says the city was burned. Tel Hazor is securely identified, but which archaeological destruction horizon, if any, corresponds to the narrative is debated.",
+    "confidence": "moderate",
+    "placeIds": [
+      "hazor",
+      "waters-merom"
+    ],
+    "personIds": [
+      "joshua"
+    ],
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 11,
+        "verseStart": 1,
+        "verseEnd": 15,
+        "label": "Joshua 11:1–15"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-ben-tor-israel",
+      "source-oxford-history"
+    ]
+  },
+  {
+    "id": "event-covenant-shechem",
+    "title": "Covenant ceremonies at Shechem",
+    "summary": "Joshua 8 and 24 place covenantal ceremonies in the Shechem/Ebal/Gerizim setting. The mountains and ancient Shechem are geographically identifiable.",
+    "confidence": "moderate",
+    "placeIds": [
+      "shechem",
+      "mount-ebal",
+      "mount-gerizim"
+    ],
+    "personIds": [
+      "joshua"
+    ],
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 8,
+        "verseStart": 30,
+        "verseEnd": 35,
+        "label": "Joshua 8:30–35"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 24,
+        "label": "Joshua 24"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ]
+  },
+  {
+    "id": "event-shiloh-allotment",
+    "title": "Assembly at Shiloh",
+    "summary": "Joshua 18 places the tent of meeting and land-allotment assembly at Shiloh. Khirbet Seilun is securely ancient Shiloh; the sanctuary’s exact physical form is not identified.",
+    "confidence": "moderate",
+    "placeIds": [
+      "shiloh"
+    ],
+    "personIds": [
+      "joshua"
+    ],
+    "scripture": [
+      {
+        "book": "Joshua",
+        "chapter": 18,
+        "verseStart": 1,
+        "verseEnd": 10,
+        "label": "Joshua 18:1–10"
+      },
+      {
+        "book": "Joshua",
+        "chapter": 19,
+        "verseStart": 51,
+        "verseEnd": 51,
+        "label": "Joshua 19:51"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ]
+  },
+  {
+    "id": "event-deborah",
+    "title": "Deborah, Barak, and Sisera",
+    "summary": "Judges 4–5 locates the conflict across Kedesh, Mount Tabor, the Kishon, and the Jezreel/Esdraelon system. Exact troop movements remain reconstructive.",
+    "confidence": "moderate",
+    "placeIds": [
+      "kedesh-naphtali",
+      "mount-tabor",
+      "kishon",
+      "harosheth-hagoyim",
+      "hazor"
+    ],
+    "personIds": [
+      "deborah",
+      "barak",
+      "sisera",
+      "jael"
+    ],
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 4,
+        "label": "Judges 4"
+      },
+      {
+        "book": "Judges",
+        "chapter": 5,
+        "label": "Judges 5"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-oxford-history"
+    ]
+  },
+  {
+    "id": "event-gideon",
+    "title": "Gideon and Midian",
+    "summary": "Judges 6–8 centers Gideon’s campaign in the Jezreel Valley and at the Spring of Harod before pursuit east of the Jordan. Several later route points are uncertain.",
+    "confidence": "moderate",
+    "placeIds": [
+      "ophrah-abiezrites",
+      "spring-harod",
+      "jezreel-valley",
+      "succoth",
+      "peniel"
+    ],
+    "personIds": [
+      "gideon"
+    ],
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 6,
+        "label": "Judges 6"
+      },
+      {
+        "book": "Judges",
+        "chapter": 7,
+        "label": "Judges 7"
+      },
+      {
+        "book": "Judges",
+        "chapter": 8,
+        "label": "Judges 8"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "event-jephthah",
+    "title": "Jephthah and Ammon",
+    "summary": "Judges 10–12 places Jephthah in Gilead and narrates conflict with Ammon. The broad Transjordan setting is clear; Mizpah and the campaign route are not securely mapped.",
+    "confidence": "moderate",
+    "placeIds": [
+      "gilead",
+      "mizpah-gilead",
+      "jabbok",
+      "ammon"
+    ],
+    "personIds": [
+      "jephthah"
+    ],
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 10,
+        "verseStart": 17,
+        "verseEnd": 18,
+        "label": "Judges 10:17–18"
+      },
+      {
+        "book": "Judges",
+        "chapter": 11,
+        "label": "Judges 11"
+      },
+      {
+        "book": "Judges",
+        "chapter": 12,
+        "verseStart": 1,
+        "verseEnd": 7,
+        "label": "Judges 12:1–7"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-archaeology-jordan",
+      "source-sacred-bridge"
+    ]
+  },
+  {
+    "id": "event-samson",
+    "title": "Samson on the Philistine frontier",
+    "summary": "Judges 13–16 unfolds across Zorah, Timnah, the Sorek Valley, Ashkelon, and Gaza. Several smaller sites such as Lehi remain unknown.",
+    "confidence": "moderate",
+    "placeIds": [
+      "zorah",
+      "eshtaol",
+      "timnah-samson",
+      "sorek-valley",
+      "ashkelon",
+      "gaza",
+      "lehi"
+    ],
+    "personIds": [
+      "samson",
+      "delilah"
+    ],
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 13,
+        "label": "Judges 13"
+      },
+      {
+        "book": "Judges",
+        "chapter": 14,
+        "label": "Judges 14"
+      },
+      {
+        "book": "Judges",
+        "chapter": 15,
+        "label": "Judges 15"
+      },
+      {
+        "book": "Judges",
+        "chapter": 16,
+        "label": "Judges 16"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel"
+    ]
+  },
+  {
+    "id": "event-leviticus-sinai",
+    "title": "Leviticus framed at Sinai",
+    "summary": "Leviticus presents major priestly and covenant legislation as given to Moses at or in relation to Sinai. Because the mountain is unlocated, the atlas treats this as a textual setting rather than a mapped archaeological event site.",
+    "confidence": "moderate",
+    "placeIds": [
+      "mount-sinai"
+    ],
+    "personIds": [
+      "moses",
+      "aaron"
+    ],
+    "scripture": [
+      {
+        "book": "Leviticus",
+        "chapter": 25,
+        "verseStart": 1,
+        "verseEnd": 1,
+        "label": "Leviticus 25:1"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 26,
+        "verseStart": 46,
+        "verseEnd": 46,
+        "label": "Leviticus 26:46"
+      },
+      {
+        "book": "Leviticus",
+        "chapter": 27,
+        "verseStart": 34,
+        "verseEnd": 34,
+        "label": "Leviticus 27:34"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ],
+    "historicalNote": "This event exists to preserve canonical/geographic continuity through Leviticus; it does not date or locate Sinai."
+  },
+  {
+    "id": "event-othniel",
+    "title": "Othniel and the early Judges cycle",
+    "summary": "Judges 3 presents Othniel as the first judge. His earlier capture of Debir is geographically relevant, but Debir itself remains disputed.",
+    "confidence": "moderate",
+    "placeIds": [
+      "debir"
+    ],
+    "personIds": [
+      "othniel"
+    ],
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 1,
+        "verseStart": 11,
+        "verseEnd": 13,
+        "label": "Judges 1:11–13"
+      },
+      {
+        "book": "Judges",
+        "chapter": 3,
+        "verseStart": 7,
+        "verseEnd": 11,
+        "label": "Judges 3:7–11"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "event-ehud",
+    "title": "Ehud and Eglon of Moab",
+    "summary": "Judges 3 situates Moabite domination around the City of Palms/Jericho and describes Ehud rallying Israel in the Ephraimite hill country. Exact palace and route locations are not recoverable.",
+    "confidence": "moderate",
+    "placeIds": [
+      "moab",
+      "jericho",
+      "hill-country-ephraim"
+    ],
+    "personIds": [
+      "ehud",
+      "eglon"
+    ],
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 3,
+        "verseStart": 12,
+        "verseEnd": 30,
+        "label": "Judges 3:12–30"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "event-abimelech",
+    "title": "Abimelech at Shechem and Thebez",
+    "summary": "Judges 9 centers Abimelech’s rule and violence on Shechem, Mount Gerizim, and later Thebez. Shechem and Gerizim are secure geography; Thebez is mapped only as a candidate near Tubas.",
+    "confidence": "moderate",
+    "placeIds": [
+      "shechem",
+      "mount-gerizim",
+      "thebez"
+    ],
+    "personIds": [
+      "abimelech"
+    ],
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 9,
+        "label": "Judges 9"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "event-danite-migration",
+    "title": "Danite migration from the Shephelah to Laish",
+    "summary": "Judges 18 narrates scouts and a migrating Danite group moving from the Zorah–Eshtaol district north to Laish, which is renamed Dan. Tel Dan is a secure geographic anchor; the exact route is reconstructed.",
+    "confidence": "moderate",
+    "placeIds": [
+      "zorah",
+      "eshtaol",
+      "hill-country-ephraim",
+      "dan-laish"
+    ],
+    "personIds": [
+      "micah-judges"
+    ],
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 18,
+        "label": "Judges 18"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel",
+      "source-batch3-methodology"
+    ]
+  },
+  {
+    "id": "event-benjamin-civil-war",
+    "title": "Gibeah outrage and Benjaminite civil war",
+    "summary": "Judges 19–21 moves from Bethlehem to Gibeah and then to assemblies and battles involving Mizpah, Bethel, Gibeah, Jabesh-gilead, and Shiloh. Several site identifications vary in confidence.",
+    "confidence": "moderate",
+    "placeIds": [
+      "bethlehem-judah",
+      "gibeah-benjamin",
+      "mizpah-benjamin",
+      "bethel",
+      "jabesh-gilead",
+      "shiloh"
+    ],
+    "personIds": [
+      "levite-judges19"
+    ],
+    "scripture": [
+      {
+        "book": "Judges",
+        "chapter": 19,
+        "label": "Judges 19"
+      },
+      {
+        "book": "Judges",
+        "chapter": 20,
+        "label": "Judges 20"
+      },
+      {
+        "book": "Judges",
+        "chapter": 21,
+        "label": "Judges 21"
+      }
+    ],
+    "sourceIds": [
+      "source-exodus-judges-text",
+      "source-sacred-bridge",
+      "source-ben-tor-israel",
+      "source-batch3-methodology"
+    ],
+    "historicalNote": "The atlas treats this as a textual-geographic sequence and does not reconstruct exact battle lines or population movements."
+  }
+]

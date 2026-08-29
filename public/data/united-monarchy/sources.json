@@ -1,0 +1,50 @@
+[
+  {
+    "id": "source-united-monarchy-text",
+    "title": "Ruth through the United Monarchy — biblical text and canonical place/event sequence",
+    "organization": "Berean Standard Bible / canonical references",
+    "url": "https://berean.bible/",
+    "license": "CC0 / public domain according to project research supplied 2026-08-29",
+    "verifiedAt": "2026-08-29 — licensing status supplied by user research; official-source release check still recommended",
+    "notes": "Primary source for narrative sequence and biblical place-names. It does not by itself establish modern coordinates, archaeological dates, or the scale of the monarchy."
+  },
+  {
+    "id": "source-batch4-methodology",
+    "title": "Batch 4 Ruth–United Monarchy Curation Methodology",
+    "organization": "The Biblical World project",
+    "license": "Original project metadata",
+    "notes": "Separates textual claims, place identification, archaeology, chronology, political reconstruction, later tradition, and animated route inference. Jerusalem/Zion/Temple records use distinct confidence layers."
+  },
+  {
+    "id": "source-mazar-land-bible",
+    "title": "Archaeology of the Land of the Bible: 10,000–586 B.C.E.",
+    "author": "Amihai Mazar",
+    "organization": "Doubleday / Anchor Bible Reference Library",
+    "year": 1990,
+    "notes": "Broad archaeological synthesis for Iron I–II sites and chronology. Used as one major reference, not as a sole authority on disputed 10th-century dating."
+  },
+  {
+    "id": "source-jerusalem-bible-archaeology",
+    "title": "Jerusalem in Bible and Archaeology: The First Temple Period",
+    "author": "Andrew G. Vaughn and Ann E. Killebrew, eds.",
+    "organization": "Society of Biblical Literature",
+    "year": 2003,
+    "notes": "Multi-author scholarly volume used to frame competing archaeological and historical interpretations of First Temple-period Jerusalem."
+  },
+  {
+    "id": "source-reich-city-david",
+    "title": "Excavating the City of David: Where Jerusalem’s History Began",
+    "author": "Ronny Reich",
+    "organization": "Israel Exploration Society",
+    "year": 2011,
+    "notes": "Archaeological synthesis of the southeastern ridge and its water systems. Used for topographic context; specific structure-to-king attributions remain independently assessed."
+  },
+  {
+    "id": "source-david-solomon-debate",
+    "title": "David and Solomon: In Search of the Bible’s Sacred Kings and the Roots of the Western Tradition",
+    "author": "Israel Finkelstein and Neil Asher Silberman",
+    "organization": "Free Press",
+    "year": 2006,
+    "notes": "Represents a more minimalist/revisionist side of the archaeological debate about state scale and 10th-century material culture. Included to avoid presenting one chronology as consensus."
+  }
+]

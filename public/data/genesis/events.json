@@ -1,0 +1,350 @@
+[
+  {
+    "id": "eden-narrative",
+    "title": "Eden narrative",
+    "summary": "Genesis situates the first human pair in a divinely planted garden associated with four rivers. The atlas leaves Eden unpinned because a recoverable modern location is not established.",
+    "confidence": "symbolic",
+    "placeIds": [
+      "eden"
+    ],
+    "personIds": [
+      "adam",
+      "eve"
+    ],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 2,
+        "verseStart": 8,
+        "verseEnd": 25,
+        "label": "Genesis 2:8–25"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 3,
+        "label": "Genesis 3"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "historicalNote": "Map treatment is intentionally literary/geographic rather than a claim to archaeological localization."
+  },
+  {
+    "id": "flood-rest",
+    "title": "Ark rests in the mountains of Ararat",
+    "summary": "Genesis describes the ark resting in the “mountains of Ararat.”",
+    "confidence": "moderate",
+    "placeIds": [
+      "mountains-ararat"
+    ],
+    "personIds": [
+      "noah"
+    ],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 8,
+        "verseStart": 4,
+        "verseEnd": 4,
+        "label": "Genesis 8:4"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "historicalNote": "This phrase should not be collapsed into the modern peak called Mount Ararat."
+  },
+  {
+    "id": "babel",
+    "title": "Babel and the tower",
+    "summary": "The Babel narrative is set in Shinar and explains linguistic dispersion in theological/literary terms.",
+    "confidence": "moderate",
+    "placeIds": [
+      "shinar",
+      "babylon"
+    ],
+    "personIds": [],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 11,
+        "verseStart": 1,
+        "verseEnd": 9,
+        "label": "Genesis 11:1–9"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "historicalNote": "The archaeological city of Babylon is locatable; the narrative’s event-historicity is a separate interpretive question."
+  },
+  {
+    "id": "abraham-call",
+    "title": "Abram leaves Haran for Canaan",
+    "summary": "Genesis describes Abram departing Haran and traveling into Canaan.",
+    "confidence": "high",
+    "placeIds": [
+      "haran",
+      "canaan",
+      "shechem"
+    ],
+    "personIds": [
+      "abraham",
+      "sarah",
+      "lot"
+    ],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 12,
+        "verseStart": 1,
+        "verseEnd": 7,
+        "label": "Genesis 12:1–7"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "historicalNote": "The sequence of named locations is textual; the exact route line is reconstructed."
+  },
+  {
+    "id": "abraham-egypt",
+    "title": "Abram goes down to Egypt",
+    "summary": "A famine prompts Abram to travel from Canaan toward Egypt and later return.",
+    "confidence": "high",
+    "placeIds": [
+      "negev",
+      "egypt",
+      "bethel"
+    ],
+    "personIds": [
+      "abraham",
+      "sarah"
+    ],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 12,
+        "verseStart": 10,
+        "verseEnd": 20,
+        "label": "Genesis 12:10–20"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 13,
+        "verseStart": 1,
+        "verseEnd": 4,
+        "label": "Genesis 13:1–4"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ]
+  },
+  {
+    "id": "melchizedek",
+    "title": "Abram and Melchizedek",
+    "summary": "After the kings narrative, Melchizedek king of Salem blesses Abram.",
+    "confidence": "moderate",
+    "placeIds": [
+      "salem"
+    ],
+    "personIds": [
+      "abraham"
+    ],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 14,
+        "verseStart": 18,
+        "verseEnd": 20,
+        "label": "Genesis 14:18–20"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "historicalNote": "Salem is mapped at Jerusalem as a probable identification, not an explicit equation within Genesis itself."
+  },
+  {
+    "id": "sodom-destruction",
+    "title": "Sodom and Gomorrah narrative",
+    "summary": "Genesis 18–19 describes judgment on Sodom and Gomorrah and Lot’s escape toward Zoar.",
+    "confidence": "low",
+    "placeIds": [
+      "sodom",
+      "gomorrah",
+      "zoar"
+    ],
+    "personIds": [
+      "lot",
+      "abraham"
+    ],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 18,
+        "verseStart": 16,
+        "verseEnd": 33,
+        "label": "Genesis 18:16–33"
+      },
+      {
+        "book": "Genesis",
+        "chapter": 19,
+        "label": "Genesis 19"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "historicalNote": "No definitive archaeological pin is displayed for Sodom or Gomorrah."
+  },
+  {
+    "id": "binding-isaac",
+    "title": "Binding of Isaac / Akedah",
+    "summary": "Genesis 22 narrates Abraham traveling to the land of Moriah with Isaac.",
+    "confidence": "traditional",
+    "placeIds": [
+      "beersheba",
+      "moriah"
+    ],
+    "personIds": [
+      "abraham",
+      "isaac"
+    ],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 22,
+        "verseStart": 1,
+        "verseEnd": 19,
+        "label": "Genesis 22:1–19"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "historicalNote": "The route is reconstructed; the Jerusalem/Temple Mount location is the later canonical/traditional identification, not an archaeologically demonstrated Genesis-era waypoint."
+  },
+  {
+    "id": "jacob-bethel",
+    "title": "Jacob’s dream at Bethel",
+    "summary": "On the way from Beersheba toward Haran, Jacob names the place Bethel after his dream.",
+    "confidence": "high",
+    "placeIds": [
+      "beersheba",
+      "bethel",
+      "haran"
+    ],
+    "personIds": [
+      "jacob"
+    ],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 28,
+        "verseStart": 10,
+        "verseEnd": 22,
+        "label": "Genesis 28:10–22"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ]
+  },
+  {
+    "id": "jacob-peniel",
+    "title": "Jacob wrestles near the Jabbok",
+    "summary": "Jacob crosses the Jabbok and receives the name Israel in the Peniel narrative.",
+    "confidence": "moderate",
+    "placeIds": [
+      "jabbok",
+      "peniel"
+    ],
+    "personIds": [
+      "jacob"
+    ],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 32,
+        "verseStart": 22,
+        "verseEnd": 32,
+        "label": "Genesis 32:22–32"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "historicalNote": "The river identification is secure; the exact Peniel site is not."
+  },
+  {
+    "id": "joseph-sold",
+    "title": "Joseph sold near Dothan",
+    "summary": "Joseph’s brothers encounter him near Dothan; merchants carry him toward Egypt.",
+    "confidence": "high",
+    "placeIds": [
+      "dothan",
+      "egypt"
+    ],
+    "personIds": [
+      "joseph",
+      "judah"
+    ],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 37,
+        "verseStart": 17,
+        "verseEnd": 36,
+        "label": "Genesis 37:17–36"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "historicalNote": "The route line toward Egypt is a corridor reconstruction, not a documented caravan track for this event."
+  },
+  {
+    "id": "jacob-to-egypt",
+    "title": "Jacob’s household moves to Egypt",
+    "summary": "After stopping at Beersheba, Jacob’s household travels to Egypt and is settled in Goshen.",
+    "confidence": "high",
+    "placeIds": [
+      "beersheba",
+      "egypt",
+      "goshen"
+    ],
+    "personIds": [
+      "jacob",
+      "joseph",
+      "judah"
+    ],
+    "scripture": [
+      {
+        "book": "Genesis",
+        "chapter": 46,
+        "verseStart": 1,
+        "verseEnd": 34,
+        "label": "Genesis 46:1–34"
+      }
+    ],
+    "sourceIds": [
+      "source-genesis-text",
+      "source-batch2-methodology"
+    ],
+    "historicalNote": "Goshen is shown as a broad eastern-Delta anchor rather than a fixed polygon."
+  }
+]

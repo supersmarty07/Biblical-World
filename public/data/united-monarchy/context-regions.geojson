@@ -1,0 +1,319 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-early-monarchy-highlands",
+        "name": "Early monarchy highland core — settlement/political context",
+        "validFrom": -1050,
+        "validTo": -930,
+        "confidence": "disputed",
+        "sourceIds": [
+          "source-oxford-history",
+          "source-mazar-land-bible",
+          "source-david-solomon-debate",
+          "source-batch4-methodology"
+        ],
+        "note": "Generalized zone of highland settlement and biblical monarchy core. It is not a surveyed border and deliberately does not assert the maximum territorial claims of 1 Kings as cartographic fact.",
+        "family": "highland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.85,
+              31.15
+            ],
+            [
+              35.45,
+              31.15
+            ],
+            [
+              35.55,
+              32.6
+            ],
+            [
+              35.2,
+              32.85
+            ],
+            [
+              34.9,
+              32.2
+            ],
+            [
+              34.85,
+              31.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-philistia-monarchy",
+        "name": "Philistine pentapolis sphere — early monarchy context",
+        "validFrom": -1100,
+        "validTo": -900,
+        "confidence": "probable",
+        "sourceIds": [
+          "source-oxford-history",
+          "source-mazar-land-bible",
+          "source-ben-tor-israel",
+          "source-batch4-methodology"
+        ],
+        "note": "Broad cultural-political orientation around Gaza, Ashkelon, Ashdod, Ekron, and Gath; city influence varied through time and did not form a modern fixed-border state.",
+        "family": "philistine"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.3,
+              31.15
+            ],
+            [
+              34.92,
+              31.15
+            ],
+            [
+              35.0,
+              31.95
+            ],
+            [
+              34.55,
+              32.0
+            ],
+            [
+              34.3,
+              31.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-phoenician-coast",
+        "name": "Phoenician coast — Tyre/Sidon context",
+        "validFrom": -1100,
+        "validTo": -850,
+        "confidence": "probable",
+        "sourceIds": [
+          "source-oxford-history",
+          "source-anchor-yale",
+          "source-batch4-methodology"
+        ],
+        "note": "Generalized coastal cultural corridor focused on Phoenician city-states. It is not a single kingdom polygon.",
+        "family": "phoenician"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.9,
+              32.85
+            ],
+            [
+              35.45,
+              32.85
+            ],
+            [
+              35.75,
+              34.1
+            ],
+            [
+              35.1,
+              34.1
+            ],
+            [
+              34.9,
+              32.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-aramean-south-syria",
+        "name": "Aramean polities — southern Syria context",
+        "validFrom": -1050,
+        "validTo": -900,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-oxford-history",
+          "source-anchor-yale",
+          "source-batch4-methodology"
+        ],
+        "note": "Broad orientation for emerging Aramean polities around Damascus and southern Syria. Political boundaries shifted and are not drawn precisely.",
+        "family": "aramean"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.35,
+              32.45
+            ],
+            [
+              36.8,
+              32.45
+            ],
+            [
+              37.1,
+              34.2
+            ],
+            [
+              35.8,
+              34.2
+            ],
+            [
+              35.35,
+              32.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-judah-shephelah-frontier",
+        "name": "Judah–Philistia frontier zone — Shephelah",
+        "validFrom": -1050,
+        "validTo": -900,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-mazar-land-bible",
+          "source-sacred-bridge",
+          "source-batch4-methodology"
+        ],
+        "note": "A landscape frontier containing valleys and towns repeatedly contested in the Saul/David narratives. This is a contextual zone, not a state border.",
+        "family": "frontier"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.72,
+              31.25
+            ],
+            [
+              35.1,
+              31.25
+            ],
+            [
+              35.2,
+              31.9
+            ],
+            [
+              34.8,
+              31.9
+            ],
+            [
+              34.72,
+              31.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-jerusalem-core",
+        "name": "Jerusalem highland core — early Iron II context",
+        "validFrom": -1000,
+        "validTo": -900,
+        "confidence": "established",
+        "sourceIds": [
+          "source-jerusalem-bible-archaeology",
+          "source-reich-city-david",
+          "source-batch4-methodology"
+        ],
+        "note": "Geographic context window around Jerusalem only. It does not encode the size of Davidic/Solomonic political control.",
+        "family": "jerusalem"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.14,
+              31.7
+            ],
+            [
+              35.31,
+              31.7
+            ],
+            [
+              35.31,
+              31.88
+            ],
+            [
+              35.14,
+              31.88
+            ],
+            [
+              35.14,
+              31.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-south-arabia-saba",
+        "name": "South Arabian / Sabaean cultural context",
+        "validFrom": -1000,
+        "validTo": -700,
+        "confidence": "possible",
+        "sourceIds": [
+          "source-anchor-yale",
+          "source-oxford-history",
+          "source-batch4-methodology"
+        ],
+        "note": "Broad cultural-geographic context for Sheba/Saba. Early first-millennium state formation and chronology are complex; this is not a 10th-century border reconstruction.",
+        "family": "south-arabia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.5,
+              13.0
+            ],
+            [
+              47.0,
+              13.0
+            ],
+            [
+              47.0,
+              17.5
+            ],
+            [
+              43.5,
+              17.5
+            ],
+            [
+              43.5,
+              13.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

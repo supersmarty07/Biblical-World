@@ -1,0 +1,638 @@
+[
+  {
+    "id": "alexander-iii",
+    "name": "Alexander III of Macedon",
+    "aliases": [
+      "Alexander the Great"
+    ],
+    "era": "Macedonian conquest, 336–323 BCE",
+    "summary": "Macedonian king whose conquest ended Achaemenid rule across the Levant and Egypt and created the geopolitical framework of the Hellenistic age.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "pella-macedonia",
+      "tyre",
+      "gaza",
+      "memphis-egypt",
+      "alexandria-egypt"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-arrian-alexander",
+      "source-diodorus-library"
+    ],
+    "artisticNote": "Artistic silhouette only; not a reconstruction of Alexander’s actual face, armor, or portrait type."
+  },
+  {
+    "id": "ptolemy-i",
+    "name": "Ptolemy I Soter",
+    "aliases": [
+      "Ptolemy son of Lagus"
+    ],
+    "era": "Early Ptolemaic period",
+    "summary": "Alexander’s general who established Ptolemaic rule in Egypt and contested Coele-Syria/Judea during the Successor wars.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "alexandria-egypt",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-diodorus-library",
+      "source-josephus-ant12"
+    ]
+  },
+  {
+    "id": "ptolemy-ii",
+    "name": "Ptolemy II Philadelphus",
+    "aliases": [],
+    "era": "Ptolemaic period",
+    "summary": "Ptolemaic king associated by later tradition with the Greek translation of the Torah; the historical translation process was likely more complex than the idealized Letter of Aristeas account.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "alexandria-egypt"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-schurer-second-temple"
+    ]
+  },
+  {
+    "id": "seleucus-i",
+    "name": "Seleucus I Nicator",
+    "aliases": [],
+    "era": "Early Seleucid period",
+    "summary": "Founder of the Seleucid dynasty and of major royal cities including Antioch and Seleucia Pieria.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "antioch-orontes",
+      "seleucia-pieria"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-appian-syrian",
+      "source-strabo-geography"
+    ]
+  },
+  {
+    "id": "antiochus-iii",
+    "name": "Antiochus III the Great",
+    "aliases": [],
+    "era": "Seleucid period",
+    "summary": "Seleucid king whose victory over Ptolemaic forces at Panium around 200 BCE brought Coele-Syria and Judea under Seleucid control.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "antioch-orontes",
+      "panium",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-polybius-histories",
+      "source-josephus-ant12"
+    ]
+  },
+  {
+    "id": "seleucus-iv",
+    "name": "Seleucus IV Philopator",
+    "aliases": [],
+    "era": "Seleucid period",
+    "summary": "Seleucid king preceding Antiochus IV; administrative evidence from his reign illuminates royal oversight of temples in Coele-Syria/Phoenicia.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "antioch-orontes",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-heliodorus-stele",
+      "source-josephus-ant12"
+    ]
+  },
+  {
+    "id": "antiochus-iv",
+    "name": "Antiochus IV Epiphanes",
+    "aliases": [],
+    "era": "Seleucid crisis, 175–164 BCE",
+    "summary": "Seleucid king whose interventions in Jerusalem and restrictive decrees stand at the center of 1–2 Maccabees and the Maccabean revolt.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "antioch-orontes",
+      "jerusalem",
+      "temple-mount"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-2-maccabees",
+      "source-polybius-histories"
+    ],
+    "artisticNote": "Artistic silhouette only; Hellenistic ruler imagery is not a portrait claim."
+  },
+  {
+    "id": "onias-iii",
+    "name": "Onias III",
+    "aliases": [],
+    "era": "Early second century BCE",
+    "summary": "Jerusalem high priest deposed during the political crisis preceding the Maccabean revolt.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "temple-mount"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-2-maccabees",
+      "source-josephus-ant12"
+    ]
+  },
+  {
+    "id": "onias-iv",
+    "name": "Onias IV",
+    "aliases": [
+      "Onias son of Onias III"
+    ],
+    "era": "Ptolemaic Egypt / second century BCE",
+    "summary": "A later Oniad priest associated by Josephus with the foundation of a Jewish temple in Egypt, usually connected with Leontopolis. Josephus’s Onias genealogy and chronology require careful source criticism.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "leontopolis-jewish-temple",
+      "alexandria-egypt"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-josephus-ant13",
+      "source-schurer-second-temple"
+    ]
+  },
+  {
+    "id": "jason-high-priest",
+    "name": "Jason",
+    "aliases": [
+      "Jesus/Joshua, brother of Onias III"
+    ],
+    "era": "Seleucid Jerusalem",
+    "summary": "High-priestly claimant associated in 2 Maccabees with a program of Hellenizing civic institutions in Jerusalem.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-2-maccabees",
+      "source-josephus-ant12"
+    ]
+  },
+  {
+    "id": "menelaus-high-priest",
+    "name": "Menelaus",
+    "aliases": [],
+    "era": "Seleucid Jerusalem",
+    "summary": "High priest installed amid the political struggles of Antiochus IV’s reign; ancient sources portray him polemically and details require source criticism.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-2-maccabees",
+      "source-josephus-ant12"
+    ]
+  },
+  {
+    "id": "mattathias",
+    "name": "Mattathias",
+    "aliases": [
+      "Mattathias the Hasmonean"
+    ],
+    "era": "Maccabean revolt",
+    "summary": "Priestly patriarch associated by 1 Maccabees with Modein and the beginning of armed resistance to Seleucid decrees.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "modein"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ],
+    "artisticNote": "Artistic silhouette only; no historical portrait survives."
+  },
+  {
+    "id": "judas-maccabeus",
+    "name": "Judas Maccabeus",
+    "aliases": [
+      "Judah Maccabee",
+      "Judas Maccabaeus"
+    ],
+    "era": "Maccabean revolt",
+    "summary": "Military leader of the revolt associated with victories at Emmaus and Beth-zur and the rededication of the Jerusalem temple in 164 BCE.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "emmaus-nicopolis",
+      "beth-zur-hellenistic",
+      "jerusalem",
+      "adasa",
+      "elasa"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-2-maccabees",
+      "source-josephus-ant12"
+    ],
+    "artisticNote": "Artistic silhouette only; no historical portrait survives."
+  },
+  {
+    "id": "jonathan-apphus",
+    "name": "Jonathan Apphus",
+    "aliases": [
+      "Jonathan the Hasmonean"
+    ],
+    "era": "Early Hasmonean period",
+    "summary": "Brother of Judas who became leader and high priest amid shifting Seleucid alliances.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "ptolemais-akko"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant13"
+    ]
+  },
+  {
+    "id": "simon-thassi",
+    "name": "Simon Thassi",
+    "aliases": [
+      "Simon the Hasmonean"
+    ],
+    "era": "Early Hasmonean state",
+    "summary": "Brother of Judas and Jonathan whose rule is associated with effective Judean independence and removal of the Seleucid garrison from Jerusalem.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "jerusalem-acra",
+      "joppa"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant13"
+    ]
+  },
+  {
+    "id": "john-hyrcanus-i",
+    "name": "John Hyrcanus I",
+    "aliases": [],
+    "era": "Hasmonean expansion",
+    "summary": "Hasmonean high priest and ruler associated with territorial expansion into Idumea and Samaria and the destruction of the Mount Gerizim sanctuary.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "idumea-hellenistic",
+      "maresa",
+      "adora",
+      "mount-gerizim-sanctuary",
+      "samaria"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant13",
+      "source-magen-gerizim",
+      "source-kloner-maresha"
+    ]
+  },
+  {
+    "id": "aristobulus-i",
+    "name": "Aristobulus I",
+    "aliases": [],
+    "era": "Hasmonean monarchy",
+    "summary": "Hasmonean ruler commonly regarded as the first of the dynasty to take the title of king, ruling briefly in 104/103 BCE.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant13",
+      "source-schurer-second-temple"
+    ]
+  },
+  {
+    "id": "alexander-jannaeus",
+    "name": "Alexander Jannaeus",
+    "aliases": [
+      "Jonathan Alexander"
+    ],
+    "era": "Hasmonean monarchy",
+    "summary": "Hasmonean king and high priest whose long reign combined expansion, coastal warfare and severe internal conflict.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "gaza",
+      "ptolemais-akko",
+      "joppa"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant13",
+      "source-schurer-second-temple"
+    ]
+  },
+  {
+    "id": "salome-alexandra",
+    "name": "Salome Alexandra",
+    "aliases": [
+      "Shelomzion"
+    ],
+    "era": "Hasmonean monarchy",
+    "summary": "Hasmonean queen whose reign (76–67 BCE in conventional chronology) followed Alexander Jannaeus and preceded the civil conflict of her sons.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant13",
+      "source-schurer-second-temple"
+    ]
+  },
+  {
+    "id": "hyrcanus-ii",
+    "name": "Hyrcanus II",
+    "aliases": [],
+    "era": "Late Hasmonean / Roman transition",
+    "summary": "Hasmonean high priest and claimant whose rivalry with Aristobulus II drew Pompey into Judean politics.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "damascus",
+      "rome"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant14"
+    ]
+  },
+  {
+    "id": "aristobulus-ii",
+    "name": "Aristobulus II",
+    "aliases": [],
+    "era": "Late Hasmonean / Roman transition",
+    "summary": "Hasmonean king and rival of Hyrcanus II, defeated during Pompey’s intervention.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "damascus",
+      "rome"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant14"
+    ]
+  },
+  {
+    "id": "pompey",
+    "name": "Pompey the Great",
+    "aliases": [
+      "Gnaeus Pompeius Magnus"
+    ],
+    "era": "Roman Republic",
+    "summary": "Roman commander who reorganized the eastern Mediterranean and captured Jerusalem in 63 BCE during the Hasmonean civil war.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "damascus",
+      "jericho",
+      "jerusalem",
+      "rome"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant14",
+      "source-plutarch-pompey-antony"
+    ]
+  },
+  {
+    "id": "antipater-idumaean",
+    "name": "Antipater the Idumaean",
+    "aliases": [],
+    "era": "Roman transition",
+    "summary": "Idumaean political leader and father of Herod who became a central intermediary in Judean politics under Hyrcanus II and Rome.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "idumea-hellenistic",
+      "jerusalem",
+      "rome"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant14",
+      "source-schurer-second-temple"
+    ]
+  },
+  {
+    "id": "julius-caesar",
+    "name": "Julius Caesar",
+    "aliases": [],
+    "era": "Roman Republic",
+    "summary": "Roman dictator whose eastern settlements strengthened Hyrcanus II and Antipater after the Alexandrian War.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "rome",
+      "alexandria-egypt",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant14"
+    ]
+  },
+  {
+    "id": "antigonus-ii",
+    "name": "Antigonus II Mattathias",
+    "aliases": [],
+    "era": "Late Hasmonean / Parthian intervention",
+    "summary": "Last Hasmonean king, installed amid Parthian intervention in 40 BCE and defeated when Herod captured Jerusalem in 37 BCE.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-ant14",
+      "source-josephus-war1"
+    ]
+  },
+  {
+    "id": "herod-great",
+    "name": "Herod the Great",
+    "aliases": [
+      "Herod I"
+    ],
+    "era": "Herodian transition",
+    "summary": "Roman client king who captured Jerusalem in 37 BCE and transformed Judea through extensive building, administrative and dynastic programs.",
+    "scripture": [
+      {
+        "book": "Matthew",
+        "chapter": 2,
+        "label": "Matthew 2:1–19",
+        "verseStart": 1,
+        "verseEnd": 19
+      },
+      {
+        "book": "Luke",
+        "chapter": 1,
+        "label": "Luke 1:5",
+        "verseStart": 5,
+        "verseEnd": 5
+      }
+    ],
+    "relatedPlaceIds": [
+      "jerusalem",
+      "masada",
+      "jericho-herodian-palaces",
+      "caesarea-maritima",
+      "herodium",
+      "samaria-sebaste",
+      "rome",
+      "rhodes"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-josephus-war1",
+      "source-richardson-herod",
+      "source-netzer-herod"
+    ],
+    "artisticNote": "Artistic silhouette only; surviving coins and later art do not provide a secure portrait of Herod."
+  },
+  {
+    "id": "mark-antony",
+    "name": "Mark Antony",
+    "aliases": [
+      "Marcus Antonius"
+    ],
+    "era": "Late Roman Republic",
+    "summary": "Roman triumvir whose eastern patronage shaped Herod’s rise before Antony’s defeat by Octavian.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "rome",
+      "alexandria-egypt",
+      "actium"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-plutarch-pompey-antony",
+      "source-roller-cleopatra"
+    ]
+  },
+  {
+    "id": "cleopatra-vii",
+    "name": "Cleopatra VII",
+    "aliases": [],
+    "era": "Late Ptolemaic Egypt",
+    "summary": "Last Ptolemaic queen, allied with Antony and an important regional rival/neighbor in Herod’s political world.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "alexandria-egypt",
+      "actium"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-roller-cleopatra",
+      "source-plutarch-pompey-antony"
+    ]
+  },
+  {
+    "id": "augustus",
+    "name": "Octavian / Augustus",
+    "aliases": [
+      "Gaius Octavius",
+      "Caesar Augustus"
+    ],
+    "era": "Roman transition",
+    "summary": "Victor at Actium and first Roman emperor; confirmed Herod after Antony’s defeat and became the imperial ruler named in Luke’s birth narrative.",
+    "scripture": [
+      {
+        "book": "Luke",
+        "chapter": 2,
+        "label": "Luke 2:1",
+        "verseStart": 1,
+        "verseEnd": 1
+      }
+    ],
+    "relatedPlaceIds": [
+      "rome",
+      "actium",
+      "rhodes"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-plutarch-pompey-antony",
+      "source-richardson-herod"
+    ]
+  },
+  {
+    "id": "nicanor-seleucid",
+    "name": "Nicanor",
+    "aliases": [],
+    "era": "Maccabean revolt",
+    "summary": "Seleucid commander defeated and killed by Judas Maccabeus in the campaign associated with Adasa.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "adasa"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ]
+  },
+  {
+    "id": "bacchides",
+    "name": "Bacchides",
+    "aliases": [],
+    "era": "Maccabean revolt",
+    "summary": "Seleucid commander who defeated Judas at Elasa and later fought Jonathan’s movement.",
+    "scripture": [],
+    "relatedPlaceIds": [
+      "elasa",
+      "jerusalem"
+    ],
+    "sourceIds": [
+      "source-batch7-methodology",
+      "source-grabbe-hellenistic",
+      "source-1-maccabees",
+      "source-josephus-ant12"
+    ]
+  }
+]

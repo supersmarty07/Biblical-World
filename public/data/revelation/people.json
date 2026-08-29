@@ -1,0 +1,143 @@
+[
+  {
+    "id": "john-of-patmos",
+    "name": "John of Patmos",
+    "aliases": [
+      "John the seer",
+      "John of Revelation"
+    ],
+    "era": "Late first-century Christian Asia Minor context",
+    "summary": "The named seer and authorial voice of Revelation. Traditional Christianity often identified him with John son of Zebedee, but the project keeps the identities separate because authorship is debated.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 1,
+        "label": "Revelation 1:1–11",
+        "verseStart": 1,
+        "verseEnd": 11
+      },
+      {
+        "book": "Revelation",
+        "chapter": 22,
+        "label": "Revelation 22:8",
+        "verseStart": 8
+      }
+    ],
+    "relatedPlaceIds": [
+      "patmos",
+      "ephesus",
+      "smyrna",
+      "pergamum",
+      "thyatira",
+      "sardis-revelation",
+      "philadelphia-asia",
+      "laodicea-lycus"
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-irenaeus-domitian",
+      "source-koester-revelation"
+    ],
+    "artisticNote": "Any silhouette is an artistic traveler/seer figure, not a portrait."
+  },
+  {
+    "id": "domitian",
+    "name": "Domitian",
+    "aliases": [
+      "Titus Flavius Domitianus"
+    ],
+    "era": "Roman emperor, 81–96 CE",
+    "summary": "Roman emperor under whom later Christian tradition commonly places Revelation’s composition. The book itself does not name Domitian, and its date remains debated.",
+    "scripture": [],
+    "textualReferences": [
+      {
+        "label": "Irenaeus, Against Heresies 5.30.3",
+        "sourceId": "source-irenaeus-domitian",
+        "kind": "ancient-literary"
+      }
+    ],
+    "relatedPlaceIds": [
+      "rome",
+      "roman-asia-revelation"
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-irenaeus-domitian",
+      "source-domitian-context-b10"
+    ]
+  },
+  {
+    "id": "antipas-pergamum",
+    "name": "Antipas of Pergamum",
+    "aliases": [
+      "Antipas"
+    ],
+    "era": "Revelation’s first-century Asia setting",
+    "summary": "Named in Revelation 2:13 as a faithful witness killed where the church of Pergamum lived. Later martyr traditions add details not present in Revelation.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 2,
+        "label": "Revelation 2:13",
+        "verseStart": 13
+      }
+    ],
+    "relatedPlaceIds": [
+      "pergamum"
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical"
+    ]
+  },
+  {
+    "id": "jezebel-thyatira-revelation",
+    "name": "“Jezebel” of Thyatira",
+    "aliases": [
+      "Jezebel (Revelation 2)"
+    ],
+    "era": "Revelation’s first-century Asia setting",
+    "summary": "Woman or symbolic/polemical designation in Revelation 2:20–23. She is not the ninth-century BCE queen Jezebel and is modeled separately.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 2,
+        "label": "Revelation 2:20–23",
+        "verseStart": 20,
+        "verseEnd": 23
+      }
+    ],
+    "relatedPlaceIds": [
+      "thyatira"
+    ],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical",
+      "source-koester-revelation"
+    ]
+  },
+  {
+    "id": "michael-revelation",
+    "name": "Michael",
+    "aliases": [
+      "Michael the archangel"
+    ],
+    "era": "Visionary/heavenly figure",
+    "summary": "Heavenly warrior who battles the dragon in Revelation 12.",
+    "scripture": [
+      {
+        "book": "Revelation",
+        "chapter": 12,
+        "label": "Revelation 12:7–9",
+        "verseStart": 7,
+        "verseEnd": 9
+      }
+    ],
+    "relatedPlaceIds": [],
+    "sourceIds": [
+      "source-b10-methodology",
+      "source-revelation-canonical"
+    ]
+  }
+]

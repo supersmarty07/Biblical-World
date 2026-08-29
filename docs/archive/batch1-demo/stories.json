@@ -1,0 +1,40 @@
+[
+  {
+    "id": "foundation-tour",
+    "title": "Journey of Abraham — System Preview",
+    "subtitle": "A short guided tour proving camera movement, Scripture references, route animation, and artistic traveler markers before the researched Genesis batch is added.",
+    "demo": true,
+    "chapters": [
+      {
+        "id": "preview-ur",
+        "title": "Ur",
+        "eyebrow": "Genesis preview · structural demo",
+        "description": "The story engine can anchor a chapter to a historical place, move the map camera, and surface Scripture references while keeping interpretation metadata separate.",
+        "placeId": "ur-demo",
+        "scripture": [{ "book": "Genesis", "chapter": 11, "verseStart": 31, "label": "Genesis 11:31" }],
+        "camera": { "center": [46.1031,30.9625], "zoom": 6.2, "pitch": 18, "bearing": -8 }
+      },
+      {
+        "id": "preview-route",
+        "title": "Toward Haran and Canaan",
+        "eyebrow": "Animated journey · artistic reconstruction",
+        "description": "The glowing path and traveler are intentionally presented as a reconstruction. In the production atlas, known textual sequence and inferred physical route are separately encoded and cited.",
+        "journeyId": "abraham-preview",
+        "scripture": [
+          { "book": "Genesis", "chapter": 11, "verseStart": 31, "label": "Genesis 11:31" },
+          { "book": "Genesis", "chapter": 12, "verseStart": 4, "verseEnd": 6, "label": "Genesis 12:4–6" }
+        ],
+        "camera": { "center": [40.3,34.4], "zoom": 4.3, "pitch": 22, "bearing": 2 }
+      },
+      {
+        "id": "preview-canaan",
+        "title": "Shechem and the Hill Country",
+        "eyebrow": "Place + evidence panel",
+        "description": "Selecting a place demonstrates the production information model: geographic identification, historical interpretation, Scripture references, provenance, and an explicit explanation of why the marker is shown.",
+        "placeId": "shechem-demo",
+        "scripture": [{ "book": "Genesis", "chapter": 12, "verseStart": 6, "verseEnd": 7, "label": "Genesis 12:6–7" }],
+        "camera": { "center": [35.23,31.95], "zoom": 7.1, "pitch": 35, "bearing": -10 }
+      }
+    ]
+  }
+]

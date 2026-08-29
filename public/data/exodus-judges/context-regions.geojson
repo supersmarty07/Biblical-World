@@ -1,0 +1,439 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-new-kingdom-egypt",
+        "name": "New Kingdom Egypt — broad context",
+        "confidence": "possible",
+        "note": "Very broad contextual envelope, not a reconstruction of Egypt’s surveyed political border.",
+        "sourceIds": [
+          "source-oxford-history",
+          "source-hoffmeier-egypt",
+          "source-batch3-methodology"
+        ],
+        "family": "egyptian",
+        "validFrom": -1550,
+        "validTo": -1069
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.0,
+              24.0
+            ],
+            [
+              33.2,
+              24.0
+            ],
+            [
+              33.2,
+              31.3
+            ],
+            [
+              29.0,
+              31.3
+            ],
+            [
+              29.0,
+              24.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-lba-canaan",
+        "name": "Late Bronze Canaan — city-state zone",
+        "confidence": "possible",
+        "note": "Broad cultural-geographic zone showing the Canaanite city-state landscape; not a single polity or fixed border.",
+        "sourceIds": [
+          "source-oxford-history",
+          "source-ben-tor-israel",
+          "source-batch3-methodology"
+        ],
+        "family": "canaanite",
+        "validFrom": -1550,
+        "validTo": -1150
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.15,
+              30.5
+            ],
+            [
+              36.1,
+              30.5
+            ],
+            [
+              36.1,
+              33.5
+            ],
+            [
+              34.15,
+              33.5
+            ],
+            [
+              34.15,
+              30.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-sinai",
+        "name": "Sinai Peninsula — geographic context",
+        "confidence": "established",
+        "note": "Geographic peninsula context only; does not identify the Exodus route or Mount Sinai.",
+        "sourceIds": [
+          "source-batch3-methodology"
+        ],
+        "family": "desert",
+        "validFrom": -3000,
+        "validTo": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.7,
+              27.7
+            ],
+            [
+              34.9,
+              27.7
+            ],
+            [
+              35.3,
+              31.2
+            ],
+            [
+              32.3,
+              31.2
+            ],
+            [
+              32.7,
+              27.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-midian",
+        "name": "Midian / northwest Arabia — broad orientation",
+        "confidence": "possible",
+        "note": "Approximate regional orientation for Midian-related traditions; not a fixed political border.",
+        "sourceIds": [
+          "source-sacred-bridge",
+          "source-batch3-methodology"
+        ],
+        "family": "transjordan",
+        "validFrom": -1400,
+        "validTo": -900
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.7,
+              26.0
+            ],
+            [
+              37.5,
+              26.0
+            ],
+            [
+              37.5,
+              29.7
+            ],
+            [
+              34.7,
+              29.7
+            ],
+            [
+              34.7,
+              26.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-moab",
+        "name": "Moab — broad Iron Age core region",
+        "confidence": "possible",
+        "note": "Generalized core zone east of the Dead Sea. Political extent varied and state formation chronology is debated.",
+        "sourceIds": [
+          "source-archaeology-jordan",
+          "source-batch3-methodology"
+        ],
+        "family": "transjordan",
+        "validFrom": -1250,
+        "validTo": -900
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.45,
+              30.9
+            ],
+            [
+              36.1,
+              30.9
+            ],
+            [
+              36.1,
+              31.8
+            ],
+            [
+              35.45,
+              31.8
+            ],
+            [
+              35.45,
+              30.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-early-highlands",
+        "name": "Early Iron highland settlement zone",
+        "confidence": "possible",
+        "note": "Generalized hill-country zone reflecting the concentration of Iron I highland settlements; not an “Israel border.”",
+        "sourceIds": [
+          "source-dever-early-israelites",
+          "source-finkelstein-settlement",
+          "source-batch3-methodology"
+        ],
+        "family": "highland",
+        "validFrom": -1200,
+        "validTo": -1000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.9,
+              31.2
+            ],
+            [
+              35.55,
+              31.2
+            ],
+            [
+              35.55,
+              32.55
+            ],
+            [
+              34.9,
+              32.55
+            ],
+            [
+              34.9,
+              31.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-philistine-coast",
+        "name": "Philistine coastal heartland — early Iron Age",
+        "confidence": "possible",
+        "note": "Broad coastal heartland around the pentapolis. It is a contextual cultural zone, not a precise border.",
+        "sourceIds": [
+          "source-oxford-history",
+          "source-ben-tor-israel",
+          "source-batch3-methodology"
+        ],
+        "family": "philistine",
+        "validFrom": -1200,
+        "validTo": -950
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.3,
+              31.0
+            ],
+            [
+              34.95,
+              31.0
+            ],
+            [
+              34.95,
+              32.0
+            ],
+            [
+              34.3,
+              32.0
+            ],
+            [
+              34.3,
+              31.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-jezreel-canaanite",
+        "name": "Canaanite lowland centers — transition context",
+        "confidence": "possible",
+        "note": "Broad lowland corridor highlighting persistent Canaanite urban centers during the transition into Iron I.",
+        "sourceIds": [
+          "source-oxford-history",
+          "source-ben-tor-israel",
+          "source-batch3-methodology"
+        ],
+        "family": "canaanite",
+        "validFrom": -1300,
+        "validTo": -1050
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.8,
+              32.35
+            ],
+            [
+              35.65,
+              32.35
+            ],
+            [
+              35.65,
+              33.15
+            ],
+            [
+              34.8,
+              33.15
+            ],
+            [
+              34.8,
+              32.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-edom",
+        "name": "Edom — broad highland core",
+        "confidence": "possible",
+        "validFrom": -1250,
+        "validTo": -900,
+        "sourceIds": [
+          "source-archaeology-jordan",
+          "source-batch3-methodology"
+        ],
+        "note": "Generalized core-region orientation only. Edomite settlement and political organization changed through time.",
+        "family": "transjordan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.25,
+              29.7
+            ],
+            [
+              36.2,
+              29.7
+            ],
+            [
+              36.2,
+              31.0
+            ],
+            [
+              35.25,
+              31.0
+            ],
+            [
+              35.25,
+              29.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "context-ammon",
+        "name": "Ammon — broad highland core",
+        "confidence": "possible",
+        "validFrom": -1250,
+        "validTo": -900,
+        "sourceIds": [
+          "source-archaeology-jordan",
+          "source-batch3-methodology"
+        ],
+        "note": "Generalized core-region orientation only; not a fixed political boundary.",
+        "family": "transjordan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.55,
+              31.6
+            ],
+            [
+              36.3,
+              31.6
+            ],
+            [
+              36.3,
+              32.3
+            ],
+            [
+              35.55,
+              32.3
+            ],
+            [
+              35.55,
+              31.6
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

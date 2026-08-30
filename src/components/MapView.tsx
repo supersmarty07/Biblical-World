@@ -304,6 +304,7 @@ export function MapView() {
     map.on('load', () => {
       const currentState = useAtlasStore.getState();
       const currentLayers = currentState.layers;
+      const mobileMap = window.innerWidth <= 860;
 
       map.addSource('physical-land', { type: 'geojson', data: `${import.meta.env.BASE_URL}data/basemap/land.geojson` });
       map.addLayer({ id: 'physical-land-fill', type: 'fill', source: 'physical-land', paint: { 'fill-color': '#162220', 'fill-opacity': 0.96 } });
@@ -347,13 +348,13 @@ export function MapView() {
       map.addSource('places', { type: 'geojson', data: makePlaces(data.places, currentState.year) });
       map.addLayer({
         id: 'places-glow', type: 'circle', source: 'places',
-        paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 8, 9, 18], 'circle-color': '#d8b778', 'circle-opacity': 0.07, 'circle-blur': 0.6 },
+        paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, mobileMap ? 5 : 8, 9, mobileMap ? 14 : 18], 'circle-color': '#d8b778', 'circle-opacity': mobileMap ? 0.045 : 0.07, 'circle-blur': 0.6 },
         layout: { visibility: currentLayers.places ? 'visible' : 'none' }
       });
       map.addLayer({
         id: 'places-points', type: 'circle', source: 'places',
         paint: {
-          'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 3.5, 9, 6.5],
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, mobileMap ? 2.6 : 3.5, 9, mobileMap ? 5.4 : 6.5],
           'circle-color': ['match', ['get', 'confidence'], 'established', '#f4d98f', 'probable', '#e4c078', 'possible', '#c69d62', 'traditional', '#bda778', 'disputed', '#c48262', 'unknown', '#8c938c', '#8c938c'],
           'circle-stroke-color': ['match', ['get', 'coordinateRole'], 'traditional-site', '#8b7650', 'candidate-site', '#6f6250', '#13181a'],
           'circle-stroke-width': ['match', ['get', 'coordinateRole'], 'candidate-site', 2, 'traditional-site', 2, 1.4]
@@ -361,8 +362,8 @@ export function MapView() {
         layout: { visibility: currentLayers.places ? 'visible' : 'none' }
       });
       map.addLayer({
-        id: 'places-labels', type: 'symbol', source: 'places', minzoom: 4.1,
-        layout: { 'text-field': ['get', 'name'], 'text-size': 12, 'text-offset': [0, 1.1], 'text-anchor': 'top', 'text-allow-overlap': false },
+        id: 'places-labels', type: 'symbol', source: 'places', minzoom: mobileMap ? 5.8 : 4.1,
+        layout: { 'text-field': ['get', 'name'], 'text-size': mobileMap ? 10 : 12, 'text-offset': [0, 1.1], 'text-anchor': 'top', 'text-allow-overlap': false, 'text-optional': true },
         paint: { 'text-color': '#e8e2d4', 'text-halo-color': '#0c1417', 'text-halo-width': 1.4 }
       });
 

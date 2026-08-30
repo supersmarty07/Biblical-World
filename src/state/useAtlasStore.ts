@@ -6,6 +6,8 @@ import { readUrlState, writeUrlState } from '../lib/urlState';
 
 const initialUrl = typeof window !== 'undefined' ? readUrlState() : {};
 const defaultInfoOpen = typeof window !== 'undefined' && window.innerWidth > 900;
+const isMobileViewport = typeof window !== 'undefined' && window.innerWidth <= 860;
+const hasInitialDeepLink = Boolean(initialUrl.scene || initialUrl.place || initialUrl.person || initialUrl.event || initialUrl.story || initialUrl.journey);
 
 interface LayerVisibility {
   places: boolean;
@@ -31,6 +33,8 @@ interface AtlasStore {
   searchOpen: boolean;
   infoOpen: boolean;
   attributionOpen: boolean;
+  immersiveExploreOpen: boolean;
+  mobileLayersOpen: boolean;
   layers: LayerVisibility;
   runtimeAssets: RuntimeAssetHealthMap;
   sceneCatalog: ImmersiveSceneCatalogEntry[];
@@ -54,6 +58,8 @@ interface AtlasStore {
   setSearchOpen: (open: boolean) => void;
   setInfoOpen: (open: boolean) => void;
   setAttributionOpen: (open: boolean) => void;
+  setImmersiveExploreOpen: (open: boolean) => void;
+  setMobileLayersOpen: (open: boolean) => void;
   toggleLayer: (layer: keyof LayerVisibility) => void;
   setRuntimeAssetHealth: (key: RuntimeAssetKey, health: RuntimeAssetHealth) => void;
   setSceneCatalog: (sceneCatalog: ImmersiveSceneCatalogEntry[]) => void;
@@ -88,7 +94,9 @@ export const useAtlasStore = create<AtlasStore>((set) => ({
   searchOpen: false,
   infoOpen: !initialUrl.scene && (Boolean(initialUrl.place || initialUrl.person || initialUrl.event || initialUrl.story || initialUrl.journey) || defaultInfoOpen),
   attributionOpen: false,
-  layers: { places: true, journeys: true, regions: true, roads: false, terrain: false },
+  immersiveExploreOpen: isMobileViewport && !hasInitialDeepLink,
+  mobileLayersOpen: false,
+  layers: { places: true, journeys: !isMobileViewport, regions: !isMobileViewport, roads: false, terrain: false },
   runtimeAssets: {
     terrain: { state: 'not-configured', message: 'No terrain source has been checked yet.' },
     basemap: { state: 'not-configured', message: 'No external basemap has been checked yet.' },
@@ -103,30 +111,40 @@ export const useAtlasStore = create<AtlasStore>((set) => ({
   setYear: (year) => { sync({ year }); set({ year }); },
   selectPlace: (selectedPlaceId) => {
     sync({ place: selectedPlaceId, person: undefined, event: undefined, story: undefined, chapter: undefined, journey: undefined, segment: undefined, scene: undefined, variant: undefined, period: undefined });
-    set({ selectedPlaceId, selectedPersonId: undefined, selectedEventId: undefined, activeStoryId: undefined, activeChapter: 0, activeJourneyId: undefined, activeJourneySegment: 0, activeSceneId: undefined, activeScene: undefined, activeHotspotId: undefined, activeSceneVariantId: undefined, activeScenePeriodId: undefined, infoOpen: Boolean(selectedPlaceId) });
+    set({ selectedPlaceId, selectedPersonId: undefined, selectedEventId: undefined, activeStoryId: undefined, activeChapter: 0, activeJourneyId: undefined, activeJourneySegment: 0, activeSceneId: undefined, activeScene: undefined, activeHotspotId: undefined, activeSceneVariantId: undefined, activeScenePeriodId: undefined, immersiveExploreOpen: false, mobileLayersOpen: false, infoOpen: Boolean(selectedPlaceId) });
   },
   selectPerson: (selectedPersonId) => {
     sync({ person: selectedPersonId, place: undefined, event: undefined, story: undefined, chapter: undefined, journey: undefined, segment: undefined, scene: undefined, variant: undefined, period: undefined });
-    set({ selectedPersonId, selectedPlaceId: undefined, selectedEventId: undefined, activeStoryId: undefined, activeChapter: 0, activeJourneyId: undefined, activeJourneySegment: 0, activeSceneId: undefined, activeScene: undefined, activeHotspotId: undefined, activeSceneVariantId: undefined, activeScenePeriodId: undefined, infoOpen: Boolean(selectedPersonId) });
+    set({ selectedPersonId, selectedPlaceId: undefined, selectedEventId: undefined, activeStoryId: undefined, activeChapter: 0, activeJourneyId: undefined, activeJourneySegment: 0, activeSceneId: undefined, activeScene: undefined, activeHotspotId: undefined, activeSceneVariantId: undefined, activeScenePeriodId: undefined, immersiveExploreOpen: false, mobileLayersOpen: false, infoOpen: Boolean(selectedPersonId) });
   },
   selectEvent: (selectedEventId) => {
     sync({ event: selectedEventId, place: undefined, person: undefined, story: undefined, chapter: undefined, journey: undefined, segment: undefined, scene: undefined, variant: undefined, period: undefined });
-    set({ selectedEventId, selectedPlaceId: undefined, selectedPersonId: undefined, activeStoryId: undefined, activeChapter: 0, activeJourneyId: undefined, activeJourneySegment: 0, activeSceneId: undefined, activeScene: undefined, activeHotspotId: undefined, activeSceneVariantId: undefined, activeScenePeriodId: undefined, infoOpen: Boolean(selectedEventId) });
+    set({ selectedEventId, selectedPlaceId: undefined, selectedPersonId: undefined, activeStoryId: undefined, activeChapter: 0, activeJourneyId: undefined, activeJourneySegment: 0, activeSceneId: undefined, activeScene: undefined, activeHotspotId: undefined, activeSceneVariantId: undefined, activeScenePeriodId: undefined, immersiveExploreOpen: false, mobileLayersOpen: false, infoOpen: Boolean(selectedEventId) });
   },
   openStory: (activeStoryId, chapter = 0) => {
     sync({ story: activeStoryId, chapter: activeStoryId ? chapter : undefined, journey: undefined, segment: undefined, place: undefined, person: undefined, event: undefined, scene: undefined, variant: undefined, period: undefined });
-    set({ activeStoryId, activeChapter: chapter, activeJourneyId: undefined, activeJourneySegment: 0, infoMode: 'stories', selectedPlaceId: undefined, selectedPersonId: undefined, selectedEventId: undefined, activeSceneId: undefined, activeScene: undefined, activeHotspotId: undefined, activeSceneVariantId: undefined, activeScenePeriodId: undefined, infoOpen: Boolean(activeStoryId) });
+    set({ activeStoryId, activeChapter: chapter, activeJourneyId: undefined, activeJourneySegment: 0, infoMode: 'stories', selectedPlaceId: undefined, selectedPersonId: undefined, selectedEventId: undefined, activeSceneId: undefined, activeScene: undefined, activeHotspotId: undefined, activeSceneVariantId: undefined, activeScenePeriodId: undefined, immersiveExploreOpen: false, mobileLayersOpen: false, infoOpen: Boolean(activeStoryId) });
   },
   setChapter: (activeChapter) => { sync({ chapter: activeChapter }); set({ activeChapter }); },
   openJourney: (activeJourneyId, segment = 0) => {
     sync({ journey: activeJourneyId, segment: activeJourneyId ? segment : undefined, story: undefined, chapter: undefined, place: undefined, person: undefined, event: undefined, scene: undefined, variant: undefined, period: undefined });
-    set({ activeJourneyId, activeJourneySegment: segment, infoMode: 'journeys', activeStoryId: undefined, activeChapter: 0, selectedPlaceId: undefined, selectedPersonId: undefined, selectedEventId: undefined, activeSceneId: undefined, activeScene: undefined, activeHotspotId: undefined, activeSceneVariantId: undefined, activeScenePeriodId: undefined, infoOpen: true });
+    set({ activeJourneyId, activeJourneySegment: segment, infoMode: 'journeys', activeStoryId: undefined, activeChapter: 0, selectedPlaceId: undefined, selectedPersonId: undefined, selectedEventId: undefined, activeSceneId: undefined, activeScene: undefined, activeHotspotId: undefined, activeSceneVariantId: undefined, activeScenePeriodId: undefined, immersiveExploreOpen: false, mobileLayersOpen: false, infoOpen: true });
   },
   setJourneySegment: (activeJourneySegment) => { sync({ segment: activeJourneySegment }); set({ activeJourneySegment }); },
   setInfoMode: (infoMode) => set({ infoMode }),
   setSearchOpen: (searchOpen) => set({ searchOpen }),
   setInfoOpen: (infoOpen) => set({ infoOpen }),
   setAttributionOpen: (attributionOpen) => set({ attributionOpen }),
+  setImmersiveExploreOpen: (immersiveExploreOpen) => set((state) => ({
+    ...state,
+    immersiveExploreOpen,
+    ...(immersiveExploreOpen ? { mobileLayersOpen: false, infoOpen: false } : {})
+  })),
+  setMobileLayersOpen: (mobileLayersOpen) => set((state) => ({
+    ...state,
+    mobileLayersOpen,
+    ...(mobileLayersOpen ? { immersiveExploreOpen: false } : {})
+  })),
   toggleLayer: (layer) => set((state) => ({ layers: { ...state.layers, [layer]: !state.layers[layer] } })),
   setRuntimeAssetHealth: (key, health) => set((state) => ({ runtimeAssets: { ...state.runtimeAssets, [key]: health } })),
   setSceneCatalog: (sceneCatalog) => set({ sceneCatalog }),
@@ -139,6 +157,8 @@ export const useAtlasStore = create<AtlasStore>((set) => ({
       activeHotspotId: undefined,
       activeSceneVariantId: undefined,
       activeScenePeriodId: undefined,
+      immersiveExploreOpen: false,
+      mobileLayersOpen: false,
       infoOpen: activeSceneId ? false : hasSelection(state)
     }));
   },

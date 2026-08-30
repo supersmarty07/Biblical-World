@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.0.0-alpha.15",
+  "version": "2.0.0-alpha.16",
   "policy": "High-resolution cinematic masters are optional artistic-reconstruction assets. They never replace evidence labels, terrain data, or archaeological provenance. A master URL is ignored unless a truthful credit is configured with it.",
   "worlds": [
     {

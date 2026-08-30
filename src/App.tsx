@@ -3,6 +3,7 @@ import { BottomNav } from './components/BottomNav';
 import { AttributionDrawer } from './components/AttributionDrawer';
 import { InfoPanel } from './components/InfoPanel';
 import { ImmersiveSceneOverlay } from './components/ImmersiveSceneOverlay';
+import { ImmersiveExplore } from './components/ImmersiveExplore';
 import { LayerControls } from './components/LayerControls';
 import { MapView } from './components/MapView';
 import { SearchDialog } from './components/SearchDialog';
@@ -36,6 +37,7 @@ export default function App() {
         {loading && <div className="loading-screen" role="status" aria-live="polite"><div className="loading-orbit" aria-hidden="true" /><strong>Opening the ancient world…</strong></div>}
         {error && <div className="error-screen" role="alert"><strong>Atlas data could not load.</strong><span>{error}</span></div>}
         {!loading && !error && <MapView />}
+        {!loading && !error && <ImmersiveExplore />}
         {!loading && !error && <VisionaryOverlay />}
         {!loading && !error && <ImmersiveSceneOverlay />}
         <LayerControls />

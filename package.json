@@ -1,7 +1,7 @@
 {
   "name": "the-biblical-world",
   "private": true,
-  "version": "2.0.0-alpha.15",
+  "version": "2.0.0-alpha.16",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -22,7 +22,7 @@
     "build:catalog": "node scripts/build-content-manifest.mjs",
     "audit:provenance": "node scripts/audit-provenance.mjs",
     "audit:history": "npm run audit:batch4 && npm run audit:batch5 && npm run audit:batch6 && npm run audit:batch7 && npm run audit:batch8 && npm run audit:batch9 && npm run audit:batch10",
-    "check": "npm run validate:data && npm run validate:immersive && npm run validate:verification && npm run validate:assets && npm run audit:v2-batch4 && npm run audit:v2-batch5 && npm run audit:v2-batch6 && npm run audit:v2-batch7 && npm run audit:v2-batch8 && npm run audit:v2-alpha10 && npm run audit:v2-alpha11 && npm run audit:v2-alpha12 && npm run audit:v2-alpha13 && npm run audit:v2-alpha14 && npm run audit:v2-alpha15 && npm run audit:history && npm run audit:provenance && npm run audit:batch11 && npm run validate:repo",
+    "check": "npm run validate:data && npm run validate:immersive && npm run validate:verification && npm run validate:assets && npm run audit:v2-batch4 && npm run audit:v2-batch5 && npm run audit:v2-batch6 && npm run audit:v2-batch7 && npm run audit:v2-batch8 && npm run audit:v2-alpha10 && npm run audit:v2-alpha11 && npm run audit:v2-alpha12 && npm run audit:v2-alpha13 && npm run audit:v2-alpha14 && npm run audit:v2-alpha15 && npm run audit:v2-alpha16 && npm run audit:history && npm run audit:provenance && npm run audit:batch11 && npm run validate:repo",
     "audit:batch11": "node scripts/audit-batch11.mjs",
     "validate:immersive": "node scripts/validate-immersive.mjs",
     "audit:v2-batch4": "node scripts/audit-v2-batch4.mjs",
@@ -41,7 +41,8 @@
     "audit:v2-alpha13": "node scripts/audit-v2-alpha13.mjs",
     "audit:v2-alpha14": "node scripts/audit-v2-alpha14.mjs",
     "smoke:dist": "node scripts/smoke-dist.mjs",
-    "audit:v2-alpha15": "node scripts/audit-v2-alpha15.mjs"
+    "audit:v2-alpha15": "node scripts/audit-v2-alpha15.mjs",
+    "audit:v2-alpha16": "node scripts/audit-v2-alpha16.mjs"
   },
   "dependencies": {
     "maplibre-gl": "^5.0.0",

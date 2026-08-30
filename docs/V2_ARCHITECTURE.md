@@ -1,6 +1,6 @@
 # The Biblical World V2 — Immersive Architecture
 
-**Status:** V2 Batches 1–8 implemented; verification integrated; asset/deployment hardening complete; interactive dual-mode Immersive Worlds plus production terrain/cinematic asset slots active at `2.0.0-alpha.15`  
+**Status:** V2 Batches 1–8 implemented; verification integrated; asset/deployment hardening complete; interactive dual-mode Immersive Worlds plus production terrain/cinematic asset slots active at `2.0.0-alpha.16`  
 **Source baseline:** `biblical-world-v1.1.1-hotfix.zip`
 
 ## 1. Repository findings carried forward from v1
@@ -538,3 +538,9 @@ Five flagship terrain regions are independently configurable and independently d
 ## Alpha.15 runtime resilience
 
 The application now has four explicit failure boundaries: static boot watchdog, React fatal error boundary, atlas/scene data error states, and optional external-asset degradation. GitHub Pages also smoke-tests the compiled `dist/` artifact before deployment, preventing accidental publication of the raw Vite source shell.
+
+## Alpha.16 immersive-first mobile shell
+
+On mobile viewports, a non-deep-linked visit now opens an immersive-worlds landing surface rather than immediately exposing the dense macro atlas. This is a presentation-layer change only: the underlying MapLibre map, place/journey/history datasets, and deep-link behavior remain intact.
+
+The mobile shell treats Explore, Map, Stories, Journeys, and Layers as explicit modes. The map defaults to a quieter state (places on; macro journey/context overlays off), Layers is a bottom sheet, and the global historical timeline is collapsed until requested. Immersive scenes continue to provide their own 3D-map/reconstruction switch, evidence legend, period controls, and reconstruction disclaimers.

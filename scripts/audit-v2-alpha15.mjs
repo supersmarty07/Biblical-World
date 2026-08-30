@@ -5,7 +5,8 @@ const root = process.cwd();
 const read = (file) => fs.readFileSync(path.join(root, file), 'utf8');
 const json = (file) => JSON.parse(read(file));
 const pkg = json('package.json');
-if (pkg.version !== '2.0.0-alpha.15') throw new Error(`Expected package version 2.0.0-alpha.15, found ${pkg.version}`);
+const alphaMatch = /^2\.0\.0-alpha\.(\d+)$/.exec(pkg.version);
+if (!alphaMatch || Number(alphaMatch[1]) < 15) throw new Error(`Expected package version alpha.15 or later, found ${pkg.version}`);
 
 const main = read('src/main.tsx');
 for (const needle of ['AppErrorBoundary', "document.documentElement.dataset.appBooted = 'true'", 'Service worker registration failed']) {
@@ -22,7 +23,8 @@ for (const needle of ['boot-fallback', 'The Biblical World did not start.', '800
 const overlay = read('src/components/ImmersiveSceneOverlay.tsx');
 if (!overlay.includes('window.innerWidth <= 480') || !overlay.includes('window.innerWidth <= 860')) throw new Error('Cinematic quality must default down on small/mobile screens');
 const sw = read('public/sw.js');
-if (!sw.includes('v2-alpha15-runtime')) throw new Error('Service worker cache must be versioned for alpha.15');
+const cacheVersion = /v2-alpha(\d+)-runtime/.exec(sw)?.[1];
+if (!cacheVersion || Number(cacheVersion) < 15) throw new Error('Service worker cache must be versioned for alpha.15 or later');
 if (!sw.includes("/data/immersive/artwork-manifest.json")) throw new Error('Artwork manifest must be network-first/version-sensitive');
 const workflow = read('.github/workflows/deploy.yml');
 if (!workflow.includes('npm run build && npm run smoke:dist')) throw new Error('Pages workflow must smoke-test dist after Vite build');

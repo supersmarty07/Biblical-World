@@ -1,6 +1,6 @@
 import { atlasConfig } from '../config';
 import { useAtlasStore } from '../state/useAtlasStore';
-import { LayersIcon } from './Icons';
+import { CloseIcon, LayersIcon } from './Icons';
 import { DeploymentDiagnostics } from './DeploymentDiagnostics';
 
 export function LayerControls() {
@@ -9,6 +9,8 @@ export function LayerControls() {
   const terrainReady = atlasConfig.hasAnyTerrain;
   const roadsReady = Boolean(atlasConfig.romanRoadsGeojsonUrl);
   const runtimeAssets = useAtlasStore((s) => s.runtimeAssets);
+  const mobileLayersOpen = useAtlasStore((s) => s.mobileLayersOpen);
+  const setMobileLayersOpen = useAtlasStore((s) => s.setMobileLayersOpen);
 
   const rows = [
     { key: 'places' as const, label: 'Biblical places', detail: 'Established, probable, candidate, and traditional points' },
@@ -19,16 +21,19 @@ export function LayerControls() {
   ];
 
   return (
-    <section className="floating-panel layer-panel" id="layer-panel" tabIndex={-1}>
-      <div className="floating-panel__title"><LayersIcon /> Layers</div>
-      {rows.map((row) => (
-        <label className={`layer-row ${row.disabled ? 'layer-row--disabled' : ''}`} key={row.key}>
-          <span><strong>{row.label}</strong><small>{row.detail}</small></span>
-          <input type="checkbox" checked={layers[row.key]} disabled={row.disabled} onChange={() => toggleLayer(row.key)} />
-        </label>
-      ))}
-      <p className="panel-disclaimer">Unlocated places remain searchable but are intentionally not forced onto the map. Dashed routes are reconstructions.</p>
-      <DeploymentDiagnostics />
-    </section>
+    <>
+      <button className={`layer-sheet-backdrop ${mobileLayersOpen ? 'is-open' : ''}`} aria-hidden={!mobileLayersOpen} tabIndex={-1} onClick={() => setMobileLayersOpen(false)} />
+      <section className={`floating-panel layer-panel ${mobileLayersOpen ? 'layer-panel--mobile-open' : ''}`} id="layer-panel" tabIndex={-1} aria-label="Map layers">
+        <div className="floating-panel__title"><LayersIcon /> Layers <button type="button" className="layer-panel__mobile-close" onClick={() => setMobileLayersOpen(false)} aria-label="Close layers"><CloseIcon /></button></div>
+        {rows.map((row) => (
+          <label className={`layer-row ${row.disabled ? 'layer-row--disabled' : ''}`} key={row.key}>
+            <span><strong>{row.label}</strong><small>{row.detail}</small></span>
+            <input type="checkbox" checked={layers[row.key]} disabled={row.disabled} onChange={() => toggleLayer(row.key)} />
+          </label>
+        ))}
+        <p className="panel-disclaimer">Unlocated places remain searchable but are intentionally not forced onto the map. Dashed routes are reconstructions.</p>
+        <DeploymentDiagnostics />
+      </section>
+    </>
   );
 }

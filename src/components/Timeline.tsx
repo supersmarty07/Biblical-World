@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useAtlasStore } from '../state/useAtlasStore';
 import { formatHistoricalYear } from '../lib/time';
 
@@ -39,15 +40,26 @@ function contextLabel(year: number): string {
 export function Timeline() {
   const year = useAtlasStore((s) => s.year);
   const setYear = useAtlasStore((s) => s.setYear);
+  const immersiveExploreOpen = useAtlasStore((s) => s.immersiveExploreOpen);
+  const activeSceneId = useAtlasStore((s) => s.activeSceneId);
+  const [mobileExpanded, setMobileExpanded] = useState(false);
+
+  if (immersiveExploreOpen || activeSceneId) return null;
 
   return (
-    <section className="timeline" aria-label="Historical context timeline">
-      <div className="timeline__headline">
-        <div><span className="eyebrow">Historical context lens · {contextLabel(year)}</span><strong>{formatHistoricalYear(year)}</strong></div>
-        <span className="timeline__note">The slider changes time-aware context regions. Secure historical dates are used where evidence supports them; earlier narratives and ancient borders remain approximate or undated when precision would be misleading.</span>
+    <section className={`timeline ${mobileExpanded ? 'timeline--mobile-expanded' : ''}`} aria-label="Historical context timeline">
+      <button type="button" className="timeline__mobile-toggle" onClick={() => setMobileExpanded((value) => !value)} aria-expanded={mobileExpanded}>
+        <span><small>Historical context</small><strong>{formatHistoricalYear(year)}</strong></span>
+        <em>{mobileExpanded ? 'Collapse' : 'Change period'}</em>
+      </button>
+      <div className="timeline__body">
+        <div className="timeline__headline">
+          <div><span className="eyebrow">Historical context lens · {contextLabel(year)}</span><strong>{formatHistoricalYear(year)}</strong></div>
+          <span className="timeline__note">The slider changes time-aware context regions. Secure historical dates are used where evidence supports them; earlier narratives and ancient borders remain approximate or undated when precision would be misleading.</span>
+        </div>
+        <input aria-label="Historical context year" type="range" min={-3000} max={110} step={1} value={year} onChange={(event) => setYear(Number(event.target.value))} />
+        <div className="timeline__marks" aria-hidden="true">{marks.map((mark) => <span key={mark}>{formatHistoricalYear(mark)}</span>)}</div>
       </div>
-      <input aria-label="Historical context year" type="range" min={-3000} max={110} step={1} value={year} onChange={(event) => setYear(Number(event.target.value))} />
-      <div className="timeline__marks" aria-hidden="true">{marks.map((mark) => <span key={mark}>{formatHistoricalYear(mark)}</span>)}</div>
     </section>
   );
 }

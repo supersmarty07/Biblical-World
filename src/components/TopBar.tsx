@@ -8,13 +8,14 @@ export function TopBar() {
   const openStory = useAtlasStore((s) => s.openStory);
   const openJourney = useAtlasStore((s) => s.openJourney);
   const setAttributionOpen = useAtlasStore((s) => s.setAttributionOpen);
+  const setImmersiveExploreOpen = useAtlasStore((s) => s.setImmersiveExploreOpen);
 
   return (
     <header className="topbar">
-      <div className="brand" aria-label={`${atlasConfig.title}, ${atlasConfig.subtitle}`}>
+      <button className="brand brand--button" aria-label={`${atlasConfig.title}. Open immersive worlds.`} onClick={() => setImmersiveExploreOpen(true)}>
         <div className="brand__mark">BW</div>
         <div><div className="brand__title">{atlasConfig.title}</div><div className="brand__subtitle">Genesis → Revelation · V2 Immersive Preview</div></div>
-      </div>
+      </button>
       <button className="search-trigger" onClick={() => setSearchOpen(true)} aria-label="Search atlas">
         <SearchIcon /><span>Search places, journeys, scenes, Scripture…</span><kbd>/</kbd>
       </button>

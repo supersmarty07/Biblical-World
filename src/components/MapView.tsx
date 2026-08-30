@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef } from 'react';
 import maplibregl, { type GeoJSONSource, type Map as MapLibreMap, type Marker } from 'maplibre-gl';
 import { Protocol } from 'pmtiles';
 import type { Feature, FeatureCollection, LineString, Point } from 'geojson';
-import { atlasConfig, terrainPmtilesForRegion } from '../config';
+import { atlasConfig, terrainExaggerationForRegion, terrainPmtilesForRegion } from '../config';
 import { interpolateLine } from '../lib/geometry';
 import { runtimeAssetRetryEvent } from '../lib/assetDiagnostics';
 import { isActiveAtYear } from '../lib/time';
@@ -48,7 +48,7 @@ function ensureRomanRoadLayer(map: MapLibreMap, visible: boolean): void {
 
 type TerrainMap = MapLibreMap & { __terrainSourceUrl?: string };
 
-function ensureTerrainSource(map: MapLibreMap, visible: boolean, terrainUrl = atlasConfig.terrainPmtilesUrl): void {
+function ensureTerrainSource(map: MapLibreMap, visible: boolean, terrainUrl = atlasConfig.terrainPmtilesUrl, exaggeration = 1.08): void {
   const terrainMap = map as TerrainMap;
   if (!terrainUrl) {
     if (map.getSource('terrain-dem')) { map.setTerrain(null); map.removeSource('terrain-dem'); }
@@ -71,7 +71,7 @@ function ensureTerrainSource(map: MapLibreMap, visible: boolean, terrainUrl = at
     map.addSource('terrain-dem', { type: 'raster-dem', url: `pmtiles://${asAbsoluteAssetUrl(terrainUrl)}`, tileSize: 256, encoding: 'mapbox' });
     terrainMap.__terrainSourceUrl = terrainUrl;
   }
-  map.setTerrain(visible ? { source: 'terrain-dem', exaggeration: 1.08 } : null);
+  map.setTerrain(visible ? { source: 'terrain-dem', exaggeration } : null);
 }
 
 function ensureExternalBasemap(map: MapLibreMap): void {
@@ -197,6 +197,20 @@ function makeGraticule(): FeatureCollection<LineString> {
   return { type: 'FeatureCollection', features };
 }
 
+function setContextLayerVisibility(map: MapLibreMap, layers: { places: boolean; journeys: boolean; regions: boolean; roads: boolean }, scene?: ImmersiveScene): void {
+  const immersiveWorld = Boolean(scene?.world);
+  const visibility = (on: boolean) => on ? 'visible' : 'none';
+  for (const id of ['places-glow', 'places-points', 'places-labels']) {
+    if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', visibility(!immersiveWorld && layers.places));
+  }
+  if (map.getLayer('journeys-line')) map.setLayoutProperty('journeys-line', 'visibility', visibility(!immersiveWorld && layers.journeys));
+  if (map.getLayer('active-journey-line')) map.setLayoutProperty('active-journey-line', 'visibility', visibility(!immersiveWorld));
+  for (const id of ['context-regions-fill', 'context-regions-line']) {
+    if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', visibility(!immersiveWorld && layers.regions));
+  }
+  if (map.getLayer('roman-roads-line')) map.setLayoutProperty('roman-roads-line', 'visibility', visibility(!immersiveWorld && layers.roads));
+}
+
 function makeSceneHotspots(scene?: ImmersiveScene, variantId?: string, periodId?: string): FeatureCollection<Point> {
   if (!scene || scene.renderer !== 'map-terrain') return { type: 'FeatureCollection', features: [] };
   return {
@@ -299,7 +313,7 @@ export function MapView() {
     });
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: true }), 'bottom-right');
-    map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Genesis → Revelation · V2 · Natural Earth physical land · evidence-aware reconstruction; see Sources & Provenance' }), 'bottom-right');
+    map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Natural Earth · Sources' }), 'bottom-right');
 
     map.on('load', () => {
       const currentState = useAtlasStore.getState();
@@ -444,7 +458,8 @@ export function MapView() {
       if (key === 'terrain') {
         if (map.getSource('terrain-dem')) { map.setTerrain(null); map.removeSource('terrain-dem'); }
         const state = useAtlasStore.getState();
-        ensureTerrainSource(map, state.layers.terrain || Boolean(state.activeScene?.world) || state.activeScene?.renderer === 'map-terrain', terrainPmtilesForRegion(state.activeScene?.world?.terrainRegion));
+        const region = state.activeScene?.world?.terrainRegion;
+        ensureTerrainSource(map, state.layers.terrain || Boolean(state.activeScene?.world) || state.activeScene?.renderer === 'map-terrain', terrainPmtilesForRegion(region), terrainExaggerationForRegion(region));
       }
       if (key === 'roman-roads') {
         if (map.getLayer('roman-roads-line')) map.removeLayer('roman-roads-line');
@@ -499,20 +514,16 @@ export function MapView() {
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !map.isStyleLoaded()) return;
-    ensureRomanRoadLayer(map, layers.roads);
-  }, [layers.roads]);
+    ensureRomanRoadLayer(map, layers.roads && !activeScene?.world);
+  }, [layers.roads, activeScene]);
 
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !map.isStyleLoaded()) return;
-    const visibility = (on: boolean) => on ? 'visible' : 'none';
-    for (const id of ['places-glow', 'places-points', 'places-labels']) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', visibility(layers.places));
-    if (map.getLayer('journeys-line')) map.setLayoutProperty('journeys-line', 'visibility', visibility(layers.journeys));
-    for (const id of ['context-regions-fill', 'context-regions-line']) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', visibility(layers.regions));
-    if (map.getLayer('roman-roads-line')) map.setLayoutProperty('roman-roads-line', 'visibility', visibility(layers.roads));
+    setContextLayerVisibility(map, layers, activeScene);
     const terrainRequested = layers.terrain || Boolean(activeScene?.world) || activeScene?.renderer === 'map-terrain';
     const terrainUrl = terrainPmtilesForRegion(activeScene?.world?.terrainRegion);
-    ensureTerrainSource(map, terrainRequested, terrainUrl);
+    ensureTerrainSource(map, terrainRequested, terrainUrl, terrainExaggerationForRegion(activeScene?.world?.terrainRegion));
     ensureSiteModel(map, activeScene, activeScenePeriodId);
   }, [layers, activeScene, activeScenePeriodId]);
 

@@ -1,4 +1,4 @@
-# V2 deployment + immersive terrain — alpha.15
+# V2 deployment + immersive terrain — alpha.18
 
 The Biblical World remains a frontend-only Vite/React/MapLibre application. GitHub Pages hosts the shell, JSON, small GeoJSON, PWA files, and lightweight fallbacks. Large terrain/media should remain on a static HTTPS object origin such as Cloudflare R2 or S3/CloudFront.
 
@@ -112,3 +112,24 @@ Each flagship animated reconstruction can optionally layer a high-resolution HTT
 ## Alpha.15 blank-page protection
 
 GitHub Actions now runs `npm run smoke:dist` immediately after the Vite build and before uploading the Pages artifact. The smoke test rejects a `dist/index.html` that still references raw `/src/main.tsx` and verifies that the compiled module plus version-sensitive manifests exist. The browser also has a pre-React eight-second boot fallback and a React error boundary with a local service-worker/cache reset action.
+
+## Alpha.18 real-terrain builder
+
+The repository now includes a separate manual GitHub workflow named **Build Real Terrain PMTiles**. This is intentionally not part of every Pages deployment because terrain generation downloads and processes large GIS files.
+
+Recommended first proof-of-concept:
+
+1. Push alpha.18 to `BIBLE-WORLD-V4`.
+2. Open **Actions -> Build Real Terrain PMTiles -> Run workflow**.
+3. Select `jerusalem`.
+4. Leave `publish_to_r2` disabled for the first run.
+5. The workflow live-verifies each required Copernicus object, downloads the COGs, builds lossless Terrain-RGB, packages `terrain-jerusalem.pmtiles`, validates it, and uploads it as the `biblical-world-terrain-jerusalem` Actions artifact.
+6. Download/test that artifact before configuring a public terrain URL.
+
+The deterministic source manifest is generated from `scripts/terrain/regions.json`. Research-supplied `content_length`, ETag, or Last-Modified values are not trusted; the workflow records real live response metadata itself.
+
+### Optional R2 publish
+
+To publish directly from the terrain workflow, configure repository secrets `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`, and optionally variable `R2_PUBLIC_BASE_URL`. Then run the workflow with `publish_to_r2=true`.
+
+After publishing Jerusalem, set repository variable `VITE_TERRAIN_JERUSALEM_PMTILES_URL` to the public HTTPS object URL and rerun **Deploy GitHub Pages**. Use the application's deployment diagnostics to confirm CORS + HTTP Range support.

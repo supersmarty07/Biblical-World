@@ -9,7 +9,7 @@ import { CloseIcon, InfoIcon } from './Icons';
 
 function activeResourceIds(manifest?: V2AssetManifest): Set<string> {
   const ids = new Set<string>(['natural-earth', 'pleiades', 'wikidata']);
-  if (atlasConfig.terrainPmtilesUrl) ids.add('copernicus-glo30');
+  if (atlasConfig.hasAnyTerrain) ids.add('copernicus-glo30');
   if (atlasConfig.romanRoadsGeojsonUrl) ids.add(atlasConfig.romanRoadsSourceId);
   for (const asset of manifest?.assets || []) {
     if (asset.status === 'installed' || asset.status === 'configured-external') {

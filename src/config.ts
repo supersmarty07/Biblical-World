@@ -28,9 +28,22 @@ const terrainRegionLabels = {
   delta: 'Eastern Nile Delta'
 } as const;
 
+const terrainExaggerationByRegion = {
+  jerusalem: 1.15,
+  galilee: 1.15,
+  megiddo: 1.15,
+  sinai: 1.3,
+  delta: 1.0
+} as const;
+
 export function terrainPmtilesForRegion(region?: string): string | undefined {
   if (!region) return defaultTerrainUrl;
   return terrainPmtilesByRegion[region as keyof typeof terrainPmtilesByRegion] || defaultTerrainUrl;
+}
+
+export function terrainExaggerationForRegion(region?: string): number {
+  if (!region) return 1.08;
+  return terrainExaggerationByRegion[region as keyof typeof terrainExaggerationByRegion] || 1.08;
 }
 
 export const terrainSources = Object.entries(terrainPmtilesByRegion).map(([id, url]) => ({

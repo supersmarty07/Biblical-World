@@ -39,7 +39,7 @@ for (const needle of [
   if (!css.includes(needle)) throw new Error(`Alpha.17 immersive CSS missing: ${needle}`);
 }
 const sw = read('public/sw.js');
-if (!sw.includes('v2-alpha17-runtime')) throw new Error('Service-worker runtime cache must be bumped for alpha.17');
+if (!/v2-alpha(?:1[7-9]|[2-9]\d+)-runtime/.test(sw)) throw new Error('Service-worker runtime cache must be alpha.17 or later');
 const workflow = read('.github/workflows/deploy.yml');
 if (!workflow.includes('branches: [main, BIBLE-WORLD-V4]')) throw new Error('BIBLE-WORLD-V4 deployment branch must remain active');
 

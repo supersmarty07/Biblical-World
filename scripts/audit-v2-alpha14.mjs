@@ -54,7 +54,9 @@ if (!delta?.guardrail?.includes('No exact Exodus crossing point')) throw new Err
 
 const terrain = json('public/data/terrain/regions.json');
 if (terrain.version !== pkg.version) throw new Error('Terrain registry version must match package version');
-if (terrain.regions.find((item) => item.id === 'sinai')?.status !== 'incomplete-research-tile-list') throw new Error('Sinai terrain research must remain explicitly incomplete');
+const sinaiTerrainStatus = terrain.regions.find((item) => item.id === 'sinai')?.status;
+if (Number(alphaMatch[1]) < 18 && sinaiTerrainStatus !== 'incomplete-research-tile-list') throw new Error('Pre-alpha.18 Sinai terrain research must remain explicitly incomplete');
+if (Number(alphaMatch[1]) >= 18 && sinaiTerrainStatus !== 'builder-ready-source-unverified-until-action-run') throw new Error('Alpha.18+ Sinai terrain must remain unverified until the live terrain workflow runs');
 
 const yam = json('public/data/immersive/scenes/yam-suph-environment-explorer.json');
 if (yam.world?.siteModel) throw new Error('Yam Suph must not acquire an exact 3D site model');

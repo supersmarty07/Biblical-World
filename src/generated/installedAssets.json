@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.0.0-alpha.17",
+  "version": "2.0.0-alpha.18",
   "runtime": {
     "terrainPmtiles": null,
     "basemapPmtiles": null,

@@ -14,7 +14,9 @@ for (const region of ['jerusalem', 'galilee', 'megiddo', 'sinai', 'delta']) {
   if (!item) throw new Error(`terrain region registry missing ${region}`);
   if (!item.envVar || !item.bbox || item.bbox.length !== 4) throw new Error(`terrain region ${region} requires envVar and bbox`);
 }
-if (terrainRegistry.regions.find((item) => item.id === 'sinai')?.status !== 'incomplete-research-tile-list') throw new Error('Sinai terrain research list must remain explicitly incomplete');
+const sinaiTerrainStatus = terrainRegistry.regions.find((item) => item.id === 'sinai')?.status;
+if (Number(alphaMatch[1]) < 18 && sinaiTerrainStatus !== 'incomplete-research-tile-list') throw new Error('Pre-alpha.18 Sinai terrain research list must remain explicitly incomplete');
+if (Number(alphaMatch[1]) >= 18 && sinaiTerrainStatus !== 'builder-ready-source-unverified-until-action-run') throw new Error('Alpha.18+ Sinai terrain must remain unverified until the live terrain workflow runs');
 const configText = fs.readFileSync(path.join(root, 'src/config.ts'), 'utf8');
 for (const envName of ['VITE_TERRAIN_JERUSALEM_PMTILES_URL', 'VITE_TERRAIN_GALILEE_PMTILES_URL', 'VITE_TERRAIN_MEGIDDO_PMTILES_URL', 'VITE_TERRAIN_SINAI_PMTILES_URL', 'VITE_TERRAIN_DELTA_PMTILES_URL']) {
   if (!configText.includes(envName)) throw new Error(`regional terrain config missing ${envName}`);

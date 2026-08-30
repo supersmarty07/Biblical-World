@@ -57,7 +57,9 @@ if (clickable < 10) throw new Error(`Expected at least 10 clickable 3D site feat
 
 const terrainRegistry = JSON.parse(fs.readFileSync(path.join(root, 'public/data/terrain/regions.json'), 'utf8'));
 if (terrainRegistry.version !== pkg.version) throw new Error('terrain registry version must match package version');
-if (terrainRegistry.regions.find((item) => item.id === 'sinai')?.status !== 'incomplete-research-tile-list') throw new Error('Sinai tile research must remain explicitly incomplete');
+const sinaiTerrainStatus = terrainRegistry.regions.find((item) => item.id === 'sinai')?.status;
+if (Number(alphaMatch[1]) < 18 && sinaiTerrainStatus !== 'incomplete-research-tile-list') throw new Error('Pre-alpha.18 Sinai tile research must remain explicitly incomplete');
+if (Number(alphaMatch[1]) >= 18 && sinaiTerrainStatus !== 'builder-ready-source-unverified-until-action-run') throw new Error('Alpha.18+ Sinai terrain must remain unverified until the live terrain workflow runs');
 
 const yam = JSON.parse(fs.readFileSync(path.join(root, 'public/data/immersive/scenes/yam-suph-environment-explorer.json'), 'utf8'));
 if (yam.world?.siteModel) throw new Error('Yam Suph must not acquire an exact 3D site model');

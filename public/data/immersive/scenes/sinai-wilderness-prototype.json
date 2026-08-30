@@ -260,12 +260,12 @@
     "defaultMode": "animated-reconstruction",
     "mapCamera": {
       "center": [
-        34.4,
-        29.1
+        34.35,
+        29.35
       ],
-      "zoom": 5.8,
-      "pitch": 56,
-      "bearing": -18,
+      "zoom": 6.2,
+      "pitch": 58,
+      "bearing": -16,
       "coordinateRole": "display-anchor",
       "note": "Regional 3D teaching camera for Sinai. Candidate markers are display plinths only; no Exodus route or biblical Mount Sinai identification is encoded."
     },
@@ -285,7 +285,7 @@
       }
     },
     "reconstruction": {
-      "title": "Sinai wilderness — animated environmental reconstruction",
+      "title": "Sinai wilderness \u2014 animated environmental reconstruction",
       "alt": "Layered artistic reconstruction of a rugged Sinai wadi with granite massifs, arid floor, sparse scrub, haze, and acacia silhouettes.",
       "note": "Animated environmental reconstruction. It illustrates the physical character of Sinai without claiming an Exodus campsite, route, or Mount Sinai identification.",
       "layers": [

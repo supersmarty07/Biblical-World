@@ -1835,3 +1835,7 @@ kbd { padding: 3px 7px; border: 1px solid var(--line); border-radius: 6px; color
   .scene-cinematic.motion-override-on.is-playing .scene-cinematic__layer--vegetation-sway { animation: bw-vegetation-sway 5.5s ease-in-out infinite alternate !important; }
   .scene-cinematic.motion-override-on.is-playing .scene-cinematic__layer--birds { animation: bw-birds 18s linear infinite !important; }
 }
+
+/* Alpha.18: immersive 3D worlds own their map controls. The global MapLibre nav cluster is hidden while a scene is open; attribution remains compact. */
+.app-shell--scene-open .maplibregl-ctrl-bottom-right .maplibregl-ctrl-group { display: none !important; }
+.app-shell--scene-open .maplibregl-ctrl-attrib { max-width: 10rem; font-size: .62rem; opacity: .72; }

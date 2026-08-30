@@ -7,3 +7,9 @@
 .vite/
 dist/
 node_modules/
+
+# Generated real-terrain build outputs
+terrain-source/
+tmp-terrain/
+dist-terrain/
+terrain-verification/

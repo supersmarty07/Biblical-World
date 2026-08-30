@@ -1,5 +1,5 @@
 const CACHE_PREFIX = 'biblical-world-';
-const CACHE_NAME = `${CACHE_PREFIX}v2-alpha17-runtime`;
+const CACHE_NAME = `${CACHE_PREFIX}v2-alpha18-runtime`;
 
 self.addEventListener('install', () => self.skipWaiting());
 

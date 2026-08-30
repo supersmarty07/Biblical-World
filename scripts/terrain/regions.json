@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "id": "copernicus-glo30-aws",
+    "label": "Copernicus DEM GLO-30",
+    "baseHttpsUrl": "https://copernicus-dem-30m.s3.eu-central-1.amazonaws.com",
+    "s3Bucket": "copernicus-dem-30m",
+    "resolutionMeters": 30,
+    "horizontalCrs": "EPSG:4326",
+    "verticalDatum": "EGM2008",
+    "surfaceType": "DSM",
+    "evidenceClass": "real-terrain",
+    "temporalMeaning": "modern physical terrain base",
+    "verificationPolicy": "Every object must pass a live HTTP byte-range GET and TIFF signature check in GitHub Actions before download or build."
+  },
+  "regions": [
+    {
+      "id": "jerusalem",
+      "label": "Jerusalem / Judea",
+      "bounds": [34.8, 31.3, 35.7, 32.1],
+      "minzoom": 7,
+      "maxzoom": 12,
+      "terrainExaggeration": 1.15,
+      "output": "terrain-jerusalem.pmtiles",
+      "envVar": "VITE_TERRAIN_JERUSALEM_PMTILES_URL"
+    },
+    {
+      "id": "galilee",
+      "label": "Galilee / Sea of Galilee",
+      "bounds": [34.9, 32.3, 36.1, 33.4],
+      "minzoom": 7,
+      "maxzoom": 12,
+      "terrainExaggeration": 1.15,
+      "output": "terrain-galilee.pmtiles",
+      "envVar": "VITE_TERRAIN_GALILEE_PMTILES_URL"
+    },
+    {
+      "id": "megiddo",
+      "label": "Megiddo / Jezreel Valley",
+      "bounds": [34.6, 32.2, 35.8, 33.1],
+      "minzoom": 7,
+      "maxzoom": 12,
+      "terrainExaggeration": 1.15,
+      "output": "terrain-megiddo.pmtiles",
+      "envVar": "VITE_TERRAIN_MEGIDDO_PMTILES_URL"
+    },
+    {
+      "id": "sinai",
+      "label": "Sinai Peninsula",
+      "bounds": [32.0, 27.0, 35.2, 31.3],
+      "minzoom": 6,
+      "maxzoom": 11,
+      "terrainExaggeration": 1.3,
+      "output": "terrain-sinai.pmtiles",
+      "envVar": "VITE_TERRAIN_SINAI_PMTILES_URL"
+    },
+    {
+      "id": "delta",
+      "label": "Eastern Nile Delta / Isthmus of Suez",
+      "bounds": [31.3, 29.3, 33.5, 31.5],
+      "minzoom": 7,
+      "maxzoom": 12,
+      "terrainExaggeration": 1.0,
+      "output": "terrain-eastern-delta.pmtiles",
+      "envVar": "VITE_TERRAIN_DELTA_PMTILES_URL"
+    }
+  ]
+}

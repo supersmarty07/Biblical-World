@@ -1,63 +1,72 @@
 {
   "schemaVersion": 1,
-  "version": "2.0.0-alpha.17",
-  "policy": "Regional terrain packages are runtime enhancements. Research-supplied Copernicus tile identifiers are not source bytes and do not make a region production-ready until a real PMTiles archive is generated, checksummed, hosted, and browser-diagnosed.",
+  "version": "2.0.0-alpha.18",
+  "policy": "Regional terrain packages are generated from modern Copernicus GLO-30 DSM source data. They become production-ready only after the live GitHub terrain workflow verifies source objects, builds lossless Terrain-RGB PMTiles, validates the archive, and the hosted URL passes browser Range/CORS diagnostics.",
   "regions": [
     {
       "id": "jerusalem",
-      "label": "Jerusalem + Judean Wilderness",
+      "label": "Jerusalem / Judea",
       "bbox": [
-        35.0,
-        31.0,
-        36.0,
-        32.0
+        34.8,
+        31.3,
+        35.7,
+        32.1
       ],
       "envVar": "VITE_TERRAIN_JERUSALEM_PMTILES_URL",
-      "status": "awaiting-source-bytes",
-      "researchSuppliedCopernicusTiles": [
-        "Copernicus_DSM_10_N31_00_E035_00"
-      ],
-      "researchSuppliedS3Prefixes": [
-        "s3://copernicus-dem-30m/Copernicus_DSM_COG_10_N31_00_E035_00_DEM/"
-      ],
+      "status": "builder-ready-source-unverified-until-action-run",
+      "outputFilename": "terrain-jerusalem.pmtiles",
+      "minzoom": 7,
+      "maxzoom": 12,
+      "terrainExaggeration": 1.15,
+      "source": "Copernicus DEM GLO-30 modern DSM",
+      "sourceResolutionMeters": 30,
+      "evidenceClass": "real-terrain",
+      "temporalMeaning": "modern physical terrain base",
+      "verification": "GitHub Actions performs a live HTTP byte-range + TIFF signature check before download/build; research-supplied HTTP metadata is not trusted as proof.",
       "notes": "Research-supplied tile target only. The alpha.12 local 3D site geometry works without this DEM, but regional relief remains flat until a valid Terrain-RGB PMTiles archive is configured."
     },
     {
       "id": "galilee",
-      "label": "Galilee + Sea of Galilee",
+      "label": "Galilee / Sea of Galilee",
       "bbox": [
-        35.0,
-        32.0,
-        36.0,
-        33.0
+        34.9,
+        32.3,
+        36.1,
+        33.4
       ],
       "envVar": "VITE_TERRAIN_GALILEE_PMTILES_URL",
-      "status": "awaiting-source-bytes",
-      "researchSuppliedCopernicusTiles": [
-        "Copernicus_DSM_10_N32_00_E035_00"
-      ],
-      "researchSuppliedS3Prefixes": [
-        "s3://copernicus-dem-30m/Copernicus_DSM_COG_10_N32_00_E035_00_DEM/"
-      ],
+      "status": "builder-ready-source-unverified-until-action-run",
+      "outputFilename": "terrain-galilee.pmtiles",
+      "minzoom": 7,
+      "maxzoom": 12,
+      "terrainExaggeration": 1.15,
+      "source": "Copernicus DEM GLO-30 modern DSM",
+      "sourceResolutionMeters": 30,
+      "evidenceClass": "real-terrain",
+      "temporalMeaning": "modern physical terrain base",
+      "verification": "GitHub Actions performs a live HTTP byte-range + TIFF signature check before download/build; research-supplied HTTP metadata is not trusted as proof.",
       "notes": "Modern DSM target. A c. 30 CE shoreline is a separate historical-inference layer and must not be inferred directly from modern water extent."
     },
     {
       "id": "megiddo",
-      "label": "Megiddo + Jezreel Valley",
+      "label": "Megiddo / Jezreel Valley",
       "bbox": [
-        35.0,
-        32.0,
-        36.0,
-        33.0
+        34.6,
+        32.2,
+        35.8,
+        33.1
       ],
       "envVar": "VITE_TERRAIN_MEGIDDO_PMTILES_URL",
-      "status": "awaiting-source-bytes",
-      "researchSuppliedCopernicusTiles": [
-        "Copernicus_DSM_10_N32_00_E035_00"
-      ],
-      "researchSuppliedS3Prefixes": [
-        "s3://copernicus-dem-30m/Copernicus_DSM_COG_10_N32_00_E035_00_DEM/"
-      ],
+      "status": "builder-ready-source-unverified-until-action-run",
+      "outputFilename": "terrain-megiddo.pmtiles",
+      "minzoom": 7,
+      "maxzoom": 12,
+      "terrainExaggeration": 1.15,
+      "source": "Copernicus DEM GLO-30 modern DSM",
+      "sourceResolutionMeters": 30,
+      "evidenceClass": "real-terrain",
+      "temporalMeaning": "modern physical terrain base",
+      "verification": "GitHub Actions performs a live HTTP byte-range + TIFF signature check before download/build; research-supplied HTTP metadata is not trusted as proof.",
       "notes": "Shares the research-supplied Copernicus target tile with Galilee. Tel-scale archaeological topography requires a more precise source than GLO-30 before it can be represented as measured micro-relief."
     },
     {
@@ -66,35 +75,42 @@
       "bbox": [
         32.0,
         27.0,
-        35.0,
-        31.0
+        35.2,
+        31.3
       ],
       "envVar": "VITE_TERRAIN_SINAI_PMTILES_URL",
-      "status": "incomplete-research-tile-list",
-      "researchSuppliedCopernicusTiles": [
-        "Copernicus_DSM_10_N28_00_E033_00",
-        "Copernicus_DSM_10_N28_00_E034_00",
-        "Copernicus_DSM_10_N29_00_E032_00",
-        "Copernicus_DSM_10_N29_00_E033_00"
-      ],
-      "researchSuppliedS3Prefixes": [],
+      "status": "builder-ready-source-unverified-until-action-run",
+      "outputFilename": "terrain-sinai.pmtiles",
+      "minzoom": 6,
+      "maxzoom": 11,
+      "terrainExaggeration": 1.3,
+      "source": "Copernicus DEM GLO-30 modern DSM",
+      "sourceResolutionMeters": 30,
+      "evidenceClass": "real-terrain",
+      "temporalMeaning": "modern physical terrain base",
+      "verification": "GitHub Actions performs a live HTTP byte-range + TIFF signature check before download/build; research-supplied HTTP metadata is not trusted as proof.",
       "notes": "The supplied research explicitly covers a larger 27\u201331 N / 32\u201335 E region but lists only four tiles. Do not treat this list as complete. The runtime must remain functional without a Sinai DEM."
     },
     {
       "id": "delta",
-      "label": "Eastern Nile Delta / Yam Suph environment",
+      "label": "Eastern Nile Delta / Isthmus of Suez",
       "bbox": [
-        31.5,
-        29.5,
+        31.3,
+        29.3,
         33.5,
         31.5
       ],
       "envVar": "VITE_TERRAIN_DELTA_PMTILES_URL",
-      "status": "awaiting-source-bytes-and-paleogeography",
-      "researchSuppliedCopernicusTiles": [
-        "Copernicus_DSM_10_N29_00_E032_00"
-      ],
-      "researchSuppliedS3Prefixes": [],
+      "status": "builder-ready-source-unverified-until-action-run",
+      "outputFilename": "terrain-eastern-delta.pmtiles",
+      "minzoom": 7,
+      "maxzoom": 12,
+      "terrainExaggeration": 1.0,
+      "source": "Copernicus DEM GLO-30 modern DSM",
+      "sourceResolutionMeters": 30,
+      "evidenceClass": "real-terrain",
+      "temporalMeaning": "modern physical terrain base",
+      "verification": "GitHub Actions performs a live HTTP byte-range + TIFF signature check before download/build; research-supplied HTTP metadata is not trusted as proof.",
       "notes": "Modern DSM can support broad relief only. Bronze-Age channels, lakes, marshes, and shorelines require a separately labeled historical-inference reconstruction. No Exodus crossing point may be encoded."
     }
   ]

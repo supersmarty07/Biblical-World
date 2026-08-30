@@ -1,6 +1,6 @@
 # The Biblical World V2 — Immersive Architecture
 
-**Status:** V2 Batches 1–8 implemented; verification integrated; asset/deployment hardening complete; interactive dual-mode Immersive Worlds plus production terrain/cinematic asset slots active at `2.0.0-alpha.17`  
+**Status:** V2 Batches 1–8 implemented; verification integrated; asset/deployment hardening complete; interactive dual-mode Immersive Worlds plus production terrain/cinematic asset slots active at `2.0.0-alpha.18`  
 **Source baseline:** `biblical-world-v1.1.1-hotfix.zip`
 
 ## 1. Repository findings carried forward from v1
@@ -550,3 +550,10 @@ The mobile shell treats Explore, Map, Stories, Journeys, and Layers as explicit 
 The immersive world is now treated as a full-viewport application state rather than another information panel layered over the atlas. When a scene is open, global navigation chrome is hidden. A compact HUD exposes only title, period, mode and Info; evidence/provenance/uncertainty detail remains one tap away in a drawer. This preserves scholarly transparency without allowing documentation to dominate the visual canvas.
 
 On mobile portrait the evidence interface is a bottom sheet. On mobile landscape it is a side drawer. 3D camera controls and reconstruction controls float over the world, and the user may explicitly choose Motion `System`, `On`, or `Off`; `System` continues to honor `prefers-reduced-motion`.
+
+
+## Alpha.18 — regional 3D isolation and real terrain production
+
+Immersive 3D scenes now suppress unrelated global atlas layers while the world is open, so scene geography is not visually confused with the global Genesis-to-Revelation map.
+
+Real terrain generation is handled by a manual GitHub Actions GIS pipeline under `.github/workflows/build-terrain.yml`. Source tile coverage is derived from region bounds, every Copernicus object must pass a live byte-range/TIFF check, Terrain-RGB is encoded losslessly, and the final PMTiles archive is emitted as an artifact or optionally published to R2. The runtime continues to classify this as modern real terrain rather than ancient reconstructed terrain.

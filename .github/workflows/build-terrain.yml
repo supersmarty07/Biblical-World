@@ -1,0 +1,148 @@
+name: Build Real Terrain PMTiles
+
+on:
+  workflow_dispatch:
+    inputs:
+      region:
+        description: Terrain region to verify, download, and build
+        required: true
+        default: jerusalem
+        type: choice
+        options:
+          - jerusalem
+          - galilee
+          - megiddo
+          - sinai
+          - delta
+      publish_to_r2:
+        description: Upload the finished PMTiles archive to Cloudflare R2
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  terrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install terrain tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gdal-bin
+          python -m pip install --upgrade pip
+          python -m pip install rasterio rio-rgbify
+          go install github.com/protomaps/go-pmtiles/cmd/pmtiles@latest
+          echo "$HOME/go/bin" >> "$GITHUB_PATH"
+
+      - name: Tool versions
+        run: |
+          gdalinfo --version
+          rio --version
+          rio rgbify --help >/dev/null
+          pmtiles --help >/dev/null
+
+      - name: Generate deterministic source manifest
+        run: node scripts/terrain/generate-source-manifest.mjs
+
+      - name: Verify Copernicus objects live
+        run: node scripts/terrain/verify-copernicus.mjs --region "${{ inputs.region }}"
+
+      - name: Download verified source COGs
+        run: ./scripts/terrain/download-terrain.sh "${{ inputs.region }}"
+
+      - name: Build lossless Terrain-RGB PMTiles
+        run: ./scripts/terrain/build-terrain.sh "${{ inputs.region }}"
+
+      - name: Validate terrain archive
+        run: ./scripts/terrain/validate-terrain.sh "${{ inputs.region }}"
+
+      - name: Resolve output filename
+        id: output
+        shell: bash
+        run: |
+          FILE="$(node - "${{ inputs.region }}" <<'NODE'
+          const fs = require('fs');
+          const id = process.argv[2];
+          const spec = JSON.parse(fs.readFileSync('scripts/terrain/regions.json', 'utf8'));
+          const region = spec.regions.find((item) => item.id === id);
+          if (!region) throw new Error(`Unknown region ${id}`);
+          process.stdout.write(region.output);
+          NODE
+          )"
+          echo "filename=$FILE" >> "$GITHUB_OUTPUT"
+          echo "path=dist-terrain/$FILE" >> "$GITHUB_OUTPUT"
+
+      - name: Upload terrain artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: biblical-world-terrain-${{ inputs.region }}
+          path: |
+            ${{ steps.output.outputs.path }}
+            ${{ steps.output.outputs.path }}.sha256
+            ${{ steps.output.outputs.path }}.metadata.txt
+            terrain-verification/copernicus-${{ inputs.region }}-verified.json
+            source-manifest/copernicus-tiles.csv
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 30
+
+      - name: Publish to Cloudflare R2
+        if: ${{ inputs.publish_to_r2 }}
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          PUBLIC_BASE_URL: ${{ vars.R2_PUBLIC_BASE_URL }}
+        shell: bash
+        run: |
+          for value in AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY R2_ACCOUNT_ID R2_BUCKET; do
+            if [ -z "${!value:-}" ]; then
+              echo "Missing required R2 secret: $value" >&2
+              exit 1
+            fi
+          done
+          python -m pip install awscli
+          FILE="${{ steps.output.outputs.filename }}"
+          aws s3 cp "dist-terrain/$FILE" "s3://$R2_BUCKET/terrain/$FILE" \
+            --endpoint-url "https://$R2_ACCOUNT_ID.r2.cloudflarestorage.com" \
+            --content-type "application/vnd.pmtiles" \
+            --cache-control "public, max-age=31536000, immutable"
+          if [ -n "$PUBLIC_BASE_URL" ]; then
+            BASE="${PUBLIC_BASE_URL%/}"
+            echo "Published: $BASE/terrain/$FILE" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "R2 upload complete. Configure repository variable R2_PUBLIC_BASE_URL to print the public asset URL automatically." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Build summary
+        shell: bash
+        run: |
+          echo "## Biblical World real terrain" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Region: ${{ inputs.region }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Output: ${{ steps.output.outputs.filename }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Source: Copernicus DEM GLO-30 modern DSM" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Encoding: lossless Mapbox Terrain-RGB in PMTiles" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Historical boundary: modern terrain only; no ancient topography is silently encoded" >> "$GITHUB_STEP_SUMMARY"

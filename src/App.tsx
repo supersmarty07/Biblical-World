@@ -21,6 +21,7 @@ export default function App() {
   const setError = useAtlasStore((s) => s.setError);
   const setSceneCatalog = useAtlasStore((s) => s.setSceneCatalog);
   const setSceneError = useAtlasStore((s) => s.setSceneError);
+  const activeSceneId = useAtlasStore((s) => s.activeSceneId);
 
   useEffect(() => {
     void loadAtlasData().then(setData).catch((err: unknown) => setError(err instanceof Error ? err.message : String(err)));
@@ -30,7 +31,7 @@ export default function App() {
   }, [setData, setError, setSceneCatalog, setSceneError]);
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell ${activeSceneId ? 'app-shell--scene-open' : ''}`}>
       <a className="skip-link" href="#atlas-workspace">Skip to atlas</a>
       <TopBar />
       <main id="atlas-workspace" className="workspace" tabIndex={-1} aria-busy={loading}>

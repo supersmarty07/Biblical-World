@@ -5,7 +5,8 @@ const root = process.cwd();
 const read = (file) => fs.readFileSync(path.join(root, file), 'utf8');
 const json = (file) => JSON.parse(read(file));
 const pkg = json('package.json');
-if (pkg.version !== '2.0.0-alpha.16') throw new Error(`Expected package version 2.0.0-alpha.16, found ${pkg.version}`);
+const alphaMatch = /^2\.0\.0-alpha\.(\d+)$/.exec(pkg.version);
+if (!alphaMatch || Number(alphaMatch[1]) < 16) throw new Error(`Expected package version alpha.16 or later, found ${pkg.version}`);
 
 const explore = read('src/components/ImmersiveExplore.tsx');
 for (const needle of ['Jerusalem Through Time', 'The Galilee of Jesus', 'Megiddo & the Great Valley', 'Wilderness & Exodus Environment', 'Real terrain', 'Artistic reconstruction']) {
@@ -30,5 +31,5 @@ for (const needle of ['.immersive-explore', '.world-card--hero', '.layer-panel--
 const workflow = read('.github/workflows/deploy.yml');
 if (!workflow.includes('branches: [main, BIBLE-WORLD-V4]')) throw new Error('BIBLE-WORLD-V4 deployment branch must remain active');
 const sw = read('public/sw.js');
-if (!sw.includes('v2-alpha16-runtime')) throw new Error('Service-worker runtime cache must be bumped for alpha.16');
+if (!/v2-alpha(?:1[6-9]|[2-9]\d+)-runtime/.test(sw)) throw new Error('Service-worker runtime cache must be alpha.16 or later');
 console.log('V2 alpha.16 audit passed: immersive-first mobile home, flagship worlds, map decluttering, bottom-sheet layers, compact timeline, and BIBLE-WORLD-V4 deployment are protected.');

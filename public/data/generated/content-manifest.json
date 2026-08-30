@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "atlasVersion": "2.0.0-alpha.16",
+  "atlasVersion": "2.0.0-alpha.17",
   "packs": [
     {
       "id": "genesis",

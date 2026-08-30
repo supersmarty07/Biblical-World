@@ -9,12 +9,15 @@ export function BottomNav() {
   const mobileLayersOpen = useAtlasStore((s) => s.mobileLayersOpen);
   const setImmersiveExploreOpen = useAtlasStore((s) => s.setImmersiveExploreOpen);
   const setMobileLayersOpen = useAtlasStore((s) => s.setMobileLayersOpen);
+  const activeSceneId = useAtlasStore((s) => s.activeSceneId);
 
   const showMap = () => {
     setImmersiveExploreOpen(false);
     setMobileLayersOpen(false);
     setInfoOpen(false);
   };
+
+  if (activeSceneId) return null;
 
   return (
     <nav className="bottom-nav" aria-label="Mobile navigation">

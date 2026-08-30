@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.0.0-alpha.16",
+  "version": "2.0.0-alpha.17",
   "policy": "Regional terrain packages are runtime enhancements. Research-supplied Copernicus tile identifiers are not source bytes and do not make a region production-ready until a real PMTiles archive is generated, checksummed, hosted, and browser-diagnosed.",
   "regions": [
     {

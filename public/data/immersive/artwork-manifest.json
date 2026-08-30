@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "version": "2.0.0-alpha.15",
+  "policy": "High-resolution cinematic masters are optional artistic-reconstruction assets. They never replace evidence labels, terrain data, or archaeological provenance. A master URL is ignored unless a truthful credit is configured with it.",
+  "worlds": [
+    {
+      "id": "jerusalem",
+      "sceneId": "jerusalem-historical-terrain",
+      "targetPeriod": "c. 30 CE",
+      "status": "awaiting-final-master",
+      "urlEnvVar": "VITE_CINEMATIC_JERUSALEM_MASTER_URL",
+      "creditEnvVar": "VITE_CINEMATIC_JERUSALEM_MASTER_CREDIT",
+      "fallback": "5 bundled project-authored animated SVG layers",
+      "evidenceClass": "artistic-reconstruction"
+    },
+    {
+      "id": "galilee",
+      "sceneId": "galilee-ministry-landscape",
+      "targetPeriod": "c. 30 CE",
+      "status": "awaiting-final-master",
+      "urlEnvVar": "VITE_CINEMATIC_GALILEE_MASTER_URL",
+      "creditEnvVar": "VITE_CINEMATIC_GALILEE_MASTER_CREDIT",
+      "fallback": "5 bundled project-authored animated SVG layers",
+      "evidenceClass": "artistic-reconstruction"
+    },
+    {
+      "id": "megiddo",
+      "sceneId": "megiddo-terrain-prototype",
+      "targetPeriod": "Iron Age / selectable chronology context",
+      "status": "awaiting-final-master",
+      "urlEnvVar": "VITE_CINEMATIC_MEGIDDO_MASTER_URL",
+      "creditEnvVar": "VITE_CINEMATIC_MEGIDDO_MASTER_CREDIT",
+      "fallback": "5 bundled project-authored animated SVG layers",
+      "evidenceClass": "artistic-reconstruction"
+    },
+    {
+      "id": "sinai",
+      "sceneId": "sinai-wilderness-prototype",
+      "targetPeriod": "Late Bronze Age environmental context",
+      "status": "awaiting-final-master",
+      "urlEnvVar": "VITE_CINEMATIC_SINAI_MASTER_URL",
+      "creditEnvVar": "VITE_CINEMATIC_SINAI_MASTER_CREDIT",
+      "fallback": "5 bundled project-authored animated SVG layers",
+      "evidenceClass": "artistic-reconstruction"
+    },
+    {
+      "id": "delta",
+      "sceneId": "yam-suph-environment-explorer",
+      "targetPeriod": "Late Bronze Age eastern Delta environment",
+      "status": "awaiting-final-master",
+      "urlEnvVar": "VITE_CINEMATIC_DELTA_MASTER_URL",
+      "creditEnvVar": "VITE_CINEMATIC_DELTA_MASTER_CREDIT",
+      "fallback": "5 bundled project-authored animated SVG layers",
+      "evidenceClass": "artistic-reconstruction",
+      "guardrail": "No exact Exodus crossing point or route may be encoded in the artwork metadata or scene geometry."
+    }
+  ]
+}

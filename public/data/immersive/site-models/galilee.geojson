@@ -20,7 +20,8 @@
         "note": "Site-scale display volume only. The later limestone synagogue dimensions are not being presented as a known first-century synagogue building.",
         "periodIds": [
           "all"
-        ]
+        ],
+        "hotspotId": "capernaum-anchor"
       },
       "geometry": {
         "type": "Polygon",
@@ -64,7 +65,8 @@
         "note": "Display volume for the identified first-century settlement zone; not a building-by-building reconstruction.",
         "periodIds": [
           "all"
-        ]
+        ],
+        "hotspotId": "magdala-anchor"
       },
       "geometry": {
         "type": "Polygon",
@@ -108,7 +110,8 @@
         "note": "Candidate-site display volume for el-Araj. The Bethsaida identification remains contested.",
         "periodIds": [
           "all"
-        ]
+        ],
+        "hotspotId": "bethsaida-debate"
       },
       "geometry": {
         "type": "Polygon",
@@ -152,7 +155,8 @@
         "note": "Candidate-site display volume for et-Tell. The Bethsaida identification remains contested.",
         "periodIds": [
           "all"
-        ]
+        ],
+        "hotspotId": "bethsaida-debate"
       },
       "geometry": {
         "type": "Polygon",

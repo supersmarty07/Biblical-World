@@ -1302,3 +1302,75 @@ kbd { padding: 3px 7px; border: 1px solid var(--line); border-radius: 6px; color
   .scene-cinematic__depth { transition: none; }
   .scene-cinematic__layer { animation: none !important; }
 }
+
+/* V2 alpha.13 — cinematic controls + interactive 3D site worlds */
+.scene-cinematic__grade,
+.scene-cinematic__sun-glow { position: absolute; inset: 0; pointer-events: none; z-index: 3; transition: background 700ms ease, opacity 700ms ease; }
+.scene-cinematic__grade { mix-blend-mode: soft-light; }
+.scene-cinematic--morning .scene-cinematic__grade { background: linear-gradient(115deg, rgba(243,184,112,.26), rgba(116,157,173,.08) 48%, rgba(246,218,170,.18)); }
+.scene-cinematic--midday .scene-cinematic__grade { background: linear-gradient(180deg, rgba(218,235,228,.11), rgba(225,205,157,.04)); }
+.scene-cinematic--evening .scene-cinematic__grade { background: linear-gradient(112deg, rgba(123,86,72,.16), rgba(235,169,86,.24) 58%, rgba(62,82,96,.15)); }
+.scene-cinematic__sun-glow { background: radial-gradient(circle at 73% 20%, rgba(255,216,139,.28), transparent 17%); opacity: .55; }
+.scene-cinematic--morning .scene-cinematic__sun-glow { background: radial-gradient(circle at 28% 28%, rgba(255,211,135,.26), transparent 18%); opacity: .48; }
+.scene-cinematic--midday .scene-cinematic__sun-glow { background: radial-gradient(circle at 52% 8%, rgba(255,243,203,.19), transparent 19%); opacity: .38; }
+.scene-cinematic.is-playing .scene-cinematic__stack { animation: bw-camera-pan 32s ease-in-out infinite alternate; }
+.scene-cinematic.is-paused .scene-cinematic__stack { animation-play-state: paused !important; }
+.scene-cinematic[data-quality="medium"] .scene-cinematic__layer--haze-drift { filter: none !important; }
+.scene-cinematic[data-quality="low"] .scene-cinematic__layer--haze-drift,
+.scene-cinematic[data-quality="low"] .scene-cinematic__layer--birds { animation: none !important; }
+.scene-cinematic[data-quality="low"] .scene-cinematic__depth { transition-duration: 280ms; }
+.scene-cinematic[data-quality="low"] .scene-cinematic__sun-glow { display: none; }
+.scene-cinematic__controls label { display: flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 7px; border: 1px solid rgba(255,255,255,.075); border-radius: 9px; background: rgba(8,13,15,.72); color: #aaa59a; font-size: 8px; backdrop-filter: blur(12px); }
+.scene-cinematic__controls label > span { padding: 0; border: 0; background: none; font-size: 7px; }
+.scene-cinematic__controls select { min-height: 24px; border: 0; background: transparent; color: #e2cf9f; font: inherit; outline: none; }
+.scene-cinematic__controls select option { background: #101719; color: #e8dfcc; }
+.terrain-scene-hud__camera { display: flex; flex-wrap: wrap; gap: 5px; }
+.terrain-scene-hud__camera button { min-height: 30px; padding: 0 8px; border: 1px solid rgba(223,187,117,.18); border-radius: 8px; background: rgba(223,187,117,.055); color: #d6c291; font-size: 8px; cursor: pointer; }
+.terrain-scene-hud__camera button:hover,
+.terrain-scene-hud__camera button:focus-visible { border-color: rgba(223,187,117,.4); color: #f0d393; }
+@keyframes bw-camera-pan { from { transform: translate3d(-.55%, .1%, 0) scale(1.032); } to { transform: translate3d(.55%, -.18%, 0) scale(1.045); } }
+
+@media (max-width: 680px) {
+  .scene-cinematic__controls label { display: none; }
+  .terrain-scene-hud__camera { display: grid; grid-template-columns: 1fr 1fr; }
+  .terrain-scene-hud__camera button { min-height: 34px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scene-cinematic__stack,
+  .scene-cinematic__layer { animation: none !important; }
+}
+
+/* V2 alpha.14 — optional high-resolution cinematic masters */
+.scene-cinematic__master {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.035);
+  filter: saturate(.95) contrast(1.02);
+  opacity: .92;
+}
+.scene-cinematic[data-quality="low"] .scene-cinematic__master { filter: none; }
+.scene-cinematic__asset-status { display: block; margin-top: 7px; color: #8f8a80; font-size: 7px; line-height: 1.4; }
+.deployment-regions { display: grid; gap: 6px; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+.deployment-regions h4 { margin: 0; color: #d8c692; font-size: 8px; text-transform: uppercase; letter-spacing: .08em; }
+
+/* V2 alpha.15 — startup and fatal-runtime resilience */
+.boot-fallback,
+.fatal-screen { min-height: 100vh; display: grid; place-items: center; padding: 24px; background: #0b1014; color: #e9dfcc; }
+.boot-fallback[hidden] { display: none; }
+.boot-fallback > div,
+.fatal-screen__card { width: min(560px, 100%); padding: 22px; border: 1px solid rgba(223,187,117,.24); border-radius: 16px; background: #101719; box-shadow: 0 24px 70px rgba(0,0,0,.35); }
+.boot-fallback strong,
+.fatal-screen h1 { display: block; margin: 0 0 9px; font: 500 22px/1.2 Georgia, serif; color: #f1e5cf; }
+.boot-fallback span,
+.fatal-screen p { display: block; color: #aaa59a; font-size: 13px; line-height: 1.6; }
+.boot-fallback button,
+.fatal-screen button { min-height: 40px; margin-top: 15px; padding: 0 13px; border: 1px solid rgba(223,187,117,.36); border-radius: 9px; background: rgba(223,187,117,.1); color: #efd08d; cursor: pointer; }
+.fatal-screen__card > span { color: #c6a969; font-size: 9px; font-weight: 700; letter-spacing: .12em; }
+.fatal-screen details { margin-top: 14px; color: #9f998d; }
+.fatal-screen code { display: block; margin-top: 8px; padding: 9px; overflow-wrap: anywhere; border-radius: 7px; background: #0a0f12; color: #d4c9b4; }
+.fatal-screen details small { display: block; margin-top: 6px; }
+.fatal-screen__card > div { display: flex; flex-wrap: wrap; gap: 8px; }

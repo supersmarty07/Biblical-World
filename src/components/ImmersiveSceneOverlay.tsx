@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState, type KeyboardEvent, type PointerE
 import { loadImmersiveScene } from '../data/immersive';
 import { loadVerificationRegistry } from '../data/verification';
 import { loadV2AssetManifest } from '../data/assets';
-import { atlasConfig, terrainPmtilesForRegion } from '../config';
+import { atlasConfig, cinematicMasterForRegion, terrainPmtilesForRegion } from '../config';
 import { useAtlasStore } from '../state/useAtlasStore';
 import type { ImmersiveAsset, ImmersiveScene, ImmersiveWorldMode, SceneComparisonOption, SceneHotspot } from '../types/immersive';
 import type { VerificationClaim, VerificationResource, VerificationSceneAssessment } from '../types/verification';
@@ -231,7 +231,15 @@ function AnimatedWorldView({ scene }: { scene: ImmersiveScene }) {
   const reducedMotion = typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const [playing, setPlaying] = useState(!reducedMotion);
   const [pointer, setPointer] = useState({ x: 0, y: 0 });
+  const [timeOfDay, setTimeOfDay] = useState<'morning' | 'midday' | 'evening'>('evening');
+  const [quality, setQuality] = useState<'low' | 'medium' | 'high'>(() => {
+    if (typeof window === 'undefined') return 'high';
+    if (window.innerWidth <= 480) return 'low';
+    if (window.innerWidth <= 860) return 'medium';
+    return 'high';
+  });
   const layerAssets = new Map(scene.assets.map((asset) => [asset.id, asset]));
+  const cinematicMaster = cinematicMasterForRegion(world.terrainRegion);
 
   useEffect(() => { setPlaying(!reducedMotion); }, [reducedMotion, scene.id]);
 
@@ -246,13 +254,15 @@ function AnimatedWorldView({ scene }: { scene: ImmersiveScene }) {
 
   return (
     <div
-      className={`scene-cinematic ${playing ? 'is-playing' : 'is-paused'}`}
+      className={`scene-cinematic scene-cinematic--${timeOfDay} ${playing ? 'is-playing' : 'is-paused'}`}
+      data-quality={quality}
       role="img"
       aria-label={`${config.alt} ${config.note}`}
       onPointerMove={onPointerMove}
       onPointerLeave={() => setPointer({ x: 0, y: 0 })}
     >
       <div className="scene-cinematic__stack" aria-hidden="true">
+        {cinematicMaster && <img className="scene-cinematic__master" src={cinematicMaster.url} alt="" decoding="async" fetchPriority="high" />}
         {config.layers.map((layer) => {
           const asset = layerAssets.get(layer.assetId);
           if (!asset) return null;
@@ -267,21 +277,42 @@ function AnimatedWorldView({ scene }: { scene: ImmersiveScene }) {
                 alt=""
                 className={`scene-cinematic__layer scene-cinematic__layer--${layer.motion}`}
                 style={{ opacity: layer.opacity ?? 1 }}
+                loading={layer.depth > 8 ? 'lazy' : 'eager'}
+                decoding="async"
               />
             </div>
           );
         })}
       </div>
+      <div className="scene-cinematic__grade" aria-hidden="true" />
+      <div className="scene-cinematic__sun-glow" aria-hidden="true" />
       <div className="scene-cinematic__vignette" aria-hidden="true" />
       <div className="scene-cinematic__caption">
         <span className="scene-evidence-chip scene-evidence-chip--artistic-reconstruction">Artistic reconstruction</span>
         <strong>{config.title}</strong>
         <p>{config.note}</p>
+        <small className="scene-cinematic__asset-status">{cinematicMaster ? `High-resolution reconstruction master · ${cinematicMaster.credit}` : 'Layered project artwork · final high-resolution master not configured'}</small>
       </div>
       <div className="scene-cinematic__controls">
         <button type="button" onClick={() => setPlaying((value) => !value)} disabled={reducedMotion}>
           {reducedMotion ? 'Motion reduced by device setting' : playing ? 'Pause animation' : 'Play animation'}
         </button>
+        <label>
+          <span>Light</span>
+          <select value={timeOfDay} onChange={(event) => setTimeOfDay(event.target.value as 'morning' | 'midday' | 'evening')}>
+            <option value="morning">Morning</option>
+            <option value="midday">Midday</option>
+            <option value="evening">Evening</option>
+          </select>
+        </label>
+        <label>
+          <span>Quality</span>
+          <select value={quality} onChange={(event) => setQuality(event.target.value as 'low' | 'medium' | 'high')}>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </label>
         <div aria-label="Animated effects">{config.effects.map((effect) => <span key={effect}>{effect}</span>)}</div>
       </div>
     </div>
@@ -298,6 +329,10 @@ function WorldModeSwitch({ scene, mode, onChange }: { scene: ImmersiveScene; mod
   );
 }
 
+function sendSceneCameraCommand(command: 'orbit-left' | 'orbit-right' | 'top-down' | 'reset') {
+  window.dispatchEvent(new CustomEvent('biblical-world:scene-camera', { detail: { command } }));
+}
+
 function TerrainSceneHud({ scene }: { scene: ImmersiveScene }) {
   const setActiveHotspot = useAtlasStore((s) => s.setActiveHotspot);
   const activeVariantId = useAtlasStore((s) => s.activeSceneVariantId);
@@ -312,6 +347,12 @@ function TerrainSceneHud({ scene }: { scene: ImmersiveScene }) {
         <span>{terrainConfigured ? 'Relief uses the configured external raster-DEM. Site extrusions remain evidence-labeled separately.' : siteGeometryConfigured ? `${scene.world?.siteModel?.label} is available now. No measured DEM is loaded, so regional elevation remains flat until terrain PMTiles are configured.` : 'No terrain DEM or local site geometry is loaded. Camera pitch is presentation only.'}</span>
       </div>
       {siteGeometryConfigured && <div className="terrain-scene-hud__geometry-note"><strong>Geometry boundary</strong><span>{scene.world?.siteModel?.note}</span></div>}
+      <div className="terrain-scene-hud__camera" aria-label="3D camera controls">
+        <button type="button" onClick={() => sendSceneCameraCommand('orbit-left')}>Orbit left</button>
+        <button type="button" onClick={() => sendSceneCameraCommand('orbit-right')}>Orbit right</button>
+        <button type="button" onClick={() => sendSceneCameraCommand('top-down')}>Top down</button>
+        <button type="button" onClick={() => sendSceneCameraCommand('reset')}>Reset view</button>
+      </div>
       <div className="terrain-scene-hud__hotspots" aria-label="Terrain scene hotspots">
       {visibleHotspots(scene, activeVariantId, activePeriodId).filter((hotspot) => hotspot.position.kind === 'geographic').map((hotspot) => (
         <button key={hotspot.id} onClick={() => setActiveHotspot(hotspot.id)}>

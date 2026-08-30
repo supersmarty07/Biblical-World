@@ -422,6 +422,21 @@ export function MapView() {
       }
     });
 
+
+    map.on('click', (event) => {
+      if (!map.getLayer('immersive-site-model-extrusion')) return;
+      const features = map.queryRenderedFeatures(event.point, { layers: ['immersive-site-model-extrusion'] });
+      const hotspotId = features[0]?.properties?.hotspotId as string | undefined;
+      if (hotspotId) useAtlasStore.getState().setActiveHotspot(hotspotId);
+    });
+
+    map.on('mousemove', (event) => {
+      const interactive = map.getLayer('immersive-site-model-extrusion')
+        ? map.queryRenderedFeatures(event.point, { layers: ['immersive-site-model-extrusion'] }).length > 0
+        : false;
+      map.getCanvas().style.cursor = interactive ? 'pointer' : '';
+    });
+
     const retryMapAsset = (event: Event) => {
       if (!map.isStyleLoaded()) return;
       const key = (event as CustomEvent<{ key?: string }>).detail?.key;
@@ -441,13 +456,33 @@ export function MapView() {
         ensureExternalBasemap(map);
       }
     };
+    const sceneCameraCommand = (event: Event) => {
+      const command = (event as CustomEvent<{ command?: 'orbit-left' | 'orbit-right' | 'top-down' | 'reset' }>).detail?.command;
+      if (!command) return;
+      const state = useAtlasStore.getState();
+      const scene = state.activeScene;
+      const base = scene?.world?.mapCamera || scene?.entryCamera;
+      if (!base) return;
+      const periodCamera = scene?.periods.find((period) => period.id === state.activeScenePeriodId)?.camera;
+      const variantCamera = scene?.comparison?.options.find((option) => option.id === state.activeSceneVariantId)?.camera;
+      const target = variantCamera || periodCamera || base;
+      const currentBearing = map.getBearing();
+      const duration = prefersReducedMotion() ? 0 : 700;
+      if (command === 'orbit-left') map.easeTo({ bearing: currentBearing - 24, pitch: Math.max(45, map.getPitch()), duration, essential: false });
+      if (command === 'orbit-right') map.easeTo({ bearing: currentBearing + 24, pitch: Math.max(45, map.getPitch()), duration, essential: false });
+      if (command === 'top-down') map.easeTo({ pitch: 0, bearing: 0, duration, essential: false });
+      if (command === 'reset') map.easeTo({ center: target.center, zoom: target.zoom, pitch: target.pitch ?? 0, bearing: target.bearing ?? 0, duration, essential: false });
+    };
+
     window.addEventListener(runtimeAssetRetryEvent, retryMapAsset);
+    window.addEventListener('biblical-world:scene-camera', sceneCameraCommand);
 
     mapRef.current = map;
     return () => {
       if (animationRef.current) cancelAnimationFrame(animationRef.current);
       travelerRef.current?.remove();
       window.removeEventListener(runtimeAssetRetryEvent, retryMapAsset);
+      window.removeEventListener('biblical-world:scene-camera', sceneCameraCommand);
       map.remove();
       mapRef.current = null;
     };

@@ -13,6 +13,20 @@
   </head>
   <body>
     <div id="root"></div>
+    <div id="boot-fallback" class="boot-fallback" hidden>
+      <div>
+        <strong>The Biblical World did not start.</strong>
+        <span>The page was published, but the application bundle did not initialize. Reload once; if this persists, check the GitHub Pages Vite deployment artifact.</span>
+        <button type="button" onclick="window.location.reload()">Reload</button>
+      </div>
+    </div>
+    <script>
+      window.setTimeout(function () {
+        if (document.documentElement.dataset.appBooted === 'true') return;
+        var fallback = document.getElementById('boot-fallback');
+        if (fallback) fallback.hidden = false;
+      }, 8000);
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

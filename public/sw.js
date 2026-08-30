@@ -1,5 +1,5 @@
 const CACHE_PREFIX = 'biblical-world-';
-const CACHE_NAME = `${CACHE_PREFIX}v2-alpha12-runtime`;
+const CACHE_NAME = `${CACHE_PREFIX}v2-alpha15-runtime`;
 
 self.addEventListener('install', () => self.skipWaiting());
 
@@ -47,7 +47,8 @@ function isVersionSensitiveData(url) {
     url.pathname.includes('/data/generated/search-documents.json') ||
     url.pathname.includes('/data/verification/registry.json') ||
     url.pathname.includes('/data/assets/manifest.json') ||
-    url.pathname.includes('/data/terrain/regions.json');
+    url.pathname.includes('/data/terrain/regions.json') ||
+    url.pathname.includes('/data/immersive/artwork-manifest.json');
 }
 
 self.addEventListener('fetch', (event) => {

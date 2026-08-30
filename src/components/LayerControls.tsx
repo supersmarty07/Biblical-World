@@ -6,7 +6,7 @@ import { DeploymentDiagnostics } from './DeploymentDiagnostics';
 export function LayerControls() {
   const layers = useAtlasStore((s) => s.layers);
   const toggleLayer = useAtlasStore((s) => s.toggleLayer);
-  const terrainReady = Boolean(atlasConfig.terrainPmtilesUrl);
+  const terrainReady = atlasConfig.hasAnyTerrain;
   const roadsReady = Boolean(atlasConfig.romanRoadsGeojsonUrl);
   const runtimeAssets = useAtlasStore((s) => s.runtimeAssets);
 
@@ -15,7 +15,7 @@ export function LayerControls() {
     { key: 'journeys' as const, label: 'Biblical journeys', detail: 'Textual sequence with reconstructed and unknown corridors' },
     { key: 'regions' as const, label: 'Historical context', detail: 'Time-aware cultural-geographic context, never modern-style hard borders' },
     { key: 'roads' as const, label: 'Roman roads', detail: roadsReady ? `Verified/licensed road network · ${runtimeAssets['roman-roads'].state}` : 'Optional: set VITE_ROMAN_ROADS_GEOJSON_URL', disabled: !roadsReady },
-    { key: 'terrain' as const, label: '3D terrain', detail: terrainReady ? `External PMTiles terrain · ${runtimeAssets.terrain.state}` : 'Optional: set VITE_TERRAIN_PMTILES_URL', disabled: !terrainReady }
+    { key: 'terrain' as const, label: '3D terrain', detail: terrainReady ? `${atlasConfig.terrainPmtilesUrl ? 'Global/regional' : 'Regional'} PMTiles terrain · ${runtimeAssets.terrain.state}` : 'Optional: configure a global or regional terrain PMTiles URL', disabled: !terrainReady }
   ];
 
   return (

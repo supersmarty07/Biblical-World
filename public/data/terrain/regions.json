@@ -1,42 +1,74 @@
 {
   "schemaVersion": 1,
-  "version": "2.0.0-alpha.12",
+  "version": "2.0.0-alpha.15",
   "policy": "Regional terrain packages are runtime enhancements. Research-supplied Copernicus tile identifiers are not source bytes and do not make a region production-ready until a real PMTiles archive is generated, checksummed, hosted, and browser-diagnosed.",
   "regions": [
     {
       "id": "jerusalem",
       "label": "Jerusalem + Judean Wilderness",
-      "bbox": [35.0, 31.0, 36.0, 32.0],
+      "bbox": [
+        35.0,
+        31.0,
+        36.0,
+        32.0
+      ],
       "envVar": "VITE_TERRAIN_JERUSALEM_PMTILES_URL",
       "status": "awaiting-source-bytes",
-      "researchSuppliedCopernicusTiles": ["Copernicus_DSM_10_N31_00_E035_00"],
-      "researchSuppliedS3Prefixes": ["s3://copernicus-dem-30m/Copernicus_DSM_COG_10_N31_00_E035_00_DEM/"],
+      "researchSuppliedCopernicusTiles": [
+        "Copernicus_DSM_10_N31_00_E035_00"
+      ],
+      "researchSuppliedS3Prefixes": [
+        "s3://copernicus-dem-30m/Copernicus_DSM_COG_10_N31_00_E035_00_DEM/"
+      ],
       "notes": "Research-supplied tile target only. The alpha.12 local 3D site geometry works without this DEM, but regional relief remains flat until a valid Terrain-RGB PMTiles archive is configured."
     },
     {
       "id": "galilee",
       "label": "Galilee + Sea of Galilee",
-      "bbox": [35.0, 32.0, 36.0, 33.0],
+      "bbox": [
+        35.0,
+        32.0,
+        36.0,
+        33.0
+      ],
       "envVar": "VITE_TERRAIN_GALILEE_PMTILES_URL",
       "status": "awaiting-source-bytes",
-      "researchSuppliedCopernicusTiles": ["Copernicus_DSM_10_N32_00_E035_00"],
-      "researchSuppliedS3Prefixes": ["s3://copernicus-dem-30m/Copernicus_DSM_COG_10_N32_00_E035_00_DEM/"],
+      "researchSuppliedCopernicusTiles": [
+        "Copernicus_DSM_10_N32_00_E035_00"
+      ],
+      "researchSuppliedS3Prefixes": [
+        "s3://copernicus-dem-30m/Copernicus_DSM_COG_10_N32_00_E035_00_DEM/"
+      ],
       "notes": "Modern DSM target. A c. 30 CE shoreline is a separate historical-inference layer and must not be inferred directly from modern water extent."
     },
     {
       "id": "megiddo",
       "label": "Megiddo + Jezreel Valley",
-      "bbox": [35.0, 32.0, 36.0, 33.0],
+      "bbox": [
+        35.0,
+        32.0,
+        36.0,
+        33.0
+      ],
       "envVar": "VITE_TERRAIN_MEGIDDO_PMTILES_URL",
       "status": "awaiting-source-bytes",
-      "researchSuppliedCopernicusTiles": ["Copernicus_DSM_10_N32_00_E035_00"],
-      "researchSuppliedS3Prefixes": ["s3://copernicus-dem-30m/Copernicus_DSM_COG_10_N32_00_E035_00_DEM/"],
+      "researchSuppliedCopernicusTiles": [
+        "Copernicus_DSM_10_N32_00_E035_00"
+      ],
+      "researchSuppliedS3Prefixes": [
+        "s3://copernicus-dem-30m/Copernicus_DSM_COG_10_N32_00_E035_00_DEM/"
+      ],
       "notes": "Shares the research-supplied Copernicus target tile with Galilee. Tel-scale archaeological topography requires a more precise source than GLO-30 before it can be represented as measured micro-relief."
     },
     {
       "id": "sinai",
       "label": "Sinai Peninsula",
-      "bbox": [32.0, 27.0, 35.0, 31.0],
+      "bbox": [
+        32.0,
+        27.0,
+        35.0,
+        31.0
+      ],
       "envVar": "VITE_TERRAIN_SINAI_PMTILES_URL",
       "status": "incomplete-research-tile-list",
       "researchSuppliedCopernicusTiles": [
@@ -46,15 +78,22 @@
         "Copernicus_DSM_10_N29_00_E033_00"
       ],
       "researchSuppliedS3Prefixes": [],
-      "notes": "The supplied research explicitly covers a larger 27–31 N / 32–35 E region but lists only four tiles. Do not treat this list as complete. The runtime must remain functional without a Sinai DEM."
+      "notes": "The supplied research explicitly covers a larger 27\u201331 N / 32\u201335 E region but lists only four tiles. Do not treat this list as complete. The runtime must remain functional without a Sinai DEM."
     },
     {
       "id": "delta",
       "label": "Eastern Nile Delta / Yam Suph environment",
-      "bbox": [31.5, 29.5, 33.5, 31.5],
+      "bbox": [
+        31.5,
+        29.5,
+        33.5,
+        31.5
+      ],
       "envVar": "VITE_TERRAIN_DELTA_PMTILES_URL",
       "status": "awaiting-source-bytes-and-paleogeography",
-      "researchSuppliedCopernicusTiles": ["Copernicus_DSM_10_N29_00_E032_00"],
+      "researchSuppliedCopernicusTiles": [
+        "Copernicus_DSM_10_N29_00_E032_00"
+      ],
       "researchSuppliedS3Prefixes": [],
       "notes": "Modern DSM can support broad relief only. Bronze-Age channels, lakes, marshes, and shorelines require a separately labeled historical-inference reconstruction. No Exodus crossing point may be encoded."
     }

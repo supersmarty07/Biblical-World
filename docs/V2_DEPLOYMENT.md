@@ -1,10 +1,10 @@
-# V2 deployment + immersive terrain — alpha.12
+# V2 deployment + immersive terrain — alpha.15
 
 The Biblical World remains a frontend-only Vite/React/MapLibre application. GitHub Pages hosts the shell, JSON, small GeoJSON, PWA files, and lightweight fallbacks. Large terrain/media should remain on a static HTTPS object origin such as Cloudflare R2 or S3/CloudFront.
 
 ## GitHub Pages branch
 
-For this repository the Pages workflow auto-runs on both `main` and the working deployment branch `bible-world-v2`. Manual `workflow_dispatch` remains available.
+For this repository the Pages workflow auto-runs on both `main` and the active deployment branch `BIBLE-WORLD-V4`. Manual `workflow_dispatch` remains available.
 
 ## GitHub Pages base path
 
@@ -26,6 +26,11 @@ The Pages workflow accepts these repository Variables:
 - `VITE_TERRAIN_MEGIDDO_PMTILES_URL`
 - `VITE_TERRAIN_SINAI_PMTILES_URL`
 - `VITE_TERRAIN_DELTA_PMTILES_URL`
+- `VITE_CINEMATIC_JERUSALEM_MASTER_URL` + `VITE_CINEMATIC_JERUSALEM_MASTER_CREDIT`
+- `VITE_CINEMATIC_GALILEE_MASTER_URL` + `VITE_CINEMATIC_GALILEE_MASTER_CREDIT`
+- `VITE_CINEMATIC_MEGIDDO_MASTER_URL` + `VITE_CINEMATIC_MEGIDDO_MASTER_CREDIT`
+- `VITE_CINEMATIC_SINAI_MASTER_URL` + `VITE_CINEMATIC_SINAI_MASTER_CREDIT`
+- `VITE_CINEMATIC_DELTA_MASTER_URL` + `VITE_CINEMATIC_DELTA_MASTER_CREDIT`
 - `VITE_BASEMAP_PMTILES_URL`
 - `VITE_BASEMAP_ATTRIBUTION`
 - `VITE_ROMAN_ROADS_GEOJSON_URL`
@@ -38,7 +43,7 @@ An external basemap is deliberately ignored unless `VITE_BASEMAP_ATTRIBUTION` is
 
 ## Regional immersive terrain
 
-Alpha.12 supports one PMTiles archive per flagship world. Scene-specific terrain variables fall back to `VITE_TERRAIN_PMTILES_URL` if unset. This is useful for keeping Jerusalem, Galilee, Megiddo, Sinai, and Delta archives independently cacheable and replaceable.
+Alpha.14 supports one PMTiles archive per flagship world and diagnoses each regional archive independently. Scene-specific terrain variables fall back to `VITE_TERRAIN_PMTILES_URL` if unset. This is useful for keeping Jerusalem, Galilee, Megiddo, Sinai, and Delta archives independently cacheable and replaceable.
 
 The local 3D site-extrusion layer does **not** depend on these URLs. If no DEM is configured, users still receive a pitched 3D site map with explanatory geometry over a flat elevation base. The UI states this limitation explicitly.
 
@@ -98,3 +103,12 @@ Before release:
 - Verify reduced-motion behavior.
 - Verify attribution drawer entries against the assets actually enabled in the deployment.
 - Confirm no unverified or non-commercial source was promoted into the production runtime.
+
+## High-resolution cinematic masters
+
+Each flagship animated reconstruction can optionally layer a high-resolution HTTPS master under the existing motion/effect stack. URL and credit must both be configured or the master is ignored. These images remain **Artistic reconstruction** regardless of photorealism. Prefer AVIF/WebP on an external CDN/R2 origin; keep the bundled project-authored SVG layers as lightweight/offline fallback.
+
+
+## Alpha.15 blank-page protection
+
+GitHub Actions now runs `npm run smoke:dist` immediately after the Vite build and before uploading the Pages artifact. The smoke test rejects a `dist/index.html` that still references raw `/src/main.tsx` and verifies that the compiled module plus version-sensitive manifests exist. The browser also has a pre-React eight-second boot fallback and a React error boundary with a local service-worker/cache reset action.

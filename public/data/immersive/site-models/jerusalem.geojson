@@ -22,7 +22,8 @@
           "herodian-period",
           "circa-30-ce",
           "seventy-ce"
-        ]
+        ],
+        "hotspotId": "temple-mount-precinct"
       },
       "geometry": {
         "type": "Polygon",
@@ -68,7 +69,8 @@
           "herodian-period",
           "circa-30-ce",
           "seventy-ce"
-        ]
+        ],
+        "hotspotId": "temple-mount-precinct"
       },
       "geometry": {
         "type": "Polygon",
@@ -117,7 +119,8 @@
           "first-temple-context",
           "late-iron-age",
           "persian-period"
-        ]
+        ],
+        "hotspotId": "southeastern-ridge"
       },
       "geometry": {
         "type": "Polygon",
@@ -161,7 +164,8 @@
         "note": "Illustrative reference block for the Broad Wall / western expansion context; not a complete late-Iron-Age wall circuit.",
         "periodIds": [
           "late-iron-age"
-        ]
+        ],
+        "hotspotId": "southeastern-ridge"
       },
       "geometry": {
         "type": "Polygon",

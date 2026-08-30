@@ -1,6 +1,6 @@
 # The Biblical World V2 — Immersive Architecture
 
-**Status:** V2 Batches 1–8 implemented; verification integrated; asset/deployment hardening complete; dual-mode Immersive Worlds active at `2.0.0-alpha.12`  
+**Status:** V2 Batches 1–8 implemented; verification integrated; asset/deployment hardening complete; interactive dual-mode Immersive Worlds plus production terrain/cinematic asset slots active at `2.0.0-alpha.15`  
 **Source baseline:** `biblical-world-v1.1.1-hotfix.zip`
 
 ## 1. Repository findings carried forward from v1
@@ -512,3 +512,29 @@ The runtime now treats external terrain, basemap, and Roman-road sources as opti
 A registry-driven attribution drawer exposes credits for resources actually used by the build. External basemap configuration fails closed without an explicit attribution string, while Roman-road runtime attribution is restricted to verification-registry source IDs. GitHub Pages remains the shell host and accepts optional external asset URLs through repository Variables.
 
 See `docs/V2_DEPLOYMENT.md`.
+
+## Alpha.13 — Cinematic Scene Assets & Interactive 3D Site Worlds
+
+Alpha.13 turns the alpha.12 dual-mode scene framework into a more direct exploration system.
+
+### 3D site maps
+
+Project-authored GeoJSON site volumes remain evidence-bounded display geometry. Features may now carry a `hotspotId`; clicking an extrusion opens the same scene evidence record rather than presenting the volume as self-authenticating archaeology. Camera commands are dispatched through a narrow browser event (`biblical-world:scene-camera`) so the scene UI can orbit/reset the existing MapLibre camera without coupling the map implementation into the overlay component.
+
+### Animated reconstructions
+
+The animated reconstruction renderer remains asset-agnostic. Current lightweight layered SVGs can later be replaced by AVIF/WebP or transparent depth layers without changing the scene schema. Alpha.13 adds time-of-day color grading, quality tiers, slow stack-level cinematic drift, asynchronous image decoding, and reduced-motion safeguards.
+
+### Production-asset boundary
+
+Generated/reconstructed artwork is still classified as `artistic-reconstruction`. Real DEM relief is only labeled as terrain when an external verified Terrain-RGB PMTiles source is configured. This keeps the visual experience immersive while preserving the distinction between measured geography, known archaeology, inference, tradition, and art.
+
+
+## Alpha.14 production asset bridge
+
+Five flagship terrain regions are independently configurable and independently diagnosable. High-resolution cinematic reconstruction masters are also external/configurable per region and require a paired credit string. These masters are presentation assets only: evidence classification, hotspot provenance, coordinate roles, and historical uncertainty remain in the structured scene records. The active GitHub Pages development branch is `BIBLE-WORLD-V4`.
+
+
+## Alpha.15 runtime resilience
+
+The application now has four explicit failure boundaries: static boot watchdog, React fatal error boundary, atlas/scene data error states, and optional external-asset degradation. GitHub Pages also smoke-tests the compiled `dist/` artifact before deployment, preventing accidental publication of the raw Vite source shell.

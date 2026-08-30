@@ -24,7 +24,8 @@
           "united-monarchy-context",
           "northern-kingdom-context",
           "late-monarchy-context"
-        ]
+        ],
+        "hotspotId": "megiddo-tell"
       },
       "geometry": {
         "type": "Polygon",
@@ -69,7 +70,8 @@
         "periodIds": [
           "united-monarchy-context",
           "northern-kingdom-context"
-        ]
+        ],
+        "hotspotId": "megiddo-building-text"
       },
       "geometry": {
         "type": "Polygon",

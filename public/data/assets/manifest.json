@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.0.0-alpha.12",
+  "version": "2.0.0-alpha.15",
   "policy": {
     "largeAssetHost": "external-static-object-storage",
     "githubPagesRole": "application-shell-small-json-small-geojson-ui-assets",
@@ -127,7 +127,7 @@
       ],
       "evidenceClass": "historical-inference",
       "citations": [
-        "Kraft, J. C., Brückner, H., Kayan, I. & Engelmann, H. (2007). Geoarchaeology 22(1), 121-149"
+        "Kraft, J. C., Br\u00fcckner, H., Kayan, I. & Engelmann, H. (2007). Geoarchaeology 22(1), 121-149"
       ],
       "notes": "Exact decade-specific shoreline geometry is interpolated; any future polygon must carry period and uncertainty metadata."
     },

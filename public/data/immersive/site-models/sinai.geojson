@@ -20,7 +20,8 @@
         "note": "Small display plinth marking a traditional candidate location; not a reconstruction of the mountain or proof of biblical identification.",
         "periodIds": [
           "narrative-context"
-        ]
+        ],
+        "hotspotId": "jebel-musa-site"
       },
       "geometry": {
         "type": "Polygon",
@@ -64,7 +65,8 @@
         "note": "Small display plinth marking a candidate location; not a reconstruction of the mountain or proof of biblical identification.",
         "periodIds": [
           "narrative-context"
-        ]
+        ],
+        "hotspotId": "har-karkom-site"
       },
       "geometry": {
         "type": "Polygon",

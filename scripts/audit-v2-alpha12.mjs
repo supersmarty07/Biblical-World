@@ -3,7 +3,8 @@ import path from 'node:path';
 
 const root = process.cwd();
 const pkg = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
-if (pkg.version !== '2.0.0-alpha.12') throw new Error(`Expected package version 2.0.0-alpha.12, found ${pkg.version}`);
+const alphaMatch = /^2\.0\.0-alpha\.(\d+)$/.exec(pkg.version);
+if (!alphaMatch || Number(alphaMatch[1]) < 12) throw new Error(`Expected package version >= 2.0.0-alpha.12, found ${pkg.version}`);
 
 
 const terrainRegistry = JSON.parse(fs.readFileSync(path.join(root, 'public/data/terrain/regions.json'), 'utf8'));

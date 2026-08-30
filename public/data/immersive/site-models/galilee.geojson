@@ -1,0 +1,186 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "sceneId": "galilee-ministry-landscape",
+    "status": "project-authored-derived-display-geometry",
+    "warning": "These are display volumes for securely identified or candidate locations. They do not reconstruct first-century buildings."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "capernaum-display",
+      "properties": {
+        "id": "capernaum-display",
+        "label": "Capernaum archaeological zone display",
+        "evidenceClass": "historical-inference",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 5,
+        "heightBasis": "illustrative",
+        "coordinateRole": "display-anchor",
+        "note": "Site-scale display volume only. The later limestone synagogue dimensions are not being presented as a known first-century synagogue building.",
+        "periodIds": [
+          "all"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.574242192056225,
+              32.880456944999814
+            ],
+            [
+              35.57584059564948,
+              32.880596787193966
+            ],
+            [
+              35.57575780794378,
+              32.881543055000186
+            ],
+            [
+              35.574159404350524,
+              32.881403212806035
+            ],
+            [
+              35.574242192056225,
+              32.880456944999814
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "magdala-display",
+      "properties": {
+        "id": "magdala-display",
+        "label": "Magdala archaeological zone display",
+        "evidenceClass": "historical-inference",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 5,
+        "heightBasis": "illustrative",
+        "coordinateRole": "display-anchor",
+        "note": "Display volume for the identified first-century settlement zone; not a building-by-building reconstruction.",
+        "periodIds": [
+          "all"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.50919684594911,
+              32.82962540399469
+            ],
+            [
+              35.51074320412321,
+              32.82951727209745
+            ],
+            [
+              35.51080315405088,
+              32.830374596005306
+            ],
+            [
+              35.50925679587679,
+              32.83048272790255
+            ],
+            [
+              35.50919684594911,
+              32.82962540399469
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bethsaida-el-araj-display",
+      "properties": {
+        "id": "bethsaida-el-araj-display",
+        "label": "el-Araj Bethsaida candidate display",
+        "evidenceClass": "unknown-disputed",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 4,
+        "heightBasis": "illustrative",
+        "coordinateRole": "candidate-site",
+        "note": "Candidate-site display volume for el-Araj. The Bethsaida identification remains contested.",
+        "periodIds": [
+          "all"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.619464994505776,
+              32.908638140039805
+            ],
+            [
+              35.62053500549422,
+              32.908638140039805
+            ],
+            [
+              35.62053500549422,
+              32.90936185996019
+            ],
+            [
+              35.619464994505776,
+              32.90936185996019
+            ],
+            [
+              35.619464994505776,
+              32.908638140039805
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bethsaida-et-tell-display",
+      "properties": {
+        "id": "bethsaida-et-tell-display",
+        "label": "et-Tell Bethsaida candidate display",
+        "evidenceClass": "unknown-disputed",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 4,
+        "heightBasis": "illustrative",
+        "coordinateRole": "candidate-site",
+        "note": "Candidate-site display volume for et-Tell. The Bethsaida identification remains contested.",
+        "periodIds": [
+          "all"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.62646497033198,
+              32.9126381400398
+            ],
+            [
+              35.627535029668024,
+              32.9126381400398
+            ],
+            [
+              35.627535029668024,
+              32.91336185996019
+            ],
+            [
+              35.62646497033198,
+              32.91336185996019
+            ],
+            [
+              35.62646497033198,
+              32.9126381400398
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

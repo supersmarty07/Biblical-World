@@ -136,7 +136,83 @@
       }
     ]
   },
-  "assets": [],
+  "assets": [
+    {
+      "id": "galilee-animated-sky",
+      "kind": "image",
+      "src": "assets/immersive/galilee/sky.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "galilee-animated-hills",
+      "kind": "image",
+      "src": "assets/immersive/galilee/hills.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "galilee-animated-water",
+      "kind": "image",
+      "src": "assets/immersive/galilee/water.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "galilee-animated-shore",
+      "kind": "image",
+      "src": "assets/immersive/galilee/shore.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "galilee-animated-foreground",
+      "kind": "image",
+      "src": "assets/immersive/galilee/foreground.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    }
+  ],
   "hotspots": [
     {
       "id": "nazareth-anchor",
@@ -400,5 +476,74 @@
         "alternatives": "el-Araj and et-Tell remain independently selectable archaeological candidates."
       }
     }
-  ]
+  ],
+  "world": {
+    "defaultMode": "animated-reconstruction",
+    "mapCamera": {
+      "center": [
+        35.55,
+        32.86
+      ],
+      "zoom": 9.4,
+      "pitch": 58,
+      "bearing": -18,
+      "coordinateRole": "display-anchor",
+      "note": "Regional 3D teaching camera over the Sea of Galilee basin. Candidate Bethsaida volumes remain explicitly disputed."
+    },
+    "mapLabel": "3D lake & sites",
+    "reconstructionLabel": "Animated Galilee c. 30 CE",
+    "siteModel": {
+      "src": "data/immersive/site-models/galilee.geojson",
+      "label": "Galilee site-volume layer",
+      "note": "Project-authored display geometry for identified and candidate site zones. It does not reconstruct first-century buildings or a precise c. 30 CE shoreline.",
+      "defaultVisible": true,
+      "verticalScale": 1.0,
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored derived display geometry",
+        "attribution": "The Biblical World V2",
+        "notes": "Site-scale display volumes only; Bethsaida alternatives remain candidate-site geometry."
+      }
+    },
+    "reconstruction": {
+      "title": "Sea of Galilee c. 30 CE — animated reconstruction",
+      "alt": "Layered artistic reconstruction of the Sea of Galilee with basalt shore settlements, boats, reeds, and surrounding hills.",
+      "note": "Animated artistic reconstruction. The lake basin and established settlements provide geographic anchors; exact shoreline, boats, vegetation density, and village appearance are illustrative.",
+      "layers": [
+        {
+          "assetId": "galilee-animated-sky",
+          "depth": 1,
+          "motion": "cloud-drift"
+        },
+        {
+          "assetId": "galilee-animated-hills",
+          "depth": 3,
+          "motion": "slow-drift"
+        },
+        {
+          "assetId": "galilee-animated-water",
+          "depth": 6,
+          "motion": "water-shimmer"
+        },
+        {
+          "assetId": "galilee-animated-shore",
+          "depth": 10,
+          "motion": "haze-drift"
+        },
+        {
+          "assetId": "galilee-animated-foreground",
+          "depth": 16,
+          "motion": "vegetation-sway"
+        }
+      ],
+      "effects": [
+        "water shimmer",
+        "slow camera drift",
+        "cloud movement",
+        "reed movement",
+        "distant boat motion"
+      ]
+    },
+    "terrainRegion": "galilee"
+  }
 }

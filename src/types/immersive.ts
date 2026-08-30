@@ -54,6 +54,46 @@ export interface ImmersiveAsset {
   provenance: ImmersiveAssetProvenance;
 }
 
+
+export type ImmersiveWorldMode = '3d-map' | 'animated-reconstruction';
+export type ReconstructionMotion = 'none' | 'slow-drift' | 'cloud-drift' | 'water-shimmer' | 'haze-drift' | 'vegetation-sway' | 'birds';
+
+export interface AnimatedReconstructionLayer {
+  assetId: string;
+  depth: number;
+  motion: ReconstructionMotion;
+  opacity?: number;
+}
+
+export interface AnimatedReconstructionConfig {
+  title: string;
+  alt: string;
+  note: string;
+  layers: AnimatedReconstructionLayer[];
+  effects: string[];
+}
+
+export interface SiteModelConfig {
+  src: string;
+  label: string;
+  note: string;
+  defaultVisible: boolean;
+  verticalScale: number;
+  provenance: ImmersiveAssetProvenance;
+}
+
+export type TerrainRegionKey = 'jerusalem' | 'galilee' | 'megiddo' | 'sinai' | 'delta';
+
+export interface ImmersiveWorldConfig {
+  defaultMode: ImmersiveWorldMode;
+  terrainRegion?: TerrainRegionKey;
+  mapCamera: SceneCamera;
+  mapLabel: string;
+  reconstructionLabel: string;
+  siteModel?: SiteModelConfig;
+  reconstruction: AnimatedReconstructionConfig;
+}
+
 export interface SceneEvidenceLegendItem {
   class: EvidenceClass;
   label: string;
@@ -150,5 +190,6 @@ export interface ImmersiveScene {
   };
   comparison?: SceneComparison;
   assets: ImmersiveAsset[];
+  world?: ImmersiveWorldConfig;
   hotspots: SceneHotspot[];
 }

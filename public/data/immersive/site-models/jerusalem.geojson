@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "sceneId": "jerusalem-historical-terrain",
+    "status": "project-authored-derived-display-geometry",
+    "warning": "These polygons are explanatory display geometry derived from atlas anchors and published dimensions. They are not surveyed archaeological footprints."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "temple-mount-display",
+      "properties": {
+        "id": "temple-mount-display",
+        "label": "Temple Mount / Herodian platform display shell",
+        "evidenceClass": "historical-inference",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 10,
+        "heightBasis": "illustrative",
+        "coordinateRole": "display-anchor",
+        "note": "Approximate display shell derived from published platform dimensions around an atlas anchor; not a surveyed polygon and not an inner-Temple footprint.",
+        "periodIds": [
+          "herodian-period",
+          "circa-30-ce",
+          "seventy-ce"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.23362255450159,
+              31.77612076506629
+            ],
+            [
+              35.236563039190564,
+              31.77570750689367
+            ],
+            [
+              35.2371774454984,
+              31.78007923493371
+            ],
+            [
+              35.23423696080943,
+              31.780492493106326
+            ],
+            [
+              35.23362255450159,
+              31.77612076506629
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "southern-steps-display",
+      "properties": {
+        "id": "southern-steps-display",
+        "label": "Southern approaches display block",
+        "evidenceClass": "historical-inference",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 4,
+        "heightBasis": "illustrative",
+        "coordinateRole": "display-anchor",
+        "note": "Illustrative block showing the southern approach zone only; exact stair geometry is not encoded here.",
+        "periodIds": [
+          "herodian-period",
+          "circa-30-ce",
+          "seventy-ce"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.23451301652527,
+              31.776705056721514
+            ],
+            [
+              35.23603032715536,
+              31.77649181261906
+            ],
+            [
+              35.236086983474735,
+              31.77689494327849
+            ],
+            [
+              35.23456967284464,
+              31.777108187380943
+            ],
+            [
+              35.23451301652527,
+              31.776705056721514
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "city-david-ridge-display",
+      "properties": {
+        "id": "city-david-ridge-display",
+        "label": "Southeastern ridge / City of David display zone",
+        "evidenceClass": "historical-inference",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 3,
+        "heightBasis": "illustrative",
+        "coordinateRole": "display-anchor",
+        "note": "Display zone around the established southeastern-ridge archaeological area; not a city boundary or a permanent polygon for biblical Zion.",
+        "periodIds": [
+          "physical-topography",
+          "pre-monarchic-context",
+          "davidic-context",
+          "first-temple-context",
+          "late-iron-age",
+          "persian-period"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.234655016314655,
+              31.770848782395507
+            ],
+            [
+              35.23652811149078,
+              31.770518505178526
+            ],
+            [
+              35.23734498368534,
+              31.775151217604492
+            ],
+            [
+              35.23547188850922,
+              31.775481494821474
+            ],
+            [
+              35.234655016314655,
+              31.770848782395507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "broad-wall-reference",
+      "properties": {
+        "id": "broad-wall-reference",
+        "label": "Late Iron Age western expansion reference",
+        "evidenceClass": "historical-inference",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 5,
+        "heightBasis": "illustrative",
+        "coordinateRole": "display-anchor",
+        "note": "Illustrative reference block for the Broad Wall / western expansion context; not a complete late-Iron-Age wall circuit.",
+        "periodIds": [
+          "late-iron-age"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.23026373889139,
+              31.775487463886076
+            ],
+            [
+              35.23120550772117,
+              31.77561982086351
+            ],
+            [
+              35.23113626110861,
+              31.776112536113924
+            ],
+            [
+              35.23019449227883,
+              31.77598017913649
+            ],
+            [
+              35.23026373889139,
+              31.775487463886076
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

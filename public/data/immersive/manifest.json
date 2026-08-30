@@ -5,7 +5,7 @@
       "id": "sinai-wilderness-prototype",
       "title": "Sinai Wilderness",
       "subtitle": "Wilderness travel explorer",
-      "summary": "Explore topography, water stress, travel scale, and the limits of route reconstruction in a schematic Sinai wilderness environment.",
+      "summary": "Move between an animated Sinai wilderness environment and a 3D candidate map that keeps Mount Sinai and the Exodus route unresolved.",
       "renderer": "panorama",
       "availability": "prototype",
       "placeIds": [
@@ -21,7 +21,9 @@
         "wilderness",
         "travel",
         "water",
-        "panorama"
+        "panorama",
+        "3D",
+        "animated reconstruction"
       ],
       "scenePath": "data/immersive/scenes/sinai-wilderness-prototype.json"
     },
@@ -29,7 +31,7 @@
       "id": "yam-suph-environment-explorer",
       "title": "Yam Suph / Sea Crossing Environments",
       "subtitle": "Environmental proposal-family explorer",
-      "summary": "Compare eastern-Delta lake/marsh, Gulf of Suez, and farther-east proposal families without selecting an exact Exodus crossing point.",
+      "summary": "Compare proposal families with an animated eastern-Delta marsh reconstruction and 3D regional context while keeping the crossing point and ancient shoreline unresolved.",
       "renderer": "panorama",
       "availability": "prototype",
       "placeIds": [
@@ -41,7 +43,9 @@
         "Sea of Reeds",
         "Exodus",
         "paleohydrology",
-        "comparison"
+        "comparison",
+        "3D",
+        "animated reconstruction"
       ],
       "scenePath": "data/immersive/scenes/yam-suph-environment-explorer.json"
     },
@@ -96,7 +100,7 @@
       "id": "megiddo-terrain-prototype",
       "title": "Megiddo + Jezreel Valley",
       "subtitle": "Strategic landscape and period-context explorer",
-      "summary": "Explore Tel Megiddo and the Jezreel Valley through physical, Judges, united-monarchy, northern-kingdom, and late-monarchy context views without inventing ancient architecture.",
+      "summary": "Explore Megiddo and Jezreel through a 3D tel-and-valley map plus an animated Iron Age reconstruction, with chronology alternatives and derived geometry visibly qualified.",
       "renderer": "map-terrain",
       "availability": "prototype",
       "placeIds": [
@@ -113,7 +117,9 @@
         "terrain",
         "Judges",
         "Iron Age",
-        "periods"
+        "periods",
+        "3D",
+        "animated reconstruction"
       ],
       "scenePath": "data/immersive/scenes/megiddo-terrain-prototype.json"
     },
@@ -121,7 +127,7 @@
       "id": "jerusalem-historical-terrain",
       "title": "Jerusalem Through Time",
       "subtitle": "Topography, archaeology, and period-aware interpretation",
-      "summary": "Explore Jerusalem from its southeastern ridge and water system through First Temple, Second Temple, Gospel-period, and 70 CE contexts while keeping reconstructed footprints explicitly uncertain.",
+      "summary": "Explore Jerusalem through a switchable 3D site map and animated period reconstruction while preserving explicit boundaries between terrain, derived geometry, archaeology, tradition, and unknown footprints.",
       "renderer": "map-terrain",
       "availability": "prototype",
       "placeIds": [
@@ -147,7 +153,9 @@
         "Kidron",
         "Mount of Olives",
         "periods",
-        "terrain"
+        "terrain",
+        "3D",
+        "animated reconstruction"
       ],
       "scenePath": "data/immersive/scenes/jerusalem-historical-terrain.json"
     },
@@ -180,7 +188,7 @@
       "id": "galilee-ministry-landscape",
       "title": "Galilee Ministry Landscapes",
       "subtitle": "Nazareth, Capernaum, the lake, and disputed shoreline geography",
-      "summary": "Move among Lower Galilee, the northwestern lakeshore, Sea of Galilee crossings, and the northeastern shore while keeping established places, candidate sites, and unknown event locations distinct.",
+      "summary": "Switch between an animated c. 30 CE lakeshore reconstruction and a pitched 3D site map of Capernaum, Magdala, and Bethsaida candidates without pretending a precise first-century shoreline is recovered.",
       "renderer": "panorama",
       "availability": "prototype",
       "placeIds": [
@@ -203,7 +211,9 @@
         "Sea of Galilee",
         "Bethsaida",
         "ministry",
-        "panorama"
+        "panorama",
+        "3D",
+        "animated reconstruction"
       ],
       "scenePath": "data/immersive/scenes/galilee-ministry-landscape.json"
     },

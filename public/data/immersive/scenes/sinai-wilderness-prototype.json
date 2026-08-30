@@ -44,7 +44,83 @@
     "worldWidthPercent": 185,
     "initialPan": 0.5
   },
-  "assets": [],
+  "assets": [
+    {
+      "id": "sinai-animated-sky",
+      "kind": "image",
+      "src": "assets/immersive/sinai/sky.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "sinai-animated-far-mountains",
+      "kind": "image",
+      "src": "assets/immersive/sinai/far-mountains.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "sinai-animated-near-mountains",
+      "kind": "image",
+      "src": "assets/immersive/sinai/near-mountains.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "sinai-animated-wadi",
+      "kind": "image",
+      "src": "assets/immersive/sinai/wadi.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "sinai-animated-foreground",
+      "kind": "image",
+      "src": "assets/immersive/sinai/foreground.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    }
+  ],
   "hotspots": [
     {
       "id": "sinai-location-unknown",
@@ -179,5 +255,73 @@
         "alternatives": "Candidate oases and route models should be introduced only as separately sourced proposals rather than silently embedded in the landscape."
       }
     }
-  ]
+  ],
+  "world": {
+    "defaultMode": "animated-reconstruction",
+    "mapCamera": {
+      "center": [
+        34.4,
+        29.1
+      ],
+      "zoom": 5.8,
+      "pitch": 56,
+      "bearing": -18,
+      "coordinateRole": "display-anchor",
+      "note": "Regional 3D teaching camera for Sinai. Candidate markers are display plinths only; no Exodus route or biblical Mount Sinai identification is encoded."
+    },
+    "mapLabel": "3D Sinai candidates",
+    "reconstructionLabel": "Animated wilderness environment",
+    "siteModel": {
+      "src": "data/immersive/site-models/sinai.geojson",
+      "label": "Sinai candidate display markers",
+      "note": "Project-authored marker geometry only. These extrusions are not mountain geometry and do not imply that any candidate is the biblical Mount Sinai.",
+      "defaultVisible": true,
+      "verticalScale": 1.0,
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored display markers",
+        "attribution": "The Biblical World V2",
+        "notes": "Candidate-site and traditional-site markers only; no route line is supplied."
+      }
+    },
+    "reconstruction": {
+      "title": "Sinai wilderness — animated environmental reconstruction",
+      "alt": "Layered artistic reconstruction of a rugged Sinai wadi with granite massifs, arid floor, sparse scrub, haze, and acacia silhouettes.",
+      "note": "Animated environmental reconstruction. It illustrates the physical character of Sinai without claiming an Exodus campsite, route, or Mount Sinai identification.",
+      "layers": [
+        {
+          "assetId": "sinai-animated-sky",
+          "depth": 1,
+          "motion": "cloud-drift"
+        },
+        {
+          "assetId": "sinai-animated-far-mountains",
+          "depth": 3,
+          "motion": "haze-drift"
+        },
+        {
+          "assetId": "sinai-animated-near-mountains",
+          "depth": 7,
+          "motion": "slow-drift"
+        },
+        {
+          "assetId": "sinai-animated-wadi",
+          "depth": 11,
+          "motion": "haze-drift"
+        },
+        {
+          "assetId": "sinai-animated-foreground",
+          "depth": 16,
+          "motion": "vegetation-sway"
+        }
+      ],
+      "effects": [
+        "heat haze",
+        "dust drift",
+        "slow camera push",
+        "sparse vegetation movement"
+      ]
+    },
+    "terrainRegion": "sinai"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "name": "the-biblical-world",
   "private": true,
-  "version": "2.0.0-alpha.11",
+  "version": "2.0.0-alpha.12",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -22,7 +22,7 @@
     "build:catalog": "node scripts/build-content-manifest.mjs",
     "audit:provenance": "node scripts/audit-provenance.mjs",
     "audit:history": "npm run audit:batch4 && npm run audit:batch5 && npm run audit:batch6 && npm run audit:batch7 && npm run audit:batch8 && npm run audit:batch9 && npm run audit:batch10",
-    "check": "npm run validate:data && npm run validate:immersive && npm run validate:verification && npm run validate:assets && npm run audit:v2-batch4 && npm run audit:v2-batch5 && npm run audit:v2-batch6 && npm run audit:v2-batch7 && npm run audit:v2-batch8 && npm run audit:v2-alpha10 && npm run audit:v2-alpha11 && npm run audit:history && npm run audit:provenance && npm run audit:batch11 && npm run validate:repo",
+    "check": "npm run validate:data && npm run validate:immersive && npm run validate:verification && npm run validate:assets && npm run audit:v2-batch4 && npm run audit:v2-batch5 && npm run audit:v2-batch6 && npm run audit:v2-batch7 && npm run audit:v2-batch8 && npm run audit:v2-alpha10 && npm run audit:v2-alpha11 && npm run audit:v2-alpha12 && npm run audit:history && npm run audit:provenance && npm run audit:batch11 && npm run validate:repo",
     "audit:batch11": "node scripts/audit-batch11.mjs",
     "validate:immersive": "node scripts/validate-immersive.mjs",
     "audit:v2-batch4": "node scripts/audit-v2-batch4.mjs",
@@ -36,7 +36,8 @@
     "audit:v2-alpha11": "node scripts/audit-v2-alpha11.mjs",
     "assets:roads": "node scripts/ingest-roman-roads.mjs",
     "assets:terrain": "node scripts/register-external-terrain.mjs",
-    "assets:derived": "node scripts/install-derived-geojson.mjs"
+    "assets:derived": "node scripts/install-derived-geojson.mjs",
+    "audit:v2-alpha12": "node scripts/audit-v2-alpha12.mjs"
   },
   "dependencies": {
     "maplibre-gl": "^5.0.0",

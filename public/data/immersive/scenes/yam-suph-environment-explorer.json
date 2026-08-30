@@ -100,7 +100,83 @@
       }
     ]
   },
-  "assets": [],
+  "assets": [
+    {
+      "id": "yam-suph-animated-sky",
+      "kind": "image",
+      "src": "assets/immersive/yam-suph/sky.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "yam-suph-animated-marsh-back",
+      "kind": "image",
+      "src": "assets/immersive/yam-suph/marsh-back.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "yam-suph-animated-water",
+      "kind": "image",
+      "src": "assets/immersive/yam-suph/water.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "yam-suph-animated-reeds",
+      "kind": "image",
+      "src": "assets/immersive/yam-suph/reeds.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "yam-suph-animated-foreground",
+      "kind": "image",
+      "src": "assets/immersive/yam-suph/foreground.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    }
+  ],
   "hotspots": [
     {
       "id": "delta-paleowater-question",
@@ -275,5 +351,61 @@
         "alternatives": "A later release can replace these layers only after scientific datasets and licenses are verified from primary sources."
       }
     }
-  ]
+  ],
+  "world": {
+    "defaultMode": "animated-reconstruction",
+    "mapCamera": {
+      "center": [
+        32.65,
+        30.35
+      ],
+      "zoom": 6.0,
+      "pitch": 48,
+      "bearing": -20,
+      "coordinateRole": "display-anchor",
+      "note": "Regional eastern-Delta teaching camera only. It does not encode a crossing point or exact Bronze Age shoreline."
+    },
+    "mapLabel": "3D regional context",
+    "reconstructionLabel": "Animated delta-marsh environment",
+    "reconstruction": {
+      "title": "Eastern Delta / Yam Suph environment — animated reconstruction",
+      "alt": "Layered artistic reconstruction of shallow eastern-Delta marshes, reed beds, water channels, mudflats, haze, and birds.",
+      "note": "Animated environmental reconstruction. The marsh/lake concept is historically informed, but water geometry is schematic and no crossing event, route, or exact shoreline is depicted.",
+      "layers": [
+        {
+          "assetId": "yam-suph-animated-sky",
+          "depth": 1,
+          "motion": "cloud-drift"
+        },
+        {
+          "assetId": "yam-suph-animated-marsh-back",
+          "depth": 4,
+          "motion": "haze-drift"
+        },
+        {
+          "assetId": "yam-suph-animated-water",
+          "depth": 7,
+          "motion": "water-shimmer"
+        },
+        {
+          "assetId": "yam-suph-animated-reeds",
+          "depth": 12,
+          "motion": "vegetation-sway"
+        },
+        {
+          "assetId": "yam-suph-animated-foreground",
+          "depth": 16,
+          "motion": "birds"
+        }
+      ],
+      "effects": [
+        "water shimmer",
+        "reed movement",
+        "humid haze",
+        "bird movement",
+        "slow camera drift"
+      ]
+    },
+    "terrainRegion": "delta"
+  }
 }

@@ -1,6 +1,10 @@
-# V2 deployment hardening — alpha.11
+# V2 deployment + immersive terrain — alpha.12
 
 The Biblical World remains a frontend-only Vite/React/MapLibre application. GitHub Pages hosts the shell, JSON, small GeoJSON, PWA files, and lightweight fallbacks. Large terrain/media should remain on a static HTTPS object origin such as Cloudflare R2 or S3/CloudFront.
+
+## GitHub Pages branch
+
+For this repository the Pages workflow auto-runs on both `main` and the working deployment branch `bible-world-v2`. Manual `workflow_dispatch` remains available.
 
 ## GitHub Pages base path
 
@@ -17,6 +21,11 @@ All application-owned assets must use `import.meta.env.BASE_URL` or the project 
 The Pages workflow accepts these repository Variables:
 
 - `VITE_TERRAIN_PMTILES_URL`
+- `VITE_TERRAIN_JERUSALEM_PMTILES_URL`
+- `VITE_TERRAIN_GALILEE_PMTILES_URL`
+- `VITE_TERRAIN_MEGIDDO_PMTILES_URL`
+- `VITE_TERRAIN_SINAI_PMTILES_URL`
+- `VITE_TERRAIN_DELTA_PMTILES_URL`
 - `VITE_BASEMAP_PMTILES_URL`
 - `VITE_BASEMAP_ATTRIBUTION`
 - `VITE_ROMAN_ROADS_GEOJSON_URL`
@@ -25,6 +34,15 @@ The Pages workflow accepts these repository Variables:
 Leaving them unset produces the lightweight bundled fallback build.
 
 An external basemap is deliberately ignored unless `VITE_BASEMAP_ATTRIBUTION` is also set. This prevents a runtime layer from being deployed without a truthful credit string.
+
+
+## Regional immersive terrain
+
+Alpha.12 supports one PMTiles archive per flagship world. Scene-specific terrain variables fall back to `VITE_TERRAIN_PMTILES_URL` if unset. This is useful for keeping Jerusalem, Galilee, Megiddo, Sinai, and Delta archives independently cacheable and replaceable.
+
+The local 3D site-extrusion layer does **not** depend on these URLs. If no DEM is configured, users still receive a pitched 3D site map with explanatory geometry over a flat elevation base. The UI states this limitation explicitly.
+
+The research-supplied Copernicus identifiers in `public/data/terrain/regions.json` are not downloadable terrain bytes and must not be treated as an installed asset.
 
 ## PMTiles origin requirements
 

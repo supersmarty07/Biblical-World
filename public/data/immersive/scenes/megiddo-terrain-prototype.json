@@ -6,66 +6,241 @@
   "summary": "Explore the geographic relationships among Tel Megiddo, the Jezreel Valley, Carmel, Tabor, Gilboa, and later Jezreel while keeping archaeological sites, textual events, and reconstructed strategic interpretation distinct.",
   "renderer": "map-terrain",
   "availability": "prototype",
-  "placeIds": ["megiddo", "jezreel-valley", "mount-carmel", "mount-tabor", "mount-gilboa", "jezreel-city"],
+  "placeIds": [
+    "megiddo",
+    "jezreel-valley",
+    "mount-carmel",
+    "mount-tabor",
+    "mount-gilboa",
+    "jezreel-city"
+  ],
   "disclaimer": "Hotspots use existing atlas records. Period views change explanatory emphasis and camera framing; they do not reconstruct vanished architecture. Relief is real terrain only when a separately configured raster-DEM source has been verified and licensed. Without it, this remains a 2D geographic teaching view.",
   "evidenceLegend": [
-    { "class": "real-terrain", "label": "Physical landscape", "description": "Established geographic landforms. Actual elevation rendering requires a verified DEM; the bundled fallback is flat." },
-    { "class": "known-archaeology", "label": "Archaeological site", "description": "Established archaeological site identifications already represented by the atlas." },
-    { "class": "historical-inference", "label": "Historical interpretation", "description": "Textual, strategic, or archaeological interpretation kept separate from directly identified physical features." },
-    { "class": "unknown-disputed", "label": "Uncertain detail", "description": "Exact battlefield positions, route lines, structure attribution, and other unresolved details are not converted into fake map precision." }
+    {
+      "class": "real-terrain",
+      "label": "Physical landscape",
+      "description": "Established geographic landforms. Actual elevation rendering requires a verified DEM; the bundled fallback is flat."
+    },
+    {
+      "class": "known-archaeology",
+      "label": "Archaeological site",
+      "description": "Established archaeological site identifications already represented by the atlas."
+    },
+    {
+      "class": "historical-inference",
+      "label": "Historical interpretation",
+      "description": "Textual, strategic, or archaeological interpretation kept separate from directly identified physical features."
+    },
+    {
+      "class": "unknown-disputed",
+      "label": "Uncertain detail",
+      "description": "Exact battlefield positions, route lines, structure attribution, and other unresolved details are not converted into fake map precision."
+    },
+    {
+      "class": "artistic-reconstruction",
+      "label": "Artistic reconstruction",
+      "description": "Project-authored visualization used to evoke a period landscape; it is not measured archaeology or a recovered historical view."
+    }
   ],
   "periods": [
     {
       "id": "physical-landscape",
       "label": "Landscape",
       "note": "Physical relationships only: tell, valley, ridges, and regional landmarks. No ancient architecture is reconstructed.",
-      "camera": { "center": [35.245, 32.59], "zoom": 9.65, "pitch": 58, "bearing": -24, "coordinateRole": "display-anchor", "note": "A cinematic regional teaching camera, not an ancient observation point." }
+      "camera": {
+        "center": [
+          35.245,
+          32.59
+        ],
+        "zoom": 9.65,
+        "pitch": 58,
+        "bearing": -24,
+        "coordinateRole": "display-anchor",
+        "note": "A cinematic regional teaching camera, not an ancient observation point."
+      }
     },
     {
       "id": "judges-context",
       "label": "Judges",
       "note": "Highlights the valley and Tabor/Megiddo geography relevant to Judges narratives while leaving exact battle deployments unknown.",
-      "camera": { "center": [35.29, 32.62], "zoom": 9.35, "pitch": 55, "bearing": 8, "coordinateRole": "display-anchor", "note": "Regional framing chosen to show Tabor and the Jezreel lowlands; it is not a reconstructed battlefield viewpoint." }
+      "camera": {
+        "center": [
+          35.29,
+          32.62
+        ],
+        "zoom": 9.35,
+        "pitch": 55,
+        "bearing": 8,
+        "coordinateRole": "display-anchor",
+        "note": "Regional framing chosen to show Tabor and the Jezreel lowlands; it is not a reconstructed battlefield viewpoint."
+      }
     },
     {
       "id": "united-monarchy-context",
       "label": "United monarchy",
       "note": "Adds the textual association of Megiddo with 1 Kings 9:15 without assigning contested architectural phases to Solomon as settled fact.",
-      "camera": { "center": [35.184, 32.585], "zoom": 10.3, "pitch": 62, "bearing": -18, "coordinateRole": "identified-site", "note": "Camera centers on the established Tel Megiddo site; the view does not identify any particular excavated structure as Solomonic." }
+      "camera": {
+        "center": [
+          35.184,
+          32.585
+        ],
+        "zoom": 10.3,
+        "pitch": 62,
+        "bearing": -18,
+        "coordinateRole": "identified-site",
+        "note": "Camera centers on the established Tel Megiddo site; the view does not identify any particular excavated structure as Solomonic."
+      }
     },
     {
       "id": "northern-kingdom-context",
       "label": "Northern kingdom",
       "note": "Broadens the view toward Jezreel and Carmel to connect northern royal geography without reconstructing exact routes or palace footprints.",
-      "camera": { "center": [35.255, 32.59], "zoom": 9.35, "pitch": 57, "bearing": -32, "coordinateRole": "display-anchor", "note": "Regional teaching camera linking established sites; no exact ancient road or sightline is asserted." }
+      "camera": {
+        "center": [
+          35.255,
+          32.59
+        ],
+        "zoom": 9.35,
+        "pitch": 57,
+        "bearing": -32,
+        "coordinateRole": "display-anchor",
+        "note": "Regional teaching camera linking established sites; no exact ancient road or sightline is asserted."
+      }
     },
     {
       "id": "late-monarchy-context",
       "label": "Late monarchy",
       "note": "Focuses on Megiddo as the textual setting of Josiah's final campaign context while avoiding an invented battle location within the site or valley.",
-      "camera": { "center": [35.184, 32.585], "zoom": 10.0, "pitch": 58, "bearing": 12, "coordinateRole": "identified-site", "note": "Camera centers on established Megiddo only; the textual campaign context does not reveal an exact death or battle coordinate." }
+      "camera": {
+        "center": [
+          35.184,
+          32.585
+        ],
+        "zoom": 10.0,
+        "pitch": 58,
+        "bearing": 12,
+        "coordinateRole": "identified-site",
+        "note": "Camera centers on established Megiddo only; the textual campaign context does not reveal an exact death or battle coordinate."
+      }
     }
   ],
   "defaultPeriodId": "physical-landscape",
   "entryCamera": {
-    "center": [35.245, 32.59],
+    "center": [
+      35.245,
+      32.59
+    ],
     "zoom": 9.65,
     "pitch": 58,
     "bearing": -24,
     "coordinateRole": "display-anchor",
     "note": "Regional teaching camera for the Jezreel landscape, not a historical eyewitness viewpoint."
   },
-  "assets": [],
+  "assets": [
+    {
+      "id": "megiddo-animated-sky",
+      "kind": "image",
+      "src": "assets/immersive/megiddo/sky.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "megiddo-animated-valley",
+      "kind": "image",
+      "src": "assets/immersive/megiddo/valley.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "megiddo-animated-tel",
+      "kind": "image",
+      "src": "assets/immersive/megiddo/tel.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "megiddo-animated-gate",
+      "kind": "image",
+      "src": "assets/immersive/megiddo/gate.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    },
+    {
+      "id": "megiddo-animated-foreground",
+      "kind": "image",
+      "src": "assets/immersive/megiddo/foreground.svg",
+      "mediaType": "image/svg+xml",
+      "width": 1600,
+      "height": 900,
+      "hosting": "bundled",
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored asset",
+        "attribution": "The Biblical World V2",
+        "notes": "Project-authored vector illustration layer for alpha.12. It is an artistic reconstruction layer and must not be treated as archaeological evidence."
+      }
+    }
+  ],
   "hotspots": [
     {
       "id": "megiddo-tell",
       "label": "Tel Megiddo",
       "summary": "The archaeological mound securely identified with ancient Megiddo.",
-      "position": { "kind": "geographic", "coordinates": [35.184, 32.585] },
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.184,
+          32.585
+        ]
+      },
       "evidenceClass": "known-archaeology",
       "confidence": "established",
-      "scripture": [{ "book": "Judges", "chapter": 5, "verseStart": 19, "verseEnd": 19, "label": "Judges 5:19" }],
-      "sourceIds": ["source-exodus-judges-text", "source-sacred-bridge", "source-ben-tor-israel"],
+      "scripture": [
+        {
+          "book": "Judges",
+          "chapter": 5,
+          "verseStart": 19,
+          "verseEnd": 19,
+          "label": "Judges 5:19"
+        }
+      ],
+      "sourceIds": [
+        "source-exodus-judges-text",
+        "source-sacred-bridge",
+        "source-ben-tor-israel"
+      ],
       "placeId": "megiddo",
       "whyShown": {
         "evidence": "The v1 atlas records Tel Megiddo as the secure identification of ancient Megiddo.",
@@ -76,11 +251,26 @@
       "id": "jezreel-valley-landscape",
       "label": "Jezreel Valley",
       "summary": "A major lowland corridor and repeated arena of conflict whose broad geographic identity is secure.",
-      "position": { "kind": "geographic", "coordinates": [35.25, 32.56] },
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.25,
+          32.56
+        ]
+      },
       "evidenceClass": "real-terrain",
       "confidence": "established",
-      "scripture": [{ "book": "Judges", "chapter": 6, "label": "Judges 6" }],
-      "sourceIds": ["source-exodus-judges-text", "source-sacred-bridge"],
+      "scripture": [
+        {
+          "book": "Judges",
+          "chapter": 6,
+          "label": "Judges 6"
+        }
+      ],
+      "sourceIds": [
+        "source-exodus-judges-text",
+        "source-sacred-bridge"
+      ],
       "placeId": "jezreel-valley",
       "whyShown": {
         "evidence": "The valley is an established physical-geographic region in the existing atlas.",
@@ -91,13 +281,33 @@
       "id": "mount-tabor-landscape",
       "label": "Mount Tabor",
       "summary": "A prominent Lower Galilee mountain associated with Deborah and Barak's narrative in Judges 4.",
-      "position": { "kind": "geographic", "coordinates": [35.392, 32.687] },
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.392,
+          32.687
+        ]
+      },
       "evidenceClass": "real-terrain",
       "confidence": "established",
-      "scripture": [{ "book": "Judges", "chapter": 4, "verseStart": 6, "verseEnd": 14, "label": "Judges 4:6–14" }],
-      "sourceIds": ["source-exodus-judges-text", "source-sacred-bridge"],
+      "scripture": [
+        {
+          "book": "Judges",
+          "chapter": 4,
+          "verseStart": 6,
+          "verseEnd": 14,
+          "label": "Judges 4:6–14"
+        }
+      ],
+      "sourceIds": [
+        "source-exodus-judges-text",
+        "source-sacred-bridge"
+      ],
       "placeId": "mount-tabor",
-      "periodIds": ["physical-landscape", "judges-context"],
+      "periodIds": [
+        "physical-landscape",
+        "judges-context"
+      ],
       "whyShown": {
         "evidence": "Mount Tabor is a securely identified geographic landmark in the atlas.",
         "inference": "The scene does not reconstruct troop positions or assume a specific historical line of sight."
@@ -107,13 +317,34 @@
       "id": "mount-gilboa-landscape",
       "label": "Mount Gilboa",
       "summary": "The securely identified ridge associated with Saul's final battle narrative.",
-      "position": { "kind": "geographic", "coordinates": [35.416, 32.5] },
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.416,
+          32.5
+        ]
+      },
       "evidenceClass": "real-terrain",
       "confidence": "established",
-      "scripture": [{ "book": "1 Samuel", "chapter": 31, "verseStart": 1, "verseEnd": 8, "label": "1 Samuel 31:1–8" }],
-      "sourceIds": ["source-united-monarchy-text", "source-sacred-bridge", "source-mazar-land-bible"],
+      "scripture": [
+        {
+          "book": "1 Samuel",
+          "chapter": 31,
+          "verseStart": 1,
+          "verseEnd": 8,
+          "label": "1 Samuel 31:1–8"
+        }
+      ],
+      "sourceIds": [
+        "source-united-monarchy-text",
+        "source-sacred-bridge",
+        "source-mazar-land-bible"
+      ],
       "placeId": "mount-gilboa",
-      "periodIds": ["physical-landscape", "united-monarchy-context"],
+      "periodIds": [
+        "physical-landscape",
+        "united-monarchy-context"
+      ],
       "whyShown": {
         "evidence": "Gilboa is a secure landscape identification.",
         "inference": "The exact battlefield positions on or around the ridge are unknown and are not mapped."
@@ -123,13 +354,34 @@
       "id": "mount-carmel-landscape",
       "label": "Mount Carmel",
       "summary": "The geographically secure Carmel range, represented without selecting Elijah's altar site.",
-      "position": { "kind": "geographic", "coordinates": [35.09, 32.7] },
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.09,
+          32.7
+        ]
+      },
       "evidenceClass": "real-terrain",
       "confidence": "established",
-      "scripture": [{ "book": "1 Kings", "chapter": 18, "verseStart": 19, "verseEnd": 46, "label": "1 Kings 18:19–46" }],
-      "sourceIds": ["source-divided-kingdom-text", "source-sacred-bridge", "source-anchor-yale"],
+      "scripture": [
+        {
+          "book": "1 Kings",
+          "chapter": 18,
+          "verseStart": 19,
+          "verseEnd": 46,
+          "label": "1 Kings 18:19–46"
+        }
+      ],
+      "sourceIds": [
+        "source-divided-kingdom-text",
+        "source-sacred-bridge",
+        "source-anchor-yale"
+      ],
       "placeId": "mount-carmel",
-      "periodIds": ["physical-landscape", "northern-kingdom-context"],
+      "periodIds": [
+        "physical-landscape",
+        "northern-kingdom-context"
+      ],
       "whyShown": {
         "evidence": "The Carmel range is geographically secure.",
         "inference": "The atlas uses a ridge-area anchor; it does not identify the later Muhraka tradition or any modern summit as the proven altar location."
@@ -139,13 +391,36 @@
       "id": "jezreel-royal-center",
       "label": "Jezreel / Tel Jezreel",
       "summary": "The established site of ancient Jezreel, a northern royal center in the narratives of Ahab, Jezebel, Naboth, and Jehu.",
-      "position": { "kind": "geographic", "coordinates": [35.323, 32.558] },
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.323,
+          32.558
+        ]
+      },
       "evidenceClass": "known-archaeology",
       "confidence": "established",
-      "scripture": [{ "book": "1 Kings", "chapter": 21, "label": "1 Kings 21" }, { "book": "2 Kings", "chapter": 9, "label": "2 Kings 9" }],
-      "sourceIds": ["source-divided-kingdom-text", "source-sacred-bridge", "source-northern-kingdom-archaeology"],
+      "scripture": [
+        {
+          "book": "1 Kings",
+          "chapter": 21,
+          "label": "1 Kings 21"
+        },
+        {
+          "book": "2 Kings",
+          "chapter": 9,
+          "label": "2 Kings 9"
+        }
+      ],
+      "sourceIds": [
+        "source-divided-kingdom-text",
+        "source-sacred-bridge",
+        "source-northern-kingdom-archaeology"
+      ],
       "placeId": "jezreel-city",
-      "periodIds": ["northern-kingdom-context"],
+      "periodIds": [
+        "northern-kingdom-context"
+      ],
       "whyShown": {
         "evidence": "Tel Jezreel is securely identified with ancient Jezreel in the existing atlas.",
         "inference": "The exact location of Naboth's vineyard and individual palace spaces cannot be recovered from the biblical text alone."
@@ -155,13 +430,33 @@
       "id": "megiddo-building-text",
       "label": "1 Kings 9:15 at Megiddo",
       "summary": "The biblical text names Megiddo in Solomon's building levy, but assigning particular excavated monumental structures to Solomon is a separate archaeological and chronological question.",
-      "position": { "kind": "geographic", "coordinates": [35.184, 32.585] },
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.184,
+          32.585
+        ]
+      },
       "evidenceClass": "historical-inference",
       "confidence": "disputed",
-      "scripture": [{ "book": "1 Kings", "chapter": 9, "verseStart": 15, "verseEnd": 15, "label": "1 Kings 9:15" }],
-      "sourceIds": ["source-united-monarchy-text", "source-mazar-land-bible", "source-ben-tor-israel"],
+      "scripture": [
+        {
+          "book": "1 Kings",
+          "chapter": 9,
+          "verseStart": 15,
+          "verseEnd": 15,
+          "label": "1 Kings 9:15"
+        }
+      ],
+      "sourceIds": [
+        "source-united-monarchy-text",
+        "source-mazar-land-bible",
+        "source-ben-tor-israel"
+      ],
       "placeId": "megiddo",
-      "periodIds": ["united-monarchy-context"],
+      "periodIds": [
+        "united-monarchy-context"
+      ],
       "whyShown": {
         "evidence": "1 Kings 9:15 explicitly names Megiddo alongside Hazor and Gezer.",
         "inference": "The text-site association does not by itself date every monumental gate or building phase to Solomon.",
@@ -172,18 +467,112 @@
       "id": "josiah-megiddo-context",
       "label": "Josiah at Megiddo",
       "summary": "Kings and Chronicles place Josiah's death in connection with Pharaoh Necho II at Megiddo, but the precise encounter location is not recoverable as a map coordinate.",
-      "position": { "kind": "geographic", "coordinates": [35.184, 32.585] },
+      "position": {
+        "kind": "geographic",
+        "coordinates": [
+          35.184,
+          32.585
+        ]
+      },
       "evidenceClass": "historical-inference",
       "confidence": "established",
-      "scripture": [{ "book": "2 Kings", "chapter": 23, "verseStart": 29, "verseEnd": 30, "label": "2 Kings 23:29–30" }, { "book": "2 Chronicles", "chapter": 35, "verseStart": 20, "verseEnd": 24, "label": "2 Chronicles 35:20–24" }],
-      "sourceIds": ["source-exile-restoration-text", "source-sacred-bridge"],
+      "scripture": [
+        {
+          "book": "2 Kings",
+          "chapter": 23,
+          "verseStart": 29,
+          "verseEnd": 30,
+          "label": "2 Kings 23:29–30"
+        },
+        {
+          "book": "2 Chronicles",
+          "chapter": 35,
+          "verseStart": 20,
+          "verseEnd": 24,
+          "label": "2 Chronicles 35:20–24"
+        }
+      ],
+      "sourceIds": [
+        "source-exile-restoration-text",
+        "source-sacred-bridge"
+      ],
       "placeId": "megiddo",
-      "periodIds": ["late-monarchy-context"],
+      "periodIds": [
+        "late-monarchy-context"
+      ],
       "whyShown": {
         "evidence": "Both biblical accounts connect Josiah's final campaign/death with Megiddo.",
         "inference": "The hotspot uses the established city site as contextual geography, not an exact death location.",
         "alternatives": "The differing narrative details in Kings and Chronicles should be discussed rather than harmonized into an invented battlefield reconstruction."
       }
     }
-  ]
+  ],
+  "world": {
+    "defaultMode": "3d-map",
+    "mapCamera": {
+      "center": [
+        35.205,
+        32.59
+      ],
+      "zoom": 10.2,
+      "pitch": 62,
+      "bearing": -26,
+      "coordinateRole": "display-anchor",
+      "note": "3D teaching camera emphasizing the tel, Nahal Iron approach, and Jezreel basin. Local extrusion geometry is explanatory, not an imported excavation survey."
+    },
+    "mapLabel": "3D tel & valley",
+    "reconstructionLabel": "Animated Iron Age landscape",
+    "siteModel": {
+      "src": "data/immersive/site-models/megiddo.geojson",
+      "label": "Megiddo explanatory 3D geometry",
+      "note": "Project-authored derived display geometry centered on the identified tel. The gate volume uses research-supplied dimensions as an illustrative footprint and does not claim a surveyed coordinate or superstructure.",
+      "defaultVisible": true,
+      "verticalScale": 1.0,
+      "provenance": {
+        "verificationStatus": "project-authored",
+        "license": "Project-authored derived display geometry",
+        "attribution": "The Biblical World V2",
+        "notes": "No third-party photogrammetry is bundled in alpha.12."
+      }
+    },
+    "reconstruction": {
+      "title": "Megiddo / Jezreel — animated Iron Age reconstruction",
+      "alt": "Layered artistic reconstruction of Tel Megiddo above the Jezreel Valley with city structures and the strategic pass landscape.",
+      "note": "Animated artistic reconstruction. The tel and regional geography are established; building elevations, gate superstructure, fields, vegetation, and skyline are illustrative and chronology remains switchable.",
+      "layers": [
+        {
+          "assetId": "megiddo-animated-sky",
+          "depth": 1,
+          "motion": "cloud-drift"
+        },
+        {
+          "assetId": "megiddo-animated-valley",
+          "depth": 3,
+          "motion": "haze-drift"
+        },
+        {
+          "assetId": "megiddo-animated-tel",
+          "depth": 7,
+          "motion": "slow-drift"
+        },
+        {
+          "assetId": "megiddo-animated-gate",
+          "depth": 11,
+          "motion": "none"
+        },
+        {
+          "assetId": "megiddo-animated-foreground",
+          "depth": 16,
+          "motion": "vegetation-sway"
+        }
+      ],
+      "effects": [
+        "slow orbit impression",
+        "heat haze",
+        "field movement",
+        "distant birds"
+      ]
+    },
+    "terrainRegion": "megiddo"
+  }
 }

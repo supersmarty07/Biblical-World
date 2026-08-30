@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "sceneId": "megiddo-terrain-prototype",
+    "status": "project-authored-derived-display-geometry",
+    "warning": "Tel and gate polygons are explanatory geometry, not imported excavation survey plans."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "megiddo-tel-display",
+      "properties": {
+        "id": "megiddo-tel-display",
+        "label": "Tel Megiddo display mass",
+        "evidenceClass": "historical-inference",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 12,
+        "heightBasis": "illustrative",
+        "coordinateRole": "display-anchor",
+        "note": "Low-poly display mass centered on the identified tel to make the site legible in pitched map mode; not measured mound topography.",
+        "periodIds": [
+          "physical-landscape",
+          "judges-context",
+          "united-monarchy-context",
+          "northern-kingdom-context",
+          "late-monarchy-context"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.18231799573568,
+              32.58293155537093
+            ],
+            [
+              35.18657657128259,
+              32.58431525044402
+            ],
+            [
+              35.185682004264315,
+              32.58706844462907
+            ],
+            [
+              35.1814234287174,
+              32.58568474955598
+            ],
+            [
+              35.18231799573568,
+              32.58293155537093
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "megiddo-gate-display",
+      "properties": {
+        "id": "megiddo-gate-display",
+        "label": "Six-chambered gate foundation concept",
+        "evidenceClass": "artistic-reconstruction",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 5,
+        "heightBasis": "illustrative",
+        "coordinateRole": "display-anchor",
+        "note": "Illustrative 17.5m-class gate footprint based on research-supplied dimensions; exact surveyed coordinates and superstructure are not encoded.",
+        "periodIds": [
+          "united-monarchy-context",
+          "northern-kingdom-context"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.18485350324346,
+              32.585283065091474
+            ],
+            [
+              35.185022944089,
+              32.585373158387156
+            ],
+            [
+              35.18494649675654,
+              32.585516934908526
+            ],
+            [
+              35.184777055911,
+              32.58542684161284
+            ],
+            [
+              35.18485350324346,
+              32.585283065091474
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

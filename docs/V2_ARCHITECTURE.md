@@ -1,6 +1,6 @@
 # The Biblical World V2 — Immersive Architecture
 
-**Status:** V2 Batches 1–8 implemented; verification integrated; production asset pipeline + deployment hardening active at `2.0.0-alpha.11`  
+**Status:** V2 Batches 1–8 implemented; verification integrated; asset/deployment hardening complete; dual-mode Immersive Worlds active at `2.0.0-alpha.12`  
 **Source baseline:** `biblical-world-v1.1.1-hotfix.zip`
 
 ## 1. Repository findings carried forward from v1
@@ -149,9 +149,13 @@ Do **not** add a new 360° WebGL dependency until a real asset set is selected a
 
 Batch 1 therefore avoids adding Three.js, Cesium, or a panorama library merely to prove the concept.
 
-## 6. Parallax scenes
+## 6. Parallax scenes and alpha.12 animated reconstructions
 
-The V2 renderer supports layered assets with pointer-relative depth. For release scenes, each layer should be separately attributable and categorized where appropriate.
+The V2 renderer supports layered assets with pointer-relative depth. Alpha.12 extends this into a dedicated animated-reconstruction mode for the Jerusalem, Galilee, Megiddo/Jezreel, Sinai, and Yam Suph flagship worlds.
+
+Animated reconstruction is deliberately a separate view from the 3D map. The UI labels it `artistic-reconstruction`, exposes a pause control, and disables automatic motion under `prefers-reduced-motion`. The initial bundled masters are lightweight project-authored SVG layers; higher-resolution AVIF/WebP layers can replace them behind the same scene contract later.
+
+For release scenes, each layer should be separately attributable and categorized where appropriate.
 
 Typical layers:
 
@@ -183,6 +187,12 @@ Advantages for this project:
 - existing PMTiles/static-hosting path remains useful
 - simpler GitHub Pages deployment
 
+### Alpha.12 local 3D site geometry
+
+Alpha.12 uses MapLibre `fill-extrusion` for lightweight site-scale explanatory geometry. These local GeoJSON volumes are not a substitute for DEM terrain or surveyed photogrammetry. Every bundled feature carries `geometryRole: derived-display-geometry`, an illustrative-height flag, an evidence class, a coordinate role, and a boundary note.
+
+This allows a useful 3D site map before external terrain is installed while preserving the distinction between display geometry, known archaeology, and future measured datasets.
+
 ### Why not Cesium now
 
 Cesium becomes compelling if V2 later requires globe-scale 3D Tiles, photogrammetry, massive streamed meshes, or globe-to-site transitions that MapLibre cannot provide. Those needs are not yet demonstrated. Adding Cesium now would duplicate map state, increase GPU/bundle pressure, complicate mobile behavior, and make evidence-layer integration harder.
@@ -193,11 +203,18 @@ Do not add deck.gl in Batch 1. It remains an optional future overlay engine if c
 
 ## 8. Terrain asset format
 
-The existing configuration expects a full HTTPS PMTiles URL containing Mapbox-encoded raster DEM / Terrain-RGB tiles:
+The configuration accepts either one global terrain archive or scene-specific regional archives containing Mapbox-encoded raster DEM / Terrain-RGB tiles:
 
 ```text
 VITE_TERRAIN_PMTILES_URL=https://.../terrain.pmtiles
+VITE_TERRAIN_JERUSALEM_PMTILES_URL=https://.../terrain-jerusalem.pmtiles
+VITE_TERRAIN_GALILEE_PMTILES_URL=https://.../terrain-galilee.pmtiles
+VITE_TERRAIN_MEGIDDO_PMTILES_URL=https://.../terrain-megiddo.pmtiles
+VITE_TERRAIN_SINAI_PMTILES_URL=https://.../terrain-sinai.pmtiles
+VITE_TERRAIN_DELTA_PMTILES_URL=https://.../terrain-delta.pmtiles
 ```
+
+Regional values fall back to the global URL. `public/data/terrain/regions.json` records the research-supplied target extents and explicitly marks regions whose source-tile list is incomplete.
 
 Requirements before release use:
 

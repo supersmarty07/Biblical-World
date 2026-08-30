@@ -1139,3 +1139,166 @@ kbd { padding: 3px 7px; border: 1px solid var(--line); border-radius: 6px; color
   .deployment-diagnostics { display: none; }
   .attribution-drawer { width: 100%; padding: 22px 18px 30px; }
 }
+
+/* V2 alpha.12 — Immersive Worlds: 3D map + animated reconstruction */
+.immersive-scene--world-map { background: transparent; pointer-events: none; }
+.immersive-scene--world-map .scene-close,
+.immersive-scene--world-map .scene-header,
+.immersive-scene--world-map .scene-evidence-legend,
+.immersive-scene--world-map .scene-period-control,
+.immersive-scene--world-map .scene-comparison,
+.immersive-scene--world-map .scene-hotspot-sheet,
+.immersive-scene--world-map .scene-world-mode { pointer-events: auto; }
+
+.scene-world-mode {
+  position: absolute;
+  top: 18px;
+  right: 70px;
+  z-index: 43;
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(9,14,16,.82);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 14px 48px rgba(0,0,0,.28);
+}
+.scene-world-mode button {
+  min-height: 34px;
+  padding: 0 11px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: #aca79d;
+  font-size: 9px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.scene-world-mode button[aria-selected="true"] {
+  border-color: rgba(223,187,117,.34);
+  background: rgba(223,187,117,.12);
+  color: #f0d393;
+}
+.scene-world-mode button:hover,
+.scene-world-mode button:focus-visible { color: #f3e6c7; }
+
+.scene-cinematic {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: #101719;
+  touch-action: pan-y;
+}
+.scene-cinematic__stack,
+.scene-cinematic__depth,
+.scene-cinematic__layer,
+.scene-cinematic__vignette { position: absolute; inset: 0; }
+.scene-cinematic__stack { inset: -2.5%; transform: scale(1.025); }
+.scene-cinematic__depth {
+  will-change: transform;
+  transition: transform 900ms cubic-bezier(.2,.75,.2,1);
+  pointer-events: none;
+}
+.scene-cinematic__layer {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-origin: 50% 52%;
+  pointer-events: none;
+}
+.scene-cinematic__vignette {
+  background:
+    linear-gradient(180deg, rgba(5,8,9,.24), transparent 28%, transparent 66%, rgba(5,8,9,.52)),
+    radial-gradient(circle at 50% 45%, transparent 42%, rgba(4,7,8,.28) 100%);
+  pointer-events: none;
+}
+.scene-cinematic__caption {
+  position: absolute;
+  z-index: 38;
+  left: 20px;
+  bottom: 72px;
+  width: min(520px, calc(100% - 40px));
+  padding: 13px 14px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: rgba(8,13,15,.72);
+  backdrop-filter: blur(16px);
+  pointer-events: auto;
+}
+.scene-cinematic__caption strong { display: block; margin-top: 8px; font: 500 16px/1.2 Georgia, serif; color: #efe4cf; }
+.scene-cinematic__caption p { margin: 6px 0 0; color: #b8b3a8; font-size: 9px; line-height: 1.55; }
+.scene-cinematic__controls {
+  position: absolute;
+  z-index: 39;
+  right: 20px;
+  bottom: 72px;
+  display: grid;
+  justify-items: end;
+  gap: 7px;
+  max-width: min(520px, calc(100% - 40px));
+  pointer-events: auto;
+}
+.scene-cinematic__controls > button {
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid rgba(223,187,117,.32);
+  border-radius: 10px;
+  background: rgba(8,13,15,.82);
+  color: #f0d393;
+  cursor: pointer;
+  backdrop-filter: blur(14px);
+}
+.scene-cinematic__controls > button:disabled { color: #aaa59a; border-color: var(--line); cursor: default; }
+.scene-cinematic__controls > div { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 5px; }
+.scene-cinematic__controls span {
+  padding: 5px 7px;
+  border: 1px solid rgba(255,255,255,.075);
+  border-radius: 999px;
+  background: rgba(8,13,15,.66);
+  color: #bdb7aa;
+  font-size: 7px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.scene-cinematic.is-playing .scene-cinematic__layer--cloud-drift { animation: bw-cloud-drift 28s ease-in-out infinite alternate; }
+.scene-cinematic.is-playing .scene-cinematic__layer--slow-drift { animation: bw-slow-drift 24s ease-in-out infinite alternate; }
+.scene-cinematic.is-playing .scene-cinematic__layer--haze-drift { animation: bw-haze-drift 12s ease-in-out infinite alternate; }
+.scene-cinematic.is-playing .scene-cinematic__layer--water-shimmer { animation: bw-water-shimmer 7s ease-in-out infinite alternate; }
+.scene-cinematic.is-playing .scene-cinematic__layer--vegetation-sway { animation: bw-vegetation-sway 5.5s ease-in-out infinite alternate; }
+.scene-cinematic.is-playing .scene-cinematic__layer--birds { animation: bw-birds 18s linear infinite; }
+.scene-cinematic.is-paused .scene-cinematic__layer { animation-play-state: paused !important; }
+
+@keyframes bw-cloud-drift { from { transform: translate3d(-1.2%,0,0) scale(1.04); } to { transform: translate3d(1.2%,-.4%,0) scale(1.06); } }
+@keyframes bw-slow-drift { from { transform: translate3d(-.45%,.2%,0) scale(1.025); } to { transform: translate3d(.45%,-.2%,0) scale(1.04); } }
+@keyframes bw-haze-drift { from { transform: translate3d(-.3%,0,0) scale(1.02); filter: saturate(.96) brightness(.98); } to { transform: translate3d(.55%,-.12%,0) scale(1.035); filter: saturate(1.03) brightness(1.02); } }
+@keyframes bw-water-shimmer { from { transform: translate3d(0,.12%,0) scale(1.025,1.018); filter: brightness(.96) saturate(.94); } to { transform: translate3d(.22%,-.12%,0) scale(1.03,1.025); filter: brightness(1.06) saturate(1.04); } }
+@keyframes bw-vegetation-sway { from { transform: translate3d(-.12%,0,0) rotate(-.07deg) scale(1.025); } to { transform: translate3d(.12%,-.05%,0) rotate(.07deg) scale(1.03); } }
+@keyframes bw-birds { from { transform: translate3d(-1.5%,0,0) scale(1.03); } to { transform: translate3d(1.5%,-.7%,0) scale(1.03); } }
+
+.terrain-scene-hud__geometry-note {
+  display: grid;
+  gap: 2px;
+  padding: 7px 8px;
+  border: 1px solid rgba(118,111,130,.32);
+  border-radius: 9px;
+  background: rgba(118,111,130,.07);
+}
+.terrain-scene-hud__geometry-note strong { color: #d3cbe0; font-size: 8px; text-transform: uppercase; letter-spacing: .08em; }
+.terrain-scene-hud__geometry-note span { color: var(--faint); font-size: 7px; line-height: 1.45; }
+
+@media (max-width: 860px) {
+  .scene-world-mode { top: auto; right: 10px; left: 10px; bottom: 63px; justify-content: stretch; }
+  .scene-world-mode button { flex: 1; }
+  .immersive-scene--world-map .scene-evidence-legend { bottom: 112px; }
+  .scene-cinematic__caption { left: 10px; right: 10px; bottom: 112px; width: auto; max-height: 130px; overflow: auto; }
+  .scene-cinematic__controls { right: 10px; left: 10px; bottom: 164px; align-items: end; pointer-events: none; }
+  .scene-cinematic__controls > button { pointer-events: auto; }
+  .scene-cinematic__controls > div { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scene-cinematic__depth { transition: none; }
+  .scene-cinematic__layer { animation: none !important; }
+}

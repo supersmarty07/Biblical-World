@@ -2,9 +2,9 @@ import { useEffect, useMemo, useRef, useState, type KeyboardEvent, type PointerE
 import { loadImmersiveScene } from '../data/immersive';
 import { loadVerificationRegistry } from '../data/verification';
 import { loadV2AssetManifest } from '../data/assets';
-import { atlasConfig } from '../config';
+import { atlasConfig, terrainPmtilesForRegion } from '../config';
 import { useAtlasStore } from '../state/useAtlasStore';
-import type { ImmersiveAsset, ImmersiveScene, SceneComparisonOption, SceneHotspot } from '../types/immersive';
+import type { ImmersiveAsset, ImmersiveScene, ImmersiveWorldMode, SceneComparisonOption, SceneHotspot } from '../types/immersive';
 import type { VerificationClaim, VerificationResource, VerificationSceneAssessment } from '../types/verification';
 import type { V2AssetPlanEntry } from '../types/assets';
 import { CloseIcon, InfoIcon, MapPinIcon } from './Icons';
@@ -224,17 +224,94 @@ function ParallaxView({ scene }: { scene: ImmersiveScene }) {
   );
 }
 
+
+function AnimatedWorldView({ scene }: { scene: ImmersiveScene }) {
+  const world = scene.world!;
+  const config = world.reconstruction;
+  const reducedMotion = typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const [playing, setPlaying] = useState(!reducedMotion);
+  const [pointer, setPointer] = useState({ x: 0, y: 0 });
+  const layerAssets = new Map(scene.assets.map((asset) => [asset.id, asset]));
+
+  useEffect(() => { setPlaying(!reducedMotion); }, [reducedMotion, scene.id]);
+
+  const onPointerMove = (event: PointerEvent<HTMLDivElement>) => {
+    if (reducedMotion || !playing) return;
+    const rect = event.currentTarget.getBoundingClientRect();
+    setPointer({
+      x: ((event.clientX - rect.left) / rect.width - 0.5) * 2,
+      y: ((event.clientY - rect.top) / rect.height - 0.5) * 2
+    });
+  };
+
+  return (
+    <div
+      className={`scene-cinematic ${playing ? 'is-playing' : 'is-paused'}`}
+      role="img"
+      aria-label={`${config.alt} ${config.note}`}
+      onPointerMove={onPointerMove}
+      onPointerLeave={() => setPointer({ x: 0, y: 0 })}
+    >
+      <div className="scene-cinematic__stack" aria-hidden="true">
+        {config.layers.map((layer) => {
+          const asset = layerAssets.get(layer.assetId);
+          if (!asset) return null;
+          return (
+            <div
+              key={layer.assetId}
+              className="scene-cinematic__depth"
+              style={{ transform: `translate3d(${pointer.x * layer.depth}px, ${pointer.y * layer.depth * 0.45}px, 0)` }}
+            >
+              <img
+                src={assetUrl(asset)}
+                alt=""
+                className={`scene-cinematic__layer scene-cinematic__layer--${layer.motion}`}
+                style={{ opacity: layer.opacity ?? 1 }}
+              />
+            </div>
+          );
+        })}
+      </div>
+      <div className="scene-cinematic__vignette" aria-hidden="true" />
+      <div className="scene-cinematic__caption">
+        <span className="scene-evidence-chip scene-evidence-chip--artistic-reconstruction">Artistic reconstruction</span>
+        <strong>{config.title}</strong>
+        <p>{config.note}</p>
+      </div>
+      <div className="scene-cinematic__controls">
+        <button type="button" onClick={() => setPlaying((value) => !value)} disabled={reducedMotion}>
+          {reducedMotion ? 'Motion reduced by device setting' : playing ? 'Pause animation' : 'Play animation'}
+        </button>
+        <div aria-label="Animated effects">{config.effects.map((effect) => <span key={effect}>{effect}</span>)}</div>
+      </div>
+    </div>
+  );
+}
+
+function WorldModeSwitch({ scene, mode, onChange }: { scene: ImmersiveScene; mode: ImmersiveWorldMode; onChange: (mode: ImmersiveWorldMode) => void }) {
+  const world = scene.world!;
+  return (
+    <div className="scene-world-mode" role="tablist" aria-label="Immersive world view">
+      <button type="button" role="tab" aria-selected={mode === '3d-map'} onClick={() => onChange('3d-map')}>{world.mapLabel}</button>
+      <button type="button" role="tab" aria-selected={mode === 'animated-reconstruction'} onClick={() => onChange('animated-reconstruction')}>{world.reconstructionLabel}</button>
+    </div>
+  );
+}
+
 function TerrainSceneHud({ scene }: { scene: ImmersiveScene }) {
   const setActiveHotspot = useAtlasStore((s) => s.setActiveHotspot);
   const activeVariantId = useAtlasStore((s) => s.activeSceneVariantId);
   const activePeriodId = useAtlasStore((s) => s.activeScenePeriodId);
-  const terrainConfigured = Boolean(atlasConfig.terrainPmtilesUrl);
+  const regionalTerrainUrl = terrainPmtilesForRegion(scene.world?.terrainRegion);
+  const terrainConfigured = Boolean(regionalTerrainUrl);
+  const siteGeometryConfigured = Boolean(scene.world?.siteModel);
   return (
     <div className="terrain-scene-hud">
       <div className={`terrain-scene-hud__status ${terrainConfigured ? 'terrain-scene-hud__status--dem' : 'terrain-scene-hud__status--fallback'}`} role="status">
-        <strong>{terrainConfigured ? 'Terrain DEM configured' : '2D geographic fallback'}</strong>
-        <span>{terrainConfigured ? 'Relief rendering uses the configured external raster-DEM source; verify its provenance in deployment documentation.' : 'No terrain DEM is loaded. Camera pitch is presentation only and must not be mistaken for measured relief.'}</span>
+        <strong>{terrainConfigured ? '3D terrain + site geometry' : siteGeometryConfigured ? '3D site geometry · flat elevation base' : 'Pitched geographic map'}</strong>
+        <span>{terrainConfigured ? 'Relief uses the configured external raster-DEM. Site extrusions remain evidence-labeled separately.' : siteGeometryConfigured ? `${scene.world?.siteModel?.label} is available now. No measured DEM is loaded, so regional elevation remains flat until terrain PMTiles are configured.` : 'No terrain DEM or local site geometry is loaded. Camera pitch is presentation only.'}</span>
       </div>
+      {siteGeometryConfigured && <div className="terrain-scene-hud__geometry-note"><strong>Geometry boundary</strong><span>{scene.world?.siteModel?.note}</span></div>}
       <div className="terrain-scene-hud__hotspots" aria-label="Terrain scene hotspots">
       {visibleHotspots(scene, activeVariantId, activePeriodId).filter((hotspot) => hotspot.position.kind === 'geographic').map((hotspot) => (
         <button key={hotspot.id} onClick={() => setActiveHotspot(hotspot.id)}>
@@ -333,6 +410,7 @@ export function ImmersiveSceneOverlay() {
   const closeRef = useRef<HTMLButtonElement | null>(null);
   const restoreFocusRef = useRef<HTMLElement | null>(null);
   const [loadError, setLoadError] = useState<string>();
+  const [worldMode, setWorldMode] = useState<ImmersiveWorldMode>('3d-map');
 
   const entry = catalog.find((item) => item.id === activeSceneId);
   const hotspot = activeScene?.hotspots.find((item) => item.id === activeHotspotId);
@@ -387,6 +465,10 @@ export function ImmersiveSceneOverlay() {
     if (!valid) setActiveScenePeriod(activeScene.defaultPeriodId || activeScene.periods[0].id);
   }, [activeScene, activeScenePeriodId, setActiveScenePeriod]);
 
+  useEffect(() => {
+    if (activeScene?.world) setWorldMode(activeScene.world.defaultMode);
+  }, [activeScene?.id, activeScene?.world]);
+
   if (!activeSceneId) return null;
 
   if (sceneError || (catalog.length > 0 && !entry) || loadError) {
@@ -397,18 +479,22 @@ export function ImmersiveSceneOverlay() {
     return <section className="immersive-scene immersive-scene--loading" role="dialog" aria-modal="true" aria-label="Loading immersive scene"><button ref={closeRef} className="scene-close icon-button" onClick={() => openScene(undefined)} aria-label="Close immersive scene"><CloseIcon /></button><div className="loading-orbit" aria-hidden="true" /><strong>Preparing immersive scene...</strong></section>;
   }
 
-  const isTerrain = activeScene.renderer === 'map-terrain';
+  const hasWorld = Boolean(activeScene.world);
+  const isMapMode = hasWorld ? worldMode === '3d-map' : activeScene.renderer === 'map-terrain';
+  const sceneClass = hasWorld ? (isMapMode ? 'world-map' : 'animated-world') : activeScene.renderer;
   return (
-    <section className={`immersive-scene immersive-scene--${activeScene.renderer}`} role={isTerrain ? 'region' : 'dialog'} aria-modal={isTerrain ? undefined : true} aria-label={`${activeScene.title} immersive scene`}>
+    <section className={`immersive-scene immersive-scene--${sceneClass}`} role={isMapMode ? 'region' : 'dialog'} aria-modal={isMapMode ? undefined : true} aria-label={`${activeScene.title} immersive scene`}>
       <button ref={closeRef} className="scene-close icon-button" onClick={() => openScene(undefined)} aria-label="Close immersive scene"><CloseIcon /></button>
-      {activeScene.renderer === 'panorama' && <PanoramaView scene={activeScene} />}
-      {activeScene.renderer === 'parallax' && <ParallaxView scene={activeScene} />}
+      {hasWorld && !isMapMode && <AnimatedWorldView scene={activeScene} />}
+      {!hasWorld && activeScene.renderer === 'panorama' && <PanoramaView scene={activeScene} />}
+      {!hasWorld && activeScene.renderer === 'parallax' && <ParallaxView scene={activeScene} />}
+      {hasWorld && <WorldModeSwitch scene={activeScene} mode={worldMode} onChange={setWorldMode} />}
       <header className="scene-header">
         <span className="scene-kicker">V2 immersive - {activeScene.availability}</span>
         <h1>{activeScene.title}</h1>
         <p>{activeScene.subtitle}</p>
         <div className="scene-disclaimer"><InfoIcon /> <span>{activeScene.disclaimer}</span></div>
-        {isTerrain && <TerrainSceneHud scene={activeScene} />}
+        {isMapMode && <TerrainSceneHud scene={activeScene} />}
         <SceneVerificationPanel sceneId={activeScene.id} />
       </header>
       {activeScene.comparison && <SceneComparisonPanel scene={activeScene} />}

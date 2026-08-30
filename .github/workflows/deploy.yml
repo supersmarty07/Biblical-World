@@ -2,7 +2,7 @@ name: Deploy GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, bible-world-v2]
   workflow_dispatch:
 
 permissions:
@@ -36,6 +36,11 @@ jobs:
         env:
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
           VITE_TERRAIN_PMTILES_URL: ${{ vars.VITE_TERRAIN_PMTILES_URL }}
+          VITE_TERRAIN_JERUSALEM_PMTILES_URL: ${{ vars.VITE_TERRAIN_JERUSALEM_PMTILES_URL }}
+          VITE_TERRAIN_GALILEE_PMTILES_URL: ${{ vars.VITE_TERRAIN_GALILEE_PMTILES_URL }}
+          VITE_TERRAIN_MEGIDDO_PMTILES_URL: ${{ vars.VITE_TERRAIN_MEGIDDO_PMTILES_URL }}
+          VITE_TERRAIN_SINAI_PMTILES_URL: ${{ vars.VITE_TERRAIN_SINAI_PMTILES_URL }}
+          VITE_TERRAIN_DELTA_PMTILES_URL: ${{ vars.VITE_TERRAIN_DELTA_PMTILES_URL }}
           VITE_BASEMAP_PMTILES_URL: ${{ vars.VITE_BASEMAP_PMTILES_URL }}
           VITE_BASEMAP_ATTRIBUTION: ${{ vars.VITE_BASEMAP_ATTRIBUTION }}
           VITE_ROMAN_ROADS_GEOJSON_URL: ${{ vars.VITE_ROMAN_ROADS_GEOJSON_URL }}

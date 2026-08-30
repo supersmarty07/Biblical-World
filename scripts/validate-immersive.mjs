@@ -19,7 +19,7 @@ const isString = (value) => typeof value === 'string' && value.trim().length > 0
 const inRange = (value, min, max) => typeof value === 'number' && Number.isFinite(value) && value >= min && value <= max;
 
 const packNames = (await fs.readdir(dataRoot, { withFileTypes: true }))
-  .filter((entry) => entry.isDirectory() && !['generated', 'basemap', 'immersive', 'verification', 'assets'].includes(entry.name))
+  .filter((entry) => entry.isDirectory() && !['generated', 'basemap', 'immersive', 'verification', 'assets', 'terrain'].includes(entry.name))
   .map((entry) => entry.name);
 
 const placeIds = new Set();

@@ -11,9 +11,10 @@ const [pkgText, sw, mapView, drawer, diagnostics, diagLib, layerControls, deploy
 const pkg = JSON.parse(pkgText);
 const manifest = JSON.parse(manifestText);
 
-if (pkg.version !== '2.0.0-alpha.11') errors.push(`package version must be 2.0.0-alpha.11, got ${pkg.version}`);
+const alphaMatch = /^2\.0\.0-alpha\.(\d+)$/.exec(pkg.version || '');
+if (!alphaMatch || Number(alphaMatch[1]) < 11) errors.push(`package version must retain alpha.11+ release-hardening semantics, got ${pkg.version}`);
 if (manifest.version !== pkg.version) errors.push('asset manifest must match package version');
-if (!sw.includes('v2-alpha11-runtime')) errors.push('service worker cache must be alpha11');
+if (!/v2-alpha\d+-runtime/.test(sw)) errors.push('service worker cache must remain versioned for alpha.11+');
 if (!sw.includes("request.headers.has('range')")) errors.push('service worker Range bypass must remain present');
 if (!drawer.includes('aria-modal="true"') || !drawer.includes('restoreFocusRef') || !drawer.includes("event.key === 'Escape'")) errors.push('attribution drawer must be modal, Escape-closeable, and restore focus');
 if (!drawer.includes('loadVerificationRegistry') || !drawer.includes('loadV2AssetManifest')) errors.push('attribution drawer must derive credits from verification + asset manifests');

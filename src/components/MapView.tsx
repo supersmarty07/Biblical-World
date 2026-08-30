@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef } from 'react';
 import maplibregl, { type GeoJSONSource, type Map as MapLibreMap, type Marker } from 'maplibre-gl';
 import { Protocol } from 'pmtiles';
 import type { Feature, FeatureCollection, LineString, Point } from 'geojson';
-import { atlasConfig } from '../config';
+import { atlasConfig, terrainPmtilesForRegion } from '../config';
 import { interpolateLine } from '../lib/geometry';
 import { runtimeAssetRetryEvent } from '../lib/assetDiagnostics';
 import { isActiveAtYear } from '../lib/time';
@@ -46,16 +46,30 @@ function ensureRomanRoadLayer(map: MapLibreMap, visible: boolean): void {
   }
 }
 
-function ensureTerrainSource(map: MapLibreMap, visible: boolean): void {
-  if (!atlasConfig.terrainPmtilesUrl) return;
+type TerrainMap = MapLibreMap & { __terrainSourceUrl?: string };
+
+function ensureTerrainSource(map: MapLibreMap, visible: boolean, terrainUrl = atlasConfig.terrainPmtilesUrl): void {
+  const terrainMap = map as TerrainMap;
+  if (!terrainUrl) {
+    if (map.getSource('terrain-dem')) { map.setTerrain(null); map.removeSource('terrain-dem'); }
+    delete terrainMap.__terrainSourceUrl;
+    return;
+  }
+  if (terrainMap.__terrainSourceUrl && terrainMap.__terrainSourceUrl !== terrainUrl && map.getSource('terrain-dem')) {
+    map.setTerrain(null);
+    map.removeSource('terrain-dem');
+    delete terrainMap.__terrainSourceUrl;
+  }
   const terrainHealth = useAtlasStore.getState().runtimeAssets.terrain;
   if (terrainHealth.state === 'error' && map.getSource('terrain-dem')) {
     map.setTerrain(null);
     map.removeSource('terrain-dem');
+    delete terrainMap.__terrainSourceUrl;
   }
   if (!map.getSource('terrain-dem')) {
-    useAtlasStore.getState().setRuntimeAssetHealth('terrain', { state: 'checking', message: 'Loading external terrain…', url: atlasConfig.terrainPmtilesUrl });
-    map.addSource('terrain-dem', { type: 'raster-dem', url: `pmtiles://${asAbsoluteAssetUrl(atlasConfig.terrainPmtilesUrl)}`, tileSize: 256, encoding: 'mapbox' });
+    useAtlasStore.getState().setRuntimeAssetHealth('terrain', { state: 'checking', message: 'Loading external terrain…', url: terrainUrl });
+    map.addSource('terrain-dem', { type: 'raster-dem', url: `pmtiles://${asAbsoluteAssetUrl(terrainUrl)}`, tileSize: 256, encoding: 'mapbox' });
+    terrainMap.__terrainSourceUrl = terrainUrl;
   }
   map.setTerrain(visible ? { source: 'terrain-dem', exaggeration: 1.08 } : null);
 }
@@ -71,6 +85,72 @@ function ensureExternalBasemap(map: MapLibreMap): void {
     useAtlasStore.getState().setRuntimeAssetHealth('basemap', { state: 'checking', message: 'Loading external basemap…', url: atlasConfig.basemapPmtilesUrl });
     map.addSource('external-basemap', { type: 'raster', url: `pmtiles://${asAbsoluteAssetUrl(atlasConfig.basemapPmtilesUrl)}`, tileSize: 256 });
     map.addLayer({ id: 'external-basemap-raster', type: 'raster', source: 'external-basemap', paint: { 'raster-opacity': 0.86, 'raster-saturation': -0.55, 'raster-brightness-max': 0.62 } }, 'graticule-line');
+  }
+}
+
+
+type SiteModelMap = MapLibreMap & { __immersiveSiteSceneId?: string };
+
+function removeSiteModel(map: MapLibreMap): void {
+  for (const id of ['immersive-site-model-labels', 'immersive-site-model-outline', 'immersive-site-model-extrusion']) {
+    if (map.getLayer(id)) map.removeLayer(id);
+  }
+  if (map.getSource('immersive-site-model')) map.removeSource('immersive-site-model');
+  delete (map as SiteModelMap).__immersiveSiteSceneId;
+}
+
+function siteModelPeriodFilter(periodId?: string): maplibregl.FilterSpecification | undefined {
+  if (!periodId) return undefined;
+  return ['any', ['in', 'all', ['get', 'periodIds']], ['in', periodId, ['get', 'periodIds']]] as maplibregl.FilterSpecification;
+}
+
+function ensureSiteModel(map: MapLibreMap, scene?: ImmersiveScene, periodId?: string): void {
+  const model = scene?.world?.siteModel;
+  const currentScene = (map as SiteModelMap).__immersiveSiteSceneId;
+  if (!model) {
+    if (map.getSource('immersive-site-model')) removeSiteModel(map);
+    return;
+  }
+  if (currentScene && currentScene !== scene?.id) removeSiteModel(map);
+  if (!map.getSource('immersive-site-model')) {
+    const dataUrl = `${import.meta.env.BASE_URL}${model.src.replace(/^\/+/, '')}`;
+    map.addSource('immersive-site-model', { type: 'geojson', data: dataUrl });
+    const filter = siteModelPeriodFilter(periodId);
+    map.addLayer({
+      id: 'immersive-site-model-extrusion',
+      type: 'fill-extrusion',
+      source: 'immersive-site-model',
+      ...(filter ? { filter } : {}),
+      metadata: { evidenceBoundary: 'derived-display-geometry' },
+      paint: {
+        'fill-extrusion-color': ['match', ['get', 'evidenceClass'], 'artistic-reconstruction', '#766f82', 'unknown-disputed', '#9a6f61', 'tradition', '#8b7659', 'known-archaeology', '#c3a66c', '#a98d67'],
+        'fill-extrusion-height': ['*', ['coalesce', ['get', 'heightMeters'], 1], model.verticalScale],
+        'fill-extrusion-base': 0,
+        'fill-extrusion-opacity': 0.72
+      }
+    });
+    map.addLayer({
+      id: 'immersive-site-model-outline',
+      type: 'line',
+      source: 'immersive-site-model',
+      ...(filter ? { filter } : {}),
+      paint: { 'line-color': '#f0cf89', 'line-opacity': 0.7, 'line-width': 1.2 }
+    });
+    map.addLayer({
+      id: 'immersive-site-model-labels',
+      type: 'symbol',
+      source: 'immersive-site-model',
+      ...(filter ? { filter } : {}),
+      minzoom: 8,
+      layout: { 'text-field': ['get', 'label'], 'text-size': 10, 'text-anchor': 'center', 'text-allow-overlap': false },
+      paint: { 'text-color': '#f2e6cc', 'text-halo-color': '#0a0f12', 'text-halo-width': 1.6 }
+    });
+    (map as SiteModelMap).__immersiveSiteSceneId = scene?.id;
+  } else {
+    const filter = siteModelPeriodFilter(periodId);
+    for (const id of ['immersive-site-model-extrusion', 'immersive-site-model-outline', 'immersive-site-model-labels']) {
+      if (map.getLayer(id)) map.setFilter(id, filter ?? null);
+    }
   }
 }
 
@@ -321,7 +401,7 @@ export function MapView() {
 
       map.on('sourcedata', (event) => {
         if (!event.isSourceLoaded) return;
-        if (event.sourceId === 'terrain-dem') currentState.setRuntimeAssetHealth('terrain', { state: 'ready', message: 'Terrain source loaded successfully.', url: atlasConfig.terrainPmtilesUrl });
+        if (event.sourceId === 'terrain-dem') currentState.setRuntimeAssetHealth('terrain', { state: 'ready', message: 'Terrain source loaded successfully.', url: (map as TerrainMap).__terrainSourceUrl || atlasConfig.terrainPmtilesUrl });
         if (event.sourceId === 'external-basemap') currentState.setRuntimeAssetHealth('basemap', { state: 'ready', message: 'External basemap loaded successfully.', url: atlasConfig.basemapPmtilesUrl });
         if (event.sourceId === 'roman-roads') currentState.setRuntimeAssetHealth('roman-roads', { state: 'ready', message: 'Roman-road source loaded successfully.', url: atlasConfig.romanRoadsGeojsonUrl });
       });
@@ -332,7 +412,7 @@ export function MapView() {
       const message = event.error?.message || 'Map source failed to load.';
       const state = useAtlasStore.getState();
       if (sourceId === 'terrain-dem') {
-        state.setRuntimeAssetHealth('terrain', { state: 'error', message: `${message} Falling back to the flat atlas map.`, url: atlasConfig.terrainPmtilesUrl });
+        state.setRuntimeAssetHealth('terrain', { state: 'error', message: `${message} Falling back to the flat atlas map.`, url: (map as TerrainMap).__terrainSourceUrl || atlasConfig.terrainPmtilesUrl });
         try { map.setTerrain(null); } catch { /* fallback is already the flat map */ }
       }
       if (sourceId === 'external-basemap') state.setRuntimeAssetHealth('basemap', { state: 'error', message: `${message} Bundled Natural Earth remains available.`, url: atlasConfig.basemapPmtilesUrl });
@@ -348,7 +428,7 @@ export function MapView() {
       if (key === 'terrain') {
         if (map.getSource('terrain-dem')) { map.setTerrain(null); map.removeSource('terrain-dem'); }
         const state = useAtlasStore.getState();
-        ensureTerrainSource(map, state.layers.terrain || state.activeScene?.renderer === 'map-terrain');
+        ensureTerrainSource(map, state.layers.terrain || Boolean(state.activeScene?.world) || state.activeScene?.renderer === 'map-terrain', terrainPmtilesForRegion(state.activeScene?.world?.terrainRegion));
       }
       if (key === 'roman-roads') {
         if (map.getLayer('roman-roads-line')) map.removeLayer('roman-roads-line');
@@ -394,9 +474,11 @@ export function MapView() {
     if (map.getLayer('journeys-line')) map.setLayoutProperty('journeys-line', 'visibility', visibility(layers.journeys));
     for (const id of ['context-regions-fill', 'context-regions-line']) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', visibility(layers.regions));
     if (map.getLayer('roman-roads-line')) map.setLayoutProperty('roman-roads-line', 'visibility', visibility(layers.roads));
-    const terrainRequested = layers.terrain || activeScene?.renderer === 'map-terrain';
-    if (atlasConfig.terrainPmtilesUrl) ensureTerrainSource(map, terrainRequested);
-  }, [layers, activeScene]);
+    const terrainRequested = layers.terrain || Boolean(activeScene?.world) || activeScene?.renderer === 'map-terrain';
+    const terrainUrl = terrainPmtilesForRegion(activeScene?.world?.terrainRegion);
+    ensureTerrainSource(map, terrainRequested, terrainUrl);
+    ensureSiteModel(map, activeScene, activeScenePeriodId);
+  }, [layers, activeScene, activeScenePeriodId]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -412,10 +494,12 @@ export function MapView() {
     if (!map || !map.isStyleLoaded()) return;
     const source = map.getSource('scene-hotspots') as GeoJSONSource | undefined;
     source?.setData(makeSceneHotspots(activeScene, activeSceneVariantId, activeScenePeriodId));
-    if (activeScene?.renderer !== 'map-terrain' || !activeScene.entryCamera) return;
+    const baseCamera = activeScene?.world?.mapCamera || activeScene?.entryCamera;
+    if (!activeScene || !baseCamera) return;
+    ensureSiteModel(map, activeScene, activeScenePeriodId);
     const variantCamera = activeScene.comparison?.options.find((option) => option.id === activeSceneVariantId)?.camera;
     const periodCamera = activeScene.periods.find((period) => period.id === activeScenePeriodId)?.camera;
-    const selectedCamera = variantCamera || periodCamera || activeScene.entryCamera;
+    const selectedCamera = variantCamera || periodCamera || baseCamera;
     const camera = {
       center: selectedCamera.center,
       zoom: selectedCamera.zoom,

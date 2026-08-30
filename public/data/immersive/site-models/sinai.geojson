@@ -1,0 +1,98 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "sceneId": "sinai-wilderness-prototype",
+    "status": "project-authored-display-markers",
+    "warning": "Extrusions are candidate/display markers only. They do not represent mountain geometry, the Exodus route, or an identified biblical Mount Sinai."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "jebel-musa-marker",
+      "properties": {
+        "id": "jebel-musa-marker",
+        "label": "Jebel Musa traditional candidate marker",
+        "evidenceClass": "tradition",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 18,
+        "heightBasis": "illustrative",
+        "coordinateRole": "traditional-site",
+        "note": "Small display plinth marking a traditional candidate location; not a reconstruction of the mountain or proof of biblical identification.",
+        "periodIds": [
+          "narrative-context"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.97438645798823,
+              28.539457210059705
+            ],
+            [
+              33.97561354201177,
+              28.539457210059705
+            ],
+            [
+              33.97561354201177,
+              28.540542789940293
+            ],
+            [
+              33.97438645798823,
+              28.540542789940293
+            ],
+            [
+              33.97438645798823,
+              28.539457210059705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "har-karkom-marker",
+      "properties": {
+        "id": "har-karkom-marker",
+        "label": "Har Karkom candidate marker",
+        "evidenceClass": "unknown-disputed",
+        "geometryRole": "derived-display-geometry",
+        "heightMeters": 18,
+        "heightBasis": "illustrative",
+        "coordinateRole": "candidate-site",
+        "note": "Small display plinth marking a candidate location; not a reconstruction of the mountain or proof of biblical identification.",
+        "periodIds": [
+          "narrative-context"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.749376371145175,
+              30.199457210059705
+            ],
+            [
+              34.750623628854825,
+              30.199457210059705
+            ],
+            [
+              34.750623628854825,
+              30.200542789940293
+            ],
+            [
+              34.749376371145175,
+              30.200542789940293
+            ],
+            [
+              34.749376371145175,
+              30.199457210059705
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

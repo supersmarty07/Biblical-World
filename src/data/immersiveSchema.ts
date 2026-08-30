@@ -40,6 +40,46 @@ const sceneCameraSchema = z.object({
   note: z.string().min(1).optional()
 });
 
+
+const reconstructionMotionSchema = z.enum(['none', 'slow-drift', 'cloud-drift', 'water-shimmer', 'haze-drift', 'vegetation-sway', 'birds']);
+
+const provenanceSchema = z.object({
+  verificationStatus: z.enum(['project-authored', 'primary-verified', 'research-supplied', 'needs-verification']),
+  sourceUrl: z.string().url().optional(),
+  license: z.string().min(1).optional(),
+  licenseUrl: z.string().url().optional(),
+  attribution: z.string().min(1).optional(),
+  notes: z.string().min(1)
+});
+
+const immersiveWorldSchema = z.object({
+  defaultMode: z.enum(['3d-map', 'animated-reconstruction']),
+  terrainRegion: z.enum(['jerusalem', 'galilee', 'megiddo', 'sinai', 'delta']).optional(),
+  mapCamera: sceneCameraSchema,
+  mapLabel: z.string().min(1),
+  reconstructionLabel: z.string().min(1),
+  siteModel: z.object({
+    src: z.string().min(1),
+    label: z.string().min(1),
+    note: z.string().min(1),
+    defaultVisible: z.boolean(),
+    verticalScale: z.number().min(0.1).max(20),
+    provenance: provenanceSchema
+  }).optional(),
+  reconstruction: z.object({
+    title: z.string().min(1),
+    alt: z.string().min(1),
+    note: z.string().min(1),
+    layers: z.array(z.object({
+      assetId: z.string().min(1),
+      depth: z.number().min(0).max(50),
+      motion: reconstructionMotionSchema,
+      opacity: z.number().min(0).max(1).optional()
+    })).min(3),
+    effects: z.array(z.string().min(1)).min(1)
+  })
+});
+
 export const immersiveSceneCatalogEntrySchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   title: z.string().min(1),
@@ -65,14 +105,7 @@ const assetSchema = z.object({
   width: z.number().int().positive().optional(),
   height: z.number().int().positive().optional(),
   hosting: z.enum(['bundled', 'external']),
-  provenance: z.object({
-    verificationStatus: z.enum(['project-authored', 'primary-verified', 'research-supplied', 'needs-verification']),
-    sourceUrl: z.string().url().optional(),
-    license: z.string().min(1).optional(),
-    licenseUrl: z.string().url().optional(),
-    attribution: z.string().min(1).optional(),
-    notes: z.string().min(1)
-  })
+  provenance: provenanceSchema
 });
 
 const hotspotPositionSchema = z.discriminatedUnion('kind', [
@@ -154,6 +187,7 @@ export const immersiveSceneSchema = z.object({
     })).min(2)
   }).optional(),
   assets: z.array(assetSchema),
+  world: immersiveWorldSchema.optional(),
   hotspots: z.array(hotspotSchema)
 }).superRefine((scene, ctx) => {
   if (scene.renderer === 'panorama' && !scene.panorama) {
@@ -165,6 +199,22 @@ export const immersiveSceneSchema = z.object({
   if (scene.renderer === 'map-terrain' && !scene.entryCamera) {
     ctx.addIssue({ code: 'custom', message: 'Map terrain scenes require an entryCamera', path: ['entryCamera'] });
   }
+
+  if (scene.world) {
+    const assetIds = new Set(scene.assets.map((asset) => asset.id));
+    for (const [index, layer] of scene.world.reconstruction.layers.entries()) {
+      if (!assetIds.has(layer.assetId)) {
+        ctx.addIssue({ code: 'custom', message: `Animated reconstruction layer references missing asset ${layer.assetId}`, path: ['world', 'reconstruction', 'layers', index, 'assetId'] });
+      }
+    }
+    if (!scene.evidenceLegend.some((item) => item.class === 'artistic-reconstruction')) {
+      ctx.addIssue({ code: 'custom', message: 'Immersive worlds with animated reconstruction require an artistic-reconstruction legend entry', path: ['evidenceLegend'] });
+    }
+    if (scene.world.siteModel && !scene.world.siteModel.note.toLowerCase().includes('geometry')) {
+      ctx.addIssue({ code: 'custom', message: 'Site-model note must explain the geometry status', path: ['world', 'siteModel', 'note'] });
+    }
+  }
+
   if (scene.defaultPeriodId && !scene.periods.some((period) => period.id === scene.defaultPeriodId)) {
     ctx.addIssue({ code: 'custom', message: 'defaultPeriodId must reference a declared period', path: ['defaultPeriodId'] });
   }

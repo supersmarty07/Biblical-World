@@ -2,7 +2,7 @@ name: Deploy GitHub Pages
 
 on:
   push:
-    branches: [main, bible-world-v2]
+    branches: [main, bible-world-v2, BIBLE-WORLD-V3]
   workflow_dispatch:
 
 permissions:
